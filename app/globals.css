@@ -220,14 +220,7 @@ button { font-family: inherit; }
     radial-gradient(circle at center, rgba(14,165,233,0.35), transparent 55%);
 }
 .captainAvatar {
-  width: 130px;
-  height: 130px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  font-size: 72px;
-  background: rgba(255,255,255,0.12);
-  border: 1px solid rgba(255,255,255,0.18);
+  display: none;
 }
 .videoLabel { color: #67e8f9; text-transform: uppercase; letter-spacing: 0.2em; font-size: 12px; font-weight: 900; }
 .captainLine { font-size: 24px; line-height: 1.5; color: #fde68a; }
