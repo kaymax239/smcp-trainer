@@ -15,7 +15,7 @@ export default function Home() {
   const ranks = track === "engine" ? engineRanks : deckRanks;
   const rank = ranks[0];
   const department = track === "engine" ? "Engine Department" : "Deck Department";
-  const cadetTitle = track === "engine" ? "Engine Cadet" : "Deck Seaman";
+  const cadetTitle = track === "engine" ? "Engine Cadet" : "Officer Cadet";
 
   function selectTrack(nextTrack: Exclude<Track, null>) {
     setTrack(nextTrack);
@@ -163,24 +163,43 @@ function MissionScreen({ department, cadetTitle, onBack }: { department: string;
     <section className="missionScreen">
       <button className="backButton" onClick={onBack}>← Back to Dashboard</button>
       <p className="eyebrow">Mission 01 • {department}</p>
-      <h2>Captain's Orders</h2>
+      <h2>One Week Before Departure</h2>
       <p className="missionIntro">
-        Watch the captain, listen to the order, and prepare your SMCP response.
+        MV Ocean Pioneer is in port and scheduled to depart in seven days. Captain David Jones begins the Pre-Departure Safety Briefing.
       </p>
 
       <div className="simulatorFrame">
         <div className="videoStage">
           <div className="captainAvatar">👨‍✈️</div>
           <div>
-            <p className="videoLabel">Training Video</p>
-            <h3>Captain on the Bridge</h3>
-            <p className="captainLine">“{cadetTitle}, report to the bridge and confirm the vessel's readiness for departure.”</p>
+            <p className="videoLabel">Captain Briefing</p>
+            <h3>Captain David Jones - MV Ocean Pioneer</h3>
+            <p className="captainLine">
+              Good morning, {cadetTitle}. Before departure, every department must complete inspections and readiness reports.
+            </p>
           </div>
         </div>
         <div className="orderBox">
-          <h4>Captain's Order</h4>
-          <p>Confirm the order using standard maritime communication.</p>
-          <button className="primaryButton">Begin Response Practice</button>
+          <h4>Mission Objective</h4>
+          <p>Complete the captain&apos;s safety briefing and prepare for your first pre-departure inspection assignment.</p>
+          <button className="primaryButton">Begin Comprehension Check</button>
+        </div>
+      </div>
+
+      <div className="simulatorFrame">
+        <div className="orderBox">
+          <h4>STCW Alignment</h4>
+          <p>This mission introduces STCW-style Training and Assessment and Use of Simulators.</p>
+          <ul>
+            <li>Training and Assessment</li>
+            <li>Use of Simulators</li>
+            <li>Deck Department pathway awareness</li>
+          </ul>
+        </div>
+        <div className="orderBox">
+          <h4>Deck Career Path Reference</h4>
+          <p>Future missions will connect SMCP practice to OICNW, Chief Mate, Master, and Able Seafarer-Deck.</p>
+          <div className="statusRow"><span>Reward</span><strong>+50 XP</strong></div>
         </div>
       </div>
     </section>
