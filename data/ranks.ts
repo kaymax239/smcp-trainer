@@ -1,17 +1,27 @@
+export type CareerTrack = "deck" | "engine";
+
 export type Rank = {
   name: string;
   minXp: number;
-  badge: string;
+  stripes: number;
+  insignia: string;
+  track: CareerTrack;
 };
 
-export const ranks: Rank[] = [
-  { name: "Cadet Recruit", minXp: 0, badge: "⚪" },
-  { name: "Cadet Seaman", minXp: 100, badge: "🟦" },
-  { name: "Junior Cadet", minXp: 250, badge: "🟩" },
-  { name: "Senior Cadet", minXp: 500, badge: "🟨" },
-  { name: "Officer Candidate", minXp: 1000, badge: "🟧" },
-  { name: "Junior Officer", minXp: 2000, badge: "🟥" },
-  { name: "Watch Officer", minXp: 5000, badge: "🟪" },
-  { name: "Chief Officer Candidate", minXp: 10000, badge: "⭐" },
-  { name: "Master Mariner Candidate", minXp: 20000, badge: "🏆" }
+export const deckRanks: Rank[] = [
+  { name: "Officer Cadet", minXp: 0, stripes: 0, insignia: "◇", track: "deck" },
+  { name: "Third Officer", minXp: 250, stripes: 1, insignia: "▰", track: "deck" },
+  { name: "Second Officer", minXp: 750, stripes: 2, insignia: "▰▰", track: "deck" },
+  { name: "Chief Officer", minXp: 1500, stripes: 3, insignia: "▰▰▰", track: "deck" },
+  { name: "Master Mariner", minXp: 3000, stripes: 4, insignia: "★ ▰▰▰▰", track: "deck" }
 ];
+
+export const engineRanks: Rank[] = [
+  { name: "Engine Cadet", minXp: 0, stripes: 0, insignia: "◇", track: "engine" },
+  { name: "Fourth Engineer", minXp: 250, stripes: 1, insignia: "▰", track: "engine" },
+  { name: "Third Engineer", minXp: 750, stripes: 2, insignia: "▰▰", track: "engine" },
+  { name: "Second Engineer", minXp: 1500, stripes: 3, insignia: "▰▰▰", track: "engine" },
+  { name: "Chief Engineer", minXp: 3000, stripes: 4, insignia: "★ ▰▰▰▰", track: "engine" }
+];
+
+export const ranks = deckRanks;

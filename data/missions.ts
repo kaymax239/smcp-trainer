@@ -1,4 +1,4 @@
-export type Career = "pilot" | "engineer";
+export type Career = "deck" | "engine";
 
 export type Mission = {
   id: string;
@@ -10,45 +10,59 @@ export type Mission = {
 
 export const missions: Mission[] = [
   {
-    id: "pilot-basic-commands",
-    career: "pilot",
+    id: "deck-basic-bridge-commands",
+    career: "deck",
     title: "Basic Bridge Commands",
-    description: "Practice essential SMCP bridge orders and responses.",
+    description: "Practice essential SMCP bridge orders, standard responses, and closed-loop communication.",
     requiredXp: 0
   },
   {
-    id: "pilot-boarding",
-    career: "pilot",
-    title: "Pilot Boarding",
-    description: "Communicate with the pilot during boarding operations.",
-    requiredXp: 100
+    id: "deck-pilot-boarding",
+    career: "deck",
+    title: "Pilot Boarding Operations",
+    description: "Communicate with the pilot during boarding, approach, and handover procedures.",
+    requiredXp: 250
   },
   {
-    id: "pilot-man-overboard",
-    career: "pilot",
-    title: "Man Overboard",
-    description: "React using emergency SMCP phrases during MOB procedures.",
-    requiredXp: 250
+    id: "deck-man-overboard",
+    career: "deck",
+    title: "Man Overboard Emergency",
+    description: "Use SMCP emergency phrases during a man overboard situation.",
+    requiredXp: 750
+  },
+  {
+    id: "deck-heavy-weather",
+    career: "deck",
+    title: "Heavy Weather Navigation",
+    description: "Report weather, visibility, vessel motion, and navigational restrictions.",
+    requiredXp: 1500
   },
   {
     id: "engine-room-familiarization",
-    career: "engineer",
+    career: "engine",
     title: "Engine Room Familiarization",
-    description: "Learn key engine room vocabulary and safety commands.",
+    description: "Learn key machinery vocabulary, watch routines, and safety communication.",
     requiredXp: 0
   },
   {
-    id: "engine-fire",
-    career: "engineer",
+    id: "engine-fire-response",
+    career: "engine",
     title: "Fire in the Engine Room",
-    description: "Practice reporting and responding to an engine room fire.",
-    requiredXp: 100
+    description: "Report, confirm, and respond to an engine room fire using standard maritime English.",
+    requiredXp: 250
   },
   {
-    id: "engine-failure",
-    career: "engineer",
+    id: "engine-main-engine-failure",
+    career: "engine",
     title: "Main Engine Failure",
-    description: "Use SMCP to report machinery failure and corrective actions.",
-    requiredXp: 250
+    description: "Communicate loss of propulsion, corrective actions, and status updates to the bridge.",
+    requiredXp: 750
+  },
+  {
+    id: "engine-emergency-shutdown",
+    career: "engine",
+    title: "Emergency Shutdown",
+    description: "Practice critical commands for machinery shutdown and damage control.",
+    requiredXp: 1500
   }
 ];

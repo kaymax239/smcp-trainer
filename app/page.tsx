@@ -1,108 +1,364 @@
-import { missions } from "@/data/missions";
-import { ranks } from "@/data/ranks";
+"use client";
 
-const currentXp = 0;
-const currentRank = ranks[0];
-const pilotMissions = missions.filter((mission) => mission.career === "pilot");
-const engineerMissions = missions.filter((mission) => mission.career === "engineer");
+import { useEffect, useState } from "react";
+import { deckRanks, engineRanks } from "@/data/ranks";
+
+type Track = "deck" | "engine" | null;
+type Step = "home" | "dashboard" | "mission";
+type MissionStage = "briefing" | "questions" | "workshop" | "equipment" | "complete";
+
+const universityName = "Universidad Maritima y Portuaria de Mexico";
+const missionRewardXp = 50;
+
+const questions = [
+  {
+    prompt: "What is the vessel's departure status?",
+    options: ["Departing today", "Departing in seven days", "Arriving tomorrow"],
+    answer: "Departing in seven days"
+  },
+  {
+    prompt: "Who is conducting the safety briefing?",
+    options: ["Robert Hayes", "Captain David Jones", "Chief Engineer"],
+    answer: "Captain David Jones"
+  },
+  {
+    prompt: "What is the main priority before departure?",
+    options: ["Cargo speed", "Safety", "Shore leave"],
+    answer: "Safety"
+  }
+];
+
+const equipment = ["Hard Hat", "Safety Shoes", "Gloves", "Radio", "Life Jacket"];
 
 export default function Home() {
+  const [track, setTrack] = useState<Track>(null);
+  const [step, setStep] = useState<Step>("home");
+  const [xp, setXp] = useState(0);
+  const [missionsCompleted, setMissionsCompleted] = useState(0);
+
+  useEffect(() => {
+    const savedXp = Number(localStorage.getItem("smcp_xp") || "0");
+    const savedMissions = Number(localStorage.getItem("smcp_missions_completed") || "0");
+    setXp(savedXp);
+    setMissionsCompleted(savedMissions);
+  }, []);
+
+  function completeMission() {
+    const newXp = Math.max(xp, missionRewardXp);
+    const newMissions = Math.max(missionsCompleted, 1);
+    setXp(newXp);
+    setMissionsCompleted(newMissions);
+    localStorage.setItem("smcp_xp", String(newXp));
+    localStorage.setItem("smcp_missions_completed", String(newMissions));
+  }
+
+  const ranks = track === "engine" ? engineRanks : deckRanks;
+  const rank = ranks[0];
+  const department = track === "engine" ? "Engine Department" : "Deck Department";
+  const cadetTitle = track === "engine" ? "Engine Cadet" : "Officer Cadet";
+
+  function selectTrack(nextTrack: Exclude<Track, null>) {
+    setTrack(nextTrack);
+    setStep("dashboard");
+  }
+
   return (
-    <main className="min-h-screen overflow-hidden bg-[#041527] text-white">
-      <section className="relative min-h-screen px-6 py-8 sm:px-10 lg:px-16">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#0ea5e9_0%,transparent_35%),linear-gradient(135deg,#041527_0%,#073b5f_55%,#020617_100%)] opacity-95" />
-        <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-cyan-950/70 to-transparent" />
-        <div className="relative mx-auto flex max-w-6xl flex-col gap-10">
-          <header className="flex items-center justify-between rounded-3xl border border-cyan-300/20 bg-white/10 px-5 py-4 shadow-2xl backdrop-blur">
-            <div>
-              <p className="text-sm uppercase tracking-[0.4em] text-cyan-200">Maritime Academy</p>
-              <h1 className="text-2xl font-black tracking-tight sm:text-3xl">SMCP Trainer</h1>
-            </div>
-            <div className="rounded-full border border-yellow-300/40 bg-yellow-300/10 px-4 py-2 text-sm font-semibold text-yellow-100">
-              {currentRank.badge} {currentRank.name}
-            </div>
-          </header>
+    <main className="appShell">
+      <section className="heroPanel">
+        <header className="universityBanner">
+          <div className="crest">SMCP</div>
+          <div>
+            <p className="bannerSmall">Maritime English Training Platform</p>
+            <h1>{universityName}</h1>
+          </div>
+        </header>
 
-          <section className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
-            <div className="space-y-7">
-              <div className="inline-flex rounded-full border border-cyan-300/30 bg-cyan-300/10 px-4 py-2 text-sm font-semibold text-cyan-100">
-                🚢 Maritime English Simulator
-              </div>
+        {step === "home" && <HomeScreen onSelect={selectTrack} />}
 
-              <div className="space-y-4">
-                <h2 className="max-w-3xl text-5xl font-black leading-tight sm:text-6xl lg:text-7xl">
-                  Train like a cadet. Communicate like an officer.
-                </h2>
-                <p className="max-w-2xl text-lg leading-8 text-slate-200">
-                  Aprende inglés marítimo con misiones SMCP, escenarios de puente y cuarto de máquinas, XP y rangos profesionales.
-                </p>
-              </div>
+        {step === "dashboard" && track && (
+          <DashboardScreen
+            department={department}
+            cadetTitle={cadetTitle}
+            rank={rank.name}
+            ranks={ranks}
+            xp={xp}
+            missionsCompleted={missionsCompleted}
+            onStart={() => setStep("mission")}
+            onBack={() => {
+              setTrack(null);
+              setStep("home");
+            }}
+          />
+        )}
 
-              <div className="grid gap-4 sm:grid-cols-2">
-                <a href="#pilot" className="group rounded-3xl border border-cyan-300/30 bg-cyan-400/15 p-6 shadow-2xl transition hover:-translate-y-1 hover:bg-cyan-300/25">
-                  <div className="mb-4 text-5xl">⚓</div>
-                  <h3 className="text-2xl font-black">Piloto Naval</h3>
-                  <p className="mt-2 text-sm text-cyan-100">Bridge, navigation, pilot boarding and emergency communication.</p>
-                </a>
-                <a href="#engineer" className="group rounded-3xl border border-orange-300/30 bg-orange-400/15 p-6 shadow-2xl transition hover:-translate-y-1 hover:bg-orange-300/25">
-                  <div className="mb-4 text-5xl">🔧</div>
-                  <h3 className="text-2xl font-black">Maquinista Naval</h3>
-                  <p className="mt-2 text-sm text-orange-100">Engine room, machinery safety, failures and emergency reports.</p>
-                </a>
-              </div>
-            </div>
-
-            <aside className="rounded-[2rem] border border-white/20 bg-white/10 p-6 shadow-2xl backdrop-blur">
-              <p className="text-sm uppercase tracking-[0.35em] text-cyan-100">Cadet Dashboard</p>
-              <div className="mt-6 grid gap-4">
-                <div className="rounded-2xl bg-slate-950/50 p-5">
-                  <p className="text-sm text-slate-300">Rango actual</p>
-                  <p className="mt-1 text-3xl font-black">{currentRank.badge} {currentRank.name}</p>
-                </div>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="rounded-2xl bg-slate-950/50 p-5">
-                    <p className="text-sm text-slate-300">XP</p>
-                    <p className="mt-1 text-3xl font-black text-cyan-200">{currentXp}</p>
-                  </div>
-                  <div className="rounded-2xl bg-slate-950/50 p-5">
-                    <p className="text-sm text-slate-300">Nivel</p>
-                    <p className="mt-1 text-3xl font-black text-yellow-200">1</p>
-                  </div>
-                </div>
-              </div>
-            </aside>
-          </section>
-
-          <section className="grid gap-6 lg:grid-cols-2">
-            <MissionList id="pilot" title="⚓ Clases Piloto Naval" items={pilotMissions} />
-            <MissionList id="engineer" title="🔧 Clases Maquinista Naval" items={engineerMissions} />
-          </section>
-        </div>
+        {step === "mission" && track && (
+          <MissionScreen
+            department={department}
+            cadetTitle={cadetTitle}
+            onMissionComplete={completeMission}
+            onBack={() => setStep("dashboard")}
+          />
+        )}
       </section>
     </main>
   );
 }
 
-function MissionList({ id, title, items }: { id: string; title: string; items: typeof missions }) {
+function HomeScreen({ onSelect }: { onSelect: (track: "deck" | "engine") => void }) {
   return (
-    <div id={id} className="rounded-[2rem] border border-white/15 bg-white/10 p-6 shadow-2xl backdrop-blur">
-      <h3 className="text-2xl font-black">{title}</h3>
-      <div className="mt-5 space-y-3">
-        {items.map((mission, index) => (
-          <div key={mission.id} className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
-            <div className="flex items-start justify-between gap-3">
+    <section className="homeGrid">
+      <div className="introBlock">
+        <p className="eyebrow">SMCP Trainer</p>
+        <h2>Train like a cadet. Communicate like an officer.</h2>
+        <p>
+          Start your Maritime English simulator. Choose your department, enter the Cadet Dashboard, and begin your first bridge or engine-room mission.
+        </p>
+      </div>
+
+      <div className="rankBoard">
+        <h3>Rank Path</h3>
+        <div className="rankColumns">
+          <div>
+            <h4>Deck</h4>
+            {deckRanks.map((rank) => <span key={rank.name}>{rank.insignia} {rank.name}</span>)}
+          </div>
+          <div>
+            <h4>Engine</h4>
+            {engineRanks.map((rank) => <span key={rank.name}>{rank.insignia} {rank.name}</span>)}
+          </div>
+        </div>
+      </div>
+
+      <div className="careerButtons">
+        <button className="careerCard deck" onClick={() => onSelect("deck")}>
+          <span className="careerIcon">Deck</span>
+          <strong>Deck Cadet</strong>
+          <small>Pilot / Bridge Training</small>
+        </button>
+        <button className="careerCard engine" onClick={() => onSelect("engine")}>
+          <span className="careerIcon">Engine</span>
+          <strong>Engine Cadet</strong>
+          <small>Mechanic / Engine-Room Training</small>
+        </button>
+      </div>
+    </section>
+  );
+}
+
+function DashboardScreen({
+  department,
+  cadetTitle,
+  rank,
+  ranks,
+  xp,
+  missionsCompleted,
+  onStart,
+  onBack
+}: {
+  department: string;
+  cadetTitle: string;
+  rank: string;
+  ranks: { name: string; minXp: number; insignia: string }[];
+  xp: number;
+  missionsCompleted: number;
+  onStart: () => void;
+  onBack: () => void;
+}) {
+  return (
+    <section className="dashboardGrid">
+      <div className="dashboardMain">
+        <button className="backButton" onClick={onBack}>Change Department</button>
+        <p className="eyebrow">Cadet Dashboard</p>
+        <h2>You are now a {cadetTitle}.</h2>
+        <p>Welcome to the {department}. Continue your training or start your first SMCP mission.</p>
+        <div className="actions">
+          <button className="primaryButton" onClick={onStart}>Start Your Training</button>
+          <button className="secondaryButton" onClick={onStart}>Continue Your Training</button>
+        </div>
+      </div>
+
+      <aside className="statusCard">
+        <h3>Cadet Status</h3>
+        <div className="statusRow"><span>Current Rank</span><strong>{rank}</strong></div>
+        <div className="statusRow"><span>XP</span><strong>{xp}</strong></div>
+        <div className="statusRow"><span>Completed Missions</span><strong>{missionsCompleted}</strong></div>
+        <div className="statusRow"><span>Certificates</span><strong>0</strong></div>
+      </aside>
+
+      <div className="rankWide">
+        <h3>{department} Rank Progression</h3>
+        <div className="rankTimeline">
+          {ranks.map((rankItem) => (
+            <div className="rankStep" key={rankItem.name}>
+              <div className="rankInsignia">{rankItem.insignia}</div>
+              <strong>{rankItem.name}</strong>
+              <small>{rankItem.minXp} XP</small>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function MissionScreen({
+  department,
+  cadetTitle,
+  onBack,
+  onMissionComplete
+}: {
+  department: string;
+  cadetTitle: string;
+  onBack: () => void;
+  onMissionComplete: () => void;
+}) {
+  const [stage, setStage] = useState<MissionStage>("briefing");
+  const [selectedAnswers, setSelectedAnswers] = useState<Record<number, string>>({});
+  const [collected, setCollected] = useState<string[]>([]);
+
+  const allAnswersCorrect = questions.every((question, index) => selectedAnswers[index] === question.answer);
+  const allEquipmentCollected = equipment.every((item) => collected.includes(item));
+
+  function finishMission() {
+    onMissionComplete();
+    setStage("complete");
+  }
+
+  return (
+    <section className="missionScreen">
+      <button className="backButton" onClick={onBack}>Back to Dashboard</button>
+      <p className="eyebrow">Mission 01 - {department} - STCW Training Simulation</p>
+      <h2>One Week Before Departure</h2>
+      <p className="missionIntro">
+        MV Ocean Pioneer is in port and scheduled to depart in seven days. Captain David Jones begins the Pre-Departure Safety Briefing.
+      </p>
+
+      {stage === "briefing" && (
+        <>
+          <div className="simulatorFrame">
+            <div className="videoStage">
+              <div className="captainAvatar">Captain</div>
               <div>
-                <p className="text-sm font-bold text-cyan-200">Clase {index + 1}</p>
-                <h4 className="mt-1 text-lg font-black">{mission.title}</h4>
-                <p className="mt-1 text-sm text-slate-300">{mission.description}</p>
+                <p className="videoLabel">Captain Briefing</p>
+                <h3>Captain David Jones - MV Ocean Pioneer</h3>
+                <p className="captainLine">
+                  Good morning, {cadetTitle}. Before departure, every department must complete inspections, safety checks, and readiness reports. Safety is our highest priority.
+                </p>
               </div>
-              <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-bold text-yellow-100">
-                {mission.requiredXp} XP
-              </span>
+            </div>
+            <div className="orderBox">
+              <h4>Mission Objective</h4>
+              <p>Complete the captain's safety briefing and prepare for your first pre-departure inspection assignment.</p>
+              <button className="primaryButton" onClick={() => setStage("questions")}>Begin Comprehension Check</button>
             </div>
           </div>
-        ))}
-      </div>
-    </div>
+
+          <div className="simulatorFrame">
+            <div className="orderBox">
+              <h4>STCW Alignment</h4>
+              <p>This mission introduces STCW-style Training and Assessment and Use of Simulators.</p>
+              <ul>
+                <li>Training and Assessment</li>
+                <li>Use of Simulators</li>
+                <li>Deck Department pathway awareness</li>
+              </ul>
+            </div>
+            <div className="orderBox">
+              <h4>Deck Career Path Reference</h4>
+              <p>Future missions will connect SMCP practice to OICNW, Chief Mate, Master, and Able Seafarer-Deck.</p>
+              <div className="statusRow"><span>Reward</span><strong>+50 XP</strong></div>
+            </div>
+          </div>
+        </>
+      )}
+
+      {stage === "questions" && (
+        <div className="simulatorFrame">
+          <div className="orderBox">
+            <h4>Comprehension Questions</h4>
+            {questions.map((question, index) => (
+              <div key={question.prompt} className="statusCard">
+                <p><strong>{index + 1}. {question.prompt}</strong></p>
+                {question.options.map((option) => (
+                  <button
+                    key={option}
+                    className={selectedAnswers[index] === option ? "primaryButton" : "secondaryButton"}
+                    onClick={() => setSelectedAnswers({ ...selectedAnswers, [index]: option })}
+                  >
+                    {option}
+                  </button>
+                ))}
+              </div>
+            ))}
+            <button className="primaryButton" disabled={!allAnswersCorrect} onClick={() => setStage("workshop")}>
+              Continue to Bosun Workshop
+            </button>
+          </div>
+        </div>
+      )}
+
+      {stage === "workshop" && (
+        <div className="simulatorFrame">
+          <div className="videoStage">
+            <div className="captainAvatar">Bosun</div>
+            <div>
+              <p className="videoLabel">Bosun Workshop</p>
+              <h3>Robert Hayes - Safety Equipment Brief</h3>
+              <p className="captainLine">
+                Cadet, before departure we inspect PPE, mooring lines, radios, life-saving appliances, and emergency equipment.
+              </p>
+            </div>
+          </div>
+          <div className="orderBox">
+            <h4>Vocabulary Focus</h4>
+            <ul>
+              <li>Personal Protective Equipment</li>
+              <li>Mooring lines</li>
+              <li>Life jacket</li>
+              <li>Portable radio</li>
+              <li>Emergency muster station</li>
+            </ul>
+            <button className="primaryButton" onClick={() => setStage("equipment")}>Go to Equipment Collection</button>
+          </div>
+        </div>
+      )}
+
+      {stage === "equipment" && (
+        <div className="simulatorFrame">
+          <div className="orderBox">
+            <h4>Equipment Collection</h4>
+            <p>Collect all required equipment before reporting back to Captain David Jones.</p>
+            {equipment.map((item) => (
+              <button
+                key={item}
+                className={collected.includes(item) ? "primaryButton" : "secondaryButton"}
+                onClick={() => setCollected((current) => current.includes(item) ? current : [...current, item])}
+              >
+                {collected.includes(item) ? "Collected: " : "Collect: "}{item}
+              </button>
+            ))}
+          </div>
+          <div className="orderBox">
+            <h4>Readiness Report</h4>
+            <p>When all equipment is collected, complete the mission and update the training record.</p>
+            <button className="primaryButton" disabled={!allEquipmentCollected} onClick={finishMission}>Complete Mission</button>
+          </div>
+        </div>
+      )}
+
+      {stage === "complete" && (
+        <div className="simulatorFrame">
+          <div className="orderBox">
+            <h4>Mission Complete</h4>
+            <p>MV Ocean Pioneer pre-departure safety briefing completed.</p>
+            <div className="statusRow"><span>Captain</span><strong>Captain David Jones</strong></div>
+            <div className="statusRow"><span>Bosun</span><strong>Robert Hayes</strong></div>
+            <div className="statusRow"><span>Reward</span><strong>+50 XP</strong></div>
+            <div className="statusRow"><span>Training Record</span><strong>Updated</strong></div>
+            <button className="primaryButton" onClick={onBack}>Return to Dashboard</button>
+          </div>
+        </div>
+      )}
+    </section>
   );
 }
