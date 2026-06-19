@@ -1,0 +1,29 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items>
+		<phrase>
+			<audio>me13001.mp3</audio>
+			<text><![CDATA[The marine <environment> is a term that refers to all living and non-living things that exist naturally in the Earth’s seas.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me13002.mp3</audio>
+			<text><![CDATA[It contains many fragile <ecosystems> such as coral reefs, tropical mangrove forests and island habitats.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me13003.mp3</audio>
+			<text><![CDATA[Many of these rare ecosystems are internationally protected under the IMO’s <MARPOL> convention.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me13004.mp3</audio>
+			<text><![CDATA[Different ecosystems, including vulnerable marine <habitats>, are very important to our planet.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me13005.mp3</audio>
+			<text><![CDATA[Marine life is often at risk from human activities such as <fishing> and <shipping>, <offshore> operations and <tourism>.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me13006.mp3</audio>
+			<text><![CDATA[<Climate> change and <greenhouse> gases also <threaten> the marine environment.]]></text>
+		</phrase>
+	</list:items>
+</root>

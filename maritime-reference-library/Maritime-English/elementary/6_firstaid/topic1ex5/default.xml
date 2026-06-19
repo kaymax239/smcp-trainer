@@ -1,0 +1,61 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<errorAudio>wrong02.mp3¤wrong03.mp3¤wrong04.mp3</errorAudio>
+	
+	<list:pages>
+		<list:items meta:randomize="false" number:minimumPlayTime="3000" boolean:videoHasAudio="true">
+			<item>
+				<video>video1.flv</video>
+				<audio>fa5001.mp3</audio>
+			</item>
+			<item>
+				<video>video2.flv</video>
+				<audio>fa5002.mp3</audio>
+			</item>
+			<item>
+				<video>video3.flv</video>
+				<audio>fa5003.mp3</audio>
+			</item>
+			<item>
+				<video>video4.flv</video>
+				<audio>fa5004.mp3</audio>
+			</item>
+			<item>
+				<video>video5.flv</video>
+				<audio>fa5005.mp3</audio>
+			</item>
+			<item>
+				<video>video6.flv</video>
+				<audio>fa5006.mp3</audio>
+			</item>
+		</list:items>
+		<list:items meta:randomize="false" number:minimumPlayTime="3000" boolean:videoHasAudio="true">
+			<item>
+				<video>video7.flv</video>
+				<audio>fa5007.mp3</audio>
+			</item>
+			<item>
+				<video>video8.flv</video>
+				<audio>fa5008.mp3</audio>
+			</item>
+			<item>
+				<video>video9.flv</video>
+				<audio>fa5009.mp3</audio>
+			</item>
+			<item>
+				<video>video10.flv</video>
+				<audio>fa5010.mp3</audio>
+			</item>
+			<item>
+				<video>video11.flv</video>
+				<audio>fa5011.mp3</audio>
+			</item>
+			<item>
+				<video>video12.flv</video>
+				<audio>fa5012.mp3</audio>
+			</item>
+		</list:items>
+	</list:pages>
+</root>

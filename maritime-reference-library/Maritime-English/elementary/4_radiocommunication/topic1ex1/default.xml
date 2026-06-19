@@ -1,0 +1,36 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="14" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<header>
+	</header>
+	<body boolean:showText="true" boolean:lockFirst="true">
+		<wrongSound audio=".mp3" />
+		<list:items type="list">
+			<item audio="rc11001.mp3" blockAudio="rc11005.mp3|rc11006.mp3|rc11007.mp3|rc11008.mp3|rc11009.mp3|rc11010.mp3|rc11011.mp3|rc11012.mp3,rc11013.mp3,rc11014.mp3,rc11015.mp3|rc11016.mp3|rc11017.mp3">
+				<![CDATA[Boluda Tankers / this / is / Dock Wise / Please / supply / quantity / 1 0 8 4 / tons / of fuel / ]]>
+			</item>
+			<item audio="rc11002.mp3" blockAudio="rc11018.mp3|rc11019.mp3|rc11020.mp3|rc11021.mp3|rc11022.mp3|rc11023.mp3|rc11024.mp3|rc11025.mp3|rc11026.mp3|rc11027.mp3|rc11028.mp3|rc11029.mp3|rc11030.mp3,rc11031.mp3">
+				<![CDATA[Harbour / Master / this / is / California / Please / send / two / tugs / to / berth / number / 3 9 / ]]>
+			</item>
+			<item audio="rc11003.mp3" blockAudio="rc11032.mp3,rc11033.mp3|rc11034.mp3|rc11035.mp3|rc11036.mp3|rc11037.mp3|rc11038.mp3|rc11039.mp3|rc11040.mp3|rc11041.mp3|rc11042.mp3|rc11043.mp3|rc11044.mp3|rc11045.mp3">
+				<![CDATA[Pelican Ferry / this / is / the / pilot's / boat / Question / When / do / you / require / a / pilot / ]]>
+			</item>
+			<item audio="rc11004.mp3" blockAudio="rc11046.mp3,rc11047.mp3|rc11048.mp3|rc11049.mp3|rc11050.mp3,rc11051.mp3|rc11052.mp3|rc11053.mp3|rc11054.mp3|rc11055.mp3|rc11056.mp3|rc11057.mp3|rc11058.mp3,rc11059.mp3,rc11060.mp3,rc11061.mp3,rc11062.mp3,rc11063.mp3">
+				<![CDATA[Pilot's boat / this / is / Pelican Ferry / Answer / I will / require / a / pilot / at / 1 7 hours 4 5 minutes / ]]>
+			</item>
+		</list:items>
+	</body>
+</root>

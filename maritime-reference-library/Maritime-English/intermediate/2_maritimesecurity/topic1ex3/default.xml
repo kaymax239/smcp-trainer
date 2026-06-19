@@ -1,0 +1,28 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>msi3001.mp3</audio>
+				<text><![CDATA[Captain James - The Code was agreed at a meeting of the 108 signatories to the SOLAS convention in London in December 2002. The measures agreed under the Code were brought into force on July 1, 2004.]]></text>
+			</phrase>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[Interviewer - What does the ISPS Code cover?]]></text>
+			</phrase>
+			<phrase>
+				<audio>msi3002.mp3</audio>
+				<text><![CDATA[Captain James - The Code is a two-part document describing <minimum requirements> for security of <ships and ports>. Part A provides <mandatory> requirements. Part B provides guidance for implementation.]]></text>
+			</phrase>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[Interviewer - Who does the ISPS Code apply to?]]></text>
+			</phrase>
+			<phrase>
+				<audio>msi3003.mp3</audio>
+				<text><![CDATA[Captain James - The ISPS Code applies to ships on <international voyages> (including passenger ships, <cargo ships> of 500 GT and upwards, and <mobile offshore drilling units>) and the port facilities serving such ships. ]]></text>
+			</phrase>
+		</list:items>
+		
+	</list:items>
+</root>

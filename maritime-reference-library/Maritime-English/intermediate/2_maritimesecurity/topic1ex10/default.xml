@@ -1,0 +1,41 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="8"><font size="13"><b>Interviewer</b> – What does this framework include?<br><b>Captain James</b> – For ships, the framework includes requirements for:<br>	• Ship security plans.<br>	• Ship security officers<br>	• Company security officers<br>	• Certain onboard equipment<br><b>Interviewer</b> – What about port security?<br><b>Captain James</b> – For port facilities, the requirements include:<br>	• Port facility security plans<br>	• Port facility security officers<br>	• Certain security equipment<br>In addition, the requirements for ships and for port facilities include:<br>	• Monitoring and controlling access<br>	• Monitoring the activities of people and cargo<br>	• Ensuring security communications are readily available<br><b>Interviewer</b> – Thank you for your time Captain James, I feel I know much more about the ISPS Code now.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[TO INCLUDE]]></text>
+					<correct><![CDATA[include]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO MONITOR]]></text>
+					<correct><![CDATA[Monitoring]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO CONTROL]]></text>
+					<correct><![CDATA[controlling]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO ENSURE]]></text>
+					<correct><![CDATA[Ensuring]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO FEEL]]></text>
+					<correct><![CDATA[feel]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO KNOW]]></text>
+					<correct><![CDATA[know]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

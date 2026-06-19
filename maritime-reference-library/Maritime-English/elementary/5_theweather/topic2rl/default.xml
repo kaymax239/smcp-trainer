@@ -1,0 +1,158 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>tw2000a.mp3</audio>
+		<audio>tw2000b.mp3</audio>
+		<audio>tw2000c.mp3</audio>
+		<audio>tw2000d.mp3</audio>
+		<audio>tw2000e.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+		<image:img1 x="0" y="0">page2.jpg</image:img1>
+		<image:img2 x="0" y="0">page3.jpg</image:img2>
+		<image:img3 x="0" y="0">page4.jpg</image:img3>
+		<image:img4 x="0" y="0">page5.jpg</image:img4>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="36364">
+			<text><![CDATA[The weather changes with the months. There are twelve months in a year.
+
+January is the first month of the year. It is usually cold in the northern hemisphere. There is a lot of snow in most north European countries. What is January weather like in your town? Record your answer.
+
+February is the second month of the year. It is still cold and often very frosty in February. The Baltic Sea can be quite stormy. What is February weather like in your area? Record your answer.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="1750" start="0" end="37" />
+				<text time="2200" duration="2750" start="37" end="71" />
+				<text time="5575" duration="2750" start="71" end="114" />
+				<text time="8575" duration="2750" start="114" end="161" />
+				<text time="11575" duration="3500" start="161" end="218" />
+				<text time="15375" duration="3000" start="218" end="261" />
+				<text time="18550" duration="1500" start="262" end="284" />
+				<text time="21250" duration="3000" start="285" end="326" />
+				<text time="24475" duration="3250" start="327" end="378" />
+				<text time="28000" duration="2900" start="378" end="414" />
+				<text time="31150" duration="2750" start="414" end="458" />
+				<text time="34225" duration="2000" start="458" end="478" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="48798">
+			<text><![CDATA[March is the third month of the year. It is still cold but the snow starts melting because there are more sunny days. The spring starts on the 21st of March. What's the weather like in March in your country? Record your answer.
+
+
+April is the fourth month of the year. The weather is mild. The sun shines every day. It is getting warmer because it is spring. What's April weather like in your region of the world? Record your answer.
+
+May is the fifth month of the year. It is warm and it often rains in May. The nature around us is beautiful. Everything is green and there are many flowers. What is the weather like in May in your area? Record your answer.]]></text>
+			<background fileIndex="1"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="37" />
+				<text time="2925" duration="5000" start="37" end="117" />
+				<text time="8175" duration="3000" start="117" end="157" />
+				<text time="11475" duration="2500" start="157" end="207" />
+				<text time="14175" duration="1500" start="208" end="232" />
+				<text time="16600" duration="2750" start="232" end="272" />
+				<text time="19550" duration="1750" start="272" end="292" />
+				<text time="21525" duration="1500" start="293" end="319" />
+				<text time="23300" duration="2500" start="318" end="361" />
+				<text time="26075" duration="3000" start="362" end="416" />
+				<text time="29250" duration="1500" start="417" end="438" />
+				<text time="31700" duration="3000" start="440" end="475" />
+				<text time="34875" duration="2750" start="476" end="513" />
+				<text time="37875" duration="2250" start="513" end="548" />
+				<text time="40375" duration="2500" start="548" end="596" />
+				<text time="43175" duration="3000" start="596" end="642" />
+				<text time="46700" duration="2000" start="642" end="662" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="64706">
+			<text><![CDATA[June is the sixth month of the year. It is getting hot. The summer starts on the 21st of June. The school often ends in June. What is the weather like in June in your city? Record your answer.
+
+July is the seventh month of the year. It is very hot and it rains sometimes. Many children go on holiday to the seaside. The French people celebrate their national day on the 14th of July. There are parades in the streets of Paris. The weather is usually beautiful. What's the weather like in July in your part of the world? Record your answer.
+
+August is the eighth month of the year. It is still very hot and many people leave the big cities in Europe and go to the coast to spend their holiday by the sea. The water in the sea is warm and it is nice to swim there and sunbathe on the beach. When do you take your summer holiday? What is the weather like then in your region? Record your answer.]]></text>
+			<background fileIndex="2"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="2250" start="0" end="36" />
+				<text time="2700" duration="1750" start="36" end="55" />
+				<text time="4650" duration="2750" start="55" end="94" />
+				<text time="7650" duration="2250" start="94" end="125" />
+				<text time="10650" duration="2750" start="125" end="172" />
+				<text time="13675" duration="1750" start="173" end="195" />
+				<text time="16325" duration="2750" start="195" end="234" />
+				<text time="19700" duration="3000" start="235" end="273" />
+				<text time="23000" duration="2500" start="274" end="317" />
+				<text time="26000" duration="4250" start="318" end="385" />
+				<text time="30525" duration="2250" start="386" end="428" />
+				<text time="33050" duration="2250" start="429" end="463" />
+				<text time="35600" duration="3000" start="463" end="522" />
+				<text time="38900" duration="1750" start="522" end="543" />
+				<text time="41425" duration="3000" start="542" end="584" />
+				<text time="44700" duration="6750" start="584" end="707" />
+				<text time="51800" duration="5250" start="707" end="792" />
+				<text time="57375" duration="2000" start="792" end="830" />
+				<text time="59650" duration="2500" start="830" end="876" />
+				<text time="62825" duration="1750" start="876" end="896" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="46368">
+			<text><![CDATA[September is the ninth month of the year. It is the beginning of the school year in many European countries. Autumn begins on the 23rd of September. It is still nice and warm and nature is beautiful and colourful. What is the weather like in September in your area? Record your answer.
+
+
+
+October is the tenth month of the year.  The academic year starts on the 1st October in most European countries. The first autumn storms begin and it is getting cooler and windy. The leaves start changing colours from green to yellow and brown and red. What is the weather like in your country in October? Record your answer.]]></text>
+			<background fileIndex="3"/>
+			<audio fileIndex="3"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="41" />
+				<text time="3150" duration="4000" start="41" end="108" />
+				<text time="7500" duration="3000" start="108" end="148" />
+				<text time="10900" duration="4500" start="148" end="213" />
+				<text time="15800" duration="3000" start="213" end="265" />
+				<text time="19125" duration="1750" start="266" end="291" />
+				<text time="22050" duration="3000" start="293" end="333" />
+				<text time="25575" duration="4750" start="333" end="405" />
+				<text time="30600" duration="4500" start="406" end="472" />
+				<text time="35425" duration="4750" start="472" end="545" />
+				<text time="40550" duration="2750" start="546" end="598" />
+				<text time="44200" duration="2000" start="598" end="618" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="54702">
+			<text><![CDATA[November is the eleventh month of the year. It often rains and it is very windy. The leaves start falling from the trees. The Polish people celebrate their national holiday on November 11th.  It is getting cold. The temperature drops to 10 degrees Celsius. In some parts of the world it starts snowing. What is the weather like in your region in November? When do you celebrate your national holiday? Record your answer.
+
+December is the twelfth month of the year. It often snows in December. Winter starts on Dec. 22nd  and in many countries the people celebrate Christmas.  All the people celebrate the end of the year on the 31st December and the beginning of the new year. What's the weather like in your part of the world in December? Record your answer.]]></text>
+			<background fileIndex="4"/>
+			<audio fileIndex="4"/>
+			<list:timeline>
+				<text time="250" duration="2750" start="0" end="43" />
+				<text time="3250" duration="2500" start="43" end="80" />
+				<text time="6000" duration="2500" start="80" end="121" />
+				<text time="8800" duration="5000" start="121" end="190" />
+				<text time="13975" duration="1250" start="190" end="211" />
+				<text time="15475" duration="2750" start="211" end="256" />
+				<text time="18400" duration="2750" start="256" end="302" />
+				<text time="22175" duration="2750" start="302" end="355" />
+				<text time="25450" duration="3000" start="355" end="400" />
+				<text time="28775" duration="1500" start="400" end="423" />
+				<text time="31725" duration="3000" start="423" end="466" />
+				<text time="35025" duration="1750" start="466" end="494" />
+				<text time="37000" duration="5250" start="495" end="576" />
+				<text time="42550" duration="6250" start="578" end="678" />
+				<text time="49025" duration="3250" start="678" end="741" />
+				<text time="52825" duration="1750" start="741" end="761" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

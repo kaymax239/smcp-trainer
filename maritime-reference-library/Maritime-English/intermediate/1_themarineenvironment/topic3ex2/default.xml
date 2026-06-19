@@ -1,0 +1,222 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="14" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:gapFieldFirst="false" boolean:showCorrectAfterMultipleChoice="true" boolean:shuffle="false" boolean:repeatNext="false" boolean:repeatLast="true">
+		<item>
+			<sentence rigthAudio="me32001.mp3"><![CDATA[Although accidental pollution is spectacular, it is still recognised that <operational> pollution remains the bigger threat.]]></sentence>
+        	<list:choises>
+				<item>
+					<![CDATA[intentional]]>
+				</item>
+				<item>
+					<![CDATA[lightering]]>
+				</item>
+			</list:choises>
+        </item>
+		<item>
+			<sentence rigthAudio="me32002.mp3"><![CDATA[Therefore a new procedure, called the <load-on-top> system, was introduced in 1969.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[clean ballast]]>
+				</item>				
+				<item>
+					<![CDATA[garbage management]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32003.mp3"><![CDATA[The <washings> resulting from tank cleaning are pumped into a special tank.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[flushings]]>
+				</item>
+				<item>
+					<![CDATA[oil outflows]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32004.mp3"><![CDATA[During the voyage to the <loading terminal> the oil and water separate.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[homeport]]>
+				</item>				
+				<item>
+					<![CDATA[offshore terminal]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32005.mp3"><![CDATA[The enormous growth in the transport of oil by <shipping>, but also the increasing amount of chemicals carried at sea, made it clear that the OILPOL Convention was no longer adequate.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[barges]]>
+				</item>				
+				<item>
+					<![CDATA[pipelines]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32005.mp3"><![CDATA[The enormous growth in the transport of oil by shipping, but also the increasing amount of <chemicals> carried at sea, made it clear that the OILPOL Convention was no longer adequate.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[bulk]]>
+				</item>				
+				<item>
+					<![CDATA[ore]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32006.mp3"><![CDATA[The Sub-Committee on Oil Pollution became the Marine Environment Protection Committee (MEPC) and was given the same <standing> as the Maritime Safety Committee (MSC).]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[civil servants]]>
+				</item>				
+				<item>
+					<![CDATA[objectives]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32007.mp3"><![CDATA[The Protocol of the Conference on Tanker Safety and Pollution Prevention of 1978 expanded the requirements for <segregated ballast> tanks to new crude oil tankers.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[slack]]>
+				</item>				
+				<item>
+					<![CDATA[slop]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32007.mp3"><![CDATA[The Protocol of the Conference on Tanker Safety and Pollution Prevention of 1978 expanded the requirements for segregated ballast tanks to new <crude oil> tankers.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[mammoth]]>
+				</item>				
+				<item>
+					<![CDATA[product]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32008.mp3"><![CDATA[<Crude oil washing> is the cleaning of cargo tanks with high pressure jets of crude oil.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[Seepage]]>
+				</item>				
+				<item>
+					<![CDATA[Stripping]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32008.mp3"><![CDATA[Crude oil washing is the cleaning of cargo tanks with <high pressure> jets of crude oil.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[propulsion]]>
+				</item>				
+				<item>
+					<![CDATA[sprinkler]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32009.mp3"><![CDATA[<Inert gases>, low in oxygen and as a consequence incombustible, are used to replace flammable gases in tanks.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[Liquid gases]]>
+				</item>				
+				<item>
+					<![CDATA[Liquid natural gases]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32009.mp3"><![CDATA[Inert gases, low in oxygen and as a consequence incombustible, are used to replace <flammable> gases in tanks.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[inflammable]]>
+				</item>				
+				<item>
+					<![CDATA[nitrogen]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32010.mp3"><![CDATA[OPA 90 made it mandatory for all tankers <calling at> ports in the United States to have double hulls.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[bunkering in]]>
+				</item>				
+				<item>
+					<![CDATA[departing from]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32011.mp3"><![CDATA[The IMO carried out a study into the comparative performances of the double hull and the <mid-deck> tanker designs.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[single hull]]>
+				</item>				
+				<item>
+					<![CDATA['tweendeck]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32012.mp3"><![CDATA[The proposals were presented to the MEPC to consider an accelerated ‘single-hull oil tanker <phase-out>’ schedule.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[design]]>
+				</item>				
+				<item>
+					<![CDATA[retrofitting]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32013.mp3"><![CDATA[The Prestige disaster also led to an extended application of the <Condition Assessment Scheme> for tankers.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[Garbage Management Plan]]>
+				</item>				
+				<item>
+					<![CDATA[Clean Ballast System]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me32014.mp3"><![CDATA[The CAS requirements oblige shipowners to have documentary and <survey> procedures properly carried out and completed.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[domestic waste]]>
+				</item>				
+				<item>
+					<![CDATA[washing]]>
+				</item>
+			</list:choises>
+		</item>
+	</list:items>
+</root>

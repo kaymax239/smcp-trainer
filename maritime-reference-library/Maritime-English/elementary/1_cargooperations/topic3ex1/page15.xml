@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="Showing">
+      <name>page15</name>
+      <background>page15/lehmäsilta.jpg</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page15/pw047.mp3</file>
+              <text><![CDATA[Cargoes are loaded and discharged through pipelines. They are lengths of steel pipes. The curves in the pipelines have bends which are short curved lengths of pipe. Steel pipes are bolted together by flanges or expansion joints.
+
+Next, I will show you bolts and flanges and you have to tell me which one is a bolt and which one is a flange. First click on a bolt and then on a flange.
+]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">true</requireNext>
+            </action>
+            <action actionType="loadScene">
+              <file>page16.xml</file>
+            </action>
+          </actions>
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false" />
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res/">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	<image name="done" x="230" y="209">clear.gif</image>
+	<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+	
+	<image name="background">clear.gif</image>
+	
+	<image name="choiseBg" x="393" y="231">textbg3.png</image>
+	<image name="rigthBg" x="99" y="297">textbg1.gif</image>
+	<image name="finskaBg" x="99" y="297">textbg1.gif</image>
+	<image name="continueButton" x="431" y="231">continue.png</image>
+	<generic name="questionsAmount" type="Number">10</generic>
+	<image name="rigthImg" x="297" y="204">ok.gif</image>
+	<textfield name="rigthField">
+		<position x="6" y="11" />
+		<size w="505" h="50" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="center" />
+		<text>kysymys</text>
+	</textfield>
+	<grid name="choisesGrid">
+		<dimensions rows="3" cols="1" />
+		<position x="24" y="25" />
+		<spacing x="9001" y="40" />
+	</grid>
+	<textfield name="choiseField">
+		<position x="0" y="0" />
+		<size w="200" h="30" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="left" />
+		<text><![CDATA[> ]]> </text>
+	</textfield>
+
+	<textfield name="questionField">
+		<position x="99" y="159" />
+		<size w="505" h="53" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="center" />
+		<text>kysymys</text>
+	</textfield>
+	<textfield name="leftField">
+		<position x="179" y="232" />
+		<size w="105" h="24" />
+		<format fontFamily="Arial" color="0x000000" size="14" align="center" />
+		<text><![CDATA[Remaining: ]]></text>
+	</textfield>
+	<textfield name="finskaField">
+		<position x="0" y="7" />
+		<size w="505" h="53" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="center" />
+		<text>Sana suomeksi</text>
+	</textfield>
+
+	<textfield name="info-text">
+		<position x="10" y="4850" />
+		<size w="550" h="55" />
+		<format fontFamily="Arial" color="0x000000" size="11" />
+		<text></text>
+	</textfield>
+	<image name="pointsbg" x="82" y="4940">scorebg.png</image>
+	<textfield name="point-field">
+		<position x="82" y="5030" />
+		<size w="65" h="30" />
+		<format fontFamily="Arial" color="0x1D5692" size="16" bold="true" align="center" />
+		<text>{0} / {1}</text>
+	</textfield>	
+	<textfield name="task-name">
+		<position x="179" y="4000" />
+		<size w="533" h="19" />
+		<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+		<text></text>
+	</textfield>
+	
+	<loader name="ui">
+		<image name="background" x="0" y="0">bg.jpg</image>
+		
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[Cargo Space in Container Terminals / Ex 4]]></text>
+		</textfield>
+		
+		<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="23" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[Cargo Operations]]></text>
+		</textfield>
+		
+		<textpoints name="score">
+			<values max="20" correct="1" error="0" min="0" correctOnFirst="2" />
+			<background x="82" y="494">scorebg.png</background>
+			<points>
+				<position x="82" y="504" />
+				<size w="67" h="39" />
+				<format fontFamily="Arial" color="0x1A619F" size="16" bold="true" align="center" />
+				<text><![CDATA[{points} / {maxpoints}]]></text>
+			</points>
+			<complete>
+				<fx type="fade" from="0" to="1" duration="300" />
+				<fx type="scale" to="0.55" from="1" duration="500" delay="1500" />
+				<fx type="move" x="218" y="482" duration="500" delay="1500" />
+				<ranges>
+					<range min="-10000">
+						<image x="230" y="209">done.gif</image>
+					</range>
+				</ranges>
+			</complete>
+		</textpoints>
+		
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="150" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Reply to orders like those given in the example: Lock the twistlocks  -  twistlocks locked. Write your answer on the line and press Enter to check.]]></text>
+			</textfield>
+		</info>
+	</loader>
+</style>

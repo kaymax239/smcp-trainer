@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	
+	<point name="cluepanel-open" x="377" y="468" />
+	<point name="cluepanel-closed" x="59" y="468" />
+	
+	<generic name="cluepanel-slideduration" type="number">500</generic>
+	<image name="cluepanel">panel2.gif</image>
+	<image name="buttonpanel" x="10" y="468">panel1.gif</image>
+	<image name="corner">kulma.gif</image>
+	<image name="side">sivu.gif</image>
+	<image name="normalLetter">letter1.gif</image>
+	<image name="activeLetter">letter3.gif</image>
+	<image name="selectedLetter">letter2.gif</image>
+	<image name="disabledLetter">letter4.gif</image>
+	<image name="endImage">theend.gif</image>
+	<point name="end-image-position" x="490" y="470" />
+	<color name="background">0xFFFFFF</color>
+	<generic name="before-wait" type="number">600</generic>
+	<generic name="sound-wait" type="number">0</generic>
+	<generic name="after-wait" type="number">500</generic>
+	<generic name="spell-prefix">spell/say_</generic>
+	
+	<point name="end-image-startposition" x="3000" y="0" />
+    <point name="end-image-position" x="3000" y="0" />
+	
+	<image name="intro-text-box" x="109" y="119">intro_text_box.gif</image>
+	<textfield name="intro-text-field">
+		<position x="119" y="129" />
+		<size w="490" h="220" />
+		<format fontFamily="Arial" size="14" />
+	</textfield>
+	<image name="start" x="325" y="350">startbtn.gif</image>
+	
+	<textfield name="cluefield">
+		<position x="12" y="14" />
+		<size w="200" h="35" />
+		<format fontFamily="Arial" size="11" />
+	</textfield>
+	<textfield name="scorefield">
+		<position x="297" y="498" />
+		<size w="50" h="15" />
+		<format fontFamily="Arial" size="11" align="center" />
+	</textfield>
+	<textfield name="titlefield">
+		<position x="8" y="8" />
+		<size w="132" h="37" />
+		<format />
+	</textfield>
+	
+	<button name="clue1">
+		<states>
+			<normal>btn12.jpg</normal>
+			<hover>btn12.jpg</hover>
+			<down>btn13.jpg</down>
+			<disabled>btn11.jpg</disabled>
+		</states>
+		<position x="92" y="483" />
+	</button>
+	<button name="clue2">
+		<states>
+			<normal>btn22.jpg</normal>
+			<hover>btn22.jpg</hover>
+			<down>btn23.jpg</down>
+			<disabled>btn21.jpg</disabled>
+		</states>
+		<position x="140" y="483" />
+	</button>
+	<button name="clue3">
+		<states>
+			<normal>btn32.jpg</normal>
+			<hover>btn32.jpg</hover>
+			<down>btn33.jpg</down>
+			<disabled>btn31.jpg</disabled>
+		</states>
+		<position x="188" y="483" />
+	</button>
+	<button name="clue4">
+		<states>
+			<normal>btn42.jpg</normal>
+			<hover>btn42.jpg</hover>
+			<down>btn43.jpg</down>
+			<disabled>btn41.jpg</disabled>
+		</states>
+		<position x="236" y="483" />
+	</button>
+	<button name="repeat">
+		<states>
+			<normal>repeatbtn.jpg</normal>
+			<hover>repeatbtn.jpg</hover>
+			<down>repeatbtn.jpg</down>
+			<disabled>repeatbtn.jpg</disabled>
+		</states>
+		<position x="35" y="480" />
+	</button>
+	
+	<polygon name="border">
+		<border color="0x393A4A" alpha="1" thickness="1" />
+		<fill color="0x00FF00" alpha="0" />
+		<position x="5" y="5" />
+		<points>
+			<point x="0" y="0" />
+			<point x="710" y="0" />
+			<point x="710" y="530" />
+			<point x="0" y="530" />
+		</points>
+	</polygon>
+	<point name="end-image-startposition" x="3000" y="0" />
+    <point name="end-image-position" x="3000" y="0" />
+
+    <loader name="ui">
+        <image name="background" x="0" y="0">bg.jpg</image>
+
+        <textfield name="taskname">
+            <position x="14" y="32" />
+            <size w="200" h="19" />
+            <format fontFamily="Arial" color="0x000000" size="14" align="left" />
+            <text><![CDATA[The Navigation Bridge / Ex 5]]></text>
+        </textfield>
+
+        <textfield name="unit">
+            <position x="14" y="8" />
+            <size w="400" h="23" />
+            <format fontFamily="Arial" color="0x000000" size="18" align="left" />
+            <text><![CDATA[The Navigation Bridge]]></text>
+        </textfield>
+
+        <textpoints name="score">
+            <values max="10" correct="1" error="0" min="0" correctOnFirst="2" />
+            <complete>
+                <fx type="fade" from="0" to="1" duration="300" />
+				<fx type="move" x="420" y="472" duration="500" delay="1500" />
+                <fx type="scale" to="0.55" from="1" duration="500" delay="1500" />
+                <ranges>
+                    <range min="-10000">
+                        <image x="230" y="209">done.gif</image>
+                    </range>
+                </ranges>
+            </complete>
+        </textpoints>
+
+        <info name="info">
+            <button x="600" y="488">info.png</button>
+            <background x="160" y="170">infobg.jpg</background>
+            <textfield>
+                <position x="17" y="36" />
+                <size w="369" h="150" />
+                <format fontFamily="Arial" color="0x000000" size="16" />
+                <text><![CDATA[Fill in the gaps. You can get clues from the four clue buttons in the control panel at the bottom of the screen.]]></text>
+            </textfield>
+        </info>
+    </loader>
+
+</style>

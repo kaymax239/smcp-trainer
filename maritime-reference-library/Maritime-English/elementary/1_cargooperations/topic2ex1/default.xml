@@ -1,0 +1,62 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>co22001.mp3</audio>
+				<text><![CDATA[<steel|steal> still]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22002.mp3</audio>
+				<text><![CDATA[ship <sheep>]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22003.mp3</audio>
+				<text><![CDATA[chip <cheap>]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22004.mp3</audio>
+				<text><![CDATA[<keel> kill]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22005.mp3</audio>
+				<text><![CDATA[<deep> dip]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22006.mp3</audio>
+				<text><![CDATA[<leak> lick]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22007.mp3</audio>
+				<text><![CDATA[<beach> bitch]]></text>
+			</phrase>
+		</list:items>
+		
+		<list:items>
+			<phrase>
+				<audio>co22008.mp3</audio>
+				<text><![CDATA[<feet> fit]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22009.mp3</audio>
+				<text><![CDATA[<meal> mill]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22010.mp3</audio>
+				<text><![CDATA[<eat> it]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22011.mp3</audio>
+				<text><![CDATA[<heat> hit]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22012.mp3</audio>
+				<text><![CDATA[<feel> fill]]></text>
+			</phrase>
+			<phrase>
+				<audio>co22013.mp3</audio>
+				<text><![CDATA[<jeep> jib]]></text>
+			</phrase>
+		</list:items>
+	</list:items>
+</root>

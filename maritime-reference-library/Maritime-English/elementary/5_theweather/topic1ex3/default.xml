@@ -1,0 +1,89 @@
+﻿<root 
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	
+	<list:hints>
+		<item>hint1</item>
+		<item>hint2</item>
+		<item>hint3</item>
+		<item>hint4</item>
+		<item>hint5</item>
+		<item>hint6</item>
+	</list:hints>
+		
+	<list:pages boolean:skipStartBtn="true" boolean:showFeedbackDialog="false">
+		<page>
+			<list:items>
+				<list:items prompt="nosound.mp3" correct="tw13001.mp3">
+					<item x="97" y="258"><![CDATA[Wind]]></item>
+					<item x="243" y="258"><![CDATA[<windy>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13009.mp3">
+					<item x="389" y="258"><![CDATA[Sun]]></item>
+					<item x="535" y="258"><![CDATA[<sunny>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13002.mp3">
+					<item x="97" y="291"><![CDATA[Rain]]></item>
+					<item x="243" y="291"><![CDATA[<rainy>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13010.mp3">
+					<item x="389" y="291"><![CDATA[Snow]]></item>
+					<item x="535" y="291"><![CDATA[<snowy>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13003.mp3">
+					<item x="97" y="324"><![CDATA[Cloud]]></item>
+					<item x="243" y="324"><![CDATA[<cloudy>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13011.mp3">
+					<item x="389" y="324"><![CDATA[Mist]]></item>
+					<item x="535" y="324"><![CDATA[<misty>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13004.mp3">
+					<item x="97" y="357"><![CDATA[Fog]]></item>
+					<item x="243" y="357"><![CDATA[<foggy>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13012.mp3">
+					<item x="389" y="357"><![CDATA[Ice]]></item>
+					<item x="535" y="357"><![CDATA[<icy>]]></item>
+				</list:items>
+			</list:items>
+		</page>
+		<page>
+			<list:items>
+				<list:items prompt="nosound.mp3" correct="tw13005.mp3">
+					<item x="97" y="258"><![CDATA[Shower]]></item>
+					<item x="243" y="258"><![CDATA[<showery>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13013.mp3">
+					<item x="389" y="258"><![CDATA[Storm]]></item>
+					<item x="535" y="258"><![CDATA[<stormy>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13006.mp3">
+					<item x="97" y="291"><![CDATA[Breeze]]></item>
+					<item x="243" y="291"><![CDATA[<breezy>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13014.mp3">
+					<item x="389" y="291"><![CDATA[Chill]]></item>
+					<item x="535" y="291"><![CDATA[<chilly>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13007.mp3">
+					<item x="97" y="324"><![CDATA[Sand]]></item>
+					<item x="243" y="324"><![CDATA[<sandy>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13015.mp3">
+					<item x="389" y="324"><![CDATA[Rock]]></item>
+					<item x="535" y="324"><![CDATA[<rocky>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13008.mp3">
+					<item x="97" y="357"><![CDATA[Frost]]></item>
+					<item x="243" y="357"><![CDATA[<frosty>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw13016.mp3">
+					<item x="389" y="357"><![CDATA[Wave]]></item>
+					<item x="535" y="357"><![CDATA[<wavy>]]></item>
+				</list:items>
+			</list:items>
+		</page>
+	</list:pages>
+</root>

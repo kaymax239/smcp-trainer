@@ -1,0 +1,36 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="44" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+		
+	<list:items boolean:linedAudios="false" boolean:shuffle="true" boolean:use3dFx="true" boolean:playAudioOnCorrect="true" boolean:checkOne="true" boolean:emptyBlocks="true" boolean:playAllOnComplete="true" boolean:showReflection="false">
+		<item>
+			<text>
+				<![CDATA[\nTenerife Harbour Master, |this is*I am*calling from| Dockwise.\n|QUESTION. Do I have permission to*May I*Can I| enter the fairway?\n\nDockwise, |this is*I am*calling from| Tenerife Harbour Master.\n|ANSWER. Stand by*Negative. Wait*Out of the question| until the pilot arrives.\n|QUESTION. Do you require*Do you need*Surely you need| a tug for the berthing manoeuvres?\n\nTenerife Harbour Master, |this is*I am*calling from| Dockwise.\n|ANSWER. I will need*I should need*I might need| three tugs and a pilot.]]>
+			</text>
+			<list:audio>
+				<item audio="rc12001.mp3" text="" />
+				<item audio="rc12002.mp3" text="" />
+				<item audio="rc12003.mp3" text="" />
+				<item audio="rc12004.mp3" text="" />
+				<item audio="rc12005.mp3" text="" />
+				<item audio="rc12006.mp3" text="" />
+				<item audio="rc12007.mp3" text="" />
+			</list:audio>
+		</item>
+	</list:items>
+</root>

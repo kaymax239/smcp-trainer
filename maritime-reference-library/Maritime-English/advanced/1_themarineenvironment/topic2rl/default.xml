@@ -1,0 +1,99 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me2001a.mp3</audio>
+		<audio>me2001b.mp3</audio>
+		<audio>me2001c.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="58568">
+			<text><![CDATA[The International Maritime Organization is the leader in adopting conventions that define hazardous and noxious substances. For the purposes of the OPRC-HNS Protocol (Protocol on Preparedness, Response and Co-operation to Pollution Incidents by Hazardous and Noxious Substances), a hazardous and noxious substance is defined as ‘any substance other than oil which, if introduced into the marine environment is likely to create hazards to human health, to harm living resources and marine life, to damage amenities or to interfere with other legitimate uses of the sea’.
+
+Just like the International Convention on Oil Pollution Preparedness, Response and Co-operation (OPRC) the OPRC-HNS Protocol aims to provide a global framework for international co-operation in combating major incidents or threats of marine pollution. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="1750" start="0" end="39" />
+				<text time="2000" duration="2500" start="40" end="77" />
+				<text time="4500" duration="3000" start="78" end="123" />
+				<text time="7550" duration="3500" start="124" end="165" />
+				<text time="11325" duration="5250" start="166" end="241" />
+				<text time="16575" duration="2500" start="242" end="279" />
+				<text time="19275" duration="3000" start="280" end="327" />
+				<text time="22500" duration="3250" start="328" end="364" />
+				<text time="25775" duration="2750" start="365" end="406" />
+				<text time="28525" duration="3000" start="407" end="451" />
+				<text time="31525" duration="2750" start="452" end="493" />
+				<text time="34275" duration="1750" start="494" end="513" />
+				<text time="36025" duration="3500" start="514" end="569" />
+				<text time="39950" duration="5500" start="571" end="666" />
+				<text time="45450" duration="1250" start="667" end="673" />
+				<text time="46700" duration="3000" start="674" end="695" />
+				<text time="49700" duration="4500" start="696" end="761" />
+				<text time="54200" duration="4250" start="762" end="822" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="58228">
+			<text><![CDATA[The OPRC-HNS Protocol ensures that ships carrying hazardous and noxious liquid substances are covered by preparedness and response regimes similar to those for oil incidents. Ships flying the flag of a contracting state (‘party’) of the OPRC-HNS Protocol are required to carry a pollution emergency plan to deal specifically with incidents involving hazardous and noxious substances, such as chemicals.
+
+The OPRC-HNS Protocol was adopted to enlarge the scope of the International Convention on Oil Pollution Preparedness, Response and Co-operation (OPRC) with the express purpose of covering hazardous and noxious substances. These substances can – when spilled – have a harmful impact on the marine environment and on marine ecosystems. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="2250" start="0" end="21" />
+				<text time="2500" duration="4500" start="22" end="89" />
+				<text time="7000" duration="3000" start="90" end="138" />
+				<text time="10000" duration="2750" start="139" end="174" />
+				<text time="13450" duration="3000" start="175" end="219" />
+				<text time="16450" duration="3500" start="220" end="254" />
+				<text time="19950" duration="3250" start="255" end="303" />
+				<text time="23200" duration="2250" start="304" end="339" />
+				<text time="25450" duration="2750" start="340" end="383" />
+				<text time="28400" duration="1750" start="384" end="402" />
+				<text time="30600" duration="2500" start="404" end="425" />
+				<text time="33100" duration="2500" start="426" end="458" />
+				<text time="35600" duration="5750" start="459" end="547" />
+				<text time="41350" duration="1500" start="548" end="554" />
+				<text time="42850" duration="6000" start="555" end="625" />
+				<text time="49575" duration="3250" start="626" end="663" />
+				<text time="52900" duration="5250" start="664" end="737" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="55302">
+			<text><![CDATA[States which are party to the OPRC-HNS Protocol are required to develop a system for responding to HNS, including a designated national contingency plan. This has to be sustained by a minimum level of communication plans, response equipment, proper training and regular drills. States must also provide assistance – within their feasible reach – to other states in the event of a pollution emergency. 
+
+The IMO has developed a wide series of tools for dealing with incidents involving hazardous and noxious substances and meeting their obligations under the Protocol. The OPRC-HNS Protocol also contributes to the increased protection of a state’s coastal zone and marine environment, including human health and resources.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="3750" start="0" end="47" />
+				<text time="4000" duration="4250" start="48" end="103" />
+				<text time="8250" duration="3500" start="104" end="153" />
+				<text time="12425" duration="5000" start="154" end="221" />
+				<text time="17600" duration="4750" start="222" end="277" />
+				<text time="22650" duration="3250" start="278" end="313" />
+				<text time="26050" duration="2000" start="314" end="345" />
+				<text time="28150" duration="3500" start="346" end="400" />
+				<text time="32375" duration="3000" start="403" end="447" />
+				<text time="35375" duration="4500" start="448" end="517" />
+				<text time="39875" duration="3000" start="518" end="567" />
+				<text time="43350" duration="2750" start="568" end="589" />
+				<text time="46100" duration="4500" start="590" end="660" />
+				<text time="50650" duration="4500" start="661" end="722" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

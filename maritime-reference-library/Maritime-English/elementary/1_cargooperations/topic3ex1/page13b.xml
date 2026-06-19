@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="Showing">
+      <name>page13b</name>
+      <background>page13b/emergency stop.jpg</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page13b/pw043b.mp3</file>
+              <text><![CDATA[Yes, that’s it.
+
+Loading can start when all necessary terminal and tanker valves in the loading system are open, and the ship has informed the terminal that she is ready. Loading starts at a slow rate to a single tank. The shore pumps are started only after the ship has informed the terminal that she is receiving cargo in the correct tank.
+
+A crew member is standing at the manifolds, in case there is a leaking connection or any other problem. He is then ready to instruct the shore to stop loading. 
+
+The valves on board the ship are operated manually from the deck or automatically from the cargo control room. 
+
+Would you like to visit the cargo control room? Fine, click on the NEXT button to see the cargo control room.
+]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">true</requireNext>
+            </action>
+            <action actionType="loadScene">
+              <file>page14.xml</file>
+            </action>
+          </actions>
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false" />
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

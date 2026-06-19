@@ -1,0 +1,33 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="44" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+		
+	<list:items boolean:shuffle="true" boolean:use3dFx="true" boolean:playAudioOnCorrect="true" boolean:checkOne="true" boolean:emptyBlocks="true" boolean:playAllOnComplete="true" boolean:showReflection="false">
+		<item>
+			<text>
+				<![CDATA[\npilot |person guiding ships through difficulties*person flying an aircraft|\n\n\nheading |direction of ship*title|\n\n\nport |left hand side of ship*town with a harbour|\n\n\ndeck |horizontal structure in ship*a set of playing cards|]]>
+			</text>
+			<list:audio>
+				<item audio="nb24001.mp3" text="" />
+				<item audio="nb24002.mp3" text="" />
+				<item audio="nb24003.mp3" text="" />
+				<item audio="nb24004.mp3" text="" />
+			</list:audio>
+		</item>
+	</list:items>
+</root>

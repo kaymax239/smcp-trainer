@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page10b</name>
+      <background>page10b/P1160007.JPG</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false" />
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false" />
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page10b/pw036.mp3</file>
+              <text><![CDATA[Next, let’s turn more to the left and look at the tanker again.]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">false</requireNext>
+            </action>
+          </actions>
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false">
+            <action actionType="loadScene">
+              <file>page11.xml</file>
+            </action>
+          </actions>
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

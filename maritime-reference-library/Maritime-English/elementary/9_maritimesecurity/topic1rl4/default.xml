@@ -1,0 +1,52 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>ms1004.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="true" obfuscate="false" length="44435">
+			<text><![CDATA[How should stowaways be treated?
+
+Stowaways create problems for a crew, but they are not criminals and should have their basic human rights respected and receive fair treatment while on board.
+
+If you find a stowaway, you should:
+•	Check their state of health 
+•	Find out their identity and the reasons they are on board  
+•	Arrange food and lodging 
+•	Explain emergency procedures and issue them with a lifejacket and lifeboat place 
+•	Inform the ship's owner or agent
+•	Expect the master to prepare a signed statement containing all information relating to the stowaway, to be given to the authority where the stowaway is delivered 
+
+A stowaway should not be arrested or detained (although the master has the right to maintain discipline on board), and should not be forced to work.
+]]></text>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="50" duration="1500" start="0" end="32" />
+				<text time="2000" duration="1750" start="34" end="71" />
+				<text time="4000" duration="3350" start="72" end="149" />
+				<text time="7550" duration="2000" start="150" end="192" />
+				<text time="10700" duration="1800" start="194" end="229" />
+				<text time="12800" duration="1500" start="230" end="259" />
+				<text time="14650" duration="3300" start="261" end="320" />
+				<text time="18400" duration="1200" start="323" end="349" />
+				<text time="20050" duration="4300" start="351" end="433" />
+				<text time="25150" duration="2000" start="435" end="469" />
+				<text time="27850" duration="5100" start="470" end="572" />
+				<text time="33350" duration="3000" start="573" end="633" />
+				<text time="37200" duration="2300" start="636" end="681" />
+				<text time="39900" duration="2600" start="682" end="750" />
+				<text time="42800" duration="1550" start="751" end="784" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

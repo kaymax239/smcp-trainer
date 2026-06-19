@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res/">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	<image name="done" x="230" y="209">clear.gif</image>
+	<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+	
+	<image name="background" x="1" y="72">centerbg.jpg</image>
+		
+	<image name="start" x="580" y="488">start.png</image>
+	<image name="play" x="580" y="488">play.png</image>
+	
+	<image name="img1" x="63" y="216">fuelefficiency.png</image>
+	<image name="img2" x="68" y="110">greenawareness.png</image>
+	<image name="img3" x="449" y="127">exhaustgas.png</image>
+	<image name="img4" x="498" y="301">acidrain.png</image>
+	<image name="img5" x="53" y="414">combustion.png</image>
+	<image name="img6" x="44" y="325">harmfulsubstances.png</image>
+	<image name="img7" x="434" y="402">zeroemission.png</image>
+	<image name="img8" x="431" y="216">ozonelayer.png</image>
+	
+	<loader name="ui">
+		<image name="background" x="0" y="0">bg.jpg</image>
+		
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[Fuel Emissions / Ex 2]]></text>
+		</textfield>
+		
+		<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[The marine environment]]></text>
+		</textfield>
+		
+		<textpoints name="score">
+			<values max="16" correct="1" error="0" min="0" items="8" correctOnFirst="2" />
+			<background x="82" y="494">scorebg.png</background>
+			<points>
+				<position x="82" y="504" />
+				<size w="67" h="39" />
+				<format fontFamily="Arial" color="0x1A619F" size="16" bold="true" align="center" />
+				<text><![CDATA[{points} / {maxpoints}]]></text>
+			</points>
+			
+			<complete>
+				<fx type="fade" from="0" to="1" duration="300" />
+				<fx type="move" x="218" y="482" duration="500" delay="1500" />
+				<fx type="scale" to="0.55" from="1" duration="500" delay="1500" />
+				<ranges>
+					<range min="-10000">
+						<image x="230" y="209">done.gif</image>
+					</range>
+				</ranges>
+			</complete>
+
+		</textpoints>
+		
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="150" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Click "Start". Listen. Click on the correct word.]]></text>
+			</textfield>
+		</info>
+	</loader>
+	
+	<textfield name="info-text">
+		<position x="2600" y="37" />
+		<size w="400" h="70" />
+		<format fontFamily="Arial" color="0x000000" size="16" />
+		<text></text>
+	</textfield>
+	<image name="pointsbg" x="2500" y="551">clear.gif</image>
+	<textfield name="point-field">
+		<position x="3100" y="553" />
+		<size w="100" h="16" />
+		<format fontFamily="Arial" color="0x000000" size="12" align="center" />
+		<text>{0} / {1}</text>
+	</textfield>	
+	<textfield name="task-name">
+		<position x="6550" y="11" />
+		<size w="136" h="20" />
+		<format fontFamily="Arial" color="0xFFFFFF" size="12" align="center" />
+		<text></text>
+	</textfield>
+</style>

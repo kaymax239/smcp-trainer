@@ -1,0 +1,28 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>nosound.mp3</audio>
+				<text><![CDATA[Stowaways - Definition & History]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1001a.mp3</audio>
+				<text><![CDATA[A stowaway is someone who <secretes> him/herself in a ship without the <consent> of the shipowner or the <person in charge>, and who is on board once the ship has <left port>.]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1001b.mp3</audio>
+				<text><![CDATA[Stowaways have existed ever since international shipping began, but they have become a <growing> problem.]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1001c.mp3</audio>
+				<text><![CDATA[In recent years, more and more people are leaving their home countries <in pursuit of> a better life with greater economic chances, or to flee war, discrimination or other conflict.]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1001d.mp3</audio>
+				<text><![CDATA[In desperation, and <lacking> funds to travel, an increasing number have resorted to stowing away aboard ship, often in the poorer countries of Africa and Asia, to seek a better life abroad.]]></text>
+			</phrase>
+		</list:items>
+		
+	</list:items>
+</root>

@@ -1,0 +1,48 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="44" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+		
+	<list:items boolean:shuffle="true" boolean:use3dFx="true" boolean:playAudioOnCorrect="true" boolean:checkOne="true" boolean:emptyBlocks="true" boolean:playAllOnComplete="true" boolean:showReflection="false" boolean:linedAudios="false">
+		<item>
+			<text>
+				<![CDATA[\nNew tankers have a double hull which gives |protection*protect| to the cargo.\n\nManifolds |connect*connection| deck pipelines with shore hoses or loading arms.\n\nA crew member is standing at the manifolds, in the case of a leaking |connection*connect| or any other problem.\n\nThe main pipelines |connect*connection| with cargo pumps and the deck pipelines.\n\nTankers |carry*carriage| liquid bulk cargo in cargo tanks.\n\nThe master of a tanker is responsible for the safe and secure |mooring*moor| of the ship.\n\nBefore |pumping*pump| begins, all terminal and tanker valves in the transfer system are opened.\n\n|Loading*Load| starts at a low rate to a single tank.]]>
+			</text>
+			<list:audio>
+				<item audio="co35001.mp3" text="" />
+				<item audio="co35002.mp3" text="" />
+				<item audio="co35003.mp3" text="" />
+				<item audio="co35004.mp3" text="" />
+				<item audio="co35005.mp3" text="" />
+				<item audio="co35006.mp3" text="" />
+				<item audio="co35007.mp3" text="" />
+				<item audio="co35008.mp3" text="" />
+			</list:audio>
+		</item>
+		<item>
+			<text>
+				<![CDATA[\nThe crew member is then ready to instruct the shore to stop |loading*load|.\n\nAt the end of |loading*load| operation the cargo tanks are topped-up.\n\nThe |loading*load| is finished and all valves in the cargo system are closed.\n\nOil terminals are situated in locations where tankers can |load*loading| or discharge their cargo.]]>
+			</text>
+			<list:audio>
+				<item audio="co35009.mp3" text="" />
+				<item audio="co35010.mp3" text="" />
+				<item audio="co35011.mp3" text="" />
+				<item audio="co35012.mp3" text="" />
+			</list:audio>
+		</item>
+	</list:items>
+</root>

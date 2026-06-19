@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res/">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	<image name="done" x="415" y="215">clear.gif</image>
+	<fx name="fadeIn" type="fade" from="0" to="1" duration="400" />
+	<fx name="fadeOut" type="fade" from="1" to="0" duration="550" />
+	<fx name="semiFadeOut" type="fade" from="1" to="0.5" duration="350" />
+	
+	<image name="background">clear.gif</image>
+	
+	<textfield name="blockField">
+		<position x="0" y="0" />
+		<size w="0" h="25" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="center" />
+		<text></text>
+	</textfield>
+	
+	<image name="check" x="488" y="488">check.png</image>
+	
+	<textfield name="mainField">
+		<position x="120" y="145" />
+		<size w="800" h="250" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="left" leading="3" />
+		<text></text>
+	</textfield>
+	
+	<point name="blockPosAdjustment" x="0" y="-1" />
+
+	<image name="gap1">gap1.png</image>
+	<image name="gap2">gap2.png</image>
+	<image name="gap3">gap3.png</image>
+	<image name="gap1a">gap1b.png</image>
+	<image name="gap2a">gap2b.png</image>
+	<image name="gap3a">gap3b.png</image>
+	<image name="gap1c">gap1c.png</image>
+	<image name="gap2c">gap2c.png</image>
+	<image name="gap3c">gap3c.png</image>
+	
+	<image name="audioBtn">clear.gif</image>
+	<grid name="audioBtnGrid">
+		<dimensions rows="10" cols="16" />
+		<position x="3000" y="475" />
+		<spacing x="65" y="0" />
+	</grid>
+	<textfield name="audioBtnField">
+		<position x="0" y="0" />
+		<size w="98" h="18" />
+		<format fontFamily="Arial" color="0xFFFFFF" size="13" align="center" />
+		<text></text>
+	</textfield>
+	
+	<loader name="ui">
+		<image name="background" x="0" y="0">bg.png</image>
+		
+		<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[The Navigation Bridge]]></text>
+		</textfield>
+		
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[Working as an AB on Board Ship / Ex 3]]></text>
+		</textfield>
+		
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="150" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Many words can be used in more ways than one. Decide what Andrew means in the previous interview.]]></text>
+			</textfield>
+		</info>
+		
+		<textpoints name="score">
+			<values max="8" correct="1" error="0" min="0" correctOnFirst="2" />
+			<background x="82" y="494">scorebg.png</background>
+			<points>
+				<position x="82" y="504" />
+				<size w="67" h="39" />
+				<format fontFamily="Arial" color="0x1A619F" size="16" bold="true" align="center" />
+				<text><![CDATA[{points} / {maxpoints}]]></text>
+			</points>
+			<complete>
+				<fx type="fade" from="0" to="1" duration="300" />
+				<fx type="move" x="218" y="482" duration="500" delay="1500" />
+				<fx type="scale" to="0.55" from="1" duration="500" delay="1500" />
+				<ranges>
+					<range min="-10000">
+						<image x="230" y="209">done.gif</image>
+					</range>
+				</ranges>
+			</complete>
+		</textpoints>
+	</loader>
+	
+	
+	<textfield name="info-text">
+		<position x="1600" y="450" />
+		<size w="450" h="100" />
+		<format fontFamily="Arial" color="0xAAAAAA" size="16" align="left" />
+		<text></text>
+	</textfield>
+	<image name="pointsbg" x="2871" y="27">clear.gif</image>
+	<textfield name="point-field">
+		<position x="5500" y="10" />
+		<size w="168" h="122" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="center" leading="-19"/>
+		<text><![CDATA[ {0} / {1} ]]></text>
+	</textfield>	
+	<textfield name="task-name">
+		<position x="7600" y="10" />
+		<size w="273" h="27" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="center" />
+		<text></text>
+	</textfield>
+
+</style>

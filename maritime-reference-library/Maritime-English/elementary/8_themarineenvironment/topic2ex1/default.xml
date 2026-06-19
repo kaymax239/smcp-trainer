@@ -1,0 +1,41 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="7" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" boolean:lockLeft="true">
+		<item>
+			<block1 audio="me21001.mp3"><![CDATA[Pollution in general refers]]></block1>
+			<block2 audio="me21002.mp3"><![CDATA[to the contamination of air, water or soil.]]></block2>
+		</item>
+		<item>
+			<block1 audio="me21003.mp3"><![CDATA[Pollution can be caused]]></block1>
+			<block2 audio="me21004.mp3"><![CDATA[by nature or by man.]]></block2>
+		</item>
+		<item>
+			<block1 audio="me21005.mp3"><![CDATA[We can also categorise pollution]]></block1>
+			<block2 audio="me21006.mp3"><![CDATA[as light pollution, noise pollution, and thermal pollution.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me21007.mp3"><![CDATA[Thermal pollution refers to heat from hot water discharged]]></block1>
+			<block2 audio="me21008.mp3"><![CDATA[by industry into rivers, lakes or seas.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me21009.mp3"><![CDATA[In the texts we will concentrate]]></block1>
+			<block2 audio="me21010.mp3"><![CDATA[on marine pollution.]]></block2>
+		</item>			
+	</list:items>
+</root>

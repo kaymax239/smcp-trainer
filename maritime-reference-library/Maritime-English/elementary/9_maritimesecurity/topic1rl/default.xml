@@ -1,0 +1,39 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>ms1001.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="true" obfuscate="false" length="35919">
+			<text><![CDATA[
+A stowaway is someone who secretes him/herself in a ship without the consent of the shipowner or the person in charge, and who is on board once the ship has left port.
+
+Stowaways have existed ever since international shipping began, but they have become a growing problem. In recent years, more and more people are leaving their home countries in pursuit of a better life with greater economic chances, or to flee war, discrimination or other conflict. In desperation, and lacking funds to travel, an increasing number have resorted to stowing away aboard ship, often in the poorer countries of Africa and Asia, to seek a better life abroad.
+]]></text>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="50" duration="3350" start="1" end="57" />
+				<text time="3550" duration="2950" start="58" end="119" />
+				<text time="6950" duration="2200" start="120" end="168" />
+				<text time="9800" duration="3100" start="170" end="233" />
+				<text time="13200" duration="2000" start="234" end="273" />
+				<text time="15700" duration="4400" start="274" end="372" />
+				<text time="20400" duration="4600" start="373" end="453" />
+				<text time="25800" duration="2450" start="454" end="498" />
+				<text time="28500" duration="2800" start="499" end="562" />
+				<text time="31800" duration="2300" start="563" end="612" />
+				<text time="34500" duration="1350" start="613" end="642" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

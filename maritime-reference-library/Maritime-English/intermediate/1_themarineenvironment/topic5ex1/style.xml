@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	
+	<fx name="fxIn" type="fade" from="0" to="1" duration="250" />
+	<fx name="fxOut" type="fade" from="1" to="0" duration="250" />
+	
+	<filter name="shadow" type="shadow" alpha="0.4" />
+	
+	<image name="playButton" x="-80" y="0">play.png</image>
+	
+	<image name="checkButton" x="488" y="488">check.png</image> 
+	
+	<image name="bbl1">bbl.png</image> <!-- free -->
+	<image name="bbl2">clear.gif</image> <!-- locked -->
+	
+	<generic name="dragY">-10</generic>
+	<generic name="slideDuration">200</generic>
+	
+	<grid name="itemGrid">
+		<dimensions rows="10" cols="1" />
+		<position x="135" y="142" />
+		<spacing x="0" y="60" />
+	</grid>
+	
+	<grid name="bblGrid">
+		<dimensions rows="1" cols="10" />
+		<position x="0" y="-2" />
+		<spacing x="51" y="0" />
+	</grid>
+	
+	<textfield name="afterCorrectField">
+		<position x="0" y="-10" />
+		<size w="550" h="50" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="left" />
+	</textfield>
+
+		<loader name="ui">
+		<image name="background">bg.png</image>
+				
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[Reporting Pollution Incidents / Ex 1]]></text>
+		</textfield>
+		
+		<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="23" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[The Marine Environment]]></text>
+		</textfield>
+		
+		<textpoints name="score">
+			<values max="10" correct="1" error="0" min="0" correctOnFirst="2" />
+			<background x="82" y="494">scorebg.png</background>
+			<points>
+				<position x="82" y="504" />
+				<size w="67" h="39" />
+				<format fontFamily="Arial" color="0x1A619F" size="16" bold="true" align="center" />
+				<text><![CDATA[{points} / {maxpoints}]]></text>
+			</points>
+			<complete>
+				<fx type="fade" from="0" to="1" duration="300" />
+				<fx type="move" x="218" y="482" duration="500" delay="1500" />
+				<fx type="scale" to="0.55" from="1" duration="500" delay="1500" />
+				<ranges>
+					<range min="-10000">
+						<image x="230" y="209">done.gif</image>
+					</range>
+				</ranges>
+			</complete>
+		</textpoints>
+		
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="150" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Click "Play". Listen. Put the words in order to make sentences.]]></text>
+			</textfield>
+		</info>
+	</loader>
+	
+</style>

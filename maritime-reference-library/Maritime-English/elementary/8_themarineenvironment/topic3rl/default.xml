@@ -1,0 +1,66 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me3001a.mp3</audio>
+		<audio>me3001b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="33307">
+			<text><![CDATA[
+
+
+
+
+
+
+Oil spills put the marine environment at risk. They threaten public health, destroy natural resources and severely disrupt the economy. Do you know how oil enters the marine environment? We have all heard of oil tankers losing their cargo into the ocean. This involves many tons of oil being spilled into the sea causing an oil slick which pollutes the waters and beaches and kills wildlife. But there are other ways in which oil gets into the sea. Oil may be lost during shipping operations such as loading and discharging or bunkering.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="60" />
+				<text time="2925" duration="5500" start="60" end="149" />
+				<text time="8600" duration="2750" start="149" end="200" />
+				<text time="11825" duration="3750" start="200" end="268" />
+				<text time="15775" duration="8250" start="268" end="405" />
+				<text time="24225" duration="3250" start="405" end="462" />
+				<text time="27725" duration="5500" start="462" end="551" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="19332">
+			<text><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+It may also enter the sea as a result of offshore oil exploration and production. Natural processes also play a role. Natural deposits of oil exist in the environment and natural disasters, such as the eruption of a volcano, can trigger oil seeps into the ocean through cracks in the Earth's surface.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="4500" start="0" end="95" />
+				<text time="4925" duration="2500" start="95" end="131" />
+				<text time="7650" duration="6750" start="132" end="238" />
+				<text time="14675" duration="4500" start="239" end="316" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

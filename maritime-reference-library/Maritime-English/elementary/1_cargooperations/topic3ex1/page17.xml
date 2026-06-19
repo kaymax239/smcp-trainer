@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="Showing">
+      <name>page17</name>
+      <background>page17/pipeline.jpg</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page17/pw051.mp3</file>
+              <text><![CDATA[
+The main pipelines connect with cargo pumps and the deck pipelines. The diameters of the deck pipelines vary from 25 to 91 centimeters. Drop lines are the loading lines which lead vertically from the deck lines to the tank lines. The pipeline going to a tank is called a branch line.
+Besides cargo lines, there are stripping lines on a tanker. Stripping lines are small pipelines, connected to low-capacity pumps, which are used for draining or stripping out the last few centimetres of oil in the tanks. The oil stripped out is pumped to an aft cargo tank, known as the slop tank, and from there it is pumped ashore by a main cargo pump. The stripping lines and pumps are also used in tank washing and ballast operations.
+For cargo transfer there are different kinds of valves within the pipeline system. Master valves are fitted in the places where a fore-and-aft pipeline passes through a tank bulkhead. Master valves separate tanks in a fore-and-aft direction.
+The crossover valves separate the main lines from each other and, also, the individual tanks from each other. Crossovers separate tanks in port-starboard direction. For example, a crossover valve separates tank 1P from 1C. Drop valves control the flow of the cargo in the drop lines. Tank valves control the cargo flow into and out of a tank.
+Ship and shore personnel should keep a close watch for the escape of oil during cargo transfer operations. In case oil escapes there are emergency stops in different places. Besides the one which we saw on the pumping plant, there are emergency stops on the jetty and in the control rooms. 
+]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">true</requireNext>
+            </action>
+            <action actionType="loadScene">
+              <file>page18.xml</file>
+            </action>
+          </actions>
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false" />
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

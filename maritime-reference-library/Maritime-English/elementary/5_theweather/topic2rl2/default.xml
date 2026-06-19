@@ -1,0 +1,76 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>tw2002a.mp3</audio>
+		<audio>tw2002b.mp3</audio>
+		<audio>tw2002c.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+		<image:img1 x="0" y="0">pic1.png</image:img1>
+		<image:img2 x="0" y="0">pic2.png</image:img2>
+		<image:img3 x="0" y="0">pic3.png</image:img3>
+		<image:img4 x="0" y="0">pic4.png</image:img4>
+		<image:img5 x="0" y="0">pic5.png</image:img5>
+		<image:img6 x="0" y="0">pic6.png</image:img6>
+		<image:img7 x="0" y="0">pic7.png</image:img7>
+		<image:img8 x="0" y="0">pic8.png</image:img8>
+		<image:img9 x="0" y="0">pic9.png</image:img9>
+		<image:img10 x="0" y="0">pic10.png</image:img10>
+		<image:img11 x="0" y="0">pic9.png</image:img11>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="16511">
+			<text><![CDATA[This picture shows the circulation of air across the world. Easterly winds blow from the East. Westerly winds blow from the West. Northerly winds blow from the North. Southerly winds blow from the South. In the northern hemisphere polar air comes from the North.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2750" start="0" end="59" />
+				<text time="3200" duration="2250" start="59" end="94" />
+				<text time="5625" duration="2250" start="94" end="129" />
+				<text time="8050" duration="2000" start="129" end="166" />
+				<text time="10200" duration="2500" start="166" end="203" />
+				<text time="12900" duration="3500" start="203" end="262" />
+				<image time="3200" duration="2250" fadeIn="0" fadeOut="0" caption="" fileIndex="1" />
+				<image time="5625" duration="2250" fadeIn="0" fadeOut="0" caption="" fileIndex="2" />
+				<image time="8050" duration="2000" fadeIn="0" fadeOut="0" caption="" fileIndex="3" />
+				<image time="10200" duration="2500" fadeIn="0" fadeOut="0" caption="" fileIndex="4" />
+				<image time="12900" duration="3500" fadeIn="0" fadeOut="0" caption="" fileIndex="5" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="16824">
+			<text><![CDATA[In the southern hemisphere polar air comes from the South. Trade winds blow towards the Equator,  on both sides of the zone with no wind. This is the Equatorial trough , also called the Doldrums. The Roaring Forties are gale winds in the southern hemisphere. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="3000" start="0" end="58" />
+				<text time="3425" duration="5000" start="58" end="138" />
+				<text time="8800" duration="4250" start="138" end="197" />
+				<text time="13225" duration="3500" start="197" end="260" />
+				<image time="250" duration="3000" fadeIn="0" fadeOut="0" caption="" fileIndex="6" />
+				<image time="3425" duration="5000" fadeIn="0" fadeOut="0" caption="" fileIndex="7" />
+				<image time="8800" duration="4250" fadeIn="0" fadeOut="0" caption="" fileIndex="8" />
+				<image time="13225" duration="3500" fadeIn="0" fadeOut="0" caption="" fileIndex="9" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="15596">
+			<text><![CDATA[There are many variable winds in the northern and southern hemispheres. There are also local winds in different parts of the world such as the Mistral in the south of France or the Bora in the Adriatic Sea. They are seasonal winds and regional winds.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="3500" start="0" end="71" />
+				<text time="3950" duration="8750" start="71" end="206" />
+				<text time="12925" duration="2500" start="206" end="250" />
+				<image time="250" duration="3500" fadeIn="0" fadeOut="0" caption="" fileIndex="10" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

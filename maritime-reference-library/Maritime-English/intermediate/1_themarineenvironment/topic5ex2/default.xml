@@ -1,0 +1,156 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<list:pages>
+		<list:items displayTextAfterCorrect="true">
+			<item audio="me52011.mp3" >
+				<text>If oil can be seen it is likely to be an illegal discharge.</text>
+				<list:parts>
+					<part audio="me52001.mp3" />
+					<part audio="me52002.mp3" />
+					<part audio="me52003.mp3" />
+					<part audio="me52004.mp3" />
+					<part audio="me52005.mp3" />
+					<part audio="me52006.mp3" />
+					<part audio="me52007.mp3" />
+					<part audio="me52008.mp3" />
+					<part audio="me52009.mp3" />
+					<part audio="me52010.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me52022.mp3">
+				<text>If you witness any discharge from a ship involving washings of chemical or dry cargoes the pollution activity should be reported.</text>
+				<list:parts>
+					<part audio="me52012.mp3" />
+					<part audio="me52013.mp3" />
+					<part audio="me52014.mp3" />
+					<part audio="me52015.mp3" />
+					<part audio="me52016.mp3" />
+					<part audio="me52017.mp3" />
+					<part audio="me52018.mp3" />
+					<part audio="me52019.mp3" />
+					<part audio="me52020.mp3" />
+					<part audio="me52021.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me52033.mp3">
+				<text>If you observe garbage disposed of in the sea within twelve nautical miles from the land you can report the pollution to the local port.</text>
+				<list:parts>
+					<part audio="me52023.mp3" />
+					<part audio="me52024.mp3" />
+					<part audio="me52025.mp3" />
+					<part audio="me52026.mp3" />
+					<part audio="me52027.mp3" />
+					<part audio="me52028.mp3" />
+					<part audio="me52029.mp3" />
+					<part audio="me52030.mp3" />
+					<part audio="me52031.mp3" />
+					<part audio="me52032.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me52043.mp3">
+				<text>If you witness a vessel polluting you have to report the incident.</text>
+				<list:parts>
+					<part audio="me52034.mp3" />
+					<part audio="me52035.mp3" />
+					<part audio="me52036.mp3" />
+					<part audio="me52037.mp3" />
+					<part audio="me52038.mp3" />
+					<part audio="me52039.mp3" />
+					<part audio="me52040.mp3" />
+					<part audio="me52041.mp3" />
+					<part audio="me52042.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me52053.mp3">
+				<text>If possible you should provide relevant details of the incident.</text>
+				<list:parts>
+					<part audio="me52044.mp3" />
+					<part audio="me52045.mp3" />
+					<part audio="me52046.mp3" />
+					<part audio="me52047.mp3" />
+					<part audio="me52048.mp3" />
+					<part audio="me52049.mp3" />
+					<part audio="me52050.mp3" />
+					<part audio="me52051.mp3" />
+					<part audio="me52052.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+		<list:items displayTextAfterCorrect="true">
+			<item audio="me52062.mp3" >
+				<text>If possible you should communicate when and where the incident occurred.</text>
+				<list:parts>
+					<part audio="me52054.mp3" />
+					<part audio="me52055.mp3" />
+					<part audio="me52056.mp3" />
+					<part audio="me52057.mp3" />
+					<part audio="me52058.mp3" />
+					<part audio="me52059.mp3" />
+					<part audio="me52060.mp3" />
+					<part audio="me52061.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me52072.mp3">
+				<text>If possible you should note down the name of the vessel.</text>
+				<list:parts>
+					<part audio="me52063.mp3" />
+					<part audio="me52064.mp3" />
+					<part audio="me52065.mp3" />
+					<part audio="me52066.mp3" />
+					<part audio="me52067.mp3" />
+					<part audio="me52068.mp3" />
+					<part audio="me52069.mp3" />
+					<part audio="me52070.mp3" />
+					<part audio="me52071.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me52083.mp3">
+				<text>If you notice a vessel having accidental spillage of oil you should report type and extent of pollution.</text>
+				<list:parts>
+					<part audio="me52073.mp3" />
+					<part audio="me52074.mp3" />
+					<part audio="me52075.mp3" />
+					<part audio="me52076.mp3" />
+					<part audio="me52077.mp3" />
+					<part audio="me52078.mp3" />
+					<part audio="me52079.mp3" />
+					<part audio="me52080.mp3" />
+					<part audio="me52081.mp3" />
+					<part audio="me52082.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me52094.mp3">
+				<text>If you observe a vessel incinerating waste you must inform the marine.</text>
+				<list:parts>
+					<part audio="me52084.mp3" />
+					<part audio="me52085.mp3" />
+					<part audio="me52086.mp3" />
+					<part audio="me52087.mp3" />
+					<part audio="me52088.mp3" />
+					<part audio="me52089.mp3" />
+					<part audio="me52090.mp3" />
+					<part audio="me52091.mp3" />
+					<part audio="me52092.mp3" />
+					<part audio="me52093.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me52105.mp3">
+				<text>If you locate a vessel dumping chemicals you should inform the coastguard.</text>
+				<list:parts>
+					<part audio="me52095.mp3" />
+					<part audio="me52096.mp3" />
+					<part audio="me52097.mp3" />
+					<part audio="me52098.mp3" />
+					<part audio="me52099.mp3" />
+					<part audio="me52100.mp3" />
+					<part audio="me52101.mp3" />
+					<part audio="me52102.mp3" />
+					<part audio="me52103.mp3" />
+					<part audio="me52104.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+	</list:pages>
+</root>

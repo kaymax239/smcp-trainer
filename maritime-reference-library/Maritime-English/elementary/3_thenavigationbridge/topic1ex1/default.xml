@@ -1,0 +1,36 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="audio/" prefix="" suffix="" />
+	
+	<list:items boolean:displayReflection="false">
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page1Bg">
+			
+			<item audio="nb11001.mp3" wrongAudio=".mp3" rigthAudio="nb11001.mp3">
+				<text><![CDATA[barometer]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb11002.mp3" wrongAudio=".mp3" rigthAudio="nb11002.mp3">
+				<text><![CDATA[satellite aerial]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb11003.mp3" wrongAudio=".mp3" rigthAudio="nb11003.mp3">
+				<text><![CDATA[navigating bridge]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb11004.mp3" wrongAudio=".mp3" rigthAudio="nb11004.mp3">
+				<text><![CDATA[fire extinguisher]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb11005.mp3" wrongAudio=".mp3" rigthAudio="nb11005.mp3">
+				<text><![CDATA[DGPS]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb11006.mp3" wrongAudio=".mp3" rigthAudio="nb11006.mp3">
+				<text><![CDATA[echo sounder]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+	</list:items>
+</root>

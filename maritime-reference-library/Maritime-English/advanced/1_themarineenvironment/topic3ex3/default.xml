@@ -1,0 +1,222 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="17" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:gapFieldFirst="false" boolean:shuffle="true" boolean:repeatNext="false" boolean:repeatLast="true" boolean:showCorrectAfterMultipleChoice="true">
+		<item>
+			<sentence rigthAudio="me0014.mp3"><![CDATA[Tributyltin (TBT) used to be the most popular <biocide> used.]]></sentence>
+        	<list:choises>
+				<item>
+					<![CDATA[pesticide]]>
+				</item>
+				<item>
+					<![CDATA[combustion]]>
+				</item>
+			</list:choises>
+        </item>
+		<item>
+			<sentence rigthAudio="me0015.mp3"><![CDATA[Tributyltin (TBT) lasts <a lot longer than> copper-based anti-foulings.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[shorter]]>
+				</item>				
+				<item>
+					<![CDATA[as long as]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0016.mp3"><![CDATA[Tributyltin (TBT) can also be used on <aluminium> hulls.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[wooden]]>
+				</item>
+				<item>
+					<![CDATA[steel]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0017.mp3"><![CDATA[Tributyltin (TBT) was banned by the IMO in 1987 because of its damage to <shellfish> communities.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[fish populations]]>
+				</item>				
+				<item>
+					<![CDATA[marine mammals]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0018.mp3"><![CDATA[Copper is <less effective than> TBT.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[more effective than]]>
+				</item>				
+				<item>
+					<![CDATA[as effective as]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0019.mp3"><![CDATA[Copper is an element which <naturally> occurs.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[seldom]]>
+				</item>				
+				<item>
+					<![CDATA[abnormally]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0020.mp3"><![CDATA[Too high concentrations of copper prove to be extremely <toxic> to marine life.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[beneficial]]>
+				</item>
+				<item>
+					<![CDATA[enriching]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0021.mp3"><![CDATA[Certain species of fish and other marine organisms such as marine invertebrates are <sensitive> to quite low levels of copper.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[immune]]>
+				</item>				
+				<item>
+					<![CDATA[harmful]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0022.mp3"><![CDATA[Copper results in reduced plant growth and  <a reduction> in photosynthesis.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[an increase]]>
+				</item>	
+				<item>
+					<![CDATA[a balance]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0023.mp3"><![CDATA[The biggest copper polluters are industrial wastewater <discharges> and atmospheric deposition.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[recharges]]>
+				</item>				
+				<item>
+					<![CDATA[cargoes]]>
+				</item>
+			</list:choises>
+		</item>
+			<item>
+			<sentence rigthAudio="me0023.mp3"><![CDATA[The biggest copper polluters are industrial wastewater discharges and atmospheric <deposition>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[disposition]]>
+				</item>				
+				<item>
+					<![CDATA[positioning]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0024.mp3"><![CDATA[<Organic> biocides are usually combined with copper.]]></sentence>
+        	<list:choises>
+				<item>
+					<![CDATA[Synthetic]]>
+				</item>
+				<item>
+					<![CDATA[Combustion]]>
+				</item>
+			</list:choises>
+        </item>
+		<item>
+			<sentence rigthAudio="me0025.mp3"><![CDATA[Organic biocides are <less effective> since they only kill one specific type of fouling organism.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[more effective]]>
+				</item>				
+				<item>
+					<![CDATA[very effective]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0026.mp3"><![CDATA[Teflon is used on racing <yachts>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[catamarans]]>
+				</item>
+				<item>
+					<![CDATA[rowing boats]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0027.mp3"><![CDATA[Teflon creates less <friction> on the surface.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[gliding]]>
+				</item>				
+				<item>
+					<![CDATA[breaking]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0028.mp3"><![CDATA[The smoothness of Teflon reduces the <settlement> of organisms.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[release]]>
+				</item>				
+				<item>
+					<![CDATA[dispersion]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0029.mp3"><![CDATA[Teflon is not such an effective antifouling <coating>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[coasting]]>
+				</item>				
+				<item>
+					<![CDATA[loading]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0030.mp3"><![CDATA[Silicon is a difficult material to work with because it is <soft>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[hard]]>
+				</item>
+				<item>
+					<![CDATA[weak]]>
+				</item>
+			</list:choises>
+		</item>
+	</list:items>
+</root>

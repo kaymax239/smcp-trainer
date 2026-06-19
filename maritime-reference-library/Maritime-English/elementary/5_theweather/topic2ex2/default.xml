@@ -1,0 +1,17 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:image="http://www.lingonet.com/xml/image">
+	
+	<list:pages>
+		<page>
+			<list:texts>
+				<text x="50" y="120" w="140" h="220" audio="tw22001.mp3" playX="88" playY="335"><![CDATA[<b>December – March</b><BR><BR>Usually quite cold, lots of snow in January and February, sunny days but many frosty nights. Jan. and Feb. are the coldest months. March brings a change in the weather.]]></text>
+				<text x="210" y="120" w="140" h="220" audio="tw22002.mp3" playX="248" playY="335"><![CDATA[<b>April – June</b><BR><BR>Nice weather but it rains sometimes. It can often be wet and windy but it is becoming warmer. May can be very mild with long days and. June sometimes brings a heat wave. The weather is getting better.]]></text>
+				<text x="370" y="120" w="140" h="220" audio="tw22003.mp3" playX="408" playY="335"><![CDATA[<b>July – August</b><BR><BR>The warmest months with hot weather, lots of bright sunny days, cool sea breezes. The best time to go to the beach. The water in the Baltic sea becomes warmer. Occasional showers.]]></text>
+				<text x="530" y="120" w="140" h="220" audio="tw22004.mp3" playX="568" playY="335"><![CDATA[<b>September – Nov.</b><BR><BR>The weather is often nice in September but it changes in November becoming windy and rainy. It becomes cold and is often foggy. The days grow shorter and it gets dark very early.]]></text>
+				<text x="50" y="380" w="650" h="60"><![CDATA[Make a similar table for your country or your region of the world. Use the words from the exercises. Record your sentences onto your computer and discuss them with your teacher and other students.]]></text>
+			</list:texts>
+			<list:covers>
+			</list:covers>
+		</page>
+	</list:pages>
+</root>

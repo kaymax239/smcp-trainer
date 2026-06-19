@@ -1,0 +1,49 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="17"><b>Survival in cold weather</b></font><br><br><font size="15">Protect yourself against cold weather by adding clothes.<br>Prevent injuries.<br>Wear several layers of loose clothing.<br>Touch cold metal with gloves or mittens, not with bare skin.<br>Avoid wind.<br>Keep your head warm.<br>Remove wet clothes.<br>Rewarm the affected area gently.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[Protect]]></text>
+					<correct><![CDATA[Protect]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[Prevent]]></text>
+					<correct><![CDATA[Prevent]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[Wear]]></text>
+					<correct><![CDATA[Wear]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[Touch]]></text>
+					<correct><![CDATA[Touch]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[Avoid]]></text>
+					<correct><![CDATA[Avoid]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[Keep]]></text>
+					<correct><![CDATA[Keep]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[Remove]]></text>
+					<correct><![CDATA[Remove]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[Rewarm]]></text>
+					<correct><![CDATA[Rewarm]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

@@ -1,0 +1,41 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me2001.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="60865">
+			<text><![CDATA[Pollution in general refers to the pollution of air, water or soil by material that is harmful to life on earth, namely all plants, animals and human beings. 
+There are different kinds of pollution caused either by nature (e.g. volcanic eruptions) or by man (e.g. oil spills and industrial waste in sewer pipes). 
+We can categorise pollution as follows
+- light pollution: extreme light emission due to modern city life 
+- noise pollution: loud harmful or annoying continuous noise  
+- thermal pollution: heat from hot water discharged by industry into rivers, lakes or seas, killing or endangering the marine environment. 
+In the following texts we will concentrate on marine pollution namely chemicals or particles which enter the water and have a negative or even harmful effect on marine life.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="7250" start="0" end="112" />
+				<text time="7575" duration="3500" start="112" end="157" />
+				<text time="11775" duration="6000" start="157" end="248" />
+				<text time="18225" duration="5750" start="249" end="313" />
+				<text time="24925" duration="2750" start="313" end="354" />
+				<text time="28450" duration="4500" start="354" end="421" />
+				<text time="33725" duration="5250" start="421" end="484" />
+				<text time="39675" duration="9500" start="484" end="626" />
+				<text time="49950" duration="10750" start="626" end="803" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

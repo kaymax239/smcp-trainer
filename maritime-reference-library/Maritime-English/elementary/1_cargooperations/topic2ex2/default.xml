@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root	xmlns:list="http://www.lingonet.com/list"	xmlns:number="http://www.lingonet.com/number"
+		xmlns:image="http://www.lingonet.com/image"	xmlns:meta="http://www.lingonet.com/meta"
+		xmlns:boolean="http://www.lingonet.com/boolean">
+	<list:items promptAudio="groupPrompt.mp3" boolean:freeSelection="false" boolean:autoPlayAnswers="true" number:autoPlayDelay="1000" boolean:sequence="true" boolean:useReflection="true">
+		<item boolean:robot="true">
+			<promptAudio>co23001.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23001.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23002.mp3" />
+				<answer audio="co23003.mp3" />
+			</list:distractors>
+			
+			<image:picture x="58" y="181">bar.png</image:picture>
+			<pictureAudio>co23001.mp3</pictureAudio>
+		</item>
+		
+		<item>
+			<promptAudio>co23004.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23004.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23005.mp3" />
+				<answer audio="co23006.mp3" />
+			</list:distractors>
+			
+			<image:picture x="211" y="181">click.png</image:picture>
+			<pictureAudio>co23004.mp3</pictureAudio>
+		</item>
+		
+		<item>
+			<promptAudio>co23007.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23007.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23008.mp3" />
+				<answer audio="co23009.mp3" />
+			</list:distractors>
+			
+			<image:picture x="364" y="181">cube.png</image:picture>
+			<pictureAudio>co23007.mp3</pictureAudio>
+		</item>
+		
+		<item>
+			<promptAudio>co23010.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23010.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23011.mp3" />
+				<answer audio="co23012.mp3" />
+			</list:distractors>
+			
+			<image:picture x="517" y="181">tank.png</image:picture>
+			<pictureAudio>co23010.mp3</pictureAudio>
+		</item>
+		
+		<item>
+			<promptAudio>co23013.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23013.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23014.mp3" />
+				<answer audio="co23015.mp3" />
+			</list:distractors>
+			
+			<image:picture x="58" y="253">sun.png</image:picture>
+			<pictureAudio>co23013.mp3</pictureAudio>
+		</item>
+		
+		<item>
+			<promptAudio>co23016.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23016.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23017.mp3" />
+				<answer audio="co23018.mp3" />
+			</list:distractors>
+			
+			<image:picture x="211" y="253">space.png</image:picture>
+			<pictureAudio>co23016.mp3</pictureAudio>
+		</item>
+		
+		<item>
+			<promptAudio>co23019.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23019.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23020.mp3" />
+				<answer audio="co23021.mp3" />
+			</list:distractors>
+			
+			<image:picture x="364" y="253">foot.png</image:picture>
+			<pictureAudio>co23019.mp3</pictureAudio>
+		</item>
+		
+		<item>
+			<promptAudio>co23022.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23022.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23023.mp3" />
+				<answer audio="co23024.mp3" />
+			</list:distractors>
+			
+			<image:picture x="517" y="253">twist.png</image:picture>
+			<pictureAudio>co23022.mp3</pictureAudio>
+		</item>
+		
+		<item>
+			<promptAudio>co23025.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23025.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23026.mp3" />
+				<answer audio="co23027.mp3" />
+			</list:distractors>
+			
+			<image:picture x="135" y="328">lock.png</image:picture>
+			<pictureAudio>co23025.mp3</pictureAudio>
+		</item>
+		
+		<item>
+			<promptAudio>co23028.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23028.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23029.mp3" />
+				<answer audio="co23030.mp3" />
+			</list:distractors>
+			
+			<image:picture x="288" y="328">block.png</image:picture>
+			<pictureAudio>co23028.mp3</pictureAudio>
+		</item>
+		
+		<item>
+			<promptAudio>co23031.mp3</promptAudio>
+			<correctAudio>nosound.mp3</correctAudio>
+			<wrongAudio>nosound.mp3</wrongAudio>
+			
+			<image:bubble x="338" y="234">target.png</image:bubble>
+			<image:answerBubble x="338" y="234">bbl.png</image:answerBubble>
+			
+			<correctAnswer audio="co23031.mp3" />
+			<list:distractors meta:randomize="true" meta:slice="2">
+				<answer audio="co23032.mp3" />
+				<answer audio="co23033.mp3" />
+			</list:distractors>
+			
+			<image:picture x="440" y="328">bridge.png</image:picture>
+			<pictureAudio>co23031.mp3</pictureAudio>
+		</item>
+		
+	</list:items>
+</root>

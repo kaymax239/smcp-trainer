@@ -1,0 +1,36 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="audio/" prefix="" suffix="" />
+	
+	<list:items boolean:displayReflection="false">
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page1Bg">
+			
+			<item audio="nb12001.mp3" wrongAudio=".mp3" rigthAudio="nb12001.mp3">
+				<text><![CDATA[fire control plan]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb12002.mp3" wrongAudio=".mp3" rigthAudio="nb12002.mp3">
+				<text><![CDATA[AIS]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb12003.mp3" wrongAudio=".mp3" rigthAudio="nb12003.mp3">
+				<text><![CDATA[lifeboat]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb12004.mp3" wrongAudio=".mp3" rigthAudio="nb12004.mp3">
+				<text><![CDATA[liferaft]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb12005.mp3" wrongAudio=".mp3" rigthAudio="nb12005.mp3">
+				<text><![CDATA[Navtex Receiver]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb12006.mp3" wrongAudio=".mp3" rigthAudio="nb12006.mp3">
+				<text><![CDATA[NLI]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+	</list:items>
+</root>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header>
+  
+  </header>
+  <body>
+    <items type="list">
+      <!--<item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:46" y="number:370" />
+        <text>peak flow meter</text>
+        <audioFile>audio/fa3007.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Right</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">P____ F_____ M______</hint>
+          <hint hintType="audio" cost="2">audio/fa3007.mp3</hint>
+          <hint hintType="spell" cost="3">peak flow meter</hint>
+        </hints>
+      </item>-->
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:84" y="number:257" />
+        <text>oxygen unit</text>
+        <audioFile>audio/fa3002.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Up</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">O_______ U_____</hint>
+          <hint hintType="audio" cost="2">audio/fa3002.mp3</hint>
+          <hint hintType="spell" cost="3">oxygen unit</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:161" y="number:133" />
+        <text>tubing</text>
+        <audioFile>audio/fa3006.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Down</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">T_______</hint>
+          <hint hintType="audio" cost="2">audio/fa3006.mp3</hint>
+          <hint hintType="spell" cost="3">tubing</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:216" y="number:217" />
+        <text>oxygen mask</text>
+        <audioFile>audio/fa3001.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Down</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">O______ M____</hint>
+          <hint hintType="audio" cost="2">audio/fa3001.mp3</hint>
+          <hint hintType="spell" cost="3">oxygen mask</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:293" y="number:276" />
+        <text>glyceryl trinitrate</text>
+        <audioFile>audio/fa3003.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Up</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">G_______ T________</hint>
+          <hint hintType="audio" cost="2">audio/fa3003.mp3</hint>
+          <hint hintType="spell" cost="3">glyceryl trinitrate</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:503" y="number:178" />
+        <text>stethoscope</text>
+        <audioFile>audio/fa3005.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Left</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">S__________</hint>
+          <hint hintType="audio" cost="2">audio/fa3005.mp3</hint>
+          <hint hintType="spell" cost="3">stethoscope</hint>
+        </hints>
+      </item>
+    </items>
+  </body>
+</root>

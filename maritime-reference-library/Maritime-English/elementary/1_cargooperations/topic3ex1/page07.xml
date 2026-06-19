@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page07</name>
+      <background>page07/P1160059.JPG</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page07/pw022.mp3</file>
+              <text><![CDATA[The liquefied cargo is loaded by means of pipes from shore facilities. Before the cargo flows into the ship’s tanks it goes through the pipes and shore hoses or metal loading arms mounted on the jetty. Now, turn to the left to see the loading arms and hoses.]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">false</requireNext>
+            </action>
+          </actions>
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false" />
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false">
+            <action actionType="loadScene">
+              <file>page08.xml</file>
+            </action>
+          </actions>
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

@@ -1,0 +1,71 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>er3001a.mp3</audio>
+		<audio>er3001b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+		<image:img1 x="0" y="0">page2.jpg</image:img1>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="31087">
+			<text><![CDATA[Good morning. Can I ask you a few questions regarding the watchkeeping duties of a motorman? 
+No problem, go ahead. 
+
+Ok, my first question is: what does a motorman have to do when he starts his watch?
+First of all, he must inspect the engine room, the steering gear room, the emergency fire pump compartment and the air conditioning compartment. He must also check the lubricating oil, the fuel oil sludge and the water levels of the engine room tanks.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="5000" start="0" end="92" />
+				<text time="5525" duration="2000" start="92" end="116" />
+				<text time="7725" duration="5250" start="116" end="204" />
+				<text time="13650" duration="1250" start="204" end="219" />
+				<text time="15050" duration="2250" start="220" end="252" />
+				<text time="17400" duration="1250" start="252" end="276" />
+				<text time="18775" duration="2750" start="276" end="312" />
+				<text time="21600" duration="2000" start="312" end="350" />
+				<text time="24125" duration="2500" start="350" end="390" />
+				<text time="26675" duration="1500" start="390" end="410" />
+				<text time="28225" duration="2750" start="411" end="457" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="43599">
+			<text><![CDATA[Is checking working and stand-by equipment part of the motormans duty?
+Yes, of course. And, in addition, he must also check equipment for abnormal sound and vibrations and check the bilge space for abnormal leakages. He must report everything to the duty engineer.
+
+What about his duties during the watch? 
+A motorman must inspect the engine room and related rooms at regular intervals and keep the engine room clean. If he observes any abnormal leakage, he must report it to the duty engineer immediately. 
+
+What does the motorman have to do at the end of his watch?
+He must clean equipment and make sure that the next motorman is ready for duty.]]></text>
+			<background fileIndex="1"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="4000" start="0" end="71" />
+				<text time="4750" duration="1000" start="71" end="88" />
+				<text time="6150" duration="1250" start="88" end="106" />
+				<text time="7625" duration="4000" start="106" end="169" />
+				<text time="11825" duration="3250" start="170" end="218" />
+				<text time="15625" duration="2750" start="219" end="267" />
+				<text time="19300" duration="2250" start="270" end="309" />
+				<text time="22025" duration="4750" start="312" end="390" />
+				<text time="26800" duration="1900" start="391" end="422" />
+				<text time="29150" duration="2500" start="422" end="459" />
+				<text time="31775" duration="3250" start="459" end="511" />
+				<text time="35575" duration="2500" start="516" end="575" />
+				<text time="38625" duration="1750" start="576" end="599" />
+				<text time="40375" duration="3000" start="599" end="655" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

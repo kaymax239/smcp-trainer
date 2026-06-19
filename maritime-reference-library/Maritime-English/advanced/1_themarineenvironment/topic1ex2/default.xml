@@ -1,0 +1,134 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:gapFieldFirst="false" boolean:shuffle="false" boolean:repeatNext="false" boolean:repeatLast="true" boolean:showCorrectAfterMultipleChoice="true">
+		<item>
+			<sentence rigthAudio="me12001.mp3"><![CDATA[<Large> spills can be devastating.]]></sentence>
+				<list:choises>
+				<item>
+					<![CDATA[Small]]>
+				</item>
+				<item>
+					<![CDATA[Negligible]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me12002.mp3"><![CDATA[Spills, even though a relatively <minor> case of ocean oil pollution.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[major]]>
+				</item>				
+				<item>
+					<![CDATA[minimum]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me12003.mp3"><![CDATA[Coral reefs and mangroves are <more> sensitive to oil than sandy beaches.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[less]]>
+				</item>
+				<item>
+					<![CDATA[equally]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me12004.mp3"><![CDATA[Intertidal zones are <the most> sensitive.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[the least]]>
+				</item>				
+				<item>
+					<![CDATA[the more]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me12005.mp3"><![CDATA[Oil exposure can cause <long-term> harm.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[medium-term]]>
+				</item>				
+				<item>
+					<![CDATA[short-term]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me12006.mp3"><![CDATA[<Bottom-dwelling> fish are exposed to compounds released after oil spills.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[Under-dwelling]]>
+				</item>				
+				<item>
+					<![CDATA[Surface-dwelling]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me12007.mp3"><![CDATA[Compounds are released <after> oil spills.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[previous]]>
+				</item>
+				<item>
+					<![CDATA[before]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me12008.mp3"><![CDATA[The 1986 spill was one of the <largest> in tropical North America.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[longest]]>
+				</item>				
+				<item>
+					<![CDATA[smallest]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me12009.mp3"><![CDATA[Five years <later>, mangrove sediments still held oil.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[longer]]>
+				</item>	
+				<item>
+					<![CDATA[earlier]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me12010.mp3"><![CDATA[It was thought that the mangroves would take fifty years to <fully> recover.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[minimally]]>
+				</item>				
+				<item>
+					<![CDATA[partly]]>
+				</item>
+			</list:choises>
+		</item>
+	</list:items>
+</root>

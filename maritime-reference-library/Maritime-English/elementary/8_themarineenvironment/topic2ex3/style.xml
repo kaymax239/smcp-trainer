@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res/">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	<image name="done" x="230" y="209">clear.gif</image>
+	<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+	<filter name="shadow" type="shadow" alpha="0.4" />
+	
+<image name="background">clear.gif</image>
+	
+	<point name="bbl1point" x="30" y="127" />
+	<point name="bbl2point" x="367" y="127" />
+	
+	<rectangle name="dragBounds1" x="-10" y="-5" h="250" w="0" />
+	<rectangle name="dragBounds2" x="10" y="-5" h="250" w="0" />
+	<image name="check" x="488" y="488">check.png</image>
+	<generic name="blockLockSlideAmount" type="Number">13</generic>
+	<grid name="bblGrid">
+		<dimensions rows="30" cols="1" />
+		<position x="0" y="0" />
+		<spacing x="0" y="59" />
+	</grid>
+	<image name="bbl1">block1.png</image>
+	<textfield name="bbl1Field">
+		<position x="5" y="-1" />
+		<size w="305" h="52" />
+		<format fontFamily="Arial" color="0x000000" size="14" align="left" />
+		<text>teksti</text>
+	</textfield>
+	<image name="bbl2">block2.png</image>
+	<textfield name="bbl2Field">
+		<position x="15" y="-1" />
+		<size w="300" h="52" />
+		<format fontFamily="Arial" color="0x000000" size="14" align="left" />
+		<text>teksti</text>
+	</textfield>
+
+	<generic name="pause" type="Number">0</generic>
+	<generic name="pause2" type="Number">250</generic>
+	<generic name="readHightlight" type="Number">10</generic>
+	
+	<textfield name="info-text">
+		<position x="10" y="4850" />
+		<size w="560" h="50" />
+		<format fontFamily="Arial" color="0x000000" size="14" />
+		<text></text>
+	</textfield>
+	<image name="pointsbg" x="5000" y="0">clear.gif</image>
+	<textfield name="point-field">
+	<position x="5000" y="0" />
+		<position x="31" y="553" />
+		<size w="100" h="16" />
+		<format fontFamily="Arial" color="0x000000" size="12" align="center" />
+		<text>{0} / {1}</text>
+	</textfield>	
+	<textfield name="task-name">
+		<position x="179" y="40" />
+		<size w="533" h="19" />
+		<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+		<text></text>
+	</textfield>
+
+
+	<loader name="ui">
+		<image name="background" x="0" y="0">bg.jpg</image>
+		
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[The Marine Environment and Man-made Pollution / Ex 3]]></text>
+		</textfield>
+		
+		<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[The Marine Environment]]></text>
+		</textfield>
+		
+		<textpoints name="score">
+			<values max="20" correct="1" error="0" min="0" correctOnFirst="2" />
+			<background x="82" y="494">scorebg.png</background>
+			<points>
+				<position x="82" y="504" />
+				<size w="67" h="39" />
+				<format fontFamily="Arial" color="0x1A619F" size="16" bold="true" align="center" />
+				<text><![CDATA[{points} / {maxpoints}]]></text>
+			</points>
+			<complete>
+				<fx type="fade" from="0" to="1" duration="300" />
+				<fx type="move" x="218" y="482" duration="500" delay="1500" />
+				<fx type="scale" to="0.55" from="1" duration="500" delay="1500" />
+				<ranges>
+					<range min="-10000">
+						<image x="230" y="209">done.gif</image>
+					</range>
+				</ranges>
+			</complete>
+		</textpoints>
+		
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="150" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Match the blocks on the right to the left.]]></text>
+			</textfield>
+		</info>
+	</loader>
+</style>

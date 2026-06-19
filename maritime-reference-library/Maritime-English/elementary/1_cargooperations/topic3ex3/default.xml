@@ -1,0 +1,37 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="44" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+		
+	<list:items boolean:shuffle="true" boolean:use3dFx="true" boolean:playAudioOnCorrect="true" boolean:checkOne="true" boolean:emptyBlocks="true" boolean:playAllOnComplete="true" boolean:showReflection="false" boolean:linedAudios="false">
+		<item>
+			<text>
+				<![CDATA[\nA system of pipes connects cargo tanks to |manifolds*money folds|.\n\nPortable |drip trays*trip trays| are placed under all ship and shore connections.\n\nThe |crossover*gross over| valves separate the main lines from each other.\n\nWing tanks are on port and |starboard*star port| sides of the ship.\n\nThe ship should have emergency towing-off |wires*fires| ready.\n\nThe tanks are |topped-off*dropped off|.\n\nThere are joints, |bends*pens| and valves in the pipelines.\n\nThe cargo is pumped on board by shore |pumps*bumps|.]]>
+			</text>
+			<list:audio>
+				<item audio="co32001.mp3" text="" />
+				<item audio="co32002.mp3" text="" />
+				<item audio="co32003.mp3" text="" />
+				<item audio="co32004.mp3" text="" />
+				<item audio="co32005.mp3" text="" />
+				<item audio="co32006.mp3" text="" />
+				<item audio="co32007.mp3" text="" />
+				<item audio="co32008.mp3" text="" />
+			</list:audio>
+		</item>
+	</list:items>
+</root>

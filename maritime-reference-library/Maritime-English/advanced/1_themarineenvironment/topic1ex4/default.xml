@@ -1,0 +1,45 @@
+﻿  <root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="6" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" boolean:lockLeft="true">
+		<item>
+			<block1 audio="me14001.mp3"><![CDATA[Toxic materials in sea-floor sediments become a hazard to marine life resulting in]]></block1>
+			<block2 audio="me14002.mp3"><![CDATA[a threat to organisms that live in and feed on bottom muds.]]></block2>
+		</item>
+		<item>
+			<block1 audio="me14003.mp3"><![CDATA[Long-lasting chemicals enter the food web giving rise to]]></block1>
+			<block2 audio="me14004.mp3"><![CDATA[contamination of fish and shellfish.]]></block2>
+		</item>
+		<item>
+			<block1 audio="me14005.mp3"><![CDATA[Industrial, agricultural, and household products end up in water leading to]]></block1>
+			<block2 audio="me14006.mp3"><![CDATA[toxic waste in waterways and coastal areas.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me14007.mp3"><![CDATA[Digging out rivers, canals, and harbours causes]]></block1>
+			<block2 audio="me14008.mp3"><![CDATA[toxic materials to be dredged up leading to disposal problems.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me14009.mp3"><![CDATA[Increasing ship sizes lead to]]></block1>
+			<block2 audio="me14010.mp3"><![CDATA[a continuing and growing demand for dredging.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me14011.mp3"><![CDATA[Dredged material may contain unacceptable levels of contaminants and consequently]]></block1>
+			<block2 audio="me14012.mp3"><![CDATA[disposing of it safely is a serious problem.]]></block2>
+		</item>		
+	</list:items>
+</root>

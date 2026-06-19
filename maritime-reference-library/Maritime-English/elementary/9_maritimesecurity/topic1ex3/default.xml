@@ -1,0 +1,50 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>nosound.mp3</audio>
+				<text><![CDATA[Stowaways - preventive measures
+				]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1003.mp3</audio>
+				<text><![CDATA[According to the <IMO>, the following preventive measures, which include provision of operational and security arrangements to prevent persons attempting to <stow away> on board ships from gaining access to port installations and to ships, should be observed.
+				]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1002a.mp3</audio>
+				<text><![CDATA[Recommended practices for ships include the following <minimum> security arrangements:]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1002b.mp3</audio>
+				<text><![CDATA[• all doors, <hatches> and means of <access> to <holds> or stores, which are not used during the ship’s stay in <port> should be <locked>;]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1002c.mp3</audio>
+				<text><![CDATA[• <access points> to the ship should be kept to a minimum and be adequately <secured>;]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1002d.mp3</audio>
+				<text><![CDATA[• areas <seaward> of the ship should be adequately secured;]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1002e.mp3</audio>
+				<text><![CDATA[• adequate <deck watch> should be kept;]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1002f.mp3</audio>
+				<text><![CDATA[• <boardings> and <disembarkations> should, where possible, be <tallied> by the ships crew or, after agreement with the shipmaster, by others;]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1002g.mp3</audio>
+				<text><![CDATA[• <adequate> means of <communication> should be maintained; and]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1002h.mp3</audio>
+				<text><![CDATA[• at night, adequate <lighting> should be <maintained> both inside and along the <hull>.]]></text>
+			</phrase>
+		</list:items>
+		
+	</list:items>
+</root>

@@ -1,0 +1,68 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>mei5001b.mp3</audio>
+		<audio>mei5001a.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="50548">
+			<text><![CDATA[Ships are permitted to dispose of certain types of waste at sea, but there are strict requirements as to the type of waste and the distance from land. Authorities will determine if the discharge or disposal is legal or illegal.
+  
+The following pollution activities should certainly be reported: 
+
+⁭- Any discharge of oil. If oil can be seen it is likely to be an illegal discharge. (Oil includes waste oil, fuel oil, sludge, lube oil and additives etc.)
+- Any discharge from a ship involving washings of chemical or dry cargoes
+- Any dumping of waste
+- Any dumping of plastic material
+- Garbage disposed of in the sea within 12 nautical miles from the land. (Garbage includes food, paper, bottles etc.)
+]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="3250" start="0" end="64" />
+				<text time="3800" duration="4750" start="65" end="150" />
+				<text time="9000" duration="5250" start="151" end="227" />
+				<text time="14900" duration="3750" start="231" end="295" />
+				<text time="19525" duration="5750" start="298" end="382" />
+				<text time="25625" duration="6250" start="383" end="454" />
+				<text time="32275" duration="5000" start="455" end="528" />
+				<text time="37625" duration="1500" start="529" end="551" />
+				<text time="39400" duration="2250" start="552" end="585" />
+				<text time="41950" duration="4750" start="586" end="658" />
+				<text time="46925" duration="3500" start="659" end="703" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="25157">
+			<text><![CDATA[If you witness a vessel polluting, you have to report the incident to a rescue co-ordination centre, the local port, the marine or the transport authority. If possible, you should provide relevant details of the incident such as: 
+
+- when and where the incident occurred;
+- the name of the vessel;
+- type and extent of pollution;
+- other information which you may think relevant.
+]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="1750" start="0" end="34" />
+				<text time="2250" duration="3500" start="35" end="100" />
+				<text time="5975" duration="4250" start="101" end="155" />
+				<text time="10675" duration="5000" start="156" end="229" />
+				<text time="15725" duration="2000" start="232" end="272" />
+				<text time="17975" duration="1500" start="272" end="297" />
+				<text time="19700" duration="2000" start="298" end="329" />
+				<text time="22000" duration="3000" start="330" end="380" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

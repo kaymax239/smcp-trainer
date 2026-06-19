@@ -1,0 +1,69 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong02.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:gapFieldFirst="false" boolean:showCorrectAfterMultipleChoice="true" boolean:shuffle="true" boolean:repeatNext="false" boolean:repeatLast="true">
+		<item>
+			<sentence rigthAudio="tw15001.mp3"><![CDATA[It is nice and warm. The sun often shines and we can see the first flowers in the parks and gardens. Everything comes to life. It is <spring>.]]></sentence>
+        	<list:choises>
+				<item>
+					<![CDATA[summer]]>
+				</item>
+				<item>
+					<![CDATA[winter]]>
+				</item>
+			</list:choises>
+       </item>
+		<item>
+			<sentence rigthAudio="tw15002.mp3"><![CDATA[It is cold outside. Everything is white. The streets are icy and it is difficult to walk. The air is frosty. It is <winter>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[autumn]]>
+				</item>				
+				<item>
+					<![CDATA[spring]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="tw15003.mp3"><![CDATA[It is very hot. The sun shines every day. People often go to the beach and swim in the sea. Children play in the sand. They build sand castles. It is <summer>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[spring]]>
+				</item>
+				<item>
+					<![CDATA[fall]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="tw15004.mp3"><![CDATA[It is still warm. The colours  of the leaves start changing. The trees in the parks look beautiful and children collect their red and yellow leaves when they fall to the ground. It is <autumn>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[summer]]>
+				</item>				
+				<item>
+					<![CDATA[spring]]>
+				</item>
+			</list:choises>
+		</item>
+	</list:items>
+</root>

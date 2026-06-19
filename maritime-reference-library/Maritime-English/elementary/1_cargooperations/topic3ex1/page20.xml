@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="Showing">
+      <name>page20</name>
+      <background>page20/P1160001.JPG</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page20/pw057.mp3</file>
+              <text><![CDATA[The risk of an accident is greater when the ship is in port than when at sea. First of all, there is a risk of fire, because tankers carry cargoes which are flammable. A flammable liquid gives off vapour. If this vapour is mixed with the oxygen in air, it may be ignited and will burn. Because of the risk, there are certain prohibitions in oil terminals. Smoking is only allowed in special smoking rooms or smoking places. All portable electrical equipment, for example lamps, phones and cameras, must be of an approved type. This is shown by a label with the letters EX.]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">true</requireNext>
+            </action>
+            <action actionType="loadScene">
+              <file>page21.xml</file>
+            </action>
+          </actions>
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false" />
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

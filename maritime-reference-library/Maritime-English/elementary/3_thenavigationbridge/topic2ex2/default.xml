@@ -1,0 +1,58 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>nb22001.mp3</audio>
+				<text><![CDATA[My <name> is Andrew Ivanov.]]></text>
+			</phrase>
+			<phrase>
+				<audio>nb22002.mp3</audio>
+				<text><![CDATA[I’m an AB on the Riga Star in the Latvian <Shipping> Company.]]></text>
+			</phrase>
+			<phrase>
+				<audio>nb22003.mp3</audio>
+				<text><![CDATA[I am 22 years <old>.]]></text>
+			</phrase>
+			<phrase>
+				<audio>nb22004.mp3</audio>
+				<text><![CDATA[Since childhood I have been interested <in> boats, ships and maritime transport.]]></text>
+			</phrase>
+			<phrase>
+				<audio>nb22005.mp3</audio>
+				<text><![CDATA[I have always liked operating machines and learning new practical skills therefore I decided to <enter> the Riga Maritime School at the <age> of 15.]]></text>
+			</phrase>
+			<phrase>
+				<audio>nb22006.mp3</audio>
+				<text><![CDATA[During my training I went to <sea> two times as a trainee.]]></text>
+			</phrase>
+			<phrase>
+				<audio>nb22007.mp3</audio>
+				<text><![CDATA[When I left Maritime School I started <working> for the Latvian Shipping Company as an AB.]]></text>
+			</phrase>
+			<phrase>
+				<audio>nb22008.mp3</audio>
+				<text><![CDATA[I love the sea and  I <enjoy> my work very much.]]></text>
+			</phrase>
+			<phrase>
+				<audio>nb22009.mp3</audio>
+				<text><![CDATA[My duties as an AB include keeping <watch> during which I steer the vessel, do lookout duties and help the Navigating Officer.]]></text>
+			</phrase>
+		</list:items>
+		
+		<list:items>
+			<phrase>
+				<audio>nb22010.mp3</audio>
+				<text><![CDATA[I also <do> maintenance.]]></text>
+			</phrase>
+			<phrase>
+				<audio>nb22011.mp3</audio>
+				<text><![CDATA[As an AB I have to be able to operate <deck> machinery, such as the windlass or winches during mooring or unmooring operations.]]></text>
+			</phrase>
+			<phrase>
+				<audio>nb22012.mp3</audio>
+				<text><![CDATA[During <cargo> operations I have to operate cargo gear.]]></text>
+			</phrase>
+		</list:items>
+	</list:items>
+</root>

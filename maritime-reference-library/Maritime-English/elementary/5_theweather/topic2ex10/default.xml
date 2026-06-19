@@ -1,0 +1,13 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:image="http://www.lingonet.com/xml/image">
+	
+	<list:pages>
+		<page>
+			<list:texts>
+				<text x="20" y="80" w="680" h="60"><![CDATA[Look at the weather map and the temperatures. Find the differences e.g. The temperature in Spain is higher than in Poland. The temperature in Great Britain is lower than in Italy. The temperature in Egypt is the highest of all.]]></text>
+			</list:texts>
+			<list:covers>
+			</list:covers>
+		</page>
+	</list:pages>
+</root>

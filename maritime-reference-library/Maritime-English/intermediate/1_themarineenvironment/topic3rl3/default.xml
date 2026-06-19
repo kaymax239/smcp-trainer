@@ -1,0 +1,77 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me3002a.mp3</audio>
+		<audio>me3002b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="58333">
+			<text><![CDATA[The main reasons for oil spills are:
+
+- shipping accidents (e.g. groundings, collisions, tanker incidents)
+- bad weather (e.g. storms, hurricanes, gusts of wind, seaquakes, tropical cyclones, tornadoes, willy-willies, typhoons)   
+- intentional pollution or intentional acts of violence (e.g. routine tank cleaning, dumping of oily wastes, vandalism, terrorism, acts of war) 
+- human errors
+
+The main sources of spilled oil are generally:
+
+- crude oil tankers breaking, crashing or stranding  
+- product carriers or barges wrecking 
+- oil wells blowing up	
+- oil pipelines breaking or leaking	
+]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2250" start="0" end="36" />
+				<text time="3300" duration="7000" start="38" end="106" />
+				<text time="11100" duration="13000" start="107" end="227" />
+				<text time="24825" duration="13250" start="231" end="374" />
+				<text time="38900" duration="1750" start="376" end="390" />
+				<text time="41550" duration="2750" start="392" end="438" />
+				<text time="45200" duration="4000" start="440" end="491" />
+				<text time="49950" duration="2500" start="494" end="531" />
+				<text time="53200" duration="1750" start="533" end="556" />
+				<text time="55475" duration="2750" start="557" end="592" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="60031">
+			<text><![CDATA[Other sources can be: 
+
+- incidents with production facilities (for instance when crude oil is changed into other products such as tar, asphalt, etc.) 
+- incidents with oil drilling vessels or oil platforms (oil rigs located in the sea or ocean pumping oil from deep in the seabed or ocean floor) 
+- incidents while lightering (moving oil from one vessel to another)	
+- natural seepage (when natural oil found in the ground leaks up in the water)
+- mystery spills (people dumping oil or chemicals on purpose)
+
+To try to prevent and help to clean up oil spills, governments pass laws to prevent dumping and contamination, develop new cleanup equipment, train people on how to clean up oil slicks, make the polluter pay for the cleanup, etc. Littoral states also provide adequate reception facilities for dirty ballast and other oily residues.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="1500" start="0" end="21" />
+				<text time="2300" duration="8250" start="24" end="150" />
+				<text time="11300" duration="9750" start="152" end="296" />
+				<text time="21775" duration="4500" start="298" end="366" />
+				<text time="27025" duration="5250" start="368" end="446" />
+				<text time="32875" duration="4500" start="447" end="508" />
+				<text time="38025" duration="3000" start="510" end="560" />
+				<text time="41225" duration="3250" start="561" end="620" />
+				<text time="44775" duration="1750" start="621" end="651" />
+				<text time="46875" duration="2250" start="652" end="695" />
+				<text time="49450" duration="3250" start="696" end="739" />
+				<text time="53000" duration="6500" start="740" end="841" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

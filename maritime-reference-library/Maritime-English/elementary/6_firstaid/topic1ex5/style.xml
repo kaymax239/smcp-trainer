@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	
+	<filter name="shadow" type="shadow" alpha="0.4" />
+	
+	<image name="checkButton" x="488" y="488" >check.png</image>
+	<image name="learnButton" x="400" y="488" >play.png</image>
+	<image name="practiceButton" x="488" y="488" >start.png</image>
+	
+	<image name="bbl" >bbl.png</image>
+	
+	<point name="bblAttachPoint" x="45" y="155" />
+	<point name="convergencePoint" x="300" y="300" />
+	
+	<number name="playDelay">700</number>
+	
+	<grid name="videoGrid">
+		<dimensions rows="3" cols="3" />
+		<position x="40" y="90" />
+		<spacing x="220" y="195" />
+	</grid>
+	
+	<videocontrol name="player">
+		<showControls>false</showControls>
+		<showText>false</showText>
+		<display x="0" y="0" w="200" h="150" />
+		<controls>clear.gif</controls>
+		<play>clear.gif</play>
+		<pause>clear.gif</pause>
+		<dot>clear.gif</dot>
+		<text>clear.gif</text>
+		<progressBar x="80" y="11" w="610" h="0" color="0x909090" />
+	</videocontrol>
+	
+	<loader name="ui">
+		<image name="background">bg.jpg</image>
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[First Aid / Ex 5]]></text>
+		</textfield>
+		
+		<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="23" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[First Aid]]></text>
+		</textfield>
+		
+		<textpoints name="score">
+			<values max="24" correct="1" error="0" min="0" correctOnFirst="2" />
+			<background x="82" y="494">scorebg.png</background>
+			<points>
+				<position x="82" y="504" />
+				<size w="67" h="39" />
+				<format fontFamily="Arial" color="0x1A619F" size="16" bold="true" align="center" />
+				<text><![CDATA[{points} / {maxpoints}]]></text>
+			</points>
+			<complete>
+				<fx type="fade" from="0" to="1" duration="300" />
+				<fx type="move" x="218" y="482" duration="500" delay="1500" />
+				<fx type="scale" to="0.55" from="1" duration="500" delay="1500" />
+				<ranges>
+					<range min="-10000">
+						<image x="230" y="209">done.gif</image>
+					</range>
+				</ranges>
+			</complete>
+		</textpoints>
+		
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="150" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Click on the Play button to listen to instructions about how to act in an emergency situation and watch the accompanying video clips. Then click on the Start button and match each instruction with the corresponding video clip.]]></text>
+			</textfield>
+		</info>
+	</loader>
+	
+	<tween name="fxOut" duration="1">
+		<filter type="blur">
+			<blur x="10" y="10" quality="2" />
+		</filter>
+		<fade alpha="0" />
+		<ease type="sine" in="true" out="true" />
+	</tween>
+	
+	<tween name="fxIn" duration="1">
+		<from>
+			<fade alpha="0" />
+			<filter type="blur">
+				<blur x="10" y="10" quality="2" />
+			</filter>
+			<scale x="0" y="0" />
+		</from>
+		<filter type="blur">
+			<blur x="0" y="0" />
+		</filter>
+		<fade alpha="1" />
+		<scale x="1" y="1" duration="0.5">
+			<ease type="linear" />
+		</scale>
+		<ease type="sine" in="true" out="true" />
+	</tween>
+	
+	<tween name="fxHighlight" duration="0.5" yoyo="0">
+		<filter type="glow">
+			<color>0xFFFFFF</color>
+			<blur x="10" y="10" />
+		</filter>
+		<filter type="color">
+			<color amount="0.75">0x0000FF</color>
+		</filter>
+		<ease type="sine" in="true" out="true" />
+	</tween>
+	
+	<tween name="fxDehighlight" duration="0.2">
+		<filter type="glow">
+			<color>0xFFFFFF</color>
+			<strength>0</strength>
+		</filter>
+		<filter type="color">
+			<color amount="0">0xFFFFFF</color>
+		</filter>
+		<ease type="sine" in="true" out="true" />
+	</tween>
+	
+	<tween name="fxShowCorrect" duration="1">
+		<filter type="color">
+			<color amount="0.75">0x00FF00</color>
+		</filter>
+		<ease type="sine" in="true" out="true" />
+	</tween>
+	
+	<tween name="fxCorrectOut" duration="0.5">
+		<filter type="color">
+			<color amount="0.5">0x00FF00</color>
+		</filter>
+		<ease type="sine" in="true" out="true" />
+	</tween>
+	
+	<tween name="fxShowError" duratioN="1">
+		<filter type="color">
+			<color amount="0.75">0xFF0000</color>
+		</filter>
+		<ease type="sine" in="true" out="true" />
+	</tween>
+	
+	<tween name="fxErrorOut" duration="0.5">
+		<filter type="color">
+			<color amount="0">0xFF0000</color>
+		</filter>
+		<ease type="sine" in="true" out="true" />
+	</tween>
+	
+	<tween name="fxFadeIn" duration="0.2">
+		<fade alpha="1" />
+	</tween>
+	
+	<tween name="fxFadeOut" duration="0.2">
+		<fade alpha="0" />
+	</tween>
+	
+	<ease name="moveEase" type="sine" in="true" out="true" />
+	
+</style>

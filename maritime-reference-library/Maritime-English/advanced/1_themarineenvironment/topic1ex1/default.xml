@@ -1,0 +1,57 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">When it comes to mixing oil and water, oceans suffer from far more than the occasional devastating oil spill. <br>An average oil change can contaminate a million gallons of fresh water.<br>Every year oily road runoff from a city of 5 million could contain as much oil as one large tanker spill.<br>Every year, bilge cleaning and other ship operations release millions of gallons of oil into navigable waters.<br>Air pollution can place hundreds of tons of hydrocarbons into the oceans each year.<br>Particles settle, and rain washes hydrocarbons from the air into the oceans.<br>Seepage from the ocean bottom and erosion of sedimentary rocks releases oil.<br>One big spill can disrupt sea and shore life for miles.<br>Offshore oil production can cause ocean oil pollution from spills and operational discharges.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[mixing]]></text>
+					<correct><![CDATA[mixing]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[devastating]]></text>
+					<correct><![CDATA[devastating]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[contaminate]]></text>
+					<correct><![CDATA[contaminate]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[contain]]></text>
+					<correct><![CDATA[contain]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[cleaning]]></text>
+					<correct><![CDATA[cleaning]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[place]]></text>
+					<correct><![CDATA[place]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[washes]]></text>
+					<correct><![CDATA[washes]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[releases]]></text>
+					<correct><![CDATA[releases]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[disrupt]]></text>
+					<correct><![CDATA[disrupt]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[cause]]></text>
+					<correct><![CDATA[cause]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

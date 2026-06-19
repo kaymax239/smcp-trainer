@@ -1,0 +1,37 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="44" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+		
+	<list:items boolean:linedAudios="false" boolean:shuffle="true" boolean:use3dFx="true" boolean:playAudioOnCorrect="true" boolean:checkOne="true" boolean:emptyBlocks="true" boolean:playAllOnComplete="true" boolean:showReflection="false">
+		<item>
+			<text>
+				<![CDATA[\nDecember – March\nIt is |cold in December*hot in December| and January. It is windy in February and March. It becomes |warmer in March*colder in March|. We can see the spring flowers in the parks.\n\nApril – June\nIt is |nice and sunny in April*chilly in April| and May. It is |hot in June*cold in June| and we start going to the beach and swimming in the sea. The water is warm.\n\nJuly – August\nIt is still |hot and dry in July*wet in July|. The sun shines every day and the weather is dry and beautiful. We are still |on holiday in August*busy in August|. Many people come to the seaside.\n\nSeptember – November\nIt is still warm but the weather is changing. It often |rains in October*snows in October|. The leaves change colours and fall from the trees. |November is wet*It is dry in November|.]]>
+			</text>
+			<list:audio>
+				<item audio="tw23001.mp3" text="" />
+				<item audio="tw23002.mp3" text="" />
+				<item audio="tw23003.mp3" text="" />
+				<item audio="tw23004.mp3" text="" />
+				<item audio="tw23005.mp3" text="" />
+				<item audio="tw23006.mp3" text="" />
+				<item audio="tw23007.mp3" text="" />
+				<item audio="tw23008.mp3" text="" />
+			</list:audio>
+		</item>
+	</list:items>
+</root>

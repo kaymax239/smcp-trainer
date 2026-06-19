@@ -1,0 +1,595 @@
+<progress url="local" product="marengplus" username="autologin"
+password="autologin">
+  <style folder="res">
+    <font name="LingonetArial"
+    source="lingonetarial.swf" />
+    <image name="background">login.jpg</image>
+    <textfield name="username-text">
+      <position x="305" y="215" />
+      <size w="90" h="20" />
+      <format fontFamily="Arial" size="16" align="center" />
+      <text>Username</text>
+    </textfield>
+    <textfield name="username-input">
+      <position x="310" y="245" />
+      <size w="184" h="20" />
+      <format fontFamily="Arial" size="16" align="center" />
+      <text />
+    </textfield>
+    <textfield name="password-text">
+      <position x="305" y="285" />
+      <size w="90" h="20" />
+      <format fontFamily="Arial" size="16" align="center" />
+      <text>Password</text>
+    </textfield>
+    <textfield name="password-input">
+      <position x="310" y="315" />
+      <size w="184" h="20" />
+      <format fontFamily="Arial" size="16" align="center" />
+      <text />
+    </textfield>
+    <image name="ok" x="444" y="361">ok.png</image>
+    <image name="field-bg">field-bg.png</image>
+    <point name="username-bg" x="298" y="239" />
+    <point name="password-bg" x="298" y="309" />
+    <generic name="messages">
+      <title>Error</title>
+      <loadfailed>Wrong password or a network error.</loadfailed>
+      <emptyUsername>Please specify a username.</emptyUsername>
+      <emptypw>Please specify a password.</emptypw>
+    </generic>
+    <image name="busy-cursor">busy.gif</image>
+  </style>
+  <items>
+    <item id="1">
+      <status replace="true">undone</status>
+    </item>
+    <item id="2">
+      <status replace="true">undone</status>
+    </item>
+    <item id="3">
+      <status replace="true">undone</status>
+    </item>
+    <item id="4">
+      <status replace="true">undone</status>
+    </item>
+    <item id="5">
+      <status replace="true">undone</status>
+    </item>
+    <item id="6">
+      <status replace="true">undone</status>
+    </item>
+    <item id="7">
+      <status replace="true">undone</status>
+    </item>
+    <item id="8">
+      <status replace="true">undone</status>
+    </item>
+    <item id="9">
+      <status replace="true">undone</status>
+    </item>
+    <item id="10">
+      <status replace="true">undone</status>
+    </item>
+    <item id="11">
+      <status replace="true">undone</status>
+    </item>
+    <item id="12">
+      <status replace="true">undone</status>
+    </item>
+    <item id="13">
+      <status replace="true">undone</status>
+    </item>
+    <item id="14">
+      <status replace="true">undone</status>
+    </item>
+    <item id="15">
+      <status replace="true">undone</status>
+    </item>
+    <item id="16">
+      <status replace="true">undone</status>
+    </item>
+    <item id="17">
+      <status replace="true">undone</status>
+    </item>
+    <item id="18">
+      <status replace="true">undone</status>
+    </item>
+    <item id="19">
+      <status replace="true">undone</status>
+    </item>
+    <item id="20">
+      <status replace="true">undone</status>
+    </item>
+    <item id="21">
+      <status replace="true">undone</status>
+    </item>
+    <item id="22">
+      <status replace="true">undone</status>
+    </item>
+    <item id="23">
+      <status replace="true">undone</status>
+    </item>
+    <item id="24">
+      <status replace="true">undone</status>
+    </item>
+    <item id="25">
+      <status replace="true">undone</status>
+    </item>
+    <item id="26">
+      <status replace="true">undone</status>
+    </item>
+    <item id="27">
+      <status replace="true">undone</status>
+    </item>
+    <item id="28">
+      <status replace="true">undone</status>
+    </item>
+    <item id="29">
+      <status replace="true">undone</status>
+    </item>
+    <item id="30">
+      <status replace="true">undone</status>
+    </item>
+    <item id="31">
+      <status replace="true">undone</status>
+    </item>
+    <item id="32">
+      <status replace="true">undone</status>
+    </item>
+    <item id="33">
+      <status replace="true">undone</status>
+    </item>
+    <item id="34">
+      <status replace="true">undone</status>
+    </item>
+    <item id="35">
+      <status replace="true">undone</status>
+    </item>
+    <item id="36">
+      <status replace="true">undone</status>
+    </item>
+    <item id="37">
+      <status replace="true">undone</status>
+    </item>
+    <item id="38">
+      <status replace="true">undone</status>
+    </item>
+    <item id="39">
+      <status replace="true">undone</status>
+    </item>
+    <item id="40">
+      <status replace="true">undone</status>
+    </item>
+    <item id="41">
+      <status replace="true">undone</status>
+    </item>
+    <item id="42">
+      <status replace="true">undone</status>
+    </item>
+    <item id="43">
+      <status replace="true">undone</status>
+    </item>
+    <item id="44">
+      <status replace="true">undone</status>
+    </item>
+    <item id="45">
+      <status replace="true">undone</status>
+    </item>
+    <item id="46">
+      <status replace="true">undone</status>
+    </item>
+    <item id="47">
+      <status replace="true">undone</status>
+    </item>
+    <item id="48">
+      <status replace="true">undone</status>
+    </item>
+    <item id="49">
+      <status replace="true">undone</status>
+    </item>
+    <item id="50">
+      <status replace="true">undone</status>
+    </item>
+    <item id="51">
+      <status replace="true">undone</status>
+    </item>
+    <item id="52">
+      <status replace="true">undone</status>
+    </item>
+    <item id="53">
+      <status replace="true">undone</status>
+    </item>
+    <item id="54">
+      <status replace="true">undone</status>
+    </item>
+    <item id="55">
+      <status replace="true">undone</status>
+    </item>
+    <item id="56">
+      <status replace="true">undone</status>
+    </item>
+    <item id="57">
+      <status replace="true">undone</status>
+    </item>
+    <item id="58">
+      <status replace="true">undone</status>
+    </item>
+    <item id="59">
+      <status replace="true">undone</status>
+    </item>
+    <item id="60">
+      <status replace="true">undone</status>
+    </item>
+    <item id="61">
+      <status replace="true">undone</status>
+    </item>
+    <item id="62">
+      <status replace="true">undone</status>
+    </item>
+    <item id="63">
+      <status replace="true">undone</status>
+    </item>
+    <item id="64">
+      <status replace="true">undone</status>
+    </item>
+    <item id="65">
+      <status replace="true">undone</status>
+    </item>
+    <item id="66">
+      <status replace="true">undone</status>
+    </item>
+    <item id="67">
+      <status replace="true">undone</status>
+    </item>
+    <item id="68">
+      <status replace="true">undone</status>
+    </item>
+    <item id="69">
+      <status replace="true">undone</status>
+    </item>
+    <item id="70">
+      <status replace="true">undone</status>
+    </item>
+    <item id="71">
+      <status replace="true">undone</status>
+    </item>
+    <item id="72">
+      <status replace="true">undone</status>
+    </item>
+    <item id="73">
+      <status replace="true">undone</status>
+    </item>
+    <item id="74">
+      <status replace="true">undone</status>
+    </item>
+    <item id="75">
+      <status replace="true">undone</status>
+    </item>
+    <item id="76">
+      <status replace="true">undone</status>
+    </item>
+    <item id="77">
+      <status replace="true">undone</status>
+    </item>
+    <item id="78">
+      <status replace="true">undone</status>
+    </item>
+    <item id="79">
+      <status replace="true">undone</status>
+    </item>
+    <item id="80">
+      <status replace="true">undone</status>
+    </item>
+    <item id="81">
+      <status replace="true">undone</status>
+    </item>
+    <item id="82">
+      <status replace="true">undone</status>
+    </item>
+    <item id="83">
+      <status replace="true">undone</status>
+    </item>
+    <item id="84">
+      <status replace="true">undone</status>
+    </item>
+    <item id="85">
+      <status replace="true">undone</status>
+    </item>
+    <item id="86">
+      <status replace="true">undone</status>
+    </item>
+    <item id="87">
+      <status replace="true">undone</status>
+    </item>
+    <item id="88">
+      <status replace="true">undone</status>
+    </item>
+    <item id="89">
+      <status replace="true">undone</status>
+    </item>
+    <item id="90">
+      <status replace="true">undone</status>
+    </item>
+    <item id="91">
+      <status replace="true">undone</status>
+    </item>
+    <item id="92">
+      <status replace="true">undone</status>
+    </item>
+    <item id="93">
+      <status replace="true">undone</status>
+    </item>
+    <item id="94">
+      <status replace="true">undone</status>
+    </item>
+    <item id="95">
+      <status replace="true">undone</status>
+    </item>
+    <item id="96">
+      <status replace="true">undone</status>
+    </item>
+    <item id="97">
+      <status replace="true">undone</status>
+    </item>
+    <item id="98">
+      <status replace="true">undone</status>
+    </item>
+    <item id="99">
+      <status replace="true">undone</status>
+    </item>
+    <item id="100">
+      <status replace="true">undone</status>
+    </item>
+    <item id="101">
+      <status replace="true">undone</status>
+    </item>
+    <item id="102">
+      <status replace="true">undone</status>
+    </item>
+    <item id="103">
+      <status replace="true">undone</status>
+    </item>
+    <item id="104">
+      <status replace="true">undone</status>
+    </item>
+    <item id="105">
+      <status replace="true">undone</status>
+    </item>
+    <item id="106">
+      <status replace="true">undone</status>
+    </item>
+    <item id="107">
+      <status replace="true">undone</status>
+    </item>
+    <item id="108">
+      <status replace="true">undone</status>
+    </item>
+    <item id="109">
+      <status replace="true">undone</status>
+    </item>
+    <item id="110">
+      <status replace="true">undone</status>
+    </item>
+    <item id="111">
+      <status replace="true">undone</status>
+    </item>
+    <item id="112">
+      <status replace="true">undone</status>
+    </item>
+    <item id="113">
+      <status replace="true">undone</status>
+    </item>
+    <item id="114">
+      <status replace="true">undone</status>
+    </item>
+    <item id="115">
+      <status replace="true">undone</status>
+    </item>
+    <item id="116">
+      <status replace="true">undone</status>
+    </item>
+    <item id="117">
+      <status replace="true">undone</status>
+    </item>
+    <item id="118">
+      <status replace="true">undone</status>
+    </item>
+    <item id="119">
+      <status replace="true">undone</status>
+    </item>
+    <item id="120">
+      <status replace="true">undone</status>
+    </item>
+    <item id="121">
+      <status replace="true">undone</status>
+    </item>
+    <item id="122">
+      <status replace="true">undone</status>
+    </item>
+    <item id="123">
+      <status replace="true">undone</status>
+    </item>
+    <item id="124">
+      <status replace="true">undone</status>
+    </item>
+    <item id="125">
+      <status replace="true">undone</status>
+    </item>
+    <item id="126">
+      <status replace="true">undone</status>
+    </item>
+    <item id="127">
+      <status replace="true">undone</status>
+    </item>
+    <item id="128">
+      <status replace="true">undone</status>
+    </item>
+    <item id="129">
+      <status replace="true">undone</status>
+    </item>
+    <item id="130">
+      <status replace="true">undone</status>
+    </item>
+    <item id="131">
+      <status replace="true">undone</status>
+    </item>
+    <item id="132">
+      <status replace="true">undone</status>
+    </item>
+    <item id="133">
+      <status replace="true">undone</status>
+    </item>
+    <item id="134">
+      <status replace="true">undone</status>
+    </item>
+    <item id="135">
+      <status replace="true">undone</status>
+    </item>
+    <item id="136">
+      <status replace="true">undone</status>
+    </item>
+    <item id="137">
+      <status replace="true">undone</status>
+    </item>
+    <item id="138">
+      <status replace="true">undone</status>
+    </item>
+    <item id="139">
+      <status replace="true">undone</status>
+    </item>
+    <item id="140">
+      <status replace="true">undone</status>
+    </item>
+    <item id="141">
+      <status replace="true">undone</status>
+    </item>
+    <item id="142">
+      <status replace="true">undone</status>
+    </item>
+    <item id="143">
+      <status replace="true">undone</status>
+    </item>
+    <item id="144">
+      <status replace="true">undone</status>
+    </item>
+    <item id="145">
+      <status replace="true">undone</status>
+    </item>
+    <item id="146">
+      <status replace="true">undone</status>
+    </item>
+    <item id="147">
+      <status replace="true">undone</status>
+    </item>
+    <item id="148">
+      <status replace="true">undone</status>
+    </item>
+    <item id="149">
+      <status replace="true">undone</status>
+    </item>
+    <item id="150">
+      <status replace="true">undone</status>
+    </item>
+    <item id="151">
+      <status replace="true">undone</status>
+    </item>
+    <item id="152">
+      <status replace="true">undone</status>
+    </item>
+    <item id="153">
+      <status replace="true">undone</status>
+    </item>
+    <item id="154">
+      <status replace="true">undone</status>
+    </item>
+    <item id="155">
+      <status replace="true">undone</status>
+    </item>
+    <item id="156">
+      <status replace="true">undone</status>
+    </item>
+    <item id="157">
+      <status replace="true">undone</status>
+    </item>
+    <item id="158">
+      <status replace="true">undone</status>
+    </item>
+    <item id="159">
+      <status replace="true">undone</status>
+    </item>
+    <item id="160">
+      <status replace="true">undone</status>
+    </item>
+    <item id="161">
+      <status replace="true">undone</status>
+    </item>
+    <item id="162">
+      <status replace="true">undone</status>
+    </item>
+    <item id="163">
+      <status replace="true">undone</status>
+    </item>
+    <item id="164">
+      <status replace="true">undone</status>
+    </item>
+    <item id="165">
+      <status replace="true">undone</status>
+    </item>
+    <item id="166">
+      <status replace="true">undone</status>
+    </item>
+    <item id="167">
+      <status replace="true">undone</status>
+    </item>
+    <item id="168">
+      <status replace="true">undone</status>
+    </item>
+    <item id="169">
+      <status replace="true">undone</status>
+    </item>
+    <item id="170">
+      <status replace="true">undone</status>
+    </item>
+    <item id="171">
+      <status replace="true">undone</status>
+    </item>
+    <item id="172">
+      <status replace="true">undone</status>
+    </item>
+    <item id="173">
+      <status replace="true">undone</status>
+    </item>
+    <item id="174">
+      <status replace="true">undone</status>
+    </item>
+    <item id="175">
+      <status replace="true">undone</status>
+    </item>
+    <item id="176">
+      <status replace="true">undone</status>
+    </item>
+    <item id="177">
+      <status replace="true">undone</status>
+    </item>
+    <item id="178">
+      <status replace="true">undone</status>
+    </item>
+	<item id="179">
+      <status replace="true">undone</status>
+    </item>
+	<item id="180">
+      <status replace="true">undone</status>
+    </item>
+	<item id="181">
+      <status replace="true">undone</status>
+    </item>
+	<item id="182">
+      <status replace="true">undone</status>
+    </item>
+	<item id="183">
+      <status replace="true">undone</status>
+    </item>
+	
+  </items>
+</progress>

@@ -1,0 +1,127 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<list:pages>
+		<list:items displayTextAfterCorrect="true">
+			
+			<item audio="me0100.mp3" >
+				<!--
+				<image:bbl1></image:bbl1>
+				<image:bbl2></image:bbl2>
+				-->
+				<text>Bulk cargo includes all loose dry goods.</text>
+				<list:parts>
+					<part audio="me0101.mp3" />
+					<part audio="me0102.mp3" />
+					<part audio="me0103.mp3" />
+					<part audio="me0104.mp3" />
+					<part audio="me0105.mp3" />
+					<part audio="me0106.mp3" />
+					<part audio="me0107.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me0108.mp3">
+				<text>Bulk cargo also includes oil and gases.</text>
+				<list:parts>
+					<part audio="me0109.mp3" />
+					<part audio="me0110.mp3" />
+					<part audio="me0111.mp3" />
+					<part audio="me0112.mp3" />
+					<part audio="me0113.mp3" />
+					<part audio="me0114.mp3" />
+					<part audio="me0115.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me0116.mp3">
+				<text>Coal, ore, grain, salt and fertilizers are examples of bulk cargo.</text>
+				<list:parts>
+					<part audio="me0117.mp3" />
+					<part audio="me0118.mp3" />
+					<part audio="me0119.mp3" />
+					<part audio="me0120.mp3" />
+					<part audio="me0121.mp3" />
+					<part audio="me0122.mp3" />
+					<part audio="me0123.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me0124.mp3">
+				<text>Coal is loaded by belt conveyors or crane grabs.</text>
+				<list:parts>
+					<part audio="me0125.mp3" />
+					<part audio="me0126.mp3" />
+					<part audio="me0127.mp3" />
+					<part audio="me0128.mp3" />
+					<part audio="me0129.mp3" />
+					<part audio="me0130.mp3" />
+					<part audio="me0131.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me0132.mp3">
+				<text>Coal is exported from Poland.</text>
+				<list:parts>
+					<part audio="me0133.mp3" />
+					<part audio="me0134.mp3" />
+					<part audio="me0135.mp3" />
+					<part audio="me0136.mp3" />
+					<part audio="me0137.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+		<list:items displayTextAfterCorrect="true">
+			<item audio="me0138.mp3">
+				<text>Coal is stored in the yard.</text>
+				<list:parts>
+					<part audio="me0139.mp3" />
+					<part audio="me0140.mp3" />
+					<part audio="me0141.mp3" />
+					<part audio="me0142.mp3" />
+					<part audio="me0143.mp3" />
+					<part audio="me0144.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me0145.mp3">
+				<text>Oil is transported as liquid cargo.</text>
+				<list:parts>
+					<part audio="me0146.mp3" />
+					<part audio="me0147.mp3" />
+					<part audio="me0148.mp3" />
+					<part audio="me0149.mp3" />
+					<part audio="me0150.mp3" />
+					<part audio="me0151.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me0152.mp3">
+				<text>Oil is loaded by pipelines.</text>
+				<list:parts>
+					<part audio="me0153.mp3" />
+					<part audio="me0154.mp3" />
+					<part audio="me0155.mp3" />
+					<part audio="me0156.mp3" />
+					<part audio="me0157.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me0158.mp3">
+				<text>Oil is imported to Poland.</text>
+				<list:parts>
+					<part audio="me0159.mp3" />
+					<part audio="me0160.mp3" />
+					<part audio="me0161.mp3" />
+					<part audio="me0162.mp3" />
+					<part audio="me0163.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me0164.mp3">
+				<text>Crude oil is stored in the tanks.</text>
+				<list:parts>
+					<part audio="me0165.mp3" />
+					<part audio="me0166.mp3" />
+					<part audio="me0167.mp3" />
+					<part audio="me0168.mp3" />
+					<part audio="me0169.mp3" />
+					<part audio="me0170.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+	</list:pages>
+</root>

@@ -1,0 +1,135 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong02.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:gapFieldFirst="false" boolean:showCorrectAfterMultipleChoice="true" boolean:shuffle="true" boolean:repeatNext="false" boolean:repeatLast="true">
+		<item>
+			<sentence rigthAudio="er15001.mp3"><![CDATA[We use a screwdriver when we want to <turn> screws.]]></sentence>
+        	<list:choises>
+				<item>
+					<![CDATA[drill]]>
+				</item>
+				<item>
+					<![CDATA[nail]]>
+				</item>
+			</list:choises>
+       </item>
+		<item>
+			<sentence rigthAudio="er15002.mp3"><![CDATA[You must use pliers to <pull> a nail out of a piece of wood.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[press]]>
+				</item>				
+				<item>
+					<![CDATA[fasten]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="er15003.mp3"><![CDATA[You can find a lot of <tools>, such as a screwdriver, pliers, pincers, etc. in a workshop.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[equipment]]>
+				</item>
+				<item>
+					<![CDATA[machinery]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="er15004.mp3"><![CDATA[Do these gloves <protect> you from chemicals?]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[defend]]>
+				</item>				
+				<item>
+					<![CDATA[save]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="er15005.mp3"><![CDATA[The hammer’s <handle> is loose. I’d like to have my money back.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[hand]]>
+				</item>				
+				<item>
+					<![CDATA[lever]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="er15006.mp3"><![CDATA[The furniture onboard is fastened with a <bolt> to the deck.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[nut]]>
+				</item>				
+				<item>
+					<![CDATA[spanner]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="er15007.mp3"><![CDATA[Be quiet! Don’t <knock> nails into the wall!]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[break]]>
+				</item>
+				<item>
+					<![CDATA[tighten]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="er15008.mp3"><![CDATA[Do you have pliers? I need to <cut> the wire.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[pull]]>
+				</item>				
+				<item>
+					<![CDATA[break]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="er15009.mp3"><![CDATA[These screws are loose. Will you <tighten> them, please?]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[lubricate]]>
+				</item>	
+				<item>
+					<![CDATA[press]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="er15010.mp3"><![CDATA[These screws are rusty. Will you <lubricate> them, please?]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[tighten]]>
+				</item>				
+				<item>
+					<![CDATA[press]]>
+				</item>
+			</list:choises>
+		</item>
+	</list:items>
+</root>

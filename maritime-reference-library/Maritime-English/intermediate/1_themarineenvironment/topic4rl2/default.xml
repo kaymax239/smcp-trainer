@@ -1,0 +1,70 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>page1.mp3</audio>
+		<audio>page2.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="90254">
+			<text><![CDATA[Master MV Marina: Coastguard Ostend, Coastguard Ostend, Coastguard Ostend. This is MV Marina, MV Marina, MV Marina. How do you read me? Over.
+Ostend Coastguard: MV Marina, MV Marina, MV Marina. This is Coastguard Ostend, Coastguard Ostend, Coastguard Ostend. I read you four. Go ahead with your message. Over.
+Master MV Marina: Coastguard Ostend. This is MV Marina. I have accidental spillage of oil in position 51 degrees 45 minutes North/003 degrees 12 minutes East at 2325 UTC extending 12 metres by three metres to North. Over.
+Ostend Coastguard: MV Marina. This is Coastguard Ostend. Say again. Over.
+Master MV Marina: Coastguard Ostend. This is MV Marina. I have accidental spillage of oil in position 51 degrees 45 minutes North/003 degrees 12 minutes East at 2325 UTC extending 12 metres by three metres to North. Over.
+]]></text>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="4500" start="18" end="74" />
+				<text time="5100" duration="5250" start="74" end="115" />
+				<text time="10650" duration="2250" start="115" end="141" />
+				<text time="14250" duration="4000" start="162" end="194" />
+				<text time="18550" duration="5250" start="195" end="259" />
+				<text time="24150" duration="3750" start="259" end="310" />
+				<text time="28700" duration="3000" start="330" end="367" />
+				<text time="32150" duration="8000" start="367" end="442" />
+				<text time="40400" duration="8700" start="442" end="481" />
+				<text time="49200" duration="5250" start="482" end="533" />
+				<text time="55800" duration="5000" start="554" end="608" />
+				<text time="62000" duration="3750" start="628" end="665" />
+				<text time="66100" duration="8250" start="666" end="740" />
+				<text time="74600" duration="8500" start="740" end="779" />
+				<text time="83300" duration="6500" start="779" end="831" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="64811">
+			<text><![CDATA[Ostend Coastguard: MV Marina. This is Coastguard Ostend. Message understood. Can you stop spillage? Over.
+Master MV Marina: Coastguard Ostend. This is MV Marina. No, I cannot stop spillage. Over.
+Ostend Coastguard: MV Marina. This is Coastguard Ostend. What kind of assistance is required? Over.
+Master MV Marina: Coastguard Ostend. This is MV Marina. I require oil clearance assistance. Over.
+Ostend Coastguard: MV Marina. This is Coastguard Ostend. I will send oil clearance assistance. ADVICE. Stay in vicinity of pollution and co-operate with oil clearance team. Over.
+Master MV Marina: Coastguard Ostend. This is MV Marina. Message understood. I will stay in vicinity of pollution and co-operate with oil clearance team. Out.]]></text>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="150" duration="4750" start="19" end="76" />
+				<text time="5200" duration="2500" start="77" end="105" />
+				<text time="8875" duration="3750" start="125" end="162" />
+				<text time="12900" duration="4500" start="162" end="196" />
+				<text time="18350" duration="3000" start="217" end="254" />
+				<text time="21725" duration="3250" start="254" end="297" />
+				<text time="26475" duration="3750" start="317" end="354" />
+				<text time="30625" duration="4750" start="354" end="396" />
+				<text time="36750" duration="3250" start="417" end="454" />
+				<text time="40300" duration="2750" start="454" end="492" />
+				<text time="43375" duration="6250" start="492" end="576" />
+				<text time="50850" duration="3500" start="596" end="633" />
+				<text time="54625" duration="1750" start="633" end="653" />
+				<text time="56650" duration="8000" start="653" end="735" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

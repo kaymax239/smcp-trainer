@@ -1,0 +1,32 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="audio/" prefix="" suffix="" />
+	
+	<list:items boolean:displayReflection="false">
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="false" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page1Bg">
+			
+			<item audio="co23001.mp3" wrongAudio="wrong02.mp3" rigthAudio="ok02.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co23002.mp3" wrongAudio="wrong03.mp3" rigthAudio="ok04.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co23003.mp3" wrongAudio="wrong02.mp3" rigthAudio="ok06.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co23004.mp3" wrongAudio="wrong03.mp3" rigthAudio="ok02.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co23005.mp3" wrongAudio="wrong02.mp3" rigthAudio="ok04.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+	</list:items>
+</root>

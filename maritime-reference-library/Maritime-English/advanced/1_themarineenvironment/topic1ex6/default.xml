@@ -1,0 +1,37 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items>
+		<phrase>
+			<audio>me16001.mp3</audio>
+			<text><![CDATA[When <odds and ends|bits and pieces> of life on land - particularly plastics - end up in the sea, they pose <hazards| threats> to marine life. ]]></text>
+		</phrase>
+		<phrase>
+			<audio>me16002.mp3</audio>
+			<text><![CDATA[Animals drown or strangle from becoming <tangled|caught> in discarded or lost fishing gear.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me16003.mp3</audio>
+			<text><![CDATA[Needles and <syringes|hypodermic>, washed from city streets and sewer systems after heavy rain storms, can wash up on beaches.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me16004.mp3</audio>
+			<text><![CDATA[Estimated costs from lost tourism and <recreation|leisure> can run into billions.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me16005.mp3</audio>
+			<text><![CDATA[Biologists who performed an autopsy on an <emaciated|thin> male sperm whale <beached|grounded> at Sea Side Heights, New Jersey, found a party balloon.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me16006.mp3</audio>
+			<text><![CDATA[Even desert isles become <dumps|tips>.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me16007.mp3</audio>
+			<text><![CDATA[Ducie Atoll is one of the most <remote|isolated> islands in the world.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me16008.mp3</audio>
+			<text><![CDATA[An important breeding area for seabirds, the Ducie Atoll is <littered|covered> with trash.]]></text>
+		</phrase>
+	</list:items>
+</root>

@@ -1,0 +1,28 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="audio/" prefix="" suffix="" />
+	
+	<list:items boolean:displayReflection="false">
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page1Bg">
+			
+			<item audio="tw12001.mp3" wrongAudio="tw12009.mp3" rigthAudio="tw12005.mp3" afterWrong="tw12013.mp3">
+				<text><![CDATA[winter]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="tw12002.mp3" wrongAudio="tw12010.mp3" rigthAudio="tw12006.mp3" afterWrong="tw12014.mp3">
+				<text><![CDATA[summer]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="tw12004.mp3" wrongAudio="tw12011.mp3" rigthAudio="tw12008.mp3" afterWrong="tw12015.mp3">
+				<text><![CDATA[autumn]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="tw12003.mp3" wrongAudio="tw12012.mp3" rigthAudio="tw12007.mp3" afterWrong="tw12016.mp3">
+				<text><![CDATA[spring]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+	</list:items>
+</root>

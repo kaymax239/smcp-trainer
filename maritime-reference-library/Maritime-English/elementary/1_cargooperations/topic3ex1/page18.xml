@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page18</name>
+      <background>page18/P1160053.JPG</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false" />
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false">
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:251" y="number:230" />
+                  <point x="number:225" y="number:244" />
+                  <point x="number:189" y="number:258" />
+                  <point x="number:150" y="number:271" />
+                  <point x="number:114" y="number:287" />
+                  <point x="number:69" y="number:306" />
+                  <point x="number:24" y="number:324" />
+                  <point x="number:25" y="number:351" />
+                  <point x="number:85" y="number:361" />
+                  <point x="number:83" y="number:404" />
+                  <point x="number:104" y="number:406" />
+                  <point x="number:117" y="number:406" />
+                  <point x="number:123" y="number:366" />
+                  <point x="number:229" y="number:380" />
+                  <point x="number:378" y="number:402" />
+                  <point x="number:381" y="number:369" />
+                  <point x="number:384" y="number:289" />
+                  <point x="number:387" y="number:248" />
+                  <point x="number:331" y="number:240" />
+                  <point x="number:255" y="number:230" />
+                </points>
+                <points type="list">
+                  <point x="number:423" y="number:250" />
+                  <point x="number:422" y="number:295" />
+                  <point x="number:420" y="number:344" />
+                  <point x="number:418" y="number:392" />
+                  <point x="number:418" y="number:406" />
+                  <point x="number:448" y="number:409" />
+                  <point x="number:496" y="number:416" />
+                  <point x="number:518" y="number:421" />
+                  <point x="number:516" y="number:445" />
+                  <point x="number:510" y="number:460" />
+                  <point x="number:525" y="number:464" />
+                  <point x="number:557" y="number:460" />
+                  <point x="number:572" y="number:456" />
+                  <point x="number:567" y="number:479" />
+                  <point x="number:596" y="number:482" />
+                  <point x="number:593" y="number:465" />
+                  <point x="number:595" y="number:454" />
+                  <point x="number:616" y="number:449" />
+                  <point x="number:634" y="number:447" />
+                  <point x="number:640" y="number:430" />
+                  <point x="number:656" y="number:397" />
+                  <point x="number:674" y="number:345" />
+                  <point x="number:692" y="number:299" />
+                  <point x="number:692" y="number:275" />
+                  <point x="number:650" y="number:271" />
+                  <point x="number:597" y="number:265" />
+                  <point x="number:541" y="number:259" />
+                  <point x="number:495" y="number:258" />
+                  <point x="number:455" y="number:251" />
+                  <point x="number:426" y="number:251" />
+                </points>
+              </hotspots>
+              <name>a drip tray</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page18/pw052.mp3</file>
+                      <text><![CDATA[The terminal operators and the crew members must ensure that there are no leakages or oil spills which could damage the soil or water. Portable drip trays are placed under all ship and shore manifold connections. In the photo you can see a drip tray. Click on it.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="loadScene">
+                      <file>page18b.xml</file>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page18/pw054.mp3</file>
+                      <text><![CDATA[No, try again.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+          </actions>
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

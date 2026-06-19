@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page06</name>
+      <background>page06/valikko.jpg</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false" />
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false">
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:360" y="number:270" />
+                  <point x="number:357" y="number:538" />
+                  <point x="number:2" y="number:536" />
+                  <point x="number:0" y="number:270" />
+                  <point x="number:355" y="number:269" />
+                </points>
+              </hotspots>
+              <name>earthing cable</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page06/pw018.mp3</file>
+                      <text><![CDATA[Can you see the earthing cable? Click on it. ]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="loadScene">
+                      <file>page06b.xml</file>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page06/pw020.mp3</file>
+                      <text><![CDATA[Sorry, try again.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+          </actions>
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

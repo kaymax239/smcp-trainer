@@ -1,0 +1,35 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+	<list:points number:max="44" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+		
+	<list:items boolean:linedAudios="false" boolean:shuffle="true" boolean:use3dFx="true" boolean:playAudioOnCorrect="true" boolean:checkOne="true" boolean:emptyBlocks="true" boolean:playAllOnComplete="true" boolean:showReflection="false">
+		<item>
+			<!--<image:bg x="158" y="178">clear.gif</image:bg>-->
+			<text><![CDATA[Wind and waves can make the ship move in six different ways, for example: \n\nThese are the angular motions: \nThe ship is |rolling*pitching*yawing| when she moves from her starboard side to her port side with the waves. \nThe ship is |pitching*yawing*heaving| when her bow and her stern rise and fall with the waves. \nThe ship is |yawing*heaving*surging| when her bow is pushed to starboard and then to port. \n\nThese are the linear motions: \nThe ship is |heaving*surging*swaying| when she rises up and falls back into a trough. \nThe ship is |surging*swaying*rolling| when she is pushed forward by the waves and then falls back into a trough. \nThe ship is |swaying*rolling*pitching| when she moves bodily to starboard and then to port.]]></text>
+			<list:audio>
+				<item audio="tw32001.mp3" text="" />
+				<item audio="tw32002.mp3" text="" />
+				<item audio="tw32003.mp3" text="" />
+				<item audio="tw32004.mp3" text="" />
+				<item audio="tw32005.mp3" text="" />
+				<item audio="tw32006.mp3" text="" />
+			</list:audio>
+		</item>
+	</list:items>
+</root>

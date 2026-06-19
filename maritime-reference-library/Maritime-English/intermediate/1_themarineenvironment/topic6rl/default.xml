@@ -1,0 +1,49 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me6001.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="64313">
+			<text><![CDATA[Following the oil spill from the Exxon Valdez the clean-up operation began. 
+
+First dispersants were used. The dispersants were dropped from a helicopter using a dispersant bucket. Wave action was, however, slight and the dispersant did not mix with the oil in the water. The use of dispersants was discontinued. 
+
+Burning was then attempted using a trial explosion. This was fairly successful but following this, as a result of unfavourable weather conditions, no additional burning was undertaken. 
+
+Mechanical clean-up was started shortly afterwards using booms and skimmers, but the operation was delayed because the skimmers were not available during the first 24 hours following the spill. 
+
+Prince William Sound contains many rocky coves where the oil collected and therefore the decision was made to displace the oil with high-pressure hot water. However, large numbers of microbial populations on the shoreline were destroyed as a result.
+]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="3500" start="0" end="75" />
+				<text time="5150" duration="2250" start="78" end="106" />
+				<text time="7750" duration="4250" start="107" end="180" />
+				<text time="12800" duration="5500" start="181" end="271" />
+				<text time="18825" duration="2750" start="272" end="312" />
+				<text time="23325" duration="3250" start="315" end="366" />
+				<text time="27100" duration="3250" start="367" end="413" />
+				<text time="30400" duration="2250" start="414" end="461" />
+				<text time="32700" duration="2750" start="462" end="499" />
+				<text time="36450" duration="4500" start="502" end="578" />
+				<text time="41000" duration="6000" start="579" end="695" />
+				<text time="48125" duration="4750" start="698" end="768" />
+				<text time="53050" duration="4750" start="769" end="854" />
+				<text time="58400" duration="5750" start="855" end="947" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

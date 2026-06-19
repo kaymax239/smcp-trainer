@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	
+	<tween name="fxHighlight" duration="1.5" yoyo="0">
+		<filter type="glow">
+			<color>0x0000FF</color>
+			<blur x="10" y="10" />
+		</filter>
+		<!--<filter type="color">
+			<color amount="0.75">0xFFFFFF</color>
+		</filter>-->
+		<filter type="bevel">
+			<distance>10</distance>
+			<strength>0.5</strength>
+			<angle>45</angle>
+		</filter>
+	</tween>
+	
+	<tween name="fxDehighlight" duration="0.5">
+		<filter type="glow">
+			<strength>0</strength>
+			<color>0xFFFFFF</color>
+		</filter>
+		<filter type="bevel">
+			<distance>0</distance>
+			<strength>0</strength>
+		</filter>
+		<filter type="color">
+			<color amount="0">0x0000FF</color>
+		</filter>
+	</tween>
+	
+	<tween name="fxOut" duration="1">
+		<filter type="blur">
+			<blur x="10" y="10" quality="2" />
+		</filter>
+		<fade alpha="0" />
+		<scale x="0" y="0" />
+		<ease type="sine" in="true" />
+	</tween>
+	
+	<tween name="fxIn" duration="3">
+		<from>
+			<fade alpha="0" />
+			<filter type="blur">
+				<blur x="10" y="10" quality="2" />
+			</filter>
+			<scale x="0" y="0" />
+		</from>
+		<filter type="blur">
+			<blur x="0" y="0" />
+		</filter>
+		<fade alpha="1" />
+		<scale x="1" y="1" duration="0.5">
+			<ease type="linear" />
+		</scale>
+		<ease type="back" out="true" />
+	</tween>
+	
+	<tween name="fxPictureIn" duration="3">
+		<from>
+			<fade alpha="0" />
+			<filter type="blur">
+				<blur x="10" y="10" quality="2" />
+			</filter>
+			<move x="-400" y="-205" />
+			<scale x="0" y="0" />
+		</from>
+		<filter type="blur">
+			<blur x="0" y="0" quality="2" />
+		</filter>
+		<fade alpha="1" />
+		<scale x="1" y="1">
+			<ease type="back" out="true" params="5" />
+		</scale>
+		<move x="0" y="0">
+			<bezier through="true">
+				<point x="400" y="300" />
+			</bezier>
+		</move>
+		<ease type="back" out="true" />
+	</tween>
+	
+	<tween name="fxWrongOut" duration="1.5">
+		<from>
+			<fade alpha="1" />
+			<filter type="blur">
+				<blur x="0" y="0" quality="2" />
+			</filter>
+		</from>
+		<filter type="blur">
+			<blur x="10" y="10" quality="2" />
+		</filter>
+		<fade alpha="0" />
+		<filter type="color" duration="0.5">
+			<color>0xFF0000</color>
+		</filter>
+	</tween>
+	
+	<tween name="fxCorrectOut" duration="1.5">
+		<fade alpha="0" />
+		<filter type="color" duration="0.5">
+			<color>0x00FF00</color>
+		</filter>
+	</tween>
+	
+	<tween name="fxSelect" duration="1.5" yoyo="1">
+		<filter type="glow">
+			<blur x="10" y="10" quality="2" />
+			<strength>1</strength>
+			<color>0xFFFFFF</color>
+			<alpha>1</alpha>
+		</filter>
+		<filter type="color">
+			<brightness>3</brightness>
+		</filter>
+	</tween>
+	
+	<tween name="fxDeselect" duration="1">
+		<filter type="glow">
+			<blur x="0" y="0" quality="2" />
+			<strength>0</strength>
+			<alpha>0</alpha>
+		</filter>
+		<filter type="color">
+			<brightness>1</brightness>
+		</filter>
+	</tween>
+	
+	<tween name="fxAnswerIn" duration="1">
+		<from>
+			<filter type="blur">
+				<blur x="10" y="10" quality="2" />
+			</filter>
+			<fade alpha="0" />
+			<scale x="0" y="0" />
+		</from>
+		<ease type="back" out="true" params="1" />
+		<move x="50" y="50" relative="true">
+			<bezier orientToBezier="false">
+				<point x="0" y="-150" />
+			</bezier>
+		</move>
+		<filter type="blur">
+			<blur x="0" y="0" />
+		</filter>
+		<fade alpha="1" />
+		<scale x="1" y="1" />
+	</tween>
+	
+	<tween name="fxAnswerOut" duration="0.5">
+		<ease type="back" in="true" params="1" />
+		<scale x="0" y="0" />
+		<fade alpha="0" />
+		<filter type="blur">
+			<blur x="10" y="10" />
+		</filter>
+	</tween>
+	
+	<tween name="fxStart" duration="2">
+		<from>
+			<filter type="blur">
+				<blur x="10" y="10" />
+			</filter>
+			<fade alpha="0" />
+			<move x="400" y="-100" />
+		</from>
+		<filter type="blur" duration="2">
+			<ease type="linear" />
+			<blur x="0" y="0" quality="2" />
+		</filter>
+		<fade alpha="1" />
+		<move x="10" y="10" relative="false">
+			<ease type="back" out="true" params="1" />
+			<bezier orientToBezier="false">
+				<point x="400" y="300" />
+			</bezier>
+		</move>
+	</tween>
+	
+	<grid name="answerGrid">
+		<points>
+			<point x="-95" y="-40" />
+			<point x="5" y="-80" />
+			<point x="105" y="-40" />
+		</points>
+	</grid>
+	
+	<tween name="fxMouseClick" duration="0.35" yoyo="1">
+		<ease type="back" in="true" out="true" />
+		<scale x="0.8" y="0.8" />
+	</tween>
+	
+	<image name="cursor" x="730" y="50">mouse.gif</image>
+	<point name="cursorHotspot" x="15" y="0" />
+	<image name="robotbtn" x="-200" y="-200">robotbtn.png</image>
+	
+	<image name="stopReflection" x="120" y="45">restart.png</image>
+	
+	<ease name="moveEase" type="back" out="true" params="1.75"/>
+	
+	<loader name="ui">
+		<image name="background">bg.jpg</image>
+		
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[Cargo Space in Container Terminals / Ex 2]]></text>
+		</textfield>
+	
+	<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="23" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[Cargo Operations]]></text>
+		</textfield>
+		
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="150" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Click on the Play button and listen. Then listen to the alternatives and drag the right alternative on top of the Play button. When you have chosen the right word you will see it in writing.]]></text>
+			</textfield>
+		</info>
+		
+		<textpoints name="score">
+			<values max="22" correct="1" error="0" min="0" correctOnFirst="2" />
+			<background x="82" y="494">scorebg.png</background>
+			<points>
+				<position x="82" y="504" />
+				<size w="67" h="39" />
+				<format fontFamily="Arial" color="0x1A619F" size="16" bold="true" align="center" />
+				<text><![CDATA[{points} / {maxpoints}]]></text>
+			</points>
+			<complete>
+				<fx type="fade" from="0" to="1" duration="300" />
+				<fx type="move" x="218" y="482" duration="500" delay="1500" />
+				<fx type="scale" to="0.55" from="1" duration="500" delay="1500" />
+				<ranges>
+					<range min="-10000">
+						<image x="230" y="209">done.gif</image>
+					</range>
+				</ranges>
+			</complete>
+		</textpoints>
+	</loader>
+</style>

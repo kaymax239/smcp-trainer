@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page05</name>
+      <background>page05/kiinnitys.gif</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false" />
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false">
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:627" y="number:297" />
+                  <point x="number:687" y="number:384" />
+                  <point x="number:701" y="number:376" />
+                  <point x="number:646" y="number:286" />
+                  <point x="number:627" y="number:296" />
+                </points>
+              </hotspots>
+              <name>emergency towing</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page05/pw012.mp3</file>
+                      <text><![CDATA[The master of a tanker is responsible for the safe and secure mooring of the ship. The terminal must also ensure that the ship is securely and safely moored. Cargo hoses or arms should not be connected until the Terminal Representative and the Master agree that the ship is safely moored. Besides the mooring lines the ship should have emergency towing-off wires ready. These wires are needed in the event of fire or other emergency. In this case tugs move the ship away from the berth. The wires are positioned fore and aft on the offshore side of the ship. 
+
+Can you see the emergency towing line in the picture? Please click on it. ]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page05/pw013.mp3</file>
+                      <text><![CDATA[Yes, that’s it. It is in the bow. ]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page05/pw014.mp3</file>
+                      <text><![CDATA[No, I’m sorry, that’s not it. It is in the bow.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+          </actions>
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page05/pw015a.mp3</file>
+              <text><![CDATA[The tanker is now securely and safely moored, but, before cargo operations can start, the ship has to be earthed or isolated. This is important because the cargo hose may act as a path for static electricity between the ship and the jetty. Earthing is done to prevent static electricity discharge when connecting or disconnecting cargo hoses. The earthing cable is connected to the hull of the ship.]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">false</requireNext>
+            </action>
+          </actions>
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false">
+            <action actionType="loadScene">
+              <file>page06.xml</file>
+            </action>
+          </actions>
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

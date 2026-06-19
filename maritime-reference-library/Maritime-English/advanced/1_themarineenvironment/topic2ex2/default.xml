@@ -1,0 +1,37 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items>
+		<phrase>
+			<audio>me22001.mp3</audio>
+			<text><![CDATA[Chemical <litter> and contamination can be traced from the <tropics> to the poles and from coastlines to <abyssal> depths.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me22002.mp3</audio>
+			<text><![CDATA[Many chemicals have <physical properties> which complicate <containment> and management efforts in the case of incidents.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me22003.mp3</audio>
+			<text><![CDATA[Some chemicals will <dissolve> in water, while highly <volatile> chemicals will <evaporate> rapidly over a limited area.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me22004.mp3</audio>
+			<text><![CDATA[Highly volatile chemicals may produce a fire hazard extending beyond the area <covered by> the <pool> of spilled material.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me22005.mp3</audio>
+			<text><![CDATA[Dangerous conditions may <prevail> downwind from such a <spill> over a considerable distance.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me22006.mp3</audio>
+			<text><![CDATA[These different physical characteristics increase the risk of high costs <arising from> the environmental impacts of the spill, such as loss of <amenities>, closure of <fisheries> and tourism activities.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me22007.mp3</audio>
+			<text><![CDATA[Some of these chemical substances are <carcinogenic> or highly <flammable>.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me22008.mp3</audio>
+			<text><![CDATA[<Exposure> to toxic substances is a hazard to personnel conducting <salvage> and <response> operations for incidents involving hazardous and noxious substances.]]></text>
+		</phrase>
+	</list:items>
+</root>

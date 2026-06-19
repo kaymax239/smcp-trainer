@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	<generic name="maskAlpha" type="Number">0</generic>
+	<image name="background">clear.gif</image>
+	
+	<image name="balloon1" x="60" y="191">drop.png</image>
+	<image name="balloon2" x="154" y="115">drop.png</image>
+	<image name="balloon3" x="269" y="100">drop.png</image>
+	<image name="balloon4" x="402" y="118">drop.png</image>
+	<image name="balloon5" x="269" y="231">drop.png</image>
+	<image name="balloon6" x="416" y="261">drop.png</image>
+	<image name="balloon7" x="77" y="379">drop.png</image>
+	<image name="balloon8" x="194" y="331">drop.png</image>
+	<image name="balloon9" x="345" y="393">drop.png</image>
+	
+	<image name="bbl">dart.png</image>
+	<grid name="bblGrid">
+		<dimensions rows="10" cols="1" />
+		<position x="552" y="96" />
+		<spacing x="0" y="40" />
+	</grid>
+	
+	<image name="pointImage">clear.gif</image>
+	<grid name="pointGrid">
+		<dimensions rows="9" cols="1" />
+		<position x="0" y="0" />
+		<spacing x="0" y="0" />
+	</grid>	
+	<textfield name="task-name">
+		<position x="17900" y="40" />
+		<size w="533" h="19" />
+		<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+	</textfield>
+	<image name="point-background" x="8200" y="494">scorebg.png</image>
+	<textfield name="point-field">
+		<position x="8200" y="504" />
+		<size w="67" h="39" />
+		<format fontFamily="Arial" color="0x1A619F" size="16" align="center" bold="true"/>
+		<text><![CDATA[{0} / {1}]]></text>
+	</textfield>	
+	
+	<image name="done">clear.gif</image>
+	<rectangle name="doneContinueButton" x="3600" y="110" w="128" h="30" />
+		
+	<image name="info" x="16000" y="488">info.png</image>
+	<image name="infobg" x="16000" y="170">infobg.jpg</image>
+	<generic name="maskAlpha" type="Number">0</generic>
+	<textfield name="info-text">
+		<position x="17" y="36" />
+		<size w="369" h="150" />
+		<format fontFamily="Arial" color="0x000000" size="16" />
+	</textfield>
+	<rectangle name="infoContinueButton" x="-160" y="-170" w="720" h="540" />
+	
+	<loader name="ui">
+		<image name="background" x="0" y="0">bg.jpg</image>
+		
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[The Marine Environment / Ex 1]]></text>
+		</textfield>
+		
+		<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[The Marine Environment]]></text>
+		</textfield>
+		
+		<textpoints name="score">
+			<values max="18" correct="1" error="0" min="0" skip="0" correctOnFirst="2" />
+			<background x="82" y="494">scorebg.png</background>
+			<points>
+				<position x="82" y="504" />
+				<size w="67" h="39" />
+				<format fontFamily="Arial" color="0x1A619F" size="16" bold="true" align="center" />
+				<text><![CDATA[{points} / {maxpoints}]]></text>
+			</points>
+
+			<complete>
+				<fx type="fade" from="0" to="1" duration="300" />
+				<fx type="move" x="218" y="482" duration="500" delay="1500" />
+				<fx type="scale" to="0.55" from="1" duration="500" delay="1500" />
+				<ranges>
+					<range min="-10000">
+						<image x="230" y="209">done.gif</image>
+					</range>
+				</ranges>
+			</complete>
+
+		</textpoints>
+		
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="150" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Click on each drop of water. Listen to the words. Click on the bars. Listen to the definitions. Drag and drop. Drop the definitions in the water.]]></text>
+			</textfield>
+		</info>
+	</loader>
+	
+	
+	
+</style>

@@ -1,0 +1,114 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me20092.mp3</audio>
+		<audio>me20093.mp3</audio>
+		<audio>me20094.mp3</audio>
+		<audio>me20095.mp3</audio>
+		<audio>me20096.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+		<image:img1 x="0" y="0">page2.jpg</image:img1>
+		<image:img2 x="0" y="0">page3.jpg</image:img2>
+		<image:img3 x="0" y="0">page4.jpg</image:img3>
+		<image:img4 x="0" y="0">page5.jpg</image:img4>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="29283">
+			<text><![CDATA[The weather changes with the seasons and months. There are usually four seasons in a year:
+spring, summer, autumn and winter.   	
+When it is summer in the northern hemisphere, in Europe for example, it is winter in the southern hemisphere, in Australia and South America. When it is winter in Paris, the people in Rio de Janeiro celebrate Carnival outside in the streets. 
+In some regions of the world there is also a dry season and a rainy season.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="48" />
+				<text time="3000" duration="2500" start="48" end="90" />
+				<text time="5800" duration="3500" start="90" end="126" />
+				<text time="9600" duration="2000" start="126" end="177" />
+				<text time="11900" duration="1500" start="177" end="201" />
+				<text time="13800" duration="2000" start="201" end="241" />
+				<text time="16150" duration="1900" start="241" end="273" />
+				<text time="18350" duration="1300" start="273" end="301" />
+				<text time="20050" duration="4500" start="301" end="373" />
+				<text time="24950" duration="4000" start="373" end="460" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="20584">
+			<text><![CDATA[It is spring in the Hel peninsula in Poland.  The weather is mild. The birds are back after winter. It often rains and the grass is green. The leaves on the trees are green, too. The lighthouse is red. The water in the bay is grey. There are no waves. It is calm.]]></text>
+			<background fileIndex="1"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="44" />
+				<text time="3050" duration="1500" start="44" end="66" />
+				<text time="4950" duration="2000" start="66" end="99" />
+				<text time="7300" duration="2500" start="99" end="138" />
+				<text time="10050" duration="2500" start="138" end="178" />
+				<text time="12800" duration="2000" start="178" end="201" />
+				<text time="15150" duration="2000" start="201" end="231" />
+				<text time="17550" duration="2800" start="231" end="290" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="29387">
+			<text><![CDATA[It is summer in Santa Cruz de Tenerife. The weather is hot. The sun shines every day. 
+The sky is blue. The water in the ocean is blue, too. There are some clouds in the sky. 
+The temperature of the air can be 30 or 35 degrees C. The days are long and the nights are short. The sun rises early and sets late.]]></text>
+			<background fileIndex="2"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="40" />
+				<text time="3050" duration="1500" start="40" end="60" />
+				<text time="4900" duration="2500" start="60" end="86" />
+				<text time="7700" duration="1500" start="87" end="103" />
+				<text time="9550" duration="3000" start="103" end="140" />
+				<text time="12900" duration="3000" start="140" end="175" />
+				<text time="16250" duration="5000" start="175" end="230" />
+				<text time="21650" duration="3500" start="230" end="273" />
+				<text time="25650" duration="3500" start="273" end="320" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="34925">
+			<text><![CDATA[It is autumn in Gdynia in Poland. There are waves breaking on the sandy beach. 
+It is often windy. The Baltic sea can be rough. The sky is overcast with clouds. 
+It rains sometimes. The temperature of the air is about 15 degrees C. The leaves on the trees are turning yellow and brown. The season is called the fall in America because the leaves fall from the trees. The birds are preparing to migrate to warmer regions of the world. ]]></text>
+			<background fileIndex="3"/>
+			<audio fileIndex="3"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="33" />
+				<text time="3100" duration="2500" start="33" end="80" />
+				<text time="5950" duration="2000" start="80" end="99" />
+				<text time="8500" duration="2000" start="99" end="127" />
+				<text time="10900" duration="3500" start="127" end="160" />
+				<text time="14750" duration="2000" start="160" end="181" />
+				<text time="17150" duration="3500" start="181" end="231" />
+				<text time="21000" duration="3800" start="231" end="285" />
+				<text time="25100" duration="5000" start="285" end="366" />
+				<text time="30700" duration="4000" start="367" end="433" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="22021">
+			<text><![CDATA[It is winter in Jastarnia in the Hel peninsula in Poland. The weather is very cold. It often snows. There is sometimes ice in the bay. The temperature of the air can fall below zero. 
+The days are short and the nights are long. The sun rises late and sets early.]]></text>
+			<background fileIndex="4"/>
+			<audio fileIndex="4"/>
+			<list:timeline>
+				<text time="250" duration="4000" start="0" end="58" />
+				<text time="4550" duration="2000" start="58" end="83" />
+				<text time="6850" duration="1500" start="83" end="100" />
+				<text time="8700" duration="2500" start="100" end="135" />
+				<text time="11450" duration="3500" start="135" end="182" />
+				<text time="18700" duration="3100" start="227" end="280" />
+				<text time="15300" duration="3000" start="182" end="227" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

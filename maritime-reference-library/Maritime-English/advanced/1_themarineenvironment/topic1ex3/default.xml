@@ -1,0 +1,178 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="14" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:gapFieldFirst="false" boolean:shuffle="true" boolean:repeatNext="false" boolean:repeatLast="true" boolean:showCorrectAfterMultipleChoice="true">
+		<item>
+			<sentence rigthAudio="me0044.mp3"><![CDATA[Treaty <concerning> pollution problems]]></sentence>
+        	<list:choises>
+				<item>
+					<![CDATA[concerns]]>
+				</item>
+				<item>
+					<![CDATA[does concern]]>
+				</item>
+			</list:choises>
+        </item>
+		<item>
+			<sentence rigthAudio="me0045.mp3"><![CDATA[International cooperation <has greatly reduced> accidental and operational oil discharges.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[has been greatly reduced]]>
+				</item>				
+				<item>
+					<![CDATA[was greatly reducing]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0046.mp3"><![CDATA[MARPOL <is> shorthand for a United Nations treaty.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[was]]>
+				</item>
+				<item>
+					<![CDATA[has been]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0047.mp3"><![CDATA[MARPOL <became> effective in 1983.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[had become]]>
+				</item>				
+				<item>
+					<![CDATA[has become]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0048.mp3"><![CDATA[MARPOL <was largely credited> for reducing oil pollution during the 1980s.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[has been largely credited]]>
+				</item>				
+				<item>
+					<![CDATA[largely is credited]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0049.mp3"><![CDATA[MARPOL <requires> installation and use of oil-pollution prevention equipment.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[will require]]>
+				</item>				
+				<item>
+					<![CDATA[is requiring]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0050.mp3"><![CDATA[MARPOL <prohibits> discharges within certain distances of land.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[prohibit]]>
+				</item>
+				<item>
+					<![CDATA[is prohibited]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0051.mp3"><![CDATA[More do-it-yourselfers <are doing> it right.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[are being done]]>
+				</item>				
+				<item>
+					<![CDATA[are done]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0052.mp3"><![CDATA[More than half of all Americans <change> their own oil.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[changed]]>
+				</item>	
+				<item>
+					<![CDATA[have changed]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0053.mp3"><![CDATA[Only about one-third of the used oil <is collected> and recycled.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[is collecting]]>
+				</item>				
+				<item>
+					<![CDATA[has collected]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0054.mp3"><![CDATA[Oil collection and recycling programs <are now increasing> awareness of the hazards of dumping used oil.]]></sentence>
+        	<list:choises>
+				<item>
+					<![CDATA[is now increasing]]>
+				</item>
+				<item>
+					<![CDATA[have now increased]]>
+				</item>
+			</list:choises>
+        </item>
+		<item>
+			<sentence rigthAudio="me0055.mp3"><![CDATA[Collection centres and service stations <are accepting> used oil for recycling.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[were accepting]]>
+				</item>				
+				<item>
+					<![CDATA[have been accepted]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0056.mp3"><![CDATA[<To find out> about recycling oil...]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[Finding out]]>
+				</item>
+				<item>
+					<![CDATA[To be found out]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me0057.mp3"><![CDATA[People <can contact> their local recycling authority.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[are contacting]]>
+				</item>				
+				<item>
+					<![CDATA[have contacted]]>
+				</item>
+			</list:choises>
+		</item>
+	</list:items>
+</root>

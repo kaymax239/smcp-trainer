@@ -1,0 +1,48 @@
+<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:boolean="http://www.lingonet.com/xml/boolean" xmlns:image="http://www.lingonet.com/xml/image"
+	  xmlns:number="http://www.lingonet.com/xml/number">
+	
+	<list:items>
+		<item x="244" y="364" pointerDirection="down">
+			<text><![CDATA[This is <a torch>.]]></text>
+			<hint1 audio="nb14013.mp3" />
+			<hint2 audio="nb14014.mp3" />
+			<hint3><![CDATA[This is a t____.]]></hint3>
+			<hint4 audio="nb14001.mp3" />
+		</item>
+		<item x="453" y="169" pointerDirection="right">
+			<text><![CDATA[This is <the lights switchboard>.]]></text>
+			<hint1 audio="nb14015.mp3" />
+			<hint2 audio="nb14016.mp3" />
+			<hint3><![CDATA[This is the l____.]]></hint3>
+			<hint4 audio="nb14002.mp3" />
+		</item>
+		<item x="469" y="305" pointerDirection="right">
+			<text><![CDATA[This is <the fire alarm>.]]></text>
+			<hint1 audio="nb14017.mp3" />
+			<hint2 audio="nb14018.mp3" />
+			<hint3><![CDATA[This is the f____.]]></hint3>
+			<hint4 audio="nb14003.mp3" />
+		</item>
+		<item x="414" y="275" pointerDirection="right">
+			<text><![CDATA[This is <the emergency alarm>.]]></text>
+			<hint1 audio="nb14019.mp3" />
+			<hint2 audio="nb14020.mp3" />
+			<hint3><![CDATA[This is the e____.]]></hint3>
+			<hint4 audio="nb14004.mp3" />
+		</item>
+		<item x="138" y="200" pointerDirection="left">
+			<text><![CDATA[This is <the radiotelephone>.]]></text>
+			<hint1 audio="nb14021.mp3" />
+			<hint2 audio="nb14022.mp3" />
+			<hint3><![CDATA[This is the r____.]]></hint3>
+			<hint4 audio="nb14005.mp3" />
+		</item>
+		<item x="199" y="183" pointerDirection="up">
+			<text><![CDATA[This is <the internal phone>.]]></text>
+			<hint1 audio="nb14023.mp3" />
+			<hint2 audio="nb14024.mp3" />
+			<hint3><![CDATA[This is the i____.]]></hint3>
+			<hint4 audio="nb14006.mp3" />
+		</item>
+	</list:items>
+</root>

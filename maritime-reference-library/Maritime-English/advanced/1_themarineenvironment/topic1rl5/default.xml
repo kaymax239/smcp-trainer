@@ -1,0 +1,64 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me0058a.mp3</audio>
+		<audio>me0058b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="77036">
+			<text><![CDATA[Toxic Materials & Cleanups  
+
+Puget Sound, Washington, U.S.A., provides an example of an area struggling to rid its waters of toxic waste. Factories, military bases, ships, sewage-treatment plants, and about 3 million residents contribute to toxic wastes in the urban bays of Puget Sound. Since 1985, the Puget Sound Water Quality Authority has been overseeing efforts to clean up contaminated sediments and to control the sources of pollution. State sediment-management standards and federal law regulate methods for dredging, disposing, and cleanup of contaminated sediments. 
+TBT, or tributyl tin, is added to boat paints to kill or repel barnacles and other nuisance organisms that foul ships' hulls. TBT, which seeps out of the paint into the water, keeps barnacles off, but it also affects other wildlife. In 1982, the French banned the use of TBT on most boats. Similar regulations have been adopted in the United Kingdom and the U.S.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2000" start="0" end="26" />
+				<text time="2850" duration="2750" start="30" end="62" />
+				<text time="5675" duration="5000" start="63" end="138" />
+				<text time="11800" duration="5000" start="139" end="197" />
+				<text time="16925" duration="6500" start="198" end="288" />
+				<text time="24350" duration="4500" start="289" end="340" />
+				<text time="29000" duration="3500" start="341" end="403" />
+				<text time="32600" duration="2500" start="404" end="444" />
+				<text time="36325" duration="3000" start="445" end="496" />
+				<text time="39325" duration="5750" start="497" end="577" />
+				<text time="46300" duration="5000" start="579" end="624" />
+				<text time="51325" duration="5250" start="625" end="704" />
+				<text time="57525" duration="3500" start="705" end="754" />
+				<text time="61025" duration="1750" start="755" end="775" />
+				<text time="62950" duration="2750" start="776" end="811" />
+				<text time="66350" duration="5500" start="812" end="868" />
+				<text time="72250" duration="4500" start="869" end="941" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="27377">
+			<text><![CDATA[It is proven that the banning of TBT encourages marine populations to return to the area. In the late 1970s, oyster populations were declining in France and the United Kingdom. Almost all the surviving animals did not reproduce and had malformed shells. After regulations reduced the use of TBT, oyster production increased and shell deformation decreased dramatically.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="5750" start="0" end="89" />
+				<text time="6625" duration="2000" start="90" end="108" />
+				<text time="8625" duration="3750" start="109" end="176" />
+				<text time="12975" duration="3000" start="177" end="227" />
+				<text time="15975" duration="2250" start="228" end="253" />
+				<text time="19025" duration="3250" start="254" end="295" />
+				<text time="22275" duration="1750" start="296" end="323" />
+				<text time="24025" duration="3250" start="324" end="369" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

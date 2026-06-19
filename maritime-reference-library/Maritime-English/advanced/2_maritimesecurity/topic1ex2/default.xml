@@ -1,0 +1,24 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>msa12001.mp3</audio>
+				<text><![CDATA[Those involved in a SSA should be able to draw upon expert assistance in relation to:
+• <knowledge> of current security threats and patterns;
+• <recognition> and <detection> of weapons, dangerous substances and devices;
+• recognition, on a non-discriminatory basis, of <characteristics> and <behavioural> patterns of persons who are likely to threaten security;
+• techniques used to <circumvent> security measures;
+• methods used to cause a security <incident>;
+• effects of explosives on ship’s <structures> and equipment;
+• ship security;
+• ship/port <interface> business practices;
+• <contingency> planning, emergency <preparedness> and response;
+• <physical> security;
+• radio and <telecommunications> systems, including computer systems and networks;
+• marine <engineering>; and
+• ship and port <operations>.]]></text>
+			</phrase>	
+		</list:items>
+	</list:items>
+</root>

@@ -1,0 +1,31 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[Interviewer - What are the main objectives of the ISPS Code?]]></text>
+			</phrase>
+			<phrase>
+				<audio>msi14001.mp3</audio>
+				<text><![CDATA[Captain James – There are four main objectives of the ISPS Code. These are:
+•	To detect <security threats> and implement security measures 
+•	To establish roles and responsibilities concerning <maritime security> for governments, local administrations, ship and port industries at the national and international level 
+•	To collate and promulgate <security-related> information 
+•	And to provide a methodology for security assessments so as to have in place <plans and procedures> to react to changing security levels]]></text>
+			</phrase>
+			<phrase>
+				<audio>msi14002.mp3</audio>
+				<text><![CDATA[Interviewer -  Does the Code specify specific measures that ports and ships must take against <terrorism>?]]></text>
+			</phrase>
+		</list:items>
+		
+		<list:items>
+			<phrase>
+				<audio>msi4010.mp3</audio>
+				<text><![CDATA[Captain James – No, The Code does not specify specific measures that each port and ship must take to ensure the safety of the facility against terrorism because of the many different types and sizes of these facilities. Instead it outlines "a standardized, consistent framework for evaluating risk, enabling governments to offset changes in threat with changes in <vulnerability> for ships and port facilities."]]></text>
+			</phrase>
+		</list:items>
+		
+	</list:items>
+</root>

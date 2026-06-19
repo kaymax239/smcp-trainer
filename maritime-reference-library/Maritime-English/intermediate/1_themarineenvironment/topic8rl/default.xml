@@ -1,0 +1,100 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me8001a.mp3</audio>
+		<audio>me8001b.mp3</audio>
+		<audio>me8001c.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page2.jpg</image:img0>
+		<image:img1 x="0" y="0">page3.jpg</image:img1>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="93467">
+			<text><![CDATA[Green awareness has finally reached the maritime industry. Shipping companies are trying to reduce excessive fuel costs. The interest has arisen from financial needs because fuel is expensive.  Although it is difficult to reach a zero emission status fuel efficiency can be obtained by several methods. 
+
+Most ships use heavy diesel oil as a combustion. Heavy fuel is in fact the residue obtained after distilling benzene and diesel from crude oil. The emission gases of heavy fuel oil are full of nitrogen (NOX) and sulphur (SOX). This causes acid rain and makes the hole in the ozone layer bigger. To reduce this form of pollution, filters are installed on funnels stopping exhaust gases from getting into the environment.
+
+Another form of more eco-friendly navigation is velocity control. A speed reduction of 15% saves up to half of fuel costs. No wonder ship companies like this form of cost efficiency!
+
+Electronic fuel monitoring is popular as well. Sometimes too much fuel is injected into the engine. Sometimes the mix is not right and too many harmful substances are released into the air.  So if fuel is monitored, the engines work more efficiently and that is good for the environment!]]></text>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="3500" start="0" end="58" />
+				<text time="4000" duration="4000" start="59" end="120" />
+				<text time="8650" duration="5250" start="121" end="192" />
+				<text time="14525" duration="7750" start="194" end="302" />
+				<text time="23375" duration="4000" start="305" end="353" />
+				<text time="27775" duration="7000" start="354" end="448" />
+				<text time="35125" duration="7000" start="449" end="531" />
+				<text time="42600" duration="4250" start="532" end="599" />
+				<text time="47350" duration="1750" start="600" end="633" />
+				<text time="49250" duration="6000" start="634" end="724" />
+				<text time="55900" duration="5500" start="726" end="791" />
+				<text time="61700" duration="6500" start="792" end="848" />
+				<text time="68675" duration="4000" start="849" end="908" />
+				<text time="73175" duration="2750" start="910" end="956" />
+				<text time="76075" duration="3750" start="957" end="1009" />
+				<text time="80250" duration="5250" start="1010" end="1099" />
+				<text time="85825" duration="2500" start="1101" end="1125" />
+				<text time="88450" duration="4750" start="1126" end="1197" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="55198">
+			<text><![CDATA[Gas tankers, however, are the greenest means of transport at sea. They not only carry Liquid Natural Gas (LNG) to navigate but also use it as a combustion. The gas is loaded onto the vessel in liquid form at extremely low temperatures. During the voyage, the liquid warms up and produces fumes. These gases are then burnt to propel steam turbines. 
+
+
+
+
+
+
+
+
+
+
+
+The disadvantage is that the steam turbines are 15% less efficient than fuel-driven vessels. The advantage is that methane, which produces carbon oxide after burning, is less pollutant than heavy fuel. It’s also cost-effective because the gas, which otherwise would be lost, is used for propulsion.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="1750" start="0" end="21" />
+				<text time="2100" duration="3250" start="22" end="65" />
+				<text time="5650" duration="8000" start="66" end="156" />
+				<text time="13925" duration="6000" start="156" end="235" />
+				<text time="20350" duration="1500" start="236" end="254" />
+				<text time="21975" duration="3500" start="255" end="294" />
+				<text time="25675" duration="4250" start="295" end="347" />
+				<text time="30350" duration="8500" start="360" end="452" />
+				<text time="38950" duration="2500" start="453" end="483" />
+				<text time="41575" duration="3000" start="484" end="526" />
+				<text time="44700" duration="2750" start="527" end="561" />
+				<text time="48025" duration="3500" start="562" end="603" />
+				<text time="51725" duration="1500" start="604" end="634" />
+				<text time="53325" duration="1750" start="635" end="658" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="24452">
+			<text><![CDATA[Finally, some ship companies already use new sail power methods such as ship kites. These kites produce lots of controlled, inexpensive wind power. They reduce fuel consumption drastically. Although the kites do not produce exhaust gases and the installation is relatively cheap, wind energy is, of course, dependent on the wind.]]></text>
+			<background fileIndex="1"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="6500" start="0" end="83" />
+				<text time="7050" duration="2500" start="84" end="123" />
+				<text time="9625" duration="2000" start="124" end="147" />
+				<text time="11875" duration="3000" start="148" end="189" />
+				<text time="15200" duration="5000" start="190" end="279" />
+				<text time="20325" duration="4000" start="280" end="330" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

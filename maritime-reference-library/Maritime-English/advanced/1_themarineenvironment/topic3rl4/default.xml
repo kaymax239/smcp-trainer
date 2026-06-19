@@ -1,0 +1,92 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>page1.mp3</audio>
+		<audio>page2.mp3</audio>
+		<audio>page3.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="72778">
+			<text><![CDATA[Biocides however not only kill the micro-organisms but also have a harmful effect on other marine life unconnected with fouling activity and this is a major problem. 
+
+Tributyltin (TBT) used to be the most popular biocide. TBT lasts a lot longer than copper-based anti-foulings and can also be used on aluminium hulls, where copper cannot be used. It was banned by the IMO in 1987 because of the damage it causes to shellfish communities. 
+
+As a result of the ban on TBT, copper has again become the toxin of choice. The copper-based anti-foulants are less effective but remain the most popular alternative for the near future.  Although copper is a naturally occurring element, too high concentrations prove to be extremely toxic to marine life. Certain species of fish and other marine organisms such as marine invertebrates are sensitive to quite low levels of copper. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="3500" start="0" end="50" />
+				<text time="3750" duration="3250" start="51" end="102" />
+				<text time="7000" duration="2250" start="103" end="136" />
+				<text time="9450" duration="2500" start="137" end="165" />
+				<text time="13225" duration="6000" start="168" end="222" />
+				<text time="20200" duration="4250" start="223" end="277" />
+				<text time="24450" duration="2750" start="278" end="318" />
+				<text time="27200" duration="2500" start="319" end="347" />
+				<text time="30175" duration="4000" start="348" end="380" />
+				<text time="34175" duration="4000" start="381" end="438" />
+				<text time="39125" duration="2500" start="441" end="471" />
+				<text time="41725" duration="3750" start="472" end="516" />
+				<text time="46200" duration="3750" start="517" end="566" />
+				<text time="49950" duration="3750" start="567" end="627" />
+				<text time="54450" duration="3000" start="629" end="678" />
+				<text time="57600" duration="5750" start="679" end="746" />
+				<text time="64200" duration="5250" start="747" end="826" />
+				<text time="69650" duration="3000" start="827" end="871" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="48798">
+			<text><![CDATA[The biggest copper polluters of the aquatic ecosystem are the industrial wastewater discharges and atmospheric deposition, particularly from foundries and metal plating and cleaning operations. There is also a suggestion that too much copper in the water can result in reduced plant growth and a reduction in photosynthesis.
+
+The marine industry is also experimenting with biocides of organic origin or with herbicidal compounds. They are usually combined with copper, without which they remain less effective since they only kill one specific type of fouling organism. It has however not yet been proven that they are less environmentally harmful than other biocides.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="3000" start="0" end="53" />
+				<text time="3250" duration="5250" start="54" end="122" />
+				<text time="8625" duration="4750" start="123" end="193" />
+				<text time="14075" duration="4000" start="194" end="254" />
+				<text time="18075" duration="4750" start="255" end="324" />
+				<text time="24100" duration="3750" start="326" end="381" />
+				<text time="27850" duration="3750" start="382" end="429" />
+				<text time="32675" duration="2250" start="430" end="468" />
+				<text time="34925" duration="2500" start="469" end="509" />
+				<text time="37425" duration="4000" start="510" end="569" />
+				<text time="41700" duration="2250" start="570" end="604" />
+				<text time="44100" duration="2500" start="605" end="647" />
+				<text time="46600" duration="2000" start="648" end="668" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="28605">
+			<text><![CDATA[Teflon has also been used in recent years but almost only on racing yachts. It creates less friction on the surface. Although this smoothness reduces the settlement of organisms, it is probably not such an effective antifouling coating. 
+
+Finally, research into the benefits of silicon is at a fairly early stage. It is a difficult material to work with because it is soft.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="41" />
+				<text time="2750" duration="3250" start="42" end="75" />
+				<text time="6500" duration="2750" start="76" end="116" />
+				<text time="9600" duration="3500" start="117" end="178" />
+				<text time="13100" duration="4250" start="179" end="236" />
+				<text time="18175" duration="3250" start="239" end="285" />
+				<text time="21425" duration="2250" start="286" end="313" />
+				<text time="24375" duration="2250" start="314" end="353" />
+				<text time="26625" duration="1750" start="354" end="373" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

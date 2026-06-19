@@ -1,0 +1,37 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="audio/" prefix="" suffix="" />
+	
+	<list:items boolean:displayReflection="false">
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page1Bg">
+			
+			<!--Vessel spraying-->
+			<item audio="me41002.mp3" wrongAudio="me41003.mp3" rigthAudio="correct1.mp3" afterWrong="me41004.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Burning-->
+			<item audio="me41006.mp3" wrongAudio="me41007.mp3" rigthAudio="correct1.mp3" afterWrong="me41008.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Boom-->
+			<item audio="me41010.mp3" wrongAudio="me41011.mp3" rigthAudio="correct1.mp3" afterWrong="me41012.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Skimmer-->
+			<item audio="me41014.mp3" wrongAudio="me41015.mp3" rigthAudio="correct1.mp3" afterWrong="me41016.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--High pressure hoses-->
+			<item audio="me41018.mp3" wrongAudio="me41019.mp3" rigthAudio="correct1.mp3" afterWrong="me41020.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+	</list:items>
+</root>

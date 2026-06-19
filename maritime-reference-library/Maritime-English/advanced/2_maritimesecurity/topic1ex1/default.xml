@@ -1,0 +1,35 @@
+﻿<root xmlns="http://www.lingonet.com/xml"
+	  xmlns:list="http://www.lingonet.com/xml/list"
+	  xmlns:number="http://www.lingonet.com/xml/number"
+	  xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	  xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+		
+	<list:pages boolean:showReflection="true">
+		
+		<!-- Items should always be entered in correct order -->
+		<list:page audio="msa11001.mp3">
+			<item>
+				<text>physical security;</text>
+			</item>
+			<item>
+				<text>structural integrity;</text>
+			</item>
+			<item>
+				<text>personnel protection systems;</text>
+			</item>
+			<item>
+				<text>procedural policies;</text>
+			</item>
+			<item>
+				<text>radio and telecommunication systems, including computer systems and networks; and</text>
+			</item>
+			<item>
+				<text>other areas that may, if damaged or used for illicit observation, pose a risk to persons, property, or operations on board the ship or within a port facility.</text>
+			</item>
+		</list:page>
+				
+	</list:pages>
+	
+</root>

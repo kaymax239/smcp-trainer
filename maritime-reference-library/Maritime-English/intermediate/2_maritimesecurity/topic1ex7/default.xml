@@ -1,0 +1,37 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13"><b>Interviewer</b> - Why was the ISPS developed?<br><b>Captain James</b> – According to The International Maritime Organisation "The International Ship and Port Facility Security Code (ISPS Code) is a comprehensive set of measures to enhance the security of ships and port facilities, developed in response to the perceived threats to ships and port facilities in the wake of the 9/11 attacks in the United States" (IMO).<br><b>Interviewer</b> – I understand that the development and implementation of the ISPS Code was speeded up, why was that?<br><b>Captain James</b> - Development and implementation were speeded up considerably in reaction to the September 11, 2001 attacks and the bombing of the French oil tanker Limburg. The U.S. Coast Guard, as the lead agency in the United States delegation to the International Maritime Organization (IMO), advocated for this.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[TO ENHANCE]]></text>
+					<correct><![CDATA[to enhance]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO DEVELOP]]></text>
+					<correct><![CDATA[developed]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO UNDERSTAND]]></text>
+					<correct><![CDATA[understand]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO SPEED UP]]></text>
+					<correct><![CDATA[was speeded up]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO ADVOCATE FOR]]></text>
+					<correct><![CDATA[advocated for]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

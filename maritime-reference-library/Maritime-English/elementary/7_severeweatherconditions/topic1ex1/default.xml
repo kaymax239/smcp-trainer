@@ -1,0 +1,65 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="11" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true">
+		<item>
+			<block1 audio="swc11001.mp3"><![CDATA[an overall protects]]></block1>
+			<block2 audio="swc11002.mp3"><![CDATA[the body]]></block2>
+		</item>
+		<item>
+			<block1 audio="swc11003.mp3"><![CDATA[a scarf protects]]></block1>
+			<block2 audio="swc11004.mp3"><![CDATA[the neck]]></block2>
+		</item>
+		<item>
+			<block1 audio="swc11005.mp3"><![CDATA[a knitted cap protects]]></block1>
+			<block2 audio="swc11006.mp3"><![CDATA[the head and the ears]]></block2>
+		</item>		
+		<item>
+			<block1 audio="swc11007.mp3"><![CDATA[a mitten protects]]></block1>
+			<block2 audio="swc11008.mp3"><![CDATA[the hands and the fingers]]></block2>
+		</item>		
+		<item>
+			<block1 audio="swc11009.mp3"><![CDATA[a glove protects]]></block1>
+			<block2 audio="swc11010.mp3"><![CDATA[the hands and the fingers]]></block2>
+		</item>		
+		<item>
+			<block1 audio="swc11011.mp3"><![CDATA[a boot protects]]></block1>
+			<block2 audio="swc11012.mp3"><![CDATA[the feet and the toes]]></block2>
+		</item>		
+		<item>
+			<block1 audio="swc11013.mp3"><![CDATA[a helmet protects]]></block1>
+			<block2 audio="swc11014.mp3"><![CDATA[the head]]></block2>
+		</item>		
+		<item>
+			<block1 audio="swc11015.mp3"><![CDATA[a hood protects]]></block1>
+			<block2 audio="swc11016.mp3"><![CDATA[the neck, the ears and the head]]></block2>
+		</item>
+		<item>
+			<block1 audio="swc11017.mp3"><![CDATA[a collar protects]]></block1>
+			<block2 audio="swc11018.mp3"><![CDATA[the neck]]></block2>
+		</item>		
+		<item>
+			<block1 audio="swc11019.mp3"><![CDATA[a hat protects]]></block1>
+			<block2 audio="swc11020.mp3"><![CDATA[the head and the ears]]></block2>
+		</item>		
+		<item>
+			<block1 audio="swc11021.mp3"><![CDATA[a woolen sock protects]]></block1>
+			<block2 audio="swc11022.mp3"><![CDATA[the feet and the toes]]></block2>
+		</item>			
+	</list:items>
+</root>

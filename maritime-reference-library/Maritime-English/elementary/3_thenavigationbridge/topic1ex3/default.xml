@@ -1,0 +1,44 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="audio/" prefix="" suffix="" />
+	
+	<list:items boolean:displayReflection="false">
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page1Bg">
+			
+			<item audio="nb13001.mp3" wrongAudio=".mp3" rigthAudio="nb13001.mp3">
+				<text><![CDATA[radar]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb13002.mp3" wrongAudio=".mp3" rigthAudio="nb13002.mp3">
+				<text><![CDATA[VDR]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb13003.mp3" wrongAudio=".mp3" rigthAudio="nb13003.mp3">
+				<text><![CDATA[walkie-talkie]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb13004.mp3" wrongAudio=".mp3" rigthAudio="nb13004.mp3">
+				<text><![CDATA[chart room]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb13005.mp3" wrongAudio=".mp3" rigthAudio="nb13005.mp3">
+				<text><![CDATA[SART]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb13006.mp3" wrongAudio=".mp3" rigthAudio="nb13006.mp3">
+				<text><![CDATA[EPIRB]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb13007.mp3" wrongAudio=".mp3" rigthAudio="nb13007.mp3">
+				<text><![CDATA[helm]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="nb13008.mp3" wrongAudio=".mp3" rigthAudio="nb13008.mp3">
+				<text><![CDATA[VHF]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+	</list:items>
+</root>

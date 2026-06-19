@@ -1,0 +1,73 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>page1.mp3</audio>
+		<audio>page2.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="89679">
+			<text><![CDATA[First Aid trainer Gun Lindman at Åland Maritime Academy tells us about her job.
+
+My name is Gun Lindman and I am a professional nurse and health worker, and well - a teacher. I have been working since 1985. I first worked for a small health care centre in the archipelago on a very small island, Brändö, where I took care of patients from the cradle to the grave. Then I worked at hospitals in Stockholm, Turku and in Mariehamn. I have also worked onboard ships. Now, I work as a teacher in First Aid and Medical care at Åland Maritime Academy and teach seafarers.
+
+I have trained seafarers in First Aid and medical care on different levels for almost ten years. I enjoy my work. My students come mainly from Åland, Sweden and Finland. Some of them come from the Baltic States and other countries. They are often between 18 and 35 years old and work worldwide for different shipping companies from various flag states.
+
+They need to learn First Aid because of the STCW-95 requirements. The master has the main responsibility onboard, but very often it is the second mate who acts as medical officer onboard. ]]></text>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="100" duration="7300" start="81" end="174" />
+				<text time="8200" duration="3300" start="175" end="206" />
+				<text time="12500" duration="7600" start="207" end="303" />
+				<text time="20700" duration="3500" start="304" end="363" />
+				<text time="25250" duration="5500" start="364" end="428" />
+				<text time="31850" duration="2100" start="429" end="462" />
+				<text time="35200" duration="8400" start="463" end="564" />
+				<text time="45000" duration="6500" start="566" end="662" />
+				<text time="52300" duration="1100" start="663" end="679" />
+				<text time="54050" duration="3700" start="680" end="735" />
+				<text time="58600" duration="4400" start="736" end="797" />
+				<text time="64050" duration="3500" start="798" end="840" />
+				<text time="68100" duration="4800" start="841" end="918" />
+				<text time="74300" duration="6000" start="920" end="985" />
+				<text time="80750" duration="3000" start="986" end="1033" />
+				<text time="84250" duration="5200" start="1034" end="1107" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="105066">
+			<text><![CDATA[The seafarers need to know the basics of the ABCDE-method, a method frequently used in teaching First Aid. According to this method, A means Airways, B Breathing, C Circulation and bleeding, D Disability (consciousness, inability) and E Exposure or Environment. The letters can have slightly different meanings. By using the ABCDE-method the seafarers learn how to act and what to do first.
+
+The seafarers should be prepared mentally for any situation where medical help is required on board. They should also know the most common diseases and their signs and symptoms, typical injuries such as wounds, head-, neck- and back injuries, broken bones and burns. They need to be familiar with the medicines and medical supplies kept in the dispensary.
+
+I also train the seafarers by arranging practical training during the course. The students study different cases and sometimes even act as patients. This helps them understand and remember what to do in a real situation. They need to remember that before taking any action, they should protect themselves and avoid the risk of infections. They need to think of themselves and their own safety first, then help others.]]></text>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="100" duration="5500" start="0" end="58" />
+				<text time="5900" duration="3400" start="59" end="106" />
+				<text time="10300" duration="8500" start="107" end="190" />
+				<text time="19400" duration="8000" start="191" end="261" />
+				<text time="28050" duration="3000" start="262" end="311" />
+				<text time="31700" duration="7500" start="312" end="390" />
+				<text time="40350" duration="7100" start="392" end="492" />
+				<text time="48600" duration="5300" start="493" end="569" />
+				<text time="54350" duration="8000" start="570" end="658" />
+				<text time="63100" duration="6500" start="659" end="747" />
+				<text time="70800" duration="5200" start="749" end="826" />
+				<text time="76950" duration="5200" start="827" end="897" />
+				<text time="83250" duration="6000" start="898" end="969" />
+				<text time="89700" duration="3500" start="970" end="1022" />
+				<text time="93800" duration="4800" start="1023" end="1087" />
+				<text time="99600" duration="5200" start="1088" end="1167" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

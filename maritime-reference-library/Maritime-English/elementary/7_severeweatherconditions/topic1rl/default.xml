@@ -1,0 +1,133 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>swc1001a.mp3</audio>
+		<audio>swc1001b.mp3</audio>
+		<audio>swc1001c.mp3</audio>
+		<audio>swc1001d.mp3</audio>
+		<audio>swc1001e.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+		<image:img1 x="0" y="0">page2.jpg</image:img1>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="57471">
+			<text><![CDATA[What are severe weather conditions?
+Severe weather conditions are weather conditions which are not favourable for human beings and property. We talk about severe weather conditions when the temperature falls severely or it is snowing heavily. Also rain which freezes on cold surfaces causes severe weather conditions. This kind of rain is called freezing rain or freezing drizzle.
+Working outside in severe weather conditions is hard and may be dangerous. It is important to know how to protect oneself against cold and prevent injuries. Freezing rain or freezing drizzle makes the ground and objects slippery and there is a danger of falling. Also sleet or ice pellets may have the same effect. Sleet or ice pellets are solid grains of ice. They form from the freezing of rain or the refreezing of melted snow.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2000" start="0" end="35" />
+				<text time="3325" duration="5750" start="35" end="141" />
+				<text time="9725" duration="6000" start="141" end="243" />
+				<text time="16225" duration="5000" start="243" end="318" />
+				<text time="21825" duration="4500" start="318" end="381" />
+				<text time="27175" duration="5000" start="381" end="457" />
+				<text time="32800" duration="4250" start="457" end="539" />
+				<text time="37675" duration="6250" start="539" end="645" />
+				<text time="44525" duration="3500" start="645" end="697" />
+				<text time="48675" duration="3500" start="697" end="743" />
+				<text time="52775" duration="4500" start="743" end="813" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="79074">
+			<text><![CDATA[How to protect yourself against cold?
+The best way to protect oneself against cold is to add clothing. Wear several layers of loose clothes, because layering gives better insulation. You can also easily take off one layer of clothing if you feel too hot. Wear an overall with a hood and a warm collar. Wear a scarf around your neck and put a knitted cap or a hat that covers the ears on your head. 
+It is important to protect hands and feet, because they have less blood flow than the body. Protect your hands and fingers with mittens. Don't touch cold metal surfaces with your bare hands. Use gloves, if you cannot work with mittens. Put on two pairs of socks to protect your feet. Wear waterproof and warm boots. 
+Remember that wind, humidity and moisture remove body heat, which can lead to injuries. Try to avoid wind and keep your head warm with a cap, a hat or a piece of clothing. If your clothes get wet, remove them and go indoors. Also, remember that moving activates the body's own heat production. Sauna, massage or alcohol do not help but may cause more damage instead.]]></text>
+			<background fileIndex="1"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="2000" start="0" end="37" />
+				<text time="3400" duration="4000" start="37" end="103" />
+				<text time="8050" duration="4750" start="103" end="183" />
+				<text time="13350" duration="4000" start="183" end="255" />
+				<text time="17825" duration="3000" start="255" end="302" />
+				<text time="21150" duration="5250" start="302" end="398" />
+				<text time="27075" duration="5750" start="398" end="492" />
+				<text time="33600" duration="2750" start="492" end="537" />
+				<text time="36975" duration="3250" start="537" end="591" />
+				<text time="40800" duration="2750" start="591" end="636" />
+				<text time="44300" duration="2750" start="636" end="684" />
+				<text time="47450" duration="2750" start="684" end="716" />
+				<text time="50800" duration="5750" start="716" end="806" />
+				<text time="57225" duration="5750" start="806" end="890" />
+				<text time="63625" duration="4000" start="890" end="943" />
+				<text time="68375" duration="4500" start="943" end="1012" />
+				<text time="73425" duration="5500" start="1012" end="1088" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="72831">
+			<text><![CDATA[What are cold weather injuries?
+Cold can lead to frostnip, frostbite or hypothermia. Frostnip is the freezing of the top layers of the skin. It most often affects the cheeks, earlobes, fingers and toes. The symptoms of frostnip are numbness and a white colour of the skin. If you get frostnip, warm up the area gently. Blow warm air on it or place the area against a warm body part. Do not rub the area, because this can damage the skin.
+Frostbite is the freezing of the skin tissue or body part. It affects the ears, nose, cheeks, fingers and toes. White skin which feels "wooden" and numbness are symptoms of frostbite. Put the affected body parts in warm water at around 42 degrees Celsius for 20 minutes. Wrap the injured area in sterile gauze and keep it warm. Keep injured fingers and toes separated. Seek medical help, if normal feeling has not returned within 30 minutes.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="2000" start="0" end="31" />
+				<text time="3225" duration="4000" start="33" end="85" />
+				<text time="7925" duration="3250" start="85" end="141" />
+				<text time="11750" duration="4750" start="141" end="203" />
+				<text time="17025" duration="4500" start="203" end="273" />
+				<text time="22025" duration="3500" start="273" end="319" />
+				<text time="26050" duration="4750" start="319" end="383" />
+				<text time="31000" duration="3750" start="383" end="438" />
+				<text time="35925" duration="3750" start="438" end="498" />
+				<text time="40225" duration="4750" start="498" end="551" />
+				<text time="45550" duration="6000" start="551" end="623" />
+				<text time="52100" duration="6250" start="623" end="710" />
+				<text time="58975" duration="4500" start="710" end="767" />
+				<text time="64050" duration="3000" start="767" end="808" />
+				<text time="67675" duration="5000" start="808" end="885" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="84218">
+			<text><![CDATA[Hypothermia is the general cooling of the body below 35 degrees Celsius. If the body temperature drops much below normal, serious injuries can arise. The symptoms of mild hypothermia are shivering and numbness of the hands. A person who has mild hypothermia is still able to walk and talk but unable to complete tasks with his hands. Warm up the head, neck and sides of the chest gently with hot packs or water bottles wrapped in towels. Drink hot caffeine-free and alcohol-free drinks. 
+A person who has severe hypothermia does not shiver any more and is unable to walk. His pulse and respiration rate becomes slow and he behaves irrationally. Treat a person with severe hypothermia as a medical emergency. Get him to a hospital as soon as possible and let the hospital warm him up. Remove wet clothing and cover him with blankets. Your own body is a good source of heat. Do not give him anything to drink. Heart failure may cause death if the body temperature goes below 30 degrees. Nevertheless, you should not assume that the person is dead even if he lies motionless.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="3"/>
+			<list:timeline>
+				<text time="250" duration="5250" start="0" end="72" />
+				<text time="6150" duration="5000" start="72" end="149" />
+				<text time="11800" duration="4750" start="149" end="223" />
+				<text time="17200" duration="8000" start="224" end="333" />
+				<text time="25950" duration="7250" start="334" end="437" />
+				<text time="33900" duration="4250" start="438" end="486" />
+				<text time="39125" duration="6250" start="489" end="572" />
+				<text time="45975" duration="5500" start="573" end="645" />
+				<text time="51925" duration="4000" start="645" end="708" />
+				<text time="56525" duration="4750" start="709" end="784" />
+				<text time="61800" duration="3500" start="785" end="833" />
+				<text time="65475" duration="2750" start="834" end="873" />
+				<text time="68775" duration="2000" start="874" end="908" />
+				<text time="71650" duration="5500" start="909" end="985" />
+				<text time="77825" duration="6000" start="986" end="1073" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="33882">
+			<text><![CDATA[Survival in cold water
+The body loses heat to the water about 30 times faster than in air. Swimming increases heat loss. If you are more than one kilometre away from shore, try to save heat instead of swimming. Take the huddle position: put your arms close to your body, cross your legs and pull them towards your body. Keep still and close to one another. Do not remove clothing or shoes, because they give insulation against the cold water.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="4"/>
+			<list:timeline>
+				<text time="250" duration="2000" start="0" end="22" />
+				<text time="3075" duration="4500" start="22" end="91" />
+				<text time="8125" duration="2000" start="91" end="121" />
+				<text time="10525" duration="6000" start="121" end="211" />
+				<text time="17025" duration="8000" start="211" end="320" />
+				<text time="25450" duration="2250" start="320" end="357" />
+				<text time="28050" duration="5500" start="357" end="443" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

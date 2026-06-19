@@ -1,0 +1,54 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me4001a.mp3</audio>
+		<audio>me4001b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+		<image:img1 x="0" y="0">page2.jpg</image:img1>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="51044">
+			<text><![CDATA[Toxic Materials
+
+Metals and slowly degrading chemicals threaten inland and coastal waters. Toxic materials settle into sea-floor sediments where they accumulate as hazards to organisms that live in and feed on bottom muds. Eventually, long-lasting chemicals may enter the food web and contaminate fish and shellfish. Toxic materials do not always kill marine life but they can still cause severe damage. 
+
+Industrial, agricultural, household cleaning, gardening, and automotive products also regularly end up in water. About 65,000 chemicals are used commercially in the U.S. today, with about 1,000 new ones added each year. Only about 300 have been extensively tested for toxicity. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="4500" start="17" end="90" />
+				<text time="5300" duration="3250" start="91" end="138" />
+				<text time="8625" duration="3500" start="139" end="197" />
+				<text time="12125" duration="2000" start="198" end="222" />
+				<text time="14475" duration="4250" start="223" end="280" />
+				<text time="18800" duration="2750" start="281" end="316" />
+				<text time="22050" duration="3000" start="317" end="363" />
+				<text time="25050" duration="3000" start="364" end="403" />
+				<text time="28350" duration="3750" start="406" end="462" />
+				<text time="32200" duration="4500" start="463" end="518" />
+				<text time="37025" duration="5500" start="519" end="582" />
+				<text time="42600" duration="3250" start="583" end="625" />
+				<text time="46175" duration="4750" start="626" end="683" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="0">
+			<text><![CDATA[Digging out waterways dredges up these toxic materials. Because rivers wash silt downstream, and harbours and waterways are not naturally deep enough for modern ships, they are dredged to make them navigable. Many European superships require a draft of 20 metres. Ship size continues to increase, so dredging is a continuing and growing necessity. Less than 5 percent of the dredged material contains unacceptable levels of contaminants, but disposing of it safely is a serious problem. ]]></text>
+			<background fileIndex="1"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

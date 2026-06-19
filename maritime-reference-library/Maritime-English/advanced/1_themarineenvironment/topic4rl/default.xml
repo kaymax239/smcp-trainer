@@ -1,0 +1,89 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me0031a.mp3</audio>
+		<audio>me0031b.mp3</audio>
+		<audio>me0031c.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="62695">
+			<text><![CDATA[The MARPOL Convention requires that every oil tanker of 150 tons gross tonnage and above and every ship other than an oil tanker of 400 tons gross tonnage and above carry on board a shipboard oil pollution emergency plan (SOPEP) approved by the Flag State Administration. 
+
+New MARPOL Regulations require that every ship of 150 tons gross tonnage and above certified to carry noxious liquid substances in bulk carries on board a shipboard marine pollution emergency plan for noxious liquid substances approved by the Administration. A shipboard marine pollution emergency plan for noxious liquid substances should be combined with a shipboard oil pollution emergency plan, since most of their contents are the same and one combined plan on board is more practical than two separate plans in the event of an emergency. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="6500" start="0" end="88" />
+				<text time="6750" duration="6250" start="89" end="164" />
+				<text time="13000" duration="6500" start="165" end="228" />
+				<text time="19725" duration="3250" start="229" end="271" />
+				<text time="23525" duration="6500" start="274" end="356" />
+				<text time="30025" duration="4250" start="357" end="409" />
+				<text time="34325" duration="6500" start="410" end="500" />
+				<text time="40825" duration="2750" start="501" end="532" />
+				<text time="44100" duration="4500" start="533" end="606" />
+				<text time="48850" duration="4500" start="607" end="672" />
+				<text time="53425" duration="2750" start="673" end="714" />
+				<text time="56175" duration="2000" start="715" end="745" />
+				<text time="58175" duration="2750" start="746" end="787" />
+				<text time="60925" duration="1500" start="788" end="817" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="56452">
+			<text><![CDATA[In this case the title of such a combined plan should be ‘Shipboard marine pollution emergency plan’ (SMPEP) in order to distinguish it from the two other emergency plans mentioned above. Both regulations of Annex I and of Annex II of MARPOL prescribe that the plans have to be in accordance with the Guidelines developed by the IMO.
+
+It is relevant to note that shipboard oil pollution emergency plans which have already been approved by the Administration for oil tankers of 150 tons gross tonnage and above and ships other than oil tankers of 400 tons gross tonnage and above in accordance with the guidelines for the development of shipboard oil pollution emergency plans need not be modified.  
+
+These guidelines contain information for the development of shipboard oil pollution emergency plans.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="4000" start="0" end="56" />
+				<text time="4850" duration="5000" start="57" end="108" />
+				<text time="10675" duration="4500" start="109" end="187" />
+				<text time="16025" duration="4500" start="188" end="241" />
+				<text time="20525" duration="5750" start="242" end="333" />
+				<text time="26775" duration="3750" start="335" end="402" />
+				<text time="30525" duration="6750" start="403" end="509" />
+				<text time="37500" duration="5000" start="510" end="578" />
+				<text time="42500" duration="5000" start="579" end="675" />
+				<text time="47700" duration="2250" start="676" end="697" />
+				<text time="50300" duration="2000" start="701" end="737" />
+				<text time="52300" duration="4000" start="738" end="801" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="28004">
+			<text><![CDATA[The main objectives of these guidelines are:
+
+- to assist shipowners in preparing shipboard marine pollution emergency plans in conformity with the cited regulations;
+- to assist governments in enacting domestic laws which give force to and implement the cited regulations.    
+
+In the interest of uniformity, governments are requested to refer to these guidelines when preparing appropriate national regulations.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="44" />
+				<text time="3300" duration="4500" start="46" end="124" />
+				<text time="7800" duration="3250" start="125" end="166" />
+				<text time="11450" duration="3250" start="167" end="216" />
+				<text time="14725" duration="4000" start="217" end="273" />
+				<text time="19450" duration="2000" start="279" end="309" />
+				<text time="21750" duration="2750" start="310" end="364" />
+				<text time="24575" duration="3250" start="365" end="413" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

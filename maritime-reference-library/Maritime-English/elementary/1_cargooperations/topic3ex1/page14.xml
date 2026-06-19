@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="Showing">
+      <name>page14</name>
+      <background>page14/Lastiohjaamo Timo.jpg</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page14/pw046.mp3</file>
+              <text><![CDATA[The tanks are usually loaded in groups. For example, the wing tanks can be loaded first and then topped-up during the loading of the centre tanks. Empty tanks are partially opened some time before the changeover from full tanks. Otherwise the pressure may make the opening or closing of a valve impossible. 
+Now that loading is progressing smoothly, we have time to look at the pipelines on the deck of the tanker. Please continue with NEXT.
+]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">true</requireNext>
+            </action>
+            <action actionType="loadScene">
+              <file>page15.xml</file>
+            </action>
+          </actions>
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false" />
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

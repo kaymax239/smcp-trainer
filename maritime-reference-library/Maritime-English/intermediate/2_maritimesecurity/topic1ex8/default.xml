@@ -1,0 +1,37 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13"><b>Captain James</b> - The Code was agreed at a meeting of the 108 signatories to the SOLAS convention in London in December 2002. The measures agreed under the Code were brought into force on July 1, 2004.<br><b>Interviewer</b>- What does the ISPS Code cover?<br><b>Captain James</b> The Code is a two-part document describing minimum requirements for security of ships and ports. Part A provides mandatory requirements. Part B provides guidance for implementation.<br><b>Interviewer</b>- Who does the ISPS Code apply to?<br><b>Captain James</b>- The ISPS Code applies to ships on international voyages (including passenger ships, cargo ships of 500 GT and upwards, and mobile offshore drilling units) and the port facilities serving such ships.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[TO AGREE]]></text>
+					<correct><![CDATA[was agreed]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO BRING INTO FORCE]]></text>
+					<correct><![CDATA[were brought into force]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO COVER]]></text>
+					<correct><![CDATA[cover]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO DESCRIBE]]></text>
+					<correct><![CDATA[describing]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO APPLY TO]]></text>
+					<correct><![CDATA[applies to]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

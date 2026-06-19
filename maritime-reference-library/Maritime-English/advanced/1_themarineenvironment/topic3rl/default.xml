@@ -1,0 +1,160 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>page1.mp3</audio>
+		<audio>page2.mp3</audio>
+		<audio>page3.mp3</audio>
+		<audio>page4.mp3</audio>
+		<audio>page5.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="46577">
+			<text><![CDATA[INTRODUCTION
+
+Marine vessels, buoys and offshore structures spend a large part of their working life partly submerged in water. As a result they become easily colonised by the many micro-organisms that live in the water, especially when stationary. 
+
+The extent of this colonisation, also known as fouling, depends on the water temperature, the salinity and the productivity of the organic matter on which the organisms feed. The marine organism can either be of plant origin such as algae and weeds, or of animal origin such as barnacles and tubeworms. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="1000" start="0" end="13" />
+				<text time="2025" duration="3750" start="14" end="59" />
+				<text time="5775" duration="4500" start="60" end="127" />
+				<text time="11150" duration="1250" start="128" end="139" />
+				<text time="12400" duration="2250" start="140" end="168" />
+				<text time="14650" duration="3000" start="169" end="220" />
+				<text time="17650" duration="2250" start="221" end="248" />
+				<text time="20825" duration="2250" start="251" end="283" />
+				<text time="23075" duration="2000" start="284" end="306" />
+				<text time="25075" duration="4500" start="307" end="353" />
+				<text time="29775" duration="4750" start="354" end="425" />
+				<text time="35250" duration="3250" start="426" end="475" />
+				<text time="38500" duration="2500" start="476" end="500" />
+				<text time="41000" duration="2000" start="501" end="520" />
+				<text time="43050" duration="3250" start="521" end="553" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="51123">
+			<text><![CDATA[FIVE DANGERS
+
+Fouling poses many threats to boats. It increases drag on the hull, which reduces speed and leads to increased fuel consumption. Fouling also weighs on the vessel, making it sit lower in the water than usual. In the long-term it can cause significant damage to the boat structure and can ultimately cause leakage and the collapse of the hull. A heavily fouled vessel may also lose manoeuvrability. Finally, fouling reduces the responsiveness of the vessel. A ship with a weakened hull might risk capsizing in storm conditions where rapid changes of direction are extremely important.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="1250" start="0" end="13" />
+				<text time="2275" duration="2750" start="14" end="50" />
+				<text time="5625" duration="2750" start="51" end="81" />
+				<text time="8375" duration="1500" start="82" end="101" />
+				<text time="9900" duration="2750" start="102" end="142" />
+				<text time="13600" duration="2750" start="143" end="177" />
+				<text time="16500" duration="3250" start="178" end="222" />
+				<text time="20500" duration="5000" start="223" end="293" />
+				<text time="25675" duration="4250" start="294" end="356" />
+				<text time="30750" duration="4250" start="357" end="411" />
+				<text time="36250" duration="4500" start="412" end="470" />
+				<text time="41525" duration="5000" start="471" end="539" />
+				<text time="46525" duration="4500" start="540" end="597" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="70192">
+			<text><![CDATA[PROTECTION
+
+To protect the boat from colonisation, anti-fouling treatments such as paint are applied to the outer parts of the ship at regular intervals. The coating is designed to gradually leach biocide or a toxin into the marine environment. This slow poisoning prevents organisms from sticking to the hull.
+
+MATERIALS & ENVIRONMENT
+
+Biocides however not only kill the micro-organisms but also have a harmful effect on other marine life unconnected with fouling activity and this is a major problem.
+
+Tributyltin (TBT) used to be the most popular biocide. TBT lasts a lot longer than copper-based anti-foulings and can also be used on aluminium hulls, where copper cannot be used. It was banned by the IMO in 1987 because of the damage it causes to shellfish communities.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="1000" start="0" end="11" />
+				<text time="2525" duration="2750" start="12" end="50" />
+				<text time="5425" duration="2500" start="51" end="88" />
+				<text time="7975" duration="2750" start="89" end="131" />
+				<text time="10725" duration="1750" start="132" end="153" />
+				<text time="13375" duration="4750" start="154" end="204" />
+				<text time="18150" duration="3250" start="205" end="244" />
+				<text time="22050" duration="1500" start="245" end="264" />
+				<text time="23550" duration="3000" start="265" end="310" />
+				<text time="27650" duration="2500" start="312" end="335" />
+				<text time="32000" duration="4000" start="337" end="387" />
+				<text time="36100" duration="3250" start="388" end="439" />
+				<text time="39350" duration="2250" start="440" end="473" />
+				<text time="41600" duration="2750" start="474" end="502" />
+				<text time="45525" duration="6250" start="504" end="558" />
+				<text time="52475" duration="4500" start="559" end="613" />
+				<text time="56975" duration="2750" start="614" end="654" />
+				<text time="59725" duration="2250" start="655" end="683" />
+				<text time="62775" duration="3500" start="684" end="716" />
+				<text time="66275" duration="3750" start="717" end="774" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="83253">
+			<text><![CDATA[As a result of the ban on TBT, copper has again become the toxin of choice. The copper-based anti-foulants are less effective but remain the most popular alternative for the near future.  Although copper is a naturally occurring element, too high concentrations prove to be extremely toxic to marine life. Certain species of fish and other marine organisms such as marine invertebrates are sensitive to quite low levels of copper. The biggest copper polluters of the aquatic ecosystem are the industrial wastewater discharges and atmospheric deposition, particularly from foundries and metal plating and cleaning operations. There is also a suggestion that too much copper in the water can result in reduced plant growth and a reduction in photosynthesis.
+
+The marine industry is also experimenting with biocides of organic origin or with herbicidal compounds. They are usually combined with copper, without which they remain less effective since they only kill one specific type of fouling organisms. It has however not yet been proven that they are less environmentally harmful than other biocides.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="3"/>
+			<list:timeline>
+				<text time="250" duration="2250" start="0" end="30" />
+				<text time="2725" duration="3500" start="31" end="75" />
+				<text time="6975" duration="3500" start="76" end="125" />
+				<text time="10475" duration="3750" start="126" end="186" />
+				<text time="15025" duration="3250" start="188" end="237" />
+				<text time="18450" duration="5250" start="238" end="305" />
+				<text time="24700" duration="5500" start="306" end="385" />
+				<text time="30200" duration="3250" start="386" end="430" />
+				<text time="34325" duration="3500" start="431" end="484" />
+				<text time="37825" duration="5250" start="485" end="553" />
+				<text time="43075" duration="4750" start="554" end="624" />
+				<text time="48575" duration="3750" start="625" end="685" />
+				<text time="52325" duration="5000" start="686" end="755" />
+				<text time="58775" duration="2750" start="757" end="798" />
+				<text time="61525" duration="4500" start="799" end="860" />
+				<text time="66900" duration="2500" start="861" end="899" />
+				<text time="69600" duration="6250" start="900" end="1001" />
+				<text time="76175" duration="2500" start="1002" end="1036" />
+				<text time="78675" duration="4500" start="1037" end="1100" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="44148">
+			<text><![CDATA[Teflon has also been used in recent years but almost only on racing yachts. It creates less friction on the surface. Although this smoothness reduces the settlement of organisms, it is probably not such an effective antifouling coating. 
+
+Finally, research into the benefits of silicon is at a fairly early stage. It is a difficult material to work with because it is soft.
+
+CONCLUSION
+
+Anti-foulants generally have a negative impact on the marine environment. Research requires a lot of time and money. It will be a long time before a replacement can be found for copper. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="4"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="41" />
+				<text time="2900" duration="3000" start="42" end="75" />
+				<text time="6450" duration="2750" start="76" end="116" />
+				<text time="9675" duration="3750" start="117" end="178" />
+				<text time="13425" duration="4000" start="179" end="236" />
+				<text time="18075" duration="5750" start="239" end="313" />
+				<text time="24450" duration="4000" start="314" end="373" />
+				<text time="29550" duration="1500" start="375" end="385" />
+				<text time="31400" duration="4750" start="387" end="460" />
+				<text time="36675" duration="2750" start="461" end="503" />
+				<text time="39950" duration="4000" start="504" end="572" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

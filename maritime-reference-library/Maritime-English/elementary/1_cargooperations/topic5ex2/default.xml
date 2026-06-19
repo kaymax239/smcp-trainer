@@ -1,0 +1,45 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+	
+	<list:items boolean:showFeedbackDialog="false" boolean:showMasks="false" boolean:showReflection="false" boolean:showSlots="true">
+		<list:items>
+			<item audio="co52001.mp3" wrongAudio="co52009.mp3" correctAudio="co52005.mp3" gapAudio="co52001.mp3">
+				<list:points>
+					<point x="175" y="85" />
+					<point x="427" y="85" />
+					<point x="427" y="271" />
+					<point x="175" y="271" />
+				</list:points>
+				<text><![CDATA[<This is a fast-ferry catamaran Ro-Ro vessel>.]]></text>
+			</item>
+			<item audio="co52002.mp3" wrongAudio="co52010.mp3" correctAudio="co52006.mp3" gapAudio="co52002.mp3">
+				<list:points>
+					<point x="444" y="85" />
+					<point x="698" y="85" />
+					<point x="698" y="271" />
+					<point x="444" y="271" />
+				</list:points>
+				<text><![CDATA[<This is a traditional Ro-Ro vessel>.]]></text>
+			</item>
+			<item audio="co52003.mp3" wrongAudio="co52011.mp3" correctAudio="co52007.mp3" gapAudio="co52003.mp3">
+				<list:points>
+					<point x="175" y="285" />
+					<point x="427" y="285" />
+					<point x="427" y="472" />
+					<point x="175" y="472" />
+				</list:points>
+				<text><![CDATA[<This is a conventional ferry>.]]></text>
+			</item>
+			<item audio="co52004.mp3" wrongAudio="co52012.mp3" correctAudio="co52008.mp3" gapAudio="co52004.mp3">
+				<list:points>
+					<point x="444" y="285" />
+					<point x="698" y="285" />
+					<point x="698" y="472" />
+					<point x="444" y="472" />
+				</list:points>
+				<text><![CDATA[<Passengers may get onboard through a gangway or a gangplank>.]]></text>
+			</item>
+		</list:items>
+	</list:items>
+</root>

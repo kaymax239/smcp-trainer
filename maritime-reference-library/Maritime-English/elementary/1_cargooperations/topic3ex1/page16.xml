@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page16</name>
+      <background>page16/P1160009.JPG</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false" />
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false">
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:201" y="number:107" />
+                  <point x="number:196" y="number:117" />
+                  <point x="number:219" y="number:126" />
+                  <point x="number:250" y="number:141" />
+                  <point x="number:262" y="number:135" />
+                  <point x="number:263" y="number:122" />
+                  <point x="number:241" y="number:118" />
+                  <point x="number:219" y="number:112" />
+                  <point x="number:205" y="number:103" />
+                </points>
+                <points type="list">
+                  <point x="number:294" y="number:165" />
+                  <point x="number:279" y="number:176" />
+                  <point x="number:260" y="number:182" />
+                  <point x="number:250" y="number:191" />
+                  <point x="number:240" y="number:192" />
+                  <point x="number:234" y="number:203" />
+                  <point x="number:238" y="number:211" />
+                  <point x="number:249" y="number:217" />
+                  <point x="number:261" y="number:211" />
+                  <point x="number:274" y="number:201" />
+                  <point x="number:288" y="number:194" />
+                  <point x="number:301" y="number:192" />
+                  <point x="number:308" y="number:187" />
+                  <point x="number:306" y="number:173" />
+                  <point x="number:300" y="number:164" />
+                </points>
+                <points type="list">
+                  <point x="number:189" y="number:123" />
+                  <point x="number:176" y="number:130" />
+                  <point x="number:176" y="number:142" />
+                  <point x="number:188" y="number:150" />
+                  <point x="number:178" y="number:156" />
+                  <point x="number:163" y="number:153" />
+                  <point x="number:148" y="number:160" />
+                  <point x="number:131" y="number:160" />
+                  <point x="number:90" y="number:156" />
+                  <point x="number:77" y="number:167" />
+                  <point x="number:84" y="number:177" />
+                  <point x="number:103" y="number:179" />
+                  <point x="number:126" y="number:183" />
+                  <point x="number:143" y="number:185" />
+                  <point x="number:135" y="number:204" />
+                  <point x="number:138" y="number:217" />
+                  <point x="number:150" y="number:218" />
+                  <point x="number:165" y="number:216" />
+                  <point x="number:180" y="number:212" />
+                  <point x="number:194" y="number:210" />
+                  <point x="number:207" y="number:208" />
+                  <point x="number:212" y="number:197" />
+                  <point x="number:212" y="number:183" />
+                  <point x="number:225" y="number:187" />
+                  <point x="number:238" y="number:178" />
+                  <point x="number:240" y="number:167" />
+                  <point x="number:228" y="number:163" />
+                  <point x="number:215" y="number:149" />
+                  <point x="number:202" y="number:135" />
+                  <point x="number:193" y="number:126" />
+                </points>
+                <points type="list">
+                  <point x="number:1" y="number:159" />
+                  <point x="number:10" y="number:177" />
+                  <point x="number:20" y="number:194" />
+                  <point x="number:35" y="number:198" />
+                  <point x="number:45" y="number:190" />
+                  <point x="number:38" y="number:175" />
+                  <point x="number:22" y="number:156" />
+                  <point x="number:10" y="number:141" />
+                  <point x="number:0" y="number:145" />
+                </points>
+                <points type="list">
+                  <point x="number:74" y="number:267" />
+                  <point x="number:65" y="number:278" />
+                  <point x="number:68" y="number:291" />
+                  <point x="number:75" y="number:305" />
+                  <point x="number:90" y="number:310" />
+                  <point x="number:109" y="number:321" />
+                  <point x="number:127" y="number:330" />
+                  <point x="number:137" y="number:337" />
+                  <point x="number:150" y="number:328" />
+                  <point x="number:156" y="number:312" />
+                  <point x="number:148" y="number:304" />
+                  <point x="number:152" y="number:290" />
+                  <point x="number:146" y="number:278" />
+                  <point x="number:129" y="number:278" />
+                  <point x="number:108" y="number:275" />
+                  <point x="number:79" y="number:267" />
+                </points>
+                <points type="list">
+                  <point x="number:508" y="number:64" />
+                  <point x="number:500" y="number:73" />
+                  <point x="number:507" y="number:83" />
+                  <point x="number:529" y="number:90" />
+                  <point x="number:541" y="number:103" />
+                  <point x="number:555" y="number:100" />
+                  <point x="number:558" y="number:89" />
+                  <point x="number:539" y="number:80" />
+                  <point x="number:520" y="number:68" />
+                  <point x="number:514" y="number:64" />
+                </points>
+              </hotspots>
+              <name>bolt</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page16/</file>
+                      <text><![CDATA[First click on a bolt and then on a flange.]]></text>
+                      <repeatsBeforeText type="number">0</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page16/pw048.mp3</file>
+                      <text><![CDATA[Fine, that’s correct.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page16/pw049b.mp3</file>
+                      <text><![CDATA[No, try again. First click on a bolt and then on a flange.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:541" y="number:104" />
+                  <point x="number:564" y="number:120" />
+                  <point x="number:577" y="number:108" />
+                  <point x="number:559" y="number:93" />
+                  <point x="number:543" y="number:103" />
+                </points>
+                <points type="list">
+                  <point x="number:588" y="number:83" />
+                  <point x="number:597" y="number:99" />
+                  <point x="number:616" y="number:93" />
+                  <point x="number:609" y="number:79" />
+                  <point x="number:591" y="number:81" />
+                </points>
+                <points type="list">
+                  <point x="number:647" y="number:81" />
+                  <point x="number:650" y="number:98" />
+                  <point x="number:669" y="number:97" />
+                  <point x="number:674" y="number:84" />
+                  <point x="number:648" y="number:80" />
+                </points>
+                <points type="list">
+                  <point x="number:654" y="number:225" />
+                  <point x="number:653" y="number:244" />
+                  <point x="number:685" y="number:250" />
+                  <point x="number:683" y="number:229" />
+                  <point x="number:654" y="number:224" />
+                </points>
+                <points type="list">
+                  <point x="number:628" y="number:287" />
+                  <point x="number:625" y="number:305" />
+                  <point x="number:656" y="number:312" />
+                  <point x="number:659" y="number:292" />
+                  <point x="number:629" y="number:284" />
+                </points>
+                <points type="list">
+                  <point x="number:685" y="number:292" />
+                  <point x="number:689" y="number:313" />
+                  <point x="number:714" y="number:302" />
+                  <point x="number:712" y="number:285" />
+                  <point x="number:687" y="number:291" />
+                </points>
+              </hotspots>
+              <name>flange</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false" />
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page16/pw048.mp3</file>
+                      <text><![CDATA[Fine, that’s correct.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page16/pw047c.mp3</file>
+                      <text><![CDATA[No, try again.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+          </actions>
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page16/pw050.mp3</file>
+              <text><![CDATA[Next, let’s have a look at a drawing of the pipelines.]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">false</requireNext>
+            </action>
+          </actions>
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false">
+            <action actionType="loadScene">
+              <file>page17.xml</file>
+            </action>
+          </actions>
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

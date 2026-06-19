@@ -1,0 +1,50 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me2001.mp3</audio>
+		<audio>me2001a.mp3</audio>
+		<audio>me2001b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="58829">
+			<text><![CDATA[Everyone is aware that marine pollution exists. Often it can be seen. Invisible pollutants however also cause a lot of harm.
+Most sources of marine pollution are land based and thus often man-made. This type of pollution often comes from nonpoint sources such as agricultural runoff and wind blown debris. Many potentially toxic chemicals stick to tiny particles which are eaten and digested by organisms such as plankton and benthos animals, mostly deposit or filter feeders. In this way the toxic chemicals are concentrated upward within the ocean food chains. Many of these tiny particles combine chemically in such a manner that they exhaust the oxygen, causing waters (e.g. estuaries) to become anoxic.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="3000" start="0" end="47" />
+				<text time="3475" duration="2500" start="47" end="69" />
+				<text time="6175" duration="4750" start="69" end="125" />
+				<text time="11975" duration="5000" start="125" end="199" />
+				<text time="17200" duration="8500" start="199" end="306" />
+				<text time="26050" duration="14000" start="306" end="477" />
+				<text time="40250" duration="6300" start="477" end="563" />
+				<text time="46900" duration="11700" start="563" end="712" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="51384">
+			<text><![CDATA[If pesticides are incorporated into the marine ecosystem, they quickly become integrated into and absorbed by marine food webs. Once in the food webs, these pesticides can cause mutations, as well as diseases, which can be harmful to humans as well as the entire food web. Toxic metals can also be introduced into marine food webs. These can cause changes in tissue matter, biochemistry, behaviour and reproduction and also suppress growth in marine life. In addition, many animal feeds have a high fish meal or fish hydrolysate content. In this way, marine toxins can be transferred to land animals, and appear later in meat and dairy products.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="10000" start="0" end="127" />
+				<text time="10550" duration="11000" start="127" end="271" />
+				<text time="21850" duration="4000" start="271" end="331" />
+				<text time="26150" duration="9000" start="331" end="455" />
+				<text time="36100" duration="7000" start="455" end="537" />
+				<text time="43350" duration="7900" start="537" end="650" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res/">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+
+	<boolean name="useNavigation">true</boolean>
+	<boolean name="navAlwaysAvailable">true</boolean>
+	<boolean name="playOnNavigate">false</boolean>
+
+	<number name="fadeDuration">250</number> 			<!-- In milliseconds -->
+
+	<boolean name="useNavigation">true</boolean>
+	<image name="playButton"             x="301" y="488" >btn_play.png</image>
+	<image name="pauseButton"            x="301" y="488" >btn_pause.png</image>         <!-- Replaces playButton when playing -->
+	<image name="stopButton"             x="348" y="488" >btn_stop.png</image>
+	<image name="stopButtonDisabled"     x="348" y="488" >btn_stop_disabled.png</image>
+    <image name="navPrevButton"  		 x="395" y="488">btn_navprev.png</image>
+    <image name="navPrevButtonDisabled"  x="395" y="488">btn_navprev_disabled.png</image>
+    <image name="navNextButton"  		 x="442" y="488">btn_navnext.png</image>
+    <image name="navNextButtonDisabled"  x="442" y="488">btn_navnext_disabled.png</image>
+	<image name="prevPageButton"         x="489" y="488" >btn_prev.png</image>
+	<image name="prevPageButtonDisabled" x="489" y="488" >btn_prev_disabled.png</image>
+	<image name="nextPageButton"         x="536" y="488" >btn_next.png</image>
+	<image name="nextPageButtonDisabled" x="536" y="488" >btn_next_disabled.png</image>
+	<image name="hideTextButtonEnabled"  x="522" y="5495" >btn_text_enable.png</image>   <!-- Replaces hideTextButtonDisabled when text is hidden -->
+	<image name="hideTextButtonDisabled" x="522" y="5495" >btn_text_disable.png</image>
+	
+	<scrollbar name="navScrollbar">
+		<position x="302" y="468" />
+		<orientation>horizontal</orientation>
+		<background>scrollpohja.png</background>
+		<dot><image x="-2" y="-7">scrollnappi.png</image></dot>
+	</scrollbar>
+
+	<rectangle name="backgroundRect" x="1" y="72" w="157" h="410" />  <!-- Taustakuva tulee tähän rectiin -->
+	<rectangle name="imageRect" x="100" y="250" w="618" h="225" />
+
+	<color name="hilightColor">0xff0000</color>	
+	
+	<boolean name="useHypertext">true</boolean>     <!-- pakollinen -->
+	<color name="hypertextColor">0x0000ff</color>
+	<number name="hypertextFadeDuration">500</number>
+	<number name="hypertextLineThickness">2</number>
+	<image name="hypertextWindow">commentbg.png</image>
+	<number name="hypertextUnderlineWidthAdjust">-2</number>
+	<textfield name="hypertextText">                <!-- pakollinen -->
+	  <position x="15" y="10" />
+	  <size w="270" h="77" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="left" leading="0" />
+	</textfield>
+
+	<textfield name="text">
+		<position x="170" y="80" />
+		<size w="530" h="400" />
+		<format fontFamily="Arial" color="0x000000" size="16" align="left" leading="7" />
+	</textfield>
+	
+	<textfield name="pageNumberField">
+		<position x="610" y="455" />
+		<size w="100" h="25" />
+		<format fontFamily="Arial" color="0x000000" size="14" align="center" bold="false" />
+	</textfield>
+	
+	<textfield name="imageCaptionField">
+		<position x="100" y="450" />
+		<size w="600" h="25" />
+		<format fontFamily="Arial" color="0x000000" size="12" align="center" bold="false" />
+	</textfield>
+	
+	<!-- Static UI elements -->
+	<loader name="ui">
+		<image name="background">bg.jpg</image>
+		<filter name="shadow" type="shadow" distance="4" alpha="0.65" />
+		
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[The Marine Environment / Read and Listen]]></text>
+		</textfield>
+		
+		<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="23" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[The Marine Environment]]></text>
+		</textfield>
+
+		<textpoints name="points">
+			<values correct="1" error="0" min="0" max="6" />
+			<complete>
+				<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+				<ranges>
+					<range min="0">
+						<!-- Failure -->
+						<image x="0" y="0">g1ok4.jpg</image>
+						<sound>audio/g1ok11.mp3</sound>
+					</range>
+				</ranges>
+			</complete>			
+		</textpoints>
+		
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg3.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="170" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Click "Play". Listen to the recording. Click "Back" to go back or "Fast Forward" to go forward. Use the scrollbar to go up or down. Click "Stop" to end and return to the beginning.]]></text>
+			</textfield>
+		</info>
+
+	</loader>	
+</style>

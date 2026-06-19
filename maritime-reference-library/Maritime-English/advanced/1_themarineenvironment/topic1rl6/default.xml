@@ -1,0 +1,69 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me6001a.mp3</audio>
+		<audio>me6001b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="59691">
+			<text><![CDATA[Dangerous Debris & Cleanups  
+
+When odds and ends of life on land - particularly plastics - end up in the sea, they pose hazards to marine life. Animals drown or strangle from becoming tangled in discarded or lost fishing gear, or suffer and even die from eating plastics and other garbage. 
+
+Medical trash can also pose a severe problem. Needles and syringes, washed from city streets and sewer systems after heavy rain storms, can wash up onto beaches. Although medical trash turns up infrequently, estimated costs from lost tourism and recreation can run into billions.
+ 
+An example of how dangerous debris can affect marine wildlife was provided by biologists who performed an autopsy on an emaciated male sperm whale beached in New Jersey. They found a party balloon, ribbon still attached, blocking the animal's digestive tract.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2000" start="31" end="65" />
+				<text time="2250" duration="1500" start="66" end="91" />
+				<text time="3750" duration="1500" start="92" end="110" />
+				<text time="5250" duration="2750" start="111" end="144" />
+				<text time="8500" duration="5000" start="145" end="227" />
+				<text time="13550" duration="4750" start="228" end="290" />
+				<text time="19050" duration="3750" start="293" end="338" />
+				<text time="23250" duration="1750" start="339" end="360" />
+				<text time="25000" duration="4250" start="361" end="428" />
+				<text time="29250" duration="2500" start="429" end="454" />
+				<text time="31800" duration="3000" start="455" end="500" />
+				<text time="34800" duration="6000" start="501" end="572" />
+				<text time="41075" duration="4000" start="575" end="636" />
+				<text time="45075" duration="3750" start="637" end="688" />
+				<text time="48825" duration="4250" start="689" end="744" />
+				<text time="53700" duration="2250" start="745" end="772" />
+				<text time="55950" duration="1500" start="773" end="795" />
+				<text time="57450" duration="2000" start="796" end="834" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="35711">
+			<text><![CDATA[Even deserted isles become dumps. An important breeding area for seabirds, the Ducie Atoll in the South Pacific, is littered with as much trash as some European beaches. Almost 300 miles from the nearest inhabited island and over 3000 miles from the nearest continent, Ducie Atoll is one of the most remote islands in the world yet when a scientist visited it in 1991, he found over 950 pieces of trash in a 1.5 mile stretch of beach. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="2250" start="0" end="33" />
+				<text time="3050" duration="2750" start="34" end="74" />
+				<text time="5800" duration="2500" start="75" end="112" />
+				<text time="8300" duration="4500" start="113" end="169" />
+				<text time="13300" duration="3500" start="170" end="220" />
+				<text time="16800" duration="3500" start="221" end="268" />
+				<text time="20300" duration="4250" start="269" end="327" />
+				<text time="24550" duration="4000" start="328" end="368" />
+				<text time="28550" duration="7000" start="369" end="434" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

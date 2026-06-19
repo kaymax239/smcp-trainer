@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header>
+    <introText>The wheelhouse encloses the steering wheel. Today it is usually part of the bridge of the ship where the navigation aids and controls are found. During manoeuvring the Master and a Navigating Officer are always in the wheelhouse. There will also be an AB seaman on duty as helmsman.</introText>
+  </header>
+  <body>
+    <items type="list">
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:42" y="number:323" />
+        <text>rudder angle indicator</text>
+        <audioFile>audio/nb15008.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Right</pointer>
+        <hints type="list">
+          <hint hintType="audio" cost="0">audio/nb15009.mp3</hint>
+          <hint hintType="clue" cost="1">You can take rudder angle readings from it.</hint>
+          <hint hintType="clue" cost="2">R______ </hint>
+          <hint hintType="audio" cost="3">audio/nb15008.mp3</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:71" y="number:68" />
+        <text>radar</text>
+        <audioFile>audio/nb15002.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Right</pointer>
+        <hints type="list">
+          <hint hintType="audio" cost="0">audio/nb15003.mp3</hint>
+          <hint hintType="clue" cost="1">It has a screen like a television. </hint>
+          <hint hintType="clue" cost="2">R______ </hint>
+          <hint hintType="audio" cost="3">audio/nb15002.mp3</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:204" y="number:412" />
+        <text>helm</text>
+        <audioFile>audio/nb15004.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Right</pointer>
+        <hints type="list">
+          <hint hintType="audio" cost="0">audio/nb15005.mp3</hint>
+          <hint hintType="clue" cost="1">It is the steering wheel of the ship.</hint>
+          <hint hintType="clue" cost="2">H______ </hint>
+          <hint hintType="audio" cost="3">audio/nb15004.mp3</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:331" y="number:145" />
+        <text>sound alarm</text>
+        <audioFile>audio/nb15010.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Up</pointer>
+        <hints type="list">
+          <hint hintType="audio" cost="0">audio/nb15011.mp3</hint>
+          <hint hintType="clue" cost="1">This device gives a warning in an emergency.</hint>
+          <hint hintType="clue" cost="2">S______ </hint>
+          <hint hintType="audio" cost="3">audio/nb15010.mp3</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:405" y="number:217" />
+        <text>emergency tiller</text>
+        <audioFile>audio/nb15014.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Right</pointer>
+        <hints type="list">
+          <hint hintType="audio" cost="0">audio/nb15015.mp3</hint>
+          <hint hintType="clue" cost="1">It is used for steering the ship in an emergency.</hint>
+          <hint hintType="clue" cost="2">E______ </hint>
+          <hint hintType="audio" cost="3">audio/nb15014.mp3</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:440" y="number:36" />
+        <text>gyro compass</text>
+        <audioFile>audio/nb15012.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Down</pointer>
+        <hints type="list">
+          <hint hintType="audio" cost="0">audio/nb15013.mp3</hint>
+          <hint hintType="clue" cost="1">It is more reliable and accurate than a magnetic compass.</hint>
+          <hint hintType="clue" cost="2">G ______ </hint>
+          <hint hintType="audio" cost="3">audio/nb15012.mp3</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:488" y="number:417" />
+        <text>helm switch</text>
+        <audioFile>audio/nb15006.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Left</pointer>
+        <hints type="list">
+          <hint hintType="audio" cost="0">audio/nb15007.mp3</hint>
+          <hint hintType="clue" cost="1">The three available steering modes are manual, autopilot and emergency.</hint>
+          <hint hintType="clue" cost="2">H______ </hint>
+          <hint hintType="audio" cost="3">audio/nb15006.mp3</hint>
+        </hints>
+      </item>
+    </items>
+  </body>
+</root>

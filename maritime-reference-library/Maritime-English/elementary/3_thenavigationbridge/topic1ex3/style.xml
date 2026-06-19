@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+		
+	<image name="page1Bg" x="16" y="78">page1.png</image>
+	
+	<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+	<filter name="shadow" type="shadow" alpha="0.0" />
+	
+	<image name="repeatButton" x="369" y="560">clear.gif</image>
+	
+	<image name="background">clear.gif</image>
+	<image name="bbl">bbl.png</image>
+	<image name="slot1">slot.png</image>
+	<image name="slot2">bbl.png</image>
+	<textfield name="slot-text">
+		<position x="-5" y="2" />
+		<size w="90" h="25" />
+		<format fontFamily="Arial" color="0x000000" size="13" align="center" />
+		<text></text>
+	</textfield>
+	<textfield name="bbl-text">
+		<position x="0" y="11" />
+		<size w="20" h="40" />
+		<format fontFamily="Arial" color="0x000000" size="12" align="right" />
+		<text></text>
+	</textfield>
+	
+	<generic name="maxTries">100000</generic>
+	
+	<grid name="bblGrid">
+		<dimensions rows="1" cols="8" />
+		<position x="21" y="451" />
+		<spacing x="85" y="00" />
+		<randomize>true</randomize>
+	</grid>
+
+	<grid name="slotGrid">
+		<dimensions rows="2" cols="4" />
+		<position x="58" y="231" />
+		<spacing x="175" y="186" />
+	</grid>
+	
+	
+	<loader name="ui">
+		<image name="bg">bg.png</image>
+		
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[The Navigation Bridge / Ex 3]]></text>
+		</textfield>
+		
+		<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="23" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[The Navigation Bridge]]></text>
+		</textfield>
+		
+		<textpoints name="score">
+			<values max="16" correct="1" error="0" min="0" correctOnFirst="2" />
+			<background x="82" y="494">scorebg.png</background>
+			<points>
+				<position x="82" y="504" />
+				<size w="67" h="39" />
+				<format fontFamily="Arial" color="0x1A619F" size="16" bold="true" align="center" />
+				<text><![CDATA[{points} / {maxpoints}]]></text>
+			</points>
+			<complete>
+				<fx type="fade" from="0" to="1" duration="300" />
+				<fx type="move" x="218" y="482" duration="500" delay="1500" />
+				<fx type="scale" to="0.55" from="1" duration="500" delay="1500" />
+				<ranges>
+					<range min="-10000">
+						<image x="230" y="209">done.gif</image>
+					</range>
+				</ranges>
+			</complete>
+		</textpoints>
+		
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="150" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Click on any yellow block and then move it onto the picture you hear being referred to.]]></text>
+			</textfield>
+		</info>
+	</loader>
+	
+	<textfield name="info-text">
+		<position x="260000" y="20" />
+		<size w="400" h="70" />
+		<format fontFamily="Arial" color="0x990033" size="16" />
+		<text></text>
+	</textfield>
+	<image name="pointsbg" x="16200" y="98">clear.gif</image>
+	<textfield name="point-field">
+		<position x="17500" y="100" />
+		<size w="92" h="24" />
+		<format fontFamily="Arial" color="0x000000" size="12" align="center" />
+		<text></text>
+	</textfield>	
+	<textfield name="task-name">
+		<position x="50000" y="78" />
+		<size w="168" h="22" />
+		<format fontFamily="Arial" color="0xFFFFFF" size="12" />
+		<text></text>
+	</textfield>
+	<image name="done" x="300" y="257">clear.gif</image>
+</style>

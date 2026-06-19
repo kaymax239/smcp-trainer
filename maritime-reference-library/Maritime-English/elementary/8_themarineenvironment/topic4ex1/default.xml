@@ -1,0 +1,113 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong02.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:gapFieldFirst="false" boolean:showCorrectAfterMultipleChoice="true" boolean:shuffle="true" boolean:repeatNext="false" boolean:repeatLast="true">
+		<item>
+			<sentence rigthAudio="me41001.mp3"><![CDATA[This is a photograph of the <oil tanker>, the Exxon Valdez.]]></sentence>
+        	<list:choises>
+				<item>
+					<![CDATA[container vessel]]>
+				</item>
+				<item>
+					<![CDATA[LNG carrier]]>
+				</item>
+			</list:choises>
+       </item>
+		<item>
+			<sentence rigthAudio="me41002.mp3"><![CDATA[On March 24, 1989, the Exxon Valdez left <Alaska>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[Washington]]>
+				</item>				
+				<item>
+					<![CDATA[Newfoundland]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me41003.mp3"><![CDATA[The ship was in the <outbound> shipping lane.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[inbound]]>
+				</item>
+				<item>
+					<![CDATA[coastal]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me41004.mp3"><![CDATA[The master handed over the vessel to <the third mate>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[the first mate]]>
+				</item>				
+				<item>
+					<![CDATA[the helmsman]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me41005.mp3"><![CDATA[He was assisted by an able seaman, who was <at the helm>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[on watch]]>
+				</item>				
+				<item>
+					<![CDATA[at the rudder]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me41006.mp3"><![CDATA[The mate was trying to avoid <icebergs>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[rocks]]>
+				</item>				
+				<item>
+					<![CDATA[sandbanks]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me41007.mp3"><![CDATA[The ship struck <a reef>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[a vessel]]>
+				</item>
+				<item>
+					<![CDATA[a quay]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me41008.mp3"><![CDATA[The ship spilled 10.8 million gallons of <oil> into the Prince William Sound.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[chemicals]]>
+				</item>				
+				<item>
+					<![CDATA[hazardous substances]]>
+				</item>
+			</list:choises>
+		</item>
+	</list:items>
+</root>

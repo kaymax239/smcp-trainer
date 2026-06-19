@@ -1,0 +1,58 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">First dispersants were used.<br>The dispersants were dropped from a helicopter.<br>The use of dispersants was discontinued.<br>Burning was then attempted.<br>As a result of unfavourable weather conditions, no additional burning was undertaken.<br>Mechanical clean-up was started shortly afterwards.<br>The operation was delayed.<br>The skimmers were not available during the first 24 hours.<br>The decision was made to displace the oil with high-pressure hot water.<br>Microbial populations on the shoreline were destroyed.
+</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[used]]></text>
+					<correct><![CDATA[used]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[dropped]]></text>
+					<correct><![CDATA[dropped]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[discontinued]]></text>
+					<correct><![CDATA[discontinued]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[attempted]]></text>
+					<correct><![CDATA[attempted]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[undertaken]]></text>
+					<correct><![CDATA[undertaken]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[started]]></text>
+					<correct><![CDATA[started]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[delayed]]></text>
+					<correct><![CDATA[delayed]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[available]]></text>
+					<correct><![CDATA[available]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[made]]></text>
+					<correct><![CDATA[made]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[destroyed]]></text>
+					<correct><![CDATA[destroyed]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

@@ -1,0 +1,60 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="8" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	
+	<items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" boolean:pages="true" />
+	
+	<list:pages>
+		<list:page boolean:lockLeft="true">
+			<item>
+				<block1 audio="me0059.mp3"><![CDATA[Factories, military bases, ships and sewage-treatment plants]]></block1>
+				<block2 audio="me0060.mp3"><![CDATA[contribute to toxic wastes in Puget Sound, Washington.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me0061.mp3"><![CDATA[The Puget Sound Water Quality Authority has been overseeing efforts to]]></block1>
+				<block2 audio="me0062.mp3"><![CDATA[clean up contaminated sediments and control the sources of pollution.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me0063.mp3"><![CDATA[State sediment-management standards and federal law]]></block1>
+				<block2 audio="me0064.mp3"><![CDATA[regulate methods for dredging, disposing, and cleanup of contaminated sediments.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me0065.mp3"><![CDATA[TBT, or tributyl tin, is added to boat paints to]]></block1>
+				<block2 audio="me0066.mp3"><![CDATA[kill or repel barnacles that foul ships' hulls.]]></block2>
+			</item>		
+		</list:page>
+		<list:page boolean:lockLeft="true">
+			<item>
+				<block1 audio="me0067.mp3"><![CDATA[TBT, which seeps out of the paint into the water,]]></block1>
+				<block2 audio="me0068.mp3"><![CDATA[affects wildlife.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me0069.mp3"><![CDATA[It is proven that the banning of TBT]]></block1>
+				<block2 audio="me0070.mp3"><![CDATA[encourages marine populations to return to the area.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me0071.mp3"><![CDATA[Almost all the surviving animals]]></block1>
+				<block2 audio="me0072.mp3"><![CDATA[did not reproduce and had malformed shells.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me0073.mp3"><![CDATA[After regulations reduced the use of TBT, oyster production]]></block1>
+				<block2 audio="me0074.mp3"><![CDATA[increased and shell deformation decreased dramatically.]]></block2>
+			</item>			
+		</list:page>
+	</list:pages>
+</root>

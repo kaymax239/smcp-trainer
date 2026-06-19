@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root 
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:style="http://www.lingonet.com/xml/style"
+	xmlns:image="http://www.lingonet.com/xml/image">
+	
+	<list:points number:max="9" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	
+	<items boolean:pages="true" boolean:customTexts="false" boolean:showReflection="false"/>
+	
+	<list:pages boolean:shuffle="false">
+		<page>
+			<list:items>
+				<item boolean:value="true" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[Gun works as a teacher.]]></text>
+					<audio>fa2001.mp3</audio>
+				</item>
+				<item boolean:value="true" trueText="oikein" falseText="väärin" wrongAudio="wrong02.mp3" correctAudio="ok02.mp3">
+					<text><![CDATA[She has taken care of both children and the elderly.]]></text>
+					<audio>fa2002.mp3</audio>
+				</item>
+				<item boolean:value="false" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[She has not yet worked on ships.]]></text>
+					<audio>fa2003.mp3</audio>
+				</item>
+				<item boolean:value="false" trueText="oikein" falseText="väärin" wrongAudio="wrong02.mp3" correctAudio="ok02.mp3">
+					<text><![CDATA[She gives First Aid training mainly at beginners level.]]></text>
+					<audio>fa2004.mp3</audio>
+				</item>
+				<item boolean:value="false" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[The Master acts as medical officer onboard.]]></text>
+					<audio>fa2005.mp3</audio>
+				</item>
+				<item boolean:value="true" trueText="oikein" falseText="väärin" wrongAudio="wrong02.mp3" correctAudio="ok02.mp3">
+					<text><![CDATA[The ABCDE-method helps seafarers to know what to do and when.]]></text>
+					<audio>fa2006.mp3</audio>
+				</item>
+			</list:items>
+		</page>
+		<page>
+			<list:items>
+				<item boolean:value="true" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok03.mp3">
+					<text><![CDATA[The seafarers should be familiar with the most common diseases including signs and symptoms.]]></text>
+					<audio>fa2007.mp3</audio>
+				</item>
+				<item boolean:value="false" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[The students are only given theory training.]]></text>
+					<audio>fa2008.mp3</audio>
+				</item>
+			</list:items>
+		</page>
+	</list:pages>
+</root>

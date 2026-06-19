@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root 
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:style="http://www.lingonet.com/xml/style"
+	xmlns:image="http://www.lingonet.com/xml/image">
+	
+	<list:points number:max="9" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	
+	<items boolean:pages="true" boolean:customTexts="false" boolean:showReflection="false"/>
+	
+	<list:pages boolean:shuffle="false">
+		<page>
+			<list:items>
+				<item boolean:value="true" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[There is an international convention on stowaways.]]></text>
+					<audio>ms14001.mp3</audio>
+				</item>
+				<item boolean:value="false" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[The convention is in force.]]></text>
+					<audio>ms14002.mp3</audio>
+				</item>
+				<item boolean:value="true" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[The convention covers the captain’s responsibilities towards stowaways.]]></text>
+					<audio>ms14003.mp3</audio>
+				</item>
+				<item boolean:value="true" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[The convention covers the rules regarding the cost of returning stowaways.]]></text>
+					<audio>ms14004.mp3</audio>
+				</item>
+				<item boolean:value="false" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[The convention has been ratified.]]></text>
+					<audio>ms14005.mp3</audio>
+				</item>
+				<item boolean:value="false" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[The position of stowaways is not protected.]]></text>
+					<audio>ms14006.mp3</audio>
+				</item>
+			</list:items>
+		</page>
+		<page>
+			<list:items>
+				<item boolean:value="true" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[The United Nations Declaration on Human Rights and the European Convention on Human Rights are international agreements which protect stowaways.]]></text>
+					<audio>ms14007.mp3</audio>
+				</item>
+				<item boolean:value="false" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[These international agreements are specifically for stowaways.]]></text>
+					<audio>ms14008.mp3</audio>
+				</item>
+				<item boolean:value="true" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[They cover the right to life, and freedom from torture, degrading treatment, slavery and discrimination.]]></text>
+					<audio>ms14009.mp3</audio>
+				</item>
+				<item boolean:value="false" trueText="oikein" falseText="väärin" wrongAudio="wrong01.mp3" correctAudio="ok01.mp3">
+					<text><![CDATA[The international agreements do not cover other basic human rights.]]></text>
+					<audio>ms14010.mp3</audio>
+				</item>
+			</list:items>
+		</page>
+	</list:pages>
+</root>

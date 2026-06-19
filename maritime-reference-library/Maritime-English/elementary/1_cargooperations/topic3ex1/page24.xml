@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="Showing">
+      <name>page24</name>
+      <background>page24/Tervi.jpg</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page24/pw067.mp3</file>
+              <text><![CDATA[It looks like the ship has received almost all the cargo. Now she asks the terminal to reduce the loading rate. The tanks are topped-off. This means that the tanks are loaded to a required ullage. The loading is finished and all valves in the cargo system are closed. Shore control valves are the first ones to be closed. Then the ship’s valves are closed. After that the ship’s cargo deck lines are drained into the cargo tanks. The hoses or arms are also drained into the ship’s tanks. The ship’s manifold valves and shore valves are closed before disconnecting the hoses or arms. Finally, cargo manifolds and arms or hoses are blanked. The earthing cable has also been disconnected. Soon the tanker will cast off and head for the next port.]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">false</requireNext>
+            </action>
+            <action actionType="loadScene">
+              <file>page24b.xml</file>
+            </action>
+          </actions>
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false" />
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

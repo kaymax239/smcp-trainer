@@ -1,0 +1,57 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="11" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true">
+		<item>
+			<block1 audio="er13001.mp3"><![CDATA[A bolt is]]></block1>
+			<block2 audio="er13004.mp3"><![CDATA[a thin piece of metal used with a nut to hold two things together.]]></block2>
+		</item>
+		<item>
+			<block1 audio="er13003.mp3"><![CDATA[A screw driver is]]></block1>
+			<block2 audio="er13008.mp3"><![CDATA[a hand tool used for turning screws. It is a thin metal rod with a handle.]]></block2>
+		</item>
+		<item>
+			<block1 audio="er13005.mp3"><![CDATA[A hammer is]]></block1>
+			<block2 audio="er13018.mp3"><![CDATA[a tool for breaking things and knocking in nails. It is made of a heavy piece of metal attached to a handle.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="er13007.mp3"><![CDATA[Safety gloves are]]></block1>
+			<block2 audio="er13002.mp3"><![CDATA[worn at work to protect your hands.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="er13009.mp3"><![CDATA[A spanner is]]></block1>
+			<block2 audio="er13010.mp3"><![CDATA[a hand tool for turning nuts and bolts. It is made of a thin piece of metal.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="er13011.mp3"><![CDATA[Ear protectors are]]></block1>
+			<block2 audio="er13016.mp3"><![CDATA[used to protect your ears against noise.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="er13013.mp3"><![CDATA[A nut is]]></block1>
+			<block2 audio="er13014.mp3"><![CDATA[a metal object with a hole in the middle. It is used with a bolt to tighten things together.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="er13015.mp3"><![CDATA[Goggles are]]></block1>
+			<block2 audio="er13012.mp3"><![CDATA[glasses worn at work to protect your eyes.]]></block2>
+		</item>
+		<item>
+			<block1 audio="er13017.mp3"><![CDATA[Pliers are]]></block1>
+			<block2 audio="er13006.mp3"><![CDATA[a hand tool, with two handles which are pressed together, for taking out nails and cutting wire.]]></block2>
+		</item>		
+	</list:items>
+</root>

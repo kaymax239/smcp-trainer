@@ -1,0 +1,78 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<list:pages>
+		<list:items displayTextAfterCorrect="true">
+			<item audio="mei51001.mp3" >
+				<text>Ships are permitted to dispose of certain types of waste at sea but there are strict requirements.</text>
+				<list:parts>
+					<part audio="mei51002.mp3" />
+					<part audio="mei51003.mp3" />
+					<part audio="mei51004.mp3" />
+					<part audio="mei51005.mp3" />
+					<part audio="mei51006.mp3" />
+					<part audio="mei51007.mp3" />
+					<part audio="mei51008.mp3" />
+					<part audio="mei51009.mp3" />
+					<part audio="mei51010.mp3" />
+					<part audio="mei51011.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei51012.mp3">
+				<text>Authorities will determine if the discharge or disposal is legal or illegal.</text>
+				<list:parts>
+					<part audio="mei51013.mp3" />
+					<part audio="mei51014.mp3" />
+					<part audio="mei51015.mp3" />
+					<part audio="mei51016.mp3" />
+					<part audio="mei51017.mp3" />
+					<part audio="mei51018.mp3" />
+					<part audio="mei51019.mp3" />
+					<part audio="mei51020.mp3" />
+					<part audio="mei51021.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei51022.mp3">
+				<text>Pollution activities should certainly be reported. </text>
+				<list:parts>
+					<part audio="mei51023.mp3" />
+					<part audio="mei51024.mp3" />
+					<part audio="mei51025.mp3" />
+					<part audio="mei51026.mp3" />
+					<part audio="mei51027.mp3" />
+					<part audio="mei51028.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei51029.mp3">
+				<text>Any dumping of plastic material into the sea is forbidden.</text>
+				<list:parts>
+					<part audio="mei51030.mp3" />
+					<part audio="mei51031.mp3" />
+					<part audio="mei51032.mp3" />
+					<part audio="mei51033.mp3" />
+					<part audio="mei51034.mp3" />
+					<part audio="mei51035.mp3" />
+					<part audio="mei51036.mp3" />
+					<part audio="mei51037.mp3" />
+					<part audio="mei51038.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei51039.mp3">
+				<text>Garbage disposed of in the sea within twelve nautical miles from land is a pollution activity.</text>
+				<list:parts>
+					<part audio="mei51040.mp3" />
+					<part audio="mei51041.mp3" />
+					<part audio="mei51042.mp3" />
+					<part audio="mei51043.mp3" />
+					<part audio="mei51044.mp3" />
+					<part audio="mei51045.mp3" />
+					<part audio="mei51046.mp3" />
+					<part audio="mei51047.mp3" />
+					<part audio="mei51048.mp3" />
+					<part audio="mei51049.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+	</list:pages>
+</root>

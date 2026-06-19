@@ -1,0 +1,64 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me0075a.mp3</audio>
+		<audio>me0075b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="64680">
+			<text><![CDATA[Dangerous Debris & Cleanups
+
+Various nationwide campaigns have recently been staged to clean up beaches. International Coastal Cleanup, for example, was a statewide beach cleanup in Texas in 1986. Data reported by volunteers indicated types of debris, where it came from, and how it moved around the world. 
+
+Such campaigns have resulted in measures being taken with the maritime sector. Naval ships now stow processed plastic trash. Federal and international law prohibits throwing plastic waste overboard. To handle mountains of plastic trash until ships reach port, the U.S. Navy has recently developed onboard processors to compact and sanitize plastic trash. This equipment has been installed on all Navy ships since 1999, and has military and commercial applications worldwide. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2500" start="0" end="28" />
+				<text time="3900" duration="3750" start="29" end="83" />
+				<text time="7650" duration="1750" start="84" end="104" />
+				<text time="10000" duration="3250" start="105" end="148" />
+				<text time="13275" duration="4750" start="149" end="196" />
+				<text time="18575" duration="4000" start="197" end="251" />
+				<text time="22575" duration="1500" start="252" end="271" />
+				<text time="24075" duration="2500" start="272" end="306" />
+				<text time="27625" duration="2000" start="309" end="340" />
+				<text time="29625" duration="2750" start="341" end="387" />
+				<text time="33100" duration="3750" start="388" end="433" />
+				<text time="37525" duration="4750" start="434" end="507" />
+				<text time="43075" duration="4000" start="508" end="568" />
+				<text time="47200" duration="4000" start="569" end="624" />
+				<text time="51200" duration="3500" start="625" end="663" />
+				<text time="55350" duration="5500" start="664" end="727" />
+				<text time="61075" duration="3500" start="728" end="783" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="23015">
+			<text><![CDATA[A 300-person Navy destroyer generates about 35 cubic feet of plastic waste per day, which is compressed into 5 to 6 disks. When compressed into blocks, thirty days' worth of plastic trash from a typical crew can be stored in the space that would be filled by one day's worth of uncompacted plastic trash.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="2250" start="0" end="27" />
+				<text time="2500" duration="4250" start="28" end="83" />
+				<text time="6925" duration="3500" start="84" end="122" />
+				<text time="11250" duration="2000" start="123" end="151" />
+				<text time="13425" duration="3750" start="152" end="207" />
+				<text time="17175" duration="2250" start="208" end="255" />
+				<text time="19475" duration="3250" start="256" end="304" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

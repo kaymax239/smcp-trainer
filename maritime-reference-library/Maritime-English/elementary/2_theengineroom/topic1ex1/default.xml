@@ -1,0 +1,48 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="audio/" prefix="" suffix="" />
+	
+	<list:items boolean:displayReflection="false">
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page1Bg">
+			
+			<item audio="er11001.mp3" wrongAudio="er11003.mp3" rigthAudio="er11002.mp3" afterWrong="er11004.mp3">
+				<text><![CDATA[screwdriver]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="er11005.mp3" wrongAudio="er11007.mp3" rigthAudio="er11006.mp3" afterWrong="er11008.mp3">
+				<text><![CDATA[hammer]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="er11009.mp3" wrongAudio="er11011.mp3" rigthAudio="er11010.mp3" afterWrong="er11012.mp3">
+				<text><![CDATA[pliers]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="er11013.mp3" wrongAudio="er11015.mp3" rigthAudio="er11014.mp3" afterWrong="er11016.mp3">
+				<text><![CDATA[spanner]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="er11017.mp3" wrongAudio="er11019.mp3" rigthAudio="er11018.mp3" afterWrong="er11020.mp3">
+				<text><![CDATA[nut]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="er11021.mp3" wrongAudio="er11023.mp3" rigthAudio="er11022.mp3" afterWrong="er11024.mp3">
+				<text><![CDATA[bolt]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="er11025.mp3" wrongAudio="er11027.mp3" rigthAudio="er11026.mp3" afterWrong="er11028.mp3">
+				<text><![CDATA[goggles]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="er11029.mp3" wrongAudio="er11031.mp3" rigthAudio="er11030.mp3" afterWrong="er11032.mp3">
+				<text><![CDATA[ear protectors]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="er11033.mp3" wrongAudio="er11035.mp3" rigthAudio="er11034.mp3" afterWrong="er11036.mp3">
+				<text><![CDATA[gloves]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+	</list:items>
+</root>

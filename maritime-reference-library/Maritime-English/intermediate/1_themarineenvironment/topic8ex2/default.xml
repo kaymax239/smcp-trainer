@@ -1,0 +1,289 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="8" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<vars boolean:ShowMask="false" />
+	<list:items startAudio=".mp3" boolean:shuffle="false" audioSelector="img">
+		<list:item audio="mei82001.mp3" correctAudio="mei82002.mp3" wrongAudio="wrong02.mp3,mei82004.mp3" img="img1">
+			<point x="63" y="216" />
+			<point x="357" y="216" />
+			<point x="357" y="245" />
+			<point x="63" y="245" />
+		</list:item>
+		<list:item audio="mei82005.mp3" correctAudio="mei82006.mp3" wrongAudio="wrong03.mp3,mei82008.mp3" img="img2">
+			<point x="68" y="110" />
+			<point x="386" y="110" />
+			<point x="386" y="139" />
+			<point x="68" y="139" />
+		</list:item>
+		<list:item audio="mei82009.mp3" correctAudio="mei82010.mp3" wrongAudio="wrong02.mp3,mei82012.mp3" img="img3">
+			<point x="449" y="127" />
+			<point x="677" y="127" />
+			<point x="677" y="156" />
+			<point x="449" y="156" />
+		</list:item>
+		<list:item audio="mei82013.mp3" correctAudio="mei82014.mp3" wrongAudio="wrong04.mp3,mei82016.mp3" img="img4">
+			<point x="498" y="301" />
+			<point x="672" y="301" />
+			<point x="672" y="330" />
+			<point x="498" y="330" />
+		</list:item>
+		<list:item audio="mei82017.mp3" correctAudio="mei82018.mp3" wrongAudio="wrong02.mp3,mei82020.mp3" img="img5">
+			<point x="53" y="414" />
+			<point x="270" y="414" />
+			<point x="270" y="443" />
+			<point x="53" y="443" />
+		</list:item>
+		<list:item audio="mei82021.mp3" correctAudio="mei82022.mp3" wrongAudio="wrong03.mp3,mei82024.mp3" img="img6">
+			<point x="44" y="325" />
+			<point x="423" y="325" />
+			<point x="423" y="354" />
+			<point x="44" y="354" />
+		</list:item>
+		<list:item audio="mei82025.mp3" correctAudio="mei82026.mp3" wrongAudio="wrong02.mp3,mei82028.mp3" img="img7">
+			<point x="434" y="402" />
+			<point x="687" y="402" />
+			<point x="687" y="431" />
+			<point x="434" y="431" />
+		</list:item>
+		<list:item audio="mei82029.mp3" correctAudio="mei82030.mp3" wrongAudio="wrong04.mp3,mei82032.mp3" img="img8">
+			<point x="431" y="216" />
+			<point x="666" y="216" />
+			<point x="666" y="245" />
+			<point x="431" y="245" />
+		</list:item>
+	</list:items>
+	
+	<list:AudioSelector>
+		
+		<list:choice id="img1">
+			<list:choice id="img1">
+				<audio file="mei82002.mp3" />
+			</list:choice>
+			<list:choice id="img2">
+				<audio file="mei82007.mp3,mei82004.mp3" />
+			</list:choice>
+			<list:choice id="img3">
+				<audio file="mei82011.mp3,mei82004.mp3" />
+			</list:choice>
+			<list:choice id="img4">
+				<audio file="mei82015.mp3,mei82004.mp3" />
+			</list:choice>
+			<list:choice id="img5">
+				<audio file="mei82019.mp3,mei82004.mp3" />
+			</list:choice>
+			<list:choice id="img6">
+				<audio file="mei82023.mp3,mei82004.mp3" />
+			</list:choice>
+			<list:choice id="img7">
+				<audio file="mei82027.mp3,mei82004.mp3" />
+			</list:choice>
+			<list:choice id="img8">
+				<audio file="mei82031.mp3,mei82004.mp3" />
+			</list:choice>
+		</list:choice>
+		
+		<list:choice id="img2">
+			<list:choice id="img1">
+				<audio file="mei82003.mp3,mei82008.mp3" />
+			</list:choice>
+			<list:choice id="img2">
+				<audio file="mei82006.mp3" />
+			</list:choice>
+			<list:choice id="img3">
+				<audio file="mei82011.mp3,mei82008.mp3" />
+			</list:choice>
+			<list:choice id="img4">
+				<audio file="mei82015.mp3,mei82008.mp3" />
+			</list:choice>
+			<list:choice id="img5">
+				<audio file="mei82019.mp3,mei82008.mp3" />
+			</list:choice>
+			<list:choice id="img6">
+				<audio file="mei82023.mp3,mei82008.mp3" />
+			</list:choice>
+			<list:choice id="img7">
+				<audio file="mei82027.mp3,mei82008.mp3" />
+			</list:choice>
+			<list:choice id="img8">
+				<audio file="mei82031.mp3,mei82008.mp3" />
+			</list:choice>
+		</list:choice>
+		
+		<list:choice id="img3">
+			<list:choice id="img1">
+				<audio file="mei82003.mp3,mei82012.mp3" />
+			</list:choice>
+			<list:choice id="img2">
+				<audio file="mei82007.mp3,mei82012.mp3" />
+			</list:choice>
+			<list:choice id="img3">
+				<audio file="mei82010.mp3" />
+			</list:choice>
+			<list:choice id="img4">
+				<audio file="mei82015.mp3,mei82012.mp3" />
+			</list:choice>
+			<list:choice id="img5">
+				<audio file="mei82019.mp3,mei82012.mp3" />
+			</list:choice>
+			<list:choice id="img6">
+				<audio file="mei82023.mp3,mei82012.mp3" />
+			</list:choice>
+			<list:choice id="img7">
+				<audio file="mei82027.mp3,mei82012.mp3" />
+			</list:choice>
+			<list:choice id="img8">
+				<audio file="mei82031.mp3,mei82012.mp3" />
+			</list:choice>
+		</list:choice>
+		
+		<list:choice id="img4">
+			<list:choice id="img1">
+				<audio file="mei82003.mp3,mei82016.mp3" />
+			</list:choice>
+			<list:choice id="img2">
+				<audio file="mei82007.mp3,mei82016.mp3" />
+			</list:choice>
+			<list:choice id="img3">
+				<audio file="mei82011.mp3,mei82016.mp3" />
+			</list:choice>
+			<list:choice id="img4">
+				<audio file="mei82014.mp3" />
+			</list:choice>
+			<list:choice id="img5">
+				<audio file="mei82019.mp3,mei82016.mp3" />
+			</list:choice>
+			<list:choice id="img6">
+				<audio file="mei82023.mp3,mei82016.mp3" />
+			</list:choice>
+			<list:choice id="img7">
+				<audio file="mei82027.mp3,mei82016.mp3" />
+			</list:choice>
+			<list:choice id="img8">
+				<audio file="mei82031.mp3,mei82016.mp3" />
+			</list:choice>
+		</list:choice>
+		
+		<list:choice id="img5">
+			<list:choice id="img1">
+				<audio file="mei82003.mp3,mei82020.mp3" />
+			</list:choice>
+			<list:choice id="img2">
+				<audio file="mei82007.mp3,mei82020.mp3" />
+			</list:choice>
+			<list:choice id="img3">
+				<audio file="mei82011.mp3,mei82020.mp3" />
+			</list:choice>
+			<list:choice id="img4">
+				<audio file="mei82015.mp3,mei82020.mp3" />
+			</list:choice>
+			<list:choice id="img5">
+				<audio file="mei82018.mp3" />
+			</list:choice>
+			<list:choice id="img6">
+				<audio file="mei82023.mp3,mei82020.mp3" />
+			</list:choice>
+			<list:choice id="img7">
+				<audio file="mei82027.mp3,mei82020.mp3" />
+			</list:choice>
+			<list:choice id="img8">
+				<audio file="mei82031.mp3,mei82020.mp3" />
+			</list:choice>
+		</list:choice>
+		
+		<list:choice id="img6">
+			<list:choice id="img1">
+				<audio file="mei82003.mp3,mei82024.mp3" />
+			</list:choice>
+			<list:choice id="img2">
+				<audio file="mei82007.mp3,mei82024.mp3" />
+			</list:choice>
+			<list:choice id="img3">
+				<audio file="mei82011.mp3,mei82024.mp3" />
+			</list:choice>
+			<list:choice id="img4">
+				<audio file="mei82015.mp3,mei82024.mp3" />
+			</list:choice>
+			<list:choice id="img5">
+				<audio file="mei82019.mp3,mei82024.mp3" />
+			</list:choice>
+			<list:choice id="img6">
+				<audio file="mei82022.mp3" />
+			</list:choice>
+			<list:choice id="img7">
+				<audio file="mei82027.mp3,mei82024.mp3" />
+			</list:choice>
+			<list:choice id="img8">
+				<audio file="mei82031.mp3,mei82024.mp3" />
+			</list:choice>
+		</list:choice>
+		
+		<list:choice id="img7">
+			<list:choice id="img1">
+				<audio file="mei82003.mp3,mei82028.mp3" />
+			</list:choice>
+			<list:choice id="img2">
+				<audio file="mei82007.mp3,mei82028.mp3" />
+			</list:choice>
+			<list:choice id="img3">
+				<audio file="mei82011.mp3,mei82028.mp3" />
+			</list:choice>
+			<list:choice id="img4">
+				<audio file="mei82015.mp3,mei82028.mp3" />
+			</list:choice>
+			<list:choice id="img5">
+				<audio file="mei82019.mp3,mei82028.mp3" />
+			</list:choice>
+			<list:choice id="img6">
+				<audio file="mei82023.mp3,mei82028.mp3" />
+			</list:choice>
+			<list:choice id="img7">
+				<audio file="mei82026.mp3" />
+			</list:choice>
+			<list:choice id="img8">
+				<audio file="mei82031.mp3,mei82028.mp3" />
+			</list:choice>
+		</list:choice>
+		
+		<list:choice id="img8">
+			<list:choice id="img1">
+				<audio file="mei82003.mp3,mei82032.mp3" />
+			</list:choice>
+			<list:choice id="img2">
+				<audio file="mei82007.mp3,mei82032.mp3" />
+			</list:choice>
+			<list:choice id="img3">
+				<audio file="mei82011.mp3,mei82032.mp3" />
+			</list:choice>
+			<list:choice id="img4">
+				<audio file="mei82015.mp3,mei82032.mp3" />
+			</list:choice>
+			<list:choice id="img5">
+				<audio file="mei82019.mp3,mei82032.mp3" />
+			</list:choice>
+			<list:choice id="img6">
+				<audio file="mei82023.mp3,mei82032.mp3" />
+			</list:choice>
+			<list:choice id="img7">
+				<audio file="mei82027.mp3,mei82032.mp3" />
+			</list:choice>
+			<list:choice id="img8">
+				<audio file="mei82030.mp3" />
+			</list:choice>
+		</list:choice>
+		
+	</list:AudioSelector>
+</root>

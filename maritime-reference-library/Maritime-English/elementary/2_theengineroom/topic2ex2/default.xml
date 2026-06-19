@@ -1,0 +1,54 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<list:pages>
+		<list:items displayTextAfterCorrect="true">
+			
+			<item audio="er22001.mp3,er22002.mp3,er22003.mp3">
+				<!--
+				<image:bbl1></image:bbl1>
+				<image:bbl2></image:bbl2>
+				-->
+				<text>fresh water generator</text>
+				<list:parts>
+					<part audio="er22001.mp3" />
+					<part audio="er22002.mp3" />
+					<part audio="er22003.mp3" />
+				</list:parts>
+			</item>
+			<item audio="er22004.mp3,er22005.mp3,er22006.mp3">
+				<text>air conditioning compressors</text>
+				<list:parts>
+					<part audio="er22004.mp3" />
+					<part audio="er22005.mp3" />
+					<part audio="er22006.mp3" />
+				</list:parts>
+			</item>
+			<item audio="er22007.mp3,er22008.mp3,er22009.mp3">
+				<text>oil water separator</text>
+				<list:parts>
+					<part audio="er22007.mp3" />
+					<part audio="er22008.mp3" />
+					<part audio="er22009.mp3" />
+				</list:parts>
+			</item>
+			<item audio="er22010.mp3,er22011.mp3,er22012.mp3">
+				<text>exhaust gas boiler</text>
+				<list:parts>
+					<part audio="er22010.mp3" />
+					<part audio="er22011.mp3" />
+					<part audio="er22012.mp3" />
+				</list:parts>
+			</item>
+			<item audio="er22013.mp3,er22014.mp3,er22015.mp3">
+				<text>main air compressors</text>
+				<list:parts>
+					<part audio="er22013.mp3" />
+					<part audio="er22014.mp3" />
+					<part audio="er22015.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+	</list:pages>
+</root>

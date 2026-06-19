@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page09</name>
+      <background>page09/P1160007.JPG</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false" />
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false">
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:482" y="number:109" />
+                  <point x="number:479" y="number:125" />
+                  <point x="number:494" y="number:140" />
+                  <point x="number:508" y="number:159" />
+                  <point x="number:512" y="number:177" />
+                  <point x="number:518" y="number:192" />
+                  <point x="number:530" y="number:205" />
+                  <point x="number:539" y="number:211" />
+                  <point x="number:556" y="number:213" />
+                  <point x="number:566" y="number:221" />
+                  <point x="number:580" y="number:229" />
+                  <point x="number:595" y="number:244" />
+                  <point x="number:608" y="number:253" />
+                  <point x="number:619" y="number:253" />
+                  <point x="number:623" y="number:243" />
+                  <point x="number:604" y="number:225" />
+                  <point x="number:586" y="number:207" />
+                  <point x="number:572" y="number:190" />
+                  <point x="number:559" y="number:171" />
+                  <point x="number:545" y="number:156" />
+                  <point x="number:526" y="number:143" />
+                  <point x="number:511" y="number:125" />
+                  <point x="number:500" y="number:111" />
+                  <point x="number:488" y="number:105" />
+                </points>
+              </hotspots>
+              <name>wheel</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page09/pw030.mp3</file>
+                      <text><![CDATA[Hand-operated valves should be checked before cargo operations. Those valves which are kept shut during loading should have their wheels in the closed position. 
+
+Can you see the wheel? Please click on it.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="loadScene">
+                      <file>page09b.xml</file>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page09/pw032.mp3</file>
+                      <text><![CDATA[No, it’s not that. Can you try again?]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+          </actions>
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

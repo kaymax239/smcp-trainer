@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<style folder="res">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+		<image name="background">teachers2.png</image>
+		<textformat name="menuformat" fontFamily="Arial" size="16" color="0x000000" bold="false" underline="false" italic="false" align="center" />
+		<textformat name="infoformat" fontFamily="Arial" size="16" color="0x990032" bold="false" underline="false" italic="false" align="left" />
+		<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+		<fx name="fadeOut" type="fade" from="1" to="0" duration="250" />
+		<fx name="slideOut" type="move" x="-720" y="0" duration="250" />
+		<fx name="slideIn" type="move" x="0" y="0" u="-720" v="0" duration="250" />
+		<image name="busy-cursor">busy.gif</image>
+		<image name="return">return.png</image>
+	</style>
+	<items showMasks="false" fxIn="slideIn" fxOut="slideOut">
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit1_In Port.pdf</link>
+			<mask>
+				<point x="276" y="59" />
+				<point x="366" y="59" />
+				<point x="366" y="72" />
+				<point x="276" y="71" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit2_Welcome to a Modern Port.pdf</link>
+			<mask>
+				<point x="276" y="74" />
+				<point x="509" y="74" />
+				<point x="510" y="87" />
+				<point x="279" y="87" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit3_Loading the MS Marina.pdf</link>
+			<mask>
+				<point x="277" y="89" />
+				<point x="483" y="89" />
+				<point x="483" y="102" />
+				<point x="277" y="101" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit4_The Ship.pdf</link>
+			<mask>
+				<point x="277" y="105" />
+				<point x="378" y="105" />
+				<point x="378" y="118" />
+				<point x="277" y="118" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit5_Leaving Port.pdf</link>
+			<mask>
+				<point x="277" y="120" />
+				<point x="408" y="120" />
+				<point x="408" y="133" />
+				<point x="277" y="133" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit6_In the Fairway.pdf</link>
+			<mask>
+				<point x="277" y="135" />
+				<point x="420" y="137" />
+				<point x="420" y="149" />
+				<point x="277" y="149" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit7_Heavy Weather.pdf</link>
+			<mask>
+				<point x="277" y="150" />
+				<point x="431" y="152" />
+				<point x="430" y="164" />
+				<point x="277" y="164" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit8_Mayday Mayday.pdf</link>
+			<mask>
+				<point x="277" y="166" />
+				<point x="443" y="166" />
+				<point x="442" y="179" />
+				<point x="278" y="179" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit9_The Crew and Its Tasks.pdf</link>
+			<mask>
+				<point x="278" y="181" />
+				<point x="479" y="182" />
+				<point x="479" y="195" />
+				<point x="277" y="195" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit10_At Sea - Changing the Watch.pdf</link>
+			<mask>
+				<point x="277" y="197" />
+				<point x="537" y="197" />
+				<point x="536" y="211" />
+				<point x="276" y="210" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit11_Survival in an Emergency.pdf</link>
+			<mask>
+				<point x="277" y="213" />
+				<point x="507" y="214" />
+				<point x="507" y="226" />
+				<point x="277" y="226" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit12_Helicopter Rescue.pdf</link>
+			<mask>
+				<point x="276" y="228" />
+				<point x="458" y="229" />
+				<point x="458" y="242" />
+				<point x="279" y="241" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Unit13_An Encounter with the Coast Guard.pdf</link>
+			<mask>
+				<point x="276" y="244" />
+				<point x="577" y="244" />
+				<point x="576" y="258" />
+				<point x="276" y="258" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Intermediate_Grammar.pdf</link>
+			<mask>
+				<point x="278" y="260" />
+				<point x="347" y="260" />
+				<point x="345" y="273" />
+				<point x="275" y="273" />
+			</mask>
+		</item>
+		<!--Advanced-->
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Advanced_Port Operations.pdf</link>
+			<mask>
+				<point x="278" y="308" />
+				<point x="389" y="308" />
+				<point x="388" y="321" />
+				<point x="277" y="321" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer_Key_Advanced_Shipping & Maritime Management.pdf</link>
+			<mask>
+				<point x="277" y="323" />
+				<point x="537" y="323" />
+				<point x="537" y="337" />
+				<point x="277" y="337" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Advanced_Cargo Handling.pdf</link>
+			<mask>
+				<point x="277" y="339" />
+				<point x="390" y="339" />
+				<point x="389" y="353" />
+				<point x="275" y="353" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer_Key_Advanced_Vessel Types.pdf</link>
+			<mask>
+				<point x="275" y="355" />
+				<point x="368" y="355" />
+				<point x="368" y="367" />
+				<point x="277" y="367" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer_Key_Advanced_The Engine Room.pdf</link>
+			<mask>
+				<point x="276" y="369" />
+				<point x="400" y="369" />
+				<point x="399" y="384" />
+				<point x="275" y="384" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Advanced_Cargo Space.pdf</link>
+			<mask>
+				<point x="276" y="386" />
+				<point x="373" y="386" />
+				<point x="371" y="399" />
+				<point x="278" y="399" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer_Key_Advanced_Port State Control.pdf</link>
+			<mask>
+				<point x="278" y="401" />
+				<point x="402" y="401" />
+				<point x="401" y="414" />
+				<point x="277" y="414" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer_Key_Advanced_SMCP.pdf</link>
+			<mask>
+				<point x="276" y="416" />
+				<point x="321" y="416" />
+				<point x="319" y="428" />
+				<point x="277" y="428" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer_Key_Advanced_Vessel Traffic Services.pdf</link>
+			<mask>
+				<point x="276" y="431" />
+				<point x="472" y="431" />
+				<point x="471" y="444" />
+				<point x="277" y="444" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer_Key_Advanced_Ice Navigation.pdf</link>
+			<mask>
+				<point x="277" y="446" />
+				<point x="385" y="446" />
+				<point x="383" y="461" />
+				<point x="276" y="461" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer_Key_Advanced_Weather.pdf</link>
+			<mask>
+				<point x="276" y="463" />
+				<point x="340" y="463" />
+				<point x="337" y="476" />
+				<point x="277" y="476" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer Key_Advanced_Radio Communication.pdf</link>
+			<mask>
+				<point x="276" y="478" />
+				<point x="439" y="478" />
+				<point x="439" y="490" />
+				<point x="276" y="490" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/answerkeys_mareng/ME_Answer_Key_Advanced_Radio Medical.pdf</link>
+			<mask>
+				<point x="274" y="492" />
+				<point x="382" y="492" />
+				<point x="382" y="506" />
+				<point x="276" y="506" />
+			</mask>
+		</item>
+	</items>
+</menu>

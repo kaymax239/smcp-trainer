@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<style folder="res">
+		<font name="LingonetTradeGothic" source="lingonettradegothic.swf" />
+		<image name="background">menu_elementary_7.jpg</image>
+		<textformat name="menuformat" fontFamily="Trade Gothic" size="16" color="0x000000" bold="false" underline="false" italic="false" align="center" />
+		<textformat name="infoformat" fontFamily="Trade Gothic" size="16" color="0x990032" bold="false" underline="false" italic="false" align="left" />
+		<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+		<fx name="fadeOut" type="fade" from="1" to="0" duration="250" />
+		<fx name="slideOut" type="move" x="-720" y="0" duration="250" />
+		<fx name="slideIn" type="move" x="0" y="0" u="-720" v="0" duration="250" />
+		<image name="busy-cursor">busy.gif</image>
+		<image name="return">return.png</image>
+	</style>
+	<items showMasks="false" fxIn="slideIn" fxOut="slideOut">
+	<!--TOPIC 1-->
+		<item opens="swf">
+			<image x="233" y="243" status="undone">res/btn_rl.png</image>
+			<image x="233" y="243" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>173</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1rl/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="283" y="243" status="undone">res/btn_1.png</image>
+			<image x="283" y="243" status="done">res/btn_1done.png</image>
+			<args>
+				<taskId>174</taskId>
+			</args>
+			<swf>matchblocks.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex1/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="313" y="243" status="undone">res/btn_2.png</image>
+			<image x="313" y="243" status="done">res/btn_2done.png</image>
+			<args>
+				<taskId>175</taskId>
+			</args>
+			<swf>gapfillwithspell.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex2/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>	
+		<item opens="swf">
+			<image x="343" y="243" status="undone">res/btn_3.png</image>
+			<image x="343" y="243" status="done">res/btn_3done.png</image>
+			<args>
+				<taskId>176</taskId>
+			</args>
+			<swf>gapfillwithspell.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex3/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="373" y="243" status="undone">res/btn_4.png</image>
+			<image x="373" y="243" status="done">res/btn_4done.png</image>
+			<args>
+				<taskId>177</taskId>
+			</args>
+			<swf>textfieldtargets.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex4/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="403" y="243" status="undone">res/btn_5.png</image>
+			<image x="403" y="243" status="done">res/btn_5done.png</image>
+			<args>
+				<taskId>178</taskId>
+			</args>
+			<swf>adaptiivinen2.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex5/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+	</items>
+</menu>

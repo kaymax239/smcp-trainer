@@ -1,0 +1,47 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me1002.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="74736">
+			<text><![CDATA[Oil Pollution: Accidents\n 
+Spills and slicks cause disease and kill. Large spills - even though a relatively minor source of ocean oil pollution - can be devastating. The same amount of oil can do more damage in some areas than others. Coral reefs and mangroves are more sensitive to oil than sandy beaches or sea-grass beds; intertidal zones are the most sensitive. Crude oil causes severe problems. Oil-covered fur or feathers cannot insulate marine mammals and diving birds from cold water, and in addition as the animal cleans itself, it also swallows oil. 
+Even if oil exposure isn't immediately lethal it can cause long-term harm to bottom-dwelling fish exposed to compounds released after oil spills. They may develop liver disease and reproductive and growth problems. 
+Scientists monitored the effects of the 1986 spill, one of the largest in tropical North America. Five years later, mangrove sediments still held fairly fresh, toxic oil. It was thought that the mangroves would take fifty years to recover fully.
+]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="3500" start="26" end="67" />
+				<text time="3950" duration="7000" start="68" end="165" />
+				<text time="11525" duration="5000" start="166" end="234" />
+				<text time="16700" duration="6000" start="235" end="324" />
+				<text time="22875" duration="3250" start="325" end="365" />
+				<text time="26575" duration="2750" start="366" end="399" />
+				<text time="29550" duration="5750" start="400" end="492" />
+				<text time="35400" duration="3250" start="493" end="537" />
+				<text time="38750" duration="2000" start="538" end="559" />
+				<text time="41350" duration="5500" start="561" end="634" />
+				<text time="46900" duration="4750" start="635" end="706" />
+				<text time="52175" duration="4500" start="707" end="775" />
+				<text time="57150" duration="3750" start="777" end="828" />
+				<text time="60975" duration="2750" start="829" end="874" />
+				<text time="64275" duration="1250" start="875" end="892" />
+				<text time="65775" duration="4500" start="893" end="947" />
+				<text time="70625" duration="4000" start="948" end="1022" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

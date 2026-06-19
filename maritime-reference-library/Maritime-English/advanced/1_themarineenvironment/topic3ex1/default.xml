@@ -1,0 +1,80 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">Marine vessels, buoys and offshore structures spend a large part of their working life partly submerged in water. As a result they become easily colonised by the many micro-organisms that live in the water, especially when stationary.<br><br>The extent of this colonisation, also known as fouling, depends on salinity, water temperature and productivity of the organic matter on which the organisms feed.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[marine]]></text>
+					<correct><![CDATA[Marine]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[offshore]]></text>
+					<correct><![CDATA[offshore]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[submerged]]></text>
+					<correct><![CDATA[submerged]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[micro-organisms]]></text>
+					<correct><![CDATA[micro-organisms]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[stationary]]></text>
+					<correct><![CDATA[stationary]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[fouling]]></text>
+					<correct><![CDATA[fouling]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[salinity]]></text>
+					<correct><![CDATA[salinity]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">The marine organism can either be of plant origin such as weeds and algae, or of animal origin such as tubeworms and barnacles.<br><br>To protect the boat from colonisation, anti-fouling treatments such as paint are applied to the outer parts of the ship at regular intervals. The coating is designed to gradually leach biocide or a toxin into the marine environment. This slow poisoning prevents organisms from sticking to the hull.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[algae]]></text>
+					<correct><![CDATA[algae]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[animal]]></text>
+					<correct><![CDATA[animal]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[anti-fouling]]></text>
+					<correct><![CDATA[anti-fouling]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[regular]]></text>
+					<correct><![CDATA[regular]]></correct>
+				</bbl>
+					<bbl>
+					<text><![CDATA[coating]]></text>
+					<correct><![CDATA[coating]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[toxin]]></text>
+					<correct><![CDATA[toxin]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[poisoning]]></text>
+					<correct><![CDATA[poisoning]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

@@ -1,0 +1,80 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	
+	<list:items boolean:multipleHints="true">
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[When carrying goods that are considered to be <dangerous>, you have to <fill in> a special <form>.]]></gap>
+			<list:hints>
+				<hint><![CDATA[<i>risky, hazardous
+write down, complete
+document, paper</i>]]></hint>
+			<hint><![CDATA[<i>risky, hazardous
+write down, complete
+document, paper</i>]]></hint>
+			<hint><![CDATA[<i>risky, hazardous
+write down, complete
+document, paper</i>]]></hint>
+			</list:hints>
+			<audio>co41001.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[In the form, you have to write down the name of the <shipper>, the <consignee> and the <carrier>.]]></gap>
+			<list:hints>
+				<hint><![CDATA[<i>transporter
+the person / company that receives the cargo
+the company that takes cargo from one point to another</i>]]></hint>
+				<hint><![CDATA[<i>transporter
+the person / company that receives the cargo
+the company that takes cargo from one point to another</i>]]></hint>
+				<hint><![CDATA[<i>transporter
+the person / company that receives the cargo
+the company that takes cargo from one point to another</i>]]></hint>
+			</list:hints>
+			<audio>co41002.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[You also have to give <details> about your company, or signatory <organization>.]]></gap>
+			<list:hints>
+				<hint><![CDATA[<i>contact information
+company</i>]]></hint>
+				<hint><![CDATA[<i>contact information
+company</i>]]></hint>
+			</list:hints>
+			<audio>co41003.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[In the declaration, you state that the packing of goods has been done according to <IMDG Code> rules.]]></gap>
+			<list:hints>
+				<hint><![CDATA[<i>International Maritime Dangerous Goods Code</i>]]></hint>
+			</list:hints>
+			<audio>co41004.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[Other data to be included are: the ship’s name and <voyage>, the port of <loading>, the port of <discharge>.]]></gap>
+			<list:hints>
+				<hint><![CDATA[<i>trip
+to accept the cargo
+to deliver the cargo</i>]]></hint>
+				<hint><![CDATA[<i>trip
+to accept the cargo
+to deliver the cargo</i>]]></hint>
+				<hint><![CDATA[<i>trip
+to accept the cargo
+to deliver the cargo</i>]]></hint>
+			</list:hints>
+			<audio>co41005.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[The form usually ends with a descriptive list of the cargo, including <special marks>, number and kind of <packages>.]]></gap>
+			<list:hints>
+				<hint><![CDATA[<i>special symbols to identify cargo
+the types of containers used</i>]]></hint>
+				<hint><![CDATA[<i>special symbols to identify cargo
+the types of containers used</i>]]></hint>
+			</list:hints>
+			<audio>co41006.mp3</audio>
+		</item>	
+	</list:items>
+</root>

@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<style folder="res">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+		<image name="background">teachers4.png</image>
+		<textformat name="menuformat" fontFamily="Arial" size="16" color="0x000000" bold="false" underline="false" italic="false" align="center" />
+		<textformat name="infoformat" fontFamily="Arial" size="16" color="0x990032" bold="false" underline="false" italic="false" align="left" />
+		<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+		<fx name="fadeOut" type="fade" from="1" to="0" duration="250" />
+		<fx name="slideOut" type="move" x="-720" y="0" duration="250" />
+		<fx name="slideIn" type="move" x="0" y="0" u="-720" v="0" duration="250" />
+		<image name="busy-cursor">busy.gif</image>
+		<image name="return">return.png</image>
+	</style>
+	<items showMasks="false" fxIn="slideIn" fxOut="slideOut">
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Introduction.pdf</link>
+			<mask>
+				<point x="277" y="42" />
+				<point x="366" y="42" />
+				<point x="366" y="56" />
+				<point x="277" y="56" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 1.pdf</link>
+			<mask>
+				<point x="276" y="58" />
+				<point x="366" y="59" />
+				<point x="366" y="72" />
+				<point x="276" y="71" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 2.pdf</link>
+			<mask>
+				<point x="276" y="74" />
+				<point x="509" y="74" />
+				<point x="510" y="87" />
+				<point x="279" y="87" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 3.pdf</link>
+			<mask>
+				<point x="277" y="88" />
+				<point x="483" y="89" />
+				<point x="483" y="102" />
+				<point x="277" y="101" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 4.pdf</link>
+			<mask>
+				<point x="277" y="105" />
+				<point x="378" y="105" />
+				<point x="378" y="118" />
+				<point x="277" y="118" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 5.pdf</link>
+			<mask>
+				<point x="277" y="120" />
+				<point x="408" y="120" />
+				<point x="408" y="133" />
+				<point x="277" y="133" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 6.pdf</link>
+			<mask>
+				<point x="277" y="135" />
+				<point x="420" y="137" />
+				<point x="420" y="149" />
+				<point x="277" y="149" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 7.pdf</link>
+			<mask>
+				<point x="277" y="150" />
+				<point x="431" y="152" />
+				<point x="430" y="164" />
+				<point x="277" y="164" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 8.pdf</link>
+			<mask>
+				<point x="277" y="166" />
+				<point x="443" y="166" />
+				<point x="442" y="179" />
+				<point x="278" y="179" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 9.pdf</link>
+			<mask>
+				<point x="278" y="181" />
+				<point x="479" y="182" />
+				<point x="479" y="195" />
+				<point x="277" y="195" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 10.pdf</link>
+			<mask>
+				<point x="277" y="197" />
+				<point x="537" y="197" />
+				<point x="536" y="211" />
+				<point x="276" y="210" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 11.pdf</link>
+			<mask>
+				<point x="277" y="213" />
+				<point x="507" y="214" />
+				<point x="507" y="226" />
+				<point x="277" y="226" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 12.pdf</link>
+			<mask>
+				<point x="276" y="228" />
+				<point x="458" y="229" />
+				<point x="458" y="242" />
+				<point x="279" y="241" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Unit 13.pdf</link>
+			<mask>
+				<point x="276" y="242" />
+				<point x="577" y="243" />
+				<point x="576" y="256" />
+				<point x="276" y="255" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Epilogue.pdf</link>
+			<mask>
+				<point x="276" y="258" />
+				<point x="341" y="259" />
+				<point x="340" y="273" />
+				<point x="276" y="273" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Intermediate_Grammar.pdf</link>
+			<mask>
+				<point x="278" y="275" />
+				<point x="347" y="276" />
+				<point x="345" y="288" />
+				<point x="275" y="287" />
+			</mask>
+		</item>
+		<!--Advanced-->
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Port Operations.pdf</link>
+			<mask>
+				<point x="278" y="322" />
+				<point x="389" y="322" />
+				<point x="388" y="335" />
+				<point x="277" y="335" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Shipping & Maritime Management.pdf</link>
+			<mask>
+				<point x="277" y="338" />
+				<point x="537" y="338" />
+				<point x="537" y="352" />
+				<point x="277" y="351" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Cargo Handling.pdf</link>
+			<mask>
+				<point x="277" y="353" />
+				<point x="390" y="353" />
+				<point x="389" y="368" />
+				<point x="275" y="366" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Vessel Types.pdf</link>
+			<mask>
+				<point x="275" y="368" />
+				<point x="368" y="369" />
+				<point x="368" y="381" />
+				<point x="277" y="381" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_The Engine Room.pdf</link>
+			<mask>
+				<point x="276" y="382" />
+				<point x="400" y="385" />
+				<point x="399" y="398" />
+				<point x="275" y="397" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Cargo Space.pdf</link>
+			<mask>
+				<point x="276" y="398" />
+				<point x="373" y="400" />
+				<point x="371" y="413" />
+				<point x="278" y="412" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Port State Control.pdf</link>
+			<mask>
+				<point x="278" y="415" />
+				<point x="402" y="414" />
+				<point x="401" y="428" />
+				<point x="277" y="428" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_SMCP.pdf</link>
+			<mask>
+				<point x="276" y="430" />
+				<point x="321" y="431" />
+				<point x="319" y="442" />
+				<point x="277" y="442" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Vessel Traffic Services.pdf</link>
+			<mask>
+				<point x="276" y="445" />
+				<point x="472" y="444" />
+				<point x="471" y="459" />
+				<point x="277" y="459" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Ice Navigation.pdf</link>
+			<mask>
+				<point x="277" y="460" />
+				<point x="385" y="462" />
+				<point x="383" y="475" />
+				<point x="276" y="474" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Weather.pdf</link>
+			<mask>
+				<point x="276" y="476" />
+				<point x="340" y="478" />
+				<point x="337" y="490" />
+				<point x="277" y="489" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Radio Communication.pdf</link>
+			<mask>
+				<point x="276" y="492" />
+				<point x="439" y="491" />
+				<point x="439" y="505" />
+				<point x="276" y="505" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/lessonplan_mareng/ME_Advanced_Radio Medical.pdf</link>
+			<mask>
+				<point x="274" y="506" />
+				<point x="382" y="508" />
+				<point x="382" y="520" />
+				<point x="276" y="521" />
+			</mask>
+		</item>
+	</items>
+</menu>

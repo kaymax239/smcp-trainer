@@ -1,0 +1,57 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>tw1001.mp3</audio>
+				<text><![CDATA[The weather changes with the <seasons> and <months>.]]></text>
+			</phrase>
+			<phrase>
+				<audio>tw1002a.mp3</audio>
+				<text><![CDATA[There are usually four <seasons> in a year: <spring>, <summer>, <autumn|fall> and <winter>. ]]></text>
+			</phrase>
+			<phrase>
+				<audio>tw1002c.mp3</audio>
+				<text><![CDATA[When it is summer in the <northern hemisphere>, in Europe for example, it is winter in the <southern hemisphere>, in Australia and South America. When it is winter in Paris, the people in Rio de Janeiro celebrate Carnival outside in the streets.]]></text>
+			</phrase>
+			<phrase>
+				<audio>tw1004.mp3</audio>
+				<text><![CDATA[In some <regions> of the world there is also a <dry season> and a <rainy season>.]]></text>
+			</phrase>
+			<phrase>
+				<audio>tw1005a.mp3</audio>
+				<text><![CDATA[It is <spring> in the Hel peninsula in Poland. The weather is <mild>. The <birds> are back after <winter>. It often rains and the grass is <green>. The leaves in the <trees> are green, too. The <lighthouse> is red. The <water> in the bay is <grey>. There are no <waves>. It is <calm>.]]></text>
+			</phrase>
+		</list:items>
+		
+		<list:items>
+			<phrase>
+				<audio>tw1014a.mp3</audio>
+				<text><![CDATA[It is <summer> in Santa Cruz de Tenerife. The weather is <hot>. The sun <shines> every day. The <sky> is blue. The water in the <ocean> is blue, too. There are some clouds in the sky. The <temperature> of the air can be 30 or 35 degrees C. The days are long and the nights are short. The sun <rises> early and <sets> late.]]></text>
+			</phrase>
+			<phrase>
+				<audio>tw1023a.mp3</audio>
+				<text><![CDATA[It is <autumn> in Gdynia in Poland. There are <big> waves breaking on the <sandy> beach.]]></text>
+			</phrase>
+			<phrase>
+				<audio>tw1025a.mp3</audio>
+				<text><![CDATA[It is often <windy>. The Baltic sea can be <rough>. The sky is <overcast> with <clouds>.]]></text>
+			</phrase>
+			<phrase>
+				<audio>tw1028a.mp3</audio>
+				<text><![CDATA[It <rains> sometimes. The temperature of the air is about 15 degrees C. The leaves in the trees are turning <yellow> and <brown>. The season is called  “the <fall>” in America because the leaves <fall> from the trees. The birds are preparing to <migrate> to warmer <regions> of the world.]]></text>
+			</phrase>
+		</list:items>
+		
+		<list:items>
+			<phrase>
+				<audio>tw1033a.mp3</audio>
+				<text><![CDATA[It is <winter> in Jastarnia in the Hel peninsula in Poland. The weather is very <cold>. It often <snows>. There is sometimes <ice> in the bay. The temperature of the air can fall <below> zero.]]></text>
+			</phrase>
+			<phrase>
+				<audio>tw1038a.mp3</audio>
+				<text><![CDATA[The days are <short> and the nights are <long>. The sun rises late and sets early.]]></text>
+			</phrase>
+		</list:items>
+	</list:items>
+</root>

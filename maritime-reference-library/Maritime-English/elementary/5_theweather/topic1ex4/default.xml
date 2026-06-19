@@ -1,0 +1,61 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="11" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" boolean:lockLeft="true">
+		<item>
+			<block1 audio="audio/tw14001.mp3"><![CDATA[high]]></block1>
+			<block2 audio="audio/tw14002.mp3"><![CDATA[low]]></block2>
+		</item>
+		<item>
+			<block1 audio="audio/tw14003.mp3"><![CDATA[short]]></block1>
+			<block2 audio="audio/tw14004.mp3"><![CDATA[long]]></block2>
+		</item>
+		<item>
+			<block1 audio="audio/tw14005.mp3"><![CDATA[cold]]></block1>
+			<block2 audio="audio/tw14006.mp3"><![CDATA[warm]]></block2>
+		</item>		
+		<item>
+			<block1 audio="audio/tw14007.mp3"><![CDATA[weak]]></block1>
+			<block2 audio="audio/tw14008.mp3"><![CDATA[strong]]></block2>
+		</item>		
+		<item>
+			<block1 audio="audio/tw14009.mp3"><![CDATA[slow]]></block1>
+			<block2 audio="audio/tw14010.mp3"><![CDATA[quick]]></block2>
+		</item>		
+		<item>
+			<block1 audio="audio/tw14011.mp3"><![CDATA[heavy]]></block1>
+			<block2 audio="audio/tw14012.mp3"><![CDATA[light]]></block2>
+		</item>		
+		<item>
+			<block1 audio="audio/tw14013.mp3"><![CDATA[calm]]></block1>
+			<block2 audio="audio/tw14014.mp3"><![CDATA[rough]]></block2>
+		</item>		
+		<item>
+			<block1 audio="audio/tw14015.mp3"><![CDATA[sea breeze]]></block1>
+			<block2 audio="audio/tw14016.mp3"><![CDATA[land breeze]]></block2>
+		</item>
+		<item>
+			<block1 audio="audio/tw14017.mp3"><![CDATA[early]]></block1>
+			<block2 audio="audio/tw14018.mp3"><![CDATA[late]]></block2>
+		</item>		
+		<item>
+			<block1 audio="audio/tw14019.mp3"><![CDATA[below]]></block1>
+			<block2 audio="audio/tw14020.mp3"><![CDATA[above]]></block2>
+		</item>
+	</list:items>
+</root>

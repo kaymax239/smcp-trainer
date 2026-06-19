@@ -1,0 +1,157 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<list:pages>
+		<list:items displayTextAfterCorrect="true">
+			
+			<item audio="tw210006.mp3" >
+				<text>Easterly winds blow from the East.</text>
+				<list:parts>
+					<part audio="tw210001.mp3" />
+					<part audio="tw210002.mp3" />
+					<part audio="tw210003.mp3" />
+					<part audio="tw210004.mp3" />
+					<part audio="tw210005.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210012.mp3">
+				<text>Westerly winds blow from the West. </text>
+				<list:parts>
+					<part audio="tw210007.mp3" />
+					<part audio="tw210008.mp3" />
+					<part audio="tw210009.mp3" />
+					<part audio="tw210010.mp3" />
+					<part audio="tw210011.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210018.mp3">
+				<text>Northerly winds blow from the North.</text>
+				<list:parts>
+					<part audio="tw210013.mp3" />
+					<part audio="tw210014.mp3" />
+					<part audio="tw210015.mp3" />
+					<part audio="tw210016.mp3" />
+					<part audio="tw210017.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210024.mp3">
+				<text>Southerly winds blow from the South.</text>
+				<list:parts>
+					<part audio="tw210019.mp3" />
+					<part audio="tw210020.mp3" />
+					<part audio="tw210021.mp3" />
+					<part audio="tw210022.mp3" />
+					<part audio="tw210023.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210031.mp3">
+				<text>In the northern hemisphere polar air comes from the North.</text>
+				<list:parts>
+					<part audio="tw210025.mp3" />
+					<part audio="tw210026.mp3" />
+					<part audio="tw210027.mp3" />
+					<part audio="tw210028.mp3" />
+					<part audio="tw210029.mp3" />
+					<part audio="tw210030.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210038.mp3">
+				<text>In the southern hemisphere polar air comes from the South.</text>
+				<list:parts>
+					<part audio="tw210032.mp3" />
+					<part audio="tw210033.mp3" />
+					<part audio="tw210034.mp3" />
+					<part audio="tw210035.mp3" />
+					<part audio="tw210036.mp3" />
+					<part audio="tw210037.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210044.mp3">
+				<text>Trade winds blow on both sides of the zone with no wind.</text>
+				<list:parts>
+					<part audio="tw210039.mp3" />
+					<part audio="tw210040.mp3" />
+					<part audio="tw210041.mp3" />
+					<part audio="tw210042.mp3" />
+					<part audio="tw210043.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+		<list:items displayTextAfterCorrect="true">
+			<item audio="tw210050.mp3">
+				<text>The Equatorial trough is also called the “Doldrums”.</text>
+				<list:parts>
+					<part audio="tw210045.mp3" />
+					<part audio="tw210046.mp3" />
+					<part audio="tw210047.mp3" />
+					<part audio="tw210048.mp3" />
+					<part audio="tw210049.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210056.mp3">
+				<text>The Roaring Forties are gale winds in the southern hemisphere.</text>
+				<list:parts>
+					<part audio="tw210051.mp3" />
+					<part audio="tw210052.mp3" />
+					<part audio="tw210053.mp3" />
+					<part audio="tw210054.mp3" />
+					<part audio="tw210055.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210063.mp3">
+				<text>There are variable winds in the northern and southern hemispheres.</text>
+				<list:parts>
+					<part audio="tw210057.mp3" />
+					<part audio="tw210058.mp3" />
+					<part audio="tw210059.mp3" />
+					<part audio="tw210060.mp3" />
+					<part audio="tw210061.mp3" />
+					<part audio="tw210062.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210071.mp3">
+				<text>There are also local winds in different parts of the world.</text>
+				<list:parts>
+					<part audio="tw210064.mp3" />
+					<part audio="tw210065.mp3" />
+					<part audio="tw210066.mp3" />
+					<part audio="tw210067.mp3" />
+					<part audio="tw210068.mp3" />
+					<part audio="tw210069.mp3" />
+					<part audio="tw210070.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210078.mp3">
+				<text>In Europe the Mistral blows in the south of France.</text>
+				<list:parts>
+					<part audio="tw210072.mp3" />
+					<part audio="tw210073.mp3" />
+					<part audio="tw210074.mp3" />
+					<part audio="tw210075.mp3" />
+					<part audio="tw210076.mp3" />
+					<part audio="tw210077.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210083.mp3">
+				<text>The Bora blows in the Adriatic Sea.</text>
+				<list:parts>
+					<part audio="tw210079.mp3" />
+					<part audio="tw210080.mp3" />
+					<part audio="tw210081.mp3" />
+					<part audio="tw210082.mp3" />
+				</list:parts>
+			</item>
+			<item audio="tw210089.mp3">
+				<text>They are seasonal winds and regional winds.</text>
+				<list:parts>
+					<part audio="tw210084.mp3" />
+					<part audio="tw210085.mp3" />
+					<part audio="tw210086.mp3" />
+					<part audio="tw210087.mp3" />
+					<part audio="tw210088.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+	</list:pages>
+</root>

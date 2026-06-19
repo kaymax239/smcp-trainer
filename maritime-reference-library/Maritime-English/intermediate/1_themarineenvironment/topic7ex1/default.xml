@@ -1,0 +1,68 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	
+	
+	<items boolean:pages="true" boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" />
+	<list:pages boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true">
+		<list:items boolean:lockLeft="true">
+			<item>
+				<block1 audio="me71001.mp3"><![CDATA[Skimmers are designed ]]></block1>
+				<block2 audio="me71002.mp3"><![CDATA[to recover floating oil from the surface of the water.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me71003.mp3"><![CDATA[In situ burning is designed]]></block1>
+				<block2 audio="me71004.mp3"><![CDATA[to remove oil quickly and easily from the sea.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me71005.mp3"><![CDATA[Booms are designed]]></block1>
+				<block2 audio="me71006.mp3"><![CDATA[to deflect oil from sensitive areas.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me71007.mp3"><![CDATA[Dispersants are designed]]></block1>
+				<block2 audio="me71008.mp3"><![CDATA[to be applied by vessel or aerial spraying.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me71009.mp3"><![CDATA[High-pressure hoses are designed]]></block1>
+				<block2 audio="me71010.mp3"><![CDATA[to apply hot water.]]></block2>
+			</item>	
+		</list:items>
+		<list:items>
+			<item>
+				<block1 audio="me71011.mp3"><![CDATA[In situ burning is]]></block1>
+				<block2 audio="me71012.mp3"><![CDATA[an easy method to remove oil from the sea.]]></block2>
+			</item>	
+			<item>
+				<block1 audio="me71013.mp3"><![CDATA[Booms are designed]]></block1>
+				<block2 audio="me71014.mp3"><![CDATA[to contain oil.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me71015.mp3"><![CDATA[Skimmers are designed]]></block1>
+				<block2 audio="me71016.mp3"><![CDATA[to operate by a pump or belt system.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me71017.mp3"><![CDATA[Dispersants are designed]]></block1>
+				<block2 audio="me71018.mp3"><![CDATA[to speed up shoreline clean-up.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me71019.mp3"><![CDATA[High pressure hoses are designed]]></block1>
+				<block2 audio="me71020.mp3"><![CDATA[to blast oil from the surface of rocks and boulders.]]></block2>
+			</item>	
+		</list:items>
+	</list:pages>
+</root>

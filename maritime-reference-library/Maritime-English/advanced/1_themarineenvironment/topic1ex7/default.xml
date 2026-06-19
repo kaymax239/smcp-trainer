@@ -1,0 +1,53 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">International Coastal Cleanup, for example, was a statewide beach cleanup in Texas in 1986.<br>To handle mountains of plastic trash until ships reach port, the U.S.<br>Navy has recently developed onboard processors to compact and sanitize plastic trash.<br>This equipment has been on all Navy ships since 1999, and has military and commercial applications worldwide.<br>When compressed into blocks, thirty days' worth can be stored in the space that would be filled by one day's worth of uncompacted plastic trash.<br>A 300-person Navy destroyer generates about 35 cubic feet of plastic waste <br>per day, which is compressed into 5 to 6 disks.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[in 1986]]></text>
+					<correct><![CDATA[in 1986]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[recently]]></text>
+					<correct><![CDATA[recently]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[since 1999]]></text>
+					<correct><![CDATA[since 1999]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[thirty days']]></text>
+					<correct><![CDATA[thirty days']]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[one day's]]></text>
+					<correct><![CDATA[one day's]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[a 300-person]]></text>
+					<correct><![CDATA[A 300-person]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[about 35 cubic feet]]></text>
+					<correct><![CDATA[about 35 cubic feet]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[per day]]></text>
+					<correct><![CDATA[per day]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[into 5 to 6 disks]]></text>
+					<correct><![CDATA[into 5 to 6 disks]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

@@ -1,0 +1,76 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	
+	
+	<items boolean:pages="true" boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" />
+	<list:pages boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true">
+		<list:items boolean:lockLeft="true">
+			<item>
+				<block1 audio="me31001.mp3"><![CDATA[Oil tankers transport some 2,000 million tonnes]]></block1>
+				<block2 audio="me31002.mp3"><![CDATA[of crude oil around the world by sea.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me31003.mp3"><![CDATA[The IMO introduced measures to ensure that the majority]]></block1>
+				<block2 audio="me31004.mp3"><![CDATA[of oil tankers are safely built and operated.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me31005.mp3"><![CDATA[The first oil tankers]]></block1>
+				<block2 audio="me31006.mp3"><![CDATA[appeared in the late 19th century.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me31007.mp3"><![CDATA[The first 100,000-tonne crude oil tanker]]></block1>
+				<block2 audio="me31008.mp3"><![CDATA[was built to cover the route from Europe to the Middle East round the Cape of Good Hope.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me31009.mp3"><![CDATA[The potential for oil to pollute the marine environment]]></block1>
+				<block2 audio="me31010.mp3"><![CDATA[was officially recognised by the International Convention for the Prevention of Pollution of the Sea by Oil.]]></block2>
+			</item>	
+			<item>
+				<block1 audio="me31011.mp3"><![CDATA[The OILPOL Convention]]></block1>
+				<block2 audio="me31012.mp3"><![CDATA[recognised that most oil pollution resulted from routine shipboard operations.]]></block2>
+			</item>	
+		</list:items>
+		<list:items>
+			<item>
+				<block1 audio="me31013.mp3"><![CDATA[At the time it was normal practice]]></block1>
+				<block2 audio="me31014.mp3"><![CDATA[to wash the tanks out with water and then pump the resulting mixture of oil and water into the sea.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me31015.mp3"><![CDATA[The OILPOL Convention prohibited]]></block1>
+				<block2 audio="me31016.mp3"><![CDATA[the dumping of oily wastes within a certain distance from land and in ‘special areas’.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me31017.mp3"><![CDATA[Although the OILPOL Convention had been ratified]]></block1>
+				<block2 audio="me31018.mp3"><![CDATA[pollution control still remained a minor concern.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me31019.mp3"><![CDATA[The world was only beginning]]></block1>
+				<block2 audio="me31020.mp3"><![CDATA[to wake up to the environmental consequences of an industrialised society.]]></block2>
+			</item>	
+			<item>
+				<block1 audio="me31021.mp3"><![CDATA[The Torrey Canyon ran aground]]></block1>
+				<block2 audio="me31022.mp3"><![CDATA[when entering the English Channel.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me31023.mp3"><![CDATA[This resulted in the biggest oil pollution incident]]></block1>
+				<block2 audio="me31024.mp3"><![CDATA[ever recorded up to that time.]]></block2>
+			</item>		
+		</list:items>
+	</list:pages>
+</root>

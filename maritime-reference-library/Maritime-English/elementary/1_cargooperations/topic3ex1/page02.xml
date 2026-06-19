@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page02</name>
+      <background>page02/SiteproposedforST1.jpg</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false" />
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false">
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:264" y="number:81" />
+                  <point x="number:259" y="number:88" />
+                  <point x="number:259" y="number:100" />
+                  <point x="number:264" y="number:110" />
+                  <point x="number:276" y="number:112" />
+                  <point x="number:291" y="number:114" />
+                  <point x="number:308" y="number:114" />
+                  <point x="number:320" y="number:114" />
+                  <point x="number:319" y="number:104" />
+                  <point x="number:318" y="number:93" />
+                  <point x="number:306" y="number:90" />
+                  <point x="number:291" y="number:88" />
+                  <point x="number:282" y="number:77" />
+                  <point x="number:273" y="number:77" />
+                </points>
+              </hotspots>
+              <name>a tank</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page02/pw001.mp3</file>
+                      <text><![CDATA[In this photo you can see an oil terminal. Oil terminals are usually situated in locations where tankers can load or discharge their cargo. An oil terminal typically has a number of tanks for storage, and many kilometres of rails, pipelines and jetties for transporting crude oil and oil products which have been refined from crude oil.
+
+Can you see a storage tank painted dark green? Please click on it. ]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page02/pw002.mp3</file>
+                      <text><![CDATA[Yes, that’s right.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page02/pw003.mp3</file>
+                      <text><![CDATA[No, I’m sorry. That’s not it. Please try again. ]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:602" y="number:238" />
+                  <point x="number:590" y="number:242" />
+                  <point x="number:586" y="number:249" />
+                  <point x="number:586" y="number:257" />
+                  <point x="number:595" y="number:264" />
+                  <point x="number:603" y="number:270" />
+                  <point x="number:614" y="number:279" />
+                  <point x="number:626" y="number:285" />
+                  <point x="number:635" y="number:293" />
+                  <point x="number:646" y="number:298" />
+                  <point x="number:658" y="number:296" />
+                  <point x="number:659" y="number:284" />
+                  <point x="number:647" y="number:275" />
+                  <point x="number:635" y="number:268" />
+                  <point x="number:625" y="number:260" />
+                  <point x="number:617" y="number:249" />
+                  <point x="number:610" y="number:238" />
+                </points>
+              </hotspots>
+              <name>a tanker</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page02/pw004.mp3</file>
+                      <text><![CDATA[Tankers are loaded or discharged alongside jetties. A jetty is a structure which has been built from the shore into the water.
+
+Can you see a tanker alongside a jetty? Please click on the tanker. 
+]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page02/pw005.mp3</file>
+                      <text><![CDATA[Yes, that’s correct. ]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page02/pw006.mp3</file>
+                      <text><![CDATA[No, that doesn’t look like a tanker. Please try again.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+          </actions>
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page02/pw007.mp3</file>
+              <text><![CDATA[Now, let’s have a closer look at the tanker.]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">false</requireNext>
+            </action>
+          </actions>
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false">
+            <action actionType="loadScene">
+              <file>page03.xml</file>
+            </action>
+          </actions>
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

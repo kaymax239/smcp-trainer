@@ -1,0 +1,57 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="7" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" boolean:lockLeft="true">
+		<item>
+			<block1 audio="co43001.mp3"><![CDATA[The International Maritime Dangerous Goods (IMDG) Code]]></block1>
+			<block2 audio="co43002.mp3"><![CDATA[deals with provisions about carrying special goods]]></block2>
+		</item>
+		<item>
+			<block1 audio="co43003.mp3"><![CDATA[that may be either dangerous, or are marine pollutants,]]></block1>
+			<block2 audio="co43004.mp3"><![CDATA[or both.]]></block2>
+		</item>
+		<item>
+			<block1 audio="co43005.mp3"><![CDATA[Cargoes are divided into different classes,]]></block1>
+			<block2 audio="co43006.mp3"><![CDATA[according to the kind of hazard.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="co43007.mp3"><![CDATA[Some classes may even be subdivided]]></block1>
+			<block2 audio="co43008.mp3"><![CDATA[into other smaller groups.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="co43009.mp3"><![CDATA[Goods are grouped according]]></block1>
+			<block2 audio="co43010.mp3"><![CDATA[to the most predominant hazard.]]></block2>
+		</item>			
+		<item>
+			<block1 audio="co43011.mp3"><![CDATA[The first three groups are]]></block1>
+			<block2 audio="co43012.mp3"><![CDATA[explosives, gases and flammable liquids.]]></block2>
+		</item>			
+		<item>
+			<block1 audio="co43013.mp3"><![CDATA[Flammable solids, oxidizing substances and organic peroxides,]]></block1>
+			<block2 audio="co43014.mp3"><![CDATA[and toxic and infectious substances form the three following groups.]]></block2>
+		</item>			
+		<item>
+			<block1 audio="co43015.mp3"><![CDATA[They are followed by]]></block1>
+			<block2 audio="co43016.mp3"><![CDATA[radioactive material and corrosive substances.]]></block2>
+		</item>			
+		<item>
+			<block1 audio="co43017.mp3"><![CDATA[Finally, other dangerous articles and substances]]></block1>
+			<block2 audio="co43018.mp3"><![CDATA[form a group of their own.]]></block2>
+		</item>			
+	</list:items>
+</root>

@@ -1,0 +1,48 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>nosound.mp3</audio>
+				<text><![CDATA[How should stowaways be treated?
+				]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1005.mp3</audio>
+				<text><![CDATA[Stowaways create problems for a crew, but they are not <criminals> and should have their basic <human rights> respected and receive <fair treatment> while on board.
+				]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1004a.mp3</audio>
+				<text><![CDATA[If you find a stowaway, you should:
+• Check their state of <health>]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1004b.mp3</audio>
+				<text><![CDATA[• Find out their <identity> and the <reasons> they are on board ]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1004c.mp3</audio>
+				<text><![CDATA[• Arrange <food> and <lodging> ]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1004d.mp3</audio>
+				<text><![CDATA[• Explain <emergency> procedures and issue them with a <lifejacket> and <lifeboat> place ]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1004e.mp3</audio>
+				<text><![CDATA[• Inform the ship's <owner> or <agent>]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1004f.mp3</audio>
+				<text><![CDATA[• Expect the <master> to prepare a signed <statement> containing all <information> relating to the stowaway, to be given to the <authority> where the stowaway is <delivered>
+				]]></text>
+			</phrase>
+			<phrase>
+				<audio>ms1006.mp3</audio>
+				<text><![CDATA[A stowaway should not be <arrested> or <detained> (although the master has the right to maintain discipline on board), and should not be forced to work.]]></text>
+			</phrase>
+		</list:items>
+		
+	</list:items>
+</root>

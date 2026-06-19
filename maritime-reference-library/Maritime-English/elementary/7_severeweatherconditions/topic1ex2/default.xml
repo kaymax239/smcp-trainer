@@ -1,0 +1,37 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" >
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items meta:randomize="true">
+		<phrase>
+			<audio>swc12001.mp3</audio>
+			<text><![CDATA[<Don't wear|Do not wear|don't wear|do not wear> tight clothing.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc12003.mp3</audio>
+			<text><![CDATA[<Don't touch|Do not touch|don't touch|do not touch> cold metal with bare hands.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc12005.mp3</audio>
+			<text><![CDATA[<Move|move>, if you get cold.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc12007.mp3</audio>
+			<text><![CDATA[<Don't rub|Do not rub|don't rub|do not rub> the affected area.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc12009.mp3</audio>
+			<text><![CDATA[<Don't put|Do not put|don't put|do not put> the affected body parts into hot water.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc12011.mp3</audio>
+			<text><![CDATA[<Don't try|Do not try|don't try|do not try> to swim to the shore, if you are more than one kilometer away from it.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc12013.mp3</audio>
+			<text><![CDATA[<Remove|remove> wet clothes.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc12015.mp3</audio>
+			<text><![CDATA[<Don't give|Do not give|don't give|do not give> the patient alcohol.]]></text>
+		</phrase>
+	</list:items>
+</root>

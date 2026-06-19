@@ -1,0 +1,57 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><br><br><font size="14">The SSA should take into account all possible vulnerabilities, which may include:<br>1 conflicts between safety and security measures;<br>2 conflicts between shipboard duties and security assignments;<br>3 watch-keeping duties, number of ship’s personnel, particularly with implications on crew fatigue, alertness and performance;<br>4 any identified security training deficiencies; and<br>5 any security equipment and systems, including communication systems.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[vulnerabilities]]></text>
+					<correct><![CDATA[vulnerabilities]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[safety]]></text>
+					<correct><![CDATA[safety]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[shipboard]]></text>
+					<correct><![CDATA[shipboard]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[assignments]]></text>
+					<correct><![CDATA[assignments]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[watch-keeping]]></text>
+					<correct><![CDATA[watch-keeping]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[implications]]></text>
+					<correct><![CDATA[implications]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[fatigue]]></text>
+					<correct><![CDATA[fatigue]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[performance]]></text>
+					<correct><![CDATA[performance]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[deficiencies]]></text>
+					<correct><![CDATA[deficiencies]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[equipment]]></text>
+					<correct><![CDATA[equipment]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

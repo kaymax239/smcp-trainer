@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res/">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	
+	<image name="background">background.gif</image>
+	
+	<number name="maskScaling">0.8866995</number>
+	
+	<loader name="ui">
+		<image name="additionalBg" scale="1.12777777">loadbg.png</image>
+	</loader>
+	
+	<image name="playtextpanel-top">panel1.gif</image>
+	<image name="playtextpanel-middle">panel2.gif</image>
+	<image name="playtextpanel-bottom">panel3.gif</image>
+	<textformat name="playtextpanel-format" fontFamily="Arial" size="11" color="0x000000" align="justify" />
+	<point name="playtextpanel-position" x="181" y="553" />
+	<generic name="playtextpanel-slideduration" type="number">500</generic>
+	<rectangle name="playtextpanel-padding" x="15" y="10" w="15" h="10" />
+	<point name="scene-position" x="15" y="15" />
+	<image name="help-arrow">arrow.gif</image>
+	
+	<image name="error-panel">error.gif</image>
+	<textfield name="error-field">
+		<position x="25" y="45" />
+		<size w="140" h="60" />
+		<format fontFamily="Arial" size="12" />
+	</textfield>
+	
+	<textfield name="cluefield">
+		<position x="12" y="14" />
+		<size w="300" h="35" />
+		<format fontFamily="Arial" size="11" />
+	</textfield>
+	<textfield name="scorefield">
+		<position x="297" y="498" />
+		<size w="50" h="15" />
+		<format fontFamily="Arial" size="11" align="center" />
+	</textfield>
+	<textfield name="titlefield">
+		<position x="190" y="558" />
+		<size w="432" h="24" />
+		<format fontFamily="Arial" size="14" color="0xFFFFFF" align="center" />
+	</textfield>
+	<!--
+	<polygon name="reset">
+		<border color="0x000000" alpha="1" thickness="1" />
+		<fill color="0xFF0000" alpha="0.5" />
+		<position x="667" y="559" />
+		<rectangle x="667" y="559" w="58" h="43" />
+	</polygon>
+	-->
+	<button name="forward">
+		<states>
+			<normal>up.gif</normal>
+			<hover>up.gif</hover>
+			<down>up.gif</down>
+			<disabled>up2.gif</disabled>
+		</states>
+		<position x="59" y="545" />
+	</button>
+	<button name="backward">
+		<states>
+			<normal>down.gif</normal>
+			<hover>down.gif</hover>
+			<down>down.gif</down>
+			<disabled>down2.gif</disabled>
+		</states>
+		<position x="53" y="581" />
+	</button>
+	<button name="left">
+		<states>
+			<normal>left.gif</normal>
+			<hover>left.gif</hover>
+			<down>left.gif</down>
+			<disabled>left2.gif</disabled>
+		</states>
+		<position x="39" y="555" />
+	</button>
+	<button name="right">
+		<states>
+			<normal>right.gif</normal>
+			<hover>right.gif</hover>
+			<down>right.gif</down>
+			<disabled>right2.gif</disabled>
+		</states>
+		<position x="101" y="555" />
+	</button>
+	<button name="start">
+		<states>
+			<normal>start.gif</normal>
+			<hover>start.gif</hover>
+			<down>start.gif</down>
+			<disabled>start2.gif</disabled>
+		</states>
+		<position x="182" y="585" />
+	</button>
+	<button name="next">
+		<states>
+			<normal>next.gif</normal>
+			<hover>next.gif</hover>
+			<down>next.gif</down>
+			<disabled>next2.gif</disabled>
+		</states>
+		<position x="253" y="585" />
+	</button>
+	<button name="play">
+		<states>
+			<normal>play.gif</normal>
+			<hover>play.gif</hover>
+			<down>play.gif</down>
+			<disabled>play2.gif</disabled>
+		</states>
+		<position x="328" y="585" />
+	</button>
+	<button name="map">
+		<states>
+			<normal>map.gif</normal>
+			<hover>map.gif</hover>
+			<down>map.gif</down>
+			<disabled>map2.gif</disabled>
+		</states>
+		<position x="478" y="585" />
+	</button>
+	<button name="tasks">
+		<states>
+			<normal>tasks.gif</normal>
+			<hover>tasks.gif</hover>
+			<down>tasks.gif</down>
+			<disabled>tasks2.gif</disabled>
+		</states>
+		<position x="553" y="585" />
+	</button>
+	<button name="help">
+		<states>
+			<normal>help.gif</normal>
+			<hover>help.gif</hover>
+			<down>help.gif</down>
+			<disabled>help2.gif</disabled>
+		</states>
+		<position x="403" y="585" />
+	</button>
+</style>

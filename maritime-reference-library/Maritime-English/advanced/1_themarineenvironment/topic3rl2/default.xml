@@ -1,0 +1,49 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me0001b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="70218">
+			<text><![CDATA[Marine vessels, buoys and offshore structures spend a large part of their working life partly submerged in water. As a result they become easily colonised by the many micro-organisms that live in the water, especially when stationary. 
+
+The extent of this colonisation, also known as fouling, depends on the water temperature, the salinity and the productivity of the organic matter on which the organisms feed. The marine organism can either be of plant origin such as algae or weeds, or of animal origin such as barnacles and tubeworms. 
+
+To protect the boat from colonisation, anti-fouling treatments such as paint are applied to the outer parts of the ship at regular intervals. The coating is designed to gradually leach biocide or a toxin into the marine environment. This slow poisoning prevents organisms from sticking to the hull.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="3250" start="0" end="45" />
+				<text time="3500" duration="4750" start="46" end="113" />
+				<text time="9200" duration="3250" start="114" end="154" />
+				<text time="12450" duration="3000" start="155" end="206" />
+				<text time="15450" duration="2500" start="207" end="234" />
+				<text time="18900" duration="2000" start="237" end="269" />
+				<text time="20900" duration="2000" start="270" end="292" />
+				<text time="22900" duration="4250" start="293" end="339" />
+				<text time="27250" duration="5000" start="340" end="411" />
+				<text time="33175" duration="5500" start="412" end="485" />
+				<text time="39325" duration="5000" start="486" end="538" />
+				<text time="45925" duration="2500" start="541" end="579" />
+				<text time="48425" duration="2750" start="580" end="617" />
+				<text time="51175" duration="4500" start="618" end="682" />
+				<text time="56650" duration="6000" start="683" end="744" />
+				<text time="62650" duration="2000" start="745" end="773" />
+				<text time="65300" duration="4750" start="774" end="839" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

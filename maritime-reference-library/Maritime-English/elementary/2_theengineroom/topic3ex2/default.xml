@@ -1,0 +1,33 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="44" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+		
+	<list:items boolean:shuffle="true" boolean:use3dFx="true" boolean:playAudioOnCorrect="true" boolean:checkOne="true" boolean:emptyBlocks="true" boolean:playAllOnComplete="true" boolean:showReflection="false">
+		<item>
+			<text>
+				<![CDATA[\nwatch |work period on a ship*a small device which shows the time. It is worn on your wrist|\n\n\ntank |a container*a military vehicle|\n\n\ncompartment |a separate area for a specific purpose*a room inside a train|\n\n\ncheck |to inspect, to control*a pattern containing squares, especially on cloth|]]>
+			</text>
+			<list:audio>
+				<item audio="er32001.mp3,er32004.mp3" text="" />
+				<item audio="er32005.mp3,er32007.mp3" text="" />
+				<item audio="er32009.mp3,er32012.mp3" text="" />
+				<item audio="er32013.mp3,er32016.mp3" text="" />
+			</list:audio>
+		</item>
+	</list:items>
+</root>

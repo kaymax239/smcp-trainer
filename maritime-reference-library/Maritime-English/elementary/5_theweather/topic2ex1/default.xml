@@ -1,0 +1,69 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="11" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" boolean:lockLeft="true">
+			<item>
+				<block1 audio="audio/tw21001.mp3"><![CDATA[The first month of the year is]]></block1>
+				<block2 audio="audio/tw21002.mp3"><![CDATA[January]]></block2>
+			</item>
+			<item>
+				<block1 audio="audio/tw21003.mp3"><![CDATA[The second month of the year is]]></block1>
+				<block2 audio="audio/tw21004.mp3"><![CDATA[February]]></block2>
+			</item>
+			<item>
+				<block1 audio="audio/tw21005.mp3"><![CDATA[The third month of the year is]]></block1>
+				<block2 audio="audio/tw21006.mp3"><![CDATA[March]]></block2>
+			</item>		
+			<item>
+				<block1 audio="audio/tw21007.mp3"><![CDATA[The fourth month of the year is]]></block1>
+				<block2 audio="audio/tw21008.mp3"><![CDATA[April]]></block2>
+			</item>		
+			<item>
+				<block1 audio="audio/tw21009.mp3"><![CDATA[The fifth month of the year is]]></block1>
+				<block2 audio="audio/tw21010.mp3"><![CDATA[May]]></block2>
+			</item>		
+			<item>
+				<block1 audio="audio/tw21011.mp3"><![CDATA[The sixth month of the year is]]></block1>
+				<block2 audio="audio/tw21012.mp3"><![CDATA[June]]></block2>
+			</item>		
+			<item>
+				<block1 audio="audio/tw21013.mp3"><![CDATA[The seventh month of the year is]]></block1>
+				<block2 audio="audio/tw21014.mp3"><![CDATA[July]]></block2>
+			</item>		
+			<item>
+				<block1 audio="audio/tw21015.mp3"><![CDATA[The eighth month of the year is]]></block1>
+				<block2 audio="audio/tw21016.mp3"><![CDATA[August]]></block2>
+			</item>
+			<item>
+				<block1 audio="audio/tw21017.mp3"><![CDATA[The ninth month of the year is]]></block1>
+				<block2 audio="audio/tw21018.mp3"><![CDATA[September]]></block2>
+			</item>		
+			<item>
+				<block1 audio="audio/tw21019.mp3"><![CDATA[The tenth month of the year is]]></block1>
+				<block2 audio="audio/tw21020.mp3"><![CDATA[October]]></block2>
+			</item>
+			<item>
+				<block1 audio="audio/tw21021.mp3"><![CDATA[The eleventh month of the year is]]></block1>
+				<block2 audio="audio/tw21022.mp3"><![CDATA[November]]></block2>
+			</item>		
+			<item>
+				<block1 audio="audio/tw21023.mp3"><![CDATA[The twelfth month of the year is]]></block1>
+				<block2 audio="audio/tw21024.mp3"><![CDATA[December]]></block2>
+			</item>
+	</list:items>
+</root>

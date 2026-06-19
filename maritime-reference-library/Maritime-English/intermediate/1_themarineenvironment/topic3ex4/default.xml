@@ -1,0 +1,112 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">The main reasons for oil spills are shipping accidents (groundings, collisions, tanker incidents), bad weather (storms, hurricanes, gusts of wind, seaquakes, tropical cyclones, tornadoes, willy-willies, typhoons), intentional pollution or intentional acts of violence (routine tank cleaning, dumping of oily wastes, vandalism, terrorism, acts of war) and human errors.<br><br>The main sources of spilled oil are generally: crude oil tankers breaking, crashing or stranding, product carriers or barges wrecking, oil wells blowing up or oil pipelines breaking or leaking.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[groundings]]></text>
+					<correct><![CDATA[groundings]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[gusts]]></text>
+					<correct><![CDATA[gusts]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[seaquakes]]></text>
+					<correct><![CDATA[seaquakes]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[routine tank cleaning]]></text>
+					<correct><![CDATA[routine tank cleaning]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[oily wastes]]></text>
+					<correct><![CDATA[oily wastes]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[terrorism]]></text>
+					<correct><![CDATA[terrorism]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[errors]]></text>
+					<correct><![CDATA[errors]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[crashing]]></text>
+					<correct><![CDATA[crashing]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[product carriers]]></text>
+					<correct><![CDATA[product carriers]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[wells]]></text>
+					<correct><![CDATA[wells]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[pipelines]]></text>
+					<correct><![CDATA[pipelines]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">Other sources can be:<br>- incidents with production facilities (for instance when crude oil is changed into other products such as tar, asphalt, etc.)<br>- incidents with oil drilling vessels or oil platforms (oil rigs located in the sea or ocean pumping oil from deep in the seabed or ocean floor)<br>- incidents while lightering (moving oil from one vessel to another)<br>- natural seepage (when natural oil found in  he ground leaks up in the water)<br>- mystery spills (people dumping oil or chemicals on purpose)<br><br>To try to prevent and help to clean up oil spills, governments pass laws to prevent dumping and contamination.<br>Littoral states also provide adequate reception facilities for dirty ballast and other oily residues.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[asphalt]]></text>
+					<correct><![CDATA[asphalt]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[oil drilling vessels]]></text>
+					<correct><![CDATA[oil drilling vessels]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[oil rigs]]></text>
+					<correct><![CDATA[oil rigs]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[floor]]></text>
+					<correct><![CDATA[floor]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[lightering]]></text>
+					<correct><![CDATA[lightering]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[seepage]]></text>
+					<correct><![CDATA[seepage]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[mystery spills]]></text>
+					<correct><![CDATA[mystery spills]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[pass]]></text>
+					<correct><![CDATA[pass]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[contamination]]></text>
+					<correct><![CDATA[contamination]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[littoral]]></text>
+					<correct><![CDATA[Littoral]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[oily residues]]></text>
+					<correct><![CDATA[oily residues]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

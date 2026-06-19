@@ -1,0 +1,73 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me0042a.mp3</audio>
+		<audio>me0042b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="64079">
+			<text><![CDATA[Oil Pollution: Sources
+
+When it comes to mixing oil and water, oceans suffer from far more than the occasional devastating oil spill. Disasters make headlines, but hundreds of millions of gallons of oil quietly end up in the seas every year, mostly from non-accidental sources.
+
+Used engine oil cans end up in waterways. An average oil change uses five quarts; one change can contaminate a million gallons of fresh water. Much oil contained in runoff from land, municipal and industrial wastes ends up in the oceans.
+
+Road runoff also adds up. Every year oily road runoff from a city of 5 million could contain as much oil as one large tanker spill.
+
+Every year, bilge cleaning and other ship operations release millions of gallons of oil into navigable waters, in thousands of discharges of just a few gallons each.
+]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2250" start="0" end="22" />
+				<text time="3225" duration="2750" start="24" end="62" />
+				<text time="6275" duration="5000" start="63" end="133" />
+				<text time="11950" duration="2250" start="134" end="159" />
+				<text time="14525" duration="5000" start="160" end="241" />
+				<text time="19750" duration="2750" start="242" end="277" />
+				<text time="23425" duration="3250" start="279" end="320" />
+				<text time="27400" duration="3500" start="321" end="360" />
+				<text time="31125" duration="4000" start="361" end="421" />
+				<text time="35725" duration="4750" start="422" end="493" />
+				<text time="40600" duration="1750" start="494" end="516" />
+				<text time="42875" duration="2000" start="518" end="543" />
+				<text time="45175" duration="7000" start="544" end="649" />
+				<text time="52800" duration="7250" start="651" end="761" />
+				<text time="60225" duration="3750" start="762" end="816" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="43417">
+			<text><![CDATA[Air pollution, mainly from cars and industry, can place hundreds of tons of hydrocarbons into the oceans each year. Particles settle, and rain washes hydrocarbons from the air into the oceans.
+
+Some ocean oil 'pollution' is natural. Seepage from the ocean bottom and erosion of sedimentary rocks releases oil.
+
+Only about 5 percent of oil pollution in oceans is due to major tanker accidents, but one big spill can disrupt sea and shore life for miles.
+
+Offshore oil production can cause ocean oil pollution, from spills and operational discharges. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="3000" start="0" end="45" />
+				<text time="3575" duration="4250" start="46" end="115" />
+				<text time="8525" duration="5750" start="116" end="192" />
+				<text time="15050" duration="3250" start="194" end="232" />
+				<text time="18625" duration="5500" start="233" end="309" />
+				<text time="24525" duration="6000" start="311" end="392" />
+				<text time="30875" duration="5000" start="393" end="452" />
+				<text time="36350" duration="3750" start="454" end="508" />
+				<text time="40225" duration="3000" start="509" end="548" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

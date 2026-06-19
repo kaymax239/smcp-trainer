@@ -1,0 +1,135 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong02.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:gapFieldFirst="false" boolean:showCorrectAfterMultipleChoice="true" boolean:shuffle="true" boolean:repeatNext="false" boolean:repeatLast="true">
+		<item>
+			<sentence rigthAudio="swc15001.mp3"><![CDATA[Freezing rain makes the ground <slippery>.]]></sentence>
+        	<list:choises>
+				<item>
+					<![CDATA[white]]>
+				</item>
+				<item>
+					<![CDATA[wet]]>
+				</item>
+			</list:choises>
+       </item>
+		<item>
+			<sentence rigthAudio="swc15002.mp3"><![CDATA[Wind removes body heat, which can lead to <injuries>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[loss of weight]]>
+				</item>				
+				<item>
+					<![CDATA[getting hungry]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="swc15003.mp3"><![CDATA[<Numbness> is a symptom of frostnip.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[Slow pulse]]>
+				</item>
+				<item>
+					<![CDATA[Shivering]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="swc15004.mp3"><![CDATA[White colour of the skin is a <symptom> of frostbite.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[cause]]>
+				</item>				
+				<item>
+					<![CDATA[prevention]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="swc15005.mp3"><![CDATA[If you get frostnip, <reheat> the area gently.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[rub]]>
+				</item>				
+				<item>
+					<![CDATA[move]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="swc15006.mp3"><![CDATA[If you get frostbite, put the affected body part into <warm water>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[cold water]]>
+				</item>				
+				<item>
+					<![CDATA[hot water]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="swc15007.mp3"><![CDATA[Frostnip often affects the <cheeks>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[elbows]]>
+				</item>
+				<item>
+					<![CDATA[knees]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="swc15008.mp3"><![CDATA[A person who has mild hypothermia is unable to <work>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[talk]]>
+				</item>				
+				<item>
+					<![CDATA[walk]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="swc15009.mp3"><![CDATA[A person who has mild hypothermia may drink <hot juice>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[coffee]]>
+				</item>	
+				<item>
+					<![CDATA[alcohol]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="swc15010.mp3"><![CDATA[A person who has severe hypothermia has <slow pulse>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[quick pulse]]>
+				</item>				
+				<item>
+					<![CDATA[normal pulse]]>
+				</item>
+			</list:choises>
+		</item>
+	</list:items>
+</root>

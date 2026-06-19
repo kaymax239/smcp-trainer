@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page22</name>
+      <background>page22/P1160051.JPG</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false" />
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false">
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:676" y="number:141" />
+                  <point x="number:661" y="number:138" />
+                  <point x="number:650" y="number:143" />
+                  <point x="number:640" y="number:149" />
+                  <point x="number:638" y="number:168" />
+                  <point x="number:636" y="number:188" />
+                  <point x="number:632" y="number:211" />
+                  <point x="number:633" y="number:228" />
+                  <point x="number:633" y="number:243" />
+                  <point x="number:636" y="number:251" />
+                  <point x="number:651" y="number:252" />
+                  <point x="number:670" y="number:252" />
+                  <point x="number:674" y="number:238" />
+                  <point x="number:674" y="number:221" />
+                  <point x="number:676" y="number:201" />
+                  <point x="number:678" y="number:183" />
+                  <point x="number:678" y="number:163" />
+                  <point x="number:679" y="number:145" />
+                </points>
+              </hotspots>
+              <name>fire extinguisher</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page22/pw059.mp3</file>
+                      <text><![CDATA[All these red pipes are used for transferring water to firefighting equipment. In the photo you can see a red water pipe and a fire extinguisher. Click on the fire extinguisher.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page22/pw060.mp3</file>
+                      <text><![CDATA[Yes, that's it.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page22/pw061.mp3</file>
+                      <text><![CDATA[No. It’s on the right above the water pipe.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:517" y="number:58" />
+                  <point x="number:531" y="number:55" />
+                  <point x="number:542" y="number:51" />
+                  <point x="number:545" y="number:40" />
+                  <point x="number:556" y="number:37" />
+                  <point x="number:562" y="number:30" />
+                  <point x="number:562" y="number:14" />
+                  <point x="number:562" y="number:0" />
+                  <point x="number:543" y="number:0" />
+                  <point x="number:516" y="number:0" />
+                  <point x="number:505" y="number:0" />
+                  <point x="number:503" y="number:13" />
+                  <point x="number:504" y="number:29" />
+                  <point x="number:504" y="number:37" />
+                  <point x="number:516" y="number:38" />
+                  <point x="number:514" y="number:53" />
+                </points>
+              </hotspots>
+              <name>foam monitor</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page22/pw062.mp3</file>
+                      <text><![CDATA[Behind the water pipe and the fire extinguisher you can see a part of a water and foam monitor. Please, click on it.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page22/pw063.mp3</file>
+                      <text><![CDATA[Yes, you got it right.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page22/pw064.mp3</file>
+                      <text><![CDATA[No, it’s the red column behind the pipeline.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+          </actions>
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page22/pw065.mp3</file>
+              <text><![CDATA[Now, let’s see what the water or foam monitor looks like.]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">false</requireNext>
+            </action>
+          </actions>
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false">
+            <action actionType="loadScene">
+              <file>page23.xml</file>
+            </action>
+          </actions>
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

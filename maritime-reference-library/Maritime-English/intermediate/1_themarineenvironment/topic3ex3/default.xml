@@ -1,0 +1,297 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<list:pages>
+		<list:items displayTextAfterCorrect="true">
+			<item audio="mei33001.mp3" >
+				<text>It is still recognised that operational pollution remains the bigger threat.</text>
+				<list:parts>
+					<part audio="mei33002.mp3" />
+					<part audio="mei33003.mp3" />
+					<part audio="mei33004.mp3" />
+					<part audio="mei33005.mp3" />
+					<part audio="mei33006.mp3" />
+					<part audio="mei33007.mp3" />
+					<part audio="mei33008.mp3" />
+					<part audio="mei33009.mp3" />
+					<part audio="mei33010.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33011.mp3">
+				<text>A new procedure was called the ‘Load-on-Top’ system.</text>
+				<list:parts>
+					<part audio="mei33012.mp3" />
+					<part audio="mei33013.mp3" />
+					<part audio="mei33014.mp3" />
+					<part audio="mei33015.mp3" />
+					<part audio="mei33016.mp3" />
+					<part audio="mei33017.mp3" />
+					<part audio="mei33018.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33019.mp3">
+				<text>This system has the twofold advantage of saving oil and reducing pollution.</text>
+				<list:parts>
+					<part audio="mei33020.mp3" />
+					<part audio="mei33021.mp3" />
+					<part audio="mei33022.mp3" />
+					<part audio="mei33023.mp3" />
+					<part audio="mei33024.mp3" />
+					<part audio="mei33025.mp3" />
+					<part audio="mei33026.mp3" />
+					<part audio="mei33027.mp3" />
+					<part audio="mei33028.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33029.mp3">
+				<text>The washings resulting from tank cleaning are pumped into a special tank.</text>
+				<list:parts>
+					<part audio="mei33030.mp3" />
+					<part audio="mei33031.mp3" />
+					<part audio="mei33032.mp3" />
+					<part audio="mei33033.mp3" />
+					<part audio="mei33034.mp3" />
+					<part audio="mei33035.mp3" />
+					<part audio="mei33036.mp3" />
+					<part audio="mei33037.mp3" />
+					<part audio="mei33038.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33039.mp3">
+				<text>The water at the bottom of the tank is pumped overboard.</text>
+				<list:parts>
+					<part audio="mei33040.mp3" />
+					<part audio="mei33041.mp3" />
+					<part audio="mei33042.mp3" />
+					<part audio="mei33043.mp3" />
+					<part audio="mei33044.mp3" />
+					<part audio="mei33045.mp3" />
+					<part audio="mei33046.mp3" />
+					<part audio="mei33047.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+		<list:items displayTextAfterCorrect="true">
+			<item audio="mei33048.mp3">
+				<text>The most important objective is the prevention of marine pollution.</text>
+				<list:parts>
+					<part audio="mei33049.mp3" />
+					<part audio="mei33050.mp3" />
+					<part audio="mei33051.mp3" />
+					<part audio="mei33052.mp3" />
+					<part audio="mei33053.mp3" />
+					<part audio="mei33054.mp3" />
+					<part audio="mei33055.mp3" />
+					<part audio="mei33056.mp3" />
+					<part audio="mei33057.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33058.mp3">
+				<text>Only a limited amount of oil could enter the sea in the event of damage to the vessel.</text>
+				<list:parts>
+					<part audio="mei33059.mp3" />
+					<part audio="mei33060.mp3" />
+					<part audio="mei33061.mp3" />
+					<part audio="mei33062.mp3" />
+					<part audio="mei33063.mp3" />
+					<part audio="mei33064.mp3" />
+					<part audio="mei33065.mp3" />
+					<part audio="mei33066.mp3" />
+					<part audio="mei33067.mp3" />
+					<part audio="mei33068.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33069.mp3">
+				<text>The Protocol expanded the requirements for segregated ballast tanks to new crude oil tankers of 20,000 deadweight tonnage and above.</text>
+				<list:parts>
+					<part audio="mei33070.mp3" />
+					<part audio="mei33071.mp3" />
+					<part audio="mei33072.mp3" />
+					<part audio="mei33073.mp3" />
+					<part audio="mei33074.mp3" />
+					<part audio="mei33075.mp3" />
+					<part audio="mei33076.mp3" />
+					<part audio="mei33077.mp3" />
+					<part audio="mei33078.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33079.mp3">
+				<text>Segregated ballast tanks were also required where they can minimise the possibility of oil outflow.</text>
+				<list:parts>
+					<part audio="mei33080.mp3" />
+					<part audio="mei33081.mp3" />
+					<part audio="mei33082.mp3" />
+					<part audio="mei33083.mp3" />
+					<part audio="mei33084.mp3" />
+					<part audio="mei33085.mp3" />
+					<part audio="mei33086.mp3" />
+					<part audio="mei33087.mp3" />
+					<part audio="mei33088.mp3" />
+					<part audio="mei33089.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33090.mp3">
+				<text>New tankers were also required to be fitted with crude oil washing systems.</text>
+				<list:parts>
+					<part audio="mei33091.mp3" />
+					<part audio="mei33092.mp3" />
+					<part audio="mei33093.mp3" />
+					<part audio="mei33094.mp3" />
+					<part audio="mei33095.mp3" />
+					<part audio="mei33096.mp3" />
+					<part audio="mei33097.mp3" />
+					<part audio="mei33098.mp3" />
+					<part audio="mei33099.mp3" />
+					<part audio="mei33100.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+		<list:items displayTextAfterCorrect="true">
+			<item audio="mei33101.mp3">
+				<text>Crude oil washing is the cleaning of cargo tanks with high pressure jets of crude oil.</text>
+				<list:parts>
+					<part audio="mei33102.mp3" />
+					<part audio="mei33103.mp3" />
+					<part audio="mei33104.mp3" />
+					<part audio="mei33105.mp3" />
+					<part audio="mei33106.mp3" />
+					<part audio="mei33107.mp3" />
+					<part audio="mei33108.mp3" />
+					<part audio="mei33109.mp3" />
+					<part audio="mei33110.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33111.mp3">
+				<text>This system reduces the quantity of oil remaining on board after discharge.</text>
+				<list:parts>
+					<part audio="mei33112.mp3" />
+					<part audio="mei33113.mp3" />
+					<part audio="mei33114.mp3" />
+					<part audio="mei33115.mp3" />
+					<part audio="mei33116.mp3" />
+					<part audio="mei33117.mp3" />
+					<part audio="mei33118.mp3" />
+					<part audio="mei33119.mp3" />
+					<part audio="mei33120.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33121.mp3">
+				<text>Supplementary measures for tanker safety included the requirement for inert gas systems.</text>
+				<list:parts>
+					<part audio="mei33122.mp3" />
+					<part audio="mei33123.mp3" />
+					<part audio="mei33124.mp3" />
+					<part audio="mei33125.mp3" />
+					<part audio="mei33126.mp3" />
+					<part audio="mei33127.mp3" />
+					<part audio="mei33128.mp3" />
+					<part audio="mei33129.mp3" />
+					<part audio="mei33130.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33131.mp3">
+				<text>After the Exxon Valdez disaster the United States developed its Oil Pollution Act.</text>
+				<list:parts>
+					<part audio="mei33132.mp3" />
+					<part audio="mei33133.mp3" />
+					<part audio="mei33134.mp3" />
+					<part audio="mei33135.mp3" />
+					<part audio="mei33136.mp3" />
+					<part audio="mei33137.mp3" />
+					<part audio="mei33138.mp3" />
+					<part audio="mei33139.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33140.mp3">
+				<text>Some member states of IMO wanted other designs to be accepted as equivalents to double hulls.</text>
+				<list:parts>
+					<part audio="mei33141.mp3" />
+					<part audio="mei33142.mp3" />
+					<part audio="mei33143.mp3" />
+					<part audio="mei33144.mp3" />
+					<part audio="mei33145.mp3" />
+					<part audio="mei33146.mp3" />
+					<part audio="mei33147.mp3" />
+					<part audio="mei33148.mp3" />
+					<part audio="mei33149.mp3" />
+					<part audio="mei33150.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+		<list:items displayTextAfterCorrect="true">
+			<item audio="mei33151.mp3">
+				<text>As a result IMO carried out a study into the comparative performances of the double hull and the mid-deck tanker designs.</text>
+				<list:parts>
+					<part audio="mei33152.mp3" />
+					<part audio="mei33153.mp3" />
+					<part audio="mei33154.mp3" />
+					<part audio="mei33155.mp3" />
+					<part audio="mei33156.mp3" />
+					<part audio="mei33157.mp3" />
+					<part audio="mei33158.mp3" />
+					<part audio="mei33159.mp3" />
+					<part audio="mei33160.mp3" />
+					<part audio="mei33161.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33162.mp3">
+				<text>Proposals were presented to consider an accelerated single-hull oil tanker phase-out schedule.</text>
+				<list:parts>
+					<part audio="mei33163.mp3" />
+					<part audio="mei33164.mp3" />
+					<part audio="mei33165.mp3" />
+					<part audio="mei33166.mp3" />
+					<part audio="mei33167.mp3" />
+					<part audio="mei33168.mp3" />
+					<part audio="mei33169.mp3" />
+					<part audio="mei33170.mp3" />
+					<part audio="mei33171.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33172.mp3">
+				<text>The Prestige disaster also led to an extended application of the Condition Assessment Scheme for tankers.</text>
+				<list:parts>
+					<part audio="mei33173.mp3" />
+					<part audio="mei33174.mp3" />
+					<part audio="mei33175.mp3" />
+					<part audio="mei33176.mp3" />
+					<part audio="mei33177.mp3" />
+					<part audio="mei33178.mp3" />
+					<part audio="mei33179.mp3" />
+					<part audio="mei33180.mp3" />
+					<part audio="mei33181.mp3" />
+					<part audio="mei33182.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33183.mp3">
+				<text>The CAS requirements include a more transparent verification of the structural condition of the ship.</text>
+				<list:parts>
+					<part audio="mei33184.mp3" />
+					<part audio="mei33185.mp3" />
+					<part audio="mei33186.mp3" />
+					<part audio="mei33187.mp3" />
+					<part audio="mei33188.mp3" />
+					<part audio="mei33189.mp3" />
+					<part audio="mei33190.mp3" />
+					<part audio="mei33191.mp3" />
+					<part audio="mei33192.mp3" />
+				</list:parts>
+			</item>
+			<item audio="mei33193.mp3">
+				<text>The requirements oblige shipowners to have documentary and survey procedures properly carried out.</text>
+				<list:parts>
+					<part audio="mei33194.mp3" />
+					<part audio="mei33195.mp3" />
+					<part audio="mei33196.mp3" />
+					<part audio="mei33197.mp3" />
+					<part audio="mei33198.mp3" />
+					<part audio="mei33199.mp3" />
+					<part audio="mei33200.mp3" />
+					<part audio="mei33201.mp3" />
+					<part audio="mei33202.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+	</list:pages>
+</root>

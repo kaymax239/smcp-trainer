@@ -1,0 +1,135 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:caseInsensitive="false" boolean:gapFieldFirst="false" boolean:showCorrectAfterMultipleChoice="true" boolean:shuffle="false" boolean:repeatNext="false" boolean:repeatLast="true">
+		<item>
+			<sentence rigthAudio="me11001.mp3"><![CDATA[The marine environment is a <saltwater> environment.]]></sentence>
+        	<list:choises>
+				<item>
+					<![CDATA[clean water]]>
+				</item>
+				<item>
+					<![CDATA[freshwater]]>
+				</item>
+			</list:choises>
+        </item>
+		<item>
+			<sentence rigthAudio="me11002.mp3"><![CDATA[The marine environment means the natural and biological <resources>, comprising any marine ecosystem within the Exclusive Economic Zone’s waters, seabed and subsoil including both the living and nonliving components of the marine ecosystems.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[resorts]]>
+				</item>				
+				<item>
+					<![CDATA[sources]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me11002.mp3"><![CDATA[The marine environment means the natural and biological resources, comprising any marine ecosystem within the Exclusive Economic Zone’s waters, <seabed> and subsoil including both the living and nonliving components of the marine ecosystems.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[currents]]>
+				</item>				
+				<item>
+					<![CDATA[tidal streams]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me11003.mp3"><![CDATA[The marine environment can also be described as the oceans, seas, estuaries, <bays> and other major water bodies, with the atmosphere and with the land seaward of the mean high water mark.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[lakes]]>
+				</item>
+				<item>
+					<![CDATA[rivers]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me11003.mp3"><![CDATA[The marine environment can also be described as the oceans, seas, estuaries, bays and other major water bodies, with the atmosphere and with the land seaward of the <mean high water> mark.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[mean low water]]>
+				</item>
+				<item>
+					<![CDATA[separation zone]]>
+				</item>
+			</list:choises>
+		</item>
+		
+		<item>
+			<sentence rigthAudio="me11004.mp3"><![CDATA[The marine environment means the physical, <atmospheric>, and biological components, conditions and factors which interactively determine the productivity, state, condition and quality of the marine ecosystem, including the waters of the high seas, the contiguous zone, transitional and intertidal areas, salt marshes and wetlands within the coastal zone and on the Outer Continental Shelf.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[natural]]>
+				</item>				
+				<item>
+					<![CDATA[nautical]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me11004.mp3"><![CDATA[The marine environment means the physical, atmospheric, and biological components, conditions and factors which interactively determine the productivity, state, condition and quality of the marine ecosystem, including the <waters of the high seas>, the contiguous zone, transitional and intertidal areas, salt marshes and wetlands within the coastal zone and on the Outer Continental Shelf.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[inland waterways]]>
+				</item>				
+				<item>
+					<![CDATA[territorial waters]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me11004.mp3"><![CDATA[The marine environment means the physical, atmospheric, and biological components, conditions and factors which interactively determine the productivity, state, condition and quality of the marine ecosystem, including the waters of the high seas, the contiguous zone, transitional and intertidal areas, salt marshes and <wetlands> within the coastal zone and on the Outer Continental Shelf.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[lagoons]]>
+				</item>				
+				<item>
+					<![CDATA[sandbanks]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me11004.mp3"><![CDATA[The marine environment means the physical, atmospheric, and biological components, conditions and factors which interactively determine the productivity, state, condition and quality of the marine ecosystem, including the waters of the high seas, the contiguous zone, transitional and intertidal areas, salt marshes and wetlands within the coastal zone and on the Outer <Continental Shelf/continental shelf>.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[Continental Drift]]>
+				</item>				
+				<item>
+					<![CDATA[Offshore Zone]]>
+				</item>
+			</list:choises>
+		</item>
+		<item>
+			<sentence rigthAudio="me11005.mp3"><![CDATA[Marine environments include estuaries, coastal marine and <nearshore> zones and open-ocean-deep-sea regions.]]></sentence>
+			<list:choises>
+				<item>
+					<![CDATA[onshore]]>
+				</item>				
+				<item>
+					<![CDATA[peninsular]]>
+				</item>
+			</list:choises>
+		</item>
+	</list:items>
+</root>

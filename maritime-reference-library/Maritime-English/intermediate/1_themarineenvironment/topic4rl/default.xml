@@ -1,0 +1,66 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>page1.mp3</audio>
+		<audio>page2.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="79805">
+			<text><![CDATA[Master MV Marina: Coastguard Ostend, Coastguard Ostend, Coastguard Ostend. This is MV Marina, MV Marina, MV Marina. How do you read me? Over.
+Ostend Coastguard: MV Marina, MV Marina, MV Marina. This is Coastguard Ostend, Coastguard Ostend, Coastguard Ostend. I read you excellent. Go ahead with your message. Over.
+Master MV Marina: Coastguard Ostend. This is MV Marina. Located a vessel dumping waste in position 51 degrees 45 minutes North/003 degrees 12 minutes East at 1020 UTC. Repeat 51 degrees 45 minutes North/003 degrees 12 minutes East at 1020 UTC. Over.
+Ostend Coastguard: MV Marina. This is Coastguard Ostend. Can you identify the polluter? Over.
+Master MV Marina: Coastguard Ostend. This is MV Marina. Yes, I can identify the polluter. Polluter is MV Suzie. Over.
+]]></text>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="200" duration="4500" start="18" end="74" />
+				<text time="5000" duration="4750" start="74" end="115" />
+				<text time="10100" duration="2500" start="115" end="141" />
+				<text time="13500" duration="4750" start="162" end="194" />
+				<text time="18550" duration="5250" start="194" end="259" />
+				<text time="24100" duration="1750" start="260" end="281" />
+				<text time="26150" duration="2500" start="281" end="315" />
+				<text time="29750" duration="3500" start="335" end="372" />
+				<text time="33550" duration="6750" start="372" end="444" />
+				<text time="40650" duration="7900" start="444" end="484" />
+				<text time="48750" duration="4500" start="484" end="520" />
+				<text time="53650" duration="8750" start="520" end="566" />
+				<text time="63300" duration="3000" start="587" end="624" />
+				<text time="66600" duration="3250" start="625" end="661" />
+				<text time="70550" duration="3250" start="681" end="718" />
+				<text time="74100" duration="2500" start="718" end="752" />
+				<text time="76900" duration="2750" start="752" end="780" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="42450">
+			<text><![CDATA[Ostend Coastguard: MV Marina. This is Coastguard Ostend. What is course and speed of the polluter? Over.
+Master MV Marina: Coastguard Ostend. This is MV Marina. Course of the polluter is 012 degrees, speed 10 knots. Over.
+Ostend Coastguard: MV Marina. This is Coastguard Ostend. ADVICE. Stay in vicinity of the polluter. I will send coastguard assistance. Over.
+Master MV Marina: Coastguard Ostend. This is MV Marina. Message understood.  I will stay in vicinity of the polluter. Out.]]></text>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="150" duration="3000" start="19" end="56" />
+				<text time="3475" duration="4000" start="56" end="104" />
+				<text time="8825" duration="3000" start="124" end="161" />
+				<text time="12075" duration="8250" start="161" end="222" />
+				<text time="21075" duration="3000" start="243" end="280" />
+				<text time="24375" duration="4250" start="280" end="322" />
+				<text time="28925" duration="3750" start="323" end="363" />
+				<text time="34125" duration="3000" start="383" end="420" />
+				<text time="37425" duration="1500" start="420" end="440" />
+				<text time="39225" duration="3000" start="440" end="487" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

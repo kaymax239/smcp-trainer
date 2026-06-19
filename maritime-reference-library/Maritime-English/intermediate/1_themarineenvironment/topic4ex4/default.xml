@@ -1,0 +1,56 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="14"><b>Master MV Marina:</b> Ostend Coastguard, Ostend Coastguard, Ostend Coastguard. This is MV Marina, MV Marina, MV Marina. How do you read me? Over.<br>(…)<br><b>Master MV Marina:</b> Ostend Coastguard. This is MV Marina. I have accidental spillage of oil in position 51 degrees 45 minutes North/003 degrees 12 minutes East at 2325 hrs UTC extending twelve metres by three metres to North. Over.<br><b>Ostend Coastguard:</b> MV Marina. This is Ostend Coastguard. Say again. Over.<br>(…)<br><b>Ostend Coastguard:</b> MV Marina. This is Ostend Coastguard. What kind of assistance is required? Over.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[read]]></text>
+					<correct><![CDATA[read]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[accidental spillage]]></text>
+					<correct><![CDATA[accidental spillage]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[Say]]></text>
+					<correct><![CDATA[Say]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[assistance]]></text>
+					<correct><![CDATA[assistance]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="14"><b>Master MV Marina:</b> Ostend Coastguard. This is MV Marina. I require oil clearance assistance. Over.<br><b>Ostend Coastguard:</b> MV Marina. This is Ostend Coastguard.<br>(…)<br>ADVICE. Stay in vicinity of pollution and co-operate (…).<br>Over.<br><b>Master MV Marina:</b> Ostend Coastguard. This is MV Marina. Message understood.<br>(…)<br>Out.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[oil clearance assistance]]></text>
+					<correct><![CDATA[oil clearance assistance]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[understood]]></text>
+					<correct><![CDATA[understood]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[vicinity]]></text>
+					<correct><![CDATA[vicinity]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+
+
+
+
+

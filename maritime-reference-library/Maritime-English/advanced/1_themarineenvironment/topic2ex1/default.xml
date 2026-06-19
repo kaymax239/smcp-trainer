@@ -1,0 +1,109 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">A hazardous and noxious substance is defined as ‘any substance other than oil which, if introduced into the marine environment is likely to create hazards to human health, to harm living resources and marine life, to damage amenities or to interfere with other legitimate uses of the sea’.<br>The OPRC-HNS Protocol aims to provide a global framework for international operation in combating major incidents or threats of marine pollution.<br>The OPRC-HNS Protocol ensures that ships carrying hazardous and noxious liquid substances are covered by preparedness and response regimes similar to those for oil incidents.<br>Ships flying the flag of a contracting state (‘party’) of the OPRC-HNS Protocol are required to carry a pollution emergency plan to deal specifically with incidents involving hazardous and noxious substances.
+</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[hazards]]></text>
+					<correct><![CDATA[hazards]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[resources]]></text>
+					<correct><![CDATA[resources]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[amenities]]></text>
+					<correct><![CDATA[amenities]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[legitimate]]></text>
+					<correct><![CDATA[legitimate]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[aims to]]></text>
+					<correct><![CDATA[aims to]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[framework]]></text>
+					<correct><![CDATA[framework]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[combating]]></text>
+					<correct><![CDATA[combating]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[covered]]></text>
+					<correct><![CDATA[covered]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[response regimes]]></text>
+					<correct><![CDATA[response regimes]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[flying]]></text>
+					<correct><![CDATA[flying]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[pollution emergency plan]]></text>
+					<correct><![CDATA[pollution emergency plan]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">These substances can – when spilled – have a harmful impact on the marine environment and on marine ecosystems.<br>States which are party to the OPRC-HNS Protocol are required to develop a system for responding to HNS, including a designated national contingency plan.<br>The IMO has developed a wide series of tools for dealing with incidents involving hazardous and noxious substances and meeting their obligations under the Protocol.<br>The OPRC-HNS Protocol also contributes to the increased protection of a state’s coastal zone and marine environment, including human health and resources.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[spilled]]></text>
+					<correct><![CDATA[spilled]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[harmful]]></text>
+					<correct><![CDATA[harmful]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[ecosystems]]></text>
+					<correct><![CDATA[ecosystems]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[party]]></text>
+					<correct><![CDATA[party]]></correct>
+				</bbl>
+					<bbl>
+					<text><![CDATA[national contingency]]></text>
+					<correct><![CDATA[national contingency]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[tools]]></text>
+					<correct><![CDATA[tools]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[involving]]></text>
+					<correct><![CDATA[involving]]></correct>
+				</bbl>
+					<bbl>
+					<text><![CDATA[contributes]]></text>
+					<correct><![CDATA[contributes]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[coastal zone]]></text>
+					<correct><![CDATA[coastal zone]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[human health]]></text>
+					<correct><![CDATA[human health]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

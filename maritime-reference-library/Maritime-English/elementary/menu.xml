@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<style folder="res">
+		<font name="LingonetTradeGothic" source="lingonettradegothic.swf" />
+		<image name="background">menu_elementary.png</image>
+		<textformat name="menuformat" fontFamily="Trade Gothic" size="16" color="0x000000" bold="false" underline="false" italic="false" align="center" />
+		<textformat name="infoformat" fontFamily="Trade Gothic" size="16" color="0x990032" bold="false" underline="false" italic="false" align="left" />
+		<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+		<fx name="fadeOut" type="fade" from="1" to="0" duration="250" />
+		<fx name="slideOut" type="move" x="-720" y="0" duration="250" />
+		<fx name="slideIn" type="move" x="0" y="0" u="-720" v="0" duration="250" />
+		<image name="busy-cursor">busy.gif</image>
+		<image name="return">return.png</image>
+	</style>
+	<items showMasks="false" fxIn="slideIn" fxOut="slideOut">				
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>1_cargooperations/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="213" y="103" />
+				<point x="383" y="104" />
+				<point x="383" y="125" />
+				<point x="213" y="124" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>2_theengineroom/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="212" y="137" />
+				<point x="377" y="139" />
+				<point x="377" y="157" />
+				<point x="212" y="158" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>3_thenavigationbridge/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="213" y="172" />
+				<point x="415" y="175" />
+				<point x="413" y="192" />
+				<point x="213" y="193" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>4_radiocommunication/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="212" y="208" />
+				<point x="424" y="211" />
+				<point x="424" y="228" />
+				<point x="212" y="229" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>5_theweather/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="212" y="245" />
+				<point x="340" y="245" />
+				<point x="340" y="265" />
+				<point x="212" y="265" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>6_firstaid/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="213" y="281" />
+				<point x="303" y="281" />
+				<point x="302" y="300" />
+				<point x="213" y="300" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>7_severeweatherconditions/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="213" y="317" />
+				<point x="457" y="319" />
+				<point x="455" y="336" />
+				<point x="213" y="336" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>8_themarineenvironment/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="213" y="352" />
+				<point x="431" y="354" />
+				<point x="429" y="371" />
+				<point x="214" y="372" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>9_maritimesecurity/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="213" y="388" />
+				<point x="379" y="390" />
+				<point x="377" y="407" />
+				<point x="214" y="409" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+	</items>
+</menu>

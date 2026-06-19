@@ -1,0 +1,60 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<list:pages boolean:showReflection="true">
+		<list:items boolean:displayTextAfterCorrect="true" meta:randomize="true" meta:slice="5">
+			
+		
+			<item audio="rc21066.mp3">
+				<!--
+				<image:bbl1></image:bbl1>
+				<image:bbl2></image:bbl2>
+				-->
+				<text><![CDATA[MAYDAY, MAYDAY, MAYDAY, this is 234675000, 234675000, 234675000. MAYDAY, 234675000. Position, latitude 40 degrees north, longitude 21 degrees west. We are sinking, I repeat we are sinking. I require immediate assistance. OVER.]]></text>
+				<list:parts>
+					<part audio="rc21001.mp3" />
+					<part audio="rc21002b.mp3" />
+					<part audio="rc21006.mp3" />
+					<part audio="rc21007.mp3" />
+					<part audio="rc21008b.mp3" />
+					<part audio="rc21010b.mp3" />
+					<part audio="rc21012b.mp3" />
+					<part audio="rc21014b.mp3" />
+					<part audio="rc21017b.mp3" />
+					<part audio="rc21020.mp3" />
+				</list:parts>
+			</item>
+			<item audio="rc21067.mp3">
+				<text><![CDATA[Sécurité, sécurité, sécurité. All stations, all stations, all stations. This is 550871800. Position 40 degrees north, 50 degrees west. Navigational warning, large iceberg floating adrift. This is 550871800 out.]]></text>
+				<list:parts>
+					<part audio="rc21021.mp3" />
+					<part audio="rc21024.mp3" />
+					<part audio="rc21030b.mp3" />
+					<part audio="rc21033.mp3" />
+					<part audio="rc21034.mp3" />
+					<part audio="rc21035.mp3" />
+					<part audio="rc21036b.mp3" />
+					<part audio="rc21038b.mp3" />
+					<part audio="rc21042b.mp3" />
+				</list:parts>
+			</item>
+			<item audio="rc21068.mp3">
+				<text><![CDATA[Pan Pan, Pan Pan, Pan Pan. All stations, all stations, all stations. This is Black Reefer, Black Reefer, Black Reefer. I am in position 30 miles north-west of Cape Finisterre. I have a small fire on board. Over.]]></text>
+				<list:parts>
+					<part audio="rc21046.mp3" />
+					<part audio="rc21024.mp3" />
+					<part audio="rc21047b.mp3" />
+					<part audio="rc21049.mp3" />
+					<part audio="rc21050.mp3" />
+					<part audio="rc21052b.mp3" />
+					<part audio="rc21056.mp3" />
+					<part audio="rc21057.mp3" />
+					<part audio="rc21059b.mp3" />
+					<part audio="rc21062b.mp3" />
+					<part audio="rc21020.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+	</list:pages>
+</root>

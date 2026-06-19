@@ -1,0 +1,29 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items>
+		<phrase>
+			<audio>swc13001.mp3</audio>
+			<text><![CDATA[Ice pellets <are> solid grains of ice.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc13002.mp3</audio>
+			<text><![CDATA[Numbness <is> a symptom of frostnip.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc13003.mp3</audio>
+			<text><![CDATA[Hands <have> less blood flow than the body.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc13004.mp3</audio>
+			<text><![CDATA[Seek medical help, if normal sensations <have> not returned within 30 minutes.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc13005.mp3</audio>
+			<text><![CDATA[Hypothermia <is> a general cooling of the body.]]></text>
+		</phrase>
+		<phrase>
+			<audio>swc13006.mp3</audio>
+			<text><![CDATA[A person who <has> severe hypothermia <is> unable to walk.]]></text>
+		</phrase>
+	</list:items>
+</root>

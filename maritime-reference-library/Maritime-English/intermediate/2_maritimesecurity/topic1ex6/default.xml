@@ -1,0 +1,41 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13"><b>Interviewer</b> - Good morning Captain James, we would like to ask you a few questions about the ISPS code.<br><b>Captain James</b> - Yes, that’s fine, what do you want to know?<br><b>Interviewer</b> - What does the ISPS Code stand for?<br><b>Captain James</b> - The ISPS Code stands for “The International Ship and Port Facility Security” Code.<br><b>Interviewer</b> - What is the ISPS Code?<br><b>Captain James</b> – it is an amendment to the Safety of Life at Sea (SOLAS) Convention (1974/1988) on minimum security arrangements for ships, ports and government agencies. It came into force in 2004 and prescribes responsibilities to governments, shipping companies, shipboard personnel, and port/facility personnel to detect security threats and take preventative measures against security incidents affecting ships or port facilities used in international trade."</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[TO LIKE]]></text>
+					<correct><![CDATA[would like]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO STAND FOR]]></text>
+					<correct><![CDATA[stand for]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO COME INTO FORCE]]></text>
+					<correct><![CDATA[came into force]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO PRESCRIBE]]></text>
+					<correct><![CDATA[prescribes]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO DETECT]]></text>
+					<correct><![CDATA[to detect]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO TAKE]]></text>
+					<correct><![CDATA[take]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

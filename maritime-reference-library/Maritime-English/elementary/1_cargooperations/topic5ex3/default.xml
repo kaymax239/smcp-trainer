@@ -1,0 +1,44 @@
+﻿<root xmlns="http://www.lingonet.com/xml" 
+	  xmlns:list="http://www.lingonet.com/xml/list"
+	  xmlns:number="http://www.lingonet.com/xml/number" 
+	  xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	  xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<sound folder="audio/" prefix="" suffix=".mp3" />
+	<helloAudio file="" />
+	
+	<rightAudio>ok01</rightAudio>
+	<list:wrongAudio>
+		<item>wrong03</item>
+	</list:wrongAudio>
+	
+	<list:pages>
+		<list:page image="bg1" completeAudio="null" randomize="true">
+			<item>
+				<bubbleText>safety load</bubbleText>
+				<rightAudio>co53001</rightAudio>
+				<target x="243" y="108" />
+			</item>
+			<item>
+				<bubbleText>cubic metres</bubbleText>
+				<rightAudio>co53002</rightAudio>
+				<target x="240" y="138" />
+			</item>
+			<item>
+				<bubbleText>deadweight</bubbleText>
+				<rightAudio>co53003</rightAudio>
+				<target x="244" y="168" />
+			</item>
+			<item>
+				<bubbleText>20`/40`containers</bubbleText>
+				<rightAudio>co53004</rightAudio>
+				<target x="239" y="198" />
+			</item>
+			<item>
+				<bubbleText>cranes/derricks</bubbleText>
+				<rightAudio>co53005</rightAudio>
+				<target x="219" y="228" />
+			</item>
+		</list:page>
+	</list:pages>
+</root>

@@ -1,0 +1,39 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>ms1003.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="true" obfuscate="false" length="47074">
+			<text><![CDATA[What rights do stowaways have?
+
+An international convention relating to stowaways dates back 50 years, but has not come into force because not enough states have ratified it. This convention covers such issues as the responsibility of the ship's master and relevant authorities when a stowaway is detected, and regulations for their return, including the costs. Although this convention has not been ratified, the position of stowaways is protected by the United Nations Declaration on Human Rights and the European Convention on Human Rights. These cover the right to life, and freedom from torture, degrading treatment, slavery, discrimination, and other basic human rights.
+]]></text>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="100" duration="2500" start="0" end="31" />
+				<text time="3450" duration="4600" start="32" end="102" />
+				<text time="8700" duration="3500" start="103" end="174" />
+				<text time="13150" duration="4550" start="175" end="252" />
+				<text time="18150" duration="3150" start="253" end="306" />
+				<text time="21850" duration="3050" start="307" end="361" />
+				<text time="25500" duration="2500" start="362" end="409" />
+				<text time="28300" duration="5250" start="410" end="498" />
+				<text time="33900" duration="2550" start="499" end="543" />
+				<text time="37950" duration="1550" start="544" end="574" />
+				<text time="39650" duration="5300" start="575" end="646" />
+				<text time="45150" duration="1850" start="647" end="676" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

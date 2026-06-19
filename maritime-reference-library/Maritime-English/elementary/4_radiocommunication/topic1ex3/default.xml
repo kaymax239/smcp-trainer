@@ -1,0 +1,38 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="44" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+		
+	<list:items boolean:linedAudios="false" boolean:shuffle="true" boolean:use3dFx="true" boolean:playAudioOnCorrect="true" boolean:checkOne="true" boolean:emptyBlocks="true" boolean:playAllOnComplete="true" boolean:showReflection="false">
+		<item>
+			<text>
+				<![CDATA[\nWhat is the name of your vessel and |callsign*registration number*nickname|?\n\nThe name of my vessel is “Queen Ingrid” |CALLSIGN DELTA QUEBEC VICTOR OSCAR*registration number DQVO*nickname DQVO|.\n\nPlease |spell*state*say| your vessel’s name.\nWhat is your present |course*way*route| and |speed*velocity*swift|?\n\nMy present |course*route*course| is |zero nine seven degrees*“o”, ninety-seven degrees*“o” nineteen – seven degrees|.\nMy speed is 36 |knots*miles per hour*kilometres per hour|.\n\nFrom what direction are you |approaching*coming*sailing|?]]>
+			</text>
+			<list:audio>
+				<item audio="rc13001.mp3" text="" />
+				<item audio="rc13002.mp3" text="" />
+				<item audio="rc13003.mp3" text="" />
+				<item audio="rc13004.mp3" text="" />
+				<item audio="rc13004.mp3" text="" />
+				<item audio="rc13005.mp3" text="" />
+				<item audio="rc13005.mp3" text="" />
+				<item audio="rc13006.mp3" text="" />
+				<item audio="rc13007.mp3" text="" />
+			</list:audio>
+		</item>
+	</list:items>
+</root>

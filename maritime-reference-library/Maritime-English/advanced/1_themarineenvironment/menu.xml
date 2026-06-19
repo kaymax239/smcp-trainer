@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<style folder="res">
+		<font name="LingonetTradeGothic" source="lingonettradegothic.swf" />
+		<image name="background">menu_advanced_1.jpg</image>
+		<textformat name="menuformat" fontFamily="Trade Gothic" size="16" color="0x000000" bold="false" underline="false" italic="false" align="center" />
+		<textformat name="infoformat" fontFamily="Trade Gothic" size="16" color="0x990032" bold="false" underline="false" italic="false" align="left" />
+		<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+		<fx name="fadeOut" type="fade" from="1" to="0" duration="250" />
+		<fx name="slideOut" type="move" x="-720" y="0" duration="250" />
+		<fx name="slideIn" type="move" x="0" y="0" u="-720" v="0" duration="250" />
+		<image name="busy-cursor">busy.gif</image>
+		<image name="return">return.png</image>
+	</style>
+	<items showMasks="false" fxIn="slideIn" fxOut="slideOut">
+	<!--TOPIC 1 The Marine Environment And Man-made Pollution-->
+		<item opens="swf">
+			<image x="233" y="153" status="undone">res/btn_rl.png</image>
+			<image x="233" y="153" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>42</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1rl/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="283" y="153" status="undone">res/btn_1.png</image>
+			<image x="283" y="153" status="done">res/btn_1done.png</image>
+			<args>
+				<taskId>43</taskId>
+			</args>
+			<swf>textfieldtargets.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex1/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="313" y="153" status="undone">res/btn_rl.png</image>
+			<image x="313" y="153" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>44</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1rl2/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="363" y="153" status="undone">res/btn_2.png</image>
+			<image x="363" y="153" status="done">res/btn_2done.png</image>
+			<args>
+				<taskId>45</taskId>
+			</args>
+			<swf>adaptiivinen2.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex2/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="393" y="153" status="undone">res/btn_rl.png</image>
+			<image x="393" y="153" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>46</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1rl3/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="443" y="153" status="undone">res/btn_3.png</image>
+			<image x="443" y="153" status="done">res/btn_3done.png</image>
+			<args>
+				<taskId>47</taskId>
+			</args>
+			<swf>adaptiivinen2.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex3/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="473" y="153" status="undone">res/btn_rl.png</image>
+			<image x="473" y="153" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>48</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1rl4/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="523" y="153" status="undone">res/btn_4.png</image>
+			<image x="523" y="153" status="done">res/btn_4done.png</image>
+			<args>
+				<taskId>49</taskId>
+			</args>
+			<swf>matchblocks.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex4/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="553" y="153" status="undone">res/btn_rl.png</image>
+			<image x="553" y="153" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>50</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1rl5/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="603" y="153" status="undone">res/btn_5.png</image>
+			<image x="603" y="153" status="done">res/btn_5done.png</image>
+			<args>
+				<taskId>51</taskId>
+			</args>
+			<swf>matchblocks.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex5/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="243" y="183" status="undone">res/btn_rl.png</image>
+			<image x="243" y="183" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>52</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1rl6/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="293" y="183" status="undone">res/btn_6.png</image>
+			<image x="293" y="183" status="done">res/btn_6done.png</image>
+			<args>
+				<taskId>53</taskId>
+			</args>
+			<swf>gapfillwithspell.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex6/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="323" y="183" status="undone">res/btn_rl.png</image>
+			<image x="323" y="183" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>54</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1rl7/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="373" y="183" status="undone">res/btn_7.png</image>
+			<image x="373" y="183" status="done">res/btn_7done.png</image>
+			<args>
+				<taskId>55</taskId>
+			</args>
+			<swf>textfieldtargets.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex7/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+	<!--TOPIC 2 Hazardous And Noxious Substances-->
+		<item opens="swf">
+			<image x="233" y="247" status="undone">res/btn_rl.png</image>
+			<image x="233" y="247" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>56</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic2rl/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="283" y="247" status="undone">res/btn_1.png</image>
+			<image x="283" y="247" status="done">res/btn_1done.png</image>
+			<args>
+				<taskId>57</taskId>
+			</args>
+			<swf>textfieldtargets.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic2ex1/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>	
+		<item opens="swf">
+			<image x="313" y="247" status="undone">res/btn_rl.png</image>
+			<image x="313" y="247" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>58</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic2rl2/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="363" y="247" status="undone">res/btn_2.png</image>
+			<image x="363" y="247" status="done">res/btn_2done.png</image>
+			<args>
+				<taskId>59</taskId>
+			</args>
+			<swf>gapfillwithspell.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic2ex2/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+	<!--TOPIC 3 Anti-fouling-->
+		<item opens="swf">
+			<image x="233" y="312" status="undone">res/btn_rl.png</image>
+			<image x="233" y="312" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>60</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic3rl/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="283" y="312" status="undone">res/btn_rl.png</image>
+			<image x="283" y="312" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>61</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic3rl2/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="333" y="312" status="undone">res/btn_1.png</image>
+			<image x="333" y="312" status="done">res/btn_1done.png</image>
+			<args>
+				<taskId>62</taskId>
+			</args>
+			<swf>textfieldtargets.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic3ex1/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>	
+		<item opens="swf">
+			<image x="363" y="312" status="undone">res/btn_rl.png</image>
+			<image x="363" y="312" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>63</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic3rl3/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="413" y="312" status="undone">res/btn_2.png</image>
+			<image x="413" y="312" status="done">res/btn_2done.png</image>
+			<args>
+				<taskId>64</taskId>
+			</args>
+			<swf>showfrompicture.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic3ex2/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="443" y="312" status="undone">res/btn_rl.png</image>
+			<image x="443" y="312" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>65</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic3rl4/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="493" y="312" status="undone">res/btn_3.png</image>
+			<image x="493" y="312" status="done">res/btn_3done.png</image>
+			<args>
+				<taskId>66</taskId>
+			</args>
+			<swf>adaptiivinen2.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic3ex3/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+	<!--TOPIC 4-->
+		<item opens="swf">
+			<image x="233" y="378" status="undone">res/btn_rl.png</image>
+			<image x="233" y="378" status="done">res/btn_rldone.png</image>
+			<args>
+				<taskId>67</taskId>
+			</args>
+			<swf>lingoreader.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic4rl/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="283" y="378" status="undone">res/btn_1.png</image>
+			<image x="283" y="378" status="done">res/btn_1done.png</image>
+			<args>
+				<taskId>68</taskId>
+			</args>
+			<swf>matchblocks.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic4ex1/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>	
+		<item opens="swf">
+			<image x="313" y="378" status="undone">res/btn_2.png</image>
+			<image x="313" y="378" status="done">res/btn_2done.png</image>
+			<args>
+				<taskId>69</taskId>
+			</args>
+			<swf>gapfillwithspell.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic4ex2/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+	</items>
+</menu>

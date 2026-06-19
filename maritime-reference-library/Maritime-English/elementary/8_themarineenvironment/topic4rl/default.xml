@@ -1,0 +1,40 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me4001.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="35631">
+			<text><![CDATA[This is a photograph of the oil tanker, the Exxon Valdez.
+
+
+
+
+
+
+On March 24, 1989, the Exxon Valdez left Alaska, U.S.A. It was heading for Washington. When the ship was in the outbound shipping lane the master handed over the vessel to the third mate. He was assisted by an able seaman, who was at the helm. The mate was trying to avoid icebergs but the ship struck a reef spilling 10.8 million gallons of oil into the Prince William Sound, a remote and very beautiful area of Alaska.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="4000" start="0" end="57" />
+				<text time="4600" duration="5500" start="57" end="126" />
+				<text time="10400" duration="2000" start="126" end="157" />
+				<text time="12850" duration="5651" start="157" end="258" />
+				<text time="18950" duration="3500" start="258" end="314" />
+				<text time="22950" duration="9000" start="314" end="447" />
+				<text time="32350" duration="3000" start="447" end="500" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

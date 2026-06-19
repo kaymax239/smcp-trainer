@@ -1,0 +1,82 @@
+<root xmlns="http://www.lingonet.com/xml"
+	  xmlns:list="http://www.lingonet.com/xml/list"
+	  xmlns:number="http://www.lingonet.com/xml/number"
+	  xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	  xmlns:image="http://www.lingonet.com/xml/image"
+	  >
+
+	<sound folder="audio/" prefix="tw27" suffix=".mp3" />
+
+	<list:pages>
+		<page>
+			<image:background x="125" y="107">page1.png</image:background>
+			<list:words>
+				<word><!--coastal waters-->
+					<correct x="153" tolerance="5" />
+					<range x0="70" x1="175" />
+					<audio>001</audio>
+				</word>
+				<word><!--local breeze-->
+					<correct x="140" tolerance="5" />
+					<range x0="70" x1="160" />
+					<audio>008</audio>
+				</word>
+				<word><!--occasional fog-->
+					<correct x="174" tolerance="5" />
+					<range x0="70" x1="175" />
+					<audio>002</audio>
+				</word>
+				<word><!--continental climate-->
+					<correct x="179" tolerance="5" />
+					<range x0="70" x1="210" />
+					<audio>009</audio>
+				</word>
+				<word><!--rain shower-->
+					<correct x="132" tolerance="5" />
+					<range x0="70" x1="155" />
+					<audio>003</audio>
+				</word>
+				<word><!--typical weather-->
+					<correct x="152" tolerance="5" />
+					<range x0="70" x1="180" />
+					<audio>010</audio>
+				</word>
+				<word><!--polar air-->
+					<correct x="131" tolerance="5" />
+					<range x0="70" x1="135" />
+					<audio>004</audio>
+				</word>
+				<word><!--torrential rain-->
+					<correct x="160" tolerance="5" />
+					<range x0="70" x1="165" />
+					<audio>011</audio>
+				</word>
+				<word><!--tropical storm-->
+					<correct x="156" tolerance="5" />
+					<range x0="70" x1="170" />
+					<audio>005</audio>
+				</word>
+				<word><!--conical buoy-->
+					<correct x="153" tolerance="5" />
+					<range x0="70" x1="165" />
+					<audio>012</audio>
+				</word>
+				<word><!--cold front-->
+					<correct x="127" tolerance="5" />
+					<range x0="70" x1="140" />
+					<audio>006</audio>
+				</word>
+				<word><!--variable wind-->
+					<correct x="155" tolerance="5" />
+					<range x0="70" x1="170" />
+					<audio>013</audio>
+				</word>
+				<word><!--warm front-->
+					<correct x="139" tolerance="5" />
+					<range x0="70" x1="150" />
+					<audio>007</audio>
+				</word>
+			</list:words>
+		</page>
+	</list:pages>	
+</root>

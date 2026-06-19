@@ -1,0 +1,68 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="audio/" prefix="" suffix="" />
+	
+	<list:items boolean:displayReflection="false">
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page1Bg">
+			
+			<!--Clearly visible marine pollution such as debris in a river-->
+			<item audio="me22002.mp3" wrongAudio="me22003.mp3" rigthAudio="correct1.mp3" afterWrong="me22004.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Waste water in a septic river-->
+			<item audio="me22006.mp3" wrongAudio="me22007.mp3" rigthAudio="correct2.mp3" afterWrong="me22008.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Ballast water pumped over the side of a cargo ship-->
+			<item audio="me22010.mp3" wrongAudio="me22011.mp3" rigthAudio="correct3.mp3" afterWrong="me22012.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--A beach covered with oil after an oil spill from a ship-->
+			<item audio="me22014.mp3" wrongAudio="me22015.mp3" rigthAudio="correct1.mp3" afterWrong="me22016.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--A swan in her nest made of plastic and other garbage-->
+			<item audio="me22018.mp3" wrongAudio="me22019.mp3" rigthAudio="correct2.mp3" afterWrong="me22020.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Polluted lagoon-->
+			<item audio="me22022.mp3" wrongAudio="me22023.mp3" rigthAudio="correct3.mp3" afterWrong="me22024.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+		
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page2Bg">
+			
+			<!--Metals and slowly degrading chemicals form contaminated runoff and sediment-->
+			<item audio="me22026.mp3" wrongAudio="me22027.mp3" rigthAudio="correct1.mp3" afterWrong="me22028.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Dead oiled otter, probable victim of an oil spill-->
+			<item audio="me22030.mp3" wrongAudio="me22031.mp3" rigthAudio="correct2.mp3" afterWrong="me22032.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Crude oil from a tanker that ran aground-->
+			<item audio="me22034.mp3" wrongAudio="me22035.mp3" rigthAudio="correct3.mp3" afterWrong="me22036.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Scientists collecting samples after an oil spill-->
+			<item audio="me22038.mp3" wrongAudio="me22039.mp3" rigthAudio="correct1.mp3" afterWrong="me22040.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+
+	</list:items>
+</root>

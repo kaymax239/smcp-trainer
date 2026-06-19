@@ -1,0 +1,54 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:gapFieldFirst="true" boolean:shuffle="true" boolean:noMultipleChoice="true" number:errorsBeforeShowCorrect="2" boolean:repeatNext="false" boolean:repeatLast="true">
+		<item>
+			<sentence rigthAudio="me0090.mp3" finska="Load reefer containers."><![CDATA[<reefer containers loaded/Reefer containers loaded>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="me0091.mp3" finska="Check the twistlocks."><![CDATA[<twistlocks checked/Twistlocks checked>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="me0092.mp3" finska="Fasten the lines."><![CDATA[<lines fastened/Lines fastened>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="me0093.mp3" finska="Lash the cargo."><![CDATA[<cargo lashed/Cargo lashed>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="me0094.mp3" finska="Replace lashing bars."><![CDATA[<lashing bars replaced/Lashing bars replaced>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="me0095.mp3" finska="Collect lashing chains."><![CDATA[<lashing chains collected/Lashing chains collected>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="me0096.mp3" finska="Put bridge fittings aside."><![CDATA[<bridge fittings put aside/Bridge fittings put aside>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="me0097.mp3" finska="Unlock the twistlocks."><![CDATA[<twistlocks unlocked/Twistlocks unlocked>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="me0098.mp3" finska="Fasten the lashing wires."><![CDATA[<lashing wires fastened/Lashing wires fastened>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="me0099.mp3" finska="Fit the crossbars."><![CDATA[<crossbars fitted/Crossbars fitted>]]></sentence>
+		</item>
+	</list:items>
+</root>

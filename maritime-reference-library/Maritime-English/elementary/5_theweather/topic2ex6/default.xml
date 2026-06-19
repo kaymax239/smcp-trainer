@@ -1,0 +1,90 @@
+﻿<root 
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	
+	<list:hints>
+		<item>hint1</item>
+		<item>hint2</item>
+		<item>hint3</item>
+		<item>hint4</item>
+		<item>hint5</item>
+		<item>hint6</item>
+		<item>hint7</item>
+		<item>hint8</item>
+		<item>hint9</item>
+		<item>hint10</item>
+		<item>hint11</item>
+		<item>hint12</item>
+		<item>hint13</item>
+		<item>hint14</item>
+		<item>hint15</item>
+	</list:hints>
+		
+	<list:pages boolean:skipStartBtn="true" boolean:showFeedbackDialog="false">
+		<page>
+			<list:items>
+				<list:items prompt="nosound.mp3" correct="tw26001.mp3">
+					<item x="16" y="117"><![CDATA[Region]]></item>
+					<item x="198" y="117"><![CDATA[<regional>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26002.mp3">
+					<item x="16" y="157"><![CDATA[Season]]></item>
+					<item x="198" y="157"><![CDATA[<seasonal>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26003.mp3">
+					<item x="16" y="197"><![CDATA[Occasion]]></item>
+					<item x="198" y="197"><![CDATA[<occasional>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26004.mp3">
+					<item x="16" y="237"><![CDATA[Tropic]]></item>
+					<item x="198" y="237"><![CDATA[<tropical>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26005.mp3">
+					<item x="16" y="277"><![CDATA[Front]]></item>
+					<item x="198" y="277"><![CDATA[<frontal>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26006.mp3">
+					<item x="16" y="317"><![CDATA[Type]]></item>
+					<item x="198" y="317"><![CDATA[<typical>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26007.mp3">
+					<item x="16" y="357"><![CDATA[Torrent]]></item>
+					<item x="198" y="357"><![CDATA[<torrential>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26008.mp3">
+					<item x="16" y="397"><![CDATA[Continent]]></item>
+					<item x="198" y="397"><![CDATA[<continental>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26009.mp3">
+					<item x="361" y="117"><![CDATA[Norm]]></item>
+					<item x="544" y="117"><![CDATA[<normal>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26010.mp3">
+					<item x="361" y="157"><![CDATA[Coast]]></item>
+					<item x="544" y="157"><![CDATA[<coastal>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26011.mp3">
+					<item x="361" y="197"><![CDATA[Cone]]></item>
+					<item x="544" y="197"><![CDATA[<conical>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26012.mp3">
+					<item x="361" y="237"><![CDATA[Equator]]></item>
+					<item x="544" y="237"><![CDATA[<equatorial>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26013.mp3">
+					<item x="361" y="277"><![CDATA[Tide]]></item>
+					<item x="544" y="277"><![CDATA[<tidal>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26014.mp3">
+					<item x="361" y="317"><![CDATA[Horizon]]></item>
+					<item x="544" y="317"><![CDATA[<horizontal>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="tw26015.mp3">
+					<item x="361" y="357"><![CDATA[Centre]]></item>
+					<item x="544" y="357"><![CDATA[<central>]]></item>
+				</list:items>
+			</list:items>
+		</page>
+	</list:pages>
+</root>

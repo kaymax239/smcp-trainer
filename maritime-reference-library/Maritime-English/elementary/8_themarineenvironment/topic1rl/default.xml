@@ -1,0 +1,61 @@
+﻿<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me1001.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="55275">
+			<text><![CDATA[The marine environment means all living and non-living things that exist naturally in the Earth's seas, oceans, bays and estuaries. The marine environment has many <hyper id="fragile">fragile</hyper> <hyper id="ecosystems">ecosystems</hyper> such as coral reefs (the Great Barrier Reef), tropical mangrove forests (Florida Keys) and island <hyper id="habitats">habitats</hyper> (the Galapagos Archipelago).
+Many of these rare ecosystems are internationally protected. They are called "special areas" and they are listed in the <hyper id="imo">IMO's</hyper> <hyper id="marpol">MARPOL</hyper> convention. Different ecosystems, including <hyper id="vulnerable">vulnerable</hyper> marine habitats, are very important to our planet. Marine life is often at risk from human activities such as fishing and shipping, offshore operations and tourism.
+<hyper id="climate">Climate change</hyper> and <hyper id="greenhouse">greenhouse gases</hyper> also threaten the marine environment.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:hypertext>
+                <item id="fragile">
+                    Fragile: Easily damaged, spoilt or harmed (synonym: vulnerable)
+                </item>
+                <item id="ecosystems">
+                    Ecosystem: A natural unit consisting of all plants, animals and micro-organisms in that unit.
+                </item>
+                <item id="habitats">
+                    Habitat: An ecological or environmental area inhabited by a particular animal or plant species.
+                </item>
+                <item id="imo">
+                    IMO: The International Maritime Organization or IMO is an agency of The United Nations dealing with maritime affairs at international level.
+                </item>
+                <item id="marpol">
+                    MARPOL: An IMO convention which aims at preventing the pollution of the sea by ships.
+                </item>
+                <item id="vulnerable">
+                    Vulnerable: Easily harmed or hurt (synonym: fragile)
+                </item>
+                <item id="climate">
+                    Climate change: This term refers to major changes in the weather conditions on Earth, caused by natural events or human activities.
+                </item>
+                <item id="greenhouse">
+                    Greenhouse gases: These are gases such as carbon dioxide or methane which trap heat above the Earth causing the planet to warm up.
+                </item>
+            </list:hypertext>
+			<list:timeline>
+				<text time="250" duration="8500" start="0" end="131" />
+				<text time="9125" duration="14000" start="131" end="319" />
+				<text time="24150" duration="3500" start="319" end="380" />
+				<text time="28000" duration="6000" start="380" end="464" />
+				<text time="34850" duration="6000" start="464" end="558" />
+				<text time="41650" duration="7750" start="558" end="672" />
+				<text time="49950" duration="5250" start="672" end="751" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

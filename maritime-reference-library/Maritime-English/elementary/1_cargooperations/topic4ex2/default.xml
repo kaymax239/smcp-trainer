@@ -1,0 +1,44 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="audio/" prefix="" suffix="" />
+	
+	<list:items boolean:displayReflection="false">
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page1Bg">
+			
+			<item audio="co42001.mp3" wrongAudio="wrong02.mp3" rigthAudio="co42001.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[Flammable gas]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co42002.mp3" wrongAudio="wrong03.mp3" rigthAudio="co42002.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[Flammable solids]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co42003.mp3" wrongAudio="wrong02.mp3" rigthAudio="co42003.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[Spontaneously combustible goods]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co42004.mp3" wrongAudio="wrong03.mp3" rigthAudio="co42004.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[Dangerous when wet]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co42005.mp3" wrongAudio="wrong02.mp3" rigthAudio="co42005.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[Explosive goods]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co42006.mp3" wrongAudio="wrong03.mp3" rigthAudio="co42006.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[Non-flammable compressed gas]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co42007.mp3" wrongAudio="wrong02.mp3" rigthAudio="co42007.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[Toxic gas]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<item audio="co42008.mp3" wrongAudio="wrong03.mp3" rigthAudio="co42008.mp3" afterWrong="nosound.mp3">
+				<text><![CDATA[Miscellaneous dangerous goods or articles]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+	</list:items>
+</root>

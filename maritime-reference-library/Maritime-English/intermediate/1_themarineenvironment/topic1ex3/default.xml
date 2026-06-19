@@ -1,0 +1,25 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items>
+		<phrase>
+			<audio>mei13001.mp3</audio>
+			<text><![CDATA[All seafarers must be conscious of the <pollution threats> to <waterways> and oceans and the serious effects that may result.]]></text>
+		</phrase>
+		<phrase>
+			<audio>mei13002.mp3</audio>
+			<text><![CDATA[MARPOL covers <accidental> and operational oil pollution as well as pollution by <chemicals>, goods in <packaged> form, sewage, <garbage> and air pollution.]]></text>
+		</phrase>
+		<phrase>
+			<audio>mei13003.mp3</audio>
+			<text><![CDATA[The IMO’s <Intervention|intervention> Convention affirms the right of <coastal> states to take measures on the <high seas> to prevent, mitigate or <eliminate> dangers to their <coastlines> from marine casualties.]]></text>
+		</phrase>
+		<phrase>
+			<audio>mei13004.mp3</audio>
+			<text><![CDATA[The International Convention on Oil Pollution <Preparedness|preparedness>, Response and <Co-operation|co-operation> (OPRC) provides a global <framework> for international co-operation in <combating> major incidents or threats of marine pollution. A protocol to this convention covers marine pollution by hazardous and <noxious> substances (HNS).]]></text>
+		</phrase>
+		<phrase>
+			<audio>mei13005.mp3</audio>
+			<text><![CDATA[The Marine <Environment|environment> Protection Committee (MEPC) is IMO’s senior <technical> body on marine pollution related matters. This Committee is <aided> in its work by a number of Sub-Committees.]]></text>
+		</phrase>
+	</list:items>
+</root>

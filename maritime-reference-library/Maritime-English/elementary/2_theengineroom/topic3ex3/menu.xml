@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<style folder="res">
+		<font name="LingonetArial" source="lingonetarial.swf" />
+		<loader name="ui">
+			<image name="background">bg.jpg</image>
+
+			<textfield name="unit">
+				<position x="179" y="14" />
+				<size w="533" h="23" />
+				<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+				<text><![CDATA[The Engine Room]]></text>
+			</textfield>
+
+			<textfield name="taskname">
+				<position x="179" y="40" />
+				<size w="533" h="19" />
+				<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+				<text><![CDATA[Motorman Watchkeeping Requirements / Ex 3]]></text>
+			</textfield>
+			
+			<textfield name="tasktext">
+				<position x="40" y="100" />
+				<size w="640" h="400" />
+				<format fontFamily="Arial" color="0x000000" size="14" align="left" leading="6"/>
+				<htmlText><![CDATA[<b>Reporting task</b><br>Prepare notes for a 2 minute presentation on the following question:
+<b>What are the motorman’s duties?</b>
+Consider what the duties are at the beginning and end of the watch, the duties which have to be carried out during the watch and the equipment and compartments which must be checked.
+Use any of the following expressions in your presentation.<br>First of all/Firstly/At first, he must /has to ...<br>Secondly, he must/has to ...<br>Thirdly, he must/has to ...<br>Besides, ...<br>In addition, ...<br>Moreover, ...]]></htmlText>
+			</textfield>
+		</loader>
+	</style>
+	<items>
+		<item opens="swf">
+		</item>
+	</items>
+</menu>

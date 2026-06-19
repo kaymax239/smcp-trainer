@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header>
+    
+  </header>
+  <body>
+    <items type="list">
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:6" y="number:311" />
+        <text>blood pressure</text>
+        <audioFile>audio/fa3002.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Right</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">B_______ P__________</hint>
+          <hint hintType="audio" cost="2">audio/fa3002.mp3</hint>
+          <hint hintType="spell" cost="3">blood pressure</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:114" y="number:214" />
+        <text>protective gloves</text>
+        <audioFile>audio/fa3005.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Left</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">P__________ G_________</hint>
+          <hint hintType="audio" cost="2">audio/fa3005.mp3</hint>
+          <hint hintType="spell" cost="3">protective gloves</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:240" y="number:64" />
+        <text>severe bleeding</text>
+        <audioFile>audio/fa3004.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Down</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">S________ B____________</hint>
+          <hint hintType="audio" cost="2">audio/fa3004.mp3</hint>
+          <hint hintType="spell" cost="3">severe bleeding</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:468" y="number:122" />
+        <text>first aid kit</text>
+        <audioFile>audio/fa3003.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Up</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">F______  ______  K____</hint>
+          <hint hintType="audio" cost="2">audio/fa3003.mp3</hint>
+          <hint hintType="spell" cost="3">first aid kit</hint>
+        </hints>
+      </item>
+      <item elementType="gap">
+        <style>
+          <border type="boolean">true</border>
+          <background />
+          <font face="Arial" size="number:11" color="number:0x000000" bold="boolean:false" />
+        </style>
+        <position x="number:336" y="number:367" />
+        <text>oxygen mask</text>
+        <audioFile>audio/fa3001.mp3</audioFile>
+        <promptAudio />
+        <openCue type="boolean">false</openCue>
+        <pointer>Left</pointer>
+        <hints type="list">
+          <hint hintType="clue" cost="1">O______  M_______</hint>
+          <hint hintType="audio" cost="2">audio/fa3001.mp3</hint>
+          <hint hintType="spell" cost="3">oxygen mask</hint>
+        </hints>
+      </item>
+    </items>
+  </body>
+</root>

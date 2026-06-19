@@ -1,0 +1,51 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me0043.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="87301">
+			<text><![CDATA[Oil Pollution: Cleanups
+
+Treaty  concerning pollution problems 
+International cooperation has greatly reduced accidental and operational oil discharges from tankers. MARPOL (for MARine POLlution) is shorthand for a United Nations treaty (the Convention for the Prevention of Pollution from Ships) that became effective in 1983. MARPOL is largely credited for reducing oil pollution from shipping by about 60 percent worldwide during the 1980s. 
+MARPOL requires installation and use of oil-pollution prevention equipment on tankers and other ships, and prohibits discharges within certain distances of land. More do-it-yourselfers are doing it right. More than half of all Americans change their own oil, but only about one-third of the used oil from do-it-yourself oil changes is collected and recycled. Government and industry-sponsored oil collection and recycling programs in many communities are now increasing awareness of the hazards of dumping used oil and the benefits of reusing it. Thousands of collection centres and service stations are accepting used oil for recycling. To find out about recycling oil in your area, people can contact their state environmental department or local recycling authority.]]></text>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2000" start="0" end="23" />
+				<text time="3075" duration="2750" start="25" end="62" />
+				<text time="6450" duration="2750" start="64" end="109" />
+				<text time="9200" duration="3750" start="110" end="165" />
+				<text time="13725" duration="3000" start="166" end="195" />
+				<text time="16750" duration="3000" start="196" end="236" />
+				<text time="19800" duration="3250" start="237" end="296" />
+				<text time="23125" duration="3000" start="297" end="327" />
+				<text time="26675" duration="4250" start="328" end="395" />
+				<text time="31050" duration="4000" start="396" end="443" />
+				<text time="35300" duration="6500" start="445" end="547" />
+				<text time="41950" duration="3750" start="548" end="606" />
+				<text time="46300" duration="3000" start="607" end="649" />
+				<text time="49575" duration="3250" start="650" end="703" />
+				<text time="53025" duration="6250" start="704" end="803" />
+				<text time="59750" duration="5500" start="804" end="895" />
+				<text time="65275" duration="3750" start="896" end="959" />
+				<text time="69200" duration="2250" start="960" end="991" />
+				<text time="72100" duration="6000" start="992" end="1082" />
+				<text time="78750" duration="2750" start="1083" end="1128" />
+				<text time="81650" duration="5500" start="1129" end="1214" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

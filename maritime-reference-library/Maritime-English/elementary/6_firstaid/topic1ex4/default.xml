@@ -1,0 +1,41 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="11" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" boolean:lockLeft="true">
+		<item>
+			<block1 audio="nosound.mp3"><![CDATA[A]]></block1>
+			<block2 audio="fa4001.mp3"><![CDATA[Check the airways]]></block2>
+		</item>
+		<item>
+			<block1 audio="nosound.mp3"><![CDATA[B]]></block1>
+			<block2 audio="fa4002.mp3"><![CDATA[Check breathing]]></block2>
+		</item>
+		<item>
+			<block1 audio="nosound.mp3"><![CDATA[C]]></block1>
+			<block2 audio="fa4003.mp3"><![CDATA[Check circulation]]></block2>
+		</item>		
+		<item>
+			<block1 audio="nosound.mp3"><![CDATA[D]]></block1>
+			<block2 audio="fa4004.mp3"><![CDATA[Check the level of consciousness]]></block2>
+		</item>		
+		<item>
+			<block1 audio="nosound.mp3"><![CDATA[E]]></block1>
+			<block2 audio="fa4005.mp3"><![CDATA[Examine the body]]></block2>
+		</item>		
+	</list:items>
+</root>

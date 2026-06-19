@@ -1,0 +1,131 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">Green awareness has finally reached the maritime industry. Shipping companies are trying to reduce excessive fuel costs. The interest has arisen from financial needs because fuel is expensive.  Although it is difficult to reach a zero emission status, fuel efficiency can be obtained by several methods.<br><br>Most ships use heavy diesel oil as a combustion. Heavy fuel is in fact the residue obtained after distilling benzene and diesel out of the crude oil. The emission gases of heavy fuel oil are full of nitrogen (SOX) and sulphur (SOX). This causes acid rain and makes the hole in the ozone layer bigger. To reduce this form of pollution, filters are installed on the funnels stopping harmful gases from getting into the environment.
+</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[green]]></text>
+					<correct><![CDATA[Green]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[excessive]]></text>
+					<correct><![CDATA[excessive]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[emission]]></text>
+					<correct><![CDATA[emission]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[efficiency]]></text>
+					<correct><![CDATA[efficiency]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[residue]]></text>
+					<correct><![CDATA[residue]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[acid rain]]></text>
+					<correct><![CDATA[acid rain]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[ozone layer]]></text>
+					<correct><![CDATA[ozone layer]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[filters]]></text>
+					<correct><![CDATA[filters]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[harmful]]></text>
+					<correct><![CDATA[harmful]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><br><br><font size="13">Another form of more eco-friendly navigation is speed control. A speed reduction of 15% saves up to half of the fuel consumption. No wonder ship companies like this form of cost efficiency!<br><br>Electronic fuel monitoring is popular as well. Sometimes too much fuel is injected into the engine. Sometimes the mix is not right and too many harmful substances are released into the air.  So if fuel is monitored, the engines work more efficiently and that is good for the environment!</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[eco-friendly]]></text>
+					<correct><![CDATA[eco-friendly]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[speed]]></text>
+					<correct><![CDATA[speed]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[consumption]]></text>
+					<correct><![CDATA[consumption]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[monitoring]]></text>
+					<correct><![CDATA[monitoring]]></correct>
+				</bbl>
+					<bbl>
+					<text><![CDATA[injected]]></text>
+					<correct><![CDATA[injected]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[released]]></text>
+					<correct><![CDATA[released]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><br><br><font size="13">Gas tankers, however, are the greenest means of transport at sea. They not only carry Liquid Natural Gas (LNG) to navigate but also use it as a combustion. The gas is loaded onto the vessel in liquid form at extremely low temperatures. During the voyage, the liquid warms up and produces fumes. These gases are then burnt to propel steam turbines.<br><br>The disadvantage is that the steam turbines are 15% less efficient than fuel-driven vessels. The advantage is that the methane, which produces carbon oxide after burning, is less pollutant than heavy fuel. It is also cost-effective because the gas which would otherwise be lost is used for propulsion.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[combustion]]></text>
+					<correct><![CDATA[combustion]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[fumes]]></text>
+					<correct><![CDATA[fumes]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[propel]]></text>
+					<correct><![CDATA[propel]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[fuel-driven]]></text>
+					<correct><![CDATA[fuel-driven]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[pollutant]]></text>
+					<correct><![CDATA[pollutant]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><br><br><font size="13">Finally, some ship companies already use new sail power methods such as ship kites. These kites produce lots of controlled, inexpensive wind power. They reduce fuel consumption drastically. Although the kites do not produce exhaust gases and the installation is relatively cheap, wind energy is of course dependent on the wind.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[inexpensive]]></text>
+					<correct><![CDATA[inexpensive]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[exhaust gases]]></text>
+					<correct><![CDATA[exhaust gases]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[dependent]]></text>
+					<correct><![CDATA[dependent]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

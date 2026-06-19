@@ -1,0 +1,43 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>co1001b.mp3</audio>
+		<audio>co1001c.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page2.jpg</image:img0>
+		<image:img1 x="0" y="0">page1.jpg</image:img1>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="21239">
+			<text><![CDATA[Bulk cargo includes dry bulk cargo and liquid bulk cargo.
+Dry bulk cargo includes all loose bulk cargo such as grain, coal, ore, salt, fertilizers etc. It is loaded by pipes, by belt conveyors and crane grabs.]]></text>
+			<background fileIndex="1"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="5000" start="0" end="58" />
+				<text time="5900" duration="9500" start="58" end="152" />
+				<text time="16125" duration="4750" start="152" end="250" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="19828">
+			<text><![CDATA[Bulk cargo that takes up the cargo space includes all loose dry cargo such as grain, ores, coal, salt, fertilizers, phosphates and other minerals.
+Bulk cargo in a liquid form includes crude oil, vegetable oil and liquefied gases.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="5000" start="0" end="69" />
+				<text time="5325" duration="6750" start="70" end="146" />
+				<text time="12725" duration="7000" start="148" end="250" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

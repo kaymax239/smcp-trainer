@@ -1,0 +1,141 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	
+	<list:items boolean:caseInsensitive="true" boolean:multipleHints="true">
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Moor> the ship!
+			I <have moored> the ship.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>Mo__
+have _____<i>]]></hint>
+			<hint><![CDATA[<i>Mo__
+have _____<i>]]></hint>
+			</list:hints>
+			<audio>co33001.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Connect> the loading arms!
+I <have connected> the loading arms.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>Co______
+have ______</i>]]></hint>
+		<hint><![CDATA[<i>Co______
+have ______</i>]]></hint>
+			</list:hints>
+			<audio>co33002.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Check> the valves!
+I <have checked> the valves.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>Ch_____
+have _____</i>]]></hint>
+			<hint><![CDATA[<i>Ch_____
+have _____</i>]]></hint>
+			</list:hints>
+			<audio>co33003.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Open> tanker valves!
+I <have opened> the tanker valves.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>Op___
+have _____</i>]]></hint>
+			<hint><![CDATA[<i>Op___
+have _____</i>]]></hint>
+			</list:hints>
+			<audio>co33004.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Start> the pumps!
+I <have started> the pumps.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>St____
+have ______</i>]]></hint>
+			<hint><![CDATA[<i>St____
+have ______</i>]]></hint>
+			</list:hints>
+			<audio>co33005.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Keep> a close watch for oil escaping!
+I <have kept> a close watch for oil escaping.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>Ke___
+have ______</i>]]></hint>
+			<hint><![CDATA[<i>Ke___
+have ______</i>]]></hint>
+			</list:hints>
+			<audio>co33006.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Stop> loading!
+I <have stopped> loading.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>St_____
+have _______</i>]]></hint>
+			<hint><![CDATA[<i>St_____
+have _______</i>]]></hint>
+			</list:hints>
+			<audio>co33007.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Close> the valves!
+I <have closed> the valves.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>Cl____
+have ____</i>]]></hint>
+			<hint><![CDATA[<i>Cl____
+have ____</i>]]></hint>
+			</list:hints>
+			<audio>co33008.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Drain> the cargo deck lines!
+I <have drained> the cargo deck lines.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>Dr____
+have _____</i>]]></hint>
+			<hint><![CDATA[<i>Dr____
+have _____</i>]]></hint>
+			</list:hints>
+			<audio>co33009.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Disconnect> the loading arms!
+I <have disconnected> the loading arms.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>Di______
+have _______</i>]]></hint>
+			<hint><![CDATA[<i>Di______
+have _______</i>]]></hint>
+			</list:hints>
+			<audio>co33010.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Disconnect> the earthing cable!
+I <have disconnected> the earthing cable.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>Di______
+have ______</i>]]></hint>
+			<hint><![CDATA[<i>Di______
+have _______</i>]]></hint>
+			</list:hints>
+			<audio>co33011.mp3</audio>
+		</item>
+		<item errorAudio="" correctAudio="">
+			<gap><![CDATA[<Blank> cargo manifolds!
+I <have blanked> the cargo manifolds.]]></gap>
+			<list:hints>
+			<hint><![CDATA[<i>Bl____
+have ______</i>]]></hint>
+			<hint><![CDATA[<i>Bl____
+have ______</i>]]></hint>
+			</list:hints>
+			<audio>co33012.mp3</audio>
+		</item>
+			
+	</list:items>
+</root>

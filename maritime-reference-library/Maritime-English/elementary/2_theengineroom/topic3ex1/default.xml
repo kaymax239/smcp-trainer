@@ -1,0 +1,50 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>er3006.mp3</audio>
+				<text><![CDATA[Good morning. Can I ask you a few questions regarding the watchkeeping duties of a <motorman>?]]></text>
+			</phrase>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[No problem, go ahead.]]></text>
+			</phrase>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[Ok, my first question is: what does a motorman have to do when he starts his watch?]]></text>
+			</phrase>
+			<phrase>
+				<audio>er3002.mp3</audio>
+				<text><![CDATA[First of all, he must inspect the engine room, <the steering gear room>, the emergency fire pump compartment and the air conditioning compartment. He must also check the lubricating oil, <the fuel oil sludge> and the water levels of the engine room tanks.]]></text>
+			</phrase>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[Is checking working and stand-by equipment part of the motorman’s duty?]]></text>
+			</phrase>
+			<phrase>
+				<audio>er3003.mp3</audio>
+				<text><![CDATA[Yes, of course. And in addition he must also check equipment for abnormal sound and vibrations and check the bilge space for <abnormal leakages>. He must report everything to the duty engineer.]]></text>
+			</phrase>
+		</list:items>
+		
+		<list:items>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[What about his duties during the watch?]]></text>
+			</phrase>
+			<phrase>
+				<audio>er3004.mp3</audio>
+				<text><![CDATA[A motorman must inspect the engine room and related rooms at regular intervals and keep the engine room clean. If he observes any abnormal leakage, he must report it to <the duty engineer> immediately.]]></text>
+			</phrase>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[What does the motorman have to do at the end of his watch?]]></text>
+			</phrase>
+			<phrase>
+				<audio>er3005.mp3</audio>
+				<text><![CDATA[He must <clean> equipment and make sure that the next motorman is ready for duty.]]></text>
+			</phrase>
+		</list:items>
+	</list:items>
+</root>

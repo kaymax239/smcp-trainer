@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="Querying">
+      <name>page10</name>
+      <background>page10/P1160007.JPG</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page10/pw033.mp3</file>
+              <text><![CDATA[Can you tell me which position the wheel of the valve is in? Is it in the closed or in the open position?]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">false</requireNext>
+            </action>
+          </actions>
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false">
+            <action actionType="query">
+              <menuItems type="list">
+                <menuItem name="Correct">
+                  <text><![CDATA[Closed position]]></text>
+                  <onCorrect>
+                    <actions type="list" randomize="false">
+                      <action actionType="audio">
+                        <file>page10/pw034.mp3</file>
+                        <text><![CDATA[Yes, it is in the closed position. ]]></text>
+                        <repeatsBeforeText type="number">1</repeatsBeforeText>
+                        <requireNext type="boolean">false</requireNext>
+                      </action>
+                    </actions>
+                  </onCorrect>
+                  <onError>
+                    <actions type="list" randomize="false">
+                      <action actionType="loadScene">
+                        <file>page10b.xml</file>
+                      </action>
+                    </actions>
+                  </onError>
+                </menuItem>
+                <menuItem name="Wrong">
+                  <text><![CDATA[Open position]]></text>
+                  <onCorrect>
+                    <actions type="list" randomize="false">
+                      <action actionType="audio">
+                        <file>page10/pw035.mp3</file>
+                        <text><![CDATA[No, I’m sorry, it is not in the open position.]]></text>
+                        <repeatsBeforeText type="number">1</repeatsBeforeText>
+                        <requireNext type="boolean">false</requireNext>
+                      </action>
+                    </actions>
+                  </onCorrect>
+                  <onError>
+                    <actions type="list" randomize="false" />
+                  </onError>
+                </menuItem>
+              </menuItems>
+            </action>
+          </actions>
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

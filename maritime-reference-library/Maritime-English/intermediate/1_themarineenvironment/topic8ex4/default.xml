@@ -1,0 +1,50 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="6" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	
+	
+	<items boolean:pages="true" boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" />
+	<list:pages boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true">
+		<list:items boolean:lockLeft="true">
+			<item>
+				<block1 audio="me84001.mp3"><![CDATA[to harm]]></block1>
+				<block2 audio="me84002.mp3"><![CDATA[harmful]]></block2>
+			</item>
+			<item>
+				<block1 audio="me84003.mp3"><![CDATA[to finance]]></block1>
+				<block2 audio="me84004.mp3"><![CDATA[financial]]></block2>
+			</item>
+			<item>
+				<block1 audio="me84005.mp3"><![CDATA[to exceed]]></block1>
+				<block2 audio="me84006.mp3"><![CDATA[excessive]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me84007.mp3"><![CDATA[to pollute]]></block1>
+				<block2 audio="me84008.mp3"><![CDATA[pollutant]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me84009.mp3"><![CDATA[to navigate]]></block1>
+				<block2 audio="me84010.mp3"><![CDATA[navigational]]></block2>
+			</item>	
+			<item>
+				<block1 audio="me84011.mp3"><![CDATA[to liquify / liquefy]]></block1>
+				<block2 audio="me84012.mp3"><![CDATA[liquid]]></block2>
+			</item>		
+		</list:items>
+	</list:pages>
+</root>

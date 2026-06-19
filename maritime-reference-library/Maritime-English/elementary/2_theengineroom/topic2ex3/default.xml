@@ -1,0 +1,45 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<list:wrongAudio>
+		<audio>wrong01.mp3</audio>
+		<audio>wrong03.mp3</audio>
+		<audio>wrong04.mp3</audio>
+	</list:wrongAudio>
+	<list:items boolean:gapFieldFirst="true" boolean:shuffle="true" boolean:noMultipleChoice="true" number:errorsBeforeShowCorrect="2" boolean:repeatLast="true">
+		<item>
+			<sentence rigthAudio="er23001.mp3" finska="a boiler"><![CDATA[<to boil>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="er23002.mp3" finska="a separator"><![CDATA[<to separate>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="er23003.mp3" finska="a generator"><![CDATA[<to generate>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="er23004.mp3" finska="a purifier"><![CDATA[<to purify>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="er23005.mp3" finska="a compressor"><![CDATA[<to compress>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="er23006.mp3" finska="a cooler"><![CDATA[<to cool>]]></sentence>
+		</item>
+		<item>
+			<sentence rigthAudio="er23007.mp3" finska="a pump"><![CDATA[<to pump>]]></sentence>
+		</item>
+	</list:items>
+</root>

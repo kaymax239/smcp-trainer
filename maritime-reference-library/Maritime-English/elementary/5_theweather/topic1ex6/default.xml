@@ -1,0 +1,16 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:image="http://www.lingonet.com/xml/image">
+	
+	<list:pages>
+		<page>
+			<list:texts>
+				<text x="130" y="140" w="520" h="70" audio="tw16001.mp3" playX="50" playY="145"><![CDATA[<b>Spring</b><BR>It is growing warm. It often rains but there are many sunny days. Everything is green.]]></text>
+				<text x="130" y="220" w="520" h="70" audio="tw16003.mp3" playX="50" playY="225"><![CDATA[<b>Summer</b><BR>It is hot. The sun shines every day. People go to the beach and swim in the sea.]]></text>
+				<text x="130" y="290" w="520" h="70" audio="tw16005.mp3" playX="50" playY="295"><![CDATA[<b>Autumn</b><BR>It is mild but it is often windy. It is still warm but the days are short.]]></text>
+				<text x="130" y="360" w="520" h="70" audio="tw16007.mp3" playX="50" playY="365"><![CDATA[<b>Winter</b><BR>It is cold and it often snows. At sea the wind blows the first winter storms.]]></text>
+			</list:texts>
+			<list:covers>
+			</list:covers>
+		</page>
+	</list:pages>
+</root>

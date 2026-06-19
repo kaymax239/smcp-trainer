@@ -1,0 +1,41 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items>
+		<phrase>
+			<audio>me0032.mp3</audio>
+			<text><![CDATA[The MARPOL <Convention> requires that every oil tanker of 150 tons <gross tonnage> and above carries on board a shipboard oil pollution <emergency> plan <approved by> the Flag State Administration.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me0033.mp3</audio>
+			<text><![CDATA[New MARPOL Regulation requires that every ship of 150 tons gross tonnage and above <certified> to carry noxious liquid substances <in bulk> carries on board a shipboard marine pollution emergency plan for <noxious liquid> substances approved by the Administration.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me0034.mp3</audio>
+			<text><![CDATA[One <combined> plan on board is more practical than two separate plans <in the event of> an emergency.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me0035.mp3</audio>
+			<text><![CDATA[In this case the title of such a combined plan should be ‘Shipboard marine pollution emergency plan’ <in order to> distinguish it from the two other emergency plans <mentioned> above.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me0036.mp3</audio>
+			<text><![CDATA[MARPOL regulations <prescribe> that the plans have to be <in accordance with> guidelines developed by the IMO.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me0037.mp3</audio>
+			<text><![CDATA[It is <relevant> to note that shipboard oil pollution emergency plans which have already been approved by the Administration <need not> be modified.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me0038.mp3</audio>
+			<text><![CDATA[The main <objectives> of these guidelines are to assist shipowners in preparing shipboard marine pollution emergency plans <in conformity with> the <cited> regulations.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me0039.mp3</audio>
+			<text><![CDATA[The main goal of these guidelines is to assist governments in <enacting> domestic laws which <give force to> and <implement> the cited regulations.]]></text>
+		</phrase>
+		<phrase>
+			<audio>me0040.mp3</audio>
+			<text><![CDATA[<In the interest of> uniformity, governments are requested <to refer to> these guidelines when preparing <appropriate> national regulations.]]></text>
+		</phrase>
+	</list:items>
+</root>

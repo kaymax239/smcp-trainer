@@ -1,0 +1,111 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>co2001a.mp3</audio>
+		<audio>co2001b.mp3</audio>
+		<audio>co2001c.mp3</audio>
+		<audio>co2001d.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+		<image:img1 x="0" y="0">page2.jpg</image:img1>
+		<image:img2 x="0" y="0">page3.jpg</image:img2>
+		<image:img3 x="0" y="0">page4.jpg</image:img3>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="21761">
+			<text><![CDATA[Going round the Baltic Container Terminal in Gdynia we see different types of containers. There is also a lot of equipment for loading and discharging them and for storing them. Generally speaking, there are twenty-foot containers and forty-foot containers in the yard. Nowadays containers are made of steel. 
+
+There are general purpose containers,]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="100" duration="4500" start="0" end="89" />
+				<text time="5150" duration="5250" start="89" end="177" />
+				<text time="10900" duration="5500" start="177" end="269" />
+				<text time="16650" duration="2250" start="269" end="308" />
+				<text time="19650" duration="2000" start="308" end="350" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="3188">
+			<text><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+            open top containers,                            hard top containers,
+
+
+]]></text>
+			<background fileIndex="1"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="50" duration="1500" start="0" end="46" />
+				<text time="1600" duration="1450" start="46" end="93" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="3397">
+			<text><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+           insulated containers,                        ventilated containers,]]></text>
+			<background fileIndex="2"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="50" duration="1300" start="0" end="45" />
+				<text time="1500" duration="1850" start="45" end="91" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="16746">
+			<text><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+             tank containers                   and refrigerated containers. 
+
+There are also forty-foot High Cube containers with cargo space for general purposes or for refrigerated cargo. Refrigerated containers are often called reefer containers or reefer boxes.]]></text>
+			<background fileIndex="3"/>
+			<audio fileIndex="3"/>
+			<list:timeline>
+				<text time="50" duration="1100" start="0" end="41" />
+				<text time="1250" duration="1750" start="41" end="87" />
+				<text time="3250" duration="7900" start="87" end="201" />
+				<text time="11310" duration="5400" start="201" end="277" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

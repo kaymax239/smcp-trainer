@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<style folder="res">
+	<font name="LingonetArial" source="lingonetarial.swf" />
+		<image name="background">teachers1.png</image>
+		<textformat name="menuformat" fontFamily="Arial" size="16" color="0x000000" bold="false" underline="false" italic="false" align="center" />
+		<textformat name="infoformat" fontFamily="Arial" size="16" color="0x990032" bold="false" underline="false" italic="false" align="left" />
+		<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+		<fx name="fadeOut" type="fade" from="1" to="0" duration="250" />
+		<fx name="slideOut" type="move" x="-720" y="0" duration="250" />
+		<fx name="slideIn" type="move" x="0" y="0" u="-720" v="0" duration="250" />
+		<image name="busy-cursor">busy.gif</image>
+		<image name="return">return.png</image>
+	</style>
+	<items showMasks="false" fxIn="slideIn" fxOut="slideOut">
+		<item opens="link">
+			<link>teachersmanual/teachers_manual_introduction.pdf</link>
+			<mask>
+				<point x="309" y="102" />
+				<point x="447" y="102" />
+				<point x="447" y="123" />
+				<point x="309" y="123" />
+			</mask>
+		</item>
+		<item opens="link">
+			<link>teachersmanual/using_the_mareng_plus_glossary.pdf</link>
+			<mask>
+				<point x="309" y="136" />
+				<point x="581" y="136" />
+				<point x="581" y="157" />
+				<point x="309" y="157" />
+			</mask>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>answerkeys_mareng/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="309" y="233" />
+				<point x="432" y="233" />
+				<point x="432" y="254" />
+				<point x="309" y="254" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>answerkeys_marengplus/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="309" y="267" />
+				<point x="432" y="267" />
+				<point x="432" y="288" />
+				<point x="309" y="288" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>lessonplan_mareng/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="309" y="363" />
+				<point x="432" y="363" />
+				<point x="432" y="384" />
+				<point x="309" y="384" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="menu" locks="false">
+			<dataxml>menu.xml</dataxml>
+			<folder>lessonplan_marengplus/</folder>
+			<position x="0" y="0" />
+			<size w="720" h="540" />
+			<mask>
+				<point x="309" y="397" />
+				<point x="432" y="397" />
+				<point x="432" y="418" />
+				<point x="309" y="419" />
+			</mask>
+			<buttons>
+				<button opens="close">
+					<image x="532" y="511">return</image>
+				</button>
+			</buttons>
+		</item>
+	</items>
+</menu>

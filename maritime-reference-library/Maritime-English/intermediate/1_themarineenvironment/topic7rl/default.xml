@@ -1,0 +1,187 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>mei7001a.mp3</audio>
+		<audio>mei7001b.mp3</audio>
+		<audio>mei7001c.mp3</audio>
+		<audio>mei7001d.mp3</audio>
+		<audio>mei7001e.mp3</audio>
+		<audio>mei7001f.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+		<image:img1 x="0" y="0">page2.jpg</image:img1>
+		<image:img2 x="0" y="0">page3.jpg</image:img2>
+		<image:img3 x="0" y="0">page4.jpg</image:img3>
+		<image:img4 x="0" y="0">page5.jpg</image:img4>
+		<image:img5 x="0" y="0">page6.jpg</image:img5>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="20533">
+			<text><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+The International Convention on Oil Pollution Preparedness Response and Co-operation is designed to help governments combat major oil pollution incidents. Assistance in responding to such incidents includes oil clearance operations. During an oil clearance operation the following devices and methods might be used.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="9250" start="0" end="166" />
+				<text time="10075" duration="4750" start="167" end="244" />
+				<text time="15300" duration="5000" start="245" end="327" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="12671">
+			<text><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+Dispersants speed up the process of natural dispersion and reduce the damage caused by floating oil. Dispersants are applied by
+- vessel spraying
+- aerial spraying
+- shoreline clean-up]]></text>
+			<background fileIndex="1"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="6250" start="0" end="113" />
+				<text time="6675" duration="1750" start="114" end="141" />
+				<text time="8425" duration="1000" start="141" end="158" />
+				<text time="9625" duration="1250" start="159" end="176" />
+				<text time="11125" duration="1250" start="177" end="199" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="21265">
+			<text><![CDATA[
+
+
+
+
+
+
+
+
+
+
+In situ burning is an easy method to remove oil from the sea. It can, however, lead to a number of problems.
+- ignition of oil (volatile parts evaporate fast)
+- maintenance of combustion of slick
+- air pollution (generation of large quantities of smoke)
+- sinking of residues
+- safety risks
+]]></text>
+			<background fileIndex="2"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="3500" start="0" end="72" />
+				<text time="3975" duration="2750" start="73" end="119" />
+				<text time="7200" duration="4000" start="120" end="169" />
+				<text time="11475" duration="2250" start="170" end="206" />
+				<text time="13950" duration="3750" start="207" end="264" />
+				<text time="17950" duration="1750" start="265" end="286" />
+				<text time="20025" duration="1000" start="287" end="302" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="8177">
+			<text><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+Booms are floating devices which
+- deflect oil from sensitive areas
+- contain oil
+- reduce the concentration of the oil]]></text>
+			<background fileIndex="3"/>
+			<audio fileIndex="3"/>
+			<list:timeline>
+				<text time="250" duration="1750" start="0" end="46" />
+				<text time="2075" duration="2250" start="47" end="81" />
+				<text time="4600" duration="1000" start="82" end="95" />
+				<text time="5875" duration="2000" start="96" end="133" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="11495">
+			<text><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+Skimmers are devices designed to recover floating oil from or near the surface of the water.
+They are based on
+- adhesion
+- pump
+- belt
+- centrifugal force]]></text>
+			<background fileIndex="4"/>
+			<audio fileIndex="4"/>
+			<list:timeline>
+				<text time="250" duration="5750" start="0" end="105" />
+				<text time="6100" duration="750" start="106" end="123" />
+				<text time="6875" duration="750" start="124" end="134" />
+				<text time="7800" duration="1000" start="135" end="141" />
+				<text time="8975" duration="1000" start="142" end="148" />
+				<text time="10150" duration="1250" start="149" end="168" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="6035">
+			<text><![CDATA[
+
+
+
+
+
+
+
+
+High-pressure hot water is applied through hoses, blasting the oil from the rocks and boulders.]]></text>
+			<background fileIndex="5"/>
+			<audio fileIndex="5"/>
+			<list:timeline>
+				<text time="250" duration="2750" start="0" end="58" />
+				<text time="3300" duration="2500" start="59" end="104" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

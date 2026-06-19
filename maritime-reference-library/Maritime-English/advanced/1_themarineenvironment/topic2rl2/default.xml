@@ -1,0 +1,73 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<!-- WARNING! This is a machine generated file, do NOT edit by hand! -->
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me0041a.mp3</audio>
+		<audio>me0041b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="49320">
+			<text><![CDATA[Chemical spills present a major threat to the environment and human health. Chemical litter and contamination can be traced from the tropics to the poles and from coastlines to abyssal depths. Many chemicals have physical properties which complicate containment and management efforts in the case of incidents.
+
+Some chemicals will dissolve in water, while highly volatile chemicals will evaporate rapidly over a limited area. These highly volatile chemicals may produce a fire hazard extending beyond the area covered by the pool of spilled material.
+
+Bulk chemicals are often toxic at low concentrations in air, so dangerous conditions may prevail downwind from such a spill over a considerable distance.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="4250" start="0" end="75" />
+				<text time="4800" duration="3000" start="76" end="123" />
+				<text time="7800" duration="5000" start="124" end="192" />
+				<text time="13700" duration="3000" start="193" end="249" />
+				<text time="16700" duration="4000" start="250" end="310" />
+				<text time="21700" duration="2750" start="312" end="350" />
+				<text time="24700" duration="4750" start="351" end="426" />
+				<text time="30125" duration="4000" start="427" end="484" />
+				<text time="34125" duration="4000" start="485" end="551" />
+				<text time="38850" duration="4250" start="553" end="613" />
+				<text time="43100" duration="3750" start="614" end="676" />
+				<text time="46850" duration="2250" start="677" end="706" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="68546">
+			<text><![CDATA[These different physical characteristics increase the risk of high costs arising from the environmental impacts of the spill, such as loss of amenities, closure of fisheries and tourism activities. Some of these chemical substances are carcinogenic or highly flammable. 
+
+Many of them present a threat to human health. Exposure to toxic substances is a hazard to personnel on board as well as to personnel conducting the salvage and response operations for  incidents involving hazardous and noxious substances. Some chemicals have properties which may create long term health problems. After exposure to such substances, the resulting health problems sometimes necessitate long term medical treatment and monitoring.    
+
+The HNS Convention provides compensation for pollution damage, fire or explosion, loss of life, personal injury and damage to property resulting from an incident involving hazardous and noxious substances transported by ships.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="4000" start="0" end="72" />
+				<text time="4250" duration="3000" start="73" end="125" />
+				<text time="7675" duration="2000" start="126" end="152" />
+				<text time="9675" duration="3250" start="153" end="197" />
+				<text time="13775" duration="5500" start="198" end="269" />
+				<text time="20400" duration="3000" start="272" end="318" />
+				<text time="24300" duration="4500" start="319" end="381" />
+				<text time="28800" duration="4000" start="382" end="452" />
+				<text time="32800" duration="3250" start="453" end="511" />
+				<text time="36925" duration="5000" start="512" end="586" />
+				<text time="42725" duration="2500" start="587" end="621" />
+				<text time="45225" duration="2750" start="622" end="673" />
+				<text time="47975" duration="2750" start="674" end="717" />
+				<text time="51675" duration="4500" start="723" end="785" />
+				<text time="56175" duration="3000" start="786" end="818" />
+				<text time="59275" duration="4750" start="819" end="884" />
+				<text time="64025" duration="4250" start="885" end="949" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

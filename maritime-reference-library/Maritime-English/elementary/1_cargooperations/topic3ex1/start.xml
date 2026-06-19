@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header>
+    <repeatsBeforeText type="number">2</repeatsBeforeText>
+    <testMode type="boolean">false</testMode>
+  </header>
+  <body>
+    <title>Lingowalk Oil Terminal</title>
+    <startScene>page02.xml</startScene>
+    <mapScene>.xml</mapScene>
+    <helpScene>.xml</helpScene>
+    <taskFile />
+    <startBackground>SiteproposedforST1.jpg</startBackground>
+    <action actionType="audio">
+      <file />
+      <text><![CDATA[]]></text>
+      <repeatsBeforeText type="number">0</repeatsBeforeText>
+      <requireNext type="boolean">false</requireNext>
+    </action>
+  </body>
+</root>

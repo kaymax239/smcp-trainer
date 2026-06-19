@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style folder="res">		
+	<font name="LingonetArial" source="lingonetarial.swf" />
+	
+	<boolean name="infoHack">true</boolean>
+	<point name="infoScrollerLocation" x="350" y="14" />
+	<generic name="defaultTab">text</generic>
+	
+	<scrollbar name="audioBar">
+		<orientation>horizontal</orientation>
+		<position x="100" y="61" />
+		<background>clear.gif</background>
+		<dot>
+			<image x="0" y="-5">clear.gif</image>
+		</dot>
+	</scrollbar>
+	<image name="ppPlay" x="28" y="57">play.png</image>
+	<image name="ppPause" x="28" y="57">pause.png</image>
+	<image name="ppStop" x="48" y="57">clear.gif</image>
+	
+	<image name="question-button" x="0" y="0">question.png</image>
+	<image name="video-button" x="18" y="0">view.png</image>
+	<image name="paraphrase-button" x="37" y="0">clear.gif</image>
+	<textfield name="video-field">
+		<position x="45" y="-4" />
+		<size w="140" h="39" />
+		<format fontFamily="Arial" size="14" bold="false" align="left" color="0x000000" />
+	</textfield>
+	
+	<image name="next-button" x="863" y="540">clear.gif</image>
+	<image name="back-button" x="863" y="540">clear.gif</image>
+	
+	<image name="scrollUp" y="">scrollu.png</image>
+	<image name="scrollDown" y="">scrolld.png</image>
+	<image name="scrollDotUpper" y="">dotu.png</image>
+	<image name="scrollDotMiddle" y="">dotm.png</image>
+	<image name="scrollDotLower" y="">dotd.png</image>
+	
+	<image name="tab-background">clear.gif</image>
+	<image name="tab-active-background">clear.gif</image>
+	
+	<point name="tab-position" x="0" y="-1000" />
+	
+	<number name="label-spacing">-20</number>
+	<point name="label-position" x="0" y="4" />
+	
+	<point name="pageLocation" x="355" y="1073" /><!--tekstikentän X-arvo ja Y (+1000)-->
+	
+	<boolean name="tabYOrientation">false</boolean>
+	
+	<videocontrol name="video-display">
+		<showControls>true</showControls>
+		<showText>true</showText>
+		<display x="28" y="93" w="320" h="240" />
+		<controls x="1" y="10">vcontrolbg.png</controls>
+		<play x="9" y="7">play.png</play>
+		<pause>pause.png</pause>
+		<dot x="0" y="1">videodot.png</dot>
+		<text x="29" y="7">text.png</text>
+		<progressBar x="50" y="0" w="255" h="0" color="0x939393" />
+	</videocontrol>
+	
+	<rectangle name="text-scrollbar" x="331" y="53" w="0" h="249" />
+	<rectangle name="help-scrollbar" x="422" y="9" w="0" h="214" />
+	
+	<generic name="tab-info">
+		<textLabel>Text</textLabel>
+		<taskLabel>Tasks</taskLabel>
+		<helpLabel>Help</helpLabel>
+	</generic>
+	
+	<generic name="dialogs">
+		<note label="Comment" color="0xEC7710" />
+		<dictionary label="Glossary" color="0x6B6BFF" highlight="#696969" />
+	</generic>
+	
+	<image name="dialogClose" x="0" y="0">commentexit.png</image>
+	<image name="dialogBg">commentbg.png</image>
+
+	<point name="dialog-position" x="373" y="375" />
+	<textfield name="dialog-field">
+	    <position x="15" y="15" />
+	    <size w="270" h="80" />
+	    <format fontFamily="Arial" size="14" />
+	    <selectable>true</selectable>
+	    <wordWrap>true</wordWrap>
+	</textfield>
+
+	<textfield name="help-field">
+		<position x="0" y="5" />
+		<size w="420" h="220" />
+		<format fontFamily="Arial" size="14" align="justify" leftMargin="10" rightMargin="10" />
+		<selectable>true</selectable>
+	</textfield>
+	<number name="helpHeightCorrection">50</number>
+	
+	<textformat name="labelFormat" fontFamily="Arial" size="16" align="center" leftMargin="20" rightMargin="10" />
+	<textformat name="activeLabel" fontFamily="Arial" bold="true" size="16" align="center" leftMargin="20" rightMargin="10" />
+	<textformat name="disabledLabel" fontFamily="Arial" color="0xAAAAAA" size="16" align="center" leftMargin="20" rightMargin="10" />
+	
+	<textfield name="text-field">
+		<position x="0" y="50" />
+		<size w="335" h="260" /><!--tekstikentän leveys & korkeus-->
+		<format />
+		<selectable>true</selectable>
+	</textfield>
+	
+	<textfield name="text-tab-title">
+		<position x="0" y="15" />
+		<size w="310" h="50" />
+		<format fontFamily="Arial" size="14" align="center" leftMargin="10" rightMargin="10" />
+		<selectable>true</selectable>
+	</textfield>
+	
+	<generic name="text-field-css">
+		p { font-family: Arial; font-size: 14px; text-align: justify;
+			margin-left: 10px; margin-right: 10px; }
+		.note { color: #FF0000; }
+		.dictionary { color: #0000FF; }
+	</generic>
+	
+	<grid name="video-grid">
+		<dimensions rows="3" cols="3" />
+		<position x="54" y="395" />
+		<spacing x="210" y="45" />
+	</grid>
+	
+	<textfield name="title-field">
+		<position x="94" y="20" />
+		<size w="561" h="54" />
+		<format fontFamily="Arial" size="24" align="center" color="0xFFFFFF" />
+	</textfield>
+	
+	<textfield name="subtitle-field">
+		<position x="55" y="395" />
+		<size w="400" h="24" />
+		<format fontFamily="Arial" size="14" bold="true" align="left" color="0x000000" />
+	</textfield>
+	
+	<fx name="tasks-fade-in" type="fade" from="0" to="1" duration="500" />
+	<fx name="tasks-fade-out" type="fade" from="1" to="0" duration="500" />
+	
+	<image name="tasks-close" x="588" y="520">clear.gif</image>
+	<image name="tasks-loading">clear.gif</image>
+	
+	<loader name="ui">
+		<image name="bg">bg.png</image>
+		
+		<textfield name="unit">
+			<position x="179" y="14" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="20" align="left" />
+			<text><![CDATA[The Navigation Bridge]]></text>
+		</textfield>
+		
+		<textfield name="taskname">
+			<position x="179" y="40" />
+			<size w="533" h="19" />
+			<format fontFamily="Arial" color="0xFFFFFF" size="14" align="left" />
+			<text><![CDATA[Working as an AB on Board Ship / Ex 1]]></text>
+		</textfield>
+		
+		<!--<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="170">infobg.jpg</background>
+			<textfield>
+				<position x="17" y="36" />
+				<size w="369" h="150" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<text><![CDATA[Click the T button under the video window to display the text. You can replay the video by clicking on the play symbol. Use the control bar to rewind and fast forward.]]></text>
+			</textfield>
+		</info>-->
+		<info name="info">
+			<button x="160" y="488">info.png</button>
+			<background x="160" y="140">infobg3.png</background>
+			<textfield>
+				<position x="30" y="29" />
+				<size w="350" h="250" />
+				<format fontFamily="Arial" color="0x000000" size="16" />
+				<htmlText><![CDATA[<p><img src="qhelp1.png"></p>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<p><font size="13" face="Arial">Click the T-button below the video to see the text. Click the play-button to watch the video. 
+Use the controller to move forward or rewind.
+<img src="qhelp2.png"></font></p>
+<p>&nbsp;</p>]]></htmlText>
+			</textfield>
+		</info>
+	</loader>
+</style>

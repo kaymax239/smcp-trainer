@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page03</name>
+      <background>page03/Tervi.jpg</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false" />
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false">
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:198" y="number:379" />
+                  <point x="number:220" y="number:374" />
+                  <point x="number:244" y="number:371" />
+                  <point x="number:267" y="number:364" />
+                  <point x="number:292" y="number:358" />
+                  <point x="number:316" y="number:354" />
+                  <point x="number:323" y="number:371" />
+                  <point x="number:337" y="number:377" />
+                  <point x="number:360" y="number:372" />
+                  <point x="number:399" y="number:370" />
+                  <point x="number:430" y="number:362" />
+                  <point x="number:449" y="number:363" />
+                  <point x="number:467" y="number:366" />
+                  <point x="number:458" y="number:385" />
+                  <point x="number:446" y="number:399" />
+                  <point x="number:395" y="number:402" />
+                  <point x="number:317" y="number:407" />
+                  <point x="number:254" y="number:409" />
+                  <point x="number:204" y="number:410" />
+                  <point x="number:197" y="number:385" />
+                </points>
+              </hotspots>
+              <name>pipeline</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page03/pw008.mp3</file>
+                      <text><![CDATA[Tankers carry liquid bulk cargo in cargo tanks. There are different kinds of tankers: oil tankers, chemical tankers and gas tankers. Oil tankers are crude oil tankers, product tankers or combination tankers. A product tanker carries various grades of products. A tanker usually has pipelines on the deck.
+
+Can you see the pipelines on the deck of the tanker? Please click on them.  ]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="loadScene">
+                      <file>page04.xml</file>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page03/pw010.mp3</file>
+                      <text><![CDATA[No, I’m sorry, they are not pipelines. Please try again.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+          </actions>
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>

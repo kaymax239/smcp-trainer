@@ -1,0 +1,49 @@
+﻿  <root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="6" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" boolean:lockLeft="true">
+		<item>
+			<block1 audio="ms15002.mp3"><![CDATA[what is being carried by the ship, especially if it is flammable or toxic for example]]></block1>
+			<block2 audio="ms15009.mp3"><![CDATA[the cargo, particularly dangerous goods or hazardous substances]]></block2>
+		</item>
+		<item>
+			<block1 audio="ms15003.mp3"><![CDATA[the ship’s crew]]></block1>
+			<block2 audio="ms15010.mp3"><![CDATA[the ship’s personnel]]></block2>
+		</item>
+		<item>
+			<block1 audio="ms15004.mp3"><![CDATA[any equipment used by the crew to tell others where the ship is]]></block1>
+			<block2 audio="ms15011.mp3"><![CDATA[the ship security communication equipment and systems, if any]]></block2>
+		</item>		
+		<item>
+			<block1 audio="ms15005.mp3"><![CDATA[the other people who have to come on board]]></block1>
+			<block2 audio="ms15012.mp3"><![CDATA[passengers, visitors, vendors, repair technicians, port facility personnel, etc.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="ms15006.mp3"><![CDATA[any equipment used by the crew to identify possible dangers]]></block1>
+			<block2 audio="ms15013.mp3"><![CDATA[the ship’s security surveillance equipment and systems, if any]]></block2>
+		</item>		
+		<item>
+			<block1 audio="ms15007.mp3"><![CDATA[the ability to navigate and to respond in an emergency]]></block1>
+			<block2 audio="ms15014.mp3"><![CDATA[the capacity to maintain safe navigation and emergency response]]></block2>
+		</item>		
+		<item>
+			<block1 audio="ms15008.mp3"><![CDATA[the food & drink etc. carried on the ship]]></block1>
+			<block2 audio="ms15015.mp3"><![CDATA[the ship’s stores]]></block2>
+		</item>		
+	</list:items>
+</root>

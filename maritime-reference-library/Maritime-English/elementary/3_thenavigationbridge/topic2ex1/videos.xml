@@ -1,0 +1,88 @@
+﻿<root 	xmlns:list="http://www.lingonet.com/xml/list"	xmlns:number="http://www.lingonet.com/xml/number"	xmlns:boolean="http://www.lingonet.com/xml/boolean"	xmlns:style="http://www.lingonet.com/xml/style"	xmlns:image="http://www.lingonet.com/xml/image">
+	<list:videos dictionary="dictionary.xml" noteAudios="notes/">
+		<video id="video01">
+			<question audio="video/nb21001.mp3">Can you introduce yourself?</question>
+			<flv>video/video1.flv</flv>
+			<image:flvCover>videostart.jpg</image:flvCover>
+			<transcript>
+				<text>
+					<![CDATA[Hello! My name is Andrew Ivanov.  I’m an AB on the Riga Star in the Latvian Shipping Company. I am 22 years old. 
+Since childhood I have been interested in boats, ships and maritime transport. I have always liked operating machines and learning new practical skills therefore I decided to enter the Riga Maritime School at the age of 15. 
+During my training I went to sea two times as a trainee. When I left Maritime School I started working for the Latvian Shipping Company as an AB. I love the sea and I enjoy my work very much. My duties as an AB include [keeping watch] during which I [steer] the vessel, do lookout duties and help the Navigating Officer. I also do maintenance. As an AB I have to be able to operate deck machinery, such as the windlass or winches during [mooring] or unmooring operations. During cargo operations I have to operate cargo gear.]]>
+				</text>
+				<list:notes>
+					<note word="keeping watch" audio="">watching or observing for any danger</note>
+					<note word="steer" audio="">to guide a ship by means of a rudder</note>
+					<note word="mooring" audio="">holding a ship in place by cables or chains or by anchors</note>
+	            </list:notes>
+			</transcript>
+		</video>
+		<video id="video02">
+			<question audio="video/nb21002.mp3">Could you tell us more about steering the ship?</question>
+			<flv>video/video2.flv</flv>
+			<transcript>
+				<text>
+					<![CDATA[Yes, sure. Every day I have to keep watch as a [helmsman] and lookout on the bridge. My duties are the following: First of all, I take over the watch. Throughout my watch I have to keep a steady [course] and carry out all wheel orders. I have to repeat all the wheel orders to confirm that I have understood and carried them out correctly. I have to report immediately if the vessel does not answer the [helm]. I have to communicate with the Navigating Officers and sometimes with pilots using the correct navigational terms relating to heading and steering, for example, when the navigator asks me: „What is your heading?”, I answer: „My heading is 123 degrees” or when he orders: „Hard a-port!”, it means I have to put [rudder] fully over to port. 
+When the Officer of the Watch needs a [course] steered by compass, he gives me the direction in which he wants the wheel to be turned followed by each numeral separately, e.g. Port, steer one eight two or Starboard, steer zero eight two.
+When I receive an order to steer, e.g. 182 degrees, I repeat it and bring the vessel round steadily to the [course] ordered. When the vessel is steady on the [course] ordered, I call out: Steady on one eight two. Then the Navigating Officer [acknowledges] my reply. 
+Sometimes I have to keep security watches, e.g. gangway watch or anchor watch while the ship is not underway.]]>
+				</text>
+				<list:notes>
+					<note word="helmsman" audio="">one who steers the ship</note>
+					<note word="course" audio="">the direction taken by a ship</note>
+					<note word="helm" audio="">the wheel by which a ship is steered</note>
+					<note word="rudder" audio="">a device at the stern of a ship used for steering</note>
+					<note word="acknowledges" audio="">to recognise an answer</note>
+	            </list:notes>
+			</transcript>
+		</video>
+		<video id="video03">
+			<question audio="video/nb21003.mp3">What exactly do your lookout duties involve?</question>
+			<flv>video/video3.flv</flv>
+			<transcript>
+				<text>
+					<![CDATA[On the bridge I have to act as a competent lookout during daytime and in the hours of darkness. It means I have to observe the sea for [hazards], other ships, land, etc. I must report anything I see or hear. I must report to the Officer of the Watch on all ships in the [vicinity], all navigation marks and lights, all floating objects, sightings of ice, [derelicts] and any other hazards to navigation. When reporting, I must give information on [bearing] of the object, target angles, position angles and what the object is. I also have to be familiar with various types of [distress] signals that can be used at sea.]]>
+				</text>
+				<list:notes>
+					<note word="hazards" audio="">dangers</note>
+					<note word="vicinity" audio="">neighbourhood, near or close by</note>
+					<note word="derelicts" audio="">vessels still afloat, abandoned at sea</note>
+					<note word="bearing" audio="">direction relative to one’s own position or to the compass</note>
+					<note word="distress" audio="">the state of extreme danger</note>
+	            </list:notes>
+			</transcript>
+		</video>
+		<video id="video04">
+			<question audio="video/nb21004.mp3">Do you do anything else, apart from working on the bridge?</question>
+			<flv>video/video4.flv</flv>
+			<transcript>
+				<text>
+					<![CDATA[Yes, of course, on board ship I also do [maintenance] duties. They include repair work, sanitation, upkeep of equipment and areas in the Deck Department. It means [maintenance] of the ship’s metal structures, such as chipping, scraping, cleaning, priming and painting to prevent corrosion and keep the ship in good condition. Such areas as the [hull], decks, [superstructure], cargo gear and the [funnel] frequently need [maintenance]. I also need to maintain the lifeboats, rescue boats and liferafts in good condition. Before painting the area must be cleaned by washing with a cleaning solution to remove all dirt and oil. Then I rinse the area with clean fresh water. If there is loose paint or scale, I scrape it off. If the rust is very heavy, I use a special hammer, which is called a chipping hammer. Finally, I clean the metal with a wire brush and coat it with primer paint.]]>
+				</text>
+				<list:notes>
+					<note word="maintenance" audio="">cleaning, painting and repair work</note>
+					<note word="hull" audio="">the main body of a ship</note>
+					<note word="superstructure" audio="">all the permanent housing above the main deck</note>
+					<note word="funnel" audio="">metal chimney on a ship</note>
+	            </list:notes>
+			</transcript>
+		</video>
+		<video id="video05">
+			<question audio="video/nb21005.mp3">In your opinion, what personal qualities and skills should an AB have?</question>
+			<flv>video/video5.flv</flv>
+			<transcript>
+				<text>
+					<![CDATA[To my mind, an AB must be a responsible and reliable guy who wants to work well without constant [supervision]. As a sailor I am away from home regularly. I miss my home and friends but I have a good working relationship with my fellow [shipmates]. Sometimes I have to spend long periods aboard ship in the company of a small crew.
+An AB must often work outdoors in any weather. I an strong and enjoy doing practical and physically active work.
+As a person I am flexible and I do not mind undertaking a variety of tasks. I do not mind getting my hands messy or dirty and I enjoy using tools and equipment. I have always had an interest in maintaining machinery. 
+To perform my duties properly, I  need to have good eyesight and hearing. All sailors require good health and fitness. I need to pass a medical examination regularly. I must effectively use all available instruments and equipment important for carrying out lookout duties, particularly taking bearings of approaching ships. All ABs must be fit because we have [to work shifts], including nights. I enjoy working in a team and cooperating with other crewmembers. We carry out orders and complete tasks set by the Officers.]]>
+				</text>
+				<list:notes>
+					<note word="supervision" audio="">the process of ensuring that everything is done correctly</note>
+					<note word="shipmates" audio="">crewmembers</note>
+					<note word="to work shifts" audio="">to work for a definite period before being replaced</note>
+	            </list:notes>
+			</transcript>
+		</video>
+	</list:videos>
+</root>

@@ -1,0 +1,61 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="11" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true">
+		<item>
+			<block1 audio="me0198.mp3"><![CDATA[port]]></block1>
+			<block2 audio="me0199.mp3"><![CDATA[starboard]]></block2>
+		</item>
+		<item>
+			<block1 audio="me0200.mp3"><![CDATA[load]]></block1>
+			<block2 audio="me0201.mp3"><![CDATA[discharge]]></block2>
+		</item>
+		<item>
+			<block1 audio="me0202.mp3"><![CDATA[fore]]></block1>
+			<block2 audio="me0203.mp3"><![CDATA[aft]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0204.mp3"><![CDATA[connect]]></block1>
+			<block2 audio="me0205.mp3"><![CDATA[disconnect]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0206.mp3"><![CDATA[open]]></block1>
+			<block2 audio="me0207.mp3"><![CDATA[closed]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0208.mp3"><![CDATA[correct]]></block1>
+			<block2 audio="me0209.mp3"><![CDATA[wrong]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0210.mp3"><![CDATA[manually]]></block1>
+			<block2 audio="me0211.mp3"><![CDATA[automatically]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0212.mp3"><![CDATA[empty]]></block1>
+			<block2 audio="me0213.mp3"><![CDATA[full]]></block2>
+		</item>
+		<item>
+			<block1 audio="me0214.mp3"><![CDATA[possible]]></block1>
+			<block2 audio="me0215.mp3"><![CDATA[impossible]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0216.mp3"><![CDATA[moor]]></block1>
+			<block2 audio="me0217.mp3"><![CDATA[cast off]]></block2>
+		</item>
+	</list:items>
+</root>

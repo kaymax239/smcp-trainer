@@ -1,0 +1,32 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>er3006.mp3</audio>
+				<text><![CDATA[Interviewer - Good morning Captain James, we would like to ask you a few questions about the ISPS code.]]></text>
+			</phrase>
+			<phrase>
+				<audio>msi1001.mp3</audio>
+				<text><![CDATA[Captain James - Yes, that’s fine, what do you want to know?]]></text>
+			</phrase>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[Interviewer - What does the ISPS Code stand for?]]></text>
+			</phrase>
+			<phrase>
+				<audio>msi1002.mp3</audio>
+				<text><![CDATA[Captain James - The ISPS Code stands for “<The International Ship and Port Facility Security>” Code.]]></text>
+			</phrase>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[Interviewer - What is the ISPS Code?]]></text>
+			</phrase>
+			<phrase>
+				<audio>msi1003.mp3</audio>
+				<text><![CDATA[Captain James – it is an amendment to the Safety of Life at Sea (<SOLAS>) Convention (1974/1988) on <minimum security arrangements> for ships, ports and government agencies. It came into force in <2004> and prescribes responsibilities to governments, shipping companies, shipboard personnel, and port/facility personnel to "detect <security threats> and take <preventative measures> against security incidents affecting ships or port facilities used in international trade."]]></text>
+			</phrase>
+		</list:items>
+		
+	</list:items>
+</root>

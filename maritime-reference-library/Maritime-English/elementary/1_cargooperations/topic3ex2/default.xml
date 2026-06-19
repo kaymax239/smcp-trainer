@@ -1,0 +1,53 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="11" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true">
+		<item>
+			<block1 audio="me0182.mp3"><![CDATA[a jetty]]></block1>
+			<block2 audio="me0183.mp3"><![CDATA[has been built from the shore into the water]]></block2>
+		</item>
+		<item>
+			<block1 audio="me0184.mp3"><![CDATA[hazardous cargo]]></block1>
+			<block2 audio="me0185.mp3"><![CDATA[may cause harm to the environment]]></block2>
+		</item>
+		<item>
+			<block1 audio="me0186.mp3"><![CDATA[ullage]]></block1>
+			<block2 audio="me0187.mp3"><![CDATA[is the space above the liquid in a tank]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0188.mp3"><![CDATA[crossover valves]]></block1>
+			<block2 audio="me0189.mp3"><![CDATA[separate the main lines from each other]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0190.mp3"><![CDATA[master valves]]></block1>
+			<block2 audio="me0191.mp3"><![CDATA[separate tanks in a fore-and-aft direction]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0192.mp3"><![CDATA[drop lines]]></block1>
+			<block2 audio="me0193.mp3"><![CDATA[lead vertically from the deck lines to the tank lines]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0194.mp3"><![CDATA[stripping lines]]></block1>
+			<block2 audio="me0195.mp3"><![CDATA[are used in tank washing and ballast operations]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me0196.mp3"><![CDATA[oil product]]></block1>
+			<block2 audio="me0197.mp3"><![CDATA[is refined from crude oil]]></block2>
+		</item>
+	</list:items>
+</root>

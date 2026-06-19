@@ -1,0 +1,29 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me2002.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="18182">
+			<text><![CDATA[A major theme in the current maritime curriculum concerns the marine environment and its natural inhabitants. But what role do humans play in the development of todays marine environment? How does man affect and influence, adapt and even change the marine habitat?]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="6750" start="0" end="109" />
+				<text time="7350" duration="5000" start="109" end="188" />
+				<text time="12575" duration="5500" start="188" end="265" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

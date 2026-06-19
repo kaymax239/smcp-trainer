@@ -1,0 +1,100 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>mei3002a.mp3</audio>
+		<audio>mei3002b.mp3</audio>
+		<audio>mei3002c.mp3</audio>
+		<audio>mei3002d.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="61493">
+			<text><![CDATA[Although accidental pollution is spectacular, it is still recognised that operational pollution remains the bigger threat. Therefore a new procedure, which had been developed by the oil industry and was called the Load-on-Top system, was introduced in 1969. The Load-on-Top system has the twofold advantage of saving oil and reducing pollution. With this system, the washings resulting from tank cleaning are pumped into a special tank. During the voyage to the loading terminal the oil and water separate. The water at the bottom of the tank is pumped overboard and at the terminal oil is pumped on to the oil left in the tank.
+The enormous growth in the transport of oil by shipping and the size of tankers on the one hand, and the increasing amount of chemicals carried at sea and the growing concern for the marine environment on the other hand, made it clear that the OILPOL Convention was no longer adequate in spite of various amendments.
+]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="275" duration="2500" start="0" end="45" />
+				<text time="2925" duration="4250" start="46" end="122" />
+				<text time="7450" duration="1750" start="122" end="149" />
+				<text time="9400" duration="4750" start="149" end="235" />
+				<text time="14350" duration="2000" start="235" end="259" />
+				<text time="16700" duration="6000" start="259" end="348" />
+				<text time="23150" duration="1000" start="348" end="366" />
+				<text time="24375" duration="4000" start="366" end="440" />
+				<text time="28625" duration="4500" start="440" end="510" />
+				<text time="33400" duration="8000" start="510" end="632" />
+				<text time="41775" duration="6000" start="634" end="730" />
+				<text time="48025" duration="6250" start="730" end="854" />
+				<text time="54550" duration="6500" start="854" end="950" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="66169">
+			<text><![CDATA[To broaden its scope the Sub-Committee on Oil Pollution became the Marine Environment Protection Committee (MEPC) and was given the same standing as the Maritime Safety Committee (MSC). The most important objective of the MEPC is the prevention of marine pollution.
+Meanwhile the IMO adopted amendments to the OILPOL Convention to limit the size of cargo tanks so that only a limited amount of oil could enter the sea in the event of damage to the vessel.
+The Protocol of the Conference on Tanker Safety and Pollution Prevention (1978) expanded the requirements for segregated ballast tanks to new crude oil tankers of 20,000 dead weight tonnage (dwt) and above and new product tankers of 30,000 dwt and above. Segregated ballast tanks were also required to be protectively located in areas of the ship where they can minimise the possibility and the amount of oil outflow from cargo tanks after a collision or grounding.
+]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="7750" start="0" end="113" />
+				<text time="8150" duration="5000" start="113" end="185" />
+				<text time="13325" duration="5250" start="185" end="265" />
+				<text time="19050" duration="6250" start="267" end="361" />
+				<text time="25500" duration="5000" start="361" end="456" />
+				<text time="30750" duration="5750" start="458" end="537" />
+				<text time="36675" duration="10250" start="537" end="663" />
+				<text time="47225" duration="4750" start="663" end="712" />
+				<text time="52225" duration="4750" start="712" end="783" />
+				<text time="57200" duration="8750" start="783" end="923" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="72909">
+			<text><![CDATA[New tankers were also required to be fitted with crude oil washing systems. COW is the cleaning - washing - of cargo tanks with high pressure jets of crude oil. This system reduces the quantity of oil remaining on board after discharge.
+Supplementary measures for tanker safety included the requirement for inert gas systems on new tankers over 20,000 dwt and specified existing tankers. Thereby exhaust gases low in oxygen and as a consequence incombustible, are used to replace flammable gases in tanks. 
+After the Exxon Valdez disaster (March 1998) the United States developed its Oil Pollution Act (OPA 90) to make it mandatory for all tankers calling at ports in the United States to have double hulls. Some member states of the IMO wanted other designs to be accepted as equivalents to double hulls. As a result, the IMO carried out a study on the comparative performances of the double hull and the mid-deck tanker (mid-height deck tanker) designs and concluded that the two designs could be considered as equivalent. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="4250" start="0" end="75" />
+				<text time="4775" duration="6250" start="75" end="160" />
+				<text time="11250" duration="4250" start="160" end="236" />
+				<text time="15850" duration="11250" start="238" end="389" />
+				<text time="27425" duration="5000" start="389" end="460" />
+				<text time="32625" duration="3500" start="460" end="506" />
+				<text time="36575" duration="4250" start="509" end="553" />
+				<text time="41000" duration="4000" start="553" end="612" />
+				<text time="45300" duration="5750" start="612" end="709" />
+				<text time="51550" duration="6000" start="709" end="807" />
+				<text time="58000" duration="10500" start="807" end="956" />
+				<text time="68625" duration="4100" start="956" end="1026" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="57653">
+			<text><![CDATA[On condition that other design methods ensure the same protection against pollution in the event of a stranding or collision, the IMO finally agreed to make mandatory either double hulls or alternative designs approved by the Marine Environment Protection Committee (MEPC).
+After the Erika disaster (December 1999) and the Prestige catastrophe (July 2003) proposals were presented to the MEPC to consider an accelerated 'single-hull oil tanker phase-out' schedule. The Prestige disaster also led to an extended application of the Condition Assessment Scheme (CAS) for tankers. The CAS requirements include a more stringent and transparent verification of the reported structural condition of the ship and oblige shipowners to have documentary and survey procedures properly carried out and completed. ]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="3"/>
+			<list:timeline>
+				<text time="250" duration="6750" start="0" end="125" />
+				<text time="7050" duration="10250" start="125" end="273" />
+				<text time="17725" duration="7500" start="275" end="356" />
+				<text time="25375" duration="8500" start="357" end="465" />
+				<text time="34350" duration="8500" start="466" end="577" />
+				<text time="43225" duration="7750" start="577" end="701" />
+				<text time="51100" duration="6250" start="701" end="801" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

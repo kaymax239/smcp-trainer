@@ -1,0 +1,49 @@
+﻿<root 
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	
+	<list:hints>
+		<item>hint1</item>
+		<item>hint2</item>
+		<item>hint3</item>
+		<item>hint4</item>
+		<item>hint5</item>
+		<item>hint6</item>
+	</list:hints>
+		
+	<list:pages boolean:skipStartBtn="true" boolean:showFeedbackDialog="false">
+		<page>
+			<list:items>
+				<list:items prompt="nosound.mp3" correct="ms12001.mp3">
+					<item x="70" y="308"><![CDATA[secretes]]></item>
+					<item x="225" y="308"><![CDATA[<hides>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="ms12002.mp3">
+					<item x="360" y="308"><![CDATA[consent]]></item>
+					<item x="517" y="308"><![CDATA[<permission>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="ms12003.mp3">
+					<item x="70" y="341"><![CDATA[person in charge]]></item>
+					<item x="225" y="341"><![CDATA[<captain>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="ms12004.mp3">
+					<item x="360" y="341"><![CDATA[left port]]></item>
+					<item x="517" y="341"><![CDATA[<departed>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="ms12005.mp3">
+					<item x="70" y="374"><![CDATA[a growing]]></item>
+					<item x="225" y="374"><![CDATA[<an increasing>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="ms12006.mp3">
+					<item x="360" y="374"><![CDATA[in pursuit of]]></item>
+					<item x="517" y="374"><![CDATA[<to look for>]]></item>
+				</list:items>
+				<list:items prompt="nosound.mp3" correct="ms12007.mp3">
+					<item x="70" y="407"><![CDATA[lacking]]></item>
+					<item x="225" y="407"><![CDATA[<without>]]></item>
+				</list:items>
+			</list:items>
+		</page>
+	</list:pages>
+</root>

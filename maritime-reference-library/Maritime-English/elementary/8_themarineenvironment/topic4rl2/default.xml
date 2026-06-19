@@ -1,0 +1,113 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me4002a.mp3</audio>
+		<audio>me4002b.mp3</audio>
+		<audio>me4002c.mp3</audio>
+		<audio>me4002d.mp3</audio>
+		<audio>me4002e.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+		<image:img1 x="0" y="0">page2.jpg</image:img1>
+		<image:img2 x="0" y="0">page3.jpg</image:img2>
+		<image:img3 x="0" y="0">page4.jpg</image:img3>
+		<image:img4 x="0" y="0">page5.jpg</image:img4>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="26829">
+			<text><![CDATA[After the oil spill the clean-up operation began. 
+First dispersants were used. The dispersants were dropped from a helicopter using a dispersant bucket. Wave action was, however, slight and the dispersant did not mix with the oil in the water. The use of dispersant was discontinued. Dispersants can also be sprayed from vessels.
+This is a photograph of a vessel spraying dispersants following an oil spill.
+]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="250" duration="2750" start="0" end="51" />
+				<text time="3250" duration="2250" start="51" end="79" />
+				<text time="5700" duration="4500" start="79" end="153" />
+				<text time="10400" duration="5250" start="153" end="244" />
+				<text time="15875" duration="2500" start="244" end="284" />
+				<text time="18700" duration="2750" start="285" end="330" />
+				<text time="21700" duration="5000" start="331" end="408" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="30773">
+			<text><![CDATA[In situ burning was then attempted using a trial explosion. This was quite successful but following this, as a result of unfavourable weather conditions, burning was discontinued. In situ burning can often lead to air pollution.
+This is a photograph of in situ burning.
+
+
+
+
+
+
+
+
+
+
+
+Mechanical clean-up was started shortly afterwards using booms and skimmers, but the operation was delayed because the skimmers were not available during the first 24 hours following the spill. ]]></text>
+			<background fileIndex="1"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="4250" start="0" end="59" />
+				<text time="4725" duration="7250" start="59" end="179" />
+				<text time="12200" duration="3250" start="179" end="228" />
+				<text time="15700" duration="2750" start="228" end="269" />
+				<text time="23425" duration="7250" start="358" end="474" />
+				<text time="18700" duration="4500" start="281" end="357" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="8543">
+			<text><![CDATA[This photograph shows clean-up operations following the Exxon Valdez disaster. The vessel is surrounded by a boom to contain the oil.]]></text>
+			<background fileIndex="2"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="4100" start="0" end="78" />
+				<text time="4525" duration="3950" start="78" end="133" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="16145">
+			<text><![CDATA[This photograph was taken after the Exxon Valdez disaster. You can see a boat (one of two) which is towing the boom. Oil is contained within the boom, and a small skimmer at the apex of the boom is removing the oil from the water surface. ]]></text>
+			<background fileIndex="3"/>
+			<audio fileIndex="3"/>
+			<list:timeline>
+				<text time="250" duration="3500" start="0" end="58" />
+				<text time="3925" duration="4000" start="58" end="116" />
+				<text time="8275" duration="7750" start="116" end="239" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="42920">
+			<text><![CDATA[Prince William Sound contains many rocky coves where the oil collected and therefore the decision was made to remove the oil with high-pressure hot water. However, this destroyed the microbial populations on the shoreline.
+This photograph shows clean-up teams using high-pressure hot water hoses following the Exxon Valdez disaster.
+
+
+
+
+
+
+
+
+
+The Exxon Valdez disaster was one of the most devastating manmade environmental disasters ever to occur at sea. The remote location of the Prince William Sound made response operations and oil clearance extremely difficult. However the disaster led to a better understanding of clean-up processes.]]></text>
+			<background fileIndex="4"/>
+			<audio fileIndex="4"/>
+			<list:timeline>
+				<text time="250" duration="10250" start="0" end="154" />
+				<text time="10800" duration="4250" start="154" end="223" />
+				<text time="15350" duration="7000" start="223" end="332" />
+				<text time="22650" duration="7500" start="332" end="454" />
+				<text time="30275" duration="7500" start="454" end="565" />
+				<text time="38000" duration="4500" start="565" end="642" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

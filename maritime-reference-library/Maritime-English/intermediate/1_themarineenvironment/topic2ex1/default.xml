@@ -1,0 +1,112 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="10" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	
+	
+	<items boolean:pages="true" boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" />
+	<list:pages boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true">
+		<list:items boolean:lockLeft="false">
+			<item>
+				<block1 audio="me21001.mp3"><![CDATA[Marine pollution]]></block1>
+				<block2 audio="me21002.mp3"><![CDATA[occurs when harmful effects result from the entry into the ocean of chemicals, particles, waste, or the spread of invasive organisms.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me21003.mp3"><![CDATA[Pollutants]]></block1>
+				<block2 audio="me21004.mp3"><![CDATA[are waste material that pollute air, water or soil.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me21005b.mp3"><![CDATA[Nonpoint source pollution (NPS)]]></block1>
+				<block2 audio="me21006.mp3"><![CDATA[occurs when discharges, namely man-made contaminants, enter a water body at a single location.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21007.mp3"><![CDATA[(Surface) runoff]]></block1>
+				<block2 audio="me21008.mp3"><![CDATA[is the water flow which occurs when soil is saturated and excess water overflows into the land.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21009.mp3"><![CDATA[Something is 'toxic']]></block1>
+				<block2 audio="me21010.mp3"><![CDATA[when it is chemically harmful or even deadly.]]></block2>
+			</item>	
+		</list:items>
+		<list:items>	
+			<item>
+				<block1 audio="me21011.mp3"><![CDATA[Plankton]]></block1>
+				<block2 audio="me21012.mp3"><![CDATA[are drifting organisms that inhabit the oceans or seas.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21013.mp3"><![CDATA[Benthos]]></block1>
+				<block2 audio="me21014.mp3"><![CDATA[are organisms which live on, in, or near the seabed.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21015.mp3"><![CDATA[Filter feeders or suspension feeders]]></block1>
+				<block2 audio="me21016.mp3"><![CDATA[are animals that feed by straining suspended matter and food particles from water.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21017.mp3"><![CDATA[Toxic chemicals are concentrated upward]]></block1>
+				<block2 audio="me21018.mp3"><![CDATA[when animals take in more toxics than they excrete.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21019.mp3"><![CDATA[Food chains or food networks]]></block1>
+				<block2 audio="me21020.mp3"><![CDATA[describe the eating relationships between living species within an ecosystem.]]></block2>
+			</item>	
+		</list:items>
+		<list:items>	
+			<item>
+				<block1 audio="me21021.mp3"><![CDATA[Estuaries]]></block1>
+				<block2 audio="me21022.mp3"><![CDATA[are semi-enclosed coastal bodies of water with one or more rivers or streams and with a free connection to the open sea.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21023.mp3"><![CDATA[The term 'anoxic']]></block1>
+				<block2 audio="me21024.mp3"><![CDATA[refers to water that  is depleted of dissolved oxygen.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21025.mp3"><![CDATA[A pesticide is a substance or mixture of substances]]></block1>
+				<block2 audio="me21026.mp3"><![CDATA[used to kill a chemical substance, biological agent, antimicrobial, disinfectant or device used against any pest.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21027.mp3"><![CDATA[Marine ecosystems]]></block1>
+				<block2 audio="me21028.mp3"><![CDATA[include oceans, salt marshes, estuaries, lagoons, mangroves, coral reefs, the deep sea and the sea floor.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21029.mp3"><![CDATA[Food webs]]></block1>
+				<block2 audio="me21030.mp3"><![CDATA[describe the eating relationships between living species within an ecosystem.]]></block2>
+			</item>	
+		</list:items>
+		<list:items>	
+			<item>
+				<block1 audio="me21031.mp3"><![CDATA[A mutation]]></block1>
+				<block2 audio="me21032.mp3"><![CDATA[is the act or process of being altered or changed.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21033.mp3"><![CDATA[A disease]]></block1>
+				<block2 audio="me21034.mp3"><![CDATA[is an illness which affects a person, animal or plant. Diseases are defined as pathological conditions of a part, organ, or system...]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21035.mp3"><![CDATA[Tissue]]></block1>
+				<block2 audio="me21036.mp3"><![CDATA[is the structural material which forms animal or plant cells.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21037.mp3"><![CDATA[Biochemistry]]></block1>
+				<block2 audio="me21038.mp3"><![CDATA[is the study of chemical processes in living organisms.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me21039.mp3"><![CDATA[Fish hydrolysate]]></block1>
+				<block2 audio="me21040.mp3"><![CDATA[refers to fish carcasses.]]></block2>
+			</item>		
+		</list:items>
+	</list:pages>
+</root>

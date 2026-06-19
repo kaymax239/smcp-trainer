@@ -1,0 +1,113 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="8" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<vars boolean:ShowMask="false" />
+	<list:items startAudio=".mp3" boolean:shuffle="false" >
+		<!--Controllable pitch propeller-->
+		<list:item audio="nb16001.mp3,nb16002.mp3" correctAudio="nb16003.mp3" wrongAudio="nb16004.mp3">
+			<point x="50" y="291" />
+			<point x="77" y="291" />
+			<point x="78" y="310" />
+			<point x="165" y="313" />
+			<point x="120" y="415" />
+			<point x="1" y="411" />
+			<point x="1" y="361" />
+			<point x="35" y="310" />
+			<point x="50" y="311" />
+		</list:item>
+		<!--Bow Thruster-->
+		<list:item audio="nb16005.mp3,nb16006.mp3" correctAudio="nb16007.mp3" wrongAudio="nb16008.mp3">
+			<point x="313" y="348" />
+			<point x="417" y="348" />
+			<point x="417" y="418" />
+			<point x="301" y="418" />
+		</list:item>
+		<!--Marine VHF Radiotelephone-->
+		<list:item audio="nb16009.mp3,nb16010.mp3" correctAudio="nb16011.mp3" wrongAudio="nb16012.mp3">
+			<point x="276" y="223" />
+			<point x="300" y="221" />
+			<point x="303" y="245" />
+			<point x="290" y="293" />
+			<point x="245" y="348" />
+			<point x="219" y="354" />
+			<point x="221" y="332" />
+			<point x="271" y="297" />
+			<point x="266" y="266" />
+		</list:item>
+		<!--Internal Phone-->
+		<list:item audio="nb16013.mp3,nb16014.mp3" correctAudio="nb16015.mp3" wrongAudio="nb16016.mp3">
+			<point x="564" y="267" />
+			<point x="657" y="266" />
+			<point x="665" y="312" />
+			<point x="674" y="321" />
+			<point x="665" y="328" />
+			<point x="672" y="390" />
+			<point x="577" y="392" />
+			<point x="573" y="421" />
+			<point x="551" y="434" />
+			<point x="530" y="425" />
+			<point x="534" y="404" />
+			<point x="562" y="386" />
+			<point x="559" y="335" />
+			<point x="566" y="326" />
+		</list:item>
+		<!--Tiller-->
+		<list:item audio="nb16017.mp3,nb16018.mp3" correctAudio="nb16019.mp3" wrongAudio="nb16020.mp3">
+			<point x="188" y="347" />
+			<point x="208" y="346" />
+			<point x="204" y="333" />
+			<point x="219" y="331" />
+			<point x="222" y="356" />
+			<point x="236" y="355" />
+			<point x="248" y="348" />
+			<point x="276" y="348" />
+			<point x="260" y="396" />
+			<point x="171" y="394" />
+		</list:item>
+		<!--Steering gear pumps-->
+		<list:item audio="nb16021.mp3,nb16022.mp3" correctAudio="nb16023.mp3" wrongAudio="nb16024.mp3">
+			<point x="380" y="246" />
+			<point x="509" y="246" />
+			<point x="518" y="297" />
+			<point x="376" y="297" />
+		</list:item>
+		<!--Main engine emergency controls-->
+		<list:item audio="nb16025.mp3,nb16026.mp3" correctAudio="nb16027.mp3" wrongAudio="nb16028.mp3">
+			<point x="305" y="308" />
+			<point x="420" y="309" />
+			<point x="420" y="346" />
+			<point x="298" y="346" />
+		</list:item>
+		<!--Automatic Identification System-->
+		<list:item audio="nb16029.mp3,nb16030.mp3" correctAudio="nb16031.mp3" wrongAudio="nb16032.mp3">
+			<point x="148" y="153" />
+			<point x="240" y="149" />
+			<point x="236" y="213" />
+			<point x="142" y="214" />
+		</list:item>
+		<!--Controllable pitch propeller automatic recorder-->
+		<list:item audio="nb16033.mp3,nb16034.mp3" correctAudio="nb16035.mp3" wrongAudio="nb16036.mp3">
+			<point x="78" y="247" />
+			<point x="247" y="247" />
+			<point x="228" y="302" />
+			<point x="81" y="300" />
+			<point x="79" y="290" />
+			<point x="50" y="290" />
+		</list:item>
+	</list:items>
+	
+</root>

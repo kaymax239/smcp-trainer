@@ -1,0 +1,80 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="17"></font><br><br><font size="14">All seafarers must be conscious of the pollution threats to waterways and oceans and the serious effects that may result.<br><br>MARPOL covers accidental and operational oil pollution as well as pollution by chemicals, goods in packaged form, sewage, garbage and air pollution.<br><br>The IMO’s Intervention Convention affirms the right of coastal states to take measures on the high seas to prevent, mitigate or eliminate dangers to their coastlines from marine casualties.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[threats]]></text>
+					<correct><![CDATA[threats]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[waterways and oceans]]></text>
+					<correct><![CDATA[waterways and oceans]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[operational]]></text>
+					<correct><![CDATA[operational]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[chemicals]]></text>
+					<correct><![CDATA[chemicals]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[sewage]]></text>
+					<correct><![CDATA[sewage]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[air pollution]]></text>
+					<correct><![CDATA[air pollution]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[high seas]]></text>
+					<correct><![CDATA[high seas]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[mitigate]]></text>
+					<correct><![CDATA[mitigate]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[casualties]]></text>
+					<correct><![CDATA[casualties]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="14">The International Convention on Oil Pollution Preparedness, Response and Co-operation (OPRC) provides a global framework for international co-operation in combating major incidents or threats of marine pollution. A protocol to this convention covers marine pollution by hazardous and noxious substances (HNS).<br><br>The Marine Environment Protection Committee (MEPC) is IMO’s senior technical body on marine pollution related matters. This Committee is aided in its work by a number of Sub-Committees.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[combating]]></text>
+					<correct><![CDATA[combating]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[hazardous]]></text>
+					<correct><![CDATA[hazardous]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[noxious]]></text>
+					<correct><![CDATA[noxious]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[Protection]]></text>
+					<correct><![CDATA[Protection]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[Sub-Committees]]></text>
+					<correct><![CDATA[Sub-Committees]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

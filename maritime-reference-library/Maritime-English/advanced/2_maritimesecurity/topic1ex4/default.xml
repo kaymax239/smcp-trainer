@@ -1,0 +1,26 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>msa4001a.mp3</audio>
+				<text><![CDATA[The Ship Security Assessment should examine each identified point of <access>, including open weather <decks>, and evaluate its potential for use by individuals who might seek to <breach> security. This includes points of access available to individuals having <legitimate> access as well as those who seek to obtain <unauthorised> entry.]]></text>
+			</phrase>
+		</list:items>
+		
+		<list:items>
+			<phrase>
+				<audio>msa4001b.mp3</audio>
+				<text><![CDATA[The SSA should consider the continuing relevance of the existing <security> measures and guidance, procedures and operations, under both routine and <emergency> conditions and should determine security guidance including:
+•	the <restricted> areas;
+•	the response <procedures> to fire or other emergency conditions;
+•	the level of supervision of the ship’s <personnel>, passengers, visitors, <vendors>, repair technicians, dock workers, etc.;
+•	the frequency and <effectiveness> of security patrols;
+•	the access control systems, including <identification> systems;
+•	the security <communications> systems and procedures;
+•	the security doors, <barriers> and lighting; and
+•	the security and <surveillance> equipment and systems, if any.]]></text>
+			</phrase>
+		</list:items>
+	</list:items>
+</root>

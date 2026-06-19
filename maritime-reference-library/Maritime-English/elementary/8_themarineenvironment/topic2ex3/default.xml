@@ -1,0 +1,68 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="7" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	
+	<items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" boolean:pages="true" />
+	
+	<list:pages>
+		<list:page boolean:lockLeft="true">
+			<item>
+				<block1 audio="me23001.mp3"><![CDATA[Pollution is]]></block1>
+				<block2 audio="me23002.mp3"><![CDATA[damage caused to water, air, etc. by harmful substances or waste.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me23003.mp3"><![CDATA[Manmade refers to]]></block1>
+				<block2 audio="me23004.mp3"><![CDATA[something made by humans rather than occurring in nature.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me23005.mp3"><![CDATA[Debris means]]></block1>
+				<block2 audio="me23006.mp3"><![CDATA[wreckage.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me23007.mp3"><![CDATA[Septic describes]]></block1>
+				<block2 audio="me23008.mp3"><![CDATA[a state containing or resulting from disease-causing organisms.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me23009.mp3"><![CDATA[A lagoon is]]></block1>
+				<block2 audio="me23010.mp3"><![CDATA[a shallow body of water, especially one separated from a sea by sandbars or coral reefs.]]></block2>
+			</item>		
+		</list:page>
+		<list:page boolean:lockLeft="true">
+			<item>
+				<block1 audio="me23011.mp3"><![CDATA[A sewage pipe]]></block1>
+				<block2 audio="me23012.mp3"><![CDATA[transports water mixed with waste matter.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me23013.mp3"><![CDATA[Ballast water]]></block1>
+				<block2 audio="me23014.mp3"><![CDATA[is used to stabilize a ship.]]></block2>
+			</item>
+			<item>
+				<block1 audio="me23015.mp3"><![CDATA[A victim]]></block1>
+				<block2 audio="me23016.mp3"><![CDATA[is a person who suffers from a harmful act, circumstance, agency or condition.]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me23017.mp3"><![CDATA[A sample]]></block1>
+				<block2 audio="me23018.mp3"><![CDATA[is a specimen used for research. ]]></block2>
+			</item>		
+			<item>
+				<block1 audio="me23019.mp3"><![CDATA[Garbage is]]></block1>
+				<block2 audio="me23020.mp3"><![CDATA[rubbish.]]></block2>
+			</item>		
+		</list:page>
+	</list:pages>
+</root>

@@ -1,0 +1,78 @@
+﻿<root xmlns="http://www.lingonet.com/xml"
+	  xmlns:list="http://www.lingonet.com/xml/list"
+	  xmlns:number="http://www.lingonet.com/xml/number"
+	  xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	  xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+		
+	<list:pages>
+		
+		<list:page completeAudio="me0171.mp3,wait.mp3,me0172.mp3,wait.mp3,me0173.mp3,wait.mp3,me0174.mp3,wait.mp3,me0175.mp3,wait.mp3,me0176.mp3">
+		
+			<item>
+				<audio>me0171.mp3</audio> 
+				<text><![CDATA[Coal is usually <b>loaded</b> by belt conveyors.]]></text>
+				<correct>3</correct> 
+			</item>
+			<item>
+				<audio>me0172.mp3</audio>
+				<text><![CDATA[It can be <b>discharged</b> by grabs.]]></text>
+				<correct>2</correct>
+			</item>
+			<item>
+				<audio>me0173.mp3</audio>
+				<text><![CDATA[Grain is <b>stored</b> in a silo.]]></text>
+				<correct>2</correct>
+			</item>
+			<item>
+				<audio>me0174.mp3</audio>
+				<text><![CDATA[Oil is <b>transported</b> by pipelines.]]></text>
+				<correct>3</correct>
+			</item>
+			<item>
+				<audio>me0175.mp3</audio>
+				<text><![CDATA[Bulk cargo is <b>trimmed</b> by bobcats.]]></text>
+				<correct>2</correct>
+			</item>
+			<item>
+				<audio>me0176.mp3</audio>
+				<text><![CDATA[Holds are <b>washed</b> before loading cargo.]]></text>
+				<correct>1</correct>
+			</item>
+
+		</list:page>
+			
+		<list:page completeAudio="me0177.mp3,wait.mp3,me0178.mp3,wait.mp3,me0179.mp3,wait.mp3,me0180.mp3,wait.mp3,me0181.mp3">
+		
+			<item>
+				<audio>me0177.mp3</audio>												<!-- If defined, creates playbutton at coordinates of playButton image relative to textfield 0,0 -->
+				<text><![CDATA[Loading of grain was <b>stopped</b> because of the rain.]]></text>			<!-- Text to display in text column -->
+				<correct>1</correct>													<!-- Index of correct choice, base 1 -->
+			</item>
+			<item>
+				<audio>me0178.mp3</audio>
+				<text><![CDATA[The cargo was <b>dropped</b> onto the deck during unloading operations.]]></text>
+				<correct>1</correct>
+			</item>
+			<item>
+				<audio>me0179.mp3</audio>
+				<text><![CDATA[The cargo was <b>damaged</b> yesterday.]]></text>
+				<correct>2</correct>
+			</item>
+			<item>
+				<audio>me0180.mp3</audio>
+				<text><![CDATA[The boxes were <b>crushed</b> on the quay.]]></text>
+				<correct>1</correct>
+			</item>
+			<item>
+				<audio>me0181.mp3</audio>
+				<text><![CDATA[The hull is <b>painted</b> red.]]></text>
+				<correct>3</correct>
+			</item>
+
+		</list:page>
+			
+	</list:pages>
+	
+</root>

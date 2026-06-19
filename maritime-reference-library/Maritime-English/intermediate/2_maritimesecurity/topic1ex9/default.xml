@@ -1,0 +1,45 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><font size="13"><b>Interviewer</b> – What are the main objectives of the ISPS Code?<br><b>Captain James</b> – There are four main objectives of the ISPS Code. These are:<br> • To detect security threats and implement security measures<br> • To establish roles and responsibilities concerning maritime security for governments, local administrations, ship and port industries at the national and international level<br> • To collate and promulgate security-related information<br> • To provide a methodology for security assessments so as to have in place plans and procedures to react to changing security levels<br><b>Interviewer</b> – Does the Code specify specific measures that ports and ships must take against terrorism?<br><b>Captain James</b>– No, The Code does not specify specific measures that each port and ship must take to ensure the safety of the facility against terrorism because of the many different types and sizes of these facilities. Instead it outlines "a standardized, consistent framework for evaluating risk, enabling governments to offset changes in threat with changes in vulnerability for ships and port facilities."</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[TO DETECT]]></text>
+					<correct><![CDATA[To detect]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO ESTABLISH]]></text>
+					<correct><![CDATA[To establish]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO COLLATE]]></text>
+					<correct><![CDATA[To collate]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO REACT]]></text>
+					<correct><![CDATA[to react]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO TAKE]]></text>
+					<correct><![CDATA[must take]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO OUTLINE]]></text>
+					<correct><![CDATA[outlines]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[TO ENABLE]]></text>
+					<correct><![CDATA[enabling]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

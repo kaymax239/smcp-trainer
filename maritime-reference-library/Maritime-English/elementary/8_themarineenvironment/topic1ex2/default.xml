@@ -1,0 +1,49 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="7" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	<list:items boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true">
+		<item>
+			<block1 audio="me12001.mp3"><![CDATA[The marine environment refers to]]></block1>
+			<block2 audio="me12002.mp3"><![CDATA[all living and non-living things that exist naturally in the Earth’s seas.]]></block2>
+		</item>
+		<item>
+			<block1 audio="me12003.mp3"><![CDATA[An ecosystem is]]></block1>
+			<block2 audio="me12004.mp3"><![CDATA[a natural unit consisting of all plants, animals and micro-organisms in that unit.]]></block2>
+		</item>
+		<item>
+			<block1 audio="me12005.mp3"><![CDATA[The word “habitat” means]]></block1>
+			<block2 audio="me12006.mp3"><![CDATA[an ecological or environmental area inhabited by a particular animal or plant species.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me12007.mp3"><![CDATA[The IMO aims]]></block1>
+			<block2 audio="me12008.mp3"><![CDATA[to regulate shipping at international level.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me12009.mp3"><![CDATA[MARPOL is aimed at preventing]]></block1>
+			<block2 audio="me12010.mp3"><![CDATA[pollution of the sea by ships.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me12011.mp3"><![CDATA[Climate change is used to refer]]></block1>
+			<block2 audio="me12012.mp3"><![CDATA[to major changes in the weather conditions on Earth, caused by natural events or human activities.]]></block2>
+		</item>		
+		<item>
+			<block1 audio="me12013.mp3"><![CDATA[Greenhouse gases are gases]]></block1>
+			<block2 audio="me12014.mp3"><![CDATA[which trap heat above the Earth causing the planet to warm up.]]></block2>
+		</item>		
+	</list:items>
+</root>

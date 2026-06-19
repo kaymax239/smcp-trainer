@@ -1,0 +1,85 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image" xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<list:pages>
+		<list:items displayTextAfterCorrect="true">
+			<item audio="me41005.mp3" >
+				<text>I read you excellent.</text>
+				<list:parts>
+					<part audio="me41001.mp3" />
+					<part audio="me41002.mp3" />
+					<part audio="me41003.mp3" />
+					<part audio="me41004.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me41011.mp3">
+				<text>I have located a vessel dumping waste.</text>
+				<list:parts>
+					<part audio="me41006.mp3" />
+					<part audio="me41007.mp3" />
+					<part audio="me41008.mp3" />
+					<part audio="me41009.mp3" />
+					<part audio="me41010.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me41016.mp3">
+				<text>Can you identify the polluter?</text>
+				<list:parts>
+					<part audio="me41012.mp3" />
+					<part audio="me41013.mp3" />
+					<part audio="me41014.mp3" />
+					<part audio="me41015.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me41021.mp3">
+				<text>Polluter is MV Suzie.</text>
+				<list:parts>
+					<part audio="me41017.mp3" />
+					<part audio="me41018.mp3" />
+					<part audio="me41019.mp3" />
+					<part audio="me41020.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me41027.mp3">
+				<text>What is course and speed of the polluter?</text>
+				<list:parts>
+					<part audio="me41022.mp3" />
+					<part audio="me41023.mp3" />
+					<part audio="me41024.mp3" />
+					<part audio="me41025.mp3" />
+					<part audio="me41026.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me41033.mp3">
+				<text>Course of the polluter is 012 degrees.</text>
+				<list:parts>
+					<part audio="me41028.mp3" />
+					<part audio="me41029.mp3" />
+					<part audio="me41030.mp3" />
+					<part audio="me41031.mp3" />
+					<part audio="me41032.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me41038.mp3">
+				<text>I will send coastguard assistance.</text>
+				<list:parts>
+					<part audio="me41034.mp3" />
+					<part audio="me41035.mp3" />
+					<part audio="me41036.mp3" />
+					<part audio="me41037.mp3" />
+				</list:parts>
+			</item>
+			<item audio="me41044.mp3">
+				<text>Stay in vicinity of the polluter.</text>
+				<list:parts>
+					<part audio="me41039.mp3" />
+					<part audio="me41040.mp3" />
+					<part audio="me41041.mp3" />
+					<part audio="me41042.mp3" />
+					<part audio="me41043.mp3" />
+				</list:parts>
+			</item>
+		</list:items>
+	</list:pages>
+</root>

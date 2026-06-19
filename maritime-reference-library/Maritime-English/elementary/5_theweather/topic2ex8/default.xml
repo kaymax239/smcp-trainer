@@ -1,0 +1,45 @@
+﻿<root 
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	
+	<list:hints>
+		<item>hint1</item>
+		<item>hint2</item>
+		<item>hint3</item>
+		<item>hint4</item>
+		<item>hint5</item>
+		<item>hint6</item>
+	</list:hints>
+		
+	<list:pages boolean:skipStartBtn="true" boolean:showFeedbackDialog="false">
+		<page>
+			<list:items>
+				<list:items prompt="tw28001.mp3" correct="tw28001.mp3">
+					<item x="135" y="146"><![CDATA[Line]]></item>
+					<item x="420" y="146"><![CDATA[<linear>]]></item>
+				</list:items>
+				<list:items prompt="tw28002.mp3" correct="tw28002.mp3">
+					<item x="135" y="186"><![CDATA[Angle]]></item>
+					<item x="420" y="186"><![CDATA[<angular>]]></item>
+				</list:items>
+				<list:items prompt="tw28003.mp3" correct="tw28003.mp3">
+					<item x="135" y="226"><![CDATA[Circle]]></item>
+					<item x="420" y="226"><![CDATA[<circular>]]></item>
+				</list:items>
+				<list:items prompt="tw28004.mp3" correct="tw28004.mp3">
+					<item x="135" y="266"><![CDATA[North Pole, South Pole, pole]]></item>
+					<item x="420" y="266"><![CDATA[<polar>]]></item>
+				</list:items>
+				<list:items prompt="tw28005.mp3" correct="tw28005.mp3">
+					<item x="135" y="306"><![CDATA[Triangle]]></item>
+					<item x="420" y="306"><![CDATA[<triangular>]]></item>
+				</list:items>
+				<list:items prompt="tw28006.mp3" correct="tw28006.mp3">
+					<item x="135" y="346"><![CDATA[Rectangle]]></item>
+					<item x="420" y="346"><![CDATA[<rectangular>]]></item>
+				</list:items>
+			</list:items>
+		</page>
+	</list:pages>
+</root>

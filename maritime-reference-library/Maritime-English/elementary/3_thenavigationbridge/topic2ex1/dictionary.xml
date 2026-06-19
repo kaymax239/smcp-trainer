@@ -1,0 +1,4 @@
+<root 	xmlns:list="http://www.lingonet.com/xml/list"	xmlns:number="http://www.lingonet.com/xml/number"	xmlns:boolean="http://www.lingonet.com/xml/boolean"	xmlns:style="http://www.lingonet.com/xml/style"	xmlns:image="http://www.lingonet.com/xml/image">
+	<list:items>
+	</list:items>
+</root>

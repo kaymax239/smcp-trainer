@@ -1,0 +1,48 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>me1001.mp3</audio>
+		<audio>me1001a.mp3</audio>
+		<audio>me1001b.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+		<image:img0 x="0" y="0">page1.jpg</image:img0>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="false" obfuscate="false" length="45872">
+			<text><![CDATA[The protection of the marine environment is everyone's responsibility. All seafarers must be conscious of the pollution threats to waterways and oceans and the serious effects that may result. The IMO International Convention for the Prevention of Pollution from Ships (MARPOL) is the most important convention regulating and preventing marine pollution by ships. It covers accidental and operational oil pollution as well as pollution by chemicals, goods in packaged form, sewage, garbage and/or air pollution.
+
+The IMO's Intervention Convention affirms the right of coastal states to take measures on the high seas to prevent, mitigate or eliminate dangers to their coastlines from marine casualties.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="1"/>
+			<list:timeline>
+				<text time="250" duration="4000" start="0" end="70" />
+				<text time="4600" duration="6500" start="70" end="192" />
+				<text time="11450" duration="10500" start="192" end="363" />
+				<text time="22350" duration="10000" start="363" end="511" />
+				<text time="32800" duration="12908" start="511" end="710" />
+			</list:timeline>
+		</page>
+		<page mustlisten="false" obfuscate="false" length="37252">
+			<text><![CDATA[The International Convention on Oil Pollution Preparedness, Response and Co-operation (the OPRC) provides a global framework for international co-operation in combating major incidents or threats of marine pollution. A protocol to this convention covers marine pollution by hazardous and noxious substances (HNS).
+
+The Marine Environment Protection Committee (the MEPC) is the IMO's senior technical body on marine pollution related matters. This Committee is aided in its work by a number of Sub-Committees.]]></text>
+			<background fileIndex="0"/>
+			<audio fileIndex="2"/>
+			<list:timeline>
+				<text time="250" duration="15000" start="0" end="216" />
+				<text time="15550" duration="8000" start="216" end="314" />
+				<text time="23800" duration="8600" start="314" end="443" />
+				<text time="32650" duration="4500" start="443" end="515" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

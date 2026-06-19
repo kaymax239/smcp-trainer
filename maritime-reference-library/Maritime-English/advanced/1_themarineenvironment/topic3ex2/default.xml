@@ -1,0 +1,57 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:meta="http://www.lingonet.com/xml/meta">
+	<list:points number:max="13" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<vars boolean:ShowMask="false" boolean:addImgsToHotspot="true" />
+	<list:items boolean:complexWrongAudio="false" boolean:shuffle="true" startAudio="er12001.mp3" meta:randomize="true" boolean:showReflection="false" >
+		<!--drag on the hull-->
+		<list:item audio="me0003.mp3" correctAudio="noaudio.mp3" wrongAudio="me0004.mp3" img="image1" doneImage="image1done">
+			<point x="38" y="102" />
+			<point x="119" y="102" />
+			<point x="119" y="157" />
+			<point x="38" y="157" />
+		</list:item>
+		<!--draught-->
+		<list:item audio="me0005.mp3" correctAudio="noaudio.mp3" wrongAudio="me0007.mp3" img="image2" doneImage="image2done">
+			<point x="38" y="172" />
+			<point x="119" y="172" />
+			<point x="119" y="227" />
+			<point x="38" y="227" />
+		</list:item>
+		<!--leakage to the hull-->
+		<list:item audio="me0008.mp3" correctAudio="noaudio.mp3" wrongAudio="me0009.mp3" img="image3" doneImage="image3done">
+			<point x="38" y="242" />
+			<point x="119" y="242" />
+			<point x="119" y="297" />
+			<point x="38" y="297" />
+		</list:item>
+		<!--manouverability-->
+		<list:item audio="me0010.mp3" correctAudio="noaudio.mp3" wrongAudio="me0011.mp3" img="image4" doneImage="image4done">
+			<point x="38" y="312" />
+			<point x="119" y="312" />
+			<point x="119" y="367" />
+			<point x="38" y="367" />
+		</list:item>
+		<!--responsiveness-->
+		<list:item audio="me0012.mp3" correctAudio="noaudio.mp3" wrongAudio="me0013.mp3" img="image5" doneImage="image5done">
+			<point x="38" y="382" />
+			<point x="119" y="382" />
+			<point x="119" y="437" />
+			<point x="38" y="437" />
+		</list:item>
+	</list:items>
+</root>

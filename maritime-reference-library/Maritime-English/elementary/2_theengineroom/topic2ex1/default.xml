@@ -1,0 +1,92 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="audio/" prefix="" suffix="" />
+	
+	<list:items boolean:displayReflection="false">
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page1Bg">
+			
+			<!--Fresh Water Generator-->
+			<item audio="er21001.mp3" wrongAudio="er21003.mp3" rigthAudio="er21002.mp3" afterWrong="er21004.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Steering Gear-->
+			<item audio="er21005.mp3" wrongAudio="er21007.mp3" rigthAudio="er21006.mp3" afterWrong="er21008.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Main Engine-->
+			<item audio="er21009.mp3" wrongAudio="er21011.mp3" rigthAudio="er21010.mp3" afterWrong="er21012.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Provision Compressors-->
+			<item audio="er21013.mp3" wrongAudio="er21015.mp3" rigthAudio="er21014.mp3" afterWrong="er21016.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Diesel Generators-->
+			<item audio="er21017.mp3" wrongAudio="er21019.mp3" rigthAudio="er21018.mp3" afterWrong="er21020.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Coolers-->
+			<item audio="er21021.mp3" wrongAudio="er21023.mp3" rigthAudio="er21022.mp3" afterWrong="er21024.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+		
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page2Bg">
+			
+			<!--Purifier-->
+			<item audio="er21025.mp3" wrongAudio="er21027.mp3" rigthAudio="er21026.mp3" afterWrong="er21028.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Auxiliary Boiler-->
+			<item audio="er21029.mp3" wrongAudio="er21031.mp3" rigthAudio="er21030.mp3" afterWrong="er21032.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Exhaust Gas Boiler-->
+			<item audio="er21033.mp3" wrongAudio="er21035.mp3" rigthAudio="er21034.mp3" afterWrong="er21036.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Pumps-->
+			<item audio="er21037.mp3" wrongAudio="er21039.mp3" rigthAudio="er21038.mp3" afterWrong="er21040.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Oil Water Separator-->
+			<item audio="er21041.mp3" wrongAudio="er21043.mp3" rigthAudio="er21042.mp3" afterWrong="er21044.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Crankcase-->
+			<item audio="er21045.mp3" wrongAudio="er21047.mp3" rigthAudio="er21046.mp3" afterWrong="er21048.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+
+		<list:items boolean:showSlots="true" boolean:customSlotsOn="false" boolean:textOnBubble="true" boolean:organized="false"
+				boolean:queueFX="true" startAudio="" boolean:playwrongAudioAfterCorrect="false" background="page3Bg">
+			
+			<!--Main Air Compressors-->
+			<item audio="er21049.mp3" wrongAudio="er21051.mp3" rigthAudio="er21050.mp3" afterWrong="er21052.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+			<!--Air Conditioning Compressors-->
+			<item audio="er21053.mp3" wrongAudio="er21055.mp3" rigthAudio="er21054.mp3" afterWrong="er21056.mp3">
+				<text><![CDATA[]]></text>
+				<bblText><![CDATA[]]></bblText>
+			</item>
+		</list:items>
+	</list:items>
+</root>

@@ -1,0 +1,73 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+	<list:points number:max="44" number:correct="1" number:wrong="-1">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+		
+	<list:items boolean:linedAudios="false" boolean:shuffle="true" boolean:use3dFx="true" boolean:playAudioOnCorrect="true" boolean:checkOne="true" boolean:emptyBlocks="true" boolean:playAllOnComplete="true" boolean:showReflection="false">
+		<item>
+			<image:bg x="158" y="178">page1.png</image:bg>
+			<text><![CDATA[The boat is |near*on*in| the bridge. It is moving |towards*past*after| the bridge. It is going to sail |under*over*above| the bridge. The bridge lies |between*among*behind| two sides of the estuary. There are clouds |in*under*by| the sky. There are no waves |in*next to*between| the bay.]]></text>
+			<list:audio>
+				<item audio="tw32001.mp3" text="" />
+				<item audio="tw32002.mp3" text="" />
+				<item audio="tw32003.mp3" text="" />
+				<item audio="tw32004.mp3" text="" />
+				<item audio="tw32005.mp3" text="" />
+				<item audio="tw32006.mp3" text="" />
+			</list:audio>
+		</item>
+		<item>
+			<image:bg x="111" y="129">page2.png</image:bg>
+			<text><![CDATA[These ships are |at*under*in| sea. There are some waves |on*in*by| the surface of the sea.]]></text>
+			<list:audio>
+				<item audio="tw32007.mp3" text="" />
+				<item audio="tw32008.mp3" text="" />
+			</list:audio>
+		</item>
+		<item>
+			<image:bg x="126" y="152">page3.png</image:bg>
+			<text><![CDATA[There is a passenger ship |at*on*behind| the quay. She is |in*before*between| the port. She is moored |to*behind*with| the quay.]]></text>
+			<list:audio>
+				<item audio="tw32009.mp3" text="" />
+				<item audio="tw32010.mp3" text="" />
+				<item audio="tw32011.mp3" text="" />
+			</list:audio>
+		</item>
+		<item>
+			<image:bg x="134" y="128">page4.png</image:bg>
+			<text><![CDATA[The ship is listing |in*under*for| heavy weather.]]></text>
+			<list:audio>
+				<item audio="tw32012.mp3" text="" />
+			</list:audio>
+		</item>
+		<item>
+			<image:bg x="88" y="129">page5.png</image:bg>
+			<text><![CDATA[Ships are moving slowly |in*on*at| the Suez Canal.]]></text>
+			<list:audio>
+				<item audio="tw32013.mp3" text="" />
+			</list:audio>
+		</item>
+		<item>
+			<image:bg x="109" y="134">page6.png</image:bg>
+			<text><![CDATA[Containers are loaded |on*for*from| deck.]]></text>
+			<list:audio>
+				<item audio="tw32014.mp3" text="" />
+			</list:audio>
+		</item>
+	</list:items>
+</root>

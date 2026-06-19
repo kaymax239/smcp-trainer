@@ -1,0 +1,90 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<list:points number:max="16" number:correct="1" number:wrong="0">
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+		<range>
+			<sound></sound>
+			<image></image>
+		</range>
+	</list:points>
+	<rightAudio audio="nosound.mp3" />
+	<wrongAudio audio="nosound.mp3" />
+	
+	
+	<items boolean:pages="true" boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true" />
+	<list:pages boolean:playOnMouseDown="true" boolean:playOnComplete="false" boolean:playAfterCorrect="true">
+		<list:items boolean:lockLeft="true">
+			<item>
+				<block1 audio="mei83001.mp3"><![CDATA[to emit]]></block1>
+				<block2 audio="mei83002.mp3"><![CDATA[emission]]></block2>
+			</item>
+			<item>
+				<block1 audio="mei83003.mp3"><![CDATA[to mix]]></block1>
+				<block2 audio="mei83004.mp3"><![CDATA[mixture]]></block2>
+			</item>
+			<item>
+				<block1 audio="mei83005.mp3"><![CDATA[to reduce]]></block1>
+				<block2 audio="mei83006.mp3"><![CDATA[reduction]]></block2>
+			</item>		
+			<item>
+				<block1 audio="mei83007.mp3"><![CDATA[to propel]]></block1>
+				<block2 audio="mei83008.mp3"><![CDATA[propulsion]]></block2>
+			</item>		
+			<item>
+				<block1 audio="mei83009.mp3"><![CDATA[to be efficient]]></block1>
+				<block2 audio="mei83010.mp3"><![CDATA[efficiency]]></block2>
+			</item>	
+		</list:items>
+		<list:items>
+			<item>
+				<block1 audio="mei83011.mp3"><![CDATA[to be aware]]></block1>
+				<block2 audio="mei83012.mp3"><![CDATA[awareness]]></block2>
+			</item>		
+			<item>
+				<block1 audio="mei83013.mp3"><![CDATA[to distil]]></block1>
+				<block2 audio="mei83014.mp3"><![CDATA[distillation]]></block2>
+			</item>		
+			<item>
+				<block1 audio="mei83015.mp3"><![CDATA[to pollute]]></block1>
+				<block2 audio="mei83016.mp3"><![CDATA[pollutant]]></block2>
+			</item>		
+			<item>
+				<block1 audio="mei83017.mp3"><![CDATA[to install]]></block1>
+				<block2 audio="mei83018.mp3"><![CDATA[installation]]></block2>
+			</item>		
+			<item>
+				<block1 audio="mei83019.mp3"><![CDATA[to control]]></block1>
+				<block2 audio="mei83020.mp3"><![CDATA[control]]></block2>
+			</item>	
+		</list:items>
+		<list:items>	
+			<item>
+				<block1 audio="mei83021.mp3"><![CDATA[to inject]]></block1>
+				<block2 audio="mei83022.mp3"><![CDATA[injection]]></block2>
+			</item>		
+			<item>
+				<block1 audio="mei83023.mp3"><![CDATA[to release]]></block1>
+				<block2 audio="mei83024.mp3"><![CDATA[release]]></block2>
+			</item>		
+			<item>
+				<block1 audio="mei83025.mp3"><![CDATA[to monitor]]></block1>
+				<block2 audio="mei83026.mp3"><![CDATA[monitor]]></block2>
+			</item>		
+			<item>
+				<block1 audio="mei83029.mp3"><![CDATA[to load]]></block1>
+				<block2 audio="mei83030.mp3"><![CDATA[load]]></block2>
+			</item>	
+			<item>
+				<block1 audio="mei83031.mp3"><![CDATA[to produce]]></block1>
+				<block2 audio="mei83032.mp3"><![CDATA[production]]></block2>
+			</item>		
+		</list:items>
+	</list:pages>
+</root>

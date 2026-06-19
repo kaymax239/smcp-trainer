@@ -1,0 +1,56 @@
+﻿<root xmlns="http://www.lingonet.com/xml" xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+
+	<sound folder="" prefix="" suffix="" />
+	<helloAudio file="" />
+
+	<list:pages boolean:showLast="true">
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">Ostend Coastguard, Ostend Coastguard, Ostend Coastguard. This is MV Marina, MV Marina, MV Marina. How do you read me? Over.<br>MV Marina, MV Marina, MV Marina. This is Ostend Coastguard Ostend Coastguard, Ostend Coastguard. I read you excellent. Go ahead with your message. Over.<br>Ostend Coastguard. This is MV Marina. Located a vessel dumping waste in position 51 degrees 45 minutes North/003 degrees 12 minutes East at 1020 UTC. Repeat 51 degrees 45 minutes North/003 degrees 12 minutes East at 1020 UTC. Over.<br>Ostend Coastguard. This is MV Marina. Yes, I can identify the polluter. Polluter is MV Suzie. Over.<br>MV Marina. This is Ostend Coastguard. What is course and speed of the polluter? Over.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[excellent]]></text>
+					<correct><![CDATA[excellent]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[dumping waste]]></text>
+					<correct><![CDATA[dumping waste]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[identify]]></text>
+					<correct><![CDATA[identify]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[course]]></text>
+					<correct><![CDATA[course]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+		<page tipButton="true" hideCorrect="true">
+			<text>
+			<![CDATA[<textformat leading="12"><font size="14"></font><br><br><font size="13">Ostend Coastguard. This is MV Marina. Course of the polluter is 012 degrees, speed 10 knots. Over.<br>MV Marina. This is Ostend Coastguard. ADVICE. Stay in vicinity of the polluter. I will send coastguard assistance. Over.<br>Ostend Coastguard. This is MV Marina. Message understood.  I will stay in vicinity of the polluter. Out.</font></textformat>]]>
+			</text>
+			<list:bubbles>
+				<bbl>
+					<text><![CDATA[degrees]]></text>
+					<correct><![CDATA[degrees]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[knots]]></text>
+					<correct><![CDATA[knots]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[coastguard]]></text>
+					<correct><![CDATA[coastguard]]></correct>
+				</bbl>
+				<bbl>
+					<text><![CDATA[stay]]></text>
+					<correct><![CDATA[stay]]></correct>
+				</bbl>
+			</list:bubbles>
+		</page>
+	</list:pages>
+</root>
+

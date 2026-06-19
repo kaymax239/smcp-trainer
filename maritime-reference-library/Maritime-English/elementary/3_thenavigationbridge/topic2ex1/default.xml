@@ -1,0 +1,34 @@
+﻿<root 
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:style="http://www.lingonet.com/xml/style"
+	xmlns:image="http://www.lingonet.com/xml/image">
+	
+	<list:pages>
+		<page title="" subtitle="">
+			<list:videos file="videos.xml">
+				<video id="video01">Introduction</video>
+				<video id="video02">Working as a Helmsman</video>
+				<video id="video03">Working as a lookout</video>
+				<video id="video04">Maintenance duties</video>
+				<video id="video05">Personal Qualities and Skills</video>
+			</list:videos>
+		</page>
+	</list:pages>
+	
+	<tasks target="tab">
+		<style folder="res">
+			<image name="background">clear.gif</image>
+			<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+			<fx name="fadeOut" type="fade" from="1" to="0" duration="250" />
+		</style>
+		<items fxIn="fadeIn" fxOut="fadeOut">
+		</items>
+	</tasks>
+	
+	<help>
+		<folder>help/</folder>
+		<file>help.html</file>
+	</help>
+</root>

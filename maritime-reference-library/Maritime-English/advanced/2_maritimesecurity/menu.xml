@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<style folder="res">
+		<font name="LingonetTradeGothic" source="lingonettradegothic.swf" />
+		<image name="background">menu_advanced_2.png</image>
+		<textformat name="menuformat" fontFamily="Trade Gothic" size="16" color="0x000000" bold="false" underline="false" italic="false" align="center" />
+		<textformat name="infoformat" fontFamily="Trade Gothic" size="16" color="0x990032" bold="false" underline="false" italic="false" align="left" />
+		<fx name="fadeIn" type="fade" from="0" to="1" duration="250" />
+		<fx name="fadeOut" type="fade" from="1" to="0" duration="250" />
+		<fx name="slideOut" type="move" x="-720" y="0" duration="250" />
+		<fx name="slideIn" type="move" x="0" y="0" u="-720" v="0" duration="250" />
+		<image name="busy-cursor">busy.gif</image>
+		<image name="return">return.png</image>
+	</style>
+	<items showMasks="false" fxIn="slideIn" fxOut="slideOut">
+	<!--TOPIC 1-->
+		<item opens="swf">
+			<image x="233" y="243" status="undone">res/btn_1.png</image>
+			<image x="233" y="243" status="done">res/btn_1done.png</image>
+			<args>
+				<taskId>70</taskId>
+			</args>
+			<swf>arrangeblocks.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex1/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="263" y="243" status="undone">res/btn_2.png</image>
+			<image x="263" y="243" status="done">res/btn_2done.png</image>
+			<args>
+				<taskId>71</taskId>
+			</args>
+			<swf>gapfillwithspell.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex2/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>	
+		<item opens="swf">
+			<image x="293" y="243" status="undone">res/btn_3.png</image>
+			<image x="293" y="243" status="done">res/btn_3done.png</image>
+			<args>
+				<taskId>72</taskId>
+			</args>
+			<swf>arrangeblocks.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex3/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="323" y="243" status="undone">res/btn_4.png</image>
+			<image x="323" y="243" status="done">res/btn_4done.png</image>
+			<args>
+				<taskId>73</taskId>
+			</args>
+			<swf>gapfillwithspell.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex4/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="353" y="243" status="undone">res/btn_5.png</image>
+			<image x="353" y="243" status="done">res/btn_5done.png</image>
+			<args>
+				<taskId>74</taskId>
+			</args>
+			<swf>matchblocks.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex5/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="383" y="243" status="undone">res/btn_6.png</image>
+			<image x="383" y="243" status="done">res/btn_6done.png</image>
+			<args>
+				<taskId>75</taskId>
+			</args>
+			<swf>arrangeblocks.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex6/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+		<item opens="swf">
+			<image x="413" y="243" status="undone">res/btn_7.png</image>
+			<image x="413" y="243" status="done">res/btn_7done.png</image>
+			<args>
+				<taskId>76</taskId>
+			</args>
+			<swf>textfieldtargets.swf</swf>
+			<dataxml>default.xml</dataxml>
+			<stylexml>style.xml</stylexml>
+			<folder>topic1ex7/</folder>
+			<buttons>
+				<button opens="close">
+					<image x="649" y="488">return</image>
+				</button>
+			</buttons>
+		</item>
+	</items>
+</menu>

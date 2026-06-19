@@ -1,0 +1,169 @@
+<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:boolean="http://www.lingonet.com/xml/boolean" xmlns:number="http://www.lingonet.com/xml/number"
+	  xmlns:meta="http://www.lingonet.com/xml/meta">
+	
+	<list:pages>
+		<list:page meta:randomize="true">
+			<item>
+				<video wrongSlotAudio="">ship_roll1.flv</video>
+				<bubble promptAudio="rolling.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[The ship is rolling when she moves from her starboard side to her portside with the waves.]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="pitching.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="yawing.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="heaving.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="surging.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="swaying.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+		</list:page>
+		<list:page meta:randomize="true">
+			<item>
+				<video wrongSlotAudio="">ship_pitch1.flv</video>
+				<bubble promptAudio="pitching.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[The ship is pitching when her bow and her stern rise and fall with the waves.]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="rolling.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="yawing.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="heaving.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="surging.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="swaying.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+		</list:page>
+		<list:page meta:randomize="true">
+			<item>
+				<video wrongSlotAudio="">ship_yaw1.flv</video>
+				<bubble promptAudio="yawing.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[The ship is yawing when her bow is pushed to starboard and then to port.]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="rolling.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="pitching.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="heaving.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="surging.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="swaying.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+		</list:page>
+		<list:page meta:randomize="true">
+			<item>
+				<video wrongSlotAudio="">ship_heave1.flv</video>
+				<bubble promptAudio="heaving.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[The ship is heaving when she rises up and falls back into a trough.]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="rolling.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="pitching.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="yawing.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="surging.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="swaying.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+		</list:page>
+		<list:page meta:randomize="true">
+			<item>
+				<video wrongSlotAudio="">ship_surge1.flv</video>
+				<bubble promptAudio="surging.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[The ship is surging when she is pushed forward by the waves and then falls back into a trough.]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="rolling.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="pitching.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="yawing.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="heaving.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="swaying.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+		</list:page>
+		<list:page meta:randomize="true">
+			<item>
+				<video wrongSlotAudio="">ship_sway1.flv</video>
+				<bubble promptAudio="swaying.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[The ship is swaying when she moves bodily to starboard and then to port.]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="rolling.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="pitching.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="yawing.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="heaving.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+			<item>
+				<bubble promptAudio="surging.mp3" correctAudio="" errorAudio="" />
+				<correctText><![CDATA[]]></correctText>
+			</item>
+		</list:page>
+		
+	</list:pages>
+</root>

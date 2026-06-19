@@ -1,0 +1,49 @@
+<root xmlns="http://www.lingonet.com/xml"
+	xmlns:list="http://www.lingonet.com/xml/list"
+	xmlns:number="http://www.lingonet.com/xml/number"
+	xmlns:boolean="http://www.lingonet.com/xml/boolean"
+	xmlns:image="http://www.lingonet.com/xml/image">
+
+	<sound folder="audio/" prefix="" suffix="" />
+
+	<list:soundfiles>
+		<audio>ms1002.mp3</audio>
+	</list:soundfiles>
+
+	<list:imagefiles>
+	</list:imagefiles>
+
+	<list:pages>
+		<page mustlisten="true" obfuscate="false" length="51488">
+			<text><![CDATA[According to the IMO, the following preventive measures, which include provision of operational and security arrangements to prevent persons attempting to stow away on board ships from gaining access to port installations and to ships, should be observed.
+
+Recommended practices for ships include the following minimum security arrangements:
+
+•	all doors, hatches and means of access to holds or stores, which are not used during the ship's stay in port, should be locked;
+•	access points to the ship should be kept to a minimum and be adequately secured;
+•	areas seaward of the ship should be adequately secured;
+•	adequate deck watch should be kept;
+•	boardings and disembarkations should, where possible, be tallied by the ships crew or, after agreement with the shipmaster, by others;
+•	adequate means of communication should be maintained; and
+•	at night, adequate lighting should be maintained both inside and along the hull.
+]]></text>
+			<audio fileIndex="0"/>
+			<list:timeline>
+				<text time="150" duration="3000" start="0" end="56" />
+				<text time="3600" duration="5700" start="57" end="179" />
+				<text time="9700" duration="2650" start="180" end="235" />
+				<text time="12650" duration="1100" start="236" end="255" />
+				<text time="14100" duration="4100" start="257" end="341" />
+				<text time="18800" duration="2900" start="343" end="403" />
+				<text time="22050" duration="2900" start="404" end="472" />
+				<text time="25500" duration="3800" start="473" end="555" />
+				<text time="30300" duration="2850" start="556" end="613" />
+				<text time="33700" duration="1700" start="614" end="651" />
+				<text time="35800" duration="4500" start="652" end="736" />
+				<text time="40800" duration="2400" start="737" end="788" />
+				<text time="44250" duration="2500" start="789" end="844" />
+				<text time="47200" duration="4200" start="845" end="931" />
+			</list:timeline>
+		</page>
+	</list:pages>
+</root>

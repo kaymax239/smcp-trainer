@@ -1,0 +1,24 @@
+﻿<root xmlns:list="http://www.lingonet.com/xml/list" xmlns:meta="http://www.lingonet.com/xml/meta" xmlns:boolean="http://www.lingonet.com/xml/boolean">
+	<errorAudio>cloze.mp3</errorAudio>
+	<list:items boolean:pages="true">
+		<list:items>
+			<phrase>
+				<audio>er3006.mp3</audio>
+				<text><![CDATA[Interviewer - Why was the ISPS developed?]]></text>
+			</phrase>
+			<phrase>
+				<audio>msi2001.mp3</audio>
+				<text><![CDATA[Captain James – According to The International Maritime Organisation (<IMO>) "The International Ship and Port Facility Security Code (ISPS Code) is a <comprehensive set of measures> to enhance the <security of ships> and port facilities, developed in response to the <perceived threats> to ships and port facilities in the wake of the 9/11 attacks in the United States".]]></text>
+			</phrase>
+			<phrase>
+				<audio>.mp3</audio>
+				<text><![CDATA[Interviewer – I understand that the development and implementation of the ISPS Code was speeded up, why was that?]]></text>
+			</phrase>
+			<phrase>
+				<audio>msi2002.mp3</audio>
+				<text><![CDATA[Captain James - Development and implementation were speeded up considerably in reaction to the <September 11, 2001 attacks> and the <bombing> of the French oil tanker the Limburg. The U.S. Coast Guard, as the lead agency in the United States delegation to the International Maritime Organization (the IMO), advocated for this.]]></text>
+			</phrase>
+		</list:items>
+		
+	</list:items>
+</root>

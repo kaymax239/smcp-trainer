@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <header />
+  <body>
+    <scene sceneType="PointingNavigating">
+      <name>page08</name>
+      <background>page08/P1160023.JPG</background>
+      <title>Lingowalk Oil Terminal</title>
+      <events>
+        <onEnterScene>
+          <actions type="list" randomize="false">
+            <action actionType="audio">
+              <file>page08/pw023.mp3</file>
+              <text><![CDATA[First, click on a loading arm and then on the hose in the middle.]]></text>
+              <repeatsBeforeText type="number">1</repeatsBeforeText>
+              <requireNext type="boolean">false</requireNext>
+            </action>
+          </actions>
+        </onEnterScene>
+        <onMainQueueStart>
+          <actions type="list" randomize="false">
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:311" y="number:31" />
+                  <point x="number:295" y="number:39" />
+                  <point x="number:269" y="number:46" />
+                  <point x="number:259" y="number:57" />
+                  <point x="number:259" y="number:82" />
+                  <point x="number:266" y="number:168" />
+                  <point x="number:272" y="number:212" />
+                  <point x="number:264" y="number:267" />
+                  <point x="number:261" y="number:294" />
+                  <point x="number:256" y="number:312" />
+                  <point x="number:263" y="number:323" />
+                  <point x="number:280" y="number:319" />
+                  <point x="number:292" y="number:308" />
+                  <point x="number:288" y="number:287" />
+                  <point x="number:283" y="number:264" />
+                  <point x="number:296" y="number:173" />
+                  <point x="number:302" y="number:138" />
+                  <point x="number:306" y="number:162" />
+                  <point x="number:315" y="number:200" />
+                  <point x="number:319" y="number:235" />
+                  <point x="number:313" y="number:250" />
+                  <point x="number:323" y="number:285" />
+                  <point x="number:323" y="number:325" />
+                  <point x="number:315" y="number:335" />
+                  <point x="number:316" y="number:352" />
+                  <point x="number:315" y="number:375" />
+                  <point x="number:306" y="number:401" />
+                  <point x="number:301" y="number:422" />
+                  <point x="number:295" y="number:439" />
+                  <point x="number:298" y="number:454" />
+                  <point x="number:321" y="number:461" />
+                  <point x="number:377" y="number:463" />
+                  <point x="number:402" y="number:463" />
+                  <point x="number:405" y="number:419" />
+                  <point x="number:403" y="number:375" />
+                  <point x="number:402" y="number:335" />
+                  <point x="number:391" y="number:298" />
+                  <point x="number:373" y="number:253" />
+                  <point x="number:352" y="number:199" />
+                  <point x="number:337" y="number:123" />
+                  <point x="number:327" y="number:71" />
+                  <point x="number:321" y="number:32" />
+                </points>
+              </hotspots>
+              <name>a loading arm </name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false" />
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page08/pw024.mp3</file>
+                      <text><![CDATA[Yes, that’s it.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page08/pw025b.mp3</file>
+                      <text><![CDATA[No. The loading arm is the yellow metal arm behind the hoses. The hose which I had in mind is the black one between the blue and the grey ones.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:514" y="number:538" />
+                  <point x="number:515" y="number:508" />
+                  <point x="number:514" y="number:481" />
+                  <point x="number:511" y="number:457" />
+                  <point x="number:505" y="number:430" />
+                  <point x="number:505" y="number:408" />
+                  <point x="number:506" y="number:388" />
+                  <point x="number:512" y="number:365" />
+                  <point x="number:526" y="number:348" />
+                  <point x="number:542" y="number:341" />
+                  <point x="number:555" y="number:340" />
+                  <point x="number:562" y="number:344" />
+                  <point x="number:551" y="number:353" />
+                  <point x="number:537" y="number:358" />
+                  <point x="number:529" y="number:369" />
+                  <point x="number:522" y="number:384" />
+                  <point x="number:519" y="number:408" />
+                  <point x="number:523" y="number:430" />
+                  <point x="number:528" y="number:453" />
+                  <point x="number:533" y="number:481" />
+                  <point x="number:532" y="number:504" />
+                  <point x="number:534" y="number:522" />
+                  <point x="number:533" y="number:537" />
+                </points>
+                <points type="list">
+                  <point x="number:705" y="number:329" />
+                  <point x="number:684" y="number:330" />
+                  <point x="number:664" y="number:335" />
+                  <point x="number:642" y="number:340" />
+                  <point x="number:621" y="number:347" />
+                  <point x="number:602" y="number:349" />
+                  <point x="number:588" y="number:353" />
+                  <point x="number:574" y="number:362" />
+                  <point x="number:566" y="number:370" />
+                  <point x="number:581" y="number:370" />
+                  <point x="number:600" y="number:368" />
+                  <point x="number:617" y="number:363" />
+                  <point x="number:637" y="number:359" />
+                  <point x="number:663" y="number:355" />
+                  <point x="number:682" y="number:350" />
+                  <point x="number:694" y="number:338" />
+                  <point x="number:702" y="number:332" />
+                </points>
+              </hotspots>
+              <name>the hose</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page08/</file>
+                      <text><![CDATA[]]></text>
+                      <repeatsBeforeText type="number">-1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page08/pw024.mp3</file>
+                      <text><![CDATA[Yes, that’s it.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page08/pw025c.mp3</file>
+                      <text><![CDATA[No. The hose which I had in mind is the black one between the blue and the grey ones.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+            <action actionType="hotspot">
+              <hotspots type="list">
+                <points type="list">
+                  <point x="number:647" y="number:441" />
+                  <point x="number:647" y="number:476" />
+                  <point x="number:648" y="number:510" />
+                  <point x="number:652" y="number:534" />
+                  <point x="number:676" y="number:534" />
+                  <point x="number:698" y="number:537" />
+                  <point x="number:717" y="number:538" />
+                  <point x="number:718" y="number:510" />
+                  <point x="number:718" y="number:490" />
+                  <point x="number:719" y="number:460" />
+                  <point x="number:719" y="number:442" />
+                  <point x="number:682" y="number:440" />
+                  <point x="number:653" y="number:439" />
+                </points>
+                <points type="list">
+                  <point x="number:620" y="number:436" />
+                  <point x="number:596" y="number:434" />
+                  <point x="number:584" y="number:424" />
+                  <point x="number:576" y="number:416" />
+                  <point x="number:566" y="number:421" />
+                  <point x="number:559" y="number:432" />
+                  <point x="number:550" y="number:444" />
+                  <point x="number:556" y="number:470" />
+                  <point x="number:565" y="number:489" />
+                  <point x="number:570" y="number:498" />
+                  <point x="number:585" y="number:498" />
+                  <point x="number:606" y="number:499" />
+                  <point x="number:626" y="number:508" />
+                  <point x="number:627" y="number:476" />
+                  <point x="number:626" y="number:448" />
+                  <point x="number:623" y="number:436" />
+                </points>
+              </hotspots>
+              <name>a valve</name>
+              <events>
+                <onPrompt>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page08/pw026.mp3</file>
+                      <text><![CDATA[In the pipelines there are different kinds of valves which route the cargo flow. Can you show me a valve in the photo? It looks like a steering wheel. ]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onPrompt>
+                <onCorrect>
+                  <actions type="list" randomize="false">
+                    <action actionType="loadScene">
+                      <file>page08b.xml</file>
+                    </action>
+                  </actions>
+                </onCorrect>
+                <onError>
+                  <actions type="list" randomize="false">
+                    <action actionType="audio">
+                      <file>page08/pw028.mp3</file>
+                      <text><![CDATA[I don’t think you looked too closely. Please try again.]]></text>
+                      <repeatsBeforeText type="number">1</repeatsBeforeText>
+                      <requireNext type="boolean">false</requireNext>
+                    </action>
+                  </actions>
+                </onError>
+              </events>
+            </action>
+          </actions>
+        </onMainQueueStart>
+        <onMainQueueEmpty>
+          <actions type="list" randomize="false" />
+        </onMainQueueEmpty>
+        <onOptionalQueue>
+          <actions type="list" randomize="false" />
+        </onOptionalQueue>
+        <onForwardButton>
+          <actions type="list" randomize="false" />
+        </onForwardButton>
+        <onBackwardButton>
+          <actions type="list" randomize="false" />
+        </onBackwardButton>
+        <onLeftButton>
+          <actions type="list" randomize="false" />
+        </onLeftButton>
+        <onRightButton>
+          <actions type="list" randomize="false" />
+        </onRightButton>
+        <onExitScene>
+          <actions type="list" randomize="false" />
+        </onExitScene>
+      </events>
+    </scene>
+  </body>
+</root>
