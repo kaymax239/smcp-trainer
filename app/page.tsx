@@ -1,9 +1,10 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { deckLevelOneMissions, type DeckLevelOneMission } from "@/data/deck-level-1-missions";
 
 type Academy = "deck" | "engine" | "ocean";
-type ActiveView = "home" | "mission";
+type ActiveView = "home" | "engineMission" | "deckMission";
 type SystemId = "main-engine" | "auxiliary-engine" | "fuel-separator" | "purifier" | "fresh-water-generator" | "bilge-system";
 
 const defaultAcademy: Academy = "engine";
@@ -24,7 +25,7 @@ const academies: {
     title: "Deck Academy",
     deck: "Bridge Operations",
     description: "Bridge watchkeeping, navigation, VHF reporting, COLREGS decisions, safety and cargo communication.",
-    metric: "5 academic levels"
+    metric: "3 Level 1 missions"
   },
   {
     id: "engine",
@@ -162,9 +163,21 @@ const questions: {
 export default function Home() {
   const [selectedAcademy, setSelectedAcademy] = useState<Academy>(defaultAcademy);
   const [activeView, setActiveView] = useState<ActiveView>("home");
+  const [selectedDeckMission, setSelectedDeckMission] = useState<DeckLevelOneMission>(deckLevelOneMissions[0]);
   const selectedAcademyDetails = academies.find((academy) => academy.id === selectedAcademy) ?? academies[1];
 
-  if (activeView === "mission") {
+  const openDeckMission = (mission: DeckLevelOneMission) => {
+    setSelectedDeckMission(mission);
+    setSelectedAcademy("deck");
+    setActiveView("deckMission");
+  };
+
+  const backToDeckAcademy = () => {
+    setSelectedAcademy("deck");
+    setActiveView("home");
+  };
+
+  if (activeView === "engineMission") {
     return (
       <main className="academyShell">
         <section className="academySection" aria-label="Engine Room Familiarization mission">
@@ -172,6 +185,16 @@ export default function Home() {
             Back to Academy Home
           </button>
           <EngineRoomFamiliarizationMission />
+        </section>
+      </main>
+    );
+  }
+
+  if (activeView === "deckMission") {
+    return (
+      <main className="academyShell">
+        <section className="academySection" aria-label={`${selectedDeckMission.title} mission`}>
+          <DeckMissionPlayer mission={selectedDeckMission} onBack={backToDeckAcademy} />
         </section>
       </main>
     );
@@ -196,7 +219,7 @@ export default function Home() {
             <p className="heroText">
               A dark maritime training console where cadets progress through Deck, Engine and Ocean Intelligence workflows by completing operational missions tied to STCW competencies and IMO SMCP functions.
             </p>
-            <button className="primaryAction" onClick={() => setActiveView("mission")} type="button">
+            <button className="primaryAction" onClick={() => setActiveView("engineMission")} type="button">
               Start Engine Room Familiarization
             </button>
           </div>
@@ -244,7 +267,7 @@ export default function Home() {
 
         {selectedAcademy === "engine" ? <EngineRoomFamiliarizationMission /> : null}
         {selectedAcademy === "ocean" ? <OceanIntelligenceCenter /> : null}
-        {selectedAcademy === "deck" ? <DeckInstitutionalPreview /> : null}
+        {selectedAcademy === "deck" ? <DeckInstitutionalPreview onStartMission={openDeckMission} /> : null}
       </section>
     </main>
   );
@@ -320,27 +343,165 @@ function PathColumn({ activeIndex, items, title }: { activeIndex: number; items:
   );
 }
 
-function DeckInstitutionalPreview() {
+function DeckInstitutionalPreview({ onStartMission }: { onStartMission: (mission: DeckLevelOneMission) => void }) {
   return (
-    <section className="missionShell prototypePanel" aria-label="Deck Academy institutional preview">
+    <section className="missionShell prototypePanel" aria-label="Deck Academy Level 1 missions">
       <div className="missionLead">
         <div>
-          <p className="eyebrow">Deck Academy</p>
-          <h2>Bridge-to-Master learning path</h2>
+          <p className="eyebrow">Deck Academy Level 1</p>
+          <h2>Officer Cadet Foundation</h2>
         </div>
         <div className="missionBadge">
           <span>Status</span>
-          <strong>Curriculum mapped</strong>
+          <strong>3 playable missions</strong>
         </div>
       </div>
       <div className="prototypeGrid">
-        {deckPath.map((level) => (
-          <div className="prototypeTile" key={level}>
-            <span>Deck Path</span>
-            <strong>{level}</strong>
-            <p>Prepared for mission conversion using STCW A-II/1, bridge operations and IMO SMCP reporting functions.</p>
-          </div>
+        {deckLevelOneMissions.map((mission) => (
+          <button className="prototypeTile missionCardButton" key={mission.id} onClick={() => onStartMission(mission)} type="button">
+            <span>{mission.code}</span>
+            <strong>{mission.title}</strong>
+            <p>{mission.missionBriefing}</p>
+            <em>{mission.xp} XP</em>
+          </button>
         ))}
+      </div>
+    </section>
+  );
+}
+
+function DeckMissionPlayer({ mission, onBack }: { mission: DeckLevelOneMission; onBack: () => void }) {
+  const [briefingAccepted, setBriefingAccepted] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [submitted, setSubmitted] = useState(false);
+
+  const activeQuestion = mission.questions[currentQuestion];
+  const selectedAnswer = answers[currentQuestion];
+  const score = useMemo(
+    () => mission.questions.reduce((total, question, index) => total + (answers[index] === question.answer ? 1 : 0), 0),
+    [answers, mission.questions]
+  );
+  const isComplete = Object.keys(answers).length === mission.questions.length;
+  const passed = submitted && score >= passingScore;
+  const earnedXp = passed ? mission.xp : 0;
+
+  const resetMission = () => {
+    setBriefingAccepted(false);
+    setCurrentQuestion(0);
+    setAnswers({});
+    setSubmitted(false);
+  };
+
+  return (
+    <section className="missionShell simulatorMission" aria-labelledby="deck-mission-title">
+      <button className="secondaryAction" onClick={onBack} type="button">
+        Back to Deck Academy
+      </button>
+      <div className="missionLead missionLeadWithAction">
+        <div>
+          <p className="eyebrow">{mission.code}</p>
+          <h2 id="deck-mission-title">{mission.title}</h2>
+        </div>
+        <div className={`missionBadge ${passed ? "passed" : ""}`}>
+          <span>XP Reward</span>
+          <strong>{earnedXp} / {mission.xp} XP</strong>
+        </div>
+      </div>
+
+      <div className="missionLayout deckMissionLayout">
+        <aside className="briefingPanel" aria-label="Deck mission briefing">
+          <div className="panelTitle">
+            <span>Mission Briefing</span>
+            <strong>Deck Academy</strong>
+          </div>
+          <div className="briefingList">
+            <div className="briefingRow">
+              <span>STCW Competency</span>
+              <strong>{mission.stcwCompetency}</strong>
+            </div>
+            <div className="briefingRow">
+              <span>SMCP Function</span>
+              <strong>{mission.smcpFunction}</strong>
+            </div>
+            <div className="briefingRow">
+              <span>XP</span>
+              <strong>{mission.xp} XP</strong>
+            </div>
+            <div className="briefingRow">
+              <span>Pass Mark</span>
+              <strong>8 / 10</strong>
+            </div>
+          </div>
+          <p className="briefingText">{mission.missionBriefing}</p>
+          <button className="primaryAction" onClick={() => setBriefingAccepted(true)} type="button">
+            Start Mission
+          </button>
+        </aside>
+
+        <article className="quizPanel" aria-live="polite">
+          {!briefingAccepted ? (
+            <div className="standbyPanel">
+              <p className="eyebrow">Scenario</p>
+              <h3>{mission.scenario}</h3>
+              <p>Review the briefing, then answer 10 operational questions.</p>
+            </div>
+          ) : null}
+
+          {briefingAccepted && !submitted ? (
+            <div className="questionPanel">
+              <div className="questionHeader">
+                <span>Question {currentQuestion + 1} of {mission.questions.length}</span>
+                <strong>{score} correct so far</strong>
+              </div>
+              <h3>{activeQuestion.prompt}</h3>
+              <div className="answerGrid">
+                {activeQuestion.options.map((option) => (
+                  <button
+                    aria-pressed={selectedAnswer === option}
+                    className={`answerButton ${selectedAnswer === option ? "selected" : ""}`}
+                    key={option}
+                    onClick={() => setAnswers((currentAnswers) => ({ ...currentAnswers, [currentQuestion]: option }))}
+                    type="button"
+                  >
+                    <strong>{option}</strong>
+                  </button>
+                ))}
+              </div>
+              <div className="quizActions">
+                <button className="secondaryAction" disabled={currentQuestion === 0} onClick={() => setCurrentQuestion((question) => Math.max(0, question - 1))} type="button">
+                  Previous
+                </button>
+                {currentQuestion < mission.questions.length - 1 ? (
+                  <button className="primaryAction" disabled={!selectedAnswer} onClick={() => setCurrentQuestion((question) => question + 1)} type="button">
+                    Next Question
+                  </button>
+                ) : (
+                  <button className="primaryAction" disabled={!isComplete} onClick={() => setSubmitted(true)} type="button">
+                    Submit Mission
+                  </button>
+                )}
+              </div>
+            </div>
+          ) : null}
+
+          {submitted ? (
+            <div className="assessmentPanel">
+              <p className="eyebrow">Assessment</p>
+              <h3>{passed ? "Mission Passed" : "Mission Not Passed"}</h3>
+              <div className="assessmentGrid">
+                <span>Score: {score} / {mission.questions.length}</span>
+                <span>Pass Mark: {passingScore} / {mission.questions.length}</span>
+                <span>{passed ? `${mission.xp} XP Awarded` : "0 XP Awarded"}</span>
+                <span>Rank: {cadetLevel}</span>
+              </div>
+              <p className="assessmentNote">{passed ? "Deck Academy progress recorded for Level 1 readiness." : "Try Again"}</p>
+              <button className="primaryAction" onClick={resetMission} type="button">
+                Repeat Mission
+              </button>
+            </div>
+          ) : null}
+        </article>
       </div>
     </section>
   );
@@ -539,6 +700,3 @@ function AssessmentPanel({ earnedXp, onReset, passed, score }: { earnedXp: numbe
     </div>
   );
 }
-
-
-

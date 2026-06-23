@@ -847,3 +847,31 @@ button:disabled {
     flex-direction: column;
   }
 }
+
+.missionCardButton {
+  width: 100%;
+  color: var(--mist);
+  text-align: left;
+  cursor: pointer;
+}
+
+.missionCardButton em {
+  display: block;
+  margin-top: 14px;
+  color: var(--signal);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.missionCardButton:hover {
+  border-color: var(--signal);
+  background: rgba(242, 184, 75, 0.12);
+}
+
+.missionLeadWithAction {
+  margin-top: 16px;
+}
+
+.deckMissionLayout {
+  grid-template-columns: minmax(280px, 0.78fr) minmax(420px, 1fr);
+}
