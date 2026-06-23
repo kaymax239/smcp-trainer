@@ -1,10 +1,13 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { academicPrograms, academicSemesters, type AcademicProgramCode } from "@/data/academic/semesters";
+import { academicSubjects } from "@/data/academic/subjects";
+import { academicTasks, type AcademicTask } from "@/data/academic/tasks";
 import { deckLevelOneMissions, type DeckLevelOneMission } from "@/data/deck-level-1-missions";
 
 type Academy = "deck" | "engine" | "ocean";
-type ActiveView = "home" | "engineMission" | "deckMission";
+type ActiveView = "home" | "engineMission" | "deckMission" | "academicTask";
 type SystemId = "main-engine" | "auxiliary-engine" | "fuel-separator" | "purifier" | "fresh-water-generator" | "bilge-system";
 
 const defaultAcademy: Academy = "engine";
@@ -164,6 +167,10 @@ export default function Home() {
   const [selectedAcademy, setSelectedAcademy] = useState<Academy>(defaultAcademy);
   const [activeView, setActiveView] = useState<ActiveView>("home");
   const [selectedDeckMission, setSelectedDeckMission] = useState<DeckLevelOneMission>(deckLevelOneMissions[0]);
+  const [selectedProgram, setSelectedProgram] = useState<AcademicProgramCode>("MN");
+  const [selectedSemesterId, setSelectedSemesterId] = useState("mn-semester-i");
+  const [selectedSubjectId, setSelectedSubjectId] = useState("mn-s1-maritime-english-i");
+  const [selectedAcademicTask, setSelectedAcademicTask] = useState<AcademicTask>(academicTasks[0]);
   const selectedAcademyDetails = academies.find((academy) => academy.id === selectedAcademy) ?? academies[1];
 
   const openDeckMission = (mission: DeckLevelOneMission) => {
@@ -176,6 +183,22 @@ export default function Home() {
     setSelectedAcademy("deck");
     setActiveView("home");
   };
+
+  const openAcademicTask = (task: AcademicTask) => {
+    setSelectedAcademicTask(task);
+    setSelectedSubjectId(task.subjectId);
+    setActiveView("academicTask");
+  };
+
+  if (activeView === "academicTask") {
+    return (
+      <main className="academyShell">
+        <section className="academySection" aria-label={`${selectedAcademicTask.title} academic task`}>
+          <AcademicTaskPlayer task={selectedAcademicTask} onBack={() => setActiveView("home")} />
+        </section>
+      </main>
+    );
+  }
 
   if (activeView === "engineMission") {
     return (
@@ -228,6 +251,16 @@ export default function Home() {
         </div>
       </section>
 
+      <AcademicProgramDashboard
+        onOpenTask={openAcademicTask}
+        selectedProgram={selectedProgram}
+        selectedSemesterId={selectedSemesterId}
+        selectedSubjectId={selectedSubjectId}
+        setSelectedProgram={setSelectedProgram}
+        setSelectedSemesterId={setSelectedSemesterId}
+        setSelectedSubjectId={setSelectedSubjectId}
+      />
+
       <section className="academySection" aria-label="Institutional academy overview">
         <div className="sectionHeader">
           <div>
@@ -273,6 +306,270 @@ export default function Home() {
   );
 }
 
+function AcademicProgramDashboard({
+  onOpenTask,
+  selectedProgram,
+  selectedSemesterId,
+  selectedSubjectId,
+  setSelectedProgram,
+  setSelectedSemesterId,
+  setSelectedSubjectId
+}: {
+  onOpenTask: (task: AcademicTask) => void;
+  selectedProgram: AcademicProgramCode;
+  selectedSemesterId: string;
+  selectedSubjectId: string;
+  setSelectedProgram: (program: AcademicProgramCode) => void;
+  setSelectedSemesterId: (semesterId: string) => void;
+  setSelectedSubjectId: (subjectId: string) => void;
+}) {
+  const selectedSemester = academicSemesters.find((semester) => semester.id === selectedSemesterId) ?? academicSemesters[4];
+  const semesterSubjects = academicSubjects.filter((subject) => subject.semesterId === selectedSemester.id);
+  const selectedSubject = semesterSubjects.find((subject) => subject.id === selectedSubjectId) ?? semesterSubjects[0];
+  const subjectTasks = academicTasks.filter((task) => task.subjectId === selectedSubject?.id);
+
+  const selectProgram = (program: AcademicProgramCode) => {
+    const firstSemester = academicSemesters.find((semester) => semester.program === program) ?? academicSemesters[0];
+    const firstSubject = academicSubjects.find((subject) => subject.semesterId === firstSemester.id);
+
+    setSelectedProgram(program);
+    setSelectedSemesterId(firstSemester.id);
+    if (firstSubject) {
+      setSelectedSubjectId(firstSubject.id);
+    }
+  };
+
+  const selectSemester = (semesterId: string) => {
+    const firstSubject = academicSubjects.find((subject) => subject.semesterId === semesterId);
+    setSelectedSemesterId(semesterId);
+    if (firstSubject) {
+      setSelectedSubjectId(firstSubject.id);
+    }
+  };
+
+  return (
+    <section className="academicDashboard" aria-labelledby="academic-title">
+      <div className="sectionHeader">
+        <div>
+          <p className="eyebrow">Academic Transformation</p>
+          <h2 id="academic-title">Official programs converted into cadet tasks</h2>
+        </div>
+        <p className="sectionNote">This is not traditional ESL. Cadets learn to become maritime professionals in English through units, topics, tasks, assessments, XP and progress.</p>
+      </div>
+
+      <div className="programGrid">
+        {academicPrograms.map((program) => (
+          <button className={`programCard ${selectedProgram === program.code ? "selected" : ""}`} key={program.code} onClick={() => selectProgram(program.code)} type="button">
+            <span>Program</span>
+            <strong>{program.title}</strong>
+            <p>{program.description}</p>
+          </button>
+        ))}
+      </div>
+
+      <div className="semesterMatrix">
+        {academicPrograms.map((program) => (
+          <section className="semesterColumn" key={program.code} aria-label={`${program.code} semesters`}>
+            <h3>{program.code}</h3>
+            <div className="semesterGrid">
+              {academicSemesters.filter((semester) => semester.program === program.code).map((semester) => (
+                <button
+                  className={`semesterCard ${selectedSemesterId === semester.id ? "selected" : ""}`}
+                  key={semester.id}
+                  onClick={() => {
+                    setSelectedProgram(semester.program);
+                    selectSemester(semester.id);
+                  }}
+                  type="button"
+                >
+                  <span>{semester.label}</span>
+                  <strong>{semester.title}</strong>
+                  <p>{semester.focus}</p>
+                  <em>{semester.xp} XP / {semester.progress}% progress</em>
+                </button>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
+
+      <div className="subjectWorkspace">
+        <aside className="subjectList" aria-label="Subjects in selected semester">
+          <div className="panelTitle">
+            <span>{selectedSemester.program} {selectedSemester.label}</span>
+            <strong>Subjects</strong>
+          </div>
+          {semesterSubjects.map((subject) => (
+            <button className={`subjectCard ${selectedSubjectId === subject.id ? "selected" : ""}`} key={subject.id} onClick={() => setSelectedSubjectId(subject.id)} type="button">
+              <span>{subject.officialArea}</span>
+              <strong>{subject.title}</strong>
+              <small>{subject.stcwAlignment}</small>
+              <em>{subject.status === "prototype" ? "Prototype functional" : "Planned"}</em>
+            </button>
+          ))}
+        </aside>
+
+        {selectedSubject ? (
+          <section className="subjectDetail" aria-label={`${selectedSubject.title} detail`}>
+            <div className="missionLead">
+              <div>
+                <p className="eyebrow">{selectedSubject.officialArea}</p>
+                <h2>{selectedSubject.title}</h2>
+              </div>
+              <div className="missionBadge">
+                <span>Progress</span>
+                <strong>{selectedSubject.progress}% / {selectedSubject.xp} XP</strong>
+              </div>
+            </div>
+            <div className="academicInfoGrid">
+              <AcademicInfoBlock title="Units" items={selectedSubject.units} />
+              <AcademicInfoBlock title="Topics" items={selectedSubject.topics} />
+              <AcademicInfoBlock title="Assessments" items={selectedSubject.assessments} />
+            </div>
+            <div className="taskGrid">
+              {subjectTasks.length > 0 ? subjectTasks.map((task) => (
+                <button className="taskCard" key={task.id} onClick={() => onOpenTask(task)} type="button">
+                  <span>{task.officialTopic}</span>
+                  <strong>{task.title}</strong>
+                  <p>{task.missionBriefing}</p>
+                  <em>{task.xp} XP / {task.progressStatus}</em>
+                </button>
+              )) : (
+                <div className="plannedNotice">
+                  <span>Planned subject</span>
+                  <strong>Tasks will be converted from official topics in a later sprint.</strong>
+                </div>
+              )}
+            </div>
+          </section>
+        ) : null}
+      </div>
+    </section>
+  );
+}
+
+function AcademicInfoBlock({ items, title }: { items: string[]; title: string }) {
+  return (
+    <div className="academicInfoBlock">
+      <span>{title}</span>
+      <ul>
+        {items.map((item) => <li key={item}>{item}</li>)}
+      </ul>
+    </div>
+  );
+}
+
+function AcademicTaskPlayer({ task, onBack }: { task: AcademicTask; onBack: () => void }) {
+  const [writing, setWriting] = useState("");
+  const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [submitted, setSubmitted] = useState(false);
+  const wordCount = writing.trim().split(/\s+/).filter(Boolean).length;
+  const score = task.assessment.reduce((total, question, index) => total + (answers[index] === question.answer ? 1 : 0), 0);
+  const assessmentComplete = Object.keys(answers).length === task.assessment.length;
+  const writingComplete = wordCount >= task.writingExercise.minimumWords;
+  const passed = submitted && score === task.assessment.length && writingComplete;
+
+  const resetTask = () => {
+    setWriting("");
+    setAnswers({});
+    setSubmitted(false);
+  };
+
+  return (
+    <section className="missionShell academicTaskShell" aria-labelledby="academic-task-title">
+      <button className="secondaryAction" onClick={onBack} type="button">Back to Academic Programs</button>
+      <div className="missionLead missionLeadWithAction">
+        <div>
+          <p className="eyebrow">MN Semester I / Maritime English I</p>
+          <h2 id="academic-task-title">{task.title}</h2>
+        </div>
+        <div className={`missionBadge ${passed ? "passed" : ""}`}>
+          <span>XP Awarded</span>
+          <strong>{passed ? task.xp : 0} / {task.xp} XP</strong>
+        </div>
+      </div>
+
+      <div className="academicTaskGrid">
+        <aside className="briefingPanel">
+          <div className="panelTitle">
+            <span>Mission Briefing</span>
+            <strong>{task.officialTopic}</strong>
+          </div>
+          <p className="briefingText">{task.missionBriefing}</p>
+          <div className="videoPlaceholder" aria-label="Instructional video placeholder">
+            <span>Video Placeholder</span>
+            <strong>{task.video.title}</strong>
+            <small>{task.video.duration}</small>
+            <p>{task.video.description}</p>
+            <em>{task.video.futureUrl || "Future video URL field"}</em>
+          </div>
+        </aside>
+
+        <section className="taskLearningPanel">
+          <div className="learningBlock">
+            <span>Vocabulary in context</span>
+            {task.vocabularyInContext.map((item) => (
+              <p key={item.term}><strong>{item.term}:</strong> {item.context}</p>
+            ))}
+          </div>
+          <div className="learningBlock">
+            <span>Writing exercise</span>
+            <p>{task.writingExercise.prompt}</p>
+            <textarea value={writing} onChange={(event) => setWriting(event.target.value)} placeholder="Write your onboard response here." />
+            <div className="writingMeta">Minimum {task.writingExercise.minimumWords} words / Current {wordCount}</div>
+            <details>
+              <summary>Example answer</summary>
+              <p>{task.writingExercise.exampleAnswer}</p>
+            </details>
+          </div>
+          <div className="learningBlock">
+            <span>Operational scenario</span>
+            <p>{task.operationalScenario}</p>
+          </div>
+          <div className="learningBlock">
+            <span>Practice questions</span>
+            <ul>{task.practiceQuestions.map((question) => <li key={question}>{question}</li>)}</ul>
+          </div>
+        </section>
+
+        <section className="quizPanel academicAssessment" aria-live="polite">
+          <div className="questionHeader">
+            <span>Assessment</span>
+            <strong>{score} / {task.assessment.length}</strong>
+          </div>
+          {task.assessment.map((question, index) => (
+            <div className="miniQuestion" key={question.prompt}>
+              <h3>{question.prompt}</h3>
+              <div className="answerGrid compactAnswers">
+                {question.options.map((option) => (
+                  <button
+                    aria-pressed={answers[index] === option}
+                    className={`answerButton ${answers[index] === option ? "selected" : ""}`}
+                    key={option}
+                    onClick={() => setAnswers((current) => ({ ...current, [index]: option }))}
+                    type="button"
+                  >
+                    <strong>{option}</strong>
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
+          {submitted ? (
+            <div className="assessmentPanel">
+              <h3>{passed ? "Task Passed" : "Task Not Passed"}</h3>
+              <p className="assessmentNote">{passed ? `${task.xp} XP awarded. Progress status: ${task.progressStatus}.` : "Complete the writing minimum and answer all assessment questions correctly."}</p>
+            </div>
+          ) : null}
+          <div className="quizActions">
+            <button className="secondaryAction" onClick={resetTask} type="button">Repeat Task</button>
+            <button className="primaryAction" disabled={!assessmentComplete || !writingComplete} onClick={() => setSubmitted(true)} type="button">Submit Assessment</button>
+          </div>
+        </section>
+      </div>
+    </section>
+  );
+}
 function CadetStatus() {
   return (
     <aside className="cadetPanel" aria-label="Cadet progress summary">

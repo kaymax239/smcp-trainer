@@ -875,3 +875,255 @@ button:disabled {
 .deckMissionLayout {
   grid-template-columns: minmax(280px, 0.78fr) minmax(420px, 1fr);
 }
+
+.academicDashboard {
+  width: min(1180px, 100%);
+  margin: 18px auto 0;
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(7, 17, 31, 0.92);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+
+.programGrid,
+.semesterMatrix,
+.subjectWorkspace,
+.academicInfoGrid,
+.taskGrid,
+.academicTaskGrid {
+  display: grid;
+  gap: 16px;
+}
+
+.programGrid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.programCard,
+.semesterCard,
+.subjectCard,
+.taskCard,
+.plannedNotice,
+.academicInfoBlock,
+.learningBlock,
+.videoPlaceholder {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--mist);
+}
+
+.programCard,
+.semesterCard,
+.subjectCard,
+.taskCard {
+  padding: 18px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.programCard.selected,
+.semesterCard.selected,
+.subjectCard.selected,
+.taskCard:hover {
+  border-color: var(--signal);
+  background: rgba(242, 184, 75, 0.13);
+}
+
+.programCard span,
+.semesterCard span,
+.subjectCard span,
+.taskCard span,
+.academicInfoBlock span,
+.learningBlock span,
+.videoPlaceholder span,
+.plannedNotice span,
+.writingMeta {
+  color: var(--signal);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.programCard strong,
+.semesterCard strong,
+.subjectCard strong,
+.taskCard strong,
+.plannedNotice strong,
+.videoPlaceholder strong {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.18;
+}
+
+.programCard p,
+.semesterCard p,
+.taskCard p,
+.videoPlaceholder p,
+.learningBlock p,
+.subjectCard small {
+  display: block;
+  margin: 10px 0 0;
+  color: #c7d5e1;
+  line-height: 1.5;
+}
+
+.semesterMatrix {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.semesterColumn h3 {
+  margin: 0 0 12px;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.semesterGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.semesterCard em,
+.subjectCard em,
+.taskCard em,
+.videoPlaceholder em {
+  display: block;
+  margin-top: 12px;
+  color: #8fe0da;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.subjectWorkspace {
+  grid-template-columns: minmax(280px, 0.42fr) minmax(0, 1fr);
+  margin-top: 20px;
+}
+
+.subjectList {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+}
+
+.subjectDetail {
+  min-width: 0;
+}
+
+.academicInfoGrid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.academicInfoBlock,
+.learningBlock,
+.plannedNotice {
+  padding: 16px;
+}
+
+.academicInfoBlock ul,
+.learningBlock ul {
+  margin: 12px 0 0;
+  padding-left: 18px;
+  color: #d7dee8;
+  line-height: 1.55;
+}
+
+.taskGrid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.academicTaskGrid {
+  grid-template-columns: minmax(260px, 0.58fr) minmax(360px, 1fr) minmax(320px, 0.86fr);
+  margin-top: 22px;
+}
+
+.videoPlaceholder {
+  margin-top: 16px;
+  padding: 16px;
+  background:
+    linear-gradient(135deg, rgba(18, 52, 77, 0.92), rgba(15, 33, 51, 0.94)),
+    repeating-linear-gradient(45deg, transparent 0, transparent 12px, rgba(255, 255, 255, 0.06) 13px, transparent 14px);
+}
+
+.videoPlaceholder small {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.26);
+  color: var(--signal);
+  font-weight: 900;
+}
+
+.taskLearningPanel {
+  display: grid;
+  gap: 14px;
+}
+
+.learningBlock textarea {
+  width: 100%;
+  min-height: 154px;
+  margin-top: 12px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
+  background: rgba(7, 17, 31, 0.78);
+  color: #ffffff;
+  font: inherit;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+.learningBlock details {
+  margin-top: 12px;
+  color: #d7dee8;
+}
+
+.learningBlock summary {
+  color: var(--signal);
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.academicAssessment {
+  align-self: start;
+}
+
+.miniQuestion {
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.miniQuestion h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.compactAnswers {
+  grid-template-columns: 1fr;
+  margin-top: 12px;
+}
+
+.compactAnswers .answerButton {
+  min-height: auto;
+}
+
+@media (max-width: 980px) {
+  .programGrid,
+  .semesterMatrix,
+  .subjectWorkspace,
+  .academicInfoGrid,
+  .taskGrid,
+  .academicTaskGrid {
+    grid-template-columns: 1fr;
+  }
+}
