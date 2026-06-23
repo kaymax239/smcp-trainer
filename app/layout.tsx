@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "SMCP Trainer",
-  description: "Maritime English Simulator for SMCP training"
+  description: "Professional maritime simulator for STCW and IMO SMCP competency training"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -13,3 +13,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+

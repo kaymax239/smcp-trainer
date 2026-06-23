@@ -1,364 +1,544 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { deckRanks, engineRanks } from "@/data/ranks";
+import { useMemo, useState } from "react";
 
-type Track = "deck" | "engine" | null;
-type Step = "home" | "dashboard" | "mission";
-type MissionStage = "briefing" | "questions" | "workshop" | "equipment" | "complete";
+type Academy = "deck" | "engine" | "ocean";
+type ActiveView = "home" | "mission";
+type SystemId = "main-engine" | "auxiliary-engine" | "fuel-separator" | "purifier" | "fresh-water-generator" | "bilge-system";
 
-const universityName = "Universidad Maritima y Portuaria de Mexico";
-const missionRewardXp = 50;
+const defaultAcademy: Academy = "engine";
+const passingScore = 8;
+const missionXp = 100;
+const cadetXp = 100;
+const cadetLevel = "Cadet Recruit";
 
-const questions = [
+const academies: {
+  id: Academy;
+  title: string;
+  deck: string;
+  description: string;
+  metric: string;
+}[] = [
   {
-    prompt: "What is the vessel's departure status?",
-    options: ["Departing today", "Departing in seven days", "Arriving tomorrow"],
-    answer: "Departing in seven days"
+    id: "deck",
+    title: "Deck Academy",
+    deck: "Bridge Operations",
+    description: "Bridge watchkeeping, navigation, VHF reporting, COLREGS decisions, safety and cargo communication.",
+    metric: "5 academic levels"
   },
   {
-    prompt: "Who is conducting the safety briefing?",
-    options: ["Robert Hayes", "Captain David Jones", "Chief Engineer"],
-    answer: "Captain David Jones"
+    id: "engine",
+    title: "Engine Academy",
+    deck: "Machinery Operations",
+    description: "Engine-room familiarization, machinery watch support, bridge-engine orders, alarms and emergency reports.",
+    metric: "First mission playable"
   },
   {
-    prompt: "What is the main priority before departure?",
-    options: ["Cargo speed", "Safety", "Shore leave"],
-    answer: "Safety"
+    id: "ocean",
+    title: "Ocean Intelligence Center",
+    deck: "Readiness Intelligence",
+    description: "Competency maps, mission intelligence, weather board, incident archive and final checkride readiness.",
+    metric: "Prototype workspace"
   }
 ];
 
-const equipment = ["Hard Hat", "Safety Shoes", "Gloves", "Radio", "Life Jacket"];
+const deckPath = [
+  "Officer Cadet Foundation",
+  "Bridge Watchkeeping",
+  "Navigation Officer",
+  "Chief Officer Preparation",
+  "Master Mariner Leadership"
+];
+
+const enginePath = [
+  "Engine Room Orientation",
+  "Engine Watch Support",
+  "Bridge-Engine Communication",
+  "Engine Room Emergency Response",
+  "Pollution & Security",
+  "Final Checkride"
+];
+
+const intelligenceModules = [
+  {
+    title: "STCW Competency Map",
+    detail: "Maps missions to deck, engine, safety, emergency, pollution and watchkeeping competencies."
+  },
+  {
+    title: "SMCP Function Map",
+    detail: "Organizes communication by operational use: reporting, confirmation, distress, VTS and bridge-engine."
+  },
+  {
+    title: "Mission Intelligence",
+    detail: "Briefs the cadet on vessel, department, location, risk factors and required performance standard."
+  },
+  {
+    title: "Weather Board",
+    detail: "Supports visibility, wind, sea-state and heavy-weather decision scenarios."
+  },
+  {
+    title: "Incident Archive",
+    detail: "Stores fire, pollution, security, injury and abnormal machinery reports for debrief and remediation."
+  }
+];
+
+const missionSystems: {
+  id: SystemId;
+  label: string;
+  station: string;
+  cue: string;
+  description: string;
+}[] = [
+  {
+    id: "main-engine",
+    label: "Main Engine",
+    station: "Centerline Deck 1",
+    cue: "Largest propulsion unit coupled to the shaft line.",
+    description: "Primary propulsion machinery that drives the propeller shaft."
+  },
+  {
+    id: "auxiliary-engine",
+    label: "Auxiliary Engine",
+    station: "Generator Flat",
+    cue: "Diesel generator set supplying electrical power.",
+    description: "Engine used to run an alternator for ship service electrical load."
+  },
+  {
+    id: "fuel-separator",
+    label: "Fuel Separator",
+    station: "Fuel Treatment Skid",
+    cue: "Centrifugal unit cleaning fuel before service tanks.",
+    description: "Removes water and solids from fuel oil before it reaches service use."
+  },
+  {
+    id: "purifier",
+    label: "Purifier",
+    station: "Lube Oil Treatment",
+    cue: "Centrifugal cleaner for lubricating oil service.",
+    description: "Cleans oil by separating contaminants and water from the oil system."
+  },
+  {
+    id: "fresh-water-generator",
+    label: "Fresh Water Generator",
+    station: "Evaporator Bay",
+    cue: "Produces fresh water from seawater using heat and vacuum.",
+    description: "Shipboard plant that converts seawater into usable fresh water."
+  },
+  {
+    id: "bilge-system",
+    label: "Bilge System",
+    station: "Bilge Well / Pump Bay",
+    cue: "Collects and transfers oily water from low engine-room spaces.",
+    description: "Piping, wells, alarms, and pumps used to manage bilge water."
+  }
+];
+
+const briefing = [
+  ["Rank", cadetLevel],
+  ["Mission", "Engine Room Familiarization"],
+  ["Vessel", "MV Kaymax Explorer"],
+  ["Location", "Engine Room - Lower Platform"],
+  ["Standard", "STCW A-III/1 Foundation"],
+  ["Pass Mark", "80 percent / 100 XP"]
+];
+
+const questions: {
+  id: number;
+  prompt: string;
+  answer: SystemId;
+}[] = [
+  { id: 1, prompt: "Identify the largest propulsion unit connected to the shaft line.", answer: "main-engine" },
+  { id: 2, prompt: "Which system supplies ship service electrical power through a diesel generator set?", answer: "auxiliary-engine" },
+  { id: 3, prompt: "Which unit cleans fuel oil before it is sent to service use?", answer: "fuel-separator" },
+  { id: 4, prompt: "Which machine removes contaminants from lubricating oil?", answer: "purifier" },
+  { id: 5, prompt: "Which plant produces usable fresh water from seawater?", answer: "fresh-water-generator" },
+  { id: 6, prompt: "Which system collects liquid from the lowest engine-room spaces?", answer: "bilge-system" },
+  { id: 7, prompt: "The Second Engineer points to the fuel treatment skid. What should the cadet identify?", answer: "fuel-separator" },
+  { id: 8, prompt: "The diagram shows a pump bay connected to wells and alarms. Which system is this?", answer: "bilge-system" },
+  { id: 9, prompt: "Which item should a cadet associate with evaporation, vacuum, and seawater conversion?", answer: "fresh-water-generator" },
+  { id: 10, prompt: "Which item is the primary propulsion machinery of the vessel?", answer: "main-engine" }
+];
 
 export default function Home() {
-  const [track, setTrack] = useState<Track>(null);
-  const [step, setStep] = useState<Step>("home");
-  const [xp, setXp] = useState(0);
-  const [missionsCompleted, setMissionsCompleted] = useState(0);
+  const [selectedAcademy, setSelectedAcademy] = useState<Academy>(defaultAcademy);
+  const [activeView, setActiveView] = useState<ActiveView>("home");
+  const selectedAcademyDetails = academies.find((academy) => academy.id === selectedAcademy) ?? academies[1];
 
-  useEffect(() => {
-    const savedXp = Number(localStorage.getItem("smcp_xp") || "0");
-    const savedMissions = Number(localStorage.getItem("smcp_missions_completed") || "0");
-    setXp(savedXp);
-    setMissionsCompleted(savedMissions);
-  }, []);
-
-  function completeMission() {
-    const newXp = Math.max(xp, missionRewardXp);
-    const newMissions = Math.max(missionsCompleted, 1);
-    setXp(newXp);
-    setMissionsCompleted(newMissions);
-    localStorage.setItem("smcp_xp", String(newXp));
-    localStorage.setItem("smcp_missions_completed", String(newMissions));
-  }
-
-  const ranks = track === "engine" ? engineRanks : deckRanks;
-  const rank = ranks[0];
-  const department = track === "engine" ? "Engine Department" : "Deck Department";
-  const cadetTitle = track === "engine" ? "Engine Cadet" : "Officer Cadet";
-
-  function selectTrack(nextTrack: Exclude<Track, null>) {
-    setTrack(nextTrack);
-    setStep("dashboard");
+  if (activeView === "mission") {
+    return (
+      <main className="academyShell">
+        <section className="academySection" aria-label="Engine Room Familiarization mission">
+          <button className="secondaryAction" onClick={() => setActiveView("home")} type="button">
+            Back to Academy Home
+          </button>
+          <EngineRoomFamiliarizationMission />
+        </section>
+      </main>
+    );
   }
 
   return (
-    <main className="appShell">
-      <section className="heroPanel">
-        <header className="universityBanner">
-          <div className="crest">SMCP</div>
+    <main className="academyShell">
+      <section className="heroSection" aria-labelledby="hero-title">
+        <nav className="topBar" aria-label="Training simulator header">
+          <div className="brandMark">SMCP</div>
           <div>
-            <p className="bannerSmall">Maritime English Training Platform</p>
-            <h1>{universityName}</h1>
+            <p>Institutional Demo</p>
+            <strong>Digital Maritime Academy MVP</strong>
           </div>
-        </header>
+        </nav>
 
-        {step === "home" && <HomeScreen onSelect={selectTrack} />}
+        <div className="heroGrid">
+          <div className="heroCopy">
+            <p className="eyebrow">STCW + IMO SMCP Readiness Platform</p>
+            <h1 id="hero-title">SMCP Trainer</h1>
+            <p className="subtitle">Mission-based maritime academy simulator</p>
+            <p className="heroText">
+              A dark maritime training console where cadets progress through Deck, Engine and Ocean Intelligence workflows by completing operational missions tied to STCW competencies and IMO SMCP functions.
+            </p>
+            <button className="primaryAction" onClick={() => setActiveView("mission")} type="button">
+              Start Engine Room Familiarization
+            </button>
+          </div>
 
-        {step === "dashboard" && track && (
-          <DashboardScreen
-            department={department}
-            cadetTitle={cadetTitle}
-            rank={rank.name}
-            ranks={ranks}
-            xp={xp}
-            missionsCompleted={missionsCompleted}
-            onStart={() => setStep("mission")}
-            onBack={() => {
-              setTrack(null);
-              setStep("home");
-            }}
-          />
-        )}
+          <CadetStatus />
+        </div>
+      </section>
 
-        {step === "mission" && track && (
-          <MissionScreen
-            department={department}
-            cadetTitle={cadetTitle}
-            onMissionComplete={completeMission}
-            onBack={() => setStep("dashboard")}
-          />
-        )}
+      <section className="academySection" aria-label="Institutional academy overview">
+        <div className="sectionHeader">
+          <div>
+            <p className="eyebrow">Academy System</p>
+            <h2>Three training environments</h2>
+          </div>
+          <p className="sectionNote">Built for a 3-minute executive walkthrough: vision, pathways, intelligence layer and one playable mission.</p>
+        </div>
+
+        <div className="academyGrid">
+          {academies.map((academy) => {
+            const isSelected = selectedAcademy === academy.id;
+
+            return (
+              <button
+                aria-pressed={isSelected}
+                className={`academyCard ${isSelected ? "selected" : ""}`}
+                key={academy.id}
+                onClick={() => setSelectedAcademy(academy.id)}
+                type="button"
+              >
+                <span>{academy.deck}</span>
+                <strong>{academy.title}</strong>
+                <small>{academy.description}</small>
+                <em>{academy.metric}</em>
+              </button>
+            );
+          })}
+        </div>
+
+        <CareerPathDashboard />
+
+        <div className="missionBadge academyStatus" aria-live="polite">
+          <span>Active View</span>
+          <strong>{selectedAcademyDetails.title}</strong>
+        </div>
+
+        {selectedAcademy === "engine" ? <EngineRoomFamiliarizationMission /> : null}
+        {selectedAcademy === "ocean" ? <OceanIntelligenceCenter /> : null}
+        {selectedAcademy === "deck" ? <DeckInstitutionalPreview /> : null}
       </section>
     </main>
   );
 }
 
-function HomeScreen({ onSelect }: { onSelect: (track: "deck" | "engine") => void }) {
+function CadetStatus() {
   return (
-    <section className="homeGrid">
-      <div className="introBlock">
-        <p className="eyebrow">SMCP Trainer</p>
-        <h2>Train like a cadet. Communicate like an officer.</h2>
-        <p>
-          Start your Maritime English simulator. Choose your department, enter the Cadet Dashboard, and begin your first bridge or engine-room mission.
-        </p>
+    <aside className="cadetPanel" aria-label="Cadet progress summary">
+      <div className="panelHeader">
+        <span>Cadet Record</span>
+        <strong>Active</strong>
       </div>
-
-      <div className="rankBoard">
-        <h3>Rank Path</h3>
-        <div className="rankColumns">
-          <div>
-            <h4>Deck</h4>
-            {deckRanks.map((rank) => <span key={rank.name}>{rank.insignia} {rank.name}</span>)}
-          </div>
-          <div>
-            <h4>Engine</h4>
-            {engineRanks.map((rank) => <span key={rank.name}>{rank.insignia} {rank.name}</span>)}
-          </div>
+      <div className="cadetRank">
+        <span>Current Level</span>
+        <strong>{cadetLevel}</strong>
+      </div>
+      <div className="xpMeter" aria-label="Cadet XP progress">
+        <div style={{ width: `${Math.min(100, cadetXp / 2.5)}%` }} />
+      </div>
+      <div className="scopeGrid">
+        <div>
+          <span>XP</span>
+          <strong>{cadetXp} / 250</strong>
+        </div>
+        <div>
+          <span>Next Gate</span>
+          <strong>Junior Cadet</strong>
+        </div>
+        <div>
+          <span>Standard</span>
+          <strong>STCW</strong>
+        </div>
+        <div>
+          <span>Language</span>
+          <strong>IMO SMCP</strong>
         </div>
       </div>
+    </aside>
+  );
+}
 
-      <div className="careerButtons">
-        <button className="careerCard deck" onClick={() => onSelect("deck")}>
-          <span className="careerIcon">Deck</span>
-          <strong>Deck Cadet</strong>
-          <small>Pilot / Bridge Training</small>
-        </button>
-        <button className="careerCard engine" onClick={() => onSelect("engine")}>
-          <span className="careerIcon">Engine</span>
-          <strong>Engine Cadet</strong>
-          <small>Mechanic / Engine-Room Training</small>
-        </button>
+function CareerPathDashboard() {
+  return (
+    <section className="careerDashboard" aria-labelledby="career-title">
+      <div className="dashboardHeader">
+        <div>
+          <p className="eyebrow">Career Path Dashboard</p>
+          <h2 id="career-title">Cadet progression map</h2>
+        </div>
+        <div className="dashboardSeal">MVP</div>
+      </div>
+      <div className="pathGrid">
+        <PathColumn title="Deck Academy" items={deckPath} activeIndex={0} />
+        <PathColumn title="Engine Academy" items={enginePath} activeIndex={0} />
       </div>
     </section>
   );
 }
 
-function DashboardScreen({
-  department,
-  cadetTitle,
-  rank,
-  ranks,
-  xp,
-  missionsCompleted,
-  onStart,
-  onBack
-}: {
-  department: string;
-  cadetTitle: string;
-  rank: string;
-  ranks: { name: string; minXp: number; insignia: string }[];
-  xp: number;
-  missionsCompleted: number;
-  onStart: () => void;
-  onBack: () => void;
-}) {
+function PathColumn({ activeIndex, items, title }: { activeIndex: number; items: string[]; title: string }) {
   return (
-    <section className="dashboardGrid">
-      <div className="dashboardMain">
-        <button className="backButton" onClick={onBack}>Change Department</button>
-        <p className="eyebrow">Cadet Dashboard</p>
-        <h2>You are now a {cadetTitle}.</h2>
-        <p>Welcome to the {department}. Continue your training or start your first SMCP mission.</p>
-        <div className="actions">
-          <button className="primaryButton" onClick={onStart}>Start Your Training</button>
-          <button className="secondaryButton" onClick={onStart}>Continue Your Training</button>
+    <div className="pathColumn">
+      <h3>{title}</h3>
+      <ol>
+        {items.map((item, index) => (
+          <li className={index === activeIndex ? "active" : ""} key={item}>
+            <span>{String(index + 1).padStart(2, "0")}</span>
+            <strong>{item}</strong>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
+function DeckInstitutionalPreview() {
+  return (
+    <section className="missionShell prototypePanel" aria-label="Deck Academy institutional preview">
+      <div className="missionLead">
+        <div>
+          <p className="eyebrow">Deck Academy</p>
+          <h2>Bridge-to-Master learning path</h2>
+        </div>
+        <div className="missionBadge">
+          <span>Status</span>
+          <strong>Curriculum mapped</strong>
         </div>
       </div>
-
-      <aside className="statusCard">
-        <h3>Cadet Status</h3>
-        <div className="statusRow"><span>Current Rank</span><strong>{rank}</strong></div>
-        <div className="statusRow"><span>XP</span><strong>{xp}</strong></div>
-        <div className="statusRow"><span>Completed Missions</span><strong>{missionsCompleted}</strong></div>
-        <div className="statusRow"><span>Certificates</span><strong>0</strong></div>
-      </aside>
-
-      <div className="rankWide">
-        <h3>{department} Rank Progression</h3>
-        <div className="rankTimeline">
-          {ranks.map((rankItem) => (
-            <div className="rankStep" key={rankItem.name}>
-              <div className="rankInsignia">{rankItem.insignia}</div>
-              <strong>{rankItem.name}</strong>
-              <small>{rankItem.minXp} XP</small>
-            </div>
-          ))}
-        </div>
+      <div className="prototypeGrid">
+        {deckPath.map((level) => (
+          <div className="prototypeTile" key={level}>
+            <span>Deck Path</span>
+            <strong>{level}</strong>
+            <p>Prepared for mission conversion using STCW A-II/1, bridge operations and IMO SMCP reporting functions.</p>
+          </div>
+        ))}
       </div>
     </section>
   );
 }
 
-function MissionScreen({
-  department,
-  cadetTitle,
-  onBack,
-  onMissionComplete
-}: {
-  department: string;
-  cadetTitle: string;
-  onBack: () => void;
-  onMissionComplete: () => void;
-}) {
-  const [stage, setStage] = useState<MissionStage>("briefing");
-  const [selectedAnswers, setSelectedAnswers] = useState<Record<number, string>>({});
-  const [collected, setCollected] = useState<string[]>([]);
+function OceanIntelligenceCenter() {
+  return (
+    <section className="missionShell intelligencePanel" aria-labelledby="ocean-title">
+      <div className="missionLead">
+        <div>
+          <p className="eyebrow">Ocean Intelligence Center</p>
+          <h2 id="ocean-title">Operational readiness workspace</h2>
+        </div>
+        <div className="missionBadge">
+          <span>Prototype</span>
+          <strong>Competency intelligence</strong>
+        </div>
+      </div>
+      <div className="intelligenceGrid">
+        {intelligenceModules.map((module) => (
+          <article className="intelligenceCard" key={module.title}>
+            <span>{module.title}</span>
+            <p>{module.detail}</p>
+          </article>
+        ))}
+      </div>
+      <div className="readinessStrip">
+        <span>Readiness Signal</span>
+        <strong>Cadet can enter mission brief, view STCW/SMCP targets, complete simulator task and receive debrief.</strong>
+      </div>
+    </section>
+  );
+}
 
-  const allAnswersCorrect = questions.every((question, index) => selectedAnswers[index] === question.answer);
-  const allEquipmentCollected = equipment.every((item) => collected.includes(item));
+function EngineRoomFamiliarizationMission() {
+  const [briefingAccepted, setBriefingAccepted] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [answers, setAnswers] = useState<Record<number, SystemId>>({});
+  const [submitted, setSubmitted] = useState(false);
 
-  function finishMission() {
-    onMissionComplete();
-    setStage("complete");
-  }
+  const selectedAnswer = answers[currentQuestion];
+  const score = useMemo(
+    () => questions.reduce((total, question, index) => total + (answers[index] === question.answer ? 1 : 0), 0),
+    [answers]
+  );
+  const isComplete = Object.keys(answers).length === questions.length;
+  const passed = submitted && score >= passingScore;
+  const earnedXp = passed ? missionXp : 0;
+  const activeQuestion = questions[currentQuestion];
+
+  const selectAnswer = (systemId: SystemId) => {
+    setAnswers((currentAnswers) => ({ ...currentAnswers, [currentQuestion]: systemId }));
+  };
+
+  const resetMission = () => {
+    setBriefingAccepted(false);
+    setCurrentQuestion(0);
+    setAnswers({});
+    setSubmitted(false);
+  };
 
   return (
-    <section className="missionScreen">
-      <button className="backButton" onClick={onBack}>Back to Dashboard</button>
-      <p className="eyebrow">Mission 01 - {department} - STCW Training Simulation</p>
-      <h2>One Week Before Departure</h2>
-      <p className="missionIntro">
-        MV Ocean Pioneer is in port and scheduled to depart in seven days. Captain David Jones begins the Pre-Departure Safety Briefing.
-      </p>
+    <section className="missionShell simulatorMission" aria-labelledby="engine-room-mission-title">
+      <div className="missionLead">
+        <div>
+          <p className="eyebrow">Playable Mission</p>
+          <h2 id="engine-room-mission-title">Engine Room Familiarization</h2>
+        </div>
+        <div className={`missionBadge ${passed ? "passed" : ""}`}>
+          <span>XP Reward</span>
+          <strong>{earnedXp} / {missionXp} XP</strong>
+        </div>
+      </div>
 
-      {stage === "briefing" && (
-        <>
-          <div className="simulatorFrame">
-            <div className="videoStage">
-              <div className="captainAvatar">Captain</div>
-              <div>
-                <p className="videoLabel">Captain Briefing</p>
-                <h3>Captain David Jones - MV Ocean Pioneer</h3>
-                <p className="captainLine">
-                  Good morning, {cadetTitle}. Before departure, every department must complete inspections, safety checks, and readiness reports. Safety is our highest priority.
-                </p>
+      <div className="missionLayout">
+        <aside className="briefingPanel" aria-label="Professional mission briefing">
+          <div className="panelTitle">
+            <span>Mission Briefing</span>
+            <strong>Engine Academy</strong>
+          </div>
+          <div className="briefingList">
+            {briefing.map(([label, value]) => (
+              <div className="briefingRow" key={label}>
+                <span>{label}</span>
+                <strong>{value}</strong>
               </div>
-            </div>
-            <div className="orderBox">
-              <h4>Mission Objective</h4>
-              <p>Complete the captain's safety briefing and prepare for your first pre-departure inspection assignment.</p>
-              <button className="primaryButton" onClick={() => setStage("questions")}>Begin Comprehension Check</button>
-            </div>
+            ))}
           </div>
+          <p className="briefingText">
+            Inspect the engine-room diagram and identify the six foundation systems used in daily engineering rounds. Complete all 10 prompts. A score of 80 percent or higher passes the mission.
+          </p>
+          <button className="primaryAction" onClick={() => setBriefingAccepted(true)} type="button">
+            Start Familiarization
+          </button>
+        </aside>
 
-          <div className="simulatorFrame">
-            <div className="orderBox">
-              <h4>STCW Alignment</h4>
-              <p>This mission introduces STCW-style Training and Assessment and Use of Simulators.</p>
-              <ul>
-                <li>Training and Assessment</li>
-                <li>Use of Simulators</li>
-                <li>Deck Department pathway awareness</li>
-              </ul>
-            </div>
-            <div className="orderBox">
-              <h4>Deck Career Path Reference</h4>
-              <p>Future missions will connect SMCP practice to OICNW, Chief Mate, Master, and Able Seafarer-Deck.</p>
-              <div className="statusRow"><span>Reward</span><strong>+50 XP</strong></div>
-            </div>
-          </div>
-        </>
-      )}
+        <EngineRoomDiagram selectedAnswer={selectedAnswer} />
 
-      {stage === "questions" && (
-        <div className="simulatorFrame">
-          <div className="orderBox">
-            <h4>Comprehension Questions</h4>
-            {questions.map((question, index) => (
-              <div key={question.prompt} className="statusCard">
-                <p><strong>{index + 1}. {question.prompt}</strong></p>
-                {question.options.map((option) => (
+        <article className="quizPanel" aria-live="polite">
+          {!briefingAccepted ? (
+            <div className="standbyPanel">
+              <p className="eyebrow">Awaiting Orders</p>
+              <h3>Read the briefing before entering the machinery space.</h3>
+              <p>The diagram is available now so the cadet can review stations before the assessment begins.</p>
+            </div>
+          ) : null}
+
+          {briefingAccepted && !submitted ? (
+            <div className="questionPanel">
+              <div className="questionHeader">
+                <span>Question {currentQuestion + 1} of {questions.length}</span>
+                <strong>{score} correct so far</strong>
+              </div>
+              <h3>{activeQuestion.prompt}</h3>
+              <div className="answerGrid">
+                {missionSystems.map((system) => (
                   <button
-                    key={option}
-                    className={selectedAnswers[index] === option ? "primaryButton" : "secondaryButton"}
-                    onClick={() => setSelectedAnswers({ ...selectedAnswers, [index]: option })}
+                    aria-pressed={selectedAnswer === system.id}
+                    className={`answerButton ${selectedAnswer === system.id ? "selected" : ""}`}
+                    key={system.id}
+                    onClick={() => selectAnswer(system.id)}
+                    type="button"
                   >
-                    {option}
+                    <span>{system.station}</span>
+                    <strong>{system.label}</strong>
+                    <small>{system.cue}</small>
                   </button>
                 ))}
               </div>
-            ))}
-            <button className="primaryButton" disabled={!allAnswersCorrect} onClick={() => setStage("workshop")}>
-              Continue to Bosun Workshop
-            </button>
-          </div>
-        </div>
-      )}
-
-      {stage === "workshop" && (
-        <div className="simulatorFrame">
-          <div className="videoStage">
-            <div className="captainAvatar">Bosun</div>
-            <div>
-              <p className="videoLabel">Bosun Workshop</p>
-              <h3>Robert Hayes - Safety Equipment Brief</h3>
-              <p className="captainLine">
-                Cadet, before departure we inspect PPE, mooring lines, radios, life-saving appliances, and emergency equipment.
-              </p>
+              <div className="quizActions">
+                <button className="secondaryAction" disabled={currentQuestion === 0} onClick={() => setCurrentQuestion((question) => Math.max(0, question - 1))} type="button">
+                  Previous
+                </button>
+                {currentQuestion < questions.length - 1 ? (
+                  <button className="primaryAction" disabled={!selectedAnswer} onClick={() => setCurrentQuestion((question) => question + 1)} type="button">
+                    Next Question
+                  </button>
+                ) : (
+                  <button className="primaryAction" disabled={!isComplete} onClick={() => setSubmitted(true)} type="button">
+                    Submit Mission
+                  </button>
+                )}
+              </div>
             </div>
-          </div>
-          <div className="orderBox">
-            <h4>Vocabulary Focus</h4>
-            <ul>
-              <li>Personal Protective Equipment</li>
-              <li>Mooring lines</li>
-              <li>Life jacket</li>
-              <li>Portable radio</li>
-              <li>Emergency muster station</li>
-            </ul>
-            <button className="primaryButton" onClick={() => setStage("equipment")}>Go to Equipment Collection</button>
-          </div>
-        </div>
-      )}
+          ) : null}
 
-      {stage === "equipment" && (
-        <div className="simulatorFrame">
-          <div className="orderBox">
-            <h4>Equipment Collection</h4>
-            <p>Collect all required equipment before reporting back to Captain David Jones.</p>
-            {equipment.map((item) => (
-              <button
-                key={item}
-                className={collected.includes(item) ? "primaryButton" : "secondaryButton"}
-                onClick={() => setCollected((current) => current.includes(item) ? current : [...current, item])}
-              >
-                {collected.includes(item) ? "Collected: " : "Collect: "}{item}
-              </button>
-            ))}
-          </div>
-          <div className="orderBox">
-            <h4>Readiness Report</h4>
-            <p>When all equipment is collected, complete the mission and update the training record.</p>
-            <button className="primaryButton" disabled={!allEquipmentCollected} onClick={finishMission}>Complete Mission</button>
-          </div>
-        </div>
-      )}
-
-      {stage === "complete" && (
-        <div className="simulatorFrame">
-          <div className="orderBox">
-            <h4>Mission Complete</h4>
-            <p>MV Ocean Pioneer pre-departure safety briefing completed.</p>
-            <div className="statusRow"><span>Captain</span><strong>Captain David Jones</strong></div>
-            <div className="statusRow"><span>Bosun</span><strong>Robert Hayes</strong></div>
-            <div className="statusRow"><span>Reward</span><strong>+50 XP</strong></div>
-            <div className="statusRow"><span>Training Record</span><strong>Updated</strong></div>
-            <button className="primaryButton" onClick={onBack}>Return to Dashboard</button>
-          </div>
-        </div>
-      )}
+          {submitted ? <AssessmentPanel earnedXp={earnedXp} onReset={resetMission} passed={passed} score={score} /> : null}
+        </article>
+      </div>
     </section>
   );
 }
+
+function EngineRoomDiagram({ selectedAnswer }: { selectedAnswer?: SystemId }) {
+  return (
+    <section className="engineRoomDiagram" aria-label="Simple engine room diagram">
+      <div className="diagramHeader">
+        <span>Engine Room Diagram</span>
+        <strong>Lower Platform</strong>
+      </div>
+      <div className="diagramGrid">
+        {missionSystems.map((system) => (
+          <div className={`diagramZone ${selectedAnswer === system.id ? "selected" : ""}`} key={system.id}>
+            <span>{system.station}</span>
+            <strong>{system.label}</strong>
+            <small>{system.description}</small>
+          </div>
+        ))}
+      </div>
+      <div className="shaftLine">
+        <span>Propeller shaft line</span>
+      </div>
+    </section>
+  );
+}
+
+function AssessmentPanel({ earnedXp, onReset, passed, score }: { earnedXp: number; onReset: () => void; passed: boolean; score: number }) {
+  return (
+    <div className="assessmentPanel">
+      <p className="eyebrow">Assessment</p>
+      <h3>{passed ? "Mission Passed" : "Mission Not Passed"}</h3>
+      <div className="assessmentGrid">
+        <span>Score: {score} / {questions.length}</span>
+        <span>Pass Mark: {passingScore} / {questions.length}</span>
+        <span>{passed ? "100 XP Awarded" : "0 XP Awarded"}</span>
+        <span>Rank: {cadetLevel}</span>
+      </div>
+      <p className="assessmentNote">
+        {passed
+          ? "Cadet has identified the core machinery spaces and may continue to the next Engine Academy task."
+          : "Try Again"}
+      </p>
+      <button className="primaryAction" onClick={onReset} type="button">
+        Repeat Mission
+      </button>
+    </div>
+  );
+}
+
+
+
