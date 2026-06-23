@@ -1,0 +1,565 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #07111f;
+  --midnight: #0b1828;
+  --harbor: #12344d;
+  --steel: #d7dee8;
+  --mist: #eef4f8;
+  --signal: #f2b84b;
+  --alert: #c84a3a;
+  --teal: #2fa7a0;
+  --line: rgba(255, 255, 255, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--ink);
+  color: var(--mist);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+.academyShell {
+  min-height: 100vh;
+  padding: 24px;
+  background:
+    linear-gradient(rgba(7, 17, 31, 0.54), rgba(7, 17, 31, 0.94)),
+    url("https://images.unsplash.com/photo-1514994937319-344454492b37?auto=format&fit=crop&w=1800&q=80") center / cover fixed;
+}
+
+.heroSection,
+.academySection,
+.missionShell {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.heroSection {
+  min-height: 56vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 22px 0 42px;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: fit-content;
+  padding: 12px 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(7, 17, 31, 0.72);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+}
+
+.brandMark {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border: 2px solid var(--signal);
+  border-radius: 6px;
+  color: var(--signal);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.topBar p,
+.topBar strong {
+  display: block;
+  margin: 0;
+}
+
+.topBar p {
+  color: #b7c6d5;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.topBar strong {
+  margin-top: 3px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+  gap: 28px;
+  align-items: end;
+  margin-top: 92px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--signal);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.heroCopy h1 {
+  margin: 0;
+  font-size: clamp(56px, 9vw, 118px);
+  line-height: 0.92;
+  letter-spacing: 0;
+}
+
+.subtitle {
+  margin: 14px 0 0;
+  color: #ffffff;
+  font-size: clamp(23px, 3.2vw, 39px);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.heroText {
+  max-width: 720px;
+  margin: 22px 0 0;
+  color: #d5e1eb;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.commandPanel,
+.briefingPanel,
+.checklistPanel,
+.assessmentPanel,
+.placeholderPanel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(11, 24, 40, 0.86);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+
+.commandPanel {
+  padding: 20px;
+}
+
+.panelHeader,
+.panelTitle,
+.missionLead,
+.briefingRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.panelHeader {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.panelHeader span,
+.panelTitle span,
+.briefingRow span,
+.scopeGrid span,
+.missionBadge span {
+  color: #9fb0bf;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.panelHeader strong {
+  padding: 7px 10px;
+  border-radius: 6px;
+  background: rgba(47, 167, 160, 0.18);
+  color: #8fe0da;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.scopeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.scopeGrid div {
+  min-height: 96px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.scopeGrid strong {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+  line-height: 1.25;
+}
+
+.academySection {
+  padding: 26px 0 16px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.sectionHeader h2,
+.missionLead h2,
+.placeholderPanel h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(30px, 4vw, 52px);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.academyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.academyCard {
+  min-height: 218px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(238, 244, 248, 0.92);
+  color: var(--midnight);
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.academyCard:hover,
+.academyCard.selected {
+  transform: translateY(-3px);
+  border-color: var(--signal);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+}
+
+.academyCard.selected {
+  background: #ffffff;
+}
+
+.academyCard span,
+.academyCard strong,
+.academyCard small {
+  display: block;
+}
+
+.academyCard span {
+  color: #4b6375;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.academyCard strong {
+  margin-top: 44px;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.05;
+}
+
+.academyCard small {
+  margin-top: 16px;
+  color: #405568;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.missionShell {
+  margin-top: 18px;
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(238, 244, 248, 0.95);
+  color: var(--midnight);
+}
+
+.missionLead {
+  align-items: start;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(18, 52, 77, 0.16);
+}
+
+.missionLead .eyebrow {
+  color: #8c5d16;
+}
+
+.missionLead h2,
+.placeholderPanel h2 {
+  color: var(--midnight);
+}
+
+.missionBadge {
+  min-width: 250px;
+  padding: 16px;
+  border-left: 4px solid var(--signal);
+  background: #ffffff;
+}
+
+.missionBadge strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.missionLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.95fr);
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.briefingPanel,
+.checklistPanel,
+.assessmentPanel {
+  padding: 22px;
+  background: #ffffff;
+  color: var(--midnight);
+  box-shadow: none;
+}
+
+.panelTitle {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(18, 52, 77, 0.14);
+}
+
+.panelTitle span,
+.briefingRow span {
+  color: #66798a;
+}
+
+.panelTitle strong {
+  text-align: right;
+}
+
+.briefingList {
+  margin-top: 8px;
+}
+
+.briefingRow {
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(18, 52, 77, 0.12);
+}
+
+.briefingRow strong {
+  max-width: 58%;
+  text-align: right;
+}
+
+.engineVisual {
+  min-height: 334px;
+  grid-row: span 2;
+  padding: 18px;
+  border: 1px solid rgba(7, 17, 31, 0.18);
+  border-radius: 8px;
+  background:
+    linear-gradient(160deg, rgba(11, 24, 40, 0.92), rgba(18, 52, 77, 0.96)),
+    repeating-linear-gradient(90deg, transparent 0, transparent 38px, rgba(255, 255, 255, 0.05) 39px, transparent 40px);
+  color: #ffffff;
+}
+
+.consoleTop {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.consoleTop span {
+  height: 84px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(238, 244, 248, 0.12), rgba(238, 244, 248, 0.03));
+}
+
+.gaugeCluster {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.gauge {
+  min-height: 118px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(215, 222, 232, 0.2);
+  border-radius: 999px;
+  background: rgba(7, 17, 31, 0.78);
+  text-align: center;
+}
+
+.gauge span,
+.gauge strong {
+  display: block;
+}
+
+.gauge span {
+  color: #9fb0bf;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+}
+
+.gauge strong {
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.gauge.high {
+  border-color: rgba(200, 74, 58, 0.72);
+  box-shadow: inset 0 0 0 8px rgba(200, 74, 58, 0.12);
+}
+
+.alarmStrip {
+  margin-top: 24px;
+  padding: 14px 16px;
+  border-radius: 6px;
+  background: var(--alert);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.checklistPanel h3,
+.assessmentPanel h3 {
+  margin: 0 0 16px;
+  color: var(--midnight);
+  font-size: 24px;
+}
+
+.checklistPanel ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.checklistPanel li {
+  padding: 13px 14px;
+  border-left: 4px solid var(--teal);
+  background: #eef4f8;
+  color: #172738;
+  font-weight: 700;
+}
+
+.assessmentPanel {
+  grid-column: 1 / -1;
+}
+
+.assessmentGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.assessmentGrid span {
+  padding: 11px 13px;
+  border: 1px solid rgba(18, 52, 77, 0.18);
+  border-radius: 6px;
+  background: #eef4f8;
+  color: #263b4e;
+  font-weight: 800;
+}
+
+.placeholderPanel p:last-child {
+  max-width: 720px;
+  color: #405568;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .academyShell {
+    padding: 14px;
+    background-attachment: scroll;
+  }
+
+  .heroSection {
+    min-height: auto;
+    padding-bottom: 28px;
+  }
+
+  .heroGrid,
+  .academyGrid,
+  .missionLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .heroGrid {
+    margin-top: 56px;
+  }
+
+  .sectionHeader,
+  .missionLead,
+  .briefingRow,
+  .panelTitle {
+    display: block;
+  }
+
+  .missionBadge {
+    min-width: 0;
+    margin-top: 18px;
+  }
+
+  .briefingRow strong {
+    display: block;
+    max-width: none;
+    margin-top: 6px;
+    text-align: left;
+  }
+
+  .engineVisual {
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .scopeGrid,
+  .gaugeCluster,
+  .consoleTop {
+    grid-template-columns: 1fr;
+  }
+
+  .topBar {
+    width: 100%;
+  }
+
+  .missionShell {
+    padding: 18px;
+  }
+
+  .academyCard {
+    min-height: 188px;
+  }
+}
+

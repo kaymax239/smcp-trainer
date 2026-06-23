@@ -1,0 +1,849 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #07111f;
+  --midnight: #0b1828;
+  --panel: #0f2133;
+  --panel-strong: #142d44;
+  --harbor: #12344d;
+  --steel: #d7dee8;
+  --mist: #eef4f8;
+  --muted: #9fb0bf;
+  --signal: #f2b84b;
+  --alert: #c84a3a;
+  --teal: #2fa7a0;
+  --line: rgba(255, 255, 255, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--ink);
+  color: var(--mist);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+
+.academyShell {
+  min-height: 100vh;
+  padding: 24px;
+  background:
+    linear-gradient(rgba(7, 17, 31, 0.56), rgba(7, 17, 31, 0.97)),
+    url("https://images.unsplash.com/photo-1514994937319-344454492b37?auto=format&fit=crop&w=1800&q=80") center / cover fixed;
+}
+
+.heroSection,
+.academySection,
+.missionShell,
+.careerDashboard {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.heroSection {
+  min-height: 54vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 22px 0 42px;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: fit-content;
+  padding: 12px 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(7, 17, 31, 0.76);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+}
+
+.brandMark {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border: 2px solid var(--signal);
+  border-radius: 6px;
+  color: var(--signal);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.topBar p,
+.topBar strong {
+  display: block;
+  margin: 0;
+}
+
+.topBar p {
+  color: #b7c6d5;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.topBar strong {
+  margin-top: 3px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.18fr) minmax(340px, 0.82fr);
+  gap: 28px;
+  align-items: end;
+  margin-top: 84px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--signal);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.heroCopy h1 {
+  margin: 0;
+  font-size: clamp(56px, 9vw, 118px);
+  line-height: 0.92;
+  letter-spacing: 0;
+}
+
+.subtitle {
+  margin: 14px 0 0;
+  color: #ffffff;
+  font-size: clamp(23px, 3.2vw, 39px);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.heroText {
+  max-width: 760px;
+  margin: 22px 0 0;
+  color: #d5e1eb;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.commandPanel,
+.cadetPanel,
+.briefingPanel,
+.quizPanel,
+.engineRoomDiagram,
+.placeholderPanel,
+.careerDashboard,
+.prototypeTile,
+.intelligenceCard {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(11, 24, 40, 0.88);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+
+.cadetPanel,
+.commandPanel,
+.briefingPanel,
+.quizPanel,
+.placeholderPanel {
+  padding: 20px;
+}
+
+.panelHeader,
+.panelTitle,
+.missionLead,
+.briefingRow,
+.questionHeader,
+.diagramHeader,
+.dashboardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.panelHeader {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.panelHeader span,
+.panelTitle span,
+.briefingRow span,
+.scopeGrid span,
+.missionBadge span,
+.questionHeader span,
+.diagramHeader span,
+.diagramZone span,
+.answerButton span,
+.cadetRank span,
+.prototypeTile span,
+.intelligenceCard span,
+.readinessStrip span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.panelHeader strong {
+  padding: 7px 10px;
+  border-radius: 6px;
+  background: rgba(47, 167, 160, 0.18);
+  color: #8fe0da;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.cadetRank {
+  padding: 18px 0 14px;
+}
+
+.cadetRank strong {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1;
+}
+
+.xpMeter {
+  height: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(242, 184, 75, 0.36);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.xpMeter div {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--signal), var(--teal));
+}
+
+.scopeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.scopeGrid div {
+  min-height: 96px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.scopeGrid strong {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+  line-height: 1.25;
+}
+
+.academySection {
+  padding: 26px 0 16px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.sectionHeader h2,
+.dashboardHeader h2,
+.missionLead h2,
+.placeholderPanel h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(30px, 4vw, 52px);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.sectionNote {
+  max-width: 360px;
+  margin: 0;
+  color: #c7d5e1;
+  line-height: 1.55;
+}
+
+.academyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.academyCard {
+  min-height: 244px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(238, 244, 248, 0.92);
+  color: var(--midnight);
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.academyCard:hover,
+.academyCard.selected {
+  transform: translateY(-3px);
+  border-color: var(--signal);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+}
+
+.academyCard.selected {
+  background: #ffffff;
+}
+
+.academyCard span,
+.academyCard strong,
+.academyCard small,
+.academyCard em {
+  display: block;
+}
+
+.academyCard span {
+  color: #4b6375;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.academyCard strong {
+  margin-top: 34px;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.05;
+}
+
+.academyCard small {
+  margin-top: 16px;
+  color: #405568;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.academyCard em {
+  margin-top: 18px;
+  color: #8c5d16;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.careerDashboard {
+  margin-top: 18px;
+  padding: 24px;
+}
+
+.dashboardHeader {
+  align-items: start;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.dashboardSeal {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  place-items: center;
+  border: 1px solid rgba(242, 184, 75, 0.62);
+  border-radius: 999px;
+  color: var(--signal);
+  font-weight: 900;
+}
+
+.pathGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.pathColumn h3 {
+  margin: 0 0 12px;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.pathColumn ol {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pathColumn li {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  align-items: center;
+  gap: 12px;
+  min-height: 58px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.pathColumn li.active {
+  border-color: rgba(242, 184, 75, 0.72);
+  background: rgba(242, 184, 75, 0.12);
+}
+
+.pathColumn li span {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--signal);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.pathColumn li strong {
+  color: #ffffff;
+  line-height: 1.25;
+}
+
+.missionShell {
+  margin-top: 18px;
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(7, 17, 31, 0.9);
+  color: var(--mist);
+}
+
+.missionLead {
+  align-items: start;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.missionBadge {
+  min-width: 250px;
+  padding: 16px;
+  border-left: 4px solid var(--signal);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.missionBadge.passed {
+  border-left-color: var(--teal);
+  background: rgba(47, 167, 160, 0.16);
+}
+
+.missionBadge strong {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.academyStatus {
+  margin-top: 16px;
+}
+
+.prototypeGrid,
+.intelligenceGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.prototypeTile,
+.intelligenceCard {
+  min-height: 172px;
+  padding: 18px;
+  box-shadow: none;
+}
+
+.prototypeTile strong {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.15;
+}
+
+.prototypeTile p,
+.intelligenceCard p {
+  margin: 12px 0 0;
+  color: #c7d5e1;
+  line-height: 1.5;
+}
+
+.intelligenceCard span {
+  display: block;
+  color: var(--signal);
+}
+
+.readinessStrip {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  margin-top: 18px;
+  padding: 18px;
+  border: 1px dashed rgba(47, 167, 160, 0.56);
+  border-radius: 8px;
+  background: rgba(47, 167, 160, 0.1);
+}
+
+.readinessStrip strong {
+  max-width: 760px;
+  color: #ffffff;
+  line-height: 1.45;
+}
+
+.missionLayout {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.72fr) minmax(360px, 1fr);
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.briefingPanel {
+  align-self: start;
+}
+
+.panelTitle {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.panelTitle strong,
+.diagramHeader strong,
+.questionHeader strong {
+  color: #ffffff;
+  text-align: right;
+}
+
+.briefingList {
+  margin-top: 8px;
+}
+
+.briefingRow {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.briefingRow strong {
+  max-width: 58%;
+  color: #ffffff;
+  text-align: right;
+}
+
+.briefingText,
+.standbyPanel p,
+.assessmentNote,
+.placeholderPanel p:last-child {
+  color: #c7d5e1;
+  font-size: 16px;
+  line-height: 1.58;
+}
+
+.primaryAction,
+.secondaryAction {
+  min-height: 48px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-weight: 900;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.primaryAction {
+  border: 1px solid rgba(242, 184, 75, 0.78);
+  background: var(--signal);
+  color: #172331;
+}
+
+.secondaryAction {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+}
+
+.briefingPanel .primaryAction,
+.assessmentPanel .primaryAction {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.engineRoomDiagram {
+  min-height: 520px;
+  grid-row: span 2;
+  padding: 18px;
+  background:
+    linear-gradient(150deg, rgba(13, 32, 50, 0.96), rgba(8, 18, 31, 0.98)),
+    repeating-linear-gradient(90deg, transparent 0, transparent 37px, rgba(255, 255, 255, 0.06) 38px, transparent 39px),
+    repeating-linear-gradient(0deg, transparent 0, transparent 37px, rgba(255, 255, 255, 0.04) 38px, transparent 39px);
+}
+
+.diagramHeader {
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.diagramGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.diagramZone {
+  min-height: 132px;
+  padding: 14px;
+  border: 1px solid rgba(215, 222, 232, 0.18);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.diagramZone.selected {
+  border-color: var(--signal);
+  background: rgba(242, 184, 75, 0.14);
+  box-shadow: inset 0 0 0 1px rgba(242, 184, 75, 0.28);
+}
+
+.diagramZone strong,
+.diagramZone small {
+  display: block;
+}
+
+.diagramZone strong {
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.diagramZone small {
+  margin-top: 8px;
+  color: #c7d5e1;
+  line-height: 1.45;
+}
+
+.shaftLine {
+  margin-top: 18px;
+  padding: 12px;
+  border: 1px dashed rgba(242, 184, 75, 0.62);
+  border-radius: 999px;
+  color: var(--signal);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.quizPanel {
+  min-height: 360px;
+}
+
+.standbyPanel h3,
+.questionPanel h3,
+.assessmentPanel h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.12;
+}
+
+.questionHeader {
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.answerGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.answerButton {
+  min-height: 144px;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+  text-align: left;
+  cursor: pointer;
+}
+
+.answerButton.selected {
+  border-color: var(--signal);
+  background: rgba(242, 184, 75, 0.16);
+}
+
+.answerButton strong,
+.answerButton small {
+  display: block;
+}
+
+.answerButton strong {
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+.answerButton small {
+  margin-top: 8px;
+  color: #c7d5e1;
+  line-height: 1.4;
+}
+
+.quizActions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.assessmentPanel {
+  padding: 0;
+  background: transparent;
+  color: var(--mist);
+  box-shadow: none;
+}
+
+.assessmentGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.assessmentGrid span {
+  padding: 13px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.placeholderPanel p:last-child {
+  max-width: 720px;
+}
+
+@media (max-width: 980px) {
+  .academyShell {
+    padding: 14px;
+    background-attachment: scroll;
+  }
+
+  .heroSection {
+    min-height: auto;
+    padding-bottom: 28px;
+  }
+
+  .heroGrid,
+  .academyGrid,
+  .pathGrid,
+  .missionLayout,
+  .prototypeGrid,
+  .intelligenceGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroGrid {
+    margin-top: 56px;
+  }
+
+  .sectionHeader,
+  .missionLead,
+  .briefingRow,
+  .panelTitle,
+  .questionHeader,
+  .diagramHeader,
+  .dashboardHeader,
+  .readinessStrip {
+    display: block;
+  }
+
+  .sectionNote {
+    max-width: none;
+    margin-top: 12px;
+  }
+
+  .missionBadge,
+  .dashboardSeal {
+    min-width: 0;
+    margin-top: 18px;
+  }
+
+  .briefingRow strong,
+  .panelTitle strong,
+  .diagramHeader strong,
+  .questionHeader strong {
+    display: block;
+    max-width: none;
+    margin-top: 6px;
+    text-align: left;
+  }
+
+  .engineRoomDiagram {
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .scopeGrid,
+  .diagramGrid,
+  .answerGrid,
+  .assessmentGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .topBar {
+    width: 100%;
+  }
+
+  .missionShell,
+  .careerDashboard {
+    padding: 18px;
+  }
+
+  .academyCard {
+    min-height: 206px;
+  }
+
+  .quizActions {
+    flex-direction: column;
+  }
+}
