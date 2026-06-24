@@ -1127,3 +1127,175 @@ button:disabled {
     grid-template-columns: 1fr;
   }
 }
+.sourceTracePanel {
+  margin-top: 18px;
+}
+
+.taskOrderLayout {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.58fr) minmax(360px, 1fr);
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.taskOrderPanel,
+.logbookPanel,
+.taskAssessmentPanel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 18px;
+}
+
+.taskOrderPanel span,
+.logbookField span,
+.taskChecklist span {
+  display: block;
+  color: var(--signal);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.taskOrderPanel p,
+.taskOrderPanel li {
+  color: #d7dee8;
+  line-height: 1.58;
+}
+
+.taskOrderPanel p {
+  margin: 10px 0 0;
+}
+
+.taskOrderPanel ol,
+.taskOrderPanel ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+
+.taskActionPanel {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+}
+
+.taskActionPanel p {
+  margin-top: 0;
+}
+
+.logbookPanel {
+  grid-row: span 3;
+  background:
+    linear-gradient(180deg, rgba(238, 244, 248, 0.96), rgba(215, 222, 232, 0.94)),
+    repeating-linear-gradient(0deg, transparent 0, transparent 56px, rgba(7, 17, 31, 0.1) 57px, transparent 58px);
+  color: var(--midnight);
+}
+
+.logbookPanel .panelTitle {
+  border-color: rgba(7, 17, 31, 0.16);
+}
+
+.logbookPanel .panelTitle span,
+.logbookPanel .panelTitle strong {
+  color: var(--midnight);
+}
+
+.logbookGrid {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.logbookField {
+  display: grid;
+  gap: 8px;
+}
+
+.logbookField span {
+  color: #435365;
+}
+
+.logbookField input {
+  width: 100%;
+  min-height: 52px;
+  border: 0;
+  border-bottom: 2px solid rgba(7, 17, 31, 0.42);
+  background: rgba(255, 255, 255, 0.42);
+  color: var(--midnight);
+  font: inherit;
+  font-size: 18px;
+  font-weight: 800;
+  outline: none;
+  padding: 10px 8px;
+}
+
+.logbookField input:focus {
+  border-bottom-color: var(--teal);
+  box-shadow: inset 0 -1px 0 var(--teal);
+}
+
+.logbookPanel .missionPlayerActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.taskAssessmentPanel {
+  grid-column: 1 / -1;
+  background: rgba(47, 167, 160, 0.12);
+  border-color: rgba(47, 167, 160, 0.42);
+}
+
+.taskAssessmentPanel h2 {
+  margin: 18px 0 0;
+  color: #ffffff;
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.taskChecklist {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.taskChecklist span {
+  min-height: 48px;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #c7d5e1;
+}
+
+.taskChecklist span.complete {
+  border-color: rgba(47, 167, 160, 0.58);
+  color: #8fe0da;
+}
+
+.xpAward {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--signal);
+  font-size: 24px;
+}
+
+@media (max-width: 980px) {
+  .taskOrderLayout,
+  .taskChecklist {
+    grid-template-columns: 1fr;
+  }
+
+  .logbookPanel {
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .logbookPanel .missionPlayerActions {
+    flex-direction: column;
+  }
+}

@@ -1,51 +1,55 @@
-﻿"use client";
+"use client";
 
-import type { ReactNode } from "react";
 import { useState } from "react";
 
-const mission = {
-  title: "Report To The Chief Engineer",
+const taskOrder = {
+  title: "Engine Room Initial Check-In",
   sourceProgram: "MN",
   sourceUnit: "Unidad 1: Uso del verbo to be",
-  sourceTopic: "1.1. Presentarse a sí mismo.",
-  order: "Cadet, complete your initial engine room reporting procedure.",
-  operationalContext:
-    "You arrive at the engine control room for your first supervised watch. The chief engineer asks for your name, role, academy program, and assigned duty before allowing you to enter the work area.",
+  sourceTopic: "1.1 Presentarse a sí mismo",
+  operationalContext: "You have reported onboard for your first familiarization watch.",
   orders: [
-    "Report to the Chief Engineer.",
+    "Proceed to Engine Control Room.",
+    "Locate the Chief Engineer.",
+    "Sign Engine Room Logbook.",
     "State your name and role.",
-    "Confirm your assigned engine room duty.",
-    "Confirm readiness to follow safety instructions.",
-    "Submit your report."
+    "Confirm assigned duty.",
+    "Confirm readiness to follow safety instructions."
   ],
-  tools: ["Assigned duty", "Cadet role", "Engine room safety instructions", "Professional reporting tone"],
-  action: "Prepare and submit a short operational status report to the Chief Engineer.",
-  reportPrompt: "Chief Engineer, I am...",
-  assessment: [
-    "Identity confirmed",
-    "Role confirmed",
-    "Duty confirmed",
-    "Readiness confirmed",
-    "Professional tone used"
-  ],
+  requiredInformation: ["Cadet name", "Cadet role", "Assigned duty", "Readiness status"],
+  action: "Complete check-in report.",
+  performanceCheck: "Can the cadet successfully complete the reporting procedure?",
+  taskComplete: "Chief Engineer accepts report.",
   xp: 10
 };
 
-export default function MissionOneOnePage() {
-  const [started, setStarted] = useState(false);
-  const [completed, setCompleted] = useState(false);
-  const [report, setReport] = useState("");
-  const reportSubmitted = report.trim().length > 0;
+const defaultReport = {
+  name: "",
+  role: "",
+  duty: "",
+  readiness: ""
+};
 
-  const startMission = () => {
-    setStarted(true);
-    setCompleted(false);
-    setReport("");
+export default function MissionOneOnePage() {
+  const [submitted, setSubmitted] = useState(false);
+  const [report, setReport] = useState(defaultReport);
+
+  const checklist = [
+    { label: "Name provided", complete: report.name.trim().length > 0 },
+    { label: "Role provided", complete: report.role.trim().length > 0 },
+    { label: "Duty provided", complete: report.duty.trim().length > 0 },
+    { label: "Readiness provided", complete: report.readiness.trim().length > 0 }
+  ];
+  const reportComplete = checklist.every((item) => item.complete);
+
+  const updateReport = (field: keyof typeof defaultReport, value: string) => {
+    setReport((currentReport) => ({ ...currentReport, [field]: value }));
+    setSubmitted(false);
   };
 
-  const completeMission = () => {
-    if (!started || !reportSubmitted) return;
-    setCompleted(true);
+  const resetReport = () => {
+    setReport(defaultReport);
+    setSubmitted(false);
   };
 
   return (
@@ -53,103 +57,107 @@ export default function MissionOneOnePage() {
       <section className="missionShell" aria-labelledby="mission-player-title">
         <div className="missionLead missionPlayerHeader">
           <div>
-            <p className="eyebrow">Mission Order</p>
-            <h1 id="mission-player-title">Mission Order: {mission.title}</h1>
-            <p className="briefingText">Chief Engineer: &quot;{mission.order}&quot;</p>
+            <p className="eyebrow">Task Order</p>
+            <h1 id="mission-player-title">{taskOrder.title}</h1>
+            <p className="briefingText">Operational task order for cadet duty assignment and onboard familiarization.</p>
           </div>
-          <div className={`missionBadge ${completed ? "passed" : ""}`} aria-live="polite">
-            <span>Mission Status</span>
-            <strong>{completed ? "Mission Complete" : started ? "Mission Started" : "Ready"}</strong>
+          <div className={`missionBadge ${submitted && reportComplete ? "passed" : ""}`} aria-live="polite">
+            <span>Task Status</span>
+            <strong>{submitted && reportComplete ? "Accepted" : "Awaiting Report"}</strong>
           </div>
         </div>
 
-        <section className="briefingPanel" aria-label="Official source traceability">
+        <section className="briefingPanel sourceTracePanel" aria-label="Official source traceability">
           <div className="briefingList">
-            <InfoRow label="Source Program" value={mission.sourceProgram} />
-            <InfoRow label="Source Unit" value={mission.sourceUnit} />
-            <InfoRow label="Source Topic" value={mission.sourceTopic} />
+            <InfoRow label="Source Program" value={taskOrder.sourceProgram} />
+            <InfoRow label="Source Unit" value={taskOrder.sourceUnit} />
+            <InfoRow label="Source Topic" value={taskOrder.sourceTopic} />
           </div>
         </section>
 
-        <div className="missionPlayerActions" aria-label="Mission controls">
-          <button className="primaryAction" onClick={startMission} type="button">
-            Start Mission
-          </button>
-          <button className="secondaryAction" disabled={!started || completed || !reportSubmitted} onClick={completeMission} type="button">
-            Complete Mission
-          </button>
-        </div>
-
-        {completed ? (
-          <section className="assessmentPanel" aria-live="polite">
-            <h2>Mission Complete</h2>
-            <p className="assessmentNote">+{mission.xp} XP Awarded</p>
+        <div className="taskOrderLayout">
+          <section className="taskOrderPanel">
+            <span>Operational Context</span>
+            <p>{taskOrder.operationalContext}</p>
           </section>
-        ) : null}
 
-        <div className="missionPlayerGrid">
-          <MissionSection title="Operational Context">{mission.operationalContext}</MissionSection>
-
-          <section className="missionPlayerPanel">
-            <h2>Cadet Orders</h2>
+          <section className="taskOrderPanel">
+            <span>Cadet Orders</span>
             <ol>
-              {mission.orders.map((order) => (
+              {taskOrder.orders.map((order) => (
                 <li key={order}>{order}</li>
               ))}
             </ol>
           </section>
 
-          <section className="missionPlayerPanel">
-            <h2>Required Tools or Knowledge</h2>
+          <section className="taskOrderPanel">
+            <span>Required Information</span>
             <ul>
-              {mission.tools.map((tool) => (
-                <li key={tool}>{tool}</li>
-              ))}
-            </ul>
-          </section>
-
-          <MissionSection title="Cadet Action">{mission.action}</MissionSection>
-
-          <section className="missionPlayerPanel">
-            <h2>Cadet Report</h2>
-            <label className="reportLabel" htmlFor="cadet-report">
-              Submit your operational response.
-            </label>
-            <textarea
-              className="reportBox"
-              disabled={!started || completed}
-              id="cadet-report"
-              onChange={(event) => setReport(event.target.value)}
-              placeholder={mission.reportPrompt}
-              rows={6}
-              value={report}
-            />
-          </section>
-
-          <section className="missionPlayerPanel">
-            <h2>Performance Assessment</h2>
-            <ul>
-              {mission.assessment.map((item) => (
+              {taskOrder.requiredInformation.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
           </section>
 
-          <MissionSection title="XP Award">
-            {completed ? `+${mission.xp} XP Awarded` : `${mission.xp} XP available after report submission.`}
-          </MissionSection>
+          <section className="taskOrderPanel taskActionPanel">
+            <span>Cadet Action</span>
+            <p>{taskOrder.action}</p>
+            <span>Performance Check</span>
+            <p>{taskOrder.performanceCheck}</p>
+            <span>Task Complete</span>
+            <p>{taskOrder.taskComplete}</p>
+          </section>
+
+          <section className="logbookPanel" aria-labelledby="logbook-title">
+            <div className="panelTitle">
+              <span id="logbook-title">Engine Room Logbook Entry</span>
+              <strong>{taskOrder.xp} XP</strong>
+            </div>
+            <div className="logbookGrid">
+              <ReportField label="Name" value={report.name} onChange={(value) => updateReport("name", value)} />
+              <ReportField label="Role" value={report.role} onChange={(value) => updateReport("role", value)} />
+              <ReportField label="Assigned Duty" value={report.duty} onChange={(value) => updateReport("duty", value)} />
+              <ReportField label="Readiness Status" value={report.readiness} onChange={(value) => updateReport("readiness", value)} />
+            </div>
+            <div className="missionPlayerActions" aria-label="Task report controls">
+              <button className="secondaryAction" onClick={resetReport} type="button">
+                Reset Entry
+              </button>
+              <button className="primaryAction" disabled={!reportComplete} onClick={() => setSubmitted(true)} type="button">
+                Submit Report
+              </button>
+            </div>
+          </section>
+
+          {submitted ? (
+            <section className="assessmentPanel taskAssessmentPanel" aria-live="polite">
+              <p className="eyebrow">Assessment</p>
+              <div className="taskChecklist">
+                {checklist.map((item) => (
+                  <span className={item.complete ? "complete" : ""} key={item.label}>
+                    {item.complete ? "✓" : "-"} {item.label}
+                  </span>
+                ))}
+              </div>
+              <h2>Mission Accepted</h2>
+              <p className="assessmentNote">Chief Engineer accepted your report.</p>
+              <strong className="xpAward">+{taskOrder.xp} XP</strong>
+            </section>
+          ) : null}
         </div>
       </section>
     </main>
   );
 }
 
-function MissionSection({ children, title }: { children: ReactNode; title: string }) {
+function ReportField({ label, onChange, value }: { label: string; onChange: (value: string) => void; value: string }) {
+  const id = label.toLowerCase().replace(/\s+/g, "-");
+
   return (
-    <section className="missionPlayerPanel">
-      <h2>{title}</h2>
-      <p>{children}</p>
-    </section>
+    <label className="logbookField" htmlFor={id}>
+      <span>{label}</span>
+      <input id={id} onChange={(event) => onChange(event.target.value)} value={value} />
+    </label>
   );
 }
 
@@ -161,4 +169,3 @@ function InfoRow({ label, value }: { label: string; value: string }) {
     </div>
   );
 }
-
