@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 import { academicPrograms, academicSemesters, type AcademicProgramCode } from "@/data/academic/semesters";
 import { academicSubjects } from "@/data/academic/subjects";
@@ -15,6 +16,7 @@ const passingScore = 8;
 const missionXp = 100;
 const cadetXp = 100;
 const cadetLevel = "Cadet Recruit";
+const missionOneOneTaskId = "report-to-chief-engineer";
 
 const academies: {
   id: Academy;
@@ -164,6 +166,7 @@ const questions: {
 ];
 
 export default function Home() {
+  const router = useRouter();
   const [selectedAcademy, setSelectedAcademy] = useState<Academy>(defaultAcademy);
   const [activeView, setActiveView] = useState<ActiveView>("home");
   const [selectedDeckMission, setSelectedDeckMission] = useState<DeckLevelOneMission>(deckLevelOneMissions[0]);
@@ -185,6 +188,11 @@ export default function Home() {
   };
 
   const openAcademicTask = (task: AcademicTask) => {
+    if (task.id === missionOneOneTaskId) {
+      router.push("/mission-1-1");
+      return;
+    }
+
     setSelectedAcademicTask(task);
     setSelectedSubjectId(task.subjectId);
     setActiveView("academicTask");
@@ -430,7 +438,7 @@ function AcademicProgramDashboard({
               {subjectTasks.length > 0 ? subjectTasks.map((task) => (
                 <button className="taskCard" key={task.id} onClick={() => onOpenTask(task)} type="button">
                   <span>{task.officialTopic}</span>
-                  <strong>{task.title}</strong>
+                  <strong>{task.id === missionOneOneTaskId ? "Mission 1.1: Report To The Chief Engineer" : task.title}</strong>
                   <p>{task.missionBriefing}</p>
                   <em>{task.xp} XP / {task.progressStatus}</em>
                 </button>
