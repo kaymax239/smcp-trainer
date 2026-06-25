@@ -17,6 +17,18 @@ const missionXp = 100;
 const cadetXp = 100;
 const cadetLevel = "Cadet Recruit";
 const missionOneOneTaskId = "report-to-chief-engineer";
+const taskOrderRouteByTaskId: Record<string, string> = {
+  [missionOneOneTaskId]: "/mission-1-1",
+  "introduce-yourself-onboard": "/mission-1-2",
+  "complete-cadet-personal-information": "/mission-1-3",
+  "identify-your-department": "/mission-1-4"
+};
+const taskOrderDashboardTitles: Record<string, string> = {
+  [missionOneOneTaskId]: "Mission 1.1: Report To The Chief Engineer",
+  "introduce-yourself-onboard": "Mission 1.2: Greet The Watch Officer",
+  "complete-cadet-personal-information": "Mission 1.3: Identify Engine Room Basics",
+  "identify-your-department": "Mission 1.4: Spell A Crew Name By Radio"
+};
 
 const academies: {
   id: Academy;
@@ -188,8 +200,10 @@ export default function Home() {
   };
 
   const openAcademicTask = (task: AcademicTask) => {
-    if (task.id === missionOneOneTaskId) {
-      router.push("/mission-1-1");
+    const taskOrderRoute = taskOrderRouteByTaskId[task.id];
+
+    if (taskOrderRoute) {
+      router.push(taskOrderRoute);
       return;
     }
 
@@ -438,7 +452,7 @@ function AcademicProgramDashboard({
               {subjectTasks.length > 0 ? subjectTasks.map((task) => (
                 <button className="taskCard" key={task.id} onClick={() => onOpenTask(task)} type="button">
                   <span>{task.officialTopic}</span>
-                  <strong>{task.id === missionOneOneTaskId ? "Mission 1.1: Report To The Chief Engineer" : task.title}</strong>
+                  <strong>{taskOrderDashboardTitles[task.id] ?? task.title}</strong>
                   <p>{task.missionBriefing}</p>
                   <em>{task.xp} XP / {task.progressStatus}</em>
                 </button>
