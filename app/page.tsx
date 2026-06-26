@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { academicPrograms, academicSemesters, type AcademicProgramCode } from "@/data/academic/semesters";
 import { academicMissionTasks } from "@/data/academic/mission-tasks";
 import { academicSubjects } from "@/data/academic/subjects";
@@ -18,6 +18,7 @@ const passingScore = 8;
 const missionXp = 100;
 const cadetXp = 100;
 const cadetLevel = "Cadet Recruit";
+const completedAcademicTaskStorageKey = "smcp.academic.completedTaskIds";
 const missionOneOneTaskId = "report-to-chief-engineer";
 const taskOrderRouteByTaskId: Record<string, string> = {
   [missionOneOneTaskId]: "/mission-1-1",
@@ -188,6 +189,28 @@ export default function Home() {
   const [selectedSemesterId, setSelectedSemesterId] = useState("mn-semester-i");
   const [selectedSubjectId, setSelectedSubjectId] = useState("mn-s1-maritime-english-i");
   const [selectedAcademicTask, setSelectedAcademicTask] = useState<AcademicTask>(academicTasks[0]);
+  const [completedAcademicTaskIds, setCompletedAcademicTaskIds] = useState<string[]>([]);
+
+  useEffect(() => {
+    const loadCompletedAcademicTasks = () => {
+      try {
+        const savedTaskIds = window.localStorage.getItem(completedAcademicTaskStorageKey);
+        const parsedTaskIds = savedTaskIds ? JSON.parse(savedTaskIds) : [];
+        setCompletedAcademicTaskIds(Array.isArray(parsedTaskIds) ? parsedTaskIds.filter((taskId) => typeof taskId === "string") : []);
+      } catch {
+        setCompletedAcademicTaskIds([]);
+      }
+    };
+
+    loadCompletedAcademicTasks();
+    window.addEventListener("focus", loadCompletedAcademicTasks);
+    window.addEventListener("storage", loadCompletedAcademicTasks);
+
+    return () => {
+      window.removeEventListener("focus", loadCompletedAcademicTasks);
+      window.removeEventListener("storage", loadCompletedAcademicTasks);
+    };
+  }, []);
 
   const selectCareer = (program: AcademicProgramCode) => {
     const firstSemester = academicSemesters.find((semester) => semester.program === program) ?? academicSemesters[0];
@@ -267,6 +290,7 @@ export default function Home() {
           selectedProgram={selectedProgram}
           selectedSemesterId={selectedSemesterId}
           selectedSubjectId={selectedSubjectId}
+          completedAcademicTaskIds={completedAcademicTaskIds}
           setSelectedSemesterId={setSelectedSemesterId}
           setSelectedSubjectId={setSelectedSubjectId}
         />
@@ -317,6 +341,7 @@ function AcademicProgramDashboard({
   selectedProgram,
   selectedSemesterId,
   selectedSubjectId,
+  completedAcademicTaskIds,
   setSelectedSemesterId,
   setSelectedSubjectId
 }: {
@@ -325,6 +350,7 @@ function AcademicProgramDashboard({
   selectedProgram: AcademicProgramCode;
   selectedSemesterId: string;
   selectedSubjectId: string;
+  completedAcademicTaskIds: string[];
   setSelectedSemesterId: (semesterId: string) => void;
   setSelectedSubjectId: (subjectId: string) => void;
 }) {
@@ -333,8 +359,13 @@ function AcademicProgramDashboard({
   const selectedSemester = programSemesters.find((semester) => semester.id === selectedSemesterId) ?? programSemesters[0];
   const semesterSubjects = academicSubjects.filter((subject) => subject.semesterId === selectedSemester?.id);
   const selectedSubject = semesterSubjects.find((subject) => subject.id === selectedSubjectId) ?? semesterSubjects[0];
+  const completedAcademicTaskIdSet = useMemo(() => new Set(completedAcademicTaskIds), [completedAcademicTaskIds]);
   const subjectMissionTasks = academicMissionTasks.filter((task) => task.subjectId === selectedSubject?.id);
+  const subjectCompletedMissionTasks = subjectMissionTasks.filter((task) => completedAcademicTaskIdSet.has(task.taskId));
   const subjectTasks = academicTasks.filter((task) => task.subjectId === selectedSubject?.id);
+  const subjectTotalXp = subjectMissionTasks.reduce((total, task) => total + task.xp, 0);
+  const subjectEarnedXp = subjectCompletedMissionTasks.reduce((total, task) => total + task.xp, 0);
+  const subjectProgress = subjectMissionTasks.length > 0 ? Math.round((subjectCompletedMissionTasks.length / subjectMissionTasks.length) * 100) : selectedSubject?.progress ?? 0;
 
   const selectSemester = (semesterId: string) => {
     const firstSubject = academicSubjects.find((subject) => subject.semesterId === semesterId);
@@ -392,14 +423,20 @@ function AcademicProgramDashboard({
             <span>{selectedSemester?.program} {selectedSemester?.label}</span>
             <strong>Subjects</strong>
           </div>
-          {semesterSubjects.map((subject) => (
-            <button className={`subjectCard ${selectedSubjectId === subject.id ? "selected" : ""}`} key={subject.id} onClick={() => setSelectedSubjectId(subject.id)} type="button">
-              <span>{subject.officialArea}</span>
-              <strong>{subject.title}</strong>
-              <small>{subject.stcwAlignment}</small>
-              <em>{subject.status === "prototype" ? "Prototype functional" : "Planned"}</em>
-            </button>
-          ))}
+          {semesterSubjects.map((subject) => {
+            const subjectGeneratedTasks = academicMissionTasks.filter((task) => task.subjectId === subject.id);
+            const subjectCompletedTasks = subjectGeneratedTasks.filter((task) => completedAcademicTaskIdSet.has(task.taskId));
+            const subjectEarnedTaskXp = subjectCompletedTasks.reduce((total, task) => total + task.xp, 0);
+
+            return (
+              <button className={`subjectCard ${selectedSubjectId === subject.id ? "selected" : ""}`} key={subject.id} onClick={() => setSelectedSubjectId(subject.id)} type="button">
+                <span>{subject.officialArea}</span>
+                <strong>{subject.title}</strong>
+                <small>{subject.stcwAlignment}</small>
+                <em>{subjectGeneratedTasks.length > 0 ? `${subjectCompletedTasks.length}/${subjectGeneratedTasks.length} complete / ${subjectEarnedTaskXp} XP earned` : subject.status === "prototype" ? "Prototype functional" : "Planned"}</em>
+              </button>
+            );
+          })}
         </aside>
 
         {selectedSubject ? (
@@ -411,9 +448,20 @@ function AcademicProgramDashboard({
               </div>
               <div className="missionBadge">
                 <span>Progress</span>
-                <strong>{selectedSubject.progress}% / {selectedSubject.xp} XP</strong>
+                <strong>{subjectProgress}% / {subjectEarnedXp} XP earned</strong>
               </div>
             </div>
+            {subjectMissionTasks.length > 0 ? (
+              <div className="subjectProgressPanel" aria-label={`${selectedSubject.title} local progress`}>
+                <div className="subjectProgressStats">
+                  <span>{subjectCompletedMissionTasks.length} / {subjectMissionTasks.length} tasks complete</span>
+                  <strong>{subjectEarnedXp} / {subjectTotalXp} XP earned</strong>
+                </div>
+                <div className="subjectProgressTrack" aria-hidden="true">
+                  <span style={{ width: `${subjectProgress}%` }} />
+                </div>
+              </div>
+            ) : null}
             <div className="academicInfoGrid">
               <AcademicInfoBlock title="Units" items={selectedSubject.units} />
               <AcademicInfoBlock title="Topics" items={selectedSubject.topics} />
@@ -426,21 +474,25 @@ function AcademicProgramDashboard({
                   <strong>{subjectMissionTasks.length} generated</strong>
                 </div>
                 <div className="taskGrid missionTaskGrid">
-                  {subjectMissionTasks.map((task) => (
-                    <article className="taskCard missionTaskCard" key={task.taskId}>
-                      <span>{task.topic}</span>
-                      <strong>{task.taskTitle}</strong>
-                      <p>{task.scenario}</p>
-                      <div className="missionTaskMeta" aria-label={`${task.taskTitle} mission details`}>
-                        <em>{task.xp} XP</em>
-                        <em>{task.estimatedTime}</em>
-                        <em>{task.difficulty}</em>
-                      </div>
-                      <Link className="secondaryAction missionTaskStartLink" href={`/tasks/${task.taskId}`}>
-                        Start Mission
-                      </Link>
-                    </article>
-                  ))}
+                  {subjectMissionTasks.map((task) => {
+                    const taskCompleted = completedAcademicTaskIdSet.has(task.taskId);
+
+                    return (
+                      <article className={`taskCard missionTaskCard ${taskCompleted ? "completed" : ""}`} key={task.taskId}>
+                        <span>{taskCompleted ? "Completed" : task.topic}</span>
+                        <strong>{task.taskTitle}</strong>
+                        <p>{task.scenario}</p>
+                        <div className="missionTaskMeta" aria-label={`${task.taskTitle} mission details`}>
+                          <em>{task.xp} XP</em>
+                          <em>{task.estimatedTime}</em>
+                          <em>{task.difficulty}</em>
+                        </div>
+                        <Link className={`secondaryAction missionTaskStartLink ${taskCompleted ? "completed" : ""}`} href={`/tasks/${task.taskId}`}>
+                          {taskCompleted ? "Completed" : "Start Mission"}
+                        </Link>
+                      </article>
+                    );
+                  })}
                 </div>
               </section>
             ) : null}

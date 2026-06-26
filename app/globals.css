@@ -1046,6 +1046,64 @@ button:disabled {
   width: 100%;
   margin-top: auto;
 }
+
+.subjectProgressPanel {
+  margin-top: 16px;
+  padding: 14px;
+  border: 1px solid rgba(143, 224, 218, 0.24);
+  border-radius: 8px;
+  background: rgba(47, 167, 160, 0.1);
+}
+
+.subjectProgressStats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: #d7dee8;
+  font-weight: 900;
+}
+
+.subjectProgressStats span {
+  color: var(--signal);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.subjectProgressStats strong {
+  color: #ffffff;
+}
+
+.subjectProgressTrack {
+  height: 10px;
+  margin-top: 12px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.subjectProgressTrack span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--teal), var(--signal));
+}
+
+.missionTaskCard.completed {
+  border-color: rgba(47, 167, 160, 0.58);
+  background: rgba(47, 167, 160, 0.12);
+}
+
+.missionTaskCard.completed span {
+  color: #8fe0da;
+}
+
+.missionTaskStartLink.completed {
+  border-color: rgba(47, 167, 160, 0.58);
+  background: rgba(47, 167, 160, 0.18);
+  color: #8fe0da;
+}
 .subjectWorkspace {
   grid-template-columns: minmax(280px, 0.42fr) minmax(0, 1fr);
   margin-top: 20px;
@@ -1174,6 +1232,238 @@ button:disabled {
   }
 }
 
+
+.navalTaskShell {
+  padding-top: 20px;
+}
+
+.navalTaskHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  padding: 22px;
+  background: rgba(7, 17, 31, 0.9);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+
+.navalTaskHeader h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(44px, 8vw, 92px);
+  line-height: 0.92;
+}
+
+.navalTaskHeader p:last-child {
+  max-width: 720px;
+  margin: 12px 0 0;
+  color: #d7dee8;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navalTaskCommandCard,
+.navalOrderPanel,
+.navalRewardPanel,
+.missionCompletePanel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(11, 24, 40, 0.9);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.24);
+}
+
+.navalTaskCommandCard {
+  margin-top: 18px;
+  padding: 20px;
+}
+
+.navalTaskMetaGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.commandItem {
+  min-height: 88px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.commandItem span,
+.navalMissionBlock span,
+.navalOrderPanel span,
+.xpRewardBlock span,
+.badgeEarnedPlaceholder span {
+  display: block;
+  color: var(--signal);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.commandItem strong {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.navalMissionBlock {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.navalMissionBlock h2 {
+  margin: 8px 0 0;
+  color: #ffffff;
+  font-size: clamp(28px, 4vw, 48px);
+  line-height: 1;
+}
+
+.navalMissionBlock p,
+.navalOrderPanel p,
+.navalOrderPanel li,
+.missionCompletePanel p {
+  color: #d7dee8;
+  line-height: 1.58;
+}
+
+.navalMissionBlock p {
+  max-width: 860px;
+  margin: 12px 0 0;
+  font-size: 18px;
+}
+
+.navalTaskLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.42fr);
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.navalOrderPanel {
+  padding: 18px;
+}
+
+.navalOrderPanel ol,
+.navalOrderPanel ul {
+  margin: 14px 0 0;
+  padding-left: 22px;
+}
+
+.situationPanel small {
+  display: block;
+  margin-top: 14px;
+  color: #8fe0da;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.navalRewardPanel {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+  padding: 18px;
+  grid-row: span 3;
+}
+
+.xpRewardBlock,
+.badgeEarnedPlaceholder {
+  min-height: 128px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.xpRewardBlock strong {
+  display: block;
+  margin-top: 18px;
+  color: var(--signal);
+  font-size: 44px;
+  line-height: 1;
+}
+
+.badgeEarnedPlaceholder {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background:
+    radial-gradient(circle at center, rgba(242, 184, 75, 0.24), transparent 58%),
+    rgba(255, 255, 255, 0.06);
+}
+
+.badgeEarnedPlaceholder strong {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.beginTaskButton {
+  min-height: 72px;
+  border: 1px solid rgba(242, 184, 75, 0.85);
+  border-radius: 8px;
+  background: var(--signal);
+  color: #172331;
+  font: inherit;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.completeTaskButton {
+  width: 100%;
+  min-height: 60px;
+}
+
+.missionCompletePanel {
+  margin-top: 18px;
+  padding: 22px;
+  border-color: rgba(47, 167, 160, 0.54);
+  background: rgba(47, 167, 160, 0.14);
+}
+
+.missionCompletePanel h2 {
+  margin: 8px 0 0;
+  color: #ffffff;
+  font-size: clamp(38px, 6vw, 76px);
+  line-height: 0.95;
+}
+
+.missionCompletePanel strong {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--signal);
+  font-size: 26px;
+}
+
+@media (max-width: 980px) {
+  .navalTaskHeader,
+  .navalTaskLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .navalTaskHeader {
+    flex-direction: column;
+  }
+
+  .navalTaskMetaGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .navalRewardPanel {
+    grid-row: auto;
+  }
+}
 .taskOrderPageShell {
   padding-top: 20px;
 }

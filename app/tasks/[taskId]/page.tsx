@@ -1,25 +1,55 @@
+"use client";
+
 import Link from "next/link";
+import { useParams } from "next/navigation";
+import { useEffect, useMemo, useState } from "react";
 import { academicMissionTasks } from "@/data/academic/mission-tasks";
 
-type TaskPageProps = {
-  params: Promise<{
-    taskId: string;
-  }>;
-};
+const completedAcademicTaskStorageKey = "smcp.academic.completedTaskIds";
 
-export default async function AcademicTaskOrderPage({ params }: TaskPageProps) {
-  const { taskId } = await params;
-  const task = academicMissionTasks.find((missionTask) => missionTask.taskId === decodeURIComponent(taskId));
+export default function AcademicTaskOrderPage() {
+  const params = useParams<{ taskId: string }>();
+  const taskId = Array.isArray(params.taskId) ? params.taskId[0] : params.taskId;
+  const decodedTaskId = decodeURIComponent(taskId ?? "");
+  const task = useMemo(() => academicMissionTasks.find((missionTask) => missionTask.taskId === decodedTaskId), [decodedTaskId]);
+  const [completedTaskIds, setCompletedTaskIds] = useState<string[]>([]);
+  const [taskStarted, setTaskStarted] = useState(false);
+
+  useEffect(() => {
+    try {
+      const savedTaskIds = window.localStorage.getItem(completedAcademicTaskStorageKey);
+      const parsedTaskIds = savedTaskIds ? JSON.parse(savedTaskIds) : [];
+      setCompletedTaskIds(Array.isArray(parsedTaskIds) ? parsedTaskIds.filter((savedTaskId) => typeof savedTaskId === "string") : []);
+    } catch {
+      setCompletedTaskIds([]);
+    }
+  }, []);
+
+  const taskCompleted = task ? completedTaskIds.includes(task.taskId) : false;
+  const cadetRole = task?.career === "PN" ? "Deck Cadet" : "Engineering Cadet";
+  const department = task?.career === "PN" ? "Deck Department" : "Engine Department";
+  const vessel = "MV Kaymax Explorer";
+  const priority = task?.difficulty === "Advanced" ? "High" : task?.difficulty === "Standard" ? "Normal" : "Foundation";
+
+  const markTaskComplete = () => {
+    if (!task || taskCompleted) {
+      return;
+    }
+
+    const updatedTaskIds = [...completedTaskIds, task.taskId];
+    setCompletedTaskIds(updatedTaskIds);
+    window.localStorage.setItem(completedAcademicTaskStorageKey, JSON.stringify(updatedTaskIds));
+  };
 
   if (!task) {
     return (
       <main className="academyShell">
-        <section className="missionShell taskOrderPageShell" aria-labelledby="task-not-found-title">
-          <div className="missionLead missionPlayerHeader">
+        <section className="missionShell navalTaskShell" aria-labelledby="task-not-found-title">
+          <div className="navalTaskHeader">
             <div>
               <p className="eyebrow">Task Order</p>
               <h1 id="task-not-found-title">Task not found</h1>
-              <p className="briefingText">The requested academic task is not available in the current mission inventory.</p>
+              <p>The requested operational task is not available in the current mission inventory.</p>
             </div>
             <Link className="secondaryAction taskOrderBackLink" href="/">
               Back to Academy
@@ -32,39 +62,45 @@ export default async function AcademicTaskOrderPage({ params }: TaskPageProps) {
 
   return (
     <main className="academyShell">
-      <section className="missionShell taskOrderPageShell" aria-labelledby="task-order-title">
-        <div className="missionLead missionPlayerHeader">
+      <section className="missionShell navalTaskShell" aria-labelledby="task-order-title">
+        <div className="navalTaskHeader">
           <div>
-            <p className="eyebrow">Academic Task Order</p>
-            <h1 id="task-order-title">{task.taskTitle}</h1>
-            <p className="briefingText">{task.scenario}</p>
+            <p className="eyebrow">Task Order</p>
+            <h1 id="task-order-title">TASK ORDER</h1>
+            <p>{task.taskTitle}</p>
           </div>
-          <div className="missionBadge" aria-label="Task reward and difficulty">
-            <span>{task.difficulty}</span>
-            <strong>{task.xp} XP</strong>
+          <div className={`missionBadge ${taskCompleted ? "passed" : ""}`} aria-label="Task status">
+            <span>Status</span>
+            <strong>{taskCompleted ? "MISSION COMPLETE" : taskStarted ? "Task Active" : "Awaiting Start"}</strong>
           </div>
         </div>
 
-        <section className="briefingPanel sourceTracePanel" aria-label="Official academic source traceability">
-          <div className="briefingList taskOrderMetaGrid">
-            <InfoRow label="Career" value={task.career} />
-            <InfoRow label="Semester" value={task.semester} />
-            <InfoRow label="Subject" value={`${task.subjectCode} / ${task.subjectName}`} />
-            <InfoRow label="Unit" value={task.unit} />
-            <InfoRow label="Topic" value={task.topic} />
-            <InfoRow label="Task ID" value={task.taskId} />
-            <InfoRow label="Task Title" value={task.taskTitle} />
+        <section className="navalTaskCommandCard" aria-label="Operational command card">
+          <div className="navalTaskMetaGrid">
+            <CommandItem label="Vessel" value={vessel} />
+            <CommandItem label="Cadet Role" value={cadetRole} />
+            <CommandItem label="Department" value={department} />
+            <CommandItem label="Task Number" value={task.taskId} />
+            <CommandItem label="Priority" value={priority} />
+            <CommandItem label="Estimated Time" value={task.estimatedTime} />
+          </div>
+
+          <div className="navalMissionBlock">
+            <span>Mission</span>
+            <h2>{task.taskTitle}</h2>
+            <p>{task.deliverable}</p>
           </div>
         </section>
 
-        <div className="taskOrderLayout academicTaskOrderLayout">
-          <section className="taskOrderPanel taskSummaryPanel">
-            <span>Scenario</span>
+        <div className="navalTaskLayout">
+          <section className="navalOrderPanel situationPanel">
+            <span>Operational Situation</span>
             <p>{task.scenario}</p>
+            <small>{task.subjectCode} / {task.subjectName} / {task.topic}</small>
           </section>
 
-          <section className="taskOrderPanel">
-            <span>Instructions</span>
+          <section className="navalOrderPanel">
+            <span>Your Orders</span>
             <ol>
               {task.instructions.map((instruction) => (
                 <li key={instruction}>{instruction}</li>
@@ -72,13 +108,8 @@ export default async function AcademicTaskOrderPage({ params }: TaskPageProps) {
             </ol>
           </section>
 
-          <section className="taskOrderPanel">
-            <span>Deliverable</span>
-            <p>{task.deliverable}</p>
-          </section>
-
-          <section className="taskOrderPanel taskActionPanel">
-            <span>Assessment Criteria</span>
+          <section className="navalOrderPanel">
+            <span>Success Criteria</span>
             <ul>
               {task.assessmentCriteria.map((criterion) => (
                 <li key={criterion}>{criterion}</li>
@@ -86,34 +117,48 @@ export default async function AcademicTaskOrderPage({ params }: TaskPageProps) {
             </ul>
           </section>
 
-          <section className="logbookPanel taskCompletionPanel" aria-labelledby="task-completion-title">
-            <div className="panelTitle">
-              <span id="task-completion-title">Performance Check</span>
-              <strong>{task.estimatedTime}</strong>
+          <aside className="navalRewardPanel" aria-label="XP reward and task controls">
+            <div className="xpRewardBlock">
+              <span>XP Reward</span>
+              <strong>{task.xp} XP</strong>
             </div>
-            <div className="taskCompletionSummary">
-              <InfoRow label="XP" value={`${task.xp} XP`} />
-              <InfoRow label="Estimated Time" value={task.estimatedTime} />
-              <InfoRow label="Difficulty" value={task.difficulty} />
+            <div className="badgeEarnedPlaceholder" aria-label="Badge earned placeholder">
+              <span>Badge Earned</span>
+              <strong>{taskCompleted ? "Task Order Qualified" : "Pending"}</strong>
             </div>
-            <div className="missionPlayerActions" aria-label="Task order controls">
-              <Link className="secondaryAction" href="/">
-                Back to Academy
-              </Link>
-              <button className="primaryAction" type="button">
-                Mark as Complete
+
+            {!taskStarted && !taskCompleted ? (
+              <button className="beginTaskButton" onClick={() => setTaskStarted(true)} type="button">
+                BEGIN TASK
               </button>
-            </div>
-          </section>
+            ) : (
+              <button className="primaryAction completeTaskButton" disabled={taskCompleted} onClick={markTaskComplete} type="button">
+                {taskCompleted ? "Completed" : "Mark as Complete"}
+              </button>
+            )}
+
+            <Link className="secondaryAction" href="/">
+              Back to Academy
+            </Link>
+          </aside>
         </div>
+
+        {taskCompleted ? (
+          <section className="missionCompletePanel" aria-live="polite">
+            <p className="eyebrow">Mission Complete</p>
+            <h2>MISSION COMPLETE</h2>
+            <p>Task completion recorded locally. XP earned is counted once for this task.</p>
+            <strong>+{task.xp} XP earned</strong>
+          </section>
+        ) : null}
       </section>
     </main>
   );
 }
 
-function InfoRow({ label, value }: { label: string; value: string }) {
+function CommandItem({ label, value }: { label: string; value: string }) {
   return (
-    <div className="briefingRow">
+    <div className="commandItem">
       <span>{label}</span>
       <strong>{value}</strong>
     </div>
