@@ -416,21 +416,18 @@ function AcademicProgramDashboard({
               <AcademicInfoBlock title="Topics" items={selectedSubject.topics} />
               <AcademicInfoBlock title="Assessments" items={selectedSubject.assessments} />
             </div>
-            <div className="taskGrid">
-              {subjectTasks.length > 0 ? subjectTasks.map((task) => (
-                <button className="taskCard" key={task.id} onClick={() => onOpenTask(task)} type="button">
-                  <span>{task.officialTopic}</span>
-                  <strong>{taskOrderDashboardTitles[task.id] ?? task.title}</strong>
-                  <p>{task.missionBriefing}</p>
-                  <em>{task.xp} XP / {task.progressStatus}</em>
-                </button>
-              )) : (
-                <div className="plannedNotice">
-                  <span>Missions / Tasks</span>
-                  <strong>Tasks will be converted from official topics in a later sprint.</strong>
-                </div>
-              )}
-            </div>
+            {subjectTasks.length > 0 ? (
+              <div className="taskGrid">
+                {subjectTasks.map((task) => (
+                  <button className="taskCard" key={task.id} onClick={() => onOpenTask(task)} type="button">
+                    <span>{task.officialTopic}</span>
+                    <strong>{taskOrderDashboardTitles[task.id] ?? task.title}</strong>
+                    <p>{task.missionBriefing}</p>
+                    <em>{task.xp} XP / {task.progressStatus}</em>
+                  </button>
+                ))}
+              </div>
+            ) : null}
           </section>
         ) : null}
       </div>
