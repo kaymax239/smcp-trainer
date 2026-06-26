@@ -13,7 +13,7 @@ export default function AcademicTaskOrderPage() {
   const decodedTaskId = decodeURIComponent(taskId ?? "");
   const task = useMemo(() => academicMissionTasks.find((missionTask) => missionTask.taskId === decodedTaskId), [decodedTaskId]);
   const [completedTaskIds, setCompletedTaskIds] = useState<string[]>([]);
-  const [taskStarted, setTaskStarted] = useState(false);
+  const [taskStatus, setTaskStatus] = useState<"not started" | "in progress">("not started");
 
   useEffect(() => {
     try {
@@ -26,6 +26,7 @@ export default function AcademicTaskOrderPage() {
   }, []);
 
   const taskCompleted = task ? completedTaskIds.includes(task.taskId) : false;
+  const taskInProgress = !taskCompleted && taskStatus === "in progress";
   const cadetRole = task?.career === "PN" ? "Deck Cadet" : "Engineering Cadet";
   const department = task?.career === "PN" ? "Deck Department" : "Engine Department";
   const vessel = "MV Kaymax Explorer";
@@ -71,7 +72,7 @@ export default function AcademicTaskOrderPage() {
           </div>
           <div className={`missionBadge ${taskCompleted ? "passed" : ""}`} aria-label="Task status">
             <span>Status</span>
-            <strong>{taskCompleted ? "MISSION COMPLETE" : taskStarted ? "Task Active" : "Awaiting Start"}</strong>
+            <strong>{taskCompleted ? "MISSION COMPLETE" : taskInProgress ? "Task Active" : "Awaiting Start"}</strong>
           </div>
         </div>
 
@@ -117,6 +118,21 @@ export default function AcademicTaskOrderPage() {
             </ul>
           </section>
 
+          {taskInProgress ? (
+            <section className="navalOrderPanel cadetActionPanel" aria-label="Cadet action execution steps">
+              <span>Cadet Action</span>
+              <p>Execute the task order using the following operational steps.</p>
+              <ol>
+                {task.instructions.map((instruction, index) => (
+                  <li key={`action-${instruction}`}>
+                    <strong>Step {index + 1}</strong>
+                    {instruction}
+                  </li>
+                ))}
+              </ol>
+            </section>
+          ) : null}
+
           <aside className="navalRewardPanel" aria-label="XP reward and task controls">
             <div className="xpRewardBlock">
               <span>XP Reward</span>
@@ -127,8 +143,8 @@ export default function AcademicTaskOrderPage() {
               <strong>{taskCompleted ? "Task Order Qualified" : "Pending"}</strong>
             </div>
 
-            {!taskStarted && !taskCompleted ? (
-              <button className="beginTaskButton" onClick={() => setTaskStarted(true)} type="button">
+            {!taskInProgress && !taskCompleted ? (
+              <button className="beginTaskButton" onClick={() => setTaskStatus("in progress")} type="button">
                 BEGIN TASK
               </button>
             ) : (

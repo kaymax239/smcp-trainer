@@ -1367,6 +1367,23 @@ button:disabled {
   line-height: 1.4;
 }
 
+
+.cadetActionPanel {
+  border-color: rgba(143, 224, 218, 0.34);
+  background: rgba(47, 167, 160, 0.1);
+}
+
+.cadetActionPanel li {
+  display: grid;
+  gap: 4px;
+}
+
+.cadetActionPanel li strong {
+  color: #8fe0da;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
 .navalRewardPanel {
   display: grid;
   align-content: start;
@@ -1458,7 +1475,7 @@ button:disabled {
 
   .navalTaskMetaGrid {
     grid-template-columns: 1fr;
-  }
+  }
 
   .navalRewardPanel {
     grid-row: auto;
