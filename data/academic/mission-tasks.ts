@@ -279,5 +279,161 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 10,
     estimatedTime: "25 min",
     difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "MATH101",
+    subjectName: "Mathematics I",
+    subjectId: "mn-s1-mathematics-i",
+    unit: "Arithmetic review",
+    topic: "Fractions",
+    taskId: "mn-math101-fraction-lube-oil-calculation",
+    taskTitle: "Calculate Lube Oil Top-Up Fraction",
+    scenario: "During an engine-room round, the duty engineer asks the cadet to calculate the fraction of a lube oil tank that must be topped up before the next watch.",
+    instructions: [
+      "Read the reported tank capacity and current remaining quantity.",
+      "Express the missing quantity as a fraction of total capacity.",
+      "State whether the top-up request should be reported as less than half, half, or more than half of the tank."
+    ],
+    deliverable: "A short engine-room calculation note showing the fraction of lube oil required for top-up.",
+    assessmentCriteria: [
+      "Fraction is calculated from the correct total capacity.",
+      "Result is simplified or explained clearly enough for an engineer to verify.",
+      "Operational recommendation matches the calculated fraction."
+    ],
+    xp: 10,
+    estimatedTime: "20 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "MATH101",
+    subjectName: "Mathematics I",
+    subjectId: "mn-s1-mathematics-i",
+    unit: "Algebraic operations",
+    topic: "Equations",
+    taskId: "mn-math101-equation-generator-load",
+    taskTitle: "Solve Generator Load Equation",
+    scenario: "The second engineer gives the cadet a simple load balance problem to estimate remaining generator capacity during engine-room watchkeeping.",
+    instructions: [
+      "Identify the known generator capacity and current load values.",
+      "Set up an equation for remaining available load.",
+      "Solve the equation and report whether an additional auxiliary load can be accepted."
+    ],
+    deliverable: "A generator load calculation with equation, result, and operational conclusion.",
+    assessmentCriteria: [
+      "Equation represents the engine-room load problem correctly.",
+      "Calculation result is accurate.",
+      "Conclusion connects the result to generator operation."
+    ],
+    xp: 10,
+    estimatedTime: "25 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "MATH101",
+    subjectName: "Mathematics I",
+    subjectId: "mn-s1-mathematics-i",
+    unit: "Measurement systems",
+    topic: "Units and conversions",
+    taskId: "mn-math101-unit-conversion-engine-room",
+    taskTitle: "Convert Engine-Room Measurement Units",
+    scenario: "A machinery log contains measurements in different units. The cadet must convert them before the watch engineer enters the technical report.",
+    instructions: [
+      "Select three engine-room measurements that require unit conversion.",
+      "Apply the correct conversion factor for each measurement.",
+      "Record the converted values with units and explain where each value is used onboard."
+    ],
+    deliverable: "A converted measurement log for engine-room technical reporting.",
+    assessmentCriteria: [
+      "Conversion factors are applied correctly.",
+      "Converted values include the correct units.",
+      "Each measurement is connected to a practical engine-room use."
+    ],
+    xp: 10,
+    estimatedTime: "25 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Algebra Elemental",
+    topic: "Expresiones algebraicas",
+    taskId: "pn-alg-stowage-expression-check",
+    taskTitle: "Build A Cargo Stowage Expression",
+    scenario: "The chief officer asks the cadet to express available cargo hold space after planned stowage allowances are deducted.",
+    instructions: [
+      "Identify the total cargo hold capacity and the reserved safety allowance.",
+      "Write an algebraic expression for remaining usable stowage capacity.",
+      "Explain how the expression supports cargo planning before loading."
+    ],
+    deliverable: "A cargo stowage expression with the variables defined and the operational meaning stated.",
+    assessmentCriteria: [
+      "Expression uses the correct capacity and allowance variables.",
+      "Variables are defined in cargo-operation terms.",
+      "Operational explanation connects the expression to safe stowage planning."
+    ],
+    xp: 10,
+    estimatedTime: "20 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Ecuaciones, desigualdades y numeros complejos",
+    topic: "Ecuaciones lineales y cuadraticas",
+    taskId: "pn-alg-cargo-unit-equation",
+    taskTitle: "Solve A Cargo Unit Conversion Equation",
+    scenario: "A cargo manifest gives weight in mixed units. The cadet must solve the conversion equation before reporting the loading figure to the deck officer.",
+    instructions: [
+      "Identify the manifest value and the required reporting unit.",
+      "Set up a linear equation for the unit conversion.",
+      "Solve the equation and state the converted cargo weight for the loading report."
+    ],
+    deliverable: "A solved cargo conversion equation with the final loading value and unit.",
+    assessmentCriteria: [
+      "Equation represents the cargo unit conversion correctly.",
+      "Converted value is calculated accurately.",
+      "Final answer includes the correct unit for deck reporting."
+    ],
+    xp: 10,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Sistemas de Ecuaciones y desigualdades",
+    topic: "Sistemas de ecuaciones lineales",
+    taskId: "pn-alg-fuel-stability-ratio",
+    taskTitle: "Calculate Fuel Distribution Ratio",
+    scenario: "Before departure, the officer asks the cadet to compare fuel distribution between tanks and identify whether the planned ratio supports basic vessel balance.",
+    instructions: [
+      "List the planned fuel quantities for two tanks.",
+      "Set up a simple ratio or two-variable relation between the tanks.",
+      "Report whether the distribution is balanced enough for the officer to review."
+    ],
+    deliverable: "A fuel distribution ratio note with the calculation and a basic stability observation.",
+    assessmentCriteria: [
+      "Fuel quantities are placed in the correct ratio or relation.",
+      "Calculation is clear and verifiable.",
+      "Observation connects fuel distribution to basic vessel balance."
+    ],
+    xp: 10,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
   }
 ];
