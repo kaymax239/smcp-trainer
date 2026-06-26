@@ -1,8 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 import { academicPrograms, academicSemesters, type AcademicProgramCode } from "@/data/academic/semesters";
+import { academicMissionTasks } from "@/data/academic/mission-tasks";
 import { academicSubjects } from "@/data/academic/subjects";
 import { academicTasks, type AcademicTask } from "@/data/academic/tasks";
 import { deckLevelOneMissions, type DeckLevelOneMission } from "@/data/deck-level-1-missions";
@@ -331,6 +333,7 @@ function AcademicProgramDashboard({
   const selectedSemester = programSemesters.find((semester) => semester.id === selectedSemesterId) ?? programSemesters[0];
   const semesterSubjects = academicSubjects.filter((subject) => subject.semesterId === selectedSemester?.id);
   const selectedSubject = semesterSubjects.find((subject) => subject.id === selectedSubjectId) ?? semesterSubjects[0];
+  const subjectMissionTasks = academicMissionTasks.filter((task) => task.subjectId === selectedSubject?.id);
   const subjectTasks = academicTasks.filter((task) => task.subjectId === selectedSubject?.id);
 
   const selectSemester = (semesterId: string) => {
@@ -416,6 +419,31 @@ function AcademicProgramDashboard({
               <AcademicInfoBlock title="Topics" items={selectedSubject.topics} />
               <AcademicInfoBlock title="Assessments" items={selectedSubject.assessments} />
             </div>
+            {subjectMissionTasks.length > 0 ? (
+              <section className="missionTaskSection" aria-label={`${selectedSubject.title} missions and tasks`}>
+                <div className="panelTitle">
+                  <span>Missions / Tasks</span>
+                  <strong>{subjectMissionTasks.length} generated</strong>
+                </div>
+                <div className="taskGrid missionTaskGrid">
+                  {subjectMissionTasks.map((task) => (
+                    <article className="taskCard missionTaskCard" key={task.taskId}>
+                      <span>{task.topic}</span>
+                      <strong>{task.taskTitle}</strong>
+                      <p>{task.scenario}</p>
+                      <div className="missionTaskMeta" aria-label={`${task.taskTitle} mission details`}>
+                        <em>{task.xp} XP</em>
+                        <em>{task.estimatedTime}</em>
+                        <em>{task.difficulty}</em>
+                      </div>
+                      <Link className="secondaryAction missionTaskStartLink" href={`/tasks/${task.taskId}`}>
+                        Start Mission
+                      </Link>
+                    </article>
+                  ))}
+                </div>
+              </section>
+            ) : null}
             {subjectTasks.length > 0 ? (
               <div className="taskGrid">
                 {subjectTasks.map((task) => (

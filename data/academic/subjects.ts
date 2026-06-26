@@ -115,9 +115,20 @@ export const academicSubjects: AcademicSubject[] = [
       "Líneas de carga, francobordo, desplazamiento y lectura de calados",
       "Quebranto, arrufo y esfuerzos del buque"
     ],
-    tasks: [],
+    tasks: [
+      "Build A Navigation History Watch Brief",
+      "Identify Vessel Type And Operational Purpose",
+      "Map A Maritime Transport Operation",
+      "Match Maritime Organization To Shipboard Function",
+      "Report Propulsion Development Milestones",
+      "Label Principal Ship Dimensions",
+      "Identify Cargo And Mooring Equipment",
+      "Trace Tank Sounding And Vent Arrangement",
+      "Read Draft Marks And Load Line Information",
+      "Brief Hull Stress Conditions"
+    ],
     assessments: ["Criterios y procedimientos de evaluación del programa oficial"],
-    xp: 0,
+    xp: 100,
     progress: 0,
     status: "planned"
   },
