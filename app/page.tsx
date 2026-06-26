@@ -25,9 +25,9 @@ const taskOrderRouteByTaskId: Record<string, string> = {
 };
 const taskOrderDashboardTitles: Record<string, string> = {
   [missionOneOneTaskId]: "Mission 1.1: Report To The Chief Engineer",
-  "introduce-yourself-onboard": "Mission 1.2: Greet The Watch Officer",
-  "complete-cadet-personal-information": "Mission 1.3: Identify Engine Room Basics",
-  "identify-your-department": "Mission 1.4: Spell A Crew Name By Radio"
+  "introduce-yourself-onboard": "Mission 1.2: Report To The Watch Officer",
+  "complete-cadet-personal-information": "Mission 1.3: Verify Engine Room Familiarization Points",
+  "identify-your-department": "Mission 1.4: Transmit Crew Identity By Radio"
 };
 
 const academies: {
@@ -1019,3 +1019,4 @@ function AssessmentPanel({ earnedXp, onReset, passed, score }: { earnedXp: numbe
     </div>
   );
 }
+

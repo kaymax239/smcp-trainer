@@ -1,35 +1,35 @@
 import { TaskOrderMissionPage, type TaskOrderMission } from "@/app/components/TaskOrderMissionPage";
 
 const mission: TaskOrderMission = {
-  title: "Radio Name Confirmation Procedure",
-  briefing: "Operational task order for confirming a crew member title and name by radio using phonetic spelling.",
+  title: "Transmit Crew Identity By Radio",
+  briefing: "Operational task order for transmitting a crew member title and name to the bridge using a clear phonetic spelling record.",
   sourceProgram: "MN",
   sourceUnit: "Unidad 1: Uso del verbo to be",
   sourceTopic: "1.4. Usa el nombre y el titulo correctamente, aprende y practica el alfabeto convencional, fonetico y a deletrear.",
   operationalContext:
-    "The bridge requests confirmation of a technician's full name and title over radio during a noisy watch period.",
+    "During a noisy watch period, the bridge requests a crew member's title and full name for a log entry. The message must be clear enough to record without a repeat request.",
   orders: [
-    "Receive crew name request from bridge.",
-    "State crew member title.",
-    "Spell name using phonetic alphabet.",
-    "Confirm message.",
-    "Submit radio log entry."
+    "Receive the identity request from the bridge.",
+    "State the crew member's title before the name.",
+    "Transmit the full name using phonetic spelling for each letter that may be misunderstood.",
+    "Confirm that the bridge copied the message correctly.",
+    "Submit the radio identity log entry."
   ],
-  requiredInformation: ["Bridge request", "Crew member title", "Crew member name", "Phonetic spelling", "Message confirmation"],
-  action: "Complete radio name confirmation log.",
-  formTitle: "Radio Confirmation Log",
+  requiredInformation: ["Bridge request", "Crew member title", "Crew member full name", "Phonetic spelling record", "Bridge readback confirmation"],
+  action: "Complete a radio identity log proving the bridge received the correct title, name, spelling, and readback confirmation.",
+  formTitle: "Radio Identity Log",
   fields: [
-    { id: "request", label: "Bridge Request" },
+    { id: "request", label: "Bridge Identity Request" },
     { id: "title", label: "Crew Member Title" },
-    { id: "name", label: "Crew Member Name" },
-    { id: "spelling", label: "Phonetic Spelling" },
-    { id: "confirmation", label: "Message Confirmation" }
+    { id: "name", label: "Crew Member Full Name" },
+    { id: "spelling", label: "Phonetic Spelling Record" },
+    { id: "confirmation", label: "Bridge Readback Confirmation" }
   ],
   performanceCheck:
-    "Can the cadet state the correct title, spell the name with phonetic alphabet terms, and provide a message the bridge can record without confusion?",
-  taskComplete: "Bridge confirms the radio log entry.",
+    "Accepted only if the title, full name, phonetic spelling, and bridge readback are complete enough for the bridge to enter the identity without confusion.",
+  taskComplete: "Bridge confirms the radio identity log entry and no repeat transmission is required.",
   xp: 10,
-  acceptedMessage: "Bridge accepted your radio name confirmation log."
+  acceptedMessage: "Bridge accepted your radio identity log. XP awarded for clear radio transmission and readback confirmation."
 };
 
 export default function MissionOneFourPage() {

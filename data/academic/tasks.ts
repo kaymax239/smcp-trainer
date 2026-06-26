@@ -74,10 +74,10 @@ export const academicTasks: AcademicTask[] = [
   {
     id: "introduce-yourself-onboard",
     subjectId: "mn-s1-maritime-english-i",
-    title: "Introduce Yourself Onboard",
-    officialTopic: "Verb To Be / Personal introductions",
+    title: "Report To The Watch Officer",
+    officialTopic: "Watch reporting / Professional courtesy",
     missionBriefing:
-      "Introduce yourself to an engineering officer and a motorman using your name, rank, department and training purpose.",
+      "Report to the watch officer at the start of a supervised duty period, state your cadet identity and assigned purpose, then confirm release when dismissed.",
     video: {
       title: "Onboard introductions for engine cadets",
       duration: "4 min",
@@ -97,7 +97,7 @@ export const academicTasks: AcademicTask[] = [
         "Good afternoon. My name is Ana Lopez. I am the new engine cadet assigned to the Engine Department. I am onboard for supervised training and I am ready to observe the engine-room routine safely."
     },
     operationalScenario:
-      "A motorman meets you near the workshop and asks who you are and why you are onboard.",
+      "The watch officer must know who is entering the duty area, why the cadet is present, and when the cadet has been released.",
     practiceQuestions: ["State your name.", "State your rank.", "State your training purpose."],
     assessment: [
       { prompt: "Which word describes your training role?", options: ["Cadet", "Passenger", "Pilot", "Agent"], answer: "Cadet" },
@@ -110,10 +110,10 @@ export const academicTasks: AcademicTask[] = [
   {
     id: "complete-cadet-personal-information",
     subjectId: "mn-s1-maritime-english-i",
-    title: "Complete Cadet Personal Information",
-    officialTopic: "Personal information / Forms",
+    title: "Verify Engine Room Familiarization Points",
+    officialTopic: "Engine-room locations / Familiarization record",
     missionBriefing:
-      "Complete your cadet record using accurate personal information and simple English fields required for shipboard administration.",
+      "Verify assigned engine-room equipment, location, reporting point and station before a supervised safety walkthrough.",
     video: {
       title: "Completing onboard personal information",
       duration: "3 min",
@@ -133,7 +133,7 @@ export const academicTasks: AcademicTask[] = [
         "My name is Carlos Rivera. I am Mexican. My rank is engine cadet and I am assigned to the Engine Department. I am joining the vessel for supervised onboard training."
     },
     operationalScenario:
-      "The ship's office requests your cadet personal information before you receive your familiarization checklist.",
+      "The supervisor checks whether the cadet can locate assigned machinery areas before authorizing the familiarization walkthrough.",
     practiceQuestions: ["What is your surname?", "What is your rank?", "What is your department?"],
     assessment: [
       { prompt: "Which field asks for family name?", options: ["Surname", "Rank", "Duty", "Watch"], answer: "Surname" },
@@ -146,10 +146,10 @@ export const academicTasks: AcademicTask[] = [
   {
     id: "identify-your-department",
     subjectId: "mn-s1-maritime-english-i",
-    title: "Identify Your Department",
-    officialTopic: "Shipboard departments",
+    title: "Transmit Crew Identity By Radio",
+    officialTopic: "Radio identity confirmation / Phonetic spelling",
     missionBriefing:
-      "Identify the Engine Department and distinguish it from Deck, Catering and Administration when receiving instructions.",
+      "Transmit a crew member title and full name to the bridge using clear phonetic spelling and confirm the bridge readback.",
     video: {
       title: "Shipboard departments for new cadets",
       duration: "5 min",
@@ -169,7 +169,7 @@ export const academicTasks: AcademicTask[] = [
         "I am assigned to the Engine Department. This department operates and monitors ship machinery. As an engine cadet, I will observe engine-room rounds, safety procedures and basic machinery status reports."
     },
     operationalScenario:
-      "A deck officer asks your department. You must answer clearly and avoid reporting to the wrong station.",
+      "The bridge needs a crew identity for the log during a noisy watch period and must copy the name without a repeat transmission.",
     practiceQuestions: ["What department operates machinery?", "Where should an engine cadet report?", "Which department handles bridge watchkeeping?"],
     assessment: [
       { prompt: "Which department operates machinery?", options: ["Engine Department", "Deck Department", "Catering Department", "Passenger Department"], answer: "Engine Department" },
@@ -216,3 +216,4 @@ export const academicTasks: AcademicTask[] = [
     progressStatus: "Prototype ready"
   }
 ];
+

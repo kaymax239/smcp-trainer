@@ -102,7 +102,7 @@ export function TaskOrderMissionPage({ mission }: { mission: TaskOrderMission })
             <p>{mission.performanceCheck}</p>
             <span>Task Complete</span>
             <p>{mission.taskComplete}</p>
-            <span>XP Award</span>
+            <span>Competence XP</span>
             <p>{mission.xp} XP</p>
           </section>
 
@@ -171,3 +171,4 @@ function InfoRow({ label, value }: { label: string; value: string }) {
     </div>
   );
 }
+
