@@ -28,8 +28,8 @@ The current academic base includes the completed academic inventory and academic
 # Current Git Status
 
 * Current branch: `codex/institutional-demo-mission-fix`
-* Latest commit: `5c729d5 docs: finalize SMCP Trainer master project vision`
-* Repository clean: YES before this documentation split
+* Latest commit: `4bd888b docs: separate project vision from project status`
+* Repository clean: YES before this final cleanup
 
 # Current Working Features
 
@@ -64,3 +64,4 @@ The next development priority is to review and refine Missions 1.2, 1.3, and 1.4
 After Missions 1.1-1.4 are demonstration-quality, expand the same architecture to the remaining Maritime English I missions.
 
 Do not expand to all 47 missions until the Task Order experience is validated.
+
