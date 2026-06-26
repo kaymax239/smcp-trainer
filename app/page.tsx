@@ -8,7 +8,7 @@ import { academicTasks, type AcademicTask } from "@/data/academic/tasks";
 import { deckLevelOneMissions, type DeckLevelOneMission } from "@/data/deck-level-1-missions";
 
 type Academy = "deck" | "engine" | "ocean";
-type ActiveView = "home" | "engineMission" | "deckMission" | "academicTask";
+type ActiveView = "home" | "program" | "engineMission" | "deckMission" | "academicTask";
 type SystemId = "main-engine" | "auxiliary-engine" | "fuel-separator" | "purifier" | "fresh-water-generator" | "bilge-system";
 
 const defaultAcademy: Academy = "engine";
@@ -186,7 +186,18 @@ export default function Home() {
   const [selectedSemesterId, setSelectedSemesterId] = useState("mn-semester-i");
   const [selectedSubjectId, setSelectedSubjectId] = useState("mn-s1-maritime-english-i");
   const [selectedAcademicTask, setSelectedAcademicTask] = useState<AcademicTask>(academicTasks[0]);
-  const selectedAcademyDetails = academies.find((academy) => academy.id === selectedAcademy) ?? academies[1];
+
+  const selectCareer = (program: AcademicProgramCode) => {
+    const firstSemester = academicSemesters.find((semester) => semester.program === program) ?? academicSemesters[0];
+    const firstSubject = academicSubjects.find((subject) => subject.semesterId === firstSemester.id);
+
+    setSelectedProgram(program);
+    setSelectedSemesterId(firstSemester.id);
+    if (firstSubject) {
+      setSelectedSubjectId(firstSubject.id);
+    }
+    setActiveView("program");
+  };
 
   const openDeckMission = (mission: DeckLevelOneMission) => {
     setSelectedDeckMission(mission);
@@ -196,7 +207,7 @@ export default function Home() {
 
   const backToDeckAcademy = () => {
     setSelectedAcademy("deck");
-    setActiveView("home");
+    setActiveView("program");
   };
 
   const openAcademicTask = (task: AcademicTask) => {
@@ -216,7 +227,7 @@ export default function Home() {
     return (
       <main className="academyShell">
         <section className="academySection" aria-label={`${selectedAcademicTask.title} academic task`}>
-          <AcademicTaskPlayer task={selectedAcademicTask} onBack={() => setActiveView("home")} />
+          <AcademicTaskPlayer task={selectedAcademicTask} onBack={() => setActiveView("program")} />
         </section>
       </main>
     );
@@ -226,8 +237,8 @@ export default function Home() {
     return (
       <main className="academyShell">
         <section className="academySection" aria-label="Engine Room Familiarization mission">
-          <button className="secondaryAction" onClick={() => setActiveView("home")} type="button">
-            Back to Academy Home
+          <button className="secondaryAction" onClick={() => setActiveView("program")} type="button">
+            Back to Program
           </button>
           <EngineRoomFamiliarizationMission />
         </section>
@@ -245,121 +256,82 @@ export default function Home() {
     );
   }
 
+  if (activeView === "program") {
+    return (
+      <main className="academyShell">
+        <AcademicProgramDashboard
+          onBackToCareers={() => setActiveView("home")}
+          onOpenTask={openAcademicTask}
+          selectedProgram={selectedProgram}
+          selectedSemesterId={selectedSemesterId}
+          selectedSubjectId={selectedSubjectId}
+          setSelectedSemesterId={setSelectedSemesterId}
+          setSelectedSubjectId={setSelectedSubjectId}
+        />
+      </main>
+    );
+  }
+
   return (
-    <main className="academyShell">
-      <section className="heroSection" aria-labelledby="hero-title">
-        <nav className="topBar" aria-label="Training simulator header">
+    <main className="academyShell careerHomeShell">
+      <section className="careerHome" aria-labelledby="career-home-title">
+        <nav className="topBar" aria-label="SMCP Digital Academy header">
           <div className="brandMark">SMCP</div>
           <div>
-            <p>Institutional Demo</p>
-            <strong>Digital Maritime Academy MVP</strong>
+            <p>Digital Maritime Academy</p>
+            <strong>Career Selection</strong>
           </div>
         </nav>
 
-        <div className="heroGrid">
-          <div className="heroCopy">
-            <p className="eyebrow">STCW + IMO SMCP Readiness Platform</p>
-            <h1 id="hero-title">SMCP Trainer</h1>
-            <p className="subtitle">Mission-based maritime academy simulator</p>
-            <p className="heroText">
-              A dark maritime training console where cadets progress through Deck, Engine and Ocean Intelligence workflows by completing operational missions tied to STCW competencies and IMO SMCP functions.
-            </p>
-            <button className="primaryAction" onClick={() => setActiveView("engineMission")} type="button">
-              Start Engine Room Familiarization
-            </button>
-          </div>
-
-          <CadetStatus />
-        </div>
-      </section>
-
-      <AcademicProgramDashboard
-        onOpenTask={openAcademicTask}
-        selectedProgram={selectedProgram}
-        selectedSemesterId={selectedSemesterId}
-        selectedSubjectId={selectedSubjectId}
-        setSelectedProgram={setSelectedProgram}
-        setSelectedSemesterId={setSelectedSemesterId}
-        setSelectedSubjectId={setSelectedSubjectId}
-      />
-
-      <section className="academySection" aria-label="Institutional academy overview">
-        <div className="sectionHeader">
-          <div>
-            <p className="eyebrow">Academy System</p>
-            <h2>Three training environments</h2>
-          </div>
-          <p className="sectionNote">Built for a 3-minute executive walkthrough: vision, pathways, intelligence layer and one playable mission.</p>
+        <div className="careerHomeHero">
+          <p className="eyebrow">HOME</p>
+          <h1 id="career-home-title">SMCP Digital Academy</h1>
+          <p className="subtitle">Train Like You Sail</p>
         </div>
 
-        <div className="academyGrid">
-          {academies.map((academy) => {
-            const isSelected = selectedAcademy === academy.id;
+        <div className="careerChoiceGrid" aria-label="Career selection">
+          <button className="careerChoiceCard" onClick={() => selectCareer("PN")} type="button">
+            <span>Deck Officer Program</span>
+            <strong>Pilotin Naval</strong>
+            <small>PN</small>
+            <em>Bridge, navigation, cargo, safety and deck operations.</em>
+          </button>
 
-            return (
-              <button
-                aria-pressed={isSelected}
-                className={`academyCard ${isSelected ? "selected" : ""}`}
-                key={academy.id}
-                onClick={() => setSelectedAcademy(academy.id)}
-                type="button"
-              >
-                <span>{academy.deck}</span>
-                <strong>{academy.title}</strong>
-                <small>{academy.description}</small>
-                <em>{academy.metric}</em>
-              </button>
-            );
-          })}
+          <button className="careerChoiceCard" onClick={() => selectCareer("MN")} type="button">
+            <span>Marine Engineering Program</span>
+            <strong>Maquinas Navales</strong>
+            <small>MN</small>
+            <em>Engine room, machinery watch, technical operations and safety.</em>
+          </button>
         </div>
-
-        <CareerPathDashboard />
-
-        <div className="missionBadge academyStatus" aria-live="polite">
-          <span>Active View</span>
-          <strong>{selectedAcademyDetails.title}</strong>
-        </div>
-
-        {selectedAcademy === "engine" ? <EngineRoomFamiliarizationMission /> : null}
-        {selectedAcademy === "ocean" ? <OceanIntelligenceCenter /> : null}
-        {selectedAcademy === "deck" ? <DeckInstitutionalPreview onStartMission={openDeckMission} /> : null}
       </section>
     </main>
   );
 }
 
 function AcademicProgramDashboard({
+  onBackToCareers,
   onOpenTask,
   selectedProgram,
   selectedSemesterId,
   selectedSubjectId,
-  setSelectedProgram,
   setSelectedSemesterId,
   setSelectedSubjectId
 }: {
+  onBackToCareers: () => void;
   onOpenTask: (task: AcademicTask) => void;
   selectedProgram: AcademicProgramCode;
   selectedSemesterId: string;
   selectedSubjectId: string;
-  setSelectedProgram: (program: AcademicProgramCode) => void;
   setSelectedSemesterId: (semesterId: string) => void;
   setSelectedSubjectId: (subjectId: string) => void;
 }) {
-  const selectedSemester = academicSemesters.find((semester) => semester.id === selectedSemesterId) ?? academicSemesters[4];
-  const semesterSubjects = academicSubjects.filter((subject) => subject.semesterId === selectedSemester.id);
+  const selectedProgramDetails = academicPrograms.find((program) => program.code === selectedProgram) ?? academicPrograms[0];
+  const programSemesters = academicSemesters.filter((semester) => semester.program === selectedProgram);
+  const selectedSemester = programSemesters.find((semester) => semester.id === selectedSemesterId) ?? programSemesters[0];
+  const semesterSubjects = academicSubjects.filter((subject) => subject.semesterId === selectedSemester?.id);
   const selectedSubject = semesterSubjects.find((subject) => subject.id === selectedSubjectId) ?? semesterSubjects[0];
   const subjectTasks = academicTasks.filter((task) => task.subjectId === selectedSubject?.id);
-
-  const selectProgram = (program: AcademicProgramCode) => {
-    const firstSemester = academicSemesters.find((semester) => semester.program === program) ?? academicSemesters[0];
-    const firstSubject = academicSubjects.find((subject) => subject.semesterId === firstSemester.id);
-
-    setSelectedProgram(program);
-    setSelectedSemesterId(firstSemester.id);
-    if (firstSubject) {
-      setSelectedSubjectId(firstSubject.id);
-    }
-  };
 
   const selectSemester = (semesterId: string) => {
     const firstSubject = academicSubjects.find((subject) => subject.semesterId === semesterId);
@@ -370,55 +342,51 @@ function AcademicProgramDashboard({
   };
 
   return (
-    <section className="academicDashboard" aria-labelledby="academic-title">
-      <div className="sectionHeader">
-        <div>
-          <p className="eyebrow">Academic Transformation</p>
-          <h2 id="academic-title">Official programs converted into cadet tasks</h2>
+    <section className="academicDashboard programDashboard" aria-labelledby="academic-title">
+      <div className="programTopBar">
+        <button className="secondaryAction" onClick={onBackToCareers} type="button">
+          Back to Careers
+        </button>
+        <div className="missionBadge">
+          <span>Selected Career</span>
+          <strong>{selectedProgram}</strong>
         </div>
-        <p className="sectionNote">This is not traditional ESL. Cadets learn to become maritime professionals in English through units, topics, tasks, assessments, XP and progress.</p>
       </div>
 
-      <div className="programGrid">
-        {academicPrograms.map((program) => (
-          <button className={`programCard ${selectedProgram === program.code ? "selected" : ""}`} key={program.code} onClick={() => selectProgram(program.code)} type="button">
-            <span>Program</span>
-            <strong>{program.title}</strong>
-            <p>{program.description}</p>
-          </button>
-        ))}
+      <div className="sectionHeader programHeader">
+        <div>
+          <p className="eyebrow">{selectedProgram === "PN" ? "Deck Officer Program" : "Marine Engineering Program"}</p>
+          <h2 id="academic-title">{selectedProgramDetails.title} Dashboard</h2>
+        </div>
+        <p className="sectionNote">{selectedProgramDetails.description}</p>
       </div>
 
-      <div className="semesterMatrix">
-        {academicPrograms.map((program) => (
-          <section className="semesterColumn" key={program.code} aria-label={`${program.code} semesters`}>
-            <h3>{program.code}</h3>
-            <div className="semesterGrid">
-              {academicSemesters.filter((semester) => semester.program === program.code).map((semester) => (
-                <button
-                  className={`semesterCard ${selectedSemesterId === semester.id ? "selected" : ""}`}
-                  key={semester.id}
-                  onClick={() => {
-                    setSelectedProgram(semester.program);
-                    selectSemester(semester.id);
-                  }}
-                  type="button"
-                >
-                  <span>{semester.label}</span>
-                  <strong>{semester.title}</strong>
-                  <p>{semester.focus}</p>
-                  <em>{semester.xp} XP / {semester.progress}% progress</em>
-                </button>
-              ))}
-            </div>
-          </section>
-        ))}
-      </div>
+      <section className="flowPanel" aria-label={`${selectedProgram} semesters`}>
+        <div className="panelTitle">
+          <span>Semesters</span>
+          <strong>{programSemesters.length} available</strong>
+        </div>
+        <div className="semesterGrid singleProgramSemesterGrid">
+          {programSemesters.map((semester) => (
+            <button
+              className={`semesterCard ${selectedSemester?.id === semester.id ? "selected" : ""}`}
+              key={semester.id}
+              onClick={() => selectSemester(semester.id)}
+              type="button"
+            >
+              <span>{semester.label}</span>
+              <strong>{semester.title}</strong>
+              <p>{semester.focus}</p>
+              <em>{semester.xp} XP / {semester.progress}% progress</em>
+            </button>
+          ))}
+        </div>
+      </section>
 
-      <div className="subjectWorkspace">
+      <div className="subjectWorkspace guidedSubjectWorkspace">
         <aside className="subjectList" aria-label="Subjects in selected semester">
           <div className="panelTitle">
-            <span>{selectedSemester.program} {selectedSemester.label}</span>
+            <span>{selectedSemester?.program} {selectedSemester?.label}</span>
             <strong>Subjects</strong>
           </div>
           {semesterSubjects.map((subject) => (
@@ -435,7 +403,7 @@ function AcademicProgramDashboard({
           <section className="subjectDetail" aria-label={`${selectedSubject.title} detail`}>
             <div className="missionLead">
               <div>
-                <p className="eyebrow">{selectedSubject.officialArea}</p>
+                <p className="eyebrow">Subject</p>
                 <h2>{selectedSubject.title}</h2>
               </div>
               <div className="missionBadge">
@@ -458,7 +426,7 @@ function AcademicProgramDashboard({
                 </button>
               )) : (
                 <div className="plannedNotice">
-                  <span>Planned subject</span>
+                  <span>Missions / Tasks</span>
                   <strong>Tasks will be converted from official topics in a later sprint.</strong>
                 </div>
               )}
@@ -469,7 +437,6 @@ function AcademicProgramDashboard({
     </section>
   );
 }
-
 function AcademicInfoBlock({ items, title }: { items: string[]; title: string }) {
   return (
     <div className="academicInfoBlock">
