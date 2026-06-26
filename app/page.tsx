@@ -431,7 +431,7 @@ function AcademicProgramDashboard({
             return (
               <button className={`subjectCard ${selectedSubjectId === subject.id ? "selected" : ""}`} key={subject.id} onClick={() => setSelectedSubjectId(subject.id)} type="button">
                 <span>{subject.officialArea}</span>
-                <strong>{subject.title}</strong>
+                <strong>{subject.title} / {subjectGeneratedTasks.length} tasks</strong>
                 <small>{subject.stcwAlignment}</small>
                 <em>{subjectGeneratedTasks.length > 0 ? `${subjectCompletedTasks.length}/${subjectGeneratedTasks.length} complete / ${subjectEarnedTaskXp} XP earned` : subject.status === "prototype" ? "Prototype functional" : "Planned"}</em>
               </button>
@@ -495,7 +495,17 @@ function AcademicProgramDashboard({
                   })}
                 </div>
               </section>
-            ) : null}
+            ) : (
+              <section className="missionTaskSection" aria-label={`${selectedSubject.title} missions and tasks`}>
+                <div className="panelTitle">
+                  <span>Missions / Tasks</span>
+                  <strong>0 generated</strong>
+                </div>
+                <div className="plannedNotice">
+                  <span>No missions generated yet for this subject.</span>
+                </div>
+              </section>
+            )}
             {subjectTasks.length > 0 ? (
               <div className="taskGrid">
                 {subjectTasks.map((task) => (
