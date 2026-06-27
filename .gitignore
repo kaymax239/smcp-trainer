@@ -2,3 +2,4 @@ node_modules
 .next
 *.zip
 .vercel
+.claude/
