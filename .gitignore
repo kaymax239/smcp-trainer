@@ -3,3 +3,10 @@ node_modules
 *.zip
 .vercel
 .claude/
+
+# Environment variables
+.env
+.env*.local
+
+# Logs
+*.log
