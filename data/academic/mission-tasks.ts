@@ -8,6 +8,7 @@ export type AcademicMissionTask = {
   subjectId: string;
   unit: string;
   topic: string;
+  week?: number;
   taskId: string;
   taskTitle: string;
   scenario: string;
@@ -433,6 +434,35 @@ export const academicMissionTasks: AcademicMissionTask[] = [
       "Observation connects fuel distribution to basic vessel balance."
     ],
     xp: 10,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Sistemas Internacional e Inglés",
+    week: 1,
+    taskId: "pn-fis104-w01-unit-conversion-draft",
+    taskTitle: "Convert And Report A Ship's Draught Reading",
+    scenario: "The chief officer hands the cadet a draught reading taken in feet and inches at the quay, but the loading computer and the port report both require the value in metres. The cadet must convert it correctly before the figure is logged.",
+    instructions: [
+      "Identify the draught value given in the Imperial system (feet and inches).",
+      "Apply the correct conversion factor to express the draught in the SI system (metres).",
+      "State the converted value with the correct unit and an appropriate number of decimals for a draught reading.",
+      "Explain in one sentence why using the correct unit system matters for safe loading."
+    ],
+    deliverable: "A short conversion note in English stating the original Imperial draught, the converted SI value, and the reason the correct unit system matters for the loading report.",
+    assessmentCriteria: [
+      "The conversion between Imperial and SI units is calculated correctly.",
+      "The final value carries the correct unit (metres) and sensible precision.",
+      "The note is written in clear maritime English.",
+      "The explanation connects unit accuracy to safe cargo/loading operations."
+    ],
+    xp: 15,
     estimatedTime: "25 min",
     difficulty: "Foundation"
   }
