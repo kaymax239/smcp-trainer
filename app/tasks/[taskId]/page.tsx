@@ -6,6 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 import { academicMissionTasks } from "@/data/academic/mission-tasks";
 
 const completedAcademicTaskStorageKey = "smcp.academic.completedTaskIds";
+const taskAttemptsStorageKey = "smcp.academic.taskAttempts";
 
 export default function AcademicTaskOrderPage() {
   const params = useParams<{ taskId: string }>();
@@ -18,6 +19,8 @@ export default function AcademicTaskOrderPage() {
   const [feedback, setFeedback] = useState("");
   const [isLoadingFeedback, setIsLoadingFeedback] = useState(false);
   const [feedbackError, setFeedbackError] = useState("");
+  const [attempts, setAttempts] = useState<Record<string, { passed: boolean }>>({});
+  const [passed, setPassed] = useState<boolean | null>(null);
 
   useEffect(() => {
     try {
@@ -26,6 +29,14 @@ export default function AcademicTaskOrderPage() {
       setCompletedTaskIds(Array.isArray(parsedTaskIds) ? parsedTaskIds.filter((savedTaskId) => typeof savedTaskId === "string") : []);
     } catch {
       setCompletedTaskIds([]);
+    }
+
+    try {
+      const savedAttempts = window.localStorage.getItem(taskAttemptsStorageKey);
+      const parsedAttempts = savedAttempts ? JSON.parse(savedAttempts) : {};
+      setAttempts(parsedAttempts && typeof parsedAttempts === "object" ? parsedAttempts : {});
+    } catch {
+      setAttempts({});
     }
   }, []);
 
@@ -36,18 +47,31 @@ export default function AcademicTaskOrderPage() {
   const vessel = "MV Kaymax Explorer";
   const priority = task?.difficulty === "Advanced" ? "High" : task?.difficulty === "Standard" ? "Normal" : "Foundation";
 
-  const markTaskComplete = () => {
-    if (!task || taskCompleted) {
+  const attempt = attempts[task?.taskId ?? ""];
+  const alreadyAttempted = !!attempt;
+  const showActionPanel = taskInProgress || alreadyAttempted;
+
+  const subjectTasks = task
+    ? academicMissionTasks
+        .filter((missionTask) => missionTask.subjectId === task.subjectId)
+        .sort((a, b) => (a.week ?? 0) - (b.week ?? 0))
+    : [];
+  const currentIndex = task ? subjectTasks.findIndex((missionTask) => missionTask.taskId === task.taskId) : -1;
+  const nextTask = currentIndex >= 0 && currentIndex < subjectTasks.length - 1 ? subjectTasks[currentIndex + 1] : null;
+
+  const markTaskComplete = (idToComplete?: string) => {
+    const id = idToComplete ?? task?.taskId;
+    if (!id || completedTaskIds.includes(id)) {
       return;
     }
 
-    const updatedTaskIds = [...completedTaskIds, task.taskId];
+    const updatedTaskIds = [...completedTaskIds, id];
     setCompletedTaskIds(updatedTaskIds);
     window.localStorage.setItem(completedAcademicTaskStorageKey, JSON.stringify(updatedTaskIds));
   };
 
-  async function handleGetFeedback() {
-    if (!task || !studentResponse.trim()) return;
+  async function handleSubmitFinal() {
+    if (!task || !studentResponse.trim() || alreadyAttempted) return;
     setIsLoadingFeedback(true);
     setFeedback("");
     setFeedbackError("");
@@ -68,7 +92,19 @@ export default function AcademicTaskOrderPage() {
       if (!res.ok) {
         setFeedbackError(data.error || "No se pudo obtener retroalimentación.");
       } else {
+        const didPass = data.passed === true;
         setFeedback(data.feedback || "");
+        setPassed(didPass);
+
+        // Registrar el intento (único) y persistirlo.
+        const updatedAttempts = { ...attempts, [task.taskId]: { passed: didPass } };
+        setAttempts(updatedAttempts);
+        window.localStorage.setItem(taskAttemptsStorageKey, JSON.stringify(updatedAttempts));
+
+        // Si pasó, otorgar XP completando la tarea.
+        if (didPass) {
+          markTaskComplete(task.taskId);
+        }
       }
     } catch {
       setFeedbackError("Error de conexión. Intenta de nuevo.");
@@ -153,7 +189,7 @@ export default function AcademicTaskOrderPage() {
             </ul>
           </section>
 
-          {taskInProgress ? (
+          {showActionPanel ? (
             <section className="navalOrderPanel cadetActionPanel" aria-label="Cadet action execution steps">
               <span>Cadet Action</span>
               <p>Execute the task order using the following operational steps.</p>
@@ -172,15 +208,33 @@ export default function AcademicTaskOrderPage() {
                   value={studentResponse}
                   onChange={(event) => setStudentResponse(event.target.value)}
                   placeholder="Write your response here in English..."
+                  disabled={alreadyAttempted}
                 />
-                <button
-                  className="primaryAction"
-                  type="button"
-                  disabled={isLoadingFeedback || !studentResponse.trim()}
-                  onClick={handleGetFeedback}
-                >
-                  Get Feedback
-                </button>
+
+                {alreadyAttempted ? (
+                  <div
+                    className="missionBadge"
+                    aria-label="Evaluation verdict"
+                    style={{ borderLeftColor: attempt?.passed ? "#22c55e" : "var(--alert)" }}
+                  >
+                    <span>Verdict</span>
+                    <strong style={{ color: attempt?.passed ? "#22c55e" : "var(--alert)" }}>
+                      {attempt?.passed ? "PASSED ✓" : "NOT PASSED ✗"}
+                    </strong>
+                  </div>
+                ) : (
+                  <>
+                    <button
+                      className="primaryAction"
+                      type="button"
+                      disabled={isLoadingFeedback || !studentResponse.trim() || alreadyAttempted}
+                      onClick={handleSubmitFinal}
+                    >
+                      Submit Final Answer
+                    </button>
+                    <small style={{ display: "block", marginTop: 6 }}>One attempt only — make it count.</small>
+                  </>
+                )}
 
                 {isLoadingFeedback ? (
                   <p className="briefingText" aria-live="polite">Analyzing your response...</p>
@@ -188,7 +242,7 @@ export default function AcademicTaskOrderPage() {
 
                 {feedback ? (
                   <div className="navalOrderPanel" aria-live="polite" style={{ marginTop: 12 }}>
-                    <span>Instructor Feedback</span>
+                    <span>Instructor Feedback{passed === null ? "" : passed ? " — Passed" : " — Not passed"}</span>
                     <p style={{ whiteSpace: "pre-wrap" }}>{feedback}</p>
                   </div>
                 ) : null}
@@ -197,6 +251,19 @@ export default function AcademicTaskOrderPage() {
                   <p className="briefingText" aria-live="polite" style={{ color: "var(--alert)" }}>
                     {feedbackError}
                   </p>
+                ) : null}
+
+                {alreadyAttempted ? (
+                  nextTask ? (
+                    <Link className="primaryAction" href={`/tasks/${nextTask.taskId}`} style={{ marginTop: 12 }}>
+                      Next Task →
+                    </Link>
+                  ) : (
+                    <div className="missionCompletePanel" style={{ marginTop: 12 }}>
+                      <p className="eyebrow">Subject Complete</p>
+                      <h2>Subject Complete — ¡Materia completada!</h2>
+                    </div>
+                  )
                 ) : null}
               </div>
             </section>
@@ -212,15 +279,25 @@ export default function AcademicTaskOrderPage() {
               <strong>{taskCompleted ? "Task Order Qualified" : "Pending"}</strong>
             </div>
 
-            {!taskInProgress && !taskCompleted ? (
+            {!alreadyAttempted && !taskInProgress ? (
               <button className="beginTaskButton" onClick={() => setTaskStatus("in progress")} type="button">
                 BEGIN TASK
               </button>
-            ) : (
-              <button className="primaryAction completeTaskButton" disabled={taskCompleted} onClick={markTaskComplete} type="button">
-                {taskCompleted ? "Completed" : "Mark as Complete"}
-              </button>
-            )}
+            ) : null}
+
+            {!alreadyAttempted && taskInProgress ? (
+              <p className="briefingText">Submit your answer to complete this task.</p>
+            ) : null}
+
+            {alreadyAttempted && attempt?.passed ? (
+              <p className="briefingText" style={{ color: "#22c55e" }}>MISSION COMPLETE — XP awarded.</p>
+            ) : null}
+
+            {alreadyAttempted && !attempt?.passed ? (
+              <p className="briefingText" style={{ color: "var(--alert)" }}>
+                NOT PASSED — no XP awarded. You may continue to the next task.
+              </p>
+            ) : null}
 
             <Link className="secondaryAction" href="/">
               Back to Academy
