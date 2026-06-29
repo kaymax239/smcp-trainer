@@ -668,5 +668,121 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Uso del verbo to be",
+    topic: "Presentarse a sí mismo",
+    week: 1,
+    taskId: "pn-ing102-w01-report-aboard",
+    taskTitle: "Report Yourself On Joining The Vessel",
+    scenario: "You arrive on board for the first time and must report to the officer on watch. Using the verb 'to be', state who you are, your rank, and your assignment — clearly and professionally, as a real crew member would on joining.",
+    instructions: [
+      "State your name, rank, and role on board using the verb 'to be'.",
+      "Confirm which department you are assigned to.",
+      "Keep the report short, clear, and professional — as spoken to the officer on watch.",
+      "Avoid casual phrasing; use the form expected on a working bridge."
+    ],
+    deliverable: "A short self-report in English, as if joining the vessel, correctly using 'to be' to state identity, rank, and assignment.",
+    assessmentCriteria: [
+      "The verb 'to be' is used correctly throughout.",
+      "Identity, rank, and assignment are all stated clearly.",
+      "The register is professional and appropriate for reporting on board.",
+      "The report is concise and would be understood by an officer on watch."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Uso del verbo to be",
+    topic: "Alfabeto convencional y fonético",
+    week: 2,
+    taskId: "pn-ing102-w02-phonetic-spelling",
+    taskTitle: "Spell A Vessel Name Using The Phonetic Alphabet",
+    scenario: "The bridge asks you to pass a vessel's name over the radio. To avoid mistakes, you must spell it using the standard phonetic alphabet (Alpha, Bravo, Charlie...), exactly as required in maritime communication.",
+    instructions: [
+      "Take the given vessel name and spell it letter by letter using the phonetic alphabet.",
+      "Write each letter with its correct phonetic word (e.g. M = Mike).",
+      "Include the correct format you would use to introduce the spelling over the radio.",
+      "State why phonetic spelling is required instead of normal letters."
+    ],
+    deliverable: "The vessel name spelled out in the phonetic alphabet, in correct radio format, with a one-line reason phonetic spelling is used at sea.",
+    assessmentCriteria: [
+      "Every letter is matched to the correct phonetic word.",
+      "The radio format is appropriate and clear.",
+      "The reason for phonetic spelling is correct and relevant.",
+      "The work would prevent a name being misheard over VHF."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Presente Continuo",
+    topic: "Hora cotidiana y marítima",
+    week: 3,
+    taskId: "pn-ing102-w03-position-report",
+    taskTitle: "Give A Position Report In Present Continuous",
+    scenario: "The officer asks for a routine report of what the vessel is doing now. Using the present continuous, state the vessel's current activity, course, and the time using the 24-hour maritime clock.",
+    instructions: [
+      "Describe what the vessel is doing now using the present continuous (e.g. 'The vessel is proceeding...').",
+      "State the current course and speed.",
+      "Give the time using the 24-hour maritime format (e.g. 0815).",
+      "Keep the report in the form an officer would expect during a watch."
+    ],
+    deliverable: "A routine position report in English using the present continuous, the vessel's course and speed, and the correct 24-hour maritime time.",
+    assessmentCriteria: [
+      "The present continuous is formed and used correctly.",
+      "Course and speed are stated clearly.",
+      "The maritime 24-hour time format is used correctly.",
+      "The report reads as a real watch report, not a grammar exercise."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Auxiliar de modo can y can't",
+    topic: "Necesidad, obligación y preferencias",
+    week: 4,
+    taskId: "pn-ing102-w04-can-cannot-readiness",
+    taskTitle: "Report Equipment Readiness Using Can / Cannot",
+    scenario: "Before departure, the officer asks you to report which equipment is ready for use and which is not. Using 'can' and 'cannot', state clearly what the vessel is and is not able to do.",
+    instructions: [
+      "List the equipment or capability you are reporting on.",
+      "Use 'can' to state what is ready or able to operate.",
+      "Use 'cannot' to state what is not ready, and briefly why.",
+      "Keep the report clear enough for the officer to act on before departure."
+    ],
+    deliverable: "A readiness report in English using 'can' and 'cannot' to state clearly what equipment is and is not ready before departure, with brief reasons.",
+    assessmentCriteria: [
+      "'Can' and 'cannot' are used correctly to express ability.",
+      "Ready and not-ready items are clearly distinguished.",
+      "Reasons for unavailability are brief and relevant.",
+      "The report is actionable and written in clear professional English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
