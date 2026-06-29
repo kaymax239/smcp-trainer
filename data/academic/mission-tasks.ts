@@ -4296,5 +4296,469 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Mantenimiento y Operación de Botes Salvavidas",
+    topic: "Arranque y mantenimiento del motor del bote",
+    week: 1,
+    taskId: "mn-pmr321-w01-lifeboat-engine",
+    taskTitle: "Describe Lifeboat Engine Start And Checks",
+    scenario: "Before a survival craft drill, the bosun asks the cadet to describe how the lifeboat engine is started and what routine checks keep it ready for an emergency. Engine cadets are well placed to maintain it.",
+    instructions: [
+      "Describe the basic steps to start a lifeboat engine.",
+      "List two routine maintenance checks that keep it ready.",
+      "Explain why a lifeboat engine must always start reliably.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English describing how a lifeboat engine is started, two readiness checks, and why reliability is critical.",
+    assessmentCriteria: [
+      "The start procedure is described correctly.",
+      "The maintenance checks are relevant.",
+      "The reliability reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Procedimientos para controlar vías de agua",
+    topic: "Tipos de vías",
+    week: 2,
+    taskId: "mn-pmr321-w02-water-ingress",
+    taskTitle: "Respond To A Hull Water Ingress",
+    scenario: "Water is entering through a small hull breach near the engine room. The officer asks the cadet to identify the type of ingress and the immediate steps to control it.",
+    instructions: [
+      "Identify the type of water ingress (e.g. crack, failed seal, damaged plate).",
+      "State the immediate actions to limit the flooding.",
+      "Name a material or method used to control the ingress.",
+      "Report the response in clear maritime English."
+    ],
+    deliverable: "A note in English identifying a type of water ingress, the immediate control actions, and a method/material used to control it.",
+    assessmentCriteria: [
+      "The ingress type is correctly identified.",
+      "The immediate actions are appropriate.",
+      "The control method is valid.",
+      "The response is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Seguridad en áreas de trabajo",
+    topic: "Utilización de equipo y herramientas adecuados",
+    week: 3,
+    taskId: "mn-pmr321-w03-work-area-safety",
+    taskTitle: "Plan Safe Use Of Tools On Board",
+    scenario: "The cadet is assigned a maintenance task on board. The officer asks them to plan the safe use of tools and protective equipment for the job.",
+    instructions: [
+      "Describe the task and the tools required.",
+      "State the personal protective equipment needed.",
+      "Identify one hazard of the task and how to control it.",
+      "Report the safety plan in clear maritime English."
+    ],
+    deliverable: "A short safety plan in English for a maintenance task, listing tools, protective equipment, and one hazard with its control.",
+    assessmentCriteria: [
+      "Tools and PPE are appropriate to the task.",
+      "The hazard identified is realistic.",
+      "The control measure is sound.",
+      "The plan is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Manejo de pañoles",
+    topic: "Elaboración de inventarios",
+    week: 4,
+    taskId: "mn-pmr321-w04-store-inventory",
+    taskTitle: "Keep A Store Inventory",
+    scenario: "The cadet is responsible for a store of spares and consumables. The officer asks them to explain how to keep an accurate inventory and why it matters for operations and safety.",
+    instructions: [
+      "Explain what information an inventory record should contain.",
+      "Describe how items are checked in and out to keep the record accurate.",
+      "Explain why an accurate store inventory matters operationally.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how to keep an accurate store inventory and why it matters operationally.",
+    assessmentCriteria: [
+      "The inventory contents are appropriate.",
+      "The check-in/out method keeps the record accurate.",
+      "The operational reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Condición física",
+    topic: "Resistencia cardiorespiratoria",
+    week: 1,
+    taskId: "mn-c0011iii-w01-endurance-demands",
+    taskTitle: "Explain Endurance Demands Of Engine Duties",
+    scenario: "Long watches and hot engine-room work demand cardiorespiratory endurance. The training officer asks the cadet to explain why endurance matters for an engineer and how it is built.",
+    instructions: [
+      "Define cardiorespiratory endurance in your own words.",
+      "Give two engine-room situations where endurance is essential.",
+      "Describe one way endurance is trained and maintained.",
+      "Report your answer in clear English using correct fitness terminology."
+    ],
+    deliverable: "A note in English defining cardiorespiratory endurance, two engine-room situations needing it, and how it is trained.",
+    assessmentCriteria: [
+      "Endurance is correctly defined.",
+      "The situations are relevant.",
+      "The training method is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Percepción y coordinación motriz",
+    topic: "Coordinación motriz y psicomotriz",
+    week: 2,
+    taskId: "mn-c0011iii-w02-coordination-tasks",
+    taskTitle: "Link Coordination To Precise Engine Tasks",
+    scenario: "Many engine-room tasks demand fine and gross motor coordination. The officer asks the cadet to connect coordination to specific tasks and explain the risk when it is lacking.",
+    instructions: [
+      "Name two engine-room tasks that require good motor coordination.",
+      "Explain the difference between fine and gross motor coordination with an example.",
+      "State the risk if coordination fails during one of those tasks.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English linking motor coordination to two engine-room tasks, with the fine/gross distinction and the risk of poor coordination.",
+    assessmentCriteria: [
+      "The tasks chosen genuinely need coordination.",
+      "The fine/gross distinction is correct.",
+      "The risk reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Natación",
+    topic: "Sobrevivencia",
+    week: 3,
+    taskId: "mn-c0011iii-w03-survival-swimming",
+    taskTitle: "Describe Survival Swimming Skills",
+    scenario: "Survival in the water is a core competency for all crew, engine and deck alike. The instructor asks the cadet to describe the survival swimming skills needed if a crew member ends up in the sea.",
+    instructions: [
+      "Describe how to enter the water safely from a height.",
+      "Describe a technique to stay afloat and conserve energy.",
+      "Explain how to move towards a survival craft or group.",
+      "Report the skills in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A survival swimming brief in English covering safe entry, staying afloat, and reaching a survival craft or group.",
+    assessmentCriteria: [
+      "The safe entry method is correct.",
+      "The floating technique is sound.",
+      "The approach to a craft/group is correct.",
+      "The brief is clear and appropriate, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Concentración",
+    topic: "Juegos de concentración",
+    week: 4,
+    taskId: "mn-c0011iii-w04-focus-precision",
+    taskTitle: "Connect Concentration To Engine Watch Safety",
+    scenario: "Monitoring gauges and alarms demands sustained focus. The officer asks the cadet to explain how concentration is trained and why losing it is dangerous in the engine room.",
+    instructions: [
+      "Explain why sustained concentration matters when monitoring machinery.",
+      "Describe one method used to train and sustain concentration.",
+      "State the danger of a lapse in concentration during an engine watch.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining why concentration matters in engine monitoring, how it is trained, and the danger of a lapse.",
+    assessmentCriteria: [
+      "The importance of concentration is correctly explained.",
+      "The training method is relevant.",
+      "The danger of a lapse is realistic.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Control de la Operaciones de Lucha Contra Incendio a bordo del Buque",
+    topic: "Incendio en las chimeneas de la Caldera, en el escape del motor principal y auxiliar",
+    week: 1,
+    taskId: "mn-c0038-w01-engine-fire-tactics",
+    taskTitle: "Outline Tactics For An Engine-Room Fire",
+    scenario: "A fire breaks out in the engine room, the most fire-prone area on board. The officer asks the cadet to outline the tactics for fighting a fire involving machinery and fuel.",
+    instructions: [
+      "State the first actions on discovering an engine-room fire (raise alarm, etc.).",
+      "Outline the basic tactic to contain and attack a machinery/fuel fire.",
+      "Explain why fuel and electrical sources must be isolated.",
+      "Report the tactics in clear engine-room English."
+    ],
+    deliverable: "A note in English outlining engine-room firefighting tactics: first actions, containment/attack, and isolating fuel/electrical sources.",
+    assessmentCriteria: [
+      "The first actions are correct and in order.",
+      "The containment/attack tactic is sound.",
+      "The isolation reasoning is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Organizar y formar cuadrillas de lucha contra incendios",
+    topic: "Formación y asignación del personal a las cuadrillas de lucha contra incendios",
+    week: 2,
+    taskId: "mn-c0038-w02-fire-teams",
+    taskTitle: "Organise A Fire-Fighting Team",
+    scenario: "The officer asks the cadet to explain how a fire-fighting team is organised on board and what roles must be assigned for an effective response.",
+    instructions: [
+      "Name the key roles in a fire-fighting team.",
+      "State the main responsibility of each role.",
+      "Explain why clear role assignment matters in an emergency.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English naming the key roles in a fire-fighting team, their responsibilities, and why clear assignment matters.",
+    assessmentCriteria: [
+      "The roles are valid and relevant.",
+      "The responsibilities are correct.",
+      "The reasoning about role clarity is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Inspeccionar los servicios de los sistemas y equipos de detección y extinción de incendios",
+    topic: "Equipo de detección de incendios",
+    week: 3,
+    taskId: "mn-c0038-w03-detection-equipment",
+    taskTitle: "Inspect Fire Detection Equipment",
+    scenario: "The cadet is asked to inspect the fire detection equipment in the engine room. The officer asks them to explain what to check and why detection systems must be kept reliable.",
+    instructions: [
+      "Name two types of fire detection equipment on board.",
+      "State what to check to confirm each is working.",
+      "Explain why early detection is critical to fighting a fire.",
+      "Report the inspection in clear engine-room English."
+    ],
+    deliverable: "A note in English naming two fire detection systems, what to check on each, and why early detection is critical.",
+    assessmentCriteria: [
+      "The detection equipment is valid.",
+      "The checks are appropriate.",
+      "The early-detection reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Control de la Operaciones de Lucha Contra Incendio a bordo del Buque",
+    topic: "Control de combustible y de los sistemas eléctricos",
+    week: 4,
+    taskId: "mn-c0038-w04-fuel-electrical-control",
+    taskTitle: "Control Fuel And Electrical Systems In A Fire",
+    scenario: "During an engine-room fire, fuel and electrical systems must be controlled to starve the fire. The officer asks the cadet to explain the actions taken.",
+    instructions: [
+      "Explain how fuel supply is shut off to the affected area.",
+      "Explain how electrical systems are isolated safely.",
+      "State why removing fuel and ignition sources helps extinguish the fire.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how fuel and electrical systems are controlled during an engine-room fire and why this helps extinguish it.",
+    assessmentCriteria: [
+      "The fuel shut-off is correctly described.",
+      "The electrical isolation is correct.",
+      "The fire-triangle reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Características básicas de la redacción",
+    topic: "Organización de las ideas para ordenarlas en forma lógica",
+    week: 1,
+    taskId: "mn-c0101-w01-organise-ideas",
+    taskTitle: "Organise Ideas In An Engine Logbook Entry",
+    scenario: "An engine logbook entry must record events in a clear, logical order. The officer asks the cadet to write an entry that organises the events so anyone reading it understands what happened.",
+    instructions: [
+      "List the events to record in the logbook entry.",
+      "Order them logically (chronological or by importance).",
+      "Write the entry so the sequence is clear to any reader.",
+      "Keep the language precise, in clear English."
+    ],
+    deliverable: "An engine logbook entry in English that records events in a clear, logical order, understandable to any reader.",
+    assessmentCriteria: [
+      "The events are ordered logically.",
+      "The sequence is clear to a reader.",
+      "The language is precise and unambiguous.",
+      "The entry is professional and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Claridad en la oración",
+    topic: "Evitar frases ambiguas",
+    week: 2,
+    taskId: "mn-c0101-w02-avoid-ambiguity",
+    taskTitle: "Remove Ambiguity From A Technical Report",
+    scenario: "An ambiguous sentence in a technical report could be dangerously misread. The officer asks the cadet to rewrite unclear sentences so there is only one possible meaning.",
+    instructions: [
+      "Take an ambiguous or unclear sentence about an engine-room situation.",
+      "Identify why it could be misread.",
+      "Rewrite it so it has only one clear meaning.",
+      "Explain in English what made the rewrite clearer."
+    ],
+    deliverable: "A short exercise in English showing an ambiguous sentence, why it is unclear, and a rewritten version with a single clear meaning.",
+    assessmentCriteria: [
+      "The ambiguity is correctly identified.",
+      "The rewrite removes the ambiguity.",
+      "The rewrite preserves the intended meaning.",
+      "The explanation is sound and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Atributos de los párrafos",
+    topic: "Unidad entre la idea principal y las secundarias",
+    week: 3,
+    taskId: "mn-c0101-w03-paragraph-unity",
+    taskTitle: "Write A Unified Technical Paragraph",
+    scenario: "A technical report paragraph should develop one main idea with supporting detail. The officer asks the cadet to write a paragraph where every sentence supports a single main idea.",
+    instructions: [
+      "State the main idea of the paragraph.",
+      "Write supporting sentences that all relate to that main idea.",
+      "Remove or avoid any sentence that does not belong.",
+      "Keep the paragraph clear and in correct English."
+    ],
+    deliverable: "A unified technical paragraph in English with a clear main idea and supporting sentences that all relate to it.",
+    assessmentCriteria: [
+      "The main idea is clear.",
+      "All supporting sentences relate to it.",
+      "No off-topic sentences remain.",
+      "The paragraph is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Orden de Palabras e Ideas",
+    topic: "Jerarquización de las ideas",
+    week: 4,
+    taskId: "mn-c0101-w04-prioritise-ideas",
+    taskTitle: "Prioritise Information In A Fault Report",
+    scenario: "A machinery fault report must put the most important information first so a busy reader grasps it immediately. The officer asks the cadet to structure a report by priority.",
+    instructions: [
+      "Identify the most critical fact of the fault.",
+      "Place it first, then arrange the rest by decreasing importance.",
+      "Ensure a reader who stops after one line still gets the key point.",
+      "Write the report in clear English."
+    ],
+    deliverable: "A machinery fault report in English structured by priority, with the most critical information first and the rest in decreasing importance.",
+    assessmentCriteria: [
+      "The most critical fact is correctly identified and placed first.",
+      "The remaining information is ordered by importance.",
+      "A reader gets the key point immediately.",
+      "The report is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
