@@ -3136,5 +3136,469 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Mantenimiento y Operación de Botes Salvavidas",
+    topic: "Arranque y mantenimiento del motor del bote",
+    week: 1,
+    taskId: "pn-pmr322-w01-lifeboat-engine",
+    taskTitle: "Describe Lifeboat Engine Start And Checks",
+    scenario: "Before a survival craft drill, the bosun asks the cadet to describe how the lifeboat engine is started and what routine checks keep it ready for an emergency.",
+    instructions: [
+      "Describe the basic steps to start a lifeboat engine.",
+      "List two routine maintenance checks that keep it ready.",
+      "Explain why a lifeboat engine must always start reliably.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English describing how a lifeboat engine is started, two readiness checks, and why reliability is critical.",
+    assessmentCriteria: [
+      "The start procedure is described correctly.",
+      "The maintenance checks are relevant.",
+      "The reliability reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Procedimientos para controlar vías de agua",
+    topic: "Tipos de vías",
+    week: 2,
+    taskId: "pn-pmr322-w02-water-ingress",
+    taskTitle: "Respond To A Hull Water Ingress",
+    scenario: "Water is entering through a small hull breach. The officer asks the cadet to identify the type of ingress and the immediate steps to control it.",
+    instructions: [
+      "Identify the type of water ingress (e.g. crack, failed seal, damaged plate).",
+      "State the immediate actions to limit the flooding.",
+      "Name a material or method used to control the ingress.",
+      "Report the response in clear maritime English."
+    ],
+    deliverable: "A note in English identifying a type of water ingress, the immediate control actions, and a method/material used to control it.",
+    assessmentCriteria: [
+      "The ingress type is correctly identified.",
+      "The immediate actions are appropriate.",
+      "The control method is valid.",
+      "The response is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Seguridad en áreas de trabajo",
+    topic: "Utilización de equipo y herramientas adecuados",
+    week: 3,
+    taskId: "pn-pmr322-w03-work-area-safety",
+    taskTitle: "Plan Safe Use Of Tools On Deck",
+    scenario: "The cadet is assigned a deck maintenance task. The officer asks them to plan the safe use of tools and protective equipment for the job.",
+    instructions: [
+      "Describe the deck task and the tools required.",
+      "State the personal protective equipment needed.",
+      "Identify one hazard of the task and how to control it.",
+      "Report the safety plan in clear maritime English."
+    ],
+    deliverable: "A short safety plan in English for a deck task, listing tools, protective equipment, and one hazard with its control.",
+    assessmentCriteria: [
+      "Tools and PPE are appropriate to the task.",
+      "The hazard identified is realistic.",
+      "The control measure is sound.",
+      "The plan is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Manejo de pañoles",
+    topic: "Elaboración de inventarios",
+    week: 4,
+    taskId: "pn-pmr322-w04-store-inventory",
+    taskTitle: "Keep A Deck Store Inventory",
+    scenario: "The cadet is responsible for a deck store. The officer asks them to explain how to keep an accurate inventory and why it matters for operations and safety.",
+    instructions: [
+      "Explain what information an inventory record should contain.",
+      "Describe how items are checked in and out to keep the record accurate.",
+      "Explain why an accurate store inventory matters operationally.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how to keep an accurate deck store inventory and why it matters operationally.",
+    assessmentCriteria: [
+      "The inventory contents are appropriate.",
+      "The check-in/out method keeps the record accurate.",
+      "The operational reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Condición física",
+    topic: "Resistencia cardiorespiratoria",
+    week: 1,
+    taskId: "pn-c0011iii-w01-endurance-demands",
+    taskTitle: "Explain Endurance Demands Of Long Watches",
+    scenario: "Long watches and sustained operations demand cardiorespiratory endurance. The training officer asks the cadet to explain why endurance matters for a deck officer and how it is built.",
+    instructions: [
+      "Define cardiorespiratory endurance in your own words.",
+      "Give two shipboard situations where endurance is essential.",
+      "Describe one way endurance is trained and maintained.",
+      "Report your answer in clear English using correct fitness terminology."
+    ],
+    deliverable: "A note in English defining cardiorespiratory endurance, two shipboard situations needing it, and how it is trained.",
+    assessmentCriteria: [
+      "Endurance is correctly defined.",
+      "The shipboard situations are relevant.",
+      "The training method is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Percepción y coordinación motriz",
+    topic: "Coordinación motriz y psicomotriz",
+    week: 2,
+    taskId: "pn-c0011iii-w02-coordination-tasks",
+    taskTitle: "Link Coordination To Precise Deck Tasks",
+    scenario: "Many deck tasks demand fine and gross motor coordination. The officer asks the cadet to connect coordination to specific tasks and explain the risk when it is lacking.",
+    instructions: [
+      "Name two deck tasks that require good motor coordination.",
+      "Explain the difference between fine and gross motor coordination with an example.",
+      "State the risk if coordination fails during one of those tasks.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English linking motor coordination to two deck tasks, with the fine/gross distinction and the risk of poor coordination.",
+    assessmentCriteria: [
+      "The tasks chosen genuinely need coordination.",
+      "The fine/gross distinction is correct.",
+      "The risk reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Natación",
+    topic: "Sobrevivencia",
+    week: 3,
+    taskId: "pn-c0011iii-w03-survival-swimming",
+    taskTitle: "Describe Survival Swimming Skills",
+    scenario: "Survival in the water is a core competency. The instructor asks the cadet to describe the survival swimming skills needed if a crew member ends up in the sea.",
+    instructions: [
+      "Describe how to enter the water safely from a height.",
+      "Describe a technique to stay afloat and conserve energy.",
+      "Explain how to move towards a survival craft or group.",
+      "Report the skills in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A survival swimming brief in English covering safe entry, staying afloat, and reaching a survival craft or group.",
+    assessmentCriteria: [
+      "The safe entry method is correct.",
+      "The floating technique is sound.",
+      "The approach to a craft/group is correct.",
+      "The brief is clear and appropriate, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Concentración",
+    topic: "Juegos de concentración",
+    week: 4,
+    taskId: "pn-c0011iii-w04-focus-precision",
+    taskTitle: "Connect Concentration To Precise Operations",
+    scenario: "Precise operations like plotting or steering demand sustained focus. The officer asks the cadet to explain how concentration is trained and why losing it is dangerous on the bridge.",
+    instructions: [
+      "Explain why sustained concentration matters in precise bridge operations.",
+      "Describe one method used to train and sustain concentration.",
+      "State the danger of a lapse in concentration during steering or plotting.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining why concentration matters in precise bridge work, how it is trained, and the danger of a lapse.",
+    assessmentCriteria: [
+      "The importance of concentration is correctly explained.",
+      "The training method is relevant.",
+      "The danger of a lapse is realistic.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Control de la Operaciones de Lucha Contra Incendio a bordo del Buque",
+    topic: "Tácticas y procedimientos para lucha contra incendios cuando el buque está en el mar",
+    week: 1,
+    taskId: "pn-c0038-w01-firefighting-tactics",
+    taskTitle: "Outline Firefighting Tactics At Sea",
+    scenario: "A fire breaks out while the vessel is at sea, with no outside help available. The officer asks the cadet to outline the basic tactics for fighting a fire on board.",
+    instructions: [
+      "State the first actions on discovering a fire (raise alarm, etc.).",
+      "Outline the basic tactic to contain and attack the fire.",
+      "Explain why fighting fire at sea differs from ashore (no outside help).",
+      "Report the tactics in clear maritime English."
+    ],
+    deliverable: "A note in English outlining firefighting tactics at sea: first actions, containment/attack, and why self-reliance is critical.",
+    assessmentCriteria: [
+      "The first actions are correct and in order.",
+      "The containment/attack tactic is sound.",
+      "The self-reliance reasoning is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Organizar y formar cuadrillas de lucha contra incendios",
+    topic: "Formación y asignación del personal a las cuadrillas de lucha contra incendios",
+    week: 2,
+    taskId: "pn-c0038-w02-fire-teams",
+    taskTitle: "Organise A Fire-Fighting Team",
+    scenario: "The officer asks the cadet to explain how a fire-fighting team is organised on board and what roles must be assigned for an effective response.",
+    instructions: [
+      "Name the key roles in a fire-fighting team.",
+      "State the main responsibility of each role.",
+      "Explain why clear role assignment matters in an emergency.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English naming the key roles in a fire-fighting team, their responsibilities, and why clear assignment matters.",
+    assessmentCriteria: [
+      "The roles are valid and relevant.",
+      "The responsibilities are correct.",
+      "The reasoning about role clarity is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Inspeccionar los servicios de los sistemas y equipos de detección y extinción de incendios",
+    topic: "Equipo de detección de incendios",
+    week: 3,
+    taskId: "pn-c0038-w03-detection-equipment",
+    taskTitle: "Inspect Fire Detection Equipment",
+    scenario: "The cadet is asked to inspect the fire detection equipment. The officer asks them to explain what to check and why detection systems must be kept reliable.",
+    instructions: [
+      "Name two types of fire detection equipment on board.",
+      "State what to check to confirm each is working.",
+      "Explain why early detection is critical to fighting a fire.",
+      "Report the inspection in clear maritime English."
+    ],
+    deliverable: "A note in English naming two fire detection systems, what to check on each, and why early detection is critical.",
+    assessmentCriteria: [
+      "The detection equipment is valid.",
+      "The checks are appropriate.",
+      "The early-detection reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Control de la Operaciones de Lucha Contra Incendio a bordo del Buque",
+    topic: "Procedimientos para coordinar la lucha contra incendios con los bomberos en tierra",
+    week: 4,
+    taskId: "pn-c0038-w04-shore-coordination",
+    taskTitle: "Coordinate With Shore Fire Brigades",
+    scenario: "The vessel is in port and a fire requires shore fire brigade support. The officer asks the cadet to explain how the ship coordinates with shore firefighters.",
+    instructions: [
+      "State what information the ship must give the shore brigade on arrival.",
+      "Explain who on board liaises with the shore firefighters.",
+      "Explain why coordination and clear communication are critical.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how a ship coordinates with shore fire brigades: information to provide, who liaises, and why clear communication matters.",
+    assessmentCriteria: [
+      "The information to provide is appropriate.",
+      "The liaison role is correct.",
+      "The coordination reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "Características básicas de la redacción",
+    topic: "Organización de las ideas para ordenarlas en forma lógica",
+    week: 1,
+    taskId: "pn-c0101-w01-organise-ideas",
+    taskTitle: "Organise Ideas In A Logbook Entry",
+    scenario: "A logbook entry must record events in a clear, logical order. The officer asks the cadet to write an entry that organises the events so anyone reading it understands what happened.",
+    instructions: [
+      "List the events to record in the logbook entry.",
+      "Order them logically (chronological or by importance).",
+      "Write the entry so the sequence is clear to any reader.",
+      "Keep the language precise, in clear English."
+    ],
+    deliverable: "A logbook entry in English that records events in a clear, logical order, understandable to any reader.",
+    assessmentCriteria: [
+      "The events are ordered logically.",
+      "The sequence is clear to a reader.",
+      "The language is precise and unambiguous.",
+      "The entry is professional and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "Claridad en la oración",
+    topic: "Evitar frases ambiguas",
+    week: 2,
+    taskId: "pn-c0101-w02-avoid-ambiguity",
+    taskTitle: "Remove Ambiguity From A Report",
+    scenario: "An ambiguous sentence in a report could be dangerously misread. The officer asks the cadet to rewrite unclear sentences so there is only one possible meaning.",
+    instructions: [
+      "Take an ambiguous or unclear sentence about a shipboard situation.",
+      "Identify why it could be misread.",
+      "Rewrite it so it has only one clear meaning.",
+      "Explain in English what made the rewrite clearer."
+    ],
+    deliverable: "A short exercise in English showing an ambiguous sentence, why it is unclear, and a rewritten version with a single clear meaning.",
+    assessmentCriteria: [
+      "The ambiguity is correctly identified.",
+      "The rewrite removes the ambiguity.",
+      "The rewrite preserves the intended meaning.",
+      "The explanation is sound and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "Atributos de los párrafos",
+    topic: "Unidad entre la idea principal y las secundarias",
+    week: 3,
+    taskId: "pn-c0101-w03-paragraph-unity",
+    taskTitle: "Write A Unified Report Paragraph",
+    scenario: "A report paragraph should develop one main idea with supporting detail. The officer asks the cadet to write a paragraph where every sentence supports a single main idea.",
+    instructions: [
+      "State the main idea of the paragraph.",
+      "Write supporting sentences that all relate to that main idea.",
+      "Remove or avoid any sentence that does not belong.",
+      "Keep the paragraph clear and in correct English."
+    ],
+    deliverable: "A unified report paragraph in English with a clear main idea and supporting sentences that all relate to it.",
+    assessmentCriteria: [
+      "The main idea is clear.",
+      "All supporting sentences relate to it.",
+      "No off-topic sentences remain.",
+      "The paragraph is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "Orden de Palabras e Ideas",
+    topic: "Jerarquización de las ideas",
+    week: 4,
+    taskId: "pn-c0101-w04-prioritise-ideas",
+    taskTitle: "Prioritise Information In An Incident Report",
+    scenario: "An incident report must put the most important information first so a busy reader grasps it immediately. The officer asks the cadet to structure a report by priority.",
+    instructions: [
+      "Identify the most critical fact of the incident.",
+      "Place it first, then arrange the rest by decreasing importance.",
+      "Ensure a reader who stops after one line still gets the key point.",
+      "Write the report in clear English."
+    ],
+    deliverable: "An incident report in English structured by priority, with the most critical information first and the rest in decreasing importance.",
+    assessmentCriteria: [
+      "The most critical fact is correctly identified and placed first.",
+      "The remaining information is ordered by importance.",
+      "A reader gets the key point immediately.",
+      "The report is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
