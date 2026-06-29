@@ -1132,5 +1132,237 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Manejo de información",
+    topic: "Resumen, síntesis y la pregunta",
+    week: 1,
+    taskId: "pn-c0099-w01-summarise-procedure",
+    taskTitle: "Summarise A Shipboard Procedure",
+    scenario: "A seafarer must absorb large amounts of technical information quickly. The training officer gives the cadet a shipboard procedure and asks for a clear, accurate summary that keeps only what matters for safe action.",
+    instructions: [
+      "Read the given shipboard procedure.",
+      "Produce a concise summary that keeps the essential steps and removes filler.",
+      "Ensure no safety-critical step is lost in the summary.",
+      "Write the summary in clear English a watch team could follow."
+    ],
+    deliverable: "A concise summary in English of a shipboard procedure that preserves every safety-critical step while removing non-essential detail.",
+    assessmentCriteria: [
+      "The summary keeps all essential and safety-critical steps.",
+      "Non-essential detail is correctly removed.",
+      "The meaning of the original procedure is preserved.",
+      "The summary is clear and usable in English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Presentación gráfica de la información",
+    topic: "Organizadores gráficos, diagramas, mapas y esquemas",
+    week: 2,
+    taskId: "pn-c0099-w02-graphic-organiser-system",
+    taskTitle: "Map A Shipboard System With A Graphic Organiser",
+    scenario: "Complex shipboard systems are easier to learn as a diagram than as text. The officer asks the cadet to turn a written description of a system into a graphic organiser.",
+    instructions: [
+      "Take a written description of a simple shipboard system or process.",
+      "Choose a suitable graphic organiser (flowchart, mind map, or diagram).",
+      "Represent the system's parts and their relationships clearly.",
+      "Explain in English how the organiser makes the system easier to learn."
+    ],
+    deliverable: "A described graphic organiser (in text/sketch form) of a shipboard system, plus an explanation in English of how it aids learning.",
+    assessmentCriteria: [
+      "The organiser represents the system accurately.",
+      "Relationships between parts are clear.",
+      "The choice of organiser fits the content.",
+      "The explanation is sound and in clear English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Técnicas de estudio",
+    topic: "Técnica de los seis pasos",
+    week: 3,
+    taskId: "pn-c0099-w03-six-step-study",
+    taskTitle: "Apply A Study Technique To Learn A Convention",
+    scenario: "An officer must master new regulations throughout their career. The cadet is asked to apply a structured study technique to learn a piece of maritime regulation effectively.",
+    instructions: [
+      "Choose a short piece of maritime regulation or safety content to study.",
+      "Apply a structured study technique (such as a six-step method) to learn it.",
+      "Describe each step you took and what it produced.",
+      "Explain in English why a structured method beats simple re-reading."
+    ],
+    deliverable: "A description in English of how a structured study technique was applied to learn a maritime regulation, step by step, with the reasoning for using it.",
+    assessmentCriteria: [
+      "The study technique is applied correctly step by step.",
+      "Each step produces a meaningful result.",
+      "The content chosen is appropriate and maritime-relevant.",
+      "The reasoning is sound and clearly written in English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Condiciones básicas para el estudio",
+    topic: "Atribuciones, motivación, atención y área de estudio",
+    week: 4,
+    taskId: "pn-c0099-w04-study-conditions-ship",
+    taskTitle: "Plan Effective Study Conditions On Board",
+    scenario: "Studying at sea is hard: noise, fatigue, watch schedules. The officer asks the cadet to plan realistic conditions and habits that make study effective despite shipboard life.",
+    instructions: [
+      "Identify two obstacles to studying effectively on board.",
+      "Propose a practical habit or condition to overcome each obstacle.",
+      "Explain how attention and motivation are protected by these choices.",
+      "Write the plan in clear English."
+    ],
+    deliverable: "A short study plan in English identifying two shipboard study obstacles and a practical solution for each, with reasoning about attention and motivation.",
+    assessmentCriteria: [
+      "The obstacles are realistic for shipboard life.",
+      "The solutions are practical and relevant.",
+      "The reasoning about attention/motivation is sound.",
+      "The plan is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Proceso de comunicación",
+    topic: "Proceso de la comunicación",
+    week: 1,
+    taskId: "pn-c0100-w01-communication-breakdown",
+    taskTitle: "Analyse A Communication Breakdown On Board",
+    scenario: "Many accidents at sea begin with a message that was sent but not understood. The officer asks the cadet to analyse a shipboard communication using the basic communication process and find where it could fail.",
+    instructions: [
+      "Identify the sender, message, channel, and receiver in a given shipboard communication.",
+      "Point out one stage where the message could be misunderstood.",
+      "Explain the consequence if that breakdown happened during an operation.",
+      "Suggest how to prevent the breakdown, written in clear English."
+    ],
+    deliverable: "An analysis in English of a shipboard communication identifying its parts, a possible breakdown point, the operational consequence, and a prevention measure.",
+    assessmentCriteria: [
+      "The communication parts are correctly identified.",
+      "The breakdown point is plausible and well explained.",
+      "The consequence is operationally realistic.",
+      "The prevention measure is sound and clearly written in English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación Escrita",
+    topic: "Ideas principales y secundarias en textos",
+    week: 2,
+    taskId: "pn-c0100-w02-clear-written-report",
+    taskTitle: "Write A Clear Incident Report",
+    scenario: "After a minor incident on deck, the cadet must write a report. The officer stresses that a good report puts the main facts first and keeps secondary detail in its place.",
+    instructions: [
+      "Write a short report of a simple deck incident.",
+      "State the main fact (what happened) clearly at the start.",
+      "Place supporting/secondary details after the main fact, in order.",
+      "Keep the language precise and unambiguous, in clear English."
+    ],
+    deliverable: "A short incident report in English that leads with the main fact and orders secondary details clearly, with precise and unambiguous language.",
+    assessmentCriteria: [
+      "The main fact is stated clearly and first.",
+      "Secondary details are correctly subordinated and ordered.",
+      "The language is precise and unambiguous.",
+      "The report is professional and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Comunicación verbal y no verbal",
+    week: 3,
+    taskId: "pn-c0100-w03-verbal-nonverbal-order",
+    taskTitle: "Give A Clear Verbal Order With Confirmation",
+    scenario: "On the bridge, an order must be given, heard, and confirmed. The officer asks the cadet to deliver a verbal order and explain how tone, clarity, and readback prevent mistakes.",
+    instructions: [
+      "Give a clear verbal order for a simple shipboard action.",
+      "Explain how tone and delivery affect whether it is understood.",
+      "Describe the readback/confirmation that closes the communication loop.",
+      "Report the exchange in clear English."
+    ],
+    deliverable: "A scripted verbal order in English with the confirmation/readback, plus an explanation of how delivery and confirmation prevent mistakes.",
+    assessmentCriteria: [
+      "The order is clear and unambiguous.",
+      "The role of tone/delivery is explained correctly.",
+      "The readback closes the communication loop properly.",
+      "The exchange is realistic and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Dicción, fluidez y exposición oral",
+    week: 4,
+    taskId: "pn-c0100-w04-safety-briefing-delivery",
+    taskTitle: "Deliver A Short Safety Briefing",
+    scenario: "The cadet must deliver a short safety briefing to the crew. Clear diction and fluent, ordered delivery determine whether the crew actually retains the safety message.",
+    instructions: [
+      "Prepare a short safety briefing on a single topic.",
+      "Organise it with a clear opening, key points, and a close.",
+      "Note where diction and pace matter most for the message to land.",
+      "Write the briefing as it would be delivered, in clear English."
+    ],
+    deliverable: "A short safety briefing in English with a clear structure (opening, key points, close), noting where diction and pace are critical for the crew to retain it.",
+    assessmentCriteria: [
+      "The briefing has a clear, logical structure.",
+      "The key safety points are well chosen.",
+      "The notes on diction/pace are relevant.",
+      "The briefing is clear, professional, and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
