@@ -2440,5 +2440,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Dirección en la navegación",
+    topic: "Tipos de rumbo",
+    week: 1,
+    taskId: "pn-nav316-w01-course-types",
+    taskTitle: "Distinguish True, Magnetic And Compass Course",
+    scenario: "The officer of the watch asks the cadet to explain the difference between true, magnetic, and compass course before plotting, since confusing them leads to navigation errors.",
+    instructions: [
+      "Define true course, magnetic course, and compass course.",
+      "Explain what is applied to convert between them (variation and deviation).",
+      "State the correct order in which the corrections are applied.",
+      "Report your explanation in clear maritime English."
+    ],
+    deliverable: "A short note in English defining true, magnetic, and compass course and explaining how variation and deviation relate them.",
+    assessmentCriteria: [
+      "The three course types are correctly defined.",
+      "Variation and deviation are correctly applied between them.",
+      "The order of correction is correct.",
+      "The explanation is clear and uses correct navigational English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Marcaciones y demoras",
+    topic: "Relación entre marcaciones",
+    week: 2,
+    taskId: "pn-nav316-w02-bearings",
+    taskTitle: "Convert Between Relative And True Bearings",
+    scenario: "The lookout reports a contact by relative bearing. The officer asks the cadet to convert it to a true bearing using the ship's heading, so it can be plotted.",
+    instructions: [
+      "State the relative bearing reported and the ship's heading.",
+      "Explain the relationship between relative bearing, heading, and true bearing.",
+      "Convert the relative bearing to a true bearing.",
+      "State the result clearly for plotting."
+    ],
+    deliverable: "A bearing conversion note in English giving the true bearing of the contact, with the relationship and working shown.",
+    assessmentCriteria: [
+      "The relationship between relative, heading, and true bearing is correct.",
+      "The conversion is calculated correctly.",
+      "The result is expressed clearly for plotting.",
+      "Correct navigational terminology is used in English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Compás magnético",
+    topic: "La variación magnética y el desvío en la carta magnética",
+    week: 3,
+    taskId: "pn-nav316-w03-variation-deviation",
+    taskTitle: "Apply Variation And Deviation To A Heading",
+    scenario: "Before steering a planned course, the cadet must correct the compass reading. The officer asks the cadet to apply variation and deviation to find the compass heading to steer.",
+    instructions: [
+      "State the true course to be steered.",
+      "Apply variation to obtain the magnetic course.",
+      "Apply deviation (from the deviation card) to obtain the compass course.",
+      "State the compass heading to steer and note why deviation changes with heading."
+    ],
+    deliverable: "A correction note in English giving the compass heading to steer, showing the application of variation and deviation in order.",
+    assessmentCriteria: [
+      "Variation is applied correctly.",
+      "Deviation is applied correctly from the card.",
+      "The final compass heading is correct.",
+      "The note explains why deviation changes, in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Navegación de estima",
+    topic: "Corrección de la estima por efectos de viento, corriente y error de giro",
+    week: 4,
+    taskId: "pn-nav316-w04-dead-reckoning",
+    taskTitle: "Correct A Dead Reckoning Position For Current",
+    scenario: "The vessel is navigating by dead reckoning. The officer asks the cadet to correct the estimated position for the effect of a known current, to improve the estimated position.",
+    instructions: [
+      "State the dead reckoning course and speed.",
+      "State the set and drift of the current.",
+      "Apply the current to correct the estimated position (estimated position vs DR).",
+      "Report the corrected estimated position and why this correction matters."
+    ],
+    deliverable: "A dead reckoning correction note in English giving the estimated position adjusted for current, with the working and reasoning shown.",
+    assessmentCriteria: [
+      "The DR course and speed are handled correctly.",
+      "The current set and drift are applied correctly.",
+      "The corrected estimated position is reasonable.",
+      "The reasoning is clear and in correct navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Concepto de hidrografía",
+    topic: "Definiciones e interrelación con otras ciencias",
+    week: 1,
+    taskId: "pn-hid318-w01-hydrography-concept",
+    taskTitle: "Explain What Hydrography Provides To Navigation",
+    scenario: "The officer asks the cadet to explain what hydrography is and why its products are essential for safe navigation, before the cadet starts using charts seriously.",
+    instructions: [
+      "Define hydrography in your own words.",
+      "State two products of hydrography that a navigator relies on.",
+      "Explain how hydrographic data keeps navigation safe.",
+      "Report your explanation in clear maritime English."
+    ],
+    deliverable: "A short note in English defining hydrography, two of its products used in navigation, and how it supports safe navigation.",
+    assessmentCriteria: [
+      "Hydrography is correctly defined.",
+      "The products listed are valid and relevant.",
+      "The link to safe navigation is sound.",
+      "The note is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Batimetría",
+    topic: "Sondeos. - Sistema de sondeos. - Intervalos de sondas. - Unidades de profundidad. - Aparatos de sondeo. - Sondeo en costado de muelles",
+    week: 2,
+    taskId: "pn-hid318-w02-soundings",
+    taskTitle: "Interpret Depth Soundings",
+    scenario: "The cadet is given a set of depth soundings. The officer asks the cadet to explain how soundings are taken, what the depth unit means, and why the readings matter for safe under-keel clearance.",
+    instructions: [
+      "Explain how a depth sounding is taken (e.g. echo sounder).",
+      "State the unit of depth used and what the reading refers to (datum).",
+      "Explain how soundings relate to under-keel clearance.",
+      "Report your explanation in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how soundings are taken, the depth unit and its datum, and how soundings relate to under-keel clearance.",
+    assessmentCriteria: [
+      "The sounding method is correctly explained.",
+      "The depth unit and datum are correct.",
+      "The under-keel clearance link is sound.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Corrientes marinas",
+    topic: "Aplicación de las corrientes marinas en la navegación",
+    week: 3,
+    taskId: "pn-hid318-w03-currents-navigation",
+    taskTitle: "Account For Sea Currents In A Passage",
+    scenario: "A known current affects the planned passage. The officer asks the cadet to explain how the current will affect the vessel and what to do about it when planning.",
+    instructions: [
+      "State the set and drift of the current affecting the passage.",
+      "Explain how the current will affect the vessel's track and speed made good.",
+      "State what adjustment the navigator makes to stay on the intended track.",
+      "Report your explanation in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how a sea current affects the vessel's track and speed made good, and the adjustment made to stay on track.",
+    assessmentCriteria: [
+      "The effect of the current on track and speed is correct.",
+      "The adjustment to stay on track is appropriate.",
+      "The reasoning is sound.",
+      "The note is clear and in correct navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Levantamientos hidrográficos",
+    topic: "Tipos de levantamientos hidrográficos",
+    week: 4,
+    taskId: "pn-hid318-w04-hydrographic-survey",
+    taskTitle: "Describe A Hydrographic Survey Type",
+    scenario: "The officer asks the cadet to describe one type of hydrographic survey and explain how its results end up improving the charts the ship uses.",
+    instructions: [
+      "Name one type of hydrographic survey.",
+      "Describe briefly how that survey is carried out.",
+      "Explain how the survey results improve nautical charts.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English naming a hydrographic survey type, how it is carried out, and how its results improve nautical charts.",
+    assessmentCriteria: [
+      "The survey type is valid and correctly named.",
+      "The description of the method is accurate.",
+      "The link to chart improvement is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Sistema de Coordenadas Terrestres",
+    topic: "Coordenadas geográficas",
+    week: 1,
+    taskId: "pn-car319-w01-geographic-coordinates",
+    taskTitle: "Read A Position In Geographic Coordinates",
+    scenario: "The officer gives the cadet a position and asks them to read and state it correctly in geographic coordinates (latitude and longitude), as it would be logged or reported.",
+    instructions: [
+      "Identify the latitude and longitude of the given position.",
+      "State each with the correct hemisphere (N/S, E/W) and format.",
+      "Explain what latitude and longitude each measure.",
+      "Report the position in clear maritime English."
+    ],
+    deliverable: "A note in English stating a position in correct geographic coordinates with hemispheres, and explaining what latitude and longitude measure.",
+    assessmentCriteria: [
+      "Latitude and longitude are correctly identified.",
+      "Hemispheres and format are correct.",
+      "The explanation of each is accurate.",
+      "The position is clearly reported in English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Proyecciones",
+    topic: "Mercator",
+    week: 2,
+    taskId: "pn-car319-w02-mercator-projection",
+    taskTitle: "Explain Why Charts Use The Mercator Projection",
+    scenario: "The officer asks the cadet why most nautical charts use the Mercator projection, and what useful property it gives the navigator when plotting a course.",
+    instructions: [
+      "Explain what the Mercator projection does to lines of constant course (rhumb lines).",
+      "State the main advantage this gives the navigator.",
+      "State one limitation of the Mercator projection (e.g. distortion at high latitudes).",
+      "Report your explanation in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the navigational advantage of the Mercator projection and one of its limitations.",
+    assessmentCriteria: [
+      "The behaviour of rhumb lines on Mercator is correct.",
+      "The navigational advantage is correctly stated.",
+      "The limitation is valid.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Cartas Náuticas",
+    topic: "Escalas",
+    week: 3,
+    taskId: "pn-car319-w03-chart-scale",
+    taskTitle: "Choose The Right Chart Scale For A Passage",
+    scenario: "The cadet must select charts for a passage from open sea into a port. The officer asks which chart scale is appropriate for each phase and why.",
+    instructions: [
+      "Explain the difference between a small-scale and a large-scale chart.",
+      "State which scale is used for open-sea passage and which for port approach.",
+      "Explain why using the wrong scale is a safety risk.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining small vs large scale charts, which to use for each passage phase, and the safety risk of the wrong scale.",
+    assessmentCriteria: [
+      "Small vs large scale is correctly explained.",
+      "The right scale is matched to each phase.",
+      "The safety reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Cartas Electrónicas",
+    topic: "Cartas vectoriales",
+    week: 4,
+    taskId: "pn-car319-w04-vector-charts",
+    taskTitle: "Compare Raster And Vector Electronic Charts",
+    scenario: "The bridge uses electronic charts. The officer asks the cadet to explain the difference between raster and vector charts and one advantage of vector charts for modern navigation.",
+    instructions: [
+      "Explain what a raster chart is.",
+      "Explain what a vector chart is and how it differs.",
+      "State one advantage of vector charts (e.g. layers, alarms, scalability).",
+      "Report your explanation in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the difference between raster and vector electronic charts and one advantage of vector charts.",
+    assessmentCriteria: [
+      "Raster charts are correctly described.",
+      "Vector charts are correctly described and differentiated.",
+      "The advantage stated is valid.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
