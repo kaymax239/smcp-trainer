@@ -3600,5 +3600,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Magnetismo",
+    topic: "Campo magnético",
+    week: 1,
+    taskId: "mn-ele316-w01-magnetic-field",
+    taskTitle: "Explain The Magnetic Field In A Machine",
+    scenario: "The engineer asks the cadet to explain what a magnetic field is and where it appears in engine-room electrical machines, before studying motors and generators.",
+    instructions: [
+      "Define a magnetic field in your own words.",
+      "State where a magnetic field is found in an electrical machine (e.g. motor, generator).",
+      "Explain the relationship between current and the magnetic field it produces.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English defining a magnetic field, where it appears in an electrical machine, and how current relates to it.",
+    assessmentCriteria: [
+      "The magnetic field is correctly defined.",
+      "Its location in a machine is correct.",
+      "The current-field relationship is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Leyes de inducción",
+    topic: "Ley de Lenz",
+    week: 2,
+    taskId: "mn-ele316-w02-lenz-law",
+    taskTitle: "Apply Lenz's Law To Induced Current",
+    scenario: "The engineer asks the cadet to explain Lenz's law and how it determines the direction of induced current in a generator winding.",
+    instructions: [
+      "State Lenz's law in your own words.",
+      "Explain how it determines the direction of an induced current.",
+      "Connect it to what happens in a generator winding.",
+      "Report your explanation in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining Lenz's law, how it sets the direction of induced current, and its role in a generator.",
+    assessmentCriteria: [
+      "Lenz's law is correctly stated.",
+      "The induced-current direction reasoning is correct.",
+      "The generator connection is sound.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Producción de corriente continua",
+    topic: "Generadores de Cd, serie, paralelo y compound",
+    week: 3,
+    taskId: "mn-ele316-w03-dc-generators",
+    taskTitle: "Compare DC Generator Configurations",
+    scenario: "The engine room uses DC generators. The engineer asks the cadet to compare series, shunt, and compound DC generators and explain where each is suitable.",
+    instructions: [
+      "Describe the basic difference between series, shunt, and compound DC generators.",
+      "State one characteristic of each in terms of voltage behaviour under load.",
+      "State which configuration suits a stable-voltage application and why.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English comparing series, shunt, and compound DC generators, with their load behaviour and a suitable application.",
+    assessmentCriteria: [
+      "The three configurations are correctly distinguished.",
+      "The load behaviour of each is accurate.",
+      "The application choice is justified.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Motores de corriente continua",
+    topic: "Puesta en servicio de los motores de corriente continua",
+    week: 4,
+    taskId: "mn-ele316-w04-dc-motor-startup",
+    taskTitle: "Put A DC Motor Into Service Safely",
+    scenario: "The cadet must put a DC motor into service. The engineer asks them to describe the correct start-up procedure and the safety checks before energizing it.",
+    instructions: [
+      "List the checks to perform before starting the DC motor.",
+      "Describe the correct start-up sequence.",
+      "Explain why a starting resistance is used when starting a DC motor.",
+      "Report the procedure in clear engine-room English."
+    ],
+    deliverable: "A note in English describing the safe start-up of a DC motor: pre-checks, sequence, and the reason for a starting resistance.",
+    assessmentCriteria: [
+      "The pre-start checks are appropriate.",
+      "The start-up sequence is correct.",
+      "The reason for starting resistance is correct.",
+      "The procedure is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Materiales",
+    topic: "Naturaleza y propiedades de los materiales",
+    week: 1,
+    taskId: "mn-tem319-w01-material-properties",
+    taskTitle: "Match Material Properties To Engine Parts",
+    scenario: "The engineer asks the cadet to connect basic material properties (strength, hardness, ductility) to the engine-room parts that need them.",
+    instructions: [
+      "Define three material properties (e.g. strength, hardness, ductility).",
+      "Match each property to an engine-room component that requires it.",
+      "Explain why the right property matters for that component.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English matching three material properties to engine-room components and explaining why each property matters.",
+    assessmentCriteria: [
+      "The properties are correctly defined.",
+      "The component matches are appropriate.",
+      "The reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Clases de Acero",
+    topic: "Clasificación de los aceros Hierro/Carbono, atendiendo su porcentaje de Carbono",
+    week: 2,
+    taskId: "mn-tem319-w02-steel-classification",
+    taskTitle: "Classify Steels By Carbon Content",
+    scenario: "The engineer asks the cadet to explain how steels are classified by carbon content and how that affects their use in the engine room.",
+    instructions: [
+      "Explain how carbon content classifies steel (low, medium, high carbon).",
+      "State how increasing carbon affects hardness and brittleness.",
+      "Give one engine-room use suited to a particular steel type.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining steel classification by carbon content, the effect on properties, and an engine-room use.",
+    assessmentCriteria: [
+      "The carbon classification is correct.",
+      "The effect on properties is accurate.",
+      "The use case is appropriate.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Corrosión",
+    topic: "Corrosión galvánica",
+    week: 3,
+    taskId: "mn-tem319-w03-galvanic-corrosion",
+    taskTitle: "Explain And Prevent Galvanic Corrosion",
+    scenario: "Galvanic corrosion threatens engine-room and hull components. The engineer asks the cadet to explain how it occurs and how it is prevented on board.",
+    instructions: [
+      "Explain what causes galvanic corrosion (dissimilar metals + electrolyte).",
+      "Give an engine-room or hull example where it occurs.",
+      "State one method used to prevent it (e.g. sacrificial anode).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining galvanic corrosion, an example on board, and a prevention method.",
+    assessmentCriteria: [
+      "The cause of galvanic corrosion is correct.",
+      "The example is valid.",
+      "The prevention method is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Tratamiento térmico de los metales",
+    topic: "Recocido, temple, revenido",
+    week: 4,
+    taskId: "mn-tem319-w04-heat-treatment",
+    taskTitle: "Explain Heat Treatment Of Steel",
+    scenario: "The engineer asks the cadet to explain the basic heat treatments of steel (annealing, quenching, tempering) and what each one does to the metal.",
+    instructions: [
+      "Describe what annealing does to steel.",
+      "Describe what quenching does to steel.",
+      "Describe what tempering does and why it follows quenching.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining annealing, quenching, and tempering of steel and the effect of each.",
+    assessmentCriteria: [
+      "Annealing is correctly described.",
+      "Quenching is correctly described.",
+      "Tempering and its purpose are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Seguridad durante el proceso de soldadura",
+    topic: "Ropa y equipo de protección",
+    week: 1,
+    taskId: "mn-tal320-w01-welding-safety",
+    taskTitle: "Plan Personal Protection For Welding",
+    scenario: "Before welding in the workshop, the cadet must protect themselves. The instructor asks them to plan the protective equipment and precautions for a welding job.",
+    instructions: [
+      "List the protective clothing and equipment needed for welding.",
+      "Explain the effect of welding radiation on eyes and skin and how to protect against it.",
+      "State one precaution for the work area before starting.",
+      "Report the safety plan in clear engine-room English."
+    ],
+    deliverable: "A welding safety plan in English listing protective equipment, eye/skin protection, and one work-area precaution.",
+    assessmentCriteria: [
+      "The protective equipment is appropriate.",
+      "The radiation protection is correct.",
+      "The work-area precaution is relevant.",
+      "The plan is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Normas y tipos de electrodos para soldadura eléctrica",
+    topic: "Selección de electrodo, considerando el tipo de trabajo",
+    week: 2,
+    taskId: "mn-tal320-w02-electrode-selection",
+    taskTitle: "Select The Right Welding Electrode",
+    scenario: "The instructor gives the cadet a welding job and asks them to select an appropriate electrode and justify the choice.",
+    instructions: [
+      "Describe the welding job and the base material.",
+      "State what factors guide electrode selection.",
+      "Choose an appropriate electrode type and justify it.",
+      "Report your selection in clear engine-room English."
+    ],
+    deliverable: "A note in English selecting a welding electrode for a given job, with the factors considered and justification.",
+    assessmentCriteria: [
+      "The selection factors are correct.",
+      "The electrode choice suits the job.",
+      "The justification is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Principio de soldadura por arco eléctrico",
+    topic: "Selección correcta del amperaje respecto al electrodo",
+    week: 3,
+    taskId: "mn-tal320-w03-arc-welding-amperage",
+    taskTitle: "Set The Correct Amperage For Arc Welding",
+    scenario: "During arc welding, the wrong amperage ruins the weld. The instructor asks the cadet to explain how to set the correct amperage for the electrode in use.",
+    instructions: [
+      "Explain how electrode size relates to the amperage needed.",
+      "State what happens if the amperage is too high or too low.",
+      "Describe how to confirm the setting is correct on a test piece.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how to set the correct arc-welding amperage for an electrode, and the effect of wrong settings.",
+    assessmentCriteria: [
+      "The electrode-amperage relationship is correct.",
+      "The effects of wrong amperage are accurate.",
+      "The verification method is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Fallas comunes en las uniones de soldaduras",
+    topic: "Fallas en las uniones con soldadura y formas para evitarlas",
+    week: 4,
+    taskId: "mn-tal320-w04-weld-defects",
+    taskTitle: "Identify And Prevent Weld Defects",
+    scenario: "The instructor shows the cadet a faulty weld. The cadet must identify common weld defects and explain how to prevent them.",
+    instructions: [
+      "Name two common weld defects (e.g. porosity, undercut, lack of fusion).",
+      "State the likely cause of each.",
+      "Explain how each can be prevented.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English naming two weld defects, their causes, and how to prevent each.",
+    assessmentCriteria: [
+      "The defects are valid and correctly named.",
+      "The causes are accurate.",
+      "The prevention methods are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
