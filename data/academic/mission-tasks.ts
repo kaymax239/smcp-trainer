@@ -972,6 +972,238 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     difficulty: "Standard"
   },
   {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Transporte Marítimo",
+    topic: "Tipos de buque y sus particularidades",
+    week: 1,
+    taskId: "mn-tmo101-w01-ship-types-machinery",
+    taskTitle: "Match Ship Types To Their Machinery Needs",
+    scenario: "The chief engineer explains that different ship types carry different machinery. The cadet is asked to connect three ship types to the kind of propulsion or auxiliary plant they typically need.",
+    instructions: [
+      "Name three different ship types (e.g. tanker, container, bulk carrier).",
+      "For each, state one machinery or propulsion characteristic it typically requires.",
+      "Explain briefly why the cargo or service drives that machinery choice.",
+      "Write the answer in clear engine-room English."
+    ],
+    deliverable: "A note in English matching three ship types to a machinery characteristic each requires, with brief reasoning.",
+    assessmentCriteria: [
+      "Ship types are valid and correctly named.",
+      "The machinery characteristic for each is accurate.",
+      "The reasoning linking service to machinery is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Desarrollo de la propulsión Naval",
+    topic: "Propulsión naval",
+    week: 2,
+    taskId: "mn-tmo101-w02-propulsion-development",
+    taskTitle: "Trace The Development Of Naval Propulsion",
+    scenario: "The chief engineer asks the cadet to outline how ship propulsion developed, and why the modern diesel engine became dominant in merchant shipping.",
+    instructions: [
+      "Outline the main stages of propulsion development (sail, steam, diesel).",
+      "State one advantage that made the diesel engine dominant in merchant ships.",
+      "Identify one role the engine department plays in maintaining propulsion.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A short account in English of how naval propulsion developed, why diesel became dominant, and the engine department's role in propulsion.",
+    assessmentCriteria: [
+      "The propulsion stages are correct and in order.",
+      "The advantage of diesel is accurately stated.",
+      "The engine department role is relevant.",
+      "The account is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Tanques de lastre, agua dulce y combustible",
+    topic: "Tanques, tubos sonda y respiraderos",
+    week: 3,
+    taskId: "mn-tmo101-w03-tanks-sounding",
+    taskTitle: "Explain Tanks, Sounding Pipes And Vents",
+    scenario: "The engineer asks the cadet to explain the purpose of fuel and ballast tanks and how sounding pipes and air vents allow them to be monitored safely.",
+    instructions: [
+      "State the purpose of a fuel tank and a ballast tank.",
+      "Explain what a sounding pipe is used for.",
+      "Explain why air vents are required on tanks.",
+      "Report your explanation in clear engine-room English."
+    ],
+    deliverable: "An explanation in English of the purpose of fuel and ballast tanks, the function of sounding pipes, and why air vents are required.",
+    assessmentCriteria: [
+      "Tank purposes are correctly stated.",
+      "The function of sounding pipes is accurate.",
+      "The reason for air vents is correct.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Esfuerzos en el buque",
+    topic: "Quebranto, arrufo y esfuerzos del buque",
+    week: 4,
+    taskId: "mn-tmo101-w04-hull-stresses",
+    taskTitle: "Explain Hogging And Sagging Stresses",
+    scenario: "The engineer explains that the hull experiences stresses that affect machinery alignment. The cadet is asked to explain hogging and sagging and why they matter to the engine department.",
+    instructions: [
+      "Define hogging and sagging in a ship's hull.",
+      "State what loading or wave condition causes each.",
+      "Explain why hull stresses can affect shaft alignment and machinery.",
+      "Report your explanation in clear engine-room English."
+    ],
+    deliverable: "An explanation in English of hogging and sagging, their causes, and why hull stresses matter for machinery and shaft alignment.",
+    assessmentCriteria: [
+      "Hogging and sagging are correctly defined.",
+      "The cause of each is accurate.",
+      "The link to shaft alignment/machinery is sound.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Condición física",
+    topic: "Fuerza muscular, resistencia cardiorrespiratoria y flexibilidad",
+    week: 1,
+    taskId: "mn-c0011-w01-physical-demands-engine",
+    taskTitle: "Identify The Physical Demands Of Shipboard Duties",
+    scenario: "A new cadet must understand why physical fitness is an operational requirement at sea, not just a sport. The training officer asks you to connect specific shipboard tasks to the physical capacities they demand.",
+    instructions: [
+      "List three physical shipboard duties (e.g. climbing ladders, lifting stores, working in the engine room).",
+      "For each duty, state which physical capacity it requires: muscular strength, cardiorespiratory endurance, or flexibility.",
+      "Explain why a lack of that capacity would be an operational and safety risk.",
+      "Write the report in clear English using correct fitness and shipboard terminology."
+    ],
+    deliverable: "A short report in English linking three shipboard duties to the physical capacities they require, and the safety risk if the crew member lacks them.",
+    assessmentCriteria: [
+      "Each duty is matched to the correct physical capacity.",
+      "The operational/safety reasoning is sound.",
+      "Fitness terminology is used correctly.",
+      "The report is clear and professional in English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Percepción y coordinación motriz",
+    topic: "Coordinación motriz, equilibrio y lateralidad",
+    week: 2,
+    taskId: "mn-c0011-w02-balance-moving-deck",
+    taskTitle: "Explain Balance And Coordination On A Moving Deck",
+    scenario: "A vessel at sea is constantly moving. The officer asks you to explain why balance and coordination are critical when working on a moving deck or in the engine room, and how a crew member maintains safe footing.",
+    instructions: [
+      "Explain how a vessel's motion (rolling, pitching) affects balance on board.",
+      "Describe two techniques a crew member uses to keep balance and coordination while working.",
+      "Identify one task where poor balance would create a fall or injury risk.",
+      "Report your explanation in clear maritime English."
+    ],
+    deliverable: "An explanation in English of why balance and coordination matter on a moving vessel, two techniques to maintain footing, and one task where poor balance is dangerous.",
+    assessmentCriteria: [
+      "The effect of vessel motion on balance is explained correctly.",
+      "The two techniques are practical and relevant.",
+      "The risk task is appropriate and clearly justified.",
+      "The explanation is clear and uses correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Natación",
+    topic: "Técnica, flotación, nado libre, nado en grupo y sobrevivencia",
+    week: 3,
+    taskId: "mn-c0011-w03-sea-survival-floating",
+    taskTitle: "Describe Sea Survival Floating Technique",
+    scenario: "Survival in the water is a core seafarer competency for all crew. After a man-overboard or abandon-ship situation, staying afloat and conserving energy can save a life. The instructor asks you to describe the correct survival approach.",
+    instructions: [
+      "Describe a technique used to stay afloat while conserving energy in the water.",
+      "Explain why conserving energy and body heat matters during survival at sea.",
+      "State why staying in a group improves survival chances.",
+      "Report the procedure in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A survival floating brief in English describing how to stay afloat and conserve energy, why energy/heat conservation matters, and the benefit of staying in a group.",
+    assessmentCriteria: [
+      "The floating/survival technique is described correctly.",
+      "Energy and heat conservation reasoning is sound.",
+      "The group-survival benefit is correctly explained.",
+      "The brief is clear and appropriate for safety use, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Concentración",
+    topic: "Juegos de concentración",
+    week: 4,
+    taskId: "mn-c0011-w04-focus-on-watch",
+    taskTitle: "Connect Concentration To Engine Watch Safety",
+    scenario: "An engine-room watch can last hours and demands sustained attention to gauges and alarms. The officer asks you to explain why concentration is a trainable capacity and how fatigue affects it on watch.",
+    instructions: [
+      "Explain why sustained concentration is essential during an engine watch.",
+      "Describe how fatigue degrades concentration and reaction time.",
+      "State one habit or technique that helps maintain focus during a long watch.",
+      "Report your explanation in clear maritime English."
+    ],
+    deliverable: "An explanation in English of why concentration matters on an engine watch, how fatigue affects it, and one technique to sustain focus during a long watch.",
+    assessmentCriteria: [
+      "The importance of concentration on watch is correctly explained.",
+      "The effect of fatigue is accurately described.",
+      "The focus technique is practical and relevant.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
     career: "PN",
     semester: "Semester I",
     subjectCode: "ALG103",
