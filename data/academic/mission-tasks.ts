@@ -465,5 +465,92 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 15,
     estimatedTime: "25 min",
     difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Magnitudes escalares y vectoriales",
+    week: 2,
+    taskId: "pn-fis104-w02-vector-current-set",
+    taskTitle: "Resolve A Set And Drift Vector Problem",
+    scenario: "While approaching the anchorage, the officer notes the vessel is being pushed off track by a current. The cadet must combine the ship's heading and the current as vectors to report the resulting course made good.",
+    instructions: [
+      "Represent the ship's intended course and speed as a vector.",
+      "Represent the current (set and drift) as a second vector.",
+      "Combine both vectors to find the resultant course and speed made good.",
+      "State the result clearly for the officer's plotting."
+    ],
+    deliverable: "A vector resolution note in English giving the resultant course and speed made good, with the two component vectors clearly identified.",
+    assessmentCriteria: [
+      "Both vectors are represented with correct magnitude and direction.",
+      "The vector addition is performed correctly.",
+      "The resultant is expressed as a usable course and speed.",
+      "The note uses correct navigational and physical terminology in English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Leyes de Newton",
+    week: 3,
+    taskId: "pn-fis104-w03-mooring-force",
+    taskTitle: "Estimate The Force On A Mooring Line",
+    scenario: "Wind is pushing the berthed vessel away from the quay. The bosun asks the cadet to estimate the force the mooring line must resist, applying Newton's laws to a simplified static situation.",
+    instructions: [
+      "Identify the forces acting on the vessel at the berth (wind force, line tension).",
+      "Apply Newton's first law: for the vessel to stay in place, the forces must balance.",
+      "Estimate the mooring line tension required to hold the vessel against the given wind force.",
+      "State the result and one safety implication if the line cannot hold that force."
+    ],
+    deliverable: "A short force-balance note in English stating the estimated mooring line tension and a safety implication, showing the forces considered.",
+    assessmentCriteria: [
+      "Forces acting on the vessel are correctly identified.",
+      "Newton's first law (equilibrium) is applied correctly.",
+      "The tension estimate is consistent with the stated forces.",
+      "The safety implication connects the physics to a real mooring risk, in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Estado físico de los cuerpos",
+    topic: "Propiedades de la materia",
+    week: 4,
+    taskId: "pn-fis104-w04-buoyancy-draft-change",
+    taskTitle: "Explain A Draught Change By Water Density",
+    scenario: "A vessel moves from a river (fresh water) out to sea (salt water). The officer asks the cadet to explain, using density and buoyancy, why the vessel's draught changes and what to watch for.",
+    instructions: [
+      "Compare the density of fresh water and salt water.",
+      "Apply the principle of buoyancy (Archimedes) to explain how density affects how the vessel floats.",
+      "State whether the draught increases or decreases when moving from fresh to salt water, and why.",
+      "Identify one operational precaution related to this change (e.g. load line / freshwater allowance)."
+    ],
+    deliverable: "A clear explanation in English of the draught change between fresh and salt water using density and buoyancy, plus one operational precaution.",
+    assessmentCriteria: [
+      "The density difference between fresh and salt water is stated correctly.",
+      "Buoyancy is applied correctly to explain the draught change.",
+      "The direction of the draught change is correct and justified.",
+      "The precaution is operationally relevant and expressed in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
