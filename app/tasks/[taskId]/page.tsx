@@ -14,6 +14,10 @@ export default function AcademicTaskOrderPage() {
   const task = useMemo(() => academicMissionTasks.find((missionTask) => missionTask.taskId === decodedTaskId), [decodedTaskId]);
   const [completedTaskIds, setCompletedTaskIds] = useState<string[]>([]);
   const [taskStatus, setTaskStatus] = useState<"not started" | "in progress">("not started");
+  const [studentResponse, setStudentResponse] = useState("");
+  const [feedback, setFeedback] = useState("");
+  const [isLoadingFeedback, setIsLoadingFeedback] = useState(false);
+  const [feedbackError, setFeedbackError] = useState("");
 
   useEffect(() => {
     try {
@@ -41,6 +45,37 @@ export default function AcademicTaskOrderPage() {
     setCompletedTaskIds(updatedTaskIds);
     window.localStorage.setItem(completedAcademicTaskStorageKey, JSON.stringify(updatedTaskIds));
   };
+
+  async function handleGetFeedback() {
+    if (!task || !studentResponse.trim()) return;
+    setIsLoadingFeedback(true);
+    setFeedback("");
+    setFeedbackError("");
+    try {
+      const res = await fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          taskTitle: task.taskTitle,
+          scenario: task.scenario,
+          instructions: task.instructions,
+          deliverable: task.deliverable,
+          assessmentCriteria: task.assessmentCriteria,
+          studentResponse,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setFeedbackError(data.error || "No se pudo obtener retroalimentación.");
+      } else {
+        setFeedback(data.feedback || "");
+      }
+    } catch {
+      setFeedbackError("Error de conexión. Intenta de nuevo.");
+    } finally {
+      setIsLoadingFeedback(false);
+    }
+  }
 
   if (!task) {
     return (
@@ -130,6 +165,40 @@ export default function AcademicTaskOrderPage() {
                   </li>
                 ))}
               </ol>
+
+              <div className="learningBlock">
+                <span>Your Response</span>
+                <textarea
+                  value={studentResponse}
+                  onChange={(event) => setStudentResponse(event.target.value)}
+                  placeholder="Write your response here in English..."
+                />
+                <button
+                  className="primaryAction"
+                  type="button"
+                  disabled={isLoadingFeedback || !studentResponse.trim()}
+                  onClick={handleGetFeedback}
+                >
+                  Get Feedback
+                </button>
+
+                {isLoadingFeedback ? (
+                  <p className="briefingText" aria-live="polite">Analyzing your response...</p>
+                ) : null}
+
+                {feedback ? (
+                  <div className="navalOrderPanel" aria-live="polite" style={{ marginTop: 12 }}>
+                    <span>Instructor Feedback</span>
+                    <p style={{ whiteSpace: "pre-wrap" }}>{feedback}</p>
+                  </div>
+                ) : null}
+
+                {feedbackError ? (
+                  <p className="briefingText" aria-live="polite" style={{ color: "var(--alert)" }}>
+                    {feedbackError}
+                  </p>
+                ) : null}
+              </div>
             </section>
           ) : null}
 
