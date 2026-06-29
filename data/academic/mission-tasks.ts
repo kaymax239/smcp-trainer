@@ -784,5 +784,121 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Condición física",
+    topic: "Fuerza muscular, resistencia cardiorrespiratoria y flexibilidad",
+    week: 1,
+    taskId: "pn-c0011-w01-physical-demands-watch",
+    taskTitle: "Identify The Physical Demands Of Shipboard Duties",
+    scenario: "A new cadet must understand why physical fitness is an operational requirement at sea, not just a sport. The training officer asks you to connect specific shipboard tasks to the physical capacities they demand.",
+    instructions: [
+      "List three physical shipboard duties (e.g. climbing ladders, handling mooring lines, carrying stores).",
+      "For each duty, state which physical capacity it requires: muscular strength, cardiorespiratory endurance, or flexibility.",
+      "Explain why a lack of that capacity would be an operational and safety risk.",
+      "Write the report in clear English using correct fitness and shipboard terminology."
+    ],
+    deliverable: "A short report in English linking three shipboard duties to the physical capacities they require, and the safety risk if the crew member lacks them.",
+    assessmentCriteria: [
+      "Each duty is matched to the correct physical capacity.",
+      "The operational/safety reasoning is sound.",
+      "Fitness terminology is used correctly.",
+      "The report is clear and professional in English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Percepción y coordinación motriz",
+    topic: "Coordinación motriz, equilibrio y lateralidad",
+    week: 2,
+    taskId: "pn-c0011-w02-balance-moving-deck",
+    taskTitle: "Explain Balance And Coordination On A Moving Deck",
+    scenario: "A vessel at sea is constantly moving. The officer asks you to explain why balance and coordination are critical when working on a moving deck, and how a crew member maintains safe footing.",
+    instructions: [
+      "Explain how a vessel's motion (rolling, pitching) affects balance on deck.",
+      "Describe two techniques a crew member uses to keep balance and coordination while working.",
+      "Identify one task where poor balance would create a fall or injury risk.",
+      "Report your explanation in clear maritime English."
+    ],
+    deliverable: "An explanation in English of why balance and coordination matter on a moving deck, two techniques to maintain footing, and one task where poor balance is dangerous.",
+    assessmentCriteria: [
+      "The effect of vessel motion on balance is explained correctly.",
+      "The two techniques are practical and relevant.",
+      "The risk task is appropriate and clearly justified.",
+      "The explanation is clear and uses correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Natación",
+    topic: "Técnica, flotación, nado libre, nado en grupo y sobrevivencia",
+    week: 3,
+    taskId: "pn-c0011-w03-sea-survival-floating",
+    taskTitle: "Describe Sea Survival Floating Technique",
+    scenario: "Survival in the water is a core seafarer competency. After a man-overboard or abandon-ship situation, staying afloat and conserving energy can save a life. The instructor asks you to describe the correct survival approach.",
+    instructions: [
+      "Describe a technique used to stay afloat while conserving energy in the water.",
+      "Explain why conserving energy and body heat matters during survival at sea.",
+      "State why staying in a group improves survival chances.",
+      "Report the procedure in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A survival floating brief in English describing how to stay afloat and conserve energy, why energy/heat conservation matters, and the benefit of staying in a group.",
+    assessmentCriteria: [
+      "The floating/survival technique is described correctly.",
+      "Energy and heat conservation reasoning is sound.",
+      "The group-survival benefit is correctly explained.",
+      "The brief is clear and appropriate for safety use, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Concentración",
+    topic: "Juegos de concentración",
+    week: 4,
+    taskId: "pn-c0011-w04-focus-on-watch",
+    taskTitle: "Connect Concentration To Watchkeeping Safety",
+    scenario: "A navigational watch can last hours and demands sustained attention. The officer asks you to explain why concentration is a trainable physical-mental capacity and how fatigue affects it on watch.",
+    instructions: [
+      "Explain why sustained concentration is essential during a navigational watch.",
+      "Describe how fatigue degrades concentration and reaction time.",
+      "State one habit or technique that helps maintain focus during a long watch.",
+      "Report your explanation in clear maritime English."
+    ],
+    deliverable: "An explanation in English of why concentration matters on watch, how fatigue affects it, and one technique to sustain focus during a long watch.",
+    assessmentCriteria: [
+      "The importance of concentration on watch is correctly explained.",
+      "The effect of fatigue is accurately described.",
+      "The focus technique is practical and relevant.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
