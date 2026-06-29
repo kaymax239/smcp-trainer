@@ -3948,5 +3948,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Distancia entre dos puntos",
+    week: 1,
+    taskId: "mn-gea317-w01-distance-two-points",
+    taskTitle: "Calculate Distance Between Two Points On A Part",
+    scenario: "An engineering drawing gives two reference points on a component. The engineer asks the cadet to calculate the straight-line distance between them using the distance formula.",
+    instructions: [
+      "Identify the coordinates of the two reference points.",
+      "Apply the distance formula between two points.",
+      "Calculate the distance with the correct unit.",
+      "State the result clearly for the workshop measurement."
+    ],
+    deliverable: "A distance calculation note in English giving the straight-line distance between two points on a component, with the formula and working shown.",
+    assessmentCriteria: [
+      "The distance formula is applied correctly.",
+      "The calculation is accurate.",
+      "The result carries the correct unit.",
+      "The note is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Pendiente",
+    week: 2,
+    taskId: "mn-gea317-w02-slope-taper",
+    taskTitle: "Use Slope To Describe A Taper",
+    scenario: "A machined part has a tapered edge. The engineer asks the cadet to express the taper as a slope between two points and explain what the slope means physically.",
+    instructions: [
+      "Identify the two points defining the tapered edge.",
+      "Calculate the slope between them.",
+      "Explain what the slope represents for the taper (rise over run).",
+      "Report the result in clear engine-room English."
+    ],
+    deliverable: "A slope calculation note in English giving the slope of a tapered edge and explaining what it represents.",
+    assessmentCriteria: [
+      "The slope is calculated correctly.",
+      "The physical meaning is explained correctly.",
+      "The result is clearly stated.",
+      "The note is in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Circunferencia",
+    topic: "Ecuación general de la circunferencia",
+    week: 3,
+    taskId: "mn-gea317-w03-circle-shaft",
+    taskTitle: "Model A Shaft Cross-Section With A Circle",
+    scenario: "A rotating shaft has a circular cross-section. The engineer asks the cadet to write the equation of a circle that models the cross-section of a given radius.",
+    instructions: [
+      "State the centre and radius of the shaft cross-section.",
+      "Write the equation of the circle for that centre and radius.",
+      "Explain what the radius represents for the shaft.",
+      "Report the result in clear engine-room English."
+    ],
+    deliverable: "A note in English giving the equation of a circle modelling a shaft cross-section, with an explanation of the radius.",
+    assessmentCriteria: [
+      "The circle equation is written correctly.",
+      "Centre and radius are used correctly.",
+      "The link to the shaft is sound.",
+      "The note is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Geometría Analítica del Espacio",
+    topic: "Ecuación de un plano",
+    week: 4,
+    taskId: "mn-gea317-w04-plane-mounting",
+    taskTitle: "Describe A Mounting Surface With A Plane Equation",
+    scenario: "A machine is bolted to a flat mounting surface. The engineer asks the cadet to explain how a plane equation describes that surface in space.",
+    instructions: [
+      "Write the general equation of a plane.",
+      "Explain what the equation describes geometrically.",
+      "Relate it to a flat mounting surface for machinery.",
+      "Report your explanation in clear engine-room English."
+    ],
+    deliverable: "A note in English giving the equation of a plane and explaining how it describes a flat mounting surface.",
+    assessmentCriteria: [
+      "The plane equation is written correctly.",
+      "Its geometric meaning is correct.",
+      "The link to a mounting surface is sound.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinemática de Partículas y Cuerpos Rígidos",
+    topic: "Movimiento rectilíneo de partículas",
+    week: 1,
+    taskId: "mn-din318-w01-piston-motion",
+    taskTitle: "Describe Piston Rectilinear Motion",
+    scenario: "A piston moves back and forth in a cylinder. The engineer asks the cadet to describe its rectilinear motion using displacement, velocity, and acceleration.",
+    instructions: [
+      "Define displacement, velocity, and acceleration for the piston.",
+      "State the relationship between them in straight-line motion.",
+      "Describe how the piston's velocity changes through its stroke.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English describing piston rectilinear motion in terms of displacement, velocity, and acceleration.",
+    assessmentCriteria: [
+      "The three quantities are defined correctly.",
+      "Their relationship is correct.",
+      "The description of changing velocity is reasonable.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinemática de Partículas y Cuerpos Rígidos",
+    topic: "Rotación con respecto a un eje fijo de cuerpo rígido",
+    week: 2,
+    taskId: "mn-din318-w02-shaft-rotation",
+    taskTitle: "Describe Rotation Of A Shaft About An Axis",
+    scenario: "A propeller shaft rotates about a fixed axis. The engineer asks the cadet to describe the rotation using angular velocity and explain how points on the shaft move.",
+    instructions: [
+      "Define angular velocity for the rotating shaft.",
+      "Explain how a point further from the axis moves compared to one near it.",
+      "Relate the rotation to the work the shaft transmits.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English describing the rotation of a shaft about a fixed axis using angular velocity and how points on it move.",
+    assessmentCriteria: [
+      "Angular velocity is correctly defined.",
+      "The motion of points at different radii is correct.",
+      "The link to transmitted work is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Trabajo y energía",
+    week: 3,
+    taskId: "mn-din318-w03-flywheel-energy",
+    taskTitle: "Apply Work And Energy To A Flywheel",
+    scenario: "A flywheel stores rotational energy to smooth the engine's running. The engineer asks the cadet to explain, using work and energy, how a flywheel stores and releases energy.",
+    instructions: [
+      "Explain what kinetic energy a rotating flywheel stores.",
+      "Explain how the flywheel releases energy to smooth out the engine.",
+      "State why a heavier flywheel stores more energy at the same speed.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English using work and energy to explain how a flywheel stores and releases rotational energy.",
+    assessmentCriteria: [
+      "The stored kinetic energy is correctly explained.",
+      "The smoothing role is correct.",
+      "The mass-energy reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Impulso y cantidad de movimiento de una partícula y un sistema de partículas",
+    week: 4,
+    taskId: "mn-din318-w04-momentum-machinery",
+    taskTitle: "Apply Momentum To Moving Machinery",
+    scenario: "A heavy moving part must be stopped safely. The engineer asks the cadet to explain, using impulse and momentum, why stopping it suddenly is dangerous.",
+    instructions: [
+      "Define momentum for the moving machinery part.",
+      "Explain how impulse relates the stopping force to the change in momentum.",
+      "Explain why stopping it suddenly creates a large force.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English using impulse and momentum to explain why suddenly stopping heavy machinery is dangerous.",
+    assessmentCriteria: [
+      "Momentum is correctly defined.",
+      "The impulse-momentum relationship is correct.",
+      "The reasoning about sudden stopping is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Presente perfecto",
+    topic: "Aprende a construir el present perfect, usando have como auxiliar + verbos regulares e irregulares en pasado participio en afirmativo, negativo e interrogativo",
+    week: 1,
+    taskId: "mn-ing315-w01-present-perfect-maintenance",
+    taskTitle: "Report Completed Maintenance Using Present Perfect",
+    scenario: "At engine watch handover, you report the maintenance already done. Using the present perfect, report the completed work to the relieving engineer.",
+    instructions: [
+      "List two or three maintenance tasks completed during the watch.",
+      "Report each using the present perfect (e.g. 'I have checked...').",
+      "Distinguish what has been completed from what is still pending.",
+      "Keep the handover clear and professional in English."
+    ],
+    deliverable: "An engine watch handover report in English using the present perfect to state completed maintenance, distinguished from pending work.",
+    assessmentCriteria: [
+      "The present perfect is formed and used correctly.",
+      "Completed tasks are clearly reported.",
+      "Completed vs pending is clearly distinguished.",
+      "The handover reads professionally, not as a grammar exercise."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Superlativos",
+    topic: "Usa el superlativo de adjetivos para calificar sustantivos",
+    week: 2,
+    taskId: "mn-ing315-w02-superlatives-machinery",
+    taskTitle: "Describe Machinery Using Superlatives",
+    scenario: "You compare machinery in the engine room. The engineer asks you to describe key features using superlatives (largest, most powerful, hottest) so the comparison is clear.",
+    instructions: [
+      "Choose three features to compare across machines (e.g. power, size, temperature).",
+      "Describe each using the correct superlative form.",
+      "Make sure the description is accurate and unambiguous.",
+      "Report the comparison in clear engine-room English."
+    ],
+    deliverable: "A short comparison in English describing machinery features using correct superlative forms.",
+    assessmentCriteria: [
+      "Superlative forms are correct.",
+      "The features compared are relevant.",
+      "The description is accurate and unambiguous.",
+      "The English is clear and professional."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Introducción: Inglés Marítimo",
+    topic: "Rutinas de operación a bordo. Órdenes estandarizadas de máquinas",
+    week: 3,
+    taskId: "mn-ing315-w03-engine-orders",
+    taskTitle: "Use Standard Engine Orders",
+    scenario: "The bridge sends engine orders to the engine room. The engineer asks the cadet to state the standard engine orders in English and confirm them correctly.",
+    instructions: [
+      "List the standard engine order telegraph commands (e.g. Full Ahead, Slow Astern, Stop).",
+      "Explain how each order is acknowledged/confirmed.",
+      "Explain why standard wording prevents dangerous mistakes.",
+      "Report the orders and confirmations in clear English."
+    ],
+    deliverable: "A note in English listing standard engine orders, how they are confirmed, and why standard wording matters.",
+    assessmentCriteria: [
+      "The engine orders are correct and standard.",
+      "The confirmation method is correct.",
+      "The reasoning about standard wording is sound.",
+      "The English is clear and professional."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Introducción: Inglés Marítimo",
+    topic: "Comandos en situaciones de emergencia a bordo",
+    week: 4,
+    taskId: "mn-ing315-w04-emergency-commands",
+    taskTitle: "Give Standard Emergency Commands On Board",
+    scenario: "In an engine-room emergency, commands must be given clearly and in standard form so any crew member understands instantly. The engineer asks you to give a set of standard emergency commands in English.",
+    instructions: [
+      "Choose an engine-room emergency (e.g. fire, flooding, machinery failure).",
+      "Give the standard commands a crew member would shout or hear, in correct English.",
+      "Keep each command short, clear, and unambiguous.",
+      "Explain why standard wording matters in an emergency."
+    ],
+    deliverable: "A set of standard emergency commands in English for an engine-room scenario, with a note on why standard wording matters.",
+    assessmentCriteria: [
+      "The commands are appropriate to the emergency.",
+      "Each command is short, clear, and standard.",
+      "The English is correct and unambiguous.",
+      "The reasoning about standard wording is sound."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
