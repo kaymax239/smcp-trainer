@@ -552,5 +552,121 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Circuito eléctrico",
+    topic: "Diferencia de potencial, corriente y resistencia",
+    week: 1,
+    taskId: "pn-ele106-w01-nav-light-circuit",
+    taskTitle: "Read A Navigation Light Circuit",
+    scenario: "During an electrical familiarization round, the electro-technical officer points to a navigation light circuit and asks the cadet to identify the voltage, current, and resistance values and explain how they relate.",
+    instructions: [
+      "Identify which quantity is voltage, which is current, and which is resistance in the given circuit values.",
+      "State the unit of each quantity (volt, ampere, ohm).",
+      "Explain how potential difference, current, and resistance relate in a simple circuit.",
+      "State what would happen to the current if the resistance increased."
+    ],
+    deliverable: "A short circuit note in English identifying voltage, current, and resistance with correct units, and explaining their relationship in the navigation light circuit.",
+    assessmentCriteria: [
+      "Each quantity is correctly identified with its unit.",
+      "The relationship between the three quantities is explained correctly.",
+      "The effect of changing resistance on current is stated correctly.",
+      "Terminology is precise and written in clear English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Redes eléctricas",
+    topic: "Ley de Ohm y Leyes de Kirchhoff",
+    week: 2,
+    taskId: "pn-ele106-w02-ohm-law-load",
+    taskTitle: "Apply Ohm's Law To A Bridge Load",
+    scenario: "A piece of bridge equipment is rated for a known voltage and resistance. Before connecting it, the officer asks the cadet to calculate the current it will draw using Ohm's law, to check it is within the circuit's limit.",
+    instructions: [
+      "Identify the voltage and resistance of the bridge equipment.",
+      "Apply Ohm's law (I = V / R) to calculate the current drawn.",
+      "State the result with the correct unit (ampere).",
+      "State whether the current is within a given circuit limit and the safety reason this check matters."
+    ],
+    deliverable: "An Ohm's law calculation note in English giving the current drawn by the equipment, with the working shown and a statement on whether it is within the circuit limit.",
+    assessmentCriteria: [
+      "Ohm's law is applied correctly with the right values.",
+      "The current is calculated accurately with the correct unit.",
+      "The comparison against the circuit limit is correct.",
+      "The safety reasoning is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Conexiones eléctricas",
+    topic: "Circuitos en serie, paralelo y serie/paralelo",
+    week: 3,
+    taskId: "pn-ele106-w03-series-parallel-lighting",
+    taskTitle: "Compare Series And Parallel Lighting",
+    scenario: "The accommodation lighting can be wired in series or in parallel. The officer asks the cadet to explain which arrangement is used on board and why one failed lamp should not darken the whole space.",
+    instructions: [
+      "Describe how current flows in a series circuit versus a parallel circuit.",
+      "Explain what happens to the other lamps if one lamp fails, in each arrangement.",
+      "State which arrangement is preferred for accommodation lighting and why.",
+      "Connect the choice to a safety or operational reason on board."
+    ],
+    deliverable: "A comparison note in English explaining series versus parallel lighting, the effect of a failed lamp in each, and why the chosen arrangement is safer on board.",
+    assessmentCriteria: [
+      "Current behaviour in series and parallel circuits is described correctly.",
+      "The effect of a failed lamp in each arrangement is correct.",
+      "The preferred arrangement is correctly identified and justified.",
+      "The safety/operational link is sound and clearly written in English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Redes eléctricas",
+    topic: "Resistencia e intensidad de corriente en redes eléctricas",
+    week: 4,
+    taskId: "pn-ele106-w04-network-fault-current",
+    taskTitle: "Analyse Current In A Small Power Network",
+    scenario: "Several pieces of equipment share a small distribution network on the bridge. The officer asks the cadet to work out the total current the network draws and identify whether adding one more device would overload it.",
+    instructions: [
+      "Identify the resistance or current draw of each device on the network.",
+      "Determine the total current drawn by the combined network.",
+      "Compare the total against the network's rated capacity.",
+      "State whether one additional device can be safely added, and the consequence of overloading."
+    ],
+    deliverable: "A network analysis note in English giving the total current drawn, the comparison against rated capacity, and a clear conclusion on whether another device can be safely added.",
+    assessmentCriteria: [
+      "Individual device currents/resistances are handled correctly.",
+      "The total network current is determined correctly.",
+      "The comparison against rated capacity is accurate.",
+      "The overload conclusion and its consequence are correct and clearly written in English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
