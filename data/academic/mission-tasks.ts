@@ -2788,5 +2788,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Distancia entre dos puntos",
+    week: 1,
+    taskId: "pn-gea320-w01-distance-two-points",
+    taskTitle: "Calculate Distance Between Two Positions",
+    scenario: "Two waypoints are given as coordinates on a plotting sheet. The officer asks the cadet to calculate the straight-line distance between them using the distance formula.",
+    instructions: [
+      "Identify the coordinates of the two waypoints.",
+      "Apply the distance formula between two points.",
+      "Calculate the distance with the correct unit.",
+      "State the result clearly for the passage plan."
+    ],
+    deliverable: "A distance calculation note in English giving the straight-line distance between two waypoints, with the formula and working shown.",
+    assessmentCriteria: [
+      "The distance formula is applied correctly.",
+      "The calculation is accurate.",
+      "The result carries the correct unit.",
+      "The note is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Pendiente",
+    week: 2,
+    taskId: "pn-gea320-w02-slope-course",
+    taskTitle: "Use Slope To Describe A Track Line",
+    scenario: "A track line is drawn between two points on a plotting sheet. The officer asks the cadet to find its slope and explain how slope relates to the direction of the track.",
+    instructions: [
+      "Identify the two points defining the track line.",
+      "Calculate the slope of the line between them.",
+      "Explain how slope relates to the steepness/direction of the track.",
+      "Report the result in clear English."
+    ],
+    deliverable: "A slope calculation note in English giving the slope of a track line and explaining how it relates to direction.",
+    assessmentCriteria: [
+      "The slope is calculated correctly.",
+      "The relationship to direction is explained correctly.",
+      "The result is clearly stated.",
+      "The note is in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Circunferencia",
+    topic: "Ecuación general de la circunferencia",
+    week: 3,
+    taskId: "pn-gea320-w03-circle-turning",
+    taskTitle: "Model A Turning Circle With A Circle Equation",
+    scenario: "A vessel's turning circle can be modelled geometrically. The officer asks the cadet to use the equation of a circle to describe a turning circle of a given radius centred at a point.",
+    instructions: [
+      "State the centre and radius of the turning circle.",
+      "Write the equation of the circle for that centre and radius.",
+      "Explain what the radius represents for the vessel's manoeuvre.",
+      "Report the result in clear English."
+    ],
+    deliverable: "A note in English giving the equation of a circle modelling a turning circle, with an explanation of what the radius represents.",
+    assessmentCriteria: [
+      "The circle equation is written correctly.",
+      "The centre and radius are used correctly.",
+      "The link to the vessel's manoeuvre is sound.",
+      "The note is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Geometría Analítica del Espacio",
+    topic: "Ecuación de la superficie esférica con centro en el origen",
+    week: 4,
+    taskId: "pn-gea320-w04-sphere-earth",
+    taskTitle: "Relate The Sphere Equation To Position On Earth",
+    scenario: "The Earth is approximated as a sphere in navigation. The officer asks the cadet to explain how the equation of a sphere relates to describing a position on the Earth's surface.",
+    instructions: [
+      "Write the equation of a sphere centred at the origin.",
+      "Explain what the radius represents for the Earth model.",
+      "Explain how a point on the sphere relates to a position on Earth.",
+      "Report your explanation in clear English."
+    ],
+    deliverable: "A note in English giving the equation of a sphere and explaining how it relates to describing a position on the Earth's surface.",
+    assessmentCriteria: [
+      "The sphere equation is written correctly.",
+      "The meaning of the radius is correct.",
+      "The link to position on Earth is sound.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinemática de Partículas y Cuerpos Rígidos",
+    topic: "Movimiento rectilíneo de partículas",
+    week: 1,
+    taskId: "pn-din321-w01-rectilinear-motion",
+    taskTitle: "Describe A Vessel's Rectilinear Motion",
+    scenario: "A vessel accelerates along a straight channel. The officer asks the cadet to describe its rectilinear motion using displacement, velocity, and acceleration.",
+    instructions: [
+      "Define displacement, velocity, and acceleration for the vessel.",
+      "State the relationship between them in straight-line motion.",
+      "Given a simple case, describe how the vessel's velocity changes under constant acceleration.",
+      "Report your answer in clear English."
+    ],
+    deliverable: "A note in English describing a vessel's rectilinear motion in terms of displacement, velocity, and acceleration, with their relationship.",
+    assessmentCriteria: [
+      "The three quantities are defined correctly.",
+      "Their relationship is stated correctly.",
+      "The description of changing velocity is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Leyes del Movimiento de Newton",
+    topic: "Segunda ley de Newton",
+    week: 2,
+    taskId: "pn-din321-w02-newton-second-law",
+    taskTitle: "Apply Newton's Second Law To A Vessel",
+    scenario: "A tug applies a known force to a vessel of known mass. The officer asks the cadet to use Newton's second law to find the resulting acceleration.",
+    instructions: [
+      "State the force applied and the mass of the vessel.",
+      "Apply Newton's second law (F = m·a) to find the acceleration.",
+      "State the result with the correct unit.",
+      "Explain why a larger vessel accelerates more slowly under the same force."
+    ],
+    deliverable: "A calculation note in English giving the vessel's acceleration using Newton's second law, with working shown and a short explanation.",
+    assessmentCriteria: [
+      "Newton's second law is applied correctly.",
+      "The acceleration is calculated accurately with the correct unit.",
+      "The explanation about mass is correct.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Trabajo y energía",
+    week: 3,
+    taskId: "pn-din321-w03-work-energy-vessel",
+    taskTitle: "Apply Work And Energy To A Vessel",
+    scenario: "The officer asks the cadet to explain, using work and energy, why a moving vessel needs a long distance to stop and what this means for safe navigation.",
+    instructions: [
+      "Define kinetic energy for the moving vessel.",
+      "Explain how the vessel's kinetic energy must be removed to stop it.",
+      "Explain why greater speed means a much greater stopping distance.",
+      "Report your answer in clear English."
+    ],
+    deliverable: "A note in English using work and energy to explain why a moving vessel needs a long stopping distance, and the safe-navigation implication.",
+    assessmentCriteria: [
+      "Kinetic energy is correctly defined.",
+      "The stopping reasoning is sound.",
+      "The speed-distance relationship is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Impulso y cantidad de movimiento de una partícula y un sistema de partículas",
+    week: 4,
+    taskId: "pn-din321-w04-momentum-berthing",
+    taskTitle: "Apply Momentum To A Berthing Manoeuvre",
+    scenario: "During berthing, a vessel makes contact with the fenders. The officer asks the cadet to explain, using impulse and momentum, why a slow approach speed is critical.",
+    instructions: [
+      "Define momentum for the approaching vessel.",
+      "Explain how impulse relates the contact force to the change in momentum.",
+      "Explain why a small increase in approach speed greatly increases the impact.",
+      "Report your answer in clear English."
+    ],
+    deliverable: "A note in English using impulse and momentum to explain why a slow berthing approach is critical, with the reasoning shown.",
+    assessmentCriteria: [
+      "Momentum is correctly defined.",
+      "The impulse-momentum relationship is correct.",
+      "The reasoning about approach speed is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Presente perfecto",
+    topic: "Aprende a construir el present perfect, usando have como auxiliar + verbos regulares e irregulares en pasado participio en afirmativo, negativo e interrogativo",
+    week: 1,
+    taskId: "pn-ing317-w01-present-perfect-handover",
+    taskTitle: "Report Completed Work At Watch Handover",
+    scenario: "At watch handover, you must report what has already been done during your watch. Using the present perfect, report the completed tasks to the relieving officer.",
+    instructions: [
+      "List two or three tasks completed during the watch.",
+      "Report each using the present perfect (e.g. 'I have checked...').",
+      "Distinguish what has been completed from what is still pending.",
+      "Keep the handover clear and professional in English."
+    ],
+    deliverable: "A watch handover report in English using the present perfect to state completed tasks, distinguished from pending ones.",
+    assessmentCriteria: [
+      "The present perfect is formed and used correctly.",
+      "Completed tasks are clearly reported.",
+      "Completed vs pending is clearly distinguished.",
+      "The handover reads professionally, not as a grammar exercise."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Superlativos",
+    topic: "Usa el superlativo de adjetivos para calificar sustantivos",
+    week: 2,
+    taskId: "pn-ing317-w02-superlatives-description",
+    taskTitle: "Describe Vessel Features Using Superlatives",
+    scenario: "You are comparing vessels in a fleet. The officer asks you to describe key features using superlatives (largest, deepest, fastest) so the comparison is clear.",
+    instructions: [
+      "Choose three features to compare across vessels (e.g. length, draught, speed).",
+      "Describe each using the correct superlative form.",
+      "Make sure the description is accurate and unambiguous.",
+      "Report the comparison in clear maritime English."
+    ],
+    deliverable: "A short comparison in English describing vessel features using correct superlative forms.",
+    assessmentCriteria: [
+      "Superlative forms are correct.",
+      "The features compared are relevant.",
+      "The description is accurate and unambiguous.",
+      "The English is clear and professional."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Futuro",
+    topic: "Empleó de will,going to, el presente continuo y el presente simple, para hablar acerca del futuro",
+    week: 3,
+    taskId: "pn-ing317-w03-future-passage-plan",
+    taskTitle: "State A Passage Plan Using Future Forms",
+    scenario: "You must brief the next watch on the planned movements of the vessel. Using future forms (will, going to), state what the vessel is going to do over the coming hours.",
+    instructions: [
+      "State two or three planned movements or actions for the coming hours.",
+      "Use future forms (will / going to) correctly for plans and intentions.",
+      "Include an approximate time for each planned action.",
+      "Keep the brief clear and professional in English."
+    ],
+    deliverable: "A short passage brief in English using future forms to state the vessel's planned actions over the coming hours, with times.",
+    assessmentCriteria: [
+      "Future forms are used correctly for plans.",
+      "The planned actions are clear and realistic.",
+      "Times are included appropriately.",
+      "The brief reads professionally in English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Introducción: Inglés Marítimo",
+    topic: "Comandos en situaciones de emergencia a bordo",
+    week: 4,
+    taskId: "pn-ing317-w04-emergency-commands",
+    taskTitle: "Give Standard Emergency Commands On Board",
+    scenario: "In an emergency, commands must be given clearly and in standard form so any crew member understands instantly. The officer asks you to give a set of standard emergency commands in English.",
+    instructions: [
+      "Choose an emergency scenario (e.g. fire, man overboard, abandon ship).",
+      "Give the standard commands a crew member would shout or hear, in correct English.",
+      "Keep each command short, clear, and unambiguous.",
+      "Explain why standard wording matters in an emergency."
+    ],
+    deliverable: "A set of standard emergency commands in English for a chosen scenario, with a note on why standard wording matters.",
+    assessmentCriteria: [
+      "The commands are appropriate to the emergency.",
+      "Each command is short, clear, and standard.",
+      "The English is correct and unambiguous.",
+      "The reasoning about standard wording is sound."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
