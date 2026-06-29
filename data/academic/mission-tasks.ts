@@ -900,5 +900,121 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Bote salvavidas",
+    topic: "Uso correcto del chaleco salvavidas y aro salvavidas",
+    week: 1,
+    taskId: "pn-pmr107-w01-lifesaving-appliances",
+    taskTitle: "Identify And Explain Personal Life-Saving Appliances",
+    scenario: "During a safety familiarization, the bosun points to a lifejacket and a lifebuoy and asks the cadet to identify each, explain its correct use, and state when it is used.",
+    instructions: [
+      "Identify the lifejacket and the lifebuoy by their correct English names.",
+      "Explain the correct way to don and secure a lifejacket.",
+      "Explain how and when a lifebuoy is used in a man-overboard situation.",
+      "State one check that confirms each appliance is ready for use."
+    ],
+    deliverable: "A short report in English identifying the lifejacket and lifebuoy, their correct use, and a readiness check for each.",
+    assessmentCriteria: [
+      "Both appliances are correctly named in English.",
+      "Correct use of each is accurately described.",
+      "The man-overboard use of the lifebuoy is correct.",
+      "Readiness checks are relevant and clearly stated."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Bote salvavidas",
+    topic: "Tipos, nomenclatura y accesorios de botes salvavidas",
+    week: 2,
+    taskId: "pn-pmr107-w02-lifeboat-nomenclature",
+    taskTitle: "Label Lifeboat Parts And Equipment",
+    scenario: "Before a survival craft drill, the officer asks the cadet to identify the main parts of the lifeboat and its required equipment using correct maritime English nomenclature.",
+    instructions: [
+      "Identify three main structural parts of a lifeboat by their correct English names.",
+      "List three items of equipment that a lifeboat must carry.",
+      "State the purpose of each item you listed.",
+      "Write the identification clearly, as it would appear on a survival craft inventory."
+    ],
+    deliverable: "A lifeboat identification list in English naming three structural parts and three equipment items with their purpose.",
+    assessmentCriteria: [
+      "Structural parts are named correctly in English.",
+      "Equipment items are valid and correctly named.",
+      "The purpose of each item is accurate.",
+      "Nomenclature is precise and professional."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Cabuyería",
+    topic: "Conceptos, materiales y tipos de cabos",
+    week: 3,
+    taskId: "pn-pmr107-w03-ropes-and-knots",
+    taskTitle: "Select The Right Rope And Knot For A Task",
+    scenario: "The bosun gives the cadet a deck task and asks which type of rope and which knot are appropriate, explaining the choice using correct seamanship terminology.",
+    instructions: [
+      "Describe two types of rope (by material or construction) used on deck.",
+      "State one advantage of each rope type for a specific use.",
+      "Name a knot or hitch appropriate for a given securing task and explain why.",
+      "Report your selection in clear maritime English."
+    ],
+    deliverable: "A seamanship note in English describing two rope types, an advantage of each, and an appropriate knot for a securing task with justification.",
+    assessmentCriteria: [
+      "Rope types and their properties are correct.",
+      "The advantage stated matches the use.",
+      "The knot chosen is appropriate for the task.",
+      "Seamanship terminology is correct and in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Cabos de amarre",
+    topic: "Distribución de cabos de amarre y boza",
+    week: 4,
+    taskId: "pn-pmr107-w04-mooring-line-layout",
+    taskTitle: "Explain A Standard Mooring Line Layout",
+    scenario: "The vessel is coming alongside. The officer asks the cadet to explain the standard arrangement of mooring lines (head lines, breast lines, springs, stern lines) and what each one controls.",
+    instructions: [
+      "Name the main mooring lines used to secure a vessel alongside.",
+      "State what movement each line controls (fore-aft, off-berth).",
+      "Explain the role of the spring lines specifically.",
+      "Report the layout clearly, as you would brief the mooring team in English."
+    ],
+    deliverable: "A mooring layout brief in English naming the main mooring lines, what each controls, and the specific role of the springs.",
+    assessmentCriteria: [
+      "Mooring lines are correctly named.",
+      "The movement each line controls is correct.",
+      "The role of the spring lines is accurately explained.",
+      "The brief is clear and usable by a mooring team, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
