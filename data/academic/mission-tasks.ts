@@ -1016,5 +1016,121 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Introducción",
+    topic: "Tipos de líneas",
+    week: 1,
+    taskId: "pn-dii105-w01-line-types-plan",
+    taskTitle: "Read The Line Types On A Ship Plan",
+    scenario: "The officer hands the cadet a section of a ship's general arrangement plan and asks what the different line types mean before the cadet can interpret the drawing correctly.",
+    instructions: [
+      "Identify three different line types used on the plan (e.g. visible outline, hidden, centre line).",
+      "State what each line type represents on a technical drawing.",
+      "Explain why distinguishing line types matters when reading a ship's plan.",
+      "Write your answer in clear English using correct drawing terminology."
+    ],
+    deliverable: "A short note in English identifying three line types on a ship plan, what each represents, and why distinguishing them matters.",
+    assessmentCriteria: [
+      "Line types are correctly identified.",
+      "The meaning of each is accurate.",
+      "The reasoning about reading plans is sound.",
+      "Drawing terminology is correct and in clear English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Escalas y acotaciones",
+    topic: "Escalas y acotaciones",
+    week: 2,
+    taskId: "pn-dii105-w02-scale-dimension",
+    taskTitle: "Use Scale To Find A Real Dimension",
+    scenario: "A ship plan is drawn to a stated scale. The officer asks the cadet to use the scale to work out a real dimension on the vessel from the measurement on the drawing.",
+    instructions: [
+      "Identify the scale stated on the drawing.",
+      "Measure or read the dimension given on the plan.",
+      "Apply the scale to calculate the real dimension on the vessel.",
+      "State the result with the correct unit and explain why scale accuracy matters."
+    ],
+    deliverable: "A scale calculation note in English giving the real dimension from the drawing, with the working shown and the correct unit.",
+    assessmentCriteria: [
+      "The scale is read and applied correctly.",
+      "The real dimension is calculated accurately.",
+      "The result carries the correct unit.",
+      "The importance of scale accuracy is explained in clear English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Simbología",
+    topic: "Simbología marítima, topográfica y eléctrica",
+    week: 3,
+    taskId: "pn-dii105-w03-symbols-reading",
+    taskTitle: "Interpret Symbols On A Shipboard Diagram",
+    scenario: "Before working with a shipboard system, the cadet must interpret the standard symbols on its diagram. The officer asks the cadet to identify a set of symbols and explain what each represents.",
+    instructions: [
+      "Identify three standard symbols on a maritime or electrical diagram.",
+      "State what each symbol represents.",
+      "Explain why standardized symbols are important for crews of different nationalities.",
+      "Report your interpretation in clear English."
+    ],
+    deliverable: "A symbol interpretation note in English identifying three diagram symbols, what each represents, and why standard symbols matter on board.",
+    assessmentCriteria: [
+      "Symbols are correctly identified.",
+      "The meaning of each is accurate.",
+      "The reasoning about standardization is sound.",
+      "Terminology is correct and clearly written in English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Tipos de plano",
+    topic: "Planos cartográficos, cartas terrestres y cartas marinas",
+    week: 4,
+    taskId: "pn-dii105-w04-nautical-chart-reading",
+    taskTitle: "Distinguish A Nautical Chart From Other Plans",
+    scenario: "The officer shows the cadet several drawings and asks how a nautical chart differs from other plans, and what key information a nautical chart provides for safe navigation.",
+    instructions: [
+      "State two features that distinguish a nautical chart from a land map or structural plan.",
+      "Identify three pieces of information a nautical chart provides for navigation (e.g. depths, hazards, aids).",
+      "Explain why correct interpretation of a chart is essential for safe navigation.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English distinguishing a nautical chart from other plans, three pieces of navigational information it provides, and why correct chart reading matters.",
+    assessmentCriteria: [
+      "The distinguishing features of a nautical chart are correct.",
+      "The navigational information listed is accurate and relevant.",
+      "The safety reasoning is sound.",
+      "The answer is clear and uses correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
