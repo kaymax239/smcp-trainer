@@ -582,9 +582,11 @@ export const academicSubjects: AcademicSubject[] = [
       "Dar seguimiento al plan de viaje",
       "Mantener libre de tráfico siguiendo las reglas de gobierno y ajustar rumbo retornando al plan",
       "Realiza los reportes a control de tráfico como se requiera",
+      "Comunicación con estaciones y embarcaciones",
       "Integrarse a un esquema de separación de tráfico siguiendo el flujo de tráfico",
       "Cruzar un esquema de separación de tráfico",
-      "Abandonar un esquema por un lado de este"
+      "Abandonar un esquema por un lado de este",
+      "Comunicación con estaciones y embarcaciones"
     ],
     tasks: [],
     assessments: ["Criterios y procedimientos de evaluación del programa oficial"],
