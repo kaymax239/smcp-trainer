@@ -16,6 +16,9 @@ export type WatchSimTask = {
   phase: string;                      // "Reading the Watch Picture"
   stcwCompetency: string;             // "Competency 2"
   stcwSkill: string;                  // skill(s) STCW que ejercita
+  subjectCode: string;                // "SMV747" (clave oficial de la materia)
+  subjectId: string;                  // "pn-s7-simulador-navegacion-i" (id en subjects.ts)
+  topic: string;                      // tema oficial de la materia que respalda la tarea
   taskId: string;
   taskTitle: string;
   scenarioFile: string;               // archivo de datos en data/scenarios/
@@ -36,6 +39,9 @@ export const watchSimTasks: WatchSimTask[] = [
     phase: "Reading the Watch Picture",
     stcwCompetency: "Competency 2",
     stcwSkill: "Look-out duties; situational awareness",
+    subjectCode: "SMV747",
+    subjectId: "pn-s7-simulador-navegacion-i",
+    topic: "Importancia del vigía",
     taskId: "pn-s7-w01-contact-identification",
     taskTitle: "Identify And Classify The Watch Picture",
     scenarioFile: "tampico-watch-01.json",
