@@ -1475,7 +1475,7 @@ button:disabled {
 
   .navalTaskMetaGrid {
     grid-template-columns: 1fr;
-  }
+  }
 
   .navalRewardPanel {
     grid-row: auto;
@@ -1854,4 +1854,9 @@ button:disabled {
   .careerChoiceCard strong {
     margin-top: 28px;
   }
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
 }
