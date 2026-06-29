@@ -363,6 +363,615 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     difficulty: "Standard"
   },
   {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Álgebra Vectorial",
+    topic: "Vectores y resolución de problemas con fuerza, velocidad y aceleración",
+    week: 4,
+    taskId: "mn-alg103-w04-pump-flow-balance",
+    taskTitle: "Balance Two Pump Flow Rates",
+    scenario: "In the engine room, two pumps feed a common service tank at different rates. The engineer asks the cadet to set up the relation between both flow rates and determine the combined fill time.",
+    instructions: [
+      "List the flow rate of each pump.",
+      "Set up an algebraic relation for the combined flow into the tank.",
+      "Solve for the time to fill a given tank volume with both pumps running.",
+      "State the result with the correct unit for the engine-room log."
+    ],
+    deliverable: "A flow-balance calculation in English giving the combined fill time of the service tank, with the relation and working shown.",
+    assessmentCriteria: [
+      "Both flow rates are correctly represented.",
+      "The combined-flow relation is set up correctly.",
+      "The fill time is solved accurately with the correct unit.",
+      "The result is clearly written for the engine-room log in English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Sistemas Internacional e Inglés",
+    week: 1,
+    taskId: "mn-fis104-w01-pressure-unit-conversion",
+    taskTitle: "Convert An Engine Oil Pressure Reading",
+    scenario: "An engine-room gauge shows lube oil pressure in psi, but the technical report and the manual specify bar. The cadet must convert the reading correctly before logging it.",
+    instructions: [
+      "Identify the pressure value given in psi (Imperial).",
+      "Apply the correct conversion factor to express it in bar (SI).",
+      "State the converted value with the correct unit and sensible precision.",
+      "Explain why using the manual's unit system matters for engine monitoring."
+    ],
+    deliverable: "A conversion note in English giving the lube oil pressure in bar, with the working shown and the reason the correct unit system matters.",
+    assessmentCriteria: [
+      "The psi-to-bar conversion is calculated correctly.",
+      "The result carries the correct unit and sensible precision.",
+      "The note is written in clear engine-room English.",
+      "The explanation connects unit accuracy to safe engine monitoring."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Trabajo",
+    topic: "Trabajo, energía y potencia",
+    week: 2,
+    taskId: "mn-fis104-w02-pump-power",
+    taskTitle: "Relate Work, Energy And Pump Power",
+    scenario: "The engineer asks the cadet to explain how work, energy, and power relate in a pump that lifts fuel to a day tank, and what the power rating tells the crew.",
+    instructions: [
+      "Define work, energy, and power in the context of the pump's operation.",
+      "Explain how the power rating relates to how fast the pump does its work.",
+      "State what would happen to the time required if the pump's power were lower.",
+      "Write the explanation in clear engine-room English."
+    ],
+    deliverable: "An explanation in English relating work, energy, and power for a fuel pump, and what its power rating means for the crew.",
+    assessmentCriteria: [
+      "Work, energy, and power are defined correctly.",
+      "The relationship between power and rate of work is correct.",
+      "The effect of lower power is correctly stated.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Estado físico de los cuerpos",
+    topic: "Propiedades de la materia",
+    week: 3,
+    taskId: "mn-fis104-w03-thermal-expansion",
+    taskTitle: "Explain Thermal Expansion In A Pipe System",
+    scenario: "A hot fluid passes through an engine-room pipe system. The engineer asks the cadet to explain, using properties of matter, why the pipes expand and what is fitted to allow for it.",
+    instructions: [
+      "Explain what happens to the pipe material as its temperature rises.",
+      "State why thermal expansion must be allowed for in a pipe system.",
+      "Identify one fitting or design feature that absorbs the expansion.",
+      "Report the explanation in clear engine-room English."
+    ],
+    deliverable: "An explanation in English of thermal expansion in an engine-room pipe system, why it must be allowed for, and one feature that absorbs it.",
+    assessmentCriteria: [
+      "The effect of temperature on the material is explained correctly.",
+      "The need to allow for expansion is justified.",
+      "The fitting/feature identified is relevant and correct.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Leyes de Newton",
+    week: 4,
+    taskId: "mn-fis104-w04-rotating-shaft-force",
+    taskTitle: "Apply Newton's Laws To A Rotating Shaft",
+    scenario: "The cadet observes a rotating propeller shaft. The engineer asks how Newton's laws explain the forces involved and why a sudden load change must be managed carefully.",
+    instructions: [
+      "Identify the forces acting on the rotating shaft.",
+      "Apply Newton's laws to explain why the shaft resists sudden changes in motion.",
+      "Explain why an abrupt load change stresses the machinery.",
+      "Report your explanation in clear engine-room English."
+    ],
+    deliverable: "An explanation in English applying Newton's laws to a rotating shaft, why it resists sudden change, and why abrupt load changes stress the machinery.",
+    assessmentCriteria: [
+      "Forces on the shaft are correctly identified.",
+      "Newton's laws are applied correctly.",
+      "The reasoning about sudden load change is sound.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Circuito eléctrico",
+    topic: "Diferencia de potencial, corriente y resistencia",
+    week: 1,
+    taskId: "mn-ele106-w01-switchboard-circuit",
+    taskTitle: "Read An Engine-Room Switchboard Circuit",
+    scenario: "During an electrical round, the engineer points to a circuit on the engine-room switchboard and asks the cadet to identify the voltage, current, and resistance values and explain how they relate.",
+    instructions: [
+      "Identify which value is voltage, which is current, and which is resistance.",
+      "State the unit of each quantity (volt, ampere, ohm).",
+      "Explain how the three quantities relate in the circuit.",
+      "State what happens to the current if the resistance increases."
+    ],
+    deliverable: "A circuit note in English identifying voltage, current, and resistance with correct units, and explaining their relationship in the switchboard circuit.",
+    assessmentCriteria: [
+      "Each quantity is correctly identified with its unit.",
+      "The relationship between them is explained correctly.",
+      "The effect of changing resistance is correct.",
+      "Terminology is precise and in clear English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Redes eléctricas",
+    topic: "Ley de Ohm y Leyes de Kirchhoff",
+    week: 2,
+    taskId: "mn-ele106-w02-ohm-law-motor",
+    taskTitle: "Apply Ohm's Law To An Auxiliary Motor",
+    scenario: "An auxiliary motor in the engine room has a known voltage and resistance. Before energizing it, the engineer asks the cadet to calculate the current it will draw using Ohm's law.",
+    instructions: [
+      "Identify the voltage and resistance of the auxiliary motor.",
+      "Apply Ohm's law (I = V / R) to calculate the current drawn.",
+      "State the result with the correct unit (ampere).",
+      "State whether the current is within the circuit's rated limit and the safety reason this matters."
+    ],
+    deliverable: "An Ohm's law calculation note in English giving the motor's current draw, with working shown and a statement on whether it is within the rated limit.",
+    assessmentCriteria: [
+      "Ohm's law is applied correctly with the right values.",
+      "The current is calculated accurately with the correct unit.",
+      "The comparison against the rated limit is correct.",
+      "The safety reasoning is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Conexiones eléctricas",
+    topic: "Circuitos en serie, paralelo y serie/paralelo",
+    week: 3,
+    taskId: "mn-ele106-w03-series-parallel-engine",
+    taskTitle: "Compare Series And Parallel In Engine Systems",
+    scenario: "Engine-room equipment can be wired in series or parallel. The engineer asks the cadet to explain why critical systems are wired so that one failure does not shut down the rest.",
+    instructions: [
+      "Describe how current flows in series versus parallel circuits.",
+      "Explain what happens to the other devices if one device fails, in each arrangement.",
+      "State which arrangement is used for critical engine-room systems and why.",
+      "Connect the choice to a safety or reliability reason on board."
+    ],
+    deliverable: "A comparison note in English explaining series versus parallel wiring in engine systems, the effect of one failure in each, and why the chosen arrangement is safer.",
+    assessmentCriteria: [
+      "Current behaviour in series and parallel is described correctly.",
+      "The effect of a single failure in each is correct.",
+      "The preferred arrangement is correctly identified and justified.",
+      "The safety/reliability link is sound and in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Redes eléctricas",
+    topic: "Resistencia e intensidad de corriente en redes eléctricas",
+    week: 4,
+    taskId: "mn-ele106-w04-load-on-generator",
+    taskTitle: "Analyse Electrical Load On The Generator",
+    scenario: "Several devices draw power from the ship's generator. The engineer asks the cadet to work out the total current drawn and whether starting one more device would overload the generator.",
+    instructions: [
+      "Identify the current draw of each device on the generator.",
+      "Determine the total current drawn by the combined load.",
+      "Compare the total against the generator's rated capacity.",
+      "State whether one more device can be safely started, and the consequence of overloading."
+    ],
+    deliverable: "A load analysis note in English giving the total current drawn from the generator, the comparison against rated capacity, and a clear conclusion on adding another device.",
+    assessmentCriteria: [
+      "Individual device currents are handled correctly.",
+      "The total load current is determined correctly.",
+      "The comparison against generator capacity is accurate.",
+      "The overload conclusion and consequence are correct and in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Uso del verbo to be",
+    topic: "Presentarse a sí mismo",
+    week: 1,
+    taskId: "mn-ing102-w01-report-to-chief",
+    taskTitle: "Report Yourself To The Chief Engineer",
+    scenario: "You arrive in the engine room for the first time and must report to the chief engineer. Using the verb 'to be', state who you are, your rank, and your assignment, clearly and professionally.",
+    instructions: [
+      "State your name, rank, and role using the verb 'to be'.",
+      "Confirm you are assigned to the engine department.",
+      "Keep the report short, clear, and professional for the chief engineer.",
+      "Use the form expected in an engine-room watch handover."
+    ],
+    deliverable: "A short self-report in English, as if joining the engine department, correctly using 'to be' to state identity, rank, and assignment.",
+    assessmentCriteria: [
+      "The verb 'to be' is used correctly throughout.",
+      "Identity, rank, and assignment are stated clearly.",
+      "The register is professional and appropriate for the engine room.",
+      "The report is concise and would be understood by the chief engineer."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Uso del verbo to be",
+    topic: "Alfabeto convencional y fonético",
+    week: 2,
+    taskId: "mn-ing102-w02-phonetic-equipment-code",
+    taskTitle: "Pass An Equipment Code Using The Phonetic Alphabet",
+    scenario: "You must pass an engine-room equipment reference code over the internal communication system. To avoid mistakes, you spell it using the standard phonetic alphabet.",
+    instructions: [
+      "Take the given equipment code and spell it using the phonetic alphabet.",
+      "Write each letter with its correct phonetic word (e.g. P = Papa).",
+      "Include any numbers in the correct spoken form.",
+      "State why phonetic spelling prevents errors in engine-room communication."
+    ],
+    deliverable: "The equipment code spelled out in the phonetic alphabet in correct communication format, with a one-line reason phonetic spelling is used.",
+    assessmentCriteria: [
+      "Every letter is matched to the correct phonetic word.",
+      "Numbers are handled correctly.",
+      "The format is clear and usable over comms.",
+      "The reason for phonetic spelling is correct and relevant."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Presente Continuo",
+    topic: "Hora cotidiana y marítima",
+    week: 3,
+    taskId: "mn-ing102-w03-engine-status-report",
+    taskTitle: "Give An Engine Status Report In Present Continuous",
+    scenario: "The chief engineer asks for a routine report of what the machinery is doing now. Using the present continuous, state the current status of the main engine and auxiliaries, with the time in 24-hour format.",
+    instructions: [
+      "Describe what the machinery is doing now using the present continuous (e.g. 'The main engine is running...').",
+      "State the current status of one auxiliary system.",
+      "Give the time using the 24-hour maritime format (e.g. 0815).",
+      "Keep the report in the form expected during an engine-room watch."
+    ],
+    deliverable: "A routine engine status report in English using the present continuous, the status of main and auxiliary machinery, and the correct 24-hour time.",
+    assessmentCriteria: [
+      "The present continuous is formed and used correctly.",
+      "Machinery status is stated clearly.",
+      "The 24-hour time format is used correctly.",
+      "The report reads as a real watch report, not a grammar exercise."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Auxiliar de modo can y can't",
+    topic: "Necesidad, obligación y preferencias",
+    week: 4,
+    taskId: "mn-ing102-w04-can-cannot-machinery",
+    taskTitle: "Report Machinery Readiness Using Can / Cannot",
+    scenario: "Before departure, the chief engineer asks you to report which machinery is ready and which is not. Using 'can' and 'cannot', state clearly what the engine room is and is not able to do.",
+    instructions: [
+      "List the machinery or system you are reporting on.",
+      "Use 'can' to state what is ready or able to operate.",
+      "Use 'cannot' to state what is not ready, and briefly why.",
+      "Keep the report clear enough for the chief engineer to act on before departure."
+    ],
+    deliverable: "A readiness report in English using 'can' and 'cannot' to state clearly what machinery is and is not ready before departure, with brief reasons.",
+    assessmentCriteria: [
+      "'Can' and 'cannot' are used correctly to express ability.",
+      "Ready and not-ready items are clearly distinguished.",
+      "Reasons for unavailability are brief and relevant.",
+      "The report is actionable and in clear professional English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Introducción",
+    topic: "Tipos de líneas",
+    week: 1,
+    taskId: "mn-dii105-w01-line-types-machinery-plan",
+    taskTitle: "Read The Line Types On A Machinery Plan",
+    scenario: "The engineer hands the cadet a section of a machinery arrangement drawing and asks what the different line types mean before the cadet can interpret it correctly.",
+    instructions: [
+      "Identify three different line types used on the machinery drawing.",
+      "State what each line type represents on a technical drawing.",
+      "Explain why distinguishing line types matters when reading a machinery plan.",
+      "Write your answer in clear English using correct drawing terminology."
+    ],
+    deliverable: "A short note in English identifying three line types on a machinery plan, what each represents, and why distinguishing them matters.",
+    assessmentCriteria: [
+      "Line types are correctly identified.",
+      "The meaning of each is accurate.",
+      "The reasoning about reading plans is sound.",
+      "Drawing terminology is correct and in clear English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Escalas y acotaciones",
+    topic: "Escalas y acotaciones",
+    week: 2,
+    taskId: "mn-dii105-w02-scale-component",
+    taskTitle: "Use Scale To Find A Component Dimension",
+    scenario: "A machinery component drawing is drawn to a stated scale. The engineer asks the cadet to use the scale to work out the real size of a part from the measurement on the drawing.",
+    instructions: [
+      "Identify the scale stated on the drawing.",
+      "Read the dimension given on the drawing.",
+      "Apply the scale to calculate the real dimension of the component.",
+      "State the result with the correct unit and explain why scale accuracy matters for spares."
+    ],
+    deliverable: "A scale calculation note in English giving the real component dimension from the drawing, with the working shown and the correct unit.",
+    assessmentCriteria: [
+      "The scale is read and applied correctly.",
+      "The real dimension is calculated accurately.",
+      "The result carries the correct unit.",
+      "The importance of scale accuracy is explained in clear English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Simbología",
+    topic: "Simbología marítima, topográfica y eléctrica",
+    week: 3,
+    taskId: "mn-dii105-w03-symbols-piping-diagram",
+    taskTitle: "Interpret Symbols On A Piping Diagram",
+    scenario: "Before working on a system, the cadet must interpret the standard symbols on its piping or electrical diagram. The engineer asks the cadet to identify a set of symbols and explain what each represents.",
+    instructions: [
+      "Identify three standard symbols on a piping or electrical diagram.",
+      "State what each symbol represents (e.g. valve, pump, motor).",
+      "Explain why standardized symbols matter for crews of different nationalities.",
+      "Report your interpretation in clear English."
+    ],
+    deliverable: "A symbol interpretation note in English identifying three diagram symbols, what each represents, and why standard symbols matter on board.",
+    assessmentCriteria: [
+      "Symbols are correctly identified.",
+      "The meaning of each is accurate.",
+      "The reasoning about standardization is sound.",
+      "Terminology is correct and clearly written in English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Tipos de plano",
+    topic: "Planos cartográficos, cartas terrestres y cartas marinas",
+    week: 4,
+    taskId: "mn-dii105-w04-system-schematic-reading",
+    taskTitle: "Distinguish A System Schematic From A Layout Plan",
+    scenario: "The engineer shows the cadet several drawings and asks how a system schematic differs from a physical layout plan, and what each is used for in the engine room.",
+    instructions: [
+      "State two features that distinguish a system schematic from a physical layout drawing.",
+      "Identify what information a schematic gives that a layout does not.",
+      "Explain why correct interpretation of each is essential for maintenance.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English distinguishing a system schematic from a layout plan, what each provides, and why correct reading matters for maintenance.",
+    assessmentCriteria: [
+      "The distinguishing features are correct.",
+      "The information each drawing provides is accurate.",
+      "The maintenance reasoning is sound.",
+      "The answer is clear and uses correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Bote salvavidas",
+    topic: "Uso correcto del chaleco salvavidas y aro salvavidas",
+    week: 1,
+    taskId: "mn-pmr107-w01-lifesaving-appliances",
+    taskTitle: "Identify And Explain Personal Life-Saving Appliances",
+    scenario: "During a safety familiarization, the officer points to a lifejacket and a lifebuoy and asks the cadet to identify each, explain its correct use, and state when it is used. Survival applies to all crew, engine and deck alike.",
+    instructions: [
+      "Identify the lifejacket and the lifebuoy by their correct English names.",
+      "Explain the correct way to don and secure a lifejacket.",
+      "Explain how and when a lifebuoy is used in a man-overboard situation.",
+      "State one check that confirms each appliance is ready for use."
+    ],
+    deliverable: "A short report in English identifying the lifejacket and lifebuoy, their correct use, and a readiness check for each.",
+    assessmentCriteria: [
+      "Both appliances are correctly named in English.",
+      "Correct use of each is accurately described.",
+      "The man-overboard use of the lifebuoy is correct.",
+      "Readiness checks are relevant and clearly stated."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Bote salvavidas",
+    topic: "Tipos, nomenclatura y accesorios de botes salvavidas",
+    week: 2,
+    taskId: "mn-pmr107-w02-lifeboat-nomenclature",
+    taskTitle: "Label Lifeboat Parts And Equipment",
+    scenario: "Before a survival craft drill, the officer asks the cadet to identify the main parts of the lifeboat and its required equipment using correct maritime English nomenclature.",
+    instructions: [
+      "Identify three main structural parts of a lifeboat by their correct English names.",
+      "List three items of equipment that a lifeboat must carry.",
+      "State the purpose of each item you listed.",
+      "Write the identification clearly, as it would appear on a survival craft inventory."
+    ],
+    deliverable: "A lifeboat identification list in English naming three structural parts and three equipment items with their purpose.",
+    assessmentCriteria: [
+      "Structural parts are named correctly in English.",
+      "Equipment items are valid and correctly named.",
+      "The purpose of each item is accurate.",
+      "Nomenclature is precise and professional."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Cabuyería",
+    topic: "Conceptos, materiales y tipos de cabos",
+    week: 3,
+    taskId: "mn-pmr107-w03-ropes-and-knots",
+    taskTitle: "Select The Right Rope And Knot For A Task",
+    scenario: "The bosun gives the cadet a deck task and asks which type of rope and which knot are appropriate, explaining the choice using correct seamanship terminology. Engine cadets also stand by for mooring stations.",
+    instructions: [
+      "Describe two types of rope (by material or construction) used on board.",
+      "State one advantage of each rope type for a specific use.",
+      "Name a knot or hitch appropriate for a given securing task and explain why.",
+      "Report your selection in clear maritime English."
+    ],
+    deliverable: "A seamanship note in English describing two rope types, an advantage of each, and an appropriate knot for a securing task with justification.",
+    assessmentCriteria: [
+      "Rope types and their properties are correct.",
+      "The advantage stated matches the use.",
+      "The knot chosen is appropriate for the task.",
+      "Seamanship terminology is correct and in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Cabos de amarre",
+    topic: "Distribución de cabos de amarre y boza",
+    week: 4,
+    taskId: "mn-pmr107-w04-mooring-line-layout",
+    taskTitle: "Explain A Standard Mooring Line Layout",
+    scenario: "The vessel is coming alongside. The officer asks the cadet to explain the standard arrangement of mooring lines (head lines, breast lines, springs, stern lines) and what each one controls.",
+    instructions: [
+      "Name the main mooring lines used to secure a vessel alongside.",
+      "State what movement each line controls (fore-aft, off-berth).",
+      "Explain the role of the spring lines specifically.",
+      "Report the layout clearly, as you would brief the mooring team in English."
+    ],
+    deliverable: "A mooring layout brief in English naming the main mooring lines, what each controls, and the specific role of the springs.",
+    assessmentCriteria: [
+      "Mooring lines are correctly named.",
+      "The movement each line controls is correct.",
+      "The role of the spring lines is accurately explained.",
+      "The brief is clear and usable by a mooring team, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
     career: "PN",
     semester: "Semester I",
     subjectCode: "ALG103",
