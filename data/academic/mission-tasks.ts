@@ -7892,5 +7892,469 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Auxilio de personas en peligro en el agua",
+    topic: "Acercamiento a la víctima",
+    week: 1,
+    taskId: "pn-pmr752-w01-rescue-approach",
+    taskTitle: "Approach A Person In The Water Safely",
+    scenario: "A person has fallen overboard. The officer asks the cadet to explain how a rescuer approaches a victim in the water safely and brings them to safety.",
+    instructions: [
+      "Describe how to approach a conscious victim without being grabbed and pulled under.",
+      "Describe how the approach differs for an unconscious victim.",
+      "State one piece of equipment used to help the rescue.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how to approach a victim in the water safely, the difference for an unconscious victim, and one rescue aid.",
+    assessmentCriteria: [
+      "The conscious-victim approach is correct.",
+      "The unconscious-victim difference is correct.",
+      "The equipment is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Banderas y señales",
+    topic: "Formas y colores del código internacional de banderas",
+    week: 2,
+    taskId: "pn-pmr752-w02-flag-recognition",
+    taskTitle: "Recognise International Code Flags",
+    scenario: "An officer must recognise code flags by shape and colour. The officer asks the cadet to explain how flags are recognised and give examples of their meanings.",
+    instructions: [
+      "Explain how code flags are distinguished by shape and colour.",
+      "Give two flags and their single-flag meanings.",
+      "Explain why instant recognition matters at sea.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how code flags are recognised by shape and colour, with two examples and why instant recognition matters.",
+    assessmentCriteria: [
+      "The recognition method is correct.",
+      "The flag examples are valid.",
+      "The reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Interpretación y elaboración de reportes de existencias y pertrechos",
+    topic: "Partes de respeto",
+    week: 3,
+    taskId: "pn-pmr752-w03-spares-report",
+    taskTitle: "Report Deck Stores And Spares",
+    scenario: "The officer must keep accurate records of deck stores and spare parts. The cadet is asked to explain how a stores and spares report is prepared and why accuracy matters.",
+    instructions: [
+      "State what a deck stores and spares report should contain.",
+      "Explain how the report is kept up to date as items are used.",
+      "Explain why accurate spares records matter for operations.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how a deck stores and spares report is prepared, kept current, and why accuracy matters.",
+    assessmentCriteria: [
+      "The report contents are appropriate.",
+      "The updating method is sound.",
+      "The operational reasoning is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Faenas con anclas",
+    topic: "Chicoteo del ancla",
+    week: 4,
+    taskId: "pn-pmr752-w04-anchor-work",
+    taskTitle: "Carry Out Anchor Work Safely",
+    scenario: "Anchor work is heavy and dangerous. The officer asks the cadet to explain the safety precautions during anchor handling on the forecastle.",
+    instructions: [
+      "Describe two hazards during anchor handling.",
+      "State the safety precautions for the team on the forecastle.",
+      "Explain why clear communication with the bridge is essential.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the hazards of anchor work, the safety precautions, and why bridge communication is essential.",
+    assessmentCriteria: [
+      "The hazards are valid.",
+      "The precautions are appropriate.",
+      "The communication reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Condición física",
+    topic: "Resistencia cardiorespiratoria",
+    week: 1,
+    taskId: "pn-c0011vii-w01-endurance-command",
+    taskTitle: "Sustain Fitness For Command Responsibility",
+    scenario: "Senior officers must stay fit to handle long, demanding situations in command. The training officer asks the cadet to explain why cardiorespiratory endurance matters at the officer level.",
+    instructions: [
+      "Define cardiorespiratory endurance in your own words.",
+      "Explain why a senior officer needs sustained endurance during a long emergency.",
+      "Describe one way endurance is maintained at sea.",
+      "Report your answer in clear English using correct fitness terminology."
+    ],
+    deliverable: "A note in English defining cardiorespiratory endurance, why a senior officer needs it during a long emergency, and how it is maintained.",
+    assessmentCriteria: [
+      "Endurance is correctly defined.",
+      "The command-level reasoning is sound.",
+      "The maintenance method is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Condición física",
+    topic: "Fuerza muscular",
+    week: 2,
+    taskId: "pn-c0011vii-w02-strength-emergency",
+    taskTitle: "Apply Muscular Strength In An Emergency",
+    scenario: "In an emergency, an officer may need physical strength to help others or operate heavy equipment. The officer asks the cadet to link muscular strength to emergency tasks.",
+    instructions: [
+      "Name two emergency tasks that demand muscular strength (e.g. carrying a casualty, closing a heavy door).",
+      "Explain why maintained strength is part of operational readiness.",
+      "State one way to train strength safely.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English linking muscular strength to two emergency tasks, why it is part of readiness, and how to train it safely.",
+    assessmentCriteria: [
+      "The emergency tasks are relevant.",
+      "The readiness reasoning is sound.",
+      "The training method is safe and valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Natación",
+    topic: "Sobrevivencia",
+    week: 3,
+    taskId: "pn-c0011vii-w03-survival-leadership",
+    taskTitle: "Lead Survivors In The Water",
+    scenario: "After abandoning ship, an officer may need to lead survivors in the water. The instructor asks the cadet to explain how an officer keeps a group of survivors alive and organised.",
+    instructions: [
+      "Explain how an officer organises survivors in the water to improve survival.",
+      "Describe how to keep weaker survivors safe and the group together.",
+      "State how the group improves its chance of being rescued.",
+      "Report the skills in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A brief in English explaining how an officer leads and organises survivors in the water to improve survival and rescue.",
+    assessmentCriteria: [
+      "The organisation approach is sound.",
+      "The care of weaker survivors is correct.",
+      "The rescue-chance reasoning is valid.",
+      "The brief is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Concentración",
+    topic: "Juegos de concentración",
+    week: 4,
+    taskId: "pn-c0011vii-w04-focus-command",
+    taskTitle: "Maintain Focus In A Prolonged Command Situation",
+    scenario: "Commanding through a prolonged crisis tests sustained mental focus. The officer asks the cadet to explain how to maintain concentration when leading over many hours.",
+    instructions: [
+      "Explain why concentration is hard to sustain during a prolonged crisis.",
+      "Describe two techniques an officer uses to stay focused and make good decisions.",
+      "State the risk of a focus lapse when in command.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how an officer maintains focus in a prolonged command situation, with two techniques and the risk of a lapse.",
+    assessmentCriteria: [
+      "The cause of degraded focus is correct.",
+      "The techniques are practical.",
+      "The command-level risk is realistic.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Toxicidad y otros peligros",
+    topic: "peligro de incendio",
+    week: 1,
+    taskId: "pn-c0129-w01-tanker-fire-hazard",
+    taskTitle: "Explain Fire Hazards On A Tanker",
+    scenario: "Tankers carry flammable cargoes, making fire a constant threat. The officer asks the cadet to explain the fire hazards specific to a tanker and the basic precautions.",
+    instructions: [
+      "Explain why a tanker's cargo creates a high fire risk.",
+      "State the conditions needed for a cargo fire (fuel, air, ignition).",
+      "State two precautions that reduce the risk of ignition on deck.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining tanker fire hazards, the fire triangle for cargo, and two ignition-prevention precautions.",
+    assessmentCriteria: [
+      "The fire risk is correctly explained.",
+      "The fire-triangle conditions are correct.",
+      "The precautions are valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Equipos de seguridad y protección personal",
+    topic: "Aparatos de respiración, tanque de evacuación, equipo de rescate y escape",
+    week: 2,
+    taskId: "pn-c0129-w02-breathing-apparatus",
+    taskTitle: "Use Breathing Apparatus On A Tanker",
+    scenario: "Entering enclosed or toxic spaces on a tanker requires breathing apparatus. The officer asks the cadet to explain when and how breathing apparatus is used.",
+    instructions: [
+      "Explain when breathing apparatus must be worn on a tanker.",
+      "Describe the basic checks before using breathing apparatus.",
+      "Explain why a person must never enter a toxic space without it.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining when breathing apparatus is used on a tanker, the pre-use checks, and why it is essential in toxic spaces.",
+    assessmentCriteria: [
+      "The need for breathing apparatus is correct.",
+      "The pre-use checks are valid.",
+      "The toxic-space reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Prevención de la contaminación",
+    topic: "SOPEP",
+    week: 3,
+    taskId: "pn-c0129-w03-sopep",
+    taskTitle: "Explain The SOPEP",
+    scenario: "Every tanker carries a Shipboard Oil Pollution Emergency Plan (SOPEP). The officer asks the cadet to explain what the SOPEP is and how it is used in a spill.",
+    instructions: [
+      "Explain what the SOPEP is and why it is required.",
+      "State what the SOPEP tells the crew to do in a spill.",
+      "Explain why quick action under the SOPEP limits pollution.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the SOPEP, what it directs the crew to do in a spill, and why quick action limits pollution.",
+    assessmentCriteria: [
+      "The purpose of the SOPEP is correct.",
+      "The crew actions are valid.",
+      "The reasoning about quick action is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de la carga",
+    topic: "conocimientos generales de los procedimientos operativos de seguridad de la carga de los buques tanques petroleros",
+    week: 4,
+    taskId: "pn-c0129-w04-cargo-operations",
+    taskTitle: "Explain Safe Tanker Cargo Operations",
+    scenario: "Loading and discharging a tanker safely follows strict procedures. The officer asks the cadet to explain the key safety principles of tanker cargo operations.",
+    instructions: [
+      "State two key safety checks before starting cargo operations.",
+      "Explain the importance of monitoring during loading/discharging.",
+      "Explain why ship-shore communication is critical throughout.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining safe tanker cargo operations: pre-start checks, monitoring, and ship-shore communication.",
+    assessmentCriteria: [
+      "The safety checks are valid.",
+      "The monitoring reasoning is sound.",
+      "The ship-shore communication point is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Familiarización en Buque de Transbordo Rodado",
+    topic: "Aptitud para aplicar debidamente los procedimientos de a bordo relativos al mantenimiento del equipo propio de los buques RoRo (puertas y rampas de proa y popa, puertas laterales, imbornales y sistemas conexos)",
+    week: 1,
+    taskId: "pn-c0131-w01-roro-doors",
+    taskTitle: "Maintain Ro-Ro Bow And Stern Doors",
+    scenario: "Bow and stern doors are critical to a Ro-Ro ship's watertight integrity. The officer asks the cadet to explain why these doors matter and how they are maintained and checked.",
+    instructions: [
+      "Explain why bow and stern doors are critical to watertight integrity.",
+      "State what is checked to confirm a door is properly closed and sealed.",
+      "Explain the danger if a door is not properly secured before sea.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the importance of Ro-Ro bow/stern doors, the closure checks, and the danger of an unsecured door.",
+    assessmentCriteria: [
+      "The watertight-integrity reasoning is correct.",
+      "The closure checks are valid.",
+      "The danger is correctly explained.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación sobre seguridad de los pasajeros, la carga e integridad del casco",
+    topic: "Limitaciones operacionales y de proyecto: aptitud para comprender y observar las limitaciones operacionales de la estanqueidad, así como las consideraciones especiales sobre estabilidad que puedan afectar a la seguridad de los buques de pasaje de transbordo rodado",
+    week: 2,
+    taskId: "pn-c0131-w02-roro-stability",
+    taskTitle: "Explain Ro-Ro Stability Considerations",
+    scenario: "Ro-Ro ships have special stability concerns because of their open vehicle decks. The officer asks the cadet to explain the stability risk and why it is taken seriously.",
+    instructions: [
+      "Explain why an open vehicle deck is a stability risk if it floods.",
+      "Explain the free surface effect of water on the vehicle deck.",
+      "State one operational limitation that protects Ro-Ro stability.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining Ro-Ro stability risks, the free surface effect on the vehicle deck, and one protective operational limitation.",
+    assessmentCriteria: [
+      "The vehicle-deck risk is correctly explained.",
+      "The free surface effect is correct.",
+      "The operational limitation is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación sobre gestión de emergencias y comportamiento humano",
+    topic: "Aptitud para comunicarse con los pasajeros en una emergencia",
+    week: 3,
+    taskId: "pn-c0131-w03-passenger-emergency-comm",
+    taskTitle: "Communicate With Ro-Ro Passengers In An Emergency",
+    scenario: "On a Ro-Ro passenger ferry, clear emergency communication keeps passengers safe. The officer asks the cadet to explain how crew communicate with passengers during an emergency.",
+    instructions: [
+      "State how crew give clear emergency instructions to passengers.",
+      "Explain how to handle passengers who speak different languages.",
+      "Explain why calm, confident communication prevents panic.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how crew communicate with Ro-Ro passengers in an emergency to keep them safe and calm.",
+    assessmentCriteria: [
+      "The instruction approach is sound.",
+      "The multi-language handling is addressed.",
+      "The reasoning about calm communication is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación sobre seguridad de los pasajeros, la carga e integridad del casco",
+    topic: "Aptitud para controlar la atmósfera en las cubiertas para vehículos",
+    week: 4,
+    taskId: "pn-c0131-w04-vehicle-deck-atmosphere",
+    taskTitle: "Control The Atmosphere On A Vehicle Deck",
+    scenario: "Vehicle decks accumulate dangerous exhaust fumes. The officer asks the cadet to explain why the vehicle deck atmosphere must be controlled and how it is done.",
+    instructions: [
+      "Explain why vehicle exhaust fumes are a danger on an enclosed vehicle deck.",
+      "State how ventilation controls the vehicle deck atmosphere.",
+      "Explain why ventilation must run during loading and discharge.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the danger of vehicle deck fumes, how ventilation controls the atmosphere, and why it runs during loading/discharge.",
+    assessmentCriteria: [
+      "The fume danger is correctly explained.",
+      "The ventilation control is correct.",
+      "The reasoning about running ventilation is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];

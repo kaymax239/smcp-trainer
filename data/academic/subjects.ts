@@ -1089,7 +1089,7 @@ export const academicSubjects: AcademicSubject[] = [
       "Banderas y señales",
       "Aplicación de anticorrosivos",
       "Acabados, esmaltes y barnices",
-      "Interpretación y elaboración de reportes de existencias y",
+      "Interpretación y elaboración de reportes de existencias y pertrechos", // Completado titulo truncado en extraccion
       "Faenas con anclas"
     ],
     topics: [
@@ -1221,7 +1221,7 @@ export const academicSubjects: AcademicSubject[] = [
     units: [
       "Formación en control de multitudes",
       "Familiarización en Buque de Transbordo Rodado",
-      "Formación sobre seguridad para el personal en contacto directo con los pasajeros en espacios",
+      "Formación sobre seguridad para el personal en contacto directo con los pasajeros en espacios de pasajeros", // Completado titulo truncado en extraccion
       "Formación sobre seguridad de los pasajeros, la carga e integridad del casco",
       "Formación sobre gestión de emergencias y comportamiento humano"
     ],
