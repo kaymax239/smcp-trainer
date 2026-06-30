@@ -5456,5 +5456,469 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Cambios de amarre",
+    topic: "Uso durante el atraque",
+    week: 1,
+    taskId: "pn-pmr536-w01-mooring-changes",
+    taskTitle: "Manage Mooring Lines During Berthing",
+    scenario: "During berthing the mooring lines must be changed and adjusted. The officer asks the cadet to explain how lines are managed as the vessel comes alongside.",
+    instructions: [
+      "Describe the order in which mooring lines are sent and made fast when coming alongside.",
+      "Explain how lines are adjusted to bring the vessel parallel to the berth.",
+      "State one safety precaution for the mooring team during this operation.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how mooring lines are managed and adjusted during berthing, with one safety precaution.",
+    assessmentCriteria: [
+      "The order of lines is reasonable.",
+      "The adjustment method is correct.",
+      "The safety precaution is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Maniobras de fondeo",
+    topic: "Preparativos para fondear",
+    week: 2,
+    taskId: "pn-pmr536-w02-anchoring-prep",
+    taskTitle: "Prepare The Vessel For Anchoring",
+    scenario: "The vessel is approaching the anchorage. The officer asks the cadet to describe the preparations needed before letting go the anchor.",
+    instructions: [
+      "List the main preparations at the forecastle before anchoring.",
+      "Explain what 'walking back' the anchor means and why it is done.",
+      "State one communication that must pass between the bridge and the forecastle.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English describing the preparations for anchoring, what walking back the anchor means, and a key bridge-forecastle communication.",
+    assessmentCriteria: [
+      "The preparations are correct and relevant.",
+      "The walking-back explanation is correct.",
+      "The communication is appropriate.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Plumas y grúas",
+    topic: "Operación y manejo",
+    week: 3,
+    taskId: "pn-pmr536-w03-derricks-cranes",
+    taskTitle: "Operate Cargo Cranes Safely",
+    scenario: "Cargo is handled using the ship's cranes. The officer asks the cadet to explain the safe operation of a cargo crane and the main hazards to watch for.",
+    instructions: [
+      "Describe the basic safe operation of a cargo crane.",
+      "State the safe working load (SWL) concept and why it must not be exceeded.",
+      "Identify two hazards during crane operations.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining safe cargo crane operation, the SWL concept, and two hazards to watch for.",
+    assessmentCriteria: [
+      "The safe operation is described correctly.",
+      "The SWL concept is correct.",
+      "The hazards are valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Anclas y cadenas",
+    topic: "Marcado de la cadena",
+    week: 4,
+    taskId: "pn-pmr536-w04-chain-marking",
+    taskTitle: "Read Anchor Chain Markings",
+    scenario: "When anchoring, the cadet must report how much chain is out. The officer asks them to explain how anchor chain is marked and how to read the amount paid out.",
+    instructions: [
+      "Explain how anchor chain is divided and marked (shackles/shots).",
+      "Explain how the cadet reads and reports the chain paid out.",
+      "State why reporting the correct amount of chain matters.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how anchor chain is marked, how to read it, and why correct reporting matters.",
+    assessmentCriteria: [
+      "The chain marking system is correct.",
+      "The reading/reporting method is correct.",
+      "The reasoning about accuracy is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Condición física",
+    topic: "Fuerza muscular",
+    week: 1,
+    taskId: "pn-c0011v-w01-strength-tasks",
+    taskTitle: "Link Muscular Strength To Heavy Deck Work",
+    scenario: "Heavy deck work demands muscular strength. The training officer asks the cadet to connect muscular strength to specific shipboard tasks and explain the injury risk when strength or technique is lacking.",
+    instructions: [
+      "Define muscular strength in your own words.",
+      "Name two heavy shipboard tasks that require it.",
+      "Explain how poor strength or technique leads to injury (e.g. lifting).",
+      "Report your answer in clear English using correct fitness terminology."
+    ],
+    deliverable: "A note in English linking muscular strength to two heavy shipboard tasks and the injury risk of poor strength or technique.",
+    assessmentCriteria: [
+      "Muscular strength is correctly defined.",
+      "The tasks are relevant.",
+      "The injury reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Condición física",
+    topic: "Flexibilidad articular y muscular",
+    week: 2,
+    taskId: "pn-c0011v-w02-flexibility-injury",
+    taskTitle: "Explain Flexibility And Injury Prevention",
+    scenario: "Working in confined spaces and awkward positions demands flexibility. The officer asks the cadet to explain how flexibility helps prevent injury on board.",
+    instructions: [
+      "Define flexibility in your own words.",
+      "Give a shipboard situation where flexibility prevents injury.",
+      "Describe one way flexibility is maintained.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English defining flexibility, a shipboard situation where it prevents injury, and how it is maintained.",
+    assessmentCriteria: [
+      "Flexibility is correctly defined.",
+      "The situation is relevant.",
+      "The maintenance method is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Natación",
+    topic: "Nado en grupo",
+    week: 3,
+    taskId: "pn-c0011v-w03-group-swimming",
+    taskTitle: "Explain Group Survival Swimming",
+    scenario: "After abandoning ship, survivors stay together in the water. The instructor asks the cadet to explain group survival swimming and why staying together saves lives.",
+    instructions: [
+      "Explain why survivors should stay together in the water.",
+      "Describe how a group conserves heat and stays visible to rescuers.",
+      "State one way the group keeps a weaker member safe.",
+      "Report the skills in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A brief in English explaining group survival swimming: staying together, conserving heat, visibility, and helping a weaker member.",
+    assessmentCriteria: [
+      "The reason to stay together is correct.",
+      "The heat/visibility reasoning is sound.",
+      "The support method is valid.",
+      "The brief is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Concentración",
+    topic: "Juegos de concentración",
+    week: 4,
+    taskId: "pn-c0011v-w04-focus-endurance",
+    taskTitle: "Sustain Focus Through A Long Operation",
+    scenario: "A long cargo or navigation operation tests sustained focus. The officer asks the cadet to explain how to keep concentration through fatigue during a long operation.",
+    instructions: [
+      "Explain why concentration degrades during a long operation.",
+      "Describe two techniques to sustain focus through fatigue.",
+      "State the risk of a concentration lapse during the operation.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how to sustain concentration through a long operation, with two techniques and the risk of a lapse.",
+    assessmentCriteria: [
+      "The cause of degraded focus is correct.",
+      "The techniques are practical.",
+      "The risk is realistic.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Responsabilidad social y ética de la Gente de Mar",
+    week: 1,
+    taskId: "pn-c0104-w01-seafarer-responsibility",
+    taskTitle: "Explain The Seafarer's Ethical Responsibility",
+    scenario: "A seafarer holds responsibility for lives, cargo, and the environment. The officer asks the cadet to explain the ethical responsibilities that come with the profession.",
+    instructions: [
+      "State two ethical responsibilities a seafarer carries.",
+      "Explain why these responsibilities matter beyond just following rules.",
+      "Give an example where doing the right thing protects lives or the environment.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining two ethical responsibilities of a seafarer, why they matter, and an example of ethical action.",
+    assessmentCriteria: [
+      "The responsibilities are valid and relevant.",
+      "The reasoning goes beyond mere rule-following.",
+      "The example is appropriate.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y Moral",
+    topic: "La reflexión ética",
+    week: 2,
+    taskId: "pn-c0104-w02-ethical-reflection",
+    taskTitle: "Reason Through An Ethical Dilemma At Sea",
+    scenario: "A seafarer faces a dilemma: reporting a fault honestly may delay the ship and anger superiors. The officer asks the cadet to reason through the ethical choice.",
+    instructions: [
+      "State the dilemma and the competing pressures.",
+      "Apply ethical reflection to weigh the options.",
+      "State the right course of action and justify it.",
+      "Report your reasoning in clear maritime English."
+    ],
+    deliverable: "A note in English reasoning through an ethical dilemma at sea, weighing the options and justifying the right action.",
+    assessmentCriteria: [
+      "The dilemma is clearly stated.",
+      "The ethical reasoning is sound.",
+      "The chosen action is well justified.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Los valores de la Gente de Mar",
+    week: 3,
+    taskId: "pn-c0104-w03-seafarer-values",
+    taskTitle: "Apply Core Seafarer Values To A Situation",
+    scenario: "Values like integrity, responsibility, and respect guide a seafarer's conduct. The officer asks the cadet to apply these values to a realistic shipboard situation.",
+    instructions: [
+      "Name three core values that guide a seafarer.",
+      "Describe a shipboard situation that tests one of these values.",
+      "Explain how the value guides the right behaviour.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English naming three seafarer values and showing how one guides behaviour in a realistic situation.",
+    assessmentCriteria: [
+      "The values are valid and relevant.",
+      "The situation genuinely tests a value.",
+      "The reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Acción Ética: Toma de decisiones ambientales",
+    week: 4,
+    taskId: "pn-c0104-w04-environmental-ethics",
+    taskTitle: "Make An Environmental Decision At Sea",
+    scenario: "A seafarer must decide how to handle waste or a minor spill that no one would notice. The officer asks the cadet to reason through the environmentally ethical decision.",
+    instructions: [
+      "State the environmental situation and the easy-but-wrong option.",
+      "Explain the environmental and legal reasons to do the right thing.",
+      "State the correct action under MARPOL principles.",
+      "Report your reasoning in clear maritime English."
+    ],
+    deliverable: "A note in English reasoning through an environmental decision at sea, with the correct action and why it matters.",
+    assessmentCriteria: [
+      "The situation is realistic.",
+      "The environmental/legal reasoning is sound.",
+      "The correct action aligns with marine environmental protection.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "El liderazgo",
+    topic: "Tipos de liderazgo",
+    week: 1,
+    taskId: "pn-c0105-w01-leadership-styles",
+    taskTitle: "Match Leadership Styles To Situations",
+    scenario: "An officer must adapt their leadership style to the situation. The cadet is asked to explain different leadership styles and when each suits a shipboard situation.",
+    instructions: [
+      "Describe two leadership styles (e.g. directive, participative).",
+      "State a shipboard situation where each style works best.",
+      "Explain why an emergency may need a different style than routine work.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English describing two leadership styles and the shipboard situations where each suits, including the emergency case.",
+    assessmentCriteria: [
+      "The leadership styles are valid.",
+      "The situation matches are appropriate.",
+      "The emergency reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "Autoconciencia",
+    topic: "Inteligencia emocional: autoconciencia, manejo de emociones, interpretación de emociones, empatía, uso de emociones",
+    week: 2,
+    taskId: "pn-c0105-w02-emotional-intelligence",
+    taskTitle: "Apply Emotional Intelligence Under Pressure",
+    scenario: "Under pressure, an officer must manage their own emotions and read the crew's. The cadet is asked to explain how emotional intelligence helps lead in a tense situation.",
+    instructions: [
+      "Define emotional intelligence in your own words.",
+      "Explain how self-awareness and managing emotions help an officer under pressure.",
+      "Explain how reading the crew's emotions improves the response.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how emotional intelligence (self-awareness, emotion management, empathy) helps an officer lead under pressure.",
+    assessmentCriteria: [
+      "Emotional intelligence is correctly explained.",
+      "The self-management reasoning is sound.",
+      "The empathy/crew-reading point is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "Elementos del liderazgo",
+    topic: "Trabajo en equipo",
+    week: 3,
+    taskId: "pn-c0105-w03-teamwork",
+    taskTitle: "Build Effective Teamwork On Board",
+    scenario: "A watch team works best when it functions as a team, not individuals. The officer asks the cadet to explain how an officer builds effective teamwork on board.",
+    instructions: [
+      "State two things an officer does to build a strong team.",
+      "Explain how clear roles and communication support teamwork.",
+      "Explain why teamwork is critical in an emergency.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how an officer builds effective teamwork, the role of clear roles/communication, and why it matters in an emergency.",
+    assessmentCriteria: [
+      "The team-building actions are sound.",
+      "The roles/communication reasoning is correct.",
+      "The emergency point is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "Estrategias de planeación y operación",
+    topic: "Estrategias para resolver los problemas: Ganar-ganar, sinergia",
+    week: 4,
+    taskId: "pn-c0105-w04-problem-solving",
+    taskTitle: "Resolve A Conflict With A Win-Win Approach",
+    scenario: "Two crew members disagree over how to do a job, slowing the work. The officer asks the cadet to resolve the conflict using a win-win, synergy-based approach.",
+    instructions: [
+      "State the conflict and each side's position.",
+      "Explain the win-win approach to resolving it.",
+      "Describe how synergy produces a better outcome than either side alone.",
+      "Report your resolution in clear maritime English."
+    ],
+    deliverable: "A note in English resolving a crew conflict with a win-win, synergy-based approach, showing how it produces a better outcome.",
+    assessmentCriteria: [
+      "The conflict is clearly stated.",
+      "The win-win approach is correctly applied.",
+      "The synergy reasoning is sound.",
+      "The resolution is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
