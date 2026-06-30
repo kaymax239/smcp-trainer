@@ -4760,5 +4760,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Estado del tiempo",
+    topic: "Cambios del tiempo al paso de las depresiones y oclusiones. Características del frente caliente, sector caliente, frente frío y oclusión",
+    week: 1,
+    taskId: "pn-met532-w01-fronts-weather",
+    taskTitle: "Predict Weather From An Approaching Front",
+    scenario: "A weather front is approaching the vessel. The officer asks the cadet to explain what weather changes to expect as a warm front and then a cold front pass.",
+    instructions: [
+      "Describe the weather as a warm front approaches and passes.",
+      "Describe the weather as a cold front approaches and passes.",
+      "State one sign that warns the bridge a front is coming.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English describing the weather changes expected from a passing warm front and cold front, with one warning sign.",
+    assessmentCriteria: [
+      "The warm front sequence is correct.",
+      "The cold front sequence is correct.",
+      "The warning sign is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Ciclones tropicales",
+    topic: "Semicírculos: peligroso y navegable",
+    week: 2,
+    taskId: "pn-met532-w02-cyclone-semicircles",
+    taskTitle: "Identify The Dangerous Semicircle Of A Cyclone",
+    scenario: "A tropical cyclone lies near the vessel's route. The officer asks the cadet to explain the dangerous and navigable semicircles and which side to avoid.",
+    instructions: [
+      "Explain what the dangerous semicircle and the navigable semicircle are.",
+      "State how to tell which semicircle the vessel is in.",
+      "State the general action to take to avoid the dangerous semicircle.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the dangerous and navigable semicircles of a tropical cyclone and the action to keep clear of the dangerous side.",
+    assessmentCriteria: [
+      "The two semicircles are correctly explained.",
+      "The method to identify the vessel's position is correct.",
+      "The avoiding action is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Cartas meteorológicas",
+    topic: "Interpretación de cartas sinópticas",
+    week: 3,
+    taskId: "pn-met532-w03-synoptic-chart",
+    taskTitle: "Interpret A Synoptic Weather Chart",
+    scenario: "The bridge receives a synoptic chart. The officer asks the cadet to interpret the main features and what they mean for the vessel's weather.",
+    instructions: [
+      "Identify the main features on a synoptic chart (highs, lows, fronts, isobars).",
+      "Explain what closely spaced isobars indicate about wind.",
+      "State what weather the chart suggests for the vessel's area.",
+      "Report your interpretation in clear maritime English."
+    ],
+    deliverable: "A note in English interpreting a synoptic chart: its main features, what isobar spacing means, and the weather suggested for the vessel.",
+    assessmentCriteria: [
+      "The chart features are correctly identified.",
+      "The isobar-wind relationship is correct.",
+      "The weather interpretation is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Previsión a bordo",
+    topic: "Navegación meteorológica",
+    week: 4,
+    taskId: "pn-met532-w04-weather-routeing",
+    taskTitle: "Plan A Weather-Routed Passage",
+    scenario: "The officer asks the cadet to explain how weather routeing improves a passage and how forecast information is used to choose the best track.",
+    instructions: [
+      "Explain what weather routeing means.",
+      "State how forecast weather is used to choose or adjust the track.",
+      "Explain one benefit of weather routeing (safety, fuel, time).",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining weather routeing, how forecasts are used to choose the track, and one benefit.",
+    assessmentCriteria: [
+      "Weather routeing is correctly explained.",
+      "The use of forecasts is correct.",
+      "The benefit stated is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Tipos de Derrota",
+    topic: "Ortodrómica",
+    week: 1,
+    taskId: "pn-nav530-w01-great-circle",
+    taskTitle: "Explain Great Circle Sailing",
+    scenario: "For a long ocean passage, the officer asks the cadet to explain why great circle (orthodromic) sailing is used instead of rhumb line sailing, and what its advantage is.",
+    instructions: [
+      "Explain what a great circle route is.",
+      "State why it is shorter than a rhumb line over long distances.",
+      "State one practical difficulty of steering a great circle directly.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining great circle sailing, why it is shorter over long distances, and one practical difficulty.",
+    assessmentCriteria: [
+      "The great circle concept is correct.",
+      "The reason it is shorter is correct.",
+      "The practical difficulty is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar",
+    topic: "Movimientos Relativo y Verdadero",
+    week: 2,
+    taskId: "pn-nav530-w02-relative-true-motion",
+    taskTitle: "Distinguish Relative And True Motion On Radar",
+    scenario: "On radar, a contact can be shown in relative or true motion. The officer asks the cadet to explain the difference and what each presentation is useful for.",
+    instructions: [
+      "Explain what relative motion shows on the radar display.",
+      "Explain what true motion shows.",
+      "State which presentation helps assess collision risk and why.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining relative vs true motion on radar and which helps assess collision risk.",
+    assessmentCriteria: [
+      "Relative motion is correctly explained.",
+      "True motion is correctly explained.",
+      "The collision-risk reasoning is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "Riesgos del exceso de confianza en los APRA",
+    week: 3,
+    taskId: "pn-nav530-w03-arpa-overreliance",
+    taskTitle: "Explain The Risk Of Over-Reliance On ARPA",
+    scenario: "ARPA is a powerful tool but dangerous if trusted blindly. The officer asks the cadet to explain the risks of over-reliance on ARPA and how a good watchkeeper uses it.",
+    instructions: [
+      "State two limitations or errors that ARPA data can have.",
+      "Explain why a watchkeeper must not rely on ARPA alone.",
+      "State what the watchkeeper should also do (visual lookout, cross-check).",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the risks of over-reliance on ARPA and how a watchkeeper should use it safely.",
+    assessmentCriteria: [
+      "The ARPA limitations are valid.",
+      "The over-reliance risk is correctly explained.",
+      "The safe-use practice is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "Interacción del APRA con otros equipos de navegación",
+    week: 4,
+    taskId: "pn-nav530-w04-arpa-integration",
+    taskTitle: "Explain How ARPA Works With Other Equipment",
+    scenario: "ARPA takes inputs from other navigation equipment. The officer asks the cadet to explain how ARPA interacts with the gyro, log, and GPS, and why accurate inputs matter.",
+    instructions: [
+      "State which inputs ARPA takes from other equipment (e.g. gyro, log, GPS).",
+      "Explain how those inputs affect ARPA's calculations.",
+      "Explain what happens to ARPA data if an input is wrong.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how ARPA interacts with gyro, log, and GPS, and why accurate inputs matter.",
+    assessmentCriteria: [
+      "The inputs are correctly identified.",
+      "Their effect on ARPA is correct.",
+      "The consequence of a wrong input is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Timones",
+    topic: "Principios y efectos",
+    week: 1,
+    taskId: "pn-man533-w01-rudder-principles",
+    taskTitle: "Explain How A Rudder Turns A Vessel",
+    scenario: "The officer asks the cadet to explain the basic principle of how a rudder turns a vessel and why the vessel pivots rather than simply sliding sideways.",
+    instructions: [
+      "Explain how water flow over the rudder creates a turning force.",
+      "Explain why the vessel pivots about a point (centre of pivot).",
+      "State what happens to turning effect when speed is very low.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how a rudder turns a vessel, the pivot point, and the effect of low speed.",
+    assessmentCriteria: [
+      "The rudder turning principle is correct.",
+      "The pivot point is correctly explained.",
+      "The low-speed effect is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Sistema de propulsión",
+    topic: "Hélices, tipos y principios",
+    week: 2,
+    taskId: "pn-man533-w02-propeller-effects",
+    taskTitle: "Explain Propeller Transverse Thrust",
+    scenario: "A single-screw vessel behaves differently going ahead and astern. The officer asks the cadet to explain transverse thrust (paddle wheel effect) and how it affects low-speed handling.",
+    instructions: [
+      "Explain what transverse thrust (paddle wheel effect) is.",
+      "State how it moves the stern for a right-handed propeller going astern.",
+      "Explain how a skilled cadet uses this effect when manoeuvring.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining propeller transverse thrust and how it affects low-speed handling.",
+    assessmentCriteria: [
+      "Transverse thrust is correctly explained.",
+      "The stern movement is correct.",
+      "The practical use is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Círculo de evolución y distancia de parada",
+    topic: "Efectos por bajo fondo o squat",
+    week: 3,
+    taskId: "pn-man533-w03-squat-shallow-water",
+    taskTitle: "Explain Squat In Shallow Water",
+    scenario: "Entering shallow water, the vessel is at risk of squat. The officer asks the cadet to explain what squat is, what causes it, and how to reduce the risk.",
+    instructions: [
+      "Explain what squat is and how it affects the vessel's draught.",
+      "State what conditions increase squat (speed, shallow water).",
+      "State the main action to reduce squat.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining squat, what increases it, and how to reduce the risk.",
+    assessmentCriteria: [
+      "Squat is correctly explained.",
+      "The factors that increase it are correct.",
+      "The reducing action is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Equipo y maniobra de fondeo",
+    topic: "Funciones del oficial en estación de maniobra",
+    week: 4,
+    taskId: "pn-man533-w04-anchoring-officer",
+    taskTitle: "Describe The Officer's Role At Anchor Stations",
+    scenario: "The vessel is preparing to anchor. The officer asks the cadet to describe the duties of the officer at the anchor station during the manoeuvre.",
+    instructions: [
+      "List the main duties of the officer at the forward anchor station.",
+      "Explain what information the officer reports to the bridge.",
+      "State one safety precaution at the anchor station.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English describing the officer's duties at the anchor station, the information reported to the bridge, and one safety precaution.",
+    assessmentCriteria: [
+      "The duties are correct and relevant.",
+      "The information reported is appropriate.",
+      "The safety precaution is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
