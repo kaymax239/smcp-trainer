@@ -5920,5 +5920,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Motores de combustión",
+    topic: "Diferencia entre motor marino y terrestre",
+    week: 1,
+    taskId: "mn-mot529-w01-marine-vs-land-engine",
+    taskTitle: "Compare Marine And Land Engines",
+    scenario: "The chief engineer asks the cadet to explain how a marine diesel engine differs from a land engine and why those differences matter on board.",
+    instructions: [
+      "State two ways a marine diesel engine differs from a land engine.",
+      "Explain why a marine engine must run reliably for long periods.",
+      "Explain one feature that suits the engine to the marine environment.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English comparing marine and land diesel engines, with two differences and why they matter at sea.",
+    assessmentCriteria: [
+      "The differences are valid.",
+      "The reliability reasoning is sound.",
+      "The marine-suited feature is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Ciclos operativos",
+    topic: "4 tiempos",
+    week: 2,
+    taskId: "mn-mot529-w02-four-stroke-cycle",
+    taskTitle: "Explain The Four-Stroke Cycle",
+    scenario: "The engineer asks the cadet to explain the four-stroke diesel cycle and what happens in each stroke.",
+    instructions: [
+      "Name the four strokes in order.",
+      "State what happens in each stroke (intake, compression, power, exhaust).",
+      "Explain when fuel is injected and why.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the four-stroke diesel cycle, what happens in each stroke, and when fuel is injected.",
+    assessmentCriteria: [
+      "The four strokes are correct and in order.",
+      "Each stroke is correctly described.",
+      "The fuel injection timing is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sistemas principales de la máquina principal",
+    topic: "Lubricación",
+    week: 3,
+    taskId: "mn-mot529-w03-lubrication-system",
+    taskTitle: "Explain The Engine Lubrication System",
+    scenario: "The engineer asks the cadet to explain how the main engine lubrication system works and why it is critical to engine survival.",
+    instructions: [
+      "State the purpose of the lubrication system.",
+      "Describe how oil circulates to the bearings and moving parts.",
+      "Explain what happens if oil pressure is lost.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the engine lubrication system, how oil circulates, and the danger of losing oil pressure.",
+    assessmentCriteria: [
+      "The purpose is correctly stated.",
+      "The oil circulation is correct.",
+      "The loss-of-pressure danger is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sobre alimentación",
+    topic: "Funcionamiento",
+    week: 4,
+    taskId: "mn-mot529-w04-turbocharging",
+    taskTitle: "Explain Turbocharging Of A Diesel Engine",
+    scenario: "The engineer asks the cadet to explain how turbocharging works and why it increases the power of a diesel engine.",
+    instructions: [
+      "Explain what a turbocharger does.",
+      "Explain how it uses exhaust gas to compress intake air.",
+      "State why more air allows more power from the engine.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining turbocharging: what it does, how it uses exhaust gas, and why it increases power.",
+    assessmentCriteria: [
+      "The turbocharger function is correct.",
+      "The exhaust-to-intake process is correct.",
+      "The air-power reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Propiedades de los fluidos",
+    topic: "Viscosidad",
+    week: 1,
+    taskId: "mn-mef532-w01-viscosity",
+    taskTitle: "Explain Viscosity And Fuel Heating",
+    scenario: "Heavy fuel oil must be heated before injection. The engineer asks the cadet to explain viscosity and why fuel is heated to the right viscosity.",
+    instructions: [
+      "Define viscosity in your own words.",
+      "Explain how temperature affects the viscosity of fuel oil.",
+      "Explain why fuel must reach the correct viscosity before injection.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining viscosity, how temperature affects it, and why fuel is heated to the correct viscosity.",
+    assessmentCriteria: [
+      "Viscosity is correctly defined.",
+      "The temperature effect is correct.",
+      "The injection reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Líquidos en movimiento",
+    topic: "Ecuaciones de continuidad",
+    week: 2,
+    taskId: "mn-mef532-w02-continuity",
+    taskTitle: "Apply The Continuity Equation To A Pipe",
+    scenario: "Fluid flows through a pipe that narrows. The engineer asks the cadet to use the continuity equation to explain what happens to the flow velocity.",
+    instructions: [
+      "State the continuity equation in words (flow in = flow out).",
+      "Explain what happens to velocity when the pipe narrows.",
+      "Give an engine-room example where this matters.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the continuity equation, the velocity change in a narrowing pipe, and an engine-room example.",
+    assessmentCriteria: [
+      "The continuity principle is correct.",
+      "The velocity change is correct.",
+      "The example is relevant.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Fluido ideal",
+    topic: "Establecer la ecuación de Bernoulli",
+    week: 3,
+    taskId: "mn-mef532-w03-bernoulli",
+    taskTitle: "Apply Bernoulli's Equation",
+    scenario: "The engineer asks the cadet to explain Bernoulli's equation and how it relates pressure and velocity in a flowing fluid.",
+    instructions: [
+      "State what Bernoulli's equation relates (pressure, velocity, height).",
+      "Explain what happens to pressure when fluid speeds up.",
+      "Give an engine-room application (e.g. venturi, flow measurement).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining Bernoulli's equation, the pressure-velocity relationship, and an engine-room application.",
+    assessmentCriteria: [
+      "Bernoulli's relationship is correct.",
+      "The pressure-velocity effect is correct.",
+      "The application is relevant.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Conductos cerrados",
+    topic: "El golpe de ariete",
+    week: 4,
+    taskId: "mn-mef532-w04-water-hammer",
+    taskTitle: "Explain And Prevent Water Hammer",
+    scenario: "Closing a valve too fast causes water hammer in a pipe system. The engineer asks the cadet to explain what water hammer is and how to prevent it.",
+    instructions: [
+      "Explain what water hammer is and what causes it.",
+      "Explain the damage it can do to a pipe system.",
+      "State how to prevent water hammer (e.g. closing valves slowly).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining water hammer, the damage it causes, and how to prevent it.",
+    assessmentCriteria: [
+      "Water hammer is correctly explained.",
+      "The damage is correctly described.",
+      "The prevention method is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Separador de aguas oleosas",
+    topic: "Funcionamiento",
+    week: 1,
+    taskId: "mn-mma533-w01-oily-water-separator",
+    taskTitle: "Explain The Oily Water Separator",
+    scenario: "Before discharging bilge water, it must pass through the oily water separator. The engineer asks the cadet to explain how it works and why it is legally required.",
+    instructions: [
+      "Explain the purpose of the oily water separator.",
+      "Describe in basic terms how it separates oil from water.",
+      "State the legal discharge limit it must meet (15 ppm) and why it matters.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the oily water separator, how it works, and the 15 ppm discharge limit it must meet.",
+    assessmentCriteria: [
+      "The purpose is correctly stated.",
+      "The separation principle is correct.",
+      "The discharge limit and its importance are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Purificadores",
+    topic: "Puesta en servicio",
+    week: 2,
+    taskId: "mn-mma533-w02-purifier",
+    taskTitle: "Put A Fuel Purifier Into Service",
+    scenario: "Fuel and oil are cleaned by a centrifugal purifier. The engineer asks the cadet to explain how a purifier works and the checks before putting it into service.",
+    instructions: [
+      "Explain how a centrifugal purifier separates water and solids from oil.",
+      "List two checks before starting the purifier.",
+      "Explain why clean fuel/oil protects the engine.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how a centrifugal purifier works, two pre-start checks, and why clean fuel/oil matters.",
+    assessmentCriteria: [
+      "The purifier principle is correct.",
+      "The pre-start checks are relevant.",
+      "The clean-oil reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Generador de agua dulce",
+    topic: "Desalinizadora",
+    week: 3,
+    taskId: "mn-mma533-w03-fresh-water-generator",
+    taskTitle: "Explain The Fresh Water Generator",
+    scenario: "The ship makes its own fresh water from seawater. The engineer asks the cadet to explain how the fresh water generator (evaporator) produces fresh water.",
+    instructions: [
+      "Explain how the fresh water generator evaporates seawater at low pressure.",
+      "Explain why a vacuum lets seawater boil at a lower temperature.",
+      "State one use of the fresh water produced.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how the fresh water generator produces fresh water from seawater using low-pressure evaporation.",
+    assessmentCriteria: [
+      "The evaporation process is correct.",
+      "The vacuum/boiling-point reasoning is correct.",
+      "The use of the water is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Planta de gas inerte",
+    topic: "Importancia de la planta de gas inerte",
+    week: 4,
+    taskId: "mn-mma533-w04-inert-gas",
+    taskTitle: "Explain The Importance Of Inert Gas",
+    scenario: "On tankers, the inert gas plant prevents explosions in cargo tanks. The engineer asks the cadet to explain how inert gas makes a tank safe.",
+    instructions: [
+      "Explain what inert gas does to the atmosphere in a cargo tank.",
+      "Explain why reducing oxygen prevents an explosion.",
+      "State why this is critical on an oil or gas tanker.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how inert gas makes a cargo tank safe by reducing oxygen, and why it is critical on tankers.",
+    assessmentCriteria: [
+      "The effect of inert gas is correct.",
+      "The oxygen-explosion reasoning is correct.",
+      "The tanker importance is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
