@@ -6268,5 +6268,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Sistema trifásico de Corriente Alterna",
+    topic: "Elementos del sistema trifásico",
+    week: 1,
+    taskId: "mn-eia531-w01-three-phase",
+    taskTitle: "Explain The Three-Phase System",
+    scenario: "The ship's power is generated and distributed as three-phase AC. The engineer asks the cadet to explain what a three-phase system is and why it is used on board.",
+    instructions: [
+      "Explain what a three-phase AC system is.",
+      "State one advantage of three-phase over single-phase for ship power.",
+      "Name where three-phase power is used on board.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the three-phase AC system, one advantage over single-phase, and where it is used on board.",
+    assessmentCriteria: [
+      "The three-phase concept is correct.",
+      "The advantage is valid.",
+      "The use case is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Sistema trifásico de Corriente Alterna",
+    topic: "Conexión en estrella (Y)",
+    week: 2,
+    taskId: "mn-eia531-w02-star-delta",
+    taskTitle: "Compare Star And Delta Connections",
+    scenario: "Three-phase equipment can be connected in star or delta. The engineer asks the cadet to explain the difference and where each is used.",
+    instructions: [
+      "Describe the star (Y) connection and the delta connection.",
+      "State one electrical difference between them (e.g. voltage relationship).",
+      "State a typical use of each on board.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English comparing star and delta connections, an electrical difference, and a use of each.",
+    assessmentCriteria: [
+      "Both connections are correctly described.",
+      "The electrical difference is correct.",
+      "The use cases are valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Sincronización",
+    topic: "Frecuencia",
+    week: 3,
+    taskId: "mn-eia531-w03-synchronisation",
+    taskTitle: "Synchronise A Generator To The Busbar",
+    scenario: "Before paralleling a second generator, it must be synchronised. The engineer asks the cadet to explain the conditions for synchronising a generator to the busbar.",
+    instructions: [
+      "State the conditions that must be met to synchronise (voltage, frequency, phase sequence, phase).",
+      "Explain what happens if a generator is connected out of synchronisation.",
+      "Explain why frequency must match before closing the breaker.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the conditions for synchronising a generator and the danger of connecting out of sync.",
+    assessmentCriteria: [
+      "The synchronising conditions are correct.",
+      "The out-of-sync danger is correct.",
+      "The frequency reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Arranque de motores de Corriente Alterna de potencias grandes",
+    topic: "Arranque estrella-delta",
+    week: 4,
+    taskId: "mn-eia531-w04-star-delta-starting",
+    taskTitle: "Explain Star-Delta Motor Starting",
+    scenario: "Large AC motors are started using a star-delta starter. The engineer asks the cadet to explain why this method is used instead of starting directly.",
+    instructions: [
+      "Explain what happens to starting current if a large motor starts directly on line.",
+      "Explain how star-delta starting reduces the starting current.",
+      "State why reducing starting current protects the ship's electrical system.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining star-delta starting, how it reduces starting current, and why that protects the electrical system.",
+    assessmentCriteria: [
+      "The direct-start current problem is correct.",
+      "The star-delta reduction is correctly explained.",
+      "The system-protection reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Roscado",
+    topic: "Roscas internas y externas en distintos diámetros",
+    week: 1,
+    taskId: "mn-tal534-w01-threading",
+    taskTitle: "Cut Internal And External Threads",
+    scenario: "A repair needs a threaded bolt and a matching threaded hole. The instructor asks the cadet to explain how internal and external threads are cut and matched.",
+    instructions: [
+      "Explain how an external thread is cut (e.g. with a die).",
+      "Explain how an internal thread is cut (e.g. with a tap).",
+      "State why the thread pitch and diameter must match.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how internal and external threads are cut and why pitch and diameter must match.",
+    assessmentCriteria: [
+      "The external threading method is correct.",
+      "The internal threading method is correct.",
+      "The matching reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Medición",
+    topic: "Necesidad del control dimensional",
+    week: 2,
+    taskId: "mn-tal534-w02-dimensional-control",
+    taskTitle: "Measure A Part With Dimensional Control",
+    scenario: "A machined part must be within tolerance. The instructor asks the cadet to explain dimensional control and why tolerances matter for engine parts.",
+    instructions: [
+      "Explain what dimensional control means.",
+      "Explain what a tolerance is and why parts have one.",
+      "State what happens if an engine part is outside tolerance.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining dimensional control, what a tolerance is, and the consequence of a part being out of tolerance.",
+    assessmentCriteria: [
+      "Dimensional control is correctly explained.",
+      "Tolerance is correctly explained.",
+      "The out-of-tolerance consequence is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Taladro",
+    topic: "Relación entre diámetro, material y velocidad del taladro",
+    week: 3,
+    taskId: "mn-tal534-w03-drill-speed",
+    taskTitle: "Select The Correct Drill Speed",
+    scenario: "Drilling at the wrong speed ruins the bit and the work. The instructor asks the cadet to explain how drill speed relates to bit diameter and material.",
+    instructions: [
+      "Explain how drill speed should change with bit diameter (larger = slower).",
+      "Explain how the material being drilled affects the speed.",
+      "State what happens if the speed is too high for the material.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how drill speed relates to bit diameter and material, and the effect of too-high speed.",
+    assessmentCriteria: [
+      "The diameter-speed relationship is correct.",
+      "The material effect is correct.",
+      "The too-high-speed consequence is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Herramientas eléctricas y neumáticas",
+    topic: "Seguridad y cuidados especiales en el manejo de herramientas",
+    week: 4,
+    taskId: "mn-tal534-w04-power-tool-safety",
+    taskTitle: "Use Power Tools Safely In The Workshop",
+    scenario: "Power and pneumatic tools are dangerous if misused. The instructor asks the cadet to explain the safety precautions for using power tools in the workshop.",
+    instructions: [
+      "State two safety precautions before using a power tool.",
+      "Explain the protective equipment needed.",
+      "Identify one hazard specific to pneumatic tools.",
+      "Report the safety guidance in clear engine-room English."
+    ],
+    deliverable: "A note in English giving power-tool safety precautions, protective equipment, and one pneumatic-tool hazard.",
+    assessmentCriteria: [
+      "The precautions are valid.",
+      "The protective equipment is appropriate.",
+      "The pneumatic hazard is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Acidez y alcalinidad",
+    topic: "Potencial hidrógeno",
+    week: 1,
+    taskId: "mn-quh535-w01-ph-control",
+    taskTitle: "Explain pH And Why It Matters On Board",
+    scenario: "The engineer asks the cadet to explain what pH is and why monitoring it matters for boiler water and corrosion control on board.",
+    instructions: [
+      "Define pH and the difference between acidic and alkaline.",
+      "State how pH is measured (indicators or meter).",
+      "Explain why boiler water pH is kept within limits.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining pH, how it is measured, and why boiler water pH must be controlled.",
+    assessmentCriteria: [
+      "pH is correctly defined.",
+      "The measurement method is correct.",
+      "The boiler-water reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Corrosión",
+    topic: "Celdas galvánicas",
+    week: 2,
+    taskId: "mn-quh535-w02-galvanic-cells",
+    taskTitle: "Explain Galvanic Corrosion And Sacrificial Anodes",
+    scenario: "The hull and seawater systems suffer galvanic corrosion. The engineer asks the cadet to explain how a galvanic cell forms and how sacrificial anodes protect the metal.",
+    instructions: [
+      "Explain how a galvanic cell forms between two dissimilar metals in seawater.",
+      "Explain what a sacrificial anode is and how it protects the hull.",
+      "State why the anode must be a more active metal.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining galvanic cell formation and how sacrificial anodes protect metal on board.",
+    assessmentCriteria: [
+      "The galvanic cell is correctly explained.",
+      "The sacrificial anode function is correct.",
+      "The reason for using an active metal is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Análisis y tratamiento del agua",
+    topic: "Definiciones: dureza permanente y temporal",
+    week: 3,
+    taskId: "mn-quh535-w03-water-hardness",
+    taskTitle: "Explain Water Hardness And Boiler Scale",
+    scenario: "Hard water causes scale in boilers. The engineer asks the cadet to explain water hardness and why it must be treated before feeding a boiler.",
+    instructions: [
+      "Explain the difference between temporary and permanent hardness.",
+      "Explain how hardness causes scale in a boiler.",
+      "State why scale is dangerous for boiler operation.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining temporary vs permanent hardness, how it causes boiler scale, and why scale is dangerous.",
+    assessmentCriteria: [
+      "The two types of hardness are correctly explained.",
+      "The scale formation is correct.",
+      "The danger of scale is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Combustibles y lubricantes",
+    topic: "Punto de inflamación de combustibles y lubricantes marinos",
+    week: 4,
+    taskId: "mn-quh535-w04-flash-point",
+    taskTitle: "Explain Flash Point And Fuel Safety",
+    scenario: "Fuel handling on board depends on understanding flash point. The engineer asks the cadet to explain what flash point is and why it matters for safe fuel storage.",
+    instructions: [
+      "Define flash point in your own words.",
+      "Explain why a fuel with a low flash point is more dangerous.",
+      "State one precaution for storing or handling fuel based on flash point.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining flash point, why low flash point is dangerous, and one fuel-handling precaution.",
+    assessmentCriteria: [
+      "Flash point is correctly defined.",
+      "The danger of low flash point is correct.",
+      "The precaution is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
