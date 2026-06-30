@@ -826,7 +826,7 @@ export const academicSubjects: AcademicSubject[] = [
     stcwAlignment: "Realizar las operaciones de carga, aplicando los criterios necesarios para garantizar la seguridad del buque y de la carga.",
     units: [
       "Introducción",
-      "Inspección y preparación de espacios de cargar",
+      "Inspección y preparación de espacios de carga", // Corregido typo de extraccion "cargar"->"carga"
       "Segregación de cargas",
       "Seguridad en la operación de los equipos para el manejo",
       "Aseguramiento de carga (trincado)",

@@ -7196,5 +7196,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Gestión de los recursos del puente",
+    topic: "Gestión de los recursos humanos del puente",
+    week: 1,
+    taskId: "pn-nav745-w01-bridge-resource-management",
+    taskTitle: "Apply Bridge Resource Management",
+    scenario: "A safe bridge depends on the whole team working together, not one person. The captain asks the cadet to explain bridge resource management (BRM) and how it prevents accidents.",
+    instructions: [
+      "Explain what bridge resource management means.",
+      "State how good communication and shared situational awareness help the team.",
+      "Explain how BRM prevents a single error from causing an accident.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining bridge resource management, the role of communication and shared awareness, and how it prevents accidents.",
+    assessmentCriteria: [
+      "BRM is correctly explained.",
+      "The teamwork/communication reasoning is sound.",
+      "The error-prevention point is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Planeación del viaje",
+    topic: "La importancia de una adecuada planeación antes de iniciar el viaje",
+    week: 2,
+    taskId: "pn-nav745-w02-passage-planning",
+    taskTitle: "Explain The Four Stages Of Passage Planning",
+    scenario: "Every voyage must be planned before departure. The captain asks the cadet to explain the principle of passage planning and its main stages.",
+    instructions: [
+      "Name the four stages of passage planning (appraisal, planning, execution, monitoring).",
+      "Briefly explain what happens in each stage.",
+      "State why planning the whole passage berth-to-berth matters.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the four stages of passage planning and why berth-to-berth planning matters.",
+    assessmentCriteria: [
+      "The four stages are correct.",
+      "Each stage is correctly described.",
+      "The berth-to-berth reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Plan de arribo y pilotaje",
+    topic: "Intercambio de información Capitán-Piloto",
+    week: 3,
+    taskId: "pn-nav745-w03-master-pilot-exchange",
+    taskTitle: "Conduct The Master-Pilot Exchange",
+    scenario: "When a pilot boards, the master and pilot must exchange key information. The captain asks the cadet to explain what the master-pilot exchange covers and why it matters.",
+    instructions: [
+      "State what information the master gives the pilot (e.g. draught, manoeuvring data).",
+      "State what the pilot tells the master (e.g. passage plan, berthing plan).",
+      "Explain why this exchange prevents misunderstanding during pilotage.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the master-pilot information exchange and why it prevents misunderstanding during pilotage.",
+    assessmentCriteria: [
+      "The master's information is correct.",
+      "The pilot's information is correct.",
+      "The reasoning about preventing misunderstanding is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Responsabilidad del oficial de guardia",
+    topic: "Llamadas al Capitán",
+    week: 4,
+    taskId: "pn-nav745-w04-calling-the-master",
+    taskTitle: "Know When To Call The Master",
+    scenario: "The officer of the watch must call the master in certain situations. The captain asks the cadet to explain when the master must be called and why hesitation is dangerous.",
+    instructions: [
+      "State three situations where the officer of the watch must call the master.",
+      "Explain why the officer should call even if unsure.",
+      "Explain why calling the master is not a sign of weakness.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining when the officer of the watch must call the master and why calling promptly is the right action.",
+    assessmentCriteria: [
+      "The situations are valid and relevant.",
+      "The reasoning for calling when unsure is sound.",
+      "The professional attitude point is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Flotabilidad",
+    topic: "Permiso de agua dulce (FWA) y permiso de muelle (DWA)",
+    week: 1,
+    taskId: "pn-teb749-w01-fresh-water-allowance",
+    taskTitle: "Apply Fresh Water Allowance",
+    scenario: "A vessel loading in fresh water will rise when it reaches the sea. The officer asks the cadet to explain fresh water allowance (FWA) and why it matters when loading.",
+    instructions: [
+      "Explain what fresh water allowance (FWA) is.",
+      "Explain why a vessel sits deeper in fresh water than in salt water.",
+      "Explain how FWA lets a vessel load to the correct mark in fresh water.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining fresh water allowance, why a vessel floats deeper in fresh water, and how FWA is used when loading.",
+    assessmentCriteria: [
+      "FWA is correctly explained.",
+      "The density/draught reasoning is correct.",
+      "The loading application is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Traslación de pesos",
+    topic: "Traslación transversal de pesos",
+    week: 2,
+    taskId: "pn-teb749-w02-transverse-weight-shift",
+    taskTitle: "Calculate Heel From A Transverse Weight Shift",
+    scenario: "Moving a weight across the deck makes the vessel list. The officer asks the cadet to explain how a transverse weight shift causes heel and what determines its size.",
+    instructions: [
+      "Explain how moving a weight transversely shifts the centre of gravity.",
+      "Explain how this shift produces a heeling angle.",
+      "State what factors make the heel larger (weight, distance, GM).",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how a transverse weight shift causes heel and what factors determine its size.",
+    assessmentCriteria: [
+      "The centre-of-gravity shift is correct.",
+      "The heel mechanism is correct.",
+      "The factors affecting heel are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Esfuerzos del casco",
+    topic: "Esfuerzos flexionantes. Arrufo y quebranto",
+    week: 3,
+    taskId: "pn-teb749-w03-hogging-sagging",
+    taskTitle: "Explain Hogging And Sagging",
+    scenario: "Uneven loading or waves bend the hull. The officer asks the cadet to explain hogging and sagging and why they stress the hull.",
+    instructions: [
+      "Explain what hogging is and what causes it.",
+      "Explain what sagging is and what causes it.",
+      "State why repeated hogging and sagging is dangerous for the hull.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining hogging and sagging, their causes, and why they stress the hull.",
+    assessmentCriteria: [
+      "Hogging is correctly explained.",
+      "Sagging is correctly explained.",
+      "The hull-stress reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Cálculo de estabilidad con graneles",
+    topic: "Reducción del GM por corrimiento de carga",
+    week: 4,
+    taskId: "pn-teb749-w04-grain-shift-gm",
+    taskTitle: "Explain GM Reduction From Grain Shift",
+    scenario: "Grain can shift in a partly filled hold, reducing stability. The officer asks the cadet to explain how a grain shift reduces GM and why it is dangerous.",
+    instructions: [
+      "Explain how grain shifts in a partly filled hold as the vessel rolls.",
+      "Explain how this shift reduces the effective GM (stability).",
+      "State one measure to reduce the effect of grain shift.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how a grain shift reduces GM, why it is dangerous, and one measure to reduce the effect.",
+    assessmentCriteria: [
+      "The grain-shift mechanism is correct.",
+      "The GM-reduction reasoning is sound.",
+      "The mitigating measure is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Inspección y preparación de espacios de carga",
+    topic: "Razones para la inspección de espacios de carga",
+    week: 1,
+    taskId: "pn-cye748-w01-hold-inspection",
+    taskTitle: "Inspect A Cargo Hold Before Loading",
+    scenario: "Before loading, a cargo hold must be inspected and prepared. The officer asks the cadet to explain why the inspection matters and what is checked.",
+    instructions: [
+      "State why a cargo hold must be inspected before loading.",
+      "List three things checked during the inspection (cleanliness, bilges, ventilation).",
+      "Explain how a poorly prepared hold can damage the cargo.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining why a cargo hold is inspected before loading, three things checked, and how poor preparation damages cargo.",
+    assessmentCriteria: [
+      "The reason for inspection is correct.",
+      "The checks are valid.",
+      "The cargo-damage reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Aseguramiento de carga (trincado)",
+    topic: "Métodos de trincado, apuntalamiento y bloqueo",
+    week: 2,
+    taskId: "pn-cye748-w02-cargo-securing",
+    taskTitle: "Secure Cargo For Sea",
+    scenario: "Cargo must be secured so it cannot move at sea. The officer asks the cadet to explain the main methods of securing cargo and why it matters.",
+    instructions: [
+      "Describe two methods of securing cargo (lashing, shoring, blocking).",
+      "Explain why cargo that shifts at sea is dangerous to the vessel.",
+      "State where the correct securing requirements are found (cargo securing manual).",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining two cargo securing methods, why shifting cargo is dangerous, and where securing requirements are found.",
+    assessmentCriteria: [
+      "The securing methods are valid.",
+      "The danger of shifting cargo is correct.",
+      "The cargo securing manual reference is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Cargas de granos",
+    topic: "Efecto del corrimiento en compartimentos parcialmente llenos",
+    week: 3,
+    taskId: "pn-cye748-w03-grain-trimming",
+    taskTitle: "Trim Grain To Prevent Shift",
+    scenario: "Grain in a partly filled hold can shift dangerously. The officer asks the cadet to explain how grain is trimmed and secured to prevent a shift under the Grain Code.",
+    instructions: [
+      "Explain why grain in a partly filled hold is a stability risk.",
+      "Describe how trimming the grain level reduces the risk.",
+      "State one method of securing the grain surface (e.g. bagged grain, strapping).",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the grain-shift risk, how trimming reduces it, and one securing method under the Grain Code.",
+    assessmentCriteria: [
+      "The stability risk is correctly explained.",
+      "The trimming method is correct.",
+      "The securing method is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Cargas peligrosas",
+    topic: "Clasificación",
+    week: 4,
+    taskId: "pn-cye748-w04-dangerous-goods",
+    taskTitle: "Classify Dangerous Goods Under The IMDG Code",
+    scenario: "Dangerous goods must be classified and handled under the IMDG Code. The officer asks the cadet to explain how dangerous goods are classified and why correct classification matters.",
+    instructions: [
+      "Explain that the IMDG Code groups dangerous goods into classes.",
+      "Give two example classes (e.g. flammable liquids, corrosives).",
+      "Explain why correct classification, marking, and segregation prevent accidents.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how dangerous goods are classified under the IMDG Code, with two example classes and why correct handling matters.",
+    assessmentCriteria: [
+      "The IMDG classification concept is correct.",
+      "The example classes are valid.",
+      "The reasoning about safe handling is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
