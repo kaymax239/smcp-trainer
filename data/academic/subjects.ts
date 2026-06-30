@@ -2811,7 +2811,7 @@ export const academicSubjects: AcademicSubject[] = [
       "Vocabulario: moda y música",
       "Usa la voz pasiva en presente para hablar de cosas tradicionales",
       "Utiliza las estructuras verb + ing y to + verb",
-      "Usais/are suppoded to/were supposed to y was/were going to",
+      "Usa is/are supposed to/were supposed to y was/were going to", // Corregido typo de extraccion "Usais/are suppoded"
       "Aprende phrasal verbs con el verbo get",
       "Enunciados afirmativos",
       "Aprende a usar la voz pasiva con los modal verbs",
