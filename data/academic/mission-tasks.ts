@@ -7544,5 +7544,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio Internacional sobre Normas de Formación",
+    topic: "Importancia",
+    week: 1,
+    taskId: "pn-omi750-w01-stcw-importance",
+    taskTitle: "Explain The Importance Of The STCW Convention",
+    scenario: "The STCW Convention sets the training standards for all seafarers worldwide. The officer asks the cadet to explain what STCW is and why it matters for safety at sea.",
+    instructions: [
+      "Explain what the STCW Convention covers (standards of training, certification, watchkeeping).",
+      "State why a common international standard matters for crews of mixed nationalities.",
+      "Explain how STCW improves safety at sea.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the STCW Convention, why a common standard matters, and how it improves safety at sea.",
+    assessmentCriteria: [
+      "The scope of STCW is correct.",
+      "The common-standard reasoning is sound.",
+      "The safety link is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio Internacional para el Control y la Gestión del Agua de Lastre y los Sedimentos de los Buques",
+    topic: "Libro de registro del agua de lastre",
+    week: 2,
+    taskId: "pn-omi750-w02-ballast-water",
+    taskTitle: "Explain Ballast Water Management",
+    scenario: "The Ballast Water Management Convention prevents the spread of harmful organisms between seas. The officer asks the cadet to explain why ballast water is managed and recorded.",
+    instructions: [
+      "Explain why untreated ballast water is an environmental threat.",
+      "State what ballast water management does to reduce the risk.",
+      "Explain why the ballast water record book must be kept accurately.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the environmental threat of ballast water, how it is managed, and why the record book matters.",
+    assessmentCriteria: [
+      "The environmental threat is correctly explained.",
+      "The management measure is correct.",
+      "The record-keeping reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio Internacional sobre el Control de los Sistemas Antiincrustantes Perjudiciales en los Buques",
+    topic: "Control de los sistemas antiincrustantes",
+    week: 3,
+    taskId: "pn-omi750-w03-antifouling",
+    taskTitle: "Explain The Anti-Fouling Systems Convention",
+    scenario: "The Anti-Fouling Systems Convention bans harmful hull coatings. The officer asks the cadet to explain why certain anti-fouling paints were banned and what the convention requires.",
+    instructions: [
+      "Explain what anti-fouling systems are used for on a hull.",
+      "Explain why certain anti-fouling paints (e.g. TBT) were banned.",
+      "State what the convention requires of ships.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining anti-fouling systems, why harmful ones were banned, and what the convention requires.",
+    assessmentCriteria: [
+      "The purpose of anti-fouling is correct.",
+      "The reason for the ban is correct.",
+      "The convention requirement is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Piratería y terrorismo",
+    topic: "La seguridad en el Mar",
+    week: 4,
+    taskId: "pn-omi750-w04-piracy-security",
+    taskTitle: "Explain Anti-Piracy Security Measures",
+    scenario: "Piracy threatens ships in certain regions. The officer asks the cadet to explain the basic measures a ship takes to protect itself against piracy.",
+    instructions: [
+      "State two measures a ship takes when transiting a high-risk piracy area.",
+      "Explain the purpose of a ship security plan.",
+      "Explain why crew awareness and drills matter against piracy.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining anti-piracy measures, the purpose of a ship security plan, and why crew awareness matters.",
+    assessmentCriteria: [
+      "The measures are valid.",
+      "The security plan purpose is correct.",
+      "The awareness reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Comportamiento y reacciones del ser humano",
+    topic: "Control de multitudes considerando su primera reacción",
+    week: 1,
+    taskId: "pn-sem751-w01-crowd-first-reaction",
+    taskTitle: "Manage A Crowd's First Reaction In An Emergency",
+    scenario: "When an emergency alarm sounds on a passenger ship, the crowd's first reaction is critical. The officer asks the cadet to explain how to manage passengers' first reaction.",
+    instructions: [
+      "Describe how passengers typically first react to an emergency alarm.",
+      "Explain how clear, calm crew action shapes that first reaction.",
+      "State one thing crew must avoid that would worsen panic.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how to manage a crowd's first reaction in an emergency, with crew action and what to avoid.",
+    assessmentCriteria: [
+      "The first-reaction description is realistic.",
+      "The crew-action reasoning is sound.",
+      "The thing to avoid is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Control de estrés",
+    topic: "Control de multitudes considerando la posibilidad de pánico al separar a las familias",
+    week: 2,
+    taskId: "pn-sem751-w02-panic-families",
+    taskTitle: "Prevent Panic When Families Are Separated",
+    scenario: "During evacuation, families may be separated, risking panic. The officer asks the cadet to explain how to manage this to keep the evacuation orderly.",
+    instructions: [
+      "Explain why separating families can trigger panic.",
+      "Describe how crew should handle a passenger who refuses to move without family.",
+      "State how to keep the wider evacuation orderly while addressing this.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how to prevent panic when families are separated and keep the evacuation orderly.",
+    assessmentCriteria: [
+      "The panic trigger is correctly explained.",
+      "The handling approach is sound and humane.",
+      "The orderly-evacuation reasoning is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Control de multitudes",
+    topic: "Asistencia a los pasajeros en los puestos de reunión y embarco",
+    week: 3,
+    taskId: "pn-sem751-w03-muster-stations",
+    taskTitle: "Assist Passengers At Muster Stations",
+    scenario: "Passengers must be guided to muster stations and prepared for embarkation. The officer asks the cadet to explain the crew's role at the muster station.",
+    instructions: [
+      "Describe how crew guide passengers to the correct muster station.",
+      "State what crew check and do at the muster station (lifejackets, headcount).",
+      "Explain why clear instructions and counting matter.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the crew's role at muster stations: guiding passengers, checks performed, and why counting matters.",
+    assessmentCriteria: [
+      "The guiding role is correct.",
+      "The muster-station checks are valid.",
+      "The reasoning about counting is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Capacitación a pasajeros",
+    topic: "Comunicación con los pasajeros en una emergencia",
+    week: 4,
+    taskId: "pn-sem751-w04-passenger-communication",
+    taskTitle: "Communicate With Passengers In An Emergency",
+    scenario: "Clear communication keeps passengers calm and cooperative in an emergency. The officer asks the cadet to explain how crew should communicate with passengers during an emergency.",
+    instructions: [
+      "State how crew should speak to passengers to keep them calm (tone, clarity).",
+      "Explain how to give instructions passengers of any language can follow.",
+      "Explain why honest, clear information reduces panic.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how crew communicate with passengers in an emergency to keep them calm and cooperative.",
+    assessmentCriteria: [
+      "The communication approach is sound.",
+      "The multi-language consideration is addressed.",
+      "The reasoning about honest information is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Inglés Marítimo SMCP",
+    topic: "Reported speech, reported questions and answers",
+    week: 1,
+    taskId: "pn-ing746-w01-reported-speech",
+    taskTitle: "Relay A Message Using Reported Speech",
+    scenario: "An officer often relays what another vessel or station said. The captain asks the cadet to report a received message accurately using reported speech.",
+    instructions: [
+      "Take a direct message (e.g. a VHF call from another vessel).",
+      "Report it to the captain using reported speech correctly.",
+      "Make sure no information is changed or lost in the reporting.",
+      "Keep the report clear and professional in English."
+    ],
+    deliverable: "A short exchange in English relaying a received message accurately using reported speech.",
+    assessmentCriteria: [
+      "Reported speech is formed correctly.",
+      "No information is changed or lost.",
+      "The report is realistic and relevant.",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Sistema de verbos",
+    topic: "Voz pasiva",
+    week: 2,
+    taskId: "pn-ing746-w02-passive-incident-report",
+    taskTitle: "Write An Incident Report Using The Passive",
+    scenario: "Incident reports often use the passive voice to focus on what happened. The captain asks the cadet to write a short incident report using the passive voice appropriately.",
+    instructions: [
+      "Choose a shipboard incident to report.",
+      "Write the report using the passive voice where it focuses on the event.",
+      "Make sure the facts are clear and in a logical order.",
+      "Keep the report clear and professional in English."
+    ],
+    deliverable: "A short incident report in English using the passive voice appropriately to focus on the events.",
+    assessmentCriteria: [
+      "The passive voice is used correctly and appropriately.",
+      "The facts are clear and ordered.",
+      "The report is realistic.",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "El ámbito laboral",
+    topic: "Vocabulario: work collocations",
+    week: 3,
+    taskId: "pn-ing746-w03-handover-report",
+    taskTitle: "Write A Professional Watch Handover Report",
+    scenario: "A clear written handover passes the watch safely to the next officer. The captain asks the cadet to write a professional handover report using correct work vocabulary.",
+    instructions: [
+      "Write a watch handover covering position, traffic, and any pending matters.",
+      "Use correct professional and work-related vocabulary.",
+      "Make sure the next officer could take over safely from your report.",
+      "Keep the report clear and professional in English."
+    ],
+    deliverable: "A watch handover report in English using correct professional vocabulary, complete enough for a safe takeover.",
+    assessmentCriteria: [
+      "The handover covers the key items.",
+      "The vocabulary is professional and correct.",
+      "The report enables a safe takeover.",
+      "The English is clear and professional."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Acontecimientos anormales",
+    topic: "Modal verbs",
+    week: 4,
+    taskId: "pn-ing746-w04-modals-safety",
+    taskTitle: "Give Safety Instructions Using Modal Verbs",
+    scenario: "Safety instructions rely on modal verbs (must, must not, should) to show obligation and prohibition. The captain asks the cadet to write safety instructions using modal verbs correctly.",
+    instructions: [
+      "Choose a shipboard safety situation needing instructions.",
+      "Write the instructions using modal verbs (must, must not, should) correctly.",
+      "Make the level of obligation clear (required vs advised).",
+      "Keep the instructions clear and professional in English."
+    ],
+    deliverable: "A set of safety instructions in English using modal verbs correctly to show obligation and prohibition.",
+    assessmentCriteria: [
+      "Modal verbs are used correctly.",
+      "The level of obligation is clear.",
+      "The instructions are realistic and relevant.",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
