@@ -2,3 +2,14 @@ node_modules
 .next
 *.zip
 .vercel
+.claude/
+
+# Environment variables
+.env
+.env*.local
+
+# Logs
+*.log
+
+# Build artifacts
+*.tsbuildinfo

@@ -1,0 +1,222 @@
+{
+  "capturedAt": "2026-06-29T16:11:11.254Z",
+  "area": "Tampico / Altamira",
+  "boundingBox": {
+    "latBottom": 22,
+    "latTop": 22.7,
+    "lonLeft": -97.9,
+    "lonRight": -97.3
+  },
+  "vessels": [
+    {
+      "mmsi": 345030044,
+      "name": "SAAM TACUATE",
+      "lat": 22.21068,
+      "lon": -97.85934,
+      "sog": 6.6,
+      "cog": 107.3,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:10:00Z"
+    },
+    {
+      "mmsi": 345070432,
+      "name": "DON FABIAN",
+      "lat": 22.23694,
+      "lon": -97.83476,
+      "sog": 0,
+      "navStatus": 0,
+      "timestamp": "2026-06-29T16:09:56Z"
+    },
+    {
+      "mmsi": 345010055,
+      "name": "VB SONORA",
+      "lat": 22.21073,
+      "lon": -97.85822,
+      "sog": 0.1,
+      "cog": 169.3,
+      "navStatus": 0,
+      "timestamp": "2026-06-29T16:09:55Z"
+    },
+    {
+      "mmsi": 345070389,
+      "name": "HARVEY LEGEND",
+      "lat": 22.21999,
+      "lon": -97.89284,
+      "sog": 0,
+      "cog": 267.7,
+      "heading": 12,
+      "navStatus": 0,
+      "timestamp": "2026-06-29T16:09:54Z"
+    },
+    {
+      "mmsi": 345010032,
+      "name": "VB TAMAULIPAS",
+      "lat": 22.21065,
+      "lon": -97.85827,
+      "sog": 0,
+      "cog": 63.2,
+      "navStatus": 0,
+      "timestamp": "2026-06-29T16:09:54Z"
+    },
+    {
+      "mmsi": 345070393,
+      "name": "FARIDAH",
+      "lat": 22.23775,
+      "lon": -97.83423,
+      "sog": 0,
+      "cog": 219.1,
+      "navStatus": 8,
+      "timestamp": "2026-06-29T16:09:41Z"
+    },
+    {
+      "mmsi": 636019535,
+      "name": "GALAR",
+      "lat": 22.26881,
+      "lon": -97.47259,
+      "sog": 0,
+      "navStatus": 3,
+      "timestamp": "2026-06-29T16:09:39Z"
+    },
+    {
+      "mmsi": 563327700,
+      "name": "TORM DAPITAN",
+      "lat": 22.25671,
+      "lon": -97.80523,
+      "sog": 0,
+      "cog": 319.1,
+      "heading": 242,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:09:36Z"
+    },
+    {
+      "mmsi": 215185000,
+      "name": "CMA CGM LAMARTINE",
+      "lat": 22.4727,
+      "lon": -97.88415,
+      "sog": 0,
+      "cog": 76.2,
+      "heading": 346,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:09:24Z"
+    },
+    {
+      "mmsi": 345200011,
+      "name": "BICENTENARIO",
+      "lat": 22.25861,
+      "lon": -97.80147,
+      "sog": 0,
+      "cog": 166.7,
+      "heading": 242,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:09:21Z"
+    },
+    {
+      "mmsi": 373281000,
+      "name": "SAKURA GLORY",
+      "lat": 22.45228,
+      "lon": -97.74243,
+      "sog": 0.1,
+      "cog": 336,
+      "heading": 154,
+      "navStatus": 1,
+      "timestamp": "2026-06-29T16:09:16Z"
+    },
+    {
+      "mmsi": 352002433,
+      "name": "ROYAL PEARL",
+      "lat": 22.45366,
+      "lon": -97.78187,
+      "sog": 0,
+      "cog": 256.7,
+      "heading": 157,
+      "navStatus": 1,
+      "timestamp": "2026-06-29T16:08:53Z"
+    },
+    {
+      "mmsi": 636025023,
+      "name": "CHAMPION CORNELIA",
+      "lat": 22.25435,
+      "lon": -97.80995,
+      "sog": 0,
+      "cog": 264.2,
+      "heading": 242,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:08:52Z"
+    },
+    {
+      "mmsi": 345090015,
+      "name": "HOS SILVER ARROW",
+      "lat": 22.21928,
+      "lon": -97.88914,
+      "sog": 0,
+      "cog": 205.7,
+      "heading": 104,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:08:41Z"
+    },
+    {
+      "mmsi": 345010095,
+      "name": "JULY",
+      "lat": 22.22264,
+      "lon": -97.89199,
+      "sog": 0,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:08:40Z"
+    },
+    {
+      "mmsi": 345070382,
+      "name": "CARMEN III",
+      "lat": 22.21955,
+      "lon": -97.89007,
+      "sog": 0,
+      "cog": 256.1,
+      "heading": 108,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:08:38Z"
+    },
+    {
+      "mmsi": 257025000,
+      "name": "ISLAND CENTURION",
+      "lat": 22.22021,
+      "lon": -97.89313,
+      "sog": 0,
+      "cog": 200.9,
+      "heading": 15,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:08:37Z"
+    },
+    {
+      "mmsi": 345010003,
+      "name": "ENAV SAGUARO",
+      "lat": 22.22415,
+      "lon": -97.83685,
+      "sog": 0,
+      "cog": 269.6,
+      "heading": 8,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:08:33Z"
+    },
+    {
+      "mmsi": 563103500,
+      "name": "CHALLENGE PROCYON",
+      "lat": 22.23425,
+      "lon": -97.72959,
+      "sog": 0.1,
+      "cog": 196.7,
+      "heading": 137,
+      "navStatus": 1,
+      "timestamp": "2026-06-29T16:08:32Z"
+    },
+    {
+      "mmsi": 345070306,
+      "name": "DON IGNACIO",
+      "lat": 22.21565,
+      "lon": -97.87236,
+      "sog": 0,
+      "cog": 300.9,
+      "heading": 20,
+      "navStatus": 5,
+      "timestamp": "2026-06-29T16:08:32Z"
+    }
+  ]
+}

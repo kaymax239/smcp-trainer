@@ -360,7 +360,9 @@ function AcademicProgramDashboard({
   const semesterSubjects = academicSubjects.filter((subject) => subject.semesterId === selectedSemester?.id);
   const selectedSubject = semesterSubjects.find((subject) => subject.id === selectedSubjectId) ?? semesterSubjects[0];
   const completedAcademicTaskIdSet = useMemo(() => new Set(completedAcademicTaskIds), [completedAcademicTaskIds]);
-  const subjectMissionTasks = academicMissionTasks.filter((task) => task.subjectId === selectedSubject?.id);
+  const subjectMissionTasks = academicMissionTasks
+    .filter((task) => task.subjectId === selectedSubject?.id)
+    .sort((a, b) => (a.week ?? 0) - (b.week ?? 0));
   const subjectCompletedMissionTasks = subjectMissionTasks.filter((task) => completedAcademicTaskIdSet.has(task.taskId));
   const subjectTasks = academicTasks.filter((task) => task.subjectId === selectedSubject?.id);
   const subjectTotalXp = subjectMissionTasks.reduce((total, task) => total + task.xp, 0);
@@ -483,6 +485,7 @@ function AcademicProgramDashboard({
                         <strong>{task.taskTitle}</strong>
                         <p>{task.scenario}</p>
                         <div className="missionTaskMeta" aria-label={`${task.taskTitle} mission details`}>
+                          {typeof task.week === "number" ? <em>Week {task.week}</em> : null}
                           <em>{task.xp} XP</em>
                           <em>{task.estimatedTime}</em>
                           <em>{task.difficulty}</em>
