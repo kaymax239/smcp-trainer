@@ -5108,5 +5108,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Acidez y alcalinidad",
+    topic: "Potencial hidrógeno",
+    week: 1,
+    taskId: "pn-quh534-w01-ph-control",
+    taskTitle: "Explain pH And Why It Matters On Board",
+    scenario: "The officer asks the cadet to explain what pH is and why monitoring it matters for boiler water and corrosion control on board.",
+    instructions: [
+      "Define pH and the difference between acidic and alkaline.",
+      "State how pH is measured (indicators or meter).",
+      "Explain why boiler water pH is kept within limits.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining pH, how it is measured, and why boiler water pH must be controlled.",
+    assessmentCriteria: [
+      "pH is correctly defined.",
+      "The measurement method is correct.",
+      "The boiler-water reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Corrosión",
+    topic: "Celdas galvánicas",
+    week: 2,
+    taskId: "pn-quh534-w02-galvanic-cells",
+    taskTitle: "Explain Galvanic Corrosion And Sacrificial Anodes",
+    scenario: "The hull and seawater systems suffer galvanic corrosion. The officer asks the cadet to explain how a galvanic cell forms and how sacrificial anodes protect the metal.",
+    instructions: [
+      "Explain how a galvanic cell forms between two dissimilar metals in seawater.",
+      "Explain what a sacrificial anode is and how it protects the hull.",
+      "State why the anode must be a more active metal.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining galvanic cell formation and how sacrificial anodes protect metal on board.",
+    assessmentCriteria: [
+      "The galvanic cell is correctly explained.",
+      "The sacrificial anode function is correct.",
+      "The reason for using an active metal is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Análisis y tratamiento del agua",
+    topic: "Definiciones: dureza permanente y temporal",
+    week: 3,
+    taskId: "pn-quh534-w03-water-hardness",
+    taskTitle: "Explain Water Hardness And Boiler Scale",
+    scenario: "Hard water causes scale in boilers. The officer asks the cadet to explain water hardness and why it must be treated before feeding a boiler.",
+    instructions: [
+      "Explain the difference between temporary and permanent hardness.",
+      "Explain how hardness causes scale in a boiler.",
+      "State why scale is dangerous for boiler operation.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining temporary vs permanent hardness, how it causes boiler scale, and why scale is dangerous.",
+    assessmentCriteria: [
+      "The two types of hardness are correctly explained.",
+      "The scale formation is correct.",
+      "The danger of scale is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Combustibles y lubricantes",
+    topic: "Punto de inflamación de combustibles y lubricantes marinos",
+    week: 4,
+    taskId: "pn-quh534-w04-flash-point",
+    taskTitle: "Explain Flash Point And Fuel Safety",
+    scenario: "Fuel handling on board depends on understanding flash point. The officer asks the cadet to explain what flash point is and why it matters for safe fuel storage.",
+    instructions: [
+      "Define flash point in your own words.",
+      "Explain why a fuel with a low flash point is more dangerous.",
+      "State one precaution for storing or handling fuel based on flash point.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining flash point, why low flash point is dangerous, and one fuel-handling precaution.",
+    assessmentCriteria: [
+      "Flash point is correctly defined.",
+      "The danger of low flash point is correct.",
+      "The precaution is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Comunicación con Código Morse",
+    topic: "Comunicación de mensajes de auxilio con Código Morse",
+    week: 1,
+    taskId: "pn-cov535-w01-morse-distress",
+    taskTitle: "Send A Distress Signal In Morse Code",
+    scenario: "In an emergency with no radio, a vessel signals distress by Morse light. The officer asks the cadet to explain how the distress signal is sent and recognised.",
+    instructions: [
+      "State the Morse signal for distress (SOS) and its pattern.",
+      "Explain how it is sent by signal lamp.",
+      "Explain why Morse light is still a valuable backup at sea.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the SOS Morse distress signal, how it is sent by lamp, and why Morse light remains valuable.",
+    assessmentCriteria: [
+      "The SOS pattern is correct.",
+      "The signalling method is correct.",
+      "The backup-value reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Código Internacional de Señales",
+    topic: "Comunicación de mensajes con el Código Internacional de Señales",
+    week: 2,
+    taskId: "pn-cov535-w02-flag-signals",
+    taskTitle: "Use International Code Flag Signals",
+    scenario: "Vessels communicate with flag hoists. The officer asks the cadet to explain how single-flag signals carry standard meanings and to give examples.",
+    instructions: [
+      "Explain how a single code flag can carry a complete standard message.",
+      "Give two examples of single-flag meanings (e.g. flag 'A', flag 'O').",
+      "Explain when flag signals are used instead of radio.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining single-flag code signals with two examples and when they are used.",
+    assessmentCriteria: [
+      "The single-flag concept is correct.",
+      "The examples are valid.",
+      "The use case is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Sistema de Boyado Marítimo (IALA)",
+    topic: "Marcas cardinales",
+    week: 3,
+    taskId: "pn-cov535-w03-cardinal-marks",
+    taskTitle: "Interpret IALA Cardinal Marks",
+    scenario: "The vessel approaches a hazard marked by IALA cardinal buoys. The officer asks the cadet to explain what cardinal marks indicate and how to pass them safely.",
+    instructions: [
+      "Explain what a cardinal mark indicates about where safe water lies.",
+      "Describe how to identify a north, east, south, or west cardinal mark.",
+      "State how the cadet passes a cardinal mark safely.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining IALA cardinal marks, how to identify them, and how to pass them safely.",
+    assessmentCriteria: [
+      "The meaning of cardinal marks is correct.",
+      "The identification method is correct.",
+      "The safe-passing action is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Reglamento Internacional para prevenir abordajes en la mar",
+    topic: "Parte C. Luces y marcas",
+    week: 4,
+    taskId: "pn-cov535-w04-lights-shapes",
+    taskTitle: "Identify A Vessel By Its Lights",
+    scenario: "At night, vessels are identified by their navigation lights under COLREGS Part C. The officer asks the cadet to identify a vessel and its situation from a described light configuration.",
+    instructions: [
+      "Describe the lights a power-driven vessel underway must show.",
+      "Explain how the lights tell you the vessel's aspect (heading relative to you).",
+      "Give one example of special lights (e.g. vessel not under command, restricted in ability to manoeuvre).",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how a vessel is identified by its navigation lights under COLREGS, with the aspect and one special-light example.",
+    assessmentCriteria: [
+      "The basic light configuration is correct.",
+      "The aspect reasoning is correct.",
+      "The special-light example is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Voz pasiva (presente simple)",
+    topic: "Usa la voz pasiva en presente para hablar de cosas tradicionales",
+    week: 1,
+    taskId: "pn-ing531-w01-passive-procedures",
+    taskTitle: "Describe Procedures Using The Passive Voice",
+    scenario: "Shipboard procedures are often written in the passive voice ('the valve is closed'). The officer asks the cadet to describe a routine procedure using the passive voice correctly.",
+    instructions: [
+      "Choose a simple shipboard procedure to describe.",
+      "Write the steps using the passive voice in the present simple.",
+      "Make sure each step is clear about what is done, not who does it.",
+      "Keep the description clear and professional in English."
+    ],
+    deliverable: "A procedure description in English using the present simple passive voice to state the steps clearly.",
+    assessmentCriteria: [
+      "The passive voice is formed correctly.",
+      "The procedure steps are clear.",
+      "The focus is on the action, not the actor.",
+      "The description reads professionally, not as a grammar exercise."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Comparativos",
+    topic: "Compara con la estructura (not) as…as",
+    week: 2,
+    taskId: "pn-ing531-w02-comparatives",
+    taskTitle: "Compare Two Vessels Or Routes",
+    scenario: "You must compare two options for the bridge. The officer asks you to compare two vessels or two routes using comparative structures clearly.",
+    instructions: [
+      "Choose two vessels or two routes to compare.",
+      "Use comparative structures (including 'as...as' / 'not as...as').",
+      "Make at least three clear comparisons.",
+      "Report the comparison in clear maritime English."
+    ],
+    deliverable: "A comparison in English of two vessels or routes using correct comparative structures with at least three points.",
+    assessmentCriteria: [
+      "Comparative structures are used correctly.",
+      "The comparisons are accurate.",
+      "At least three clear points are made.",
+      "The English is clear and professional."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Familiarización con frases normalizadas de la Organización",
+    topic: "Utiliza las expresiones because, since, due to, as, because of",
+    week: 3,
+    taskId: "pn-ing531-w03-reporting-causes",
+    taskTitle: "Report Causes Using Linking Expressions",
+    scenario: "When reporting an incident or delay, you must state the cause clearly. The officer asks you to report a situation using linking expressions (because, due to, since) correctly.",
+    instructions: [
+      "Describe a shipboard situation with a cause and an effect.",
+      "Report it using linking expressions (because, since, due to, as, because of).",
+      "Make sure the cause-effect relationship is clear.",
+      "Keep the report clear and professional in English."
+    ],
+    deliverable: "A short report in English stating a cause and effect using correct linking expressions.",
+    assessmentCriteria: [
+      "The linking expressions are used correctly.",
+      "The cause-effect relationship is clear.",
+      "The report is realistic and relevant.",
+      "The English is clear and professional."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Familiarización con frases normalizadas de la Organización",
+    topic: "Uso de tiempos simples y continuos",
+    week: 4,
+    taskId: "pn-ing531-w04-smcp-phrases",
+    taskTitle: "Use IMO Standard Marine Communication Phrases",
+    scenario: "The IMO Standard Marine Communication Phrases (SMCP) give crews of all nationalities a common language. The officer asks the cadet to use the correct SMCP for a given bridge situation.",
+    instructions: [
+      "Choose a bridge situation (e.g. reporting position, responding to a VHF call).",
+      "State the correct SMCP standard phrase for that situation.",
+      "Explain why standard phrases reduce misunderstanding between crews.",
+      "Report the exchange in clear maritime English."
+    ],
+    deliverable: "A note in English giving the correct SMCP phrase for a bridge situation, with an explanation of why standard phrases matter.",
+    assessmentCriteria: [
+      "The SMCP phrase is appropriate to the situation.",
+      "The phrase is used correctly.",
+      "The reasoning about standardization is sound.",
+      "The English is clear and professional."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];

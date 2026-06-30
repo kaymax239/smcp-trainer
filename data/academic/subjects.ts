@@ -2002,7 +2002,7 @@ export const academicSubjects: AcademicSubject[] = [
       "Comunicación con Código Morse",
       "Código Internacional de Señales",
       "Sistema de Boyado Marítimo (IALA)",
-      "Reglamento Internacional para prevenir abordajes en la"
+      "Reglamento Internacional para prevenir abordajes en la mar" // Completado "mar" (truncado en extraccion)
     ],
     topics: [
       "Identificación de letras y números con Código Morse",
