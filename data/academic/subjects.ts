@@ -3546,9 +3546,9 @@ export const academicSubjects: AcademicSubject[] = [
     stcwAlignment: "Interpretar los convenios más importantes emitidos por la OMI, analizando el contenido de cada uno de los mismos para su aplicación en el análisis de problemas.",
     units: [
       "Convenio Internacional sobre Normas de Formación",
-      "Convenio Internacional para el Control y la Gestión del",
+      "Convenio Internacional para el Control y la Gestión del Agua de Lastre y los Sedimentos de los Buques", // Completado titulo truncado en extraccion - BWM 2004
       "Reciclaje de buques",
-      "Convenio Internacional sobre el Control de los Sistemas",
+      "Convenio Internacional sobre el Control de los Sistemas Antiincrustantes Perjudiciales en los Buques", // Completado titulo truncado en extraccion - AFS 2001
       "Piratería y terrorismo"
     ],
     topics: [
@@ -3649,7 +3649,7 @@ export const academicSubjects: AcademicSubject[] = [
       "Banderas y señales",
       "Aplicación de anticorrosivos",
       "Acabados, esmaltes y barnices",
-      "Interpretación y elaboración de reportes de existencias y",
+      "Interpretación y elaboración de reportes de existencias y pertrechos", // Completado titulo truncado en extraccion
       "Faenas con anclas"
     ],
     topics: [

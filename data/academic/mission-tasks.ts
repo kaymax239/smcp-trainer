@@ -8704,5 +8704,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Convenio Internacional sobre Normas de Formación",
+    topic: "Importancia",
+    week: 1,
+    taskId: "mn-omi749-w01-stcw-importance",
+    taskTitle: "Explain The Importance Of The STCW Convention",
+    scenario: "The STCW Convention sets the training standards for all seafarers worldwide, including engineers. The engineer asks the cadet to explain what STCW is and why it matters for safety at sea.",
+    instructions: [
+      "Explain what the STCW Convention covers (standards of training, certification, watchkeeping).",
+      "State why a common international standard matters for crews of mixed nationalities.",
+      "Explain how STCW improves safety at sea.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the STCW Convention, why a common standard matters, and how it improves safety at sea.",
+    assessmentCriteria: [
+      "The scope of STCW is correct.",
+      "The common-standard reasoning is sound.",
+      "The safety link is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Convenio Internacional para el Control y la Gestión del Agua de Lastre y los Sedimentos de los Buques",
+    topic: "Libro de registro del agua de lastre",
+    week: 2,
+    taskId: "mn-omi749-w02-ballast-water",
+    taskTitle: "Explain Ballast Water Management",
+    scenario: "The Ballast Water Management Convention prevents the spread of harmful organisms between seas. The engineer asks the cadet to explain why ballast water is managed and recorded.",
+    instructions: [
+      "Explain why untreated ballast water is an environmental threat.",
+      "State what ballast water management does to reduce the risk.",
+      "Explain why the ballast water record book must be kept accurately.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the environmental threat of ballast water, how it is managed, and why the record book matters.",
+    assessmentCriteria: [
+      "The environmental threat is correctly explained.",
+      "The management measure is correct.",
+      "The record-keeping reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Convenio Internacional sobre el Control de los Sistemas Antiincrustantes Perjudiciales en los Buques",
+    topic: "Control de los sistemas antiincrustantes",
+    week: 3,
+    taskId: "mn-omi749-w03-antifouling",
+    taskTitle: "Explain The Anti-Fouling Systems Convention",
+    scenario: "The Anti-Fouling Systems Convention bans harmful hull coatings. The engineer asks the cadet to explain why certain anti-fouling paints were banned and what the convention requires.",
+    instructions: [
+      "Explain what anti-fouling systems are used for on a hull.",
+      "Explain why certain anti-fouling paints (e.g. TBT) were banned.",
+      "State what the convention requires of ships.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining anti-fouling systems, why harmful ones were banned, and what the convention requires.",
+    assessmentCriteria: [
+      "The purpose of anti-fouling is correct.",
+      "The reason for the ban is correct.",
+      "The convention requirement is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Piratería y terrorismo",
+    topic: "La seguridad en el Mar",
+    week: 4,
+    taskId: "mn-omi749-w04-piracy-security",
+    taskTitle: "Explain Anti-Piracy Security Measures",
+    scenario: "Piracy threatens ships in certain regions. The engineer asks the cadet to explain the basic measures a ship takes to protect itself against piracy.",
+    instructions: [
+      "State two measures a ship takes when transiting a high-risk piracy area.",
+      "Explain the purpose of a ship security plan.",
+      "Explain why crew awareness and drills matter against piracy.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining anti-piracy measures, the purpose of a ship security plan, and why crew awareness matters.",
+    assessmentCriteria: [
+      "The measures are valid.",
+      "The security plan purpose is correct.",
+      "The awareness reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Inglés Marítimo SMCP",
+    topic: "Reported speech, reported questions and answers",
+    week: 1,
+    taskId: "mn-ing744-w01-reported-speech",
+    taskTitle: "Relay An Engine Message Using Reported Speech",
+    scenario: "An engineer often relays what the bridge or another station said. The chief asks the cadet to report a received message accurately using reported speech.",
+    instructions: [
+      "Take a direct message (e.g. an order from the bridge).",
+      "Report it to the chief engineer using reported speech correctly.",
+      "Make sure no information is changed or lost in the reporting.",
+      "Keep the report clear and professional in English."
+    ],
+    deliverable: "A short exchange in English relaying a received message accurately using reported speech.",
+    assessmentCriteria: [
+      "Reported speech is formed correctly.",
+      "No information is changed or lost.",
+      "The report is realistic and relevant.",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Sistema de verbos",
+    topic: "Voz pasiva",
+    week: 2,
+    taskId: "mn-ing744-w02-passive-incident-report",
+    taskTitle: "Write An Engine Incident Report Using The Passive",
+    scenario: "Incident reports often use the passive voice to focus on what happened. The chief asks the cadet to write a short engine-room incident report using the passive voice appropriately.",
+    instructions: [
+      "Choose an engine-room incident to report.",
+      "Write the report using the passive voice where it focuses on the event.",
+      "Make sure the facts are clear and in a logical order.",
+      "Keep the report clear and professional in English."
+    ],
+    deliverable: "A short engine-room incident report in English using the passive voice appropriately to focus on the events.",
+    assessmentCriteria: [
+      "The passive voice is used correctly and appropriately.",
+      "The facts are clear and ordered.",
+      "The report is realistic.",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "El ámbito laboral",
+    topic: "Vocabulario: work collocations",
+    week: 3,
+    taskId: "mn-ing744-w03-handover-report",
+    taskTitle: "Write A Professional Engine Watch Handover",
+    scenario: "A clear written handover passes the engine watch safely to the next engineer. The chief asks the cadet to write a professional handover report using correct work vocabulary.",
+    instructions: [
+      "Write an engine watch handover covering machinery status, alarms, and any pending matters.",
+      "Use correct professional and work-related vocabulary.",
+      "Make sure the next engineer could take over safely from your report.",
+      "Keep the report clear and professional in English."
+    ],
+    deliverable: "An engine watch handover report in English using correct professional vocabulary, complete enough for a safe takeover.",
+    assessmentCriteria: [
+      "The handover covers the key items.",
+      "The vocabulary is professional and correct.",
+      "The report enables a safe takeover.",
+      "The English is clear and professional."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Acontecimientos anormales",
+    topic: "Modal verbs",
+    week: 4,
+    taskId: "mn-ing744-w04-modals-safety",
+    taskTitle: "Give Engine-Room Safety Instructions Using Modal Verbs",
+    scenario: "Safety instructions rely on modal verbs (must, must not, should) to show obligation and prohibition. The chief asks the cadet to write engine-room safety instructions using modal verbs correctly.",
+    instructions: [
+      "Choose an engine-room safety situation needing instructions.",
+      "Write the instructions using modal verbs (must, must not, should) correctly.",
+      "Make the level of obligation clear (required vs advised).",
+      "Keep the instructions clear and professional in English."
+    ],
+    deliverable: "A set of engine-room safety instructions in English using modal verbs correctly to show obligation and prohibition.",
+    assessmentCriteria: [
+      "Modal verbs are used correctly.",
+      "The level of obligation is clear.",
+      "The instructions are realistic and relevant.",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Auxilio de personas en peligro en el agua",
+    topic: "Acercamiento a la víctima",
+    week: 1,
+    taskId: "mn-pmr751-w01-rescue-approach",
+    taskTitle: "Approach A Person In The Water Safely",
+    scenario: "A person has fallen overboard. The officer asks the cadet to explain how a rescuer approaches a victim in the water safely and brings them to safety.",
+    instructions: [
+      "Describe how to approach a conscious victim without being grabbed and pulled under.",
+      "Describe how the approach differs for an unconscious victim.",
+      "State one piece of equipment used to help the rescue.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how to approach a victim in the water safely, the difference for an unconscious victim, and one rescue aid.",
+    assessmentCriteria: [
+      "The conscious-victim approach is correct.",
+      "The unconscious-victim difference is correct.",
+      "The equipment is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Banderas y señales",
+    topic: "Formas y colores del código internacional de banderas",
+    week: 2,
+    taskId: "mn-pmr751-w02-flag-recognition",
+    taskTitle: "Recognise International Code Flags",
+    scenario: "An officer must recognise code flags by shape and colour. The officer asks the cadet to explain how flags are recognised and give examples of their meanings.",
+    instructions: [
+      "Explain how code flags are distinguished by shape and colour.",
+      "Give two flags and their single-flag meanings.",
+      "Explain why instant recognition matters at sea.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how code flags are recognised by shape and colour, with two examples and why instant recognition matters.",
+    assessmentCriteria: [
+      "The recognition method is correct.",
+      "The flag examples are valid.",
+      "The reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Interpretación y elaboración de reportes de existencias y pertrechos",
+    topic: "Partes de respeto",
+    week: 3,
+    taskId: "mn-pmr751-w03-spares-report",
+    taskTitle: "Report Stores And Spares",
+    scenario: "The officer must keep accurate records of stores and spare parts. The cadet is asked to explain how a stores and spares report is prepared and why accuracy matters.",
+    instructions: [
+      "State what a stores and spares report should contain.",
+      "Explain how the report is kept up to date as items are used.",
+      "Explain why accurate spares records matter for operations.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how a stores and spares report is prepared, kept current, and why accuracy matters.",
+    assessmentCriteria: [
+      "The report contents are appropriate.",
+      "The updating method is sound.",
+      "The operational reasoning is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Faenas con anclas",
+    topic: "Chicoteo del ancla",
+    week: 4,
+    taskId: "mn-pmr751-w04-anchor-work",
+    taskTitle: "Carry Out Anchor Work Safely",
+    scenario: "Anchor work is heavy and dangerous. The officer asks the cadet to explain the safety precautions during anchor handling on the forecastle.",
+    instructions: [
+      "Describe two hazards during anchor handling.",
+      "State the safety precautions for the team on the forecastle.",
+      "Explain why clear communication with the bridge is essential.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the hazards of anchor work, the safety precautions, and why bridge communication is essential.",
+    assessmentCriteria: [
+      "The hazards are valid.",
+      "The precautions are appropriate.",
+      "The communication reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];
