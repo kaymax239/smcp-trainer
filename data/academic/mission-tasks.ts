@@ -8356,5 +8356,353 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Máquina principal",
+    topic: "Puesta en servicio de la máquina principal",
+    week: 1,
+    taskId: "mn-lma745-w01-main-engine-startup",
+    taskTitle: "Put The Main Engine Into Service",
+    scenario: "In the engine simulator, the cadet must start the main engine. The engineer asks them to describe the correct sequence to put the main engine into service.",
+    instructions: [
+      "List the main pre-start checks before starting the main engine.",
+      "Describe the basic start-up sequence.",
+      "State one parameter to confirm the engine is running correctly.",
+      "Report the procedure in clear engine-room English."
+    ],
+    deliverable: "A note in English describing the main engine start-up: pre-start checks, sequence, and one parameter confirming correct running.",
+    assessmentCriteria: [
+      "The pre-start checks are appropriate.",
+      "The start-up sequence is correct.",
+      "The running parameter is valid.",
+      "The procedure is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Planta de Generación Eléctrica",
+    topic: "Generadores principales diesel",
+    week: 2,
+    taskId: "mn-lma745-w02-diesel-generators",
+    taskTitle: "Operate The Main Diesel Generators",
+    scenario: "The ship's power comes from the main diesel generators. The engineer asks the cadet to explain how the generators supply the electrical load and what happens as load changes.",
+    instructions: [
+      "Explain how a diesel generator supplies the ship's electrical load.",
+      "Explain what happens when the electrical demand increases.",
+      "State why a second generator is paralleled when load is high.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how the main diesel generators supply the load and why a second is paralleled at high load.",
+    assessmentCriteria: [
+      "The generator-load relationship is correct.",
+      "The rising-demand explanation is correct.",
+      "The paralleling reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Máquina principal",
+    topic: "Control de los parámetros de la máquina principal",
+    week: 3,
+    taskId: "mn-lma745-w03-engine-parameters",
+    taskTitle: "Monitor Main Engine Parameters",
+    scenario: "During a watch, the cadet monitors the main engine. The engineer asks them to explain which parameters are watched and what an abnormal reading means.",
+    instructions: [
+      "Name three main engine parameters that must be monitored (e.g. temperatures, pressures, rpm).",
+      "State the normal trend for one of them and what an abnormal value warns of.",
+      "Explain what the cadet does if a parameter goes out of range.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining which main engine parameters are monitored, what an abnormal reading means, and the response.",
+    assessmentCriteria: [
+      "The parameters are valid.",
+      "The abnormal-reading interpretation is correct.",
+      "The response is appropriate.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Maquinaria Marítima Auxiliar",
+    topic: "Planta destiladora",
+    week: 4,
+    taskId: "mn-lma745-w04-distiller-plant",
+    taskTitle: "Operate The Distiller Plant",
+    scenario: "The distiller plant makes fresh water for the ship. The engineer asks the cadet to explain how it operates and the checks that keep the water safe to use.",
+    instructions: [
+      "Explain in basic terms how the distiller plant produces fresh water.",
+      "State two checks that confirm the water quality is acceptable.",
+      "Explain why distilled water quality must be monitored.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how the distiller plant produces fresh water, two quality checks, and why monitoring matters.",
+    assessmentCriteria: [
+      "The distillation process is correct.",
+      "The quality checks are valid.",
+      "The monitoring reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Estabilidad estática transversal inicial",
+    topic: "Centro de gravedad y centro de carena",
+    week: 1,
+    taskId: "mn-est748-w01-g-and-b",
+    taskTitle: "Explain Centre Of Gravity And Centre Of Buoyancy",
+    scenario: "Stability depends on the centre of gravity (G) and centre of buoyancy (B). The engineer asks the cadet to explain what each is and how they relate to a stable ship.",
+    instructions: [
+      "Define the centre of gravity (G) and centre of buoyancy (B).",
+      "Explain how their positions relate when the ship is upright.",
+      "Explain what happens to B when the ship heels.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the centre of gravity and centre of buoyancy and how they relate to a stable ship.",
+    assessmentCriteria: [
+      "G and B are correctly defined.",
+      "Their upright relationship is correct.",
+      "The movement of B in heel is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Estabilidad estática transversal inicial",
+    topic: "Brazo y momento adrizante",
+    week: 2,
+    taskId: "mn-est748-w02-righting-moment",
+    taskTitle: "Explain The Righting Moment",
+    scenario: "When a ship heels, a righting moment brings it back upright. The engineer asks the cadet to explain the righting arm (GZ) and the righting moment.",
+    instructions: [
+      "Explain what the righting arm (GZ) is.",
+      "Explain how the righting moment returns the ship to upright.",
+      "State how GM affects the size of the righting moment at small angles.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the righting arm (GZ), the righting moment, and how GM affects it at small angles.",
+    assessmentCriteria: [
+      "GZ is correctly explained.",
+      "The righting moment is correct.",
+      "The GM relationship is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Estabilidad estática transversal inicial",
+    topic: "Efectos de superficie libre de la estabilidad",
+    week: 3,
+    taskId: "mn-est748-w03-free-surface",
+    taskTitle: "Explain The Free Surface Effect",
+    scenario: "Liquid in a partly filled tank reduces stability through the free surface effect. The engineer asks the cadet to explain this effect and why it matters for tanks.",
+    instructions: [
+      "Explain what the free surface effect is.",
+      "Explain how liquid moving in a slack tank reduces effective GM.",
+      "State one way to reduce the free surface effect.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the free surface effect, how it reduces effective GM, and one way to reduce it.",
+    assessmentCriteria: [
+      "The free surface effect is correctly explained.",
+      "The GM-reduction reasoning is sound.",
+      "The mitigating measure is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Estabilidad dinámica",
+    topic: "Análisis de la estabilidad dinámica",
+    week: 4,
+    taskId: "mn-est748-w04-dynamic-stability",
+    taskTitle: "Explain Dynamic Stability",
+    scenario: "Dynamic stability describes the energy needed to heel a ship to a given angle. The engineer asks the cadet to explain dynamic stability and why it matters in heavy weather.",
+    instructions: [
+      "Explain what dynamic stability represents (energy to heel the ship).",
+      "Explain how it relates to the area under the GZ curve.",
+      "Explain why dynamic stability matters when a ship is hit by wind or waves.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining dynamic stability, its link to the GZ curve area, and why it matters in heavy weather.",
+    assessmentCriteria: [
+      "Dynamic stability is correctly explained.",
+      "The GZ-curve link is correct.",
+      "The heavy-weather reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Cojinetes",
+    topic: "Métodos de instalación",
+    week: 1,
+    taskId: "mn-tal750-w01-bearing-installation",
+    taskTitle: "Install A Bearing Correctly",
+    scenario: "A worn bearing must be replaced. The instructor asks the cadet to explain how a bearing is installed correctly and why correct fitting matters.",
+    instructions: [
+      "Describe the basic steps to install a bearing correctly.",
+      "Explain why cleanliness and correct fit are critical.",
+      "State what can happen if a bearing is installed wrong.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how a bearing is installed correctly, why fit and cleanliness matter, and the consequence of poor installation.",
+    assessmentCriteria: [
+      "The installation steps are correct.",
+      "The cleanliness/fit reasoning is sound.",
+      "The failure consequence is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Lubricación en rodamiento",
+    topic: "Importancia de la lubricación",
+    week: 2,
+    taskId: "mn-tal750-w02-bearing-lubrication",
+    taskTitle: "Explain Bearing Lubrication",
+    scenario: "Bearings fail quickly without proper lubrication. The instructor asks the cadet to explain why lubrication matters and how the right lubricant is chosen.",
+    instructions: [
+      "Explain what lubrication does for a bearing (reduces friction and wear).",
+      "Explain what happens to a bearing that runs without enough lubrication.",
+      "State one factor in choosing the right lubricant.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the role of bearing lubrication, the result of poor lubrication, and one factor in lubricant choice.",
+    assessmentCriteria: [
+      "The role of lubrication is correct.",
+      "The failure mode is correct.",
+      "The lubricant-choice factor is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Fresadora",
+    topic: "Medidas de seguridad en su uso",
+    week: 3,
+    taskId: "mn-tal750-w03-milling-safety",
+    taskTitle: "Use A Milling Machine Safely",
+    scenario: "A milling machine is powerful and dangerous if misused. The instructor asks the cadet to explain the safety measures for operating a milling machine.",
+    instructions: [
+      "State two safety measures before starting the milling machine.",
+      "Explain the protective equipment needed.",
+      "Identify one hazard specific to milling (e.g. flying chips, rotating cutter).",
+      "Report the safety guidance in clear engine-room English."
+    ],
+    deliverable: "A note in English giving milling machine safety measures, protective equipment, and one specific milling hazard.",
+    assessmentCriteria: [
+      "The safety measures are valid.",
+      "The protective equipment is appropriate.",
+      "The milling hazard is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Fabricación de engranes",
+    topic: "Engranes rectos",
+    week: 4,
+    taskId: "mn-tal750-w04-spur-gears",
+    taskTitle: "Explain How A Spur Gear Is Made",
+    scenario: "A replacement spur gear must be machined. The instructor asks the cadet to explain the basic principle of cutting a spur gear and why accuracy matters.",
+    instructions: [
+      "Explain in basic terms how a spur gear's teeth are cut (e.g. with a dividing head on a milling machine).",
+      "Explain why the spacing and shape of the teeth must be accurate.",
+      "State what happens if the teeth are cut inaccurately.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how a spur gear's teeth are cut, why accuracy matters, and the consequence of inaccuracy.",
+    assessmentCriteria: [
+      "The gear-cutting principle is correct.",
+      "The accuracy reasoning is sound.",
+      "The consequence of inaccuracy is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
   }
 ];

@@ -3483,7 +3483,7 @@ export const academicSubjects: AcademicSubject[] = [
       "Planos y coeficientes de formas del buque",
       "Áreas y volúmenes",
       "Estabilidad estática transversal inicial",
-      "Estabilidad estática transversal a grandes ángulos de",
+      "Estabilidad estática transversal a grandes ángulos de escora", // Completado titulo truncado en extraccion
       "Estabilidad dinámica",
       "Asiento",
       "Cálculo de estabilidad en la práctica"
@@ -3510,7 +3510,7 @@ export const academicSubjects: AcademicSubject[] = [
       "Uso de las curvas y tablas hidrostáticas",
       "Definición",
       "Centro de gravedad y centro de carena",
-      "Etacentro transversal",
+      "Metacentro transversal", // Corregido typo de extraccion "Etacentro"
       "Condiciones básicas de equilibrio del buque",
       "Brazo y momento adrizante",
       "Estado de equilibrio del buque",
