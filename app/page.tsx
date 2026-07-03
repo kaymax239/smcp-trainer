@@ -330,6 +330,13 @@ export default function Home() {
             <em>Engine room, machinery watch, technical operations and safety.</em>
           </button>
         </div>
+
+        <Link className="careerChoiceCard liveTrafficCard" href="/traffic">
+          <span>Simulador de guardia</span>
+          <strong>Tráfico marítimo en vivo — Tampico / Altamira</strong>
+          <small>AIS</small>
+          <em>Mapa de buques en tiempo real (AIS) del puerto y fondeadero. Datos en vivo o escenario capturado.</em>
+        </Link>
       </section>
     </main>
   );

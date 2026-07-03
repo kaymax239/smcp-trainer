@@ -20,6 +20,8 @@ type TrafficResponse = {
   area: string;
   count: number;
   vessels: Vessel[];
+  source?: "live" | "snapshot";
+  capturedAt?: string | null;
 };
 
 // Centro aproximado del área de Tampico / Altamira
@@ -77,7 +79,9 @@ export default function TrafficMap() {
           ? `Error: ${error}`
           : loading && !data
             ? "Cargando tráfico…"
-            : `${data?.area ?? ""} — ${data?.count ?? 0} buques`}
+            : `${data?.area ?? ""} — ${data?.count ?? 0} buques ${
+                data?.source === "snapshot" ? "· escenario capturado" : "· en vivo (AIS)"
+              }`}
       </div>
 
       <MapContainer

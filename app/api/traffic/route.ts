@@ -1,4 +1,6 @@
 import { NextResponse } from "next/server";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 
 // Área de Tampico / Altamira (puerto, fondeadero exterior y aproximaciones)
 const TAMPICO_AREA = {
@@ -9,6 +11,10 @@ const TAMPICO_AREA = {
 };
 
 const VESSELAPI_BASE = "https://api.vesselapi.com/v1/location/vessels/bounding-box";
+
+// Escenario capturado que sirve de respaldo si falta la key o la API falla,
+// para que la demo nunca se rompa aunque se acabe la cuota.
+const SCENARIO_FILE = path.join(process.cwd(), "data", "scenarios", "tampico-watch-01.json");
 
 type VesselApiRecord = {
   mmsi?: number | string;
@@ -23,14 +29,47 @@ type VesselApiRecord = {
   processed_timestamp?: string;
 };
 
+type SimplifiedVessel = {
+  mmsi?: number | string;
+  name: string;
+  lat?: number;
+  lon?: number;
+  sog?: number;
+  cog?: number;
+  heading?: number;
+  navStatus?: number;
+  timestamp?: string;
+};
+
+// Lee el snapshot local y lo devuelve con el mismo shape que la respuesta en vivo.
+// `reason` explica por qué se cayó al respaldo (para diagnóstico en el header del mapa).
+async function snapshotResponse(reason: string) {
+  try {
+    const raw = await readFile(SCENARIO_FILE, "utf8");
+    const snapshot = JSON.parse(raw);
+    const vessels: SimplifiedVessel[] = Array.isArray(snapshot.vessels) ? snapshot.vessels : [];
+    return NextResponse.json({
+      area: snapshot.area ?? "Tampico / Altamira",
+      count: vessels.length,
+      vessels,
+      source: "snapshot",
+      capturedAt: snapshot.capturedAt ?? null,
+      fallbackReason: reason,
+    });
+  } catch (err) {
+    return NextResponse.json(
+      { error: "No hay datos en vivo ni escenario de respaldo disponible.", detail: String(err) },
+      { status: 502 }
+    );
+  }
+}
+
 export async function GET() {
   const apiKey = process.env.VESSELAPI_KEY;
 
+  // Sin key no intentamos la llamada: vamos directo al escenario capturado.
   if (!apiKey) {
-    return NextResponse.json(
-      { error: "Falta VESSELAPI_KEY en el entorno del servidor." },
-      { status: 500 }
-    );
+    return snapshotResponse("Falta VESSELAPI_KEY en el entorno del servidor.");
   }
 
   const params = new URLSearchParams({
@@ -48,10 +87,7 @@ export async function GET() {
 
     if (!res.ok) {
       const text = await res.text();
-      return NextResponse.json(
-        { error: `VesselAPI respondió ${res.status}`, detail: text.slice(0, 300) },
-        { status: res.status }
-      );
+      return snapshotResponse(`VesselAPI respondió ${res.status}: ${text.slice(0, 120)}`);
     }
 
     const json = await res.json();
@@ -81,15 +117,19 @@ export async function GET() {
       timestamp: v.timestamp,
     }));
 
+    // Si la API respondió OK pero sin buques (cuota agotada, hueco de cobertura),
+    // preferimos el escenario capturado antes que mostrar un mapa vacío en la demo.
+    if (simplified.length === 0) {
+      return snapshotResponse("VesselAPI no devolvió buques.");
+    }
+
     return NextResponse.json({
       area: "Tampico / Altamira",
       count: simplified.length,
       vessels: simplified,
+      source: "live",
     });
   } catch (err) {
-    return NextResponse.json(
-      { error: "No se pudo consultar VesselAPI", detail: String(err) },
-      { status: 502 }
-    );
+    return snapshotResponse(`No se pudo consultar VesselAPI: ${String(err)}`);
   }
 }
