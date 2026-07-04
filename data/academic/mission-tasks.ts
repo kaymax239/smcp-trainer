@@ -1891,19 +1891,19 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     topic: "Orden de palabras en oraciones básicas (A1-A2)",
     week: 5,
     taskId: "pn-ing102-w05-sentence-builder-game",
-    taskTitle: "English Lesson: Sentence Builder",
-    scenario: "Before you can report clearly on the bridge, you need automatic control of basic English word order. In this drill you rebuild scrambled sentences until the correct order comes naturally.",
+    taskTitle: "English Lesson: Nivel 3 — Sentence Builder",
+    scenario: "Before you can report clearly on the bridge, you need automatic control of basic English word order. In this drill you rebuild scrambled sentences that practise the Level 3 grammar points until the correct order comes naturally.",
     instructions: [
       "Read the scrambled word bank for each sentence.",
       "Tap the words in the correct order to build the sentence.",
       "Press Check to confirm, then continue to the next sentence.",
       "Keep your streak going: 3 correct in a row earns a bonus."
     ],
-    deliverable: "Six A1-A2 sentences rebuilt in the correct word order, completing the Sentence Builder drill.",
+    deliverable: "Twelve A1-A2 sentences rebuilt in the correct word order, completing the Level 3 Sentence Builder drill.",
     assessmentCriteria: [
       "Words are placed in grammatically correct order.",
-      "Basic structures (to be, present simple, there is/are, can, negatives, questions) are handled correctly.",
-      "The full six-sentence drill is completed."
+      "Level 3 structures (a/an, some/any, much/many, too/enough, will vs going to, modals of possibility, past simple, linking words, questions) are handled correctly.",
+      "The full twelve-sentence drill is completed."
     ],
     xp: 20,
     estimatedTime: "15 min",
@@ -1911,12 +1911,18 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     game: {
       type: "grammar-sentence-builder",
       sentences: [
-        { words: ["She", "is", "a", "teacher"], grammarPoint: "verb to be" },
-        { words: ["I", "have", "two", "brothers"], grammarPoint: "present simple" },
-        { words: ["There", "are", "four", "books"], grammarPoint: "there is / are" },
-        { words: ["He", "can", "swim", "very", "well"], grammarPoint: "can (ability)" },
-        { words: ["We", "don't", "like", "coffee"], grammarPoint: "present simple (negative)" },
-        { words: ["Do", "you", "live", "here"], grammarPoint: "present simple (question)" }
+        { words: ["He", "is", "an", "engineer"], grammarPoint: "a / an (articles)" },
+        { words: ["We", "have", "some", "apples"], grammarPoint: "some / any" },
+        { words: ["There", "isn't", "any", "bread"], grammarPoint: "some / any" },
+        { words: ["There", "aren't", "many", "chairs"], grammarPoint: "much / many" },
+        { words: ["The", "box", "is", "too", "heavy"], grammarPoint: "too / enough" },
+        { words: ["This", "coffee", "isn't", "hot", "enough"], grammarPoint: "too / enough" },
+        { words: ["She", "will", "cook", "dinner"], grammarPoint: "will (future)" },
+        { words: ["We", "are", "going", "to", "leave", "the", "port"], grammarPoint: "going to (future)" },
+        { words: ["The", "ship", "may", "arrive", "late"], grammarPoint: "modals of possibility" },
+        { words: ["He", "closed", "the", "door"], grammarPoint: "past simple (regular)" },
+        { words: ["The", "crew", "went", "home"], grammarPoint: "past simple (irregular)" },
+        { words: ["Where", "do", "you", "work"], grammarPoint: "question forms" }
       ]
     }
   },

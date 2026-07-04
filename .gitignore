@@ -4,6 +4,9 @@ node_modules
 .vercel
 .claude/
 
+# Planeaciones fuente (material de editorial) — NUNCA subir al repo
+_planeaciones-temp/
+
 # Environment variables
 .env
 .env*.local
