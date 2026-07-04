@@ -2019,6 +2019,51 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Construcción de oraciones",
+    topic: "Orden de palabras en oraciones (B1+)",
+    week: 8,
+    taskId: "pn-ing102-w08-sentence-builder-l6-game",
+    taskTitle: "English Lesson: Nivel 6 — Sentence Builder",
+    scenario: "Level 6 takes your word order to B1+: tenses for past and current events, the past perfect, indirect questions, gerund versus infinitive, comparatives with temporal connectors, and adverbs of manner. Rebuild each scrambled sentence until the B1+ order comes naturally, including a Marlins-style maritime block.",
+    instructions: [
+      "Read the scrambled word bank for each sentence.",
+      "Tap the words in the correct order to build the sentence.",
+      "Press Check to confirm, then continue to the next sentence.",
+      "Keep your streak going: 3 correct in a row earns a bonus."
+    ],
+    deliverable: "Twelve B1+ sentences rebuilt in the correct word order, completing the Level 6 Sentence Builder drill.",
+    assessmentCriteria: [
+      "Words are placed in grammatically correct order.",
+      "Level 6 structures (past perfect, indirect questions, gerund vs infinitive, comparatives, temporal connectors, adverbs of manner) are handled correctly.",
+      "The full twelve-sentence drill is completed."
+    ],
+    xp: 20,
+    estimatedTime: "15 min",
+    difficulty: "Advanced",
+    game: {
+      type: "grammar-sentence-builder",
+      sentences: [
+        { words: ["The", "captain", "had", "locked", "the", "door"], grammarPoint: "past perfect" },
+        { words: ["They", "had", "never", "seen", "the", "sea"], grammarPoint: "past perfect" },
+        { words: ["I", "had", "lost", "my", "passport"], grammarPoint: "past perfect" },
+        { words: ["Could", "you", "tell", "me", "where", "the", "office", "is"], grammarPoint: "indirect questions" },
+        { words: ["I", "asked", "him", "who", "was", "on", "watch"], grammarPoint: "indirect questions" },
+        { words: ["Do", "you", "know", "when", "the", "train", "arrives"], grammarPoint: "indirect questions" },
+        { words: ["I", "enjoy", "reading", "books"], grammarPoint: "gerund vs infinitive (gerund)" },
+        { words: ["They", "decided", "to", "leave", "the", "port"], grammarPoint: "gerund vs infinitive (infinitive)" },
+        { words: ["She", "avoided", "making", "a", "mistake"], grammarPoint: "gerund vs infinitive (gerund)" },
+        { words: ["This", "box", "is", "heavier", "than", "that", "one"], grammarPoint: "comparatives" },
+        { words: ["As", "soon", "as", "the", "vessel", "docked,", "the", "crew", "unloaded", "the", "cargo"], grammarPoint: "temporal connectors (as soon as)" },
+        { words: ["The", "new", "officer", "did", "the", "job", "well"], grammarPoint: "adverbs of manner" }
+      ]
+    }
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "C0011",
     subjectName: "Educación Física I",
     subjectId: "pn-s1-educacion-fisica-i",
