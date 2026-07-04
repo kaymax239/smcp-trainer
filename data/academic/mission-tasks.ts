@@ -1,5 +1,23 @@
 import type { AcademicProgramCode } from "./semesters";
 
+// --- Mini-game support -------------------------------------------------------
+// A task may optionally declare that it is a "game". When present, the task
+// player mounts the matching game component instead of the standard Cadet
+// Action panel. The union is keyed by `type` so more games (vocabulary,
+// reading, listening) can be added later without touching existing tasks.
+
+export type GrammarSentence = {
+  /** Words in the CORRECT order. The game shuffles them for display. */
+  words: string[];
+  /** Grammar point being practised, e.g. "verb to be". */
+  grammarPoint: string;
+};
+
+export type TaskGame =
+  | { type: "grammar-sentence-builder"; sentences: GrammarSentence[] };
+// Future: | { type: "vocabulary-match"; pairs: ... }
+//         | { type: "reading-comprehension"; ... }
+
 export type AcademicMissionTask = {
   career: AcademicProgramCode;
   semester: string;
@@ -18,6 +36,8 @@ export type AcademicMissionTask = {
   xp: number;
   estimatedTime: string;
   difficulty: "Foundation" | "Standard" | "Advanced";
+  /** Optional: marks this task as an interactive mini-game (see TaskGame). */
+  game?: TaskGame;
 };
 
 export const academicMissionTasks: AcademicMissionTask[] = [
@@ -1860,6 +1880,45 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Construcción de oraciones",
+    topic: "Orden de palabras en oraciones básicas (A1-A2)",
+    week: 5,
+    taskId: "pn-ing102-w05-sentence-builder-game",
+    taskTitle: "English Lesson: Sentence Builder",
+    scenario: "Before you can report clearly on the bridge, you need automatic control of basic English word order. In this drill you rebuild scrambled sentences until the correct order comes naturally.",
+    instructions: [
+      "Read the scrambled word bank for each sentence.",
+      "Tap the words in the correct order to build the sentence.",
+      "Press Check to confirm, then continue to the next sentence.",
+      "Keep your streak going: 3 correct in a row earns a bonus."
+    ],
+    deliverable: "Six A1-A2 sentences rebuilt in the correct word order, completing the Sentence Builder drill.",
+    assessmentCriteria: [
+      "Words are placed in grammatically correct order.",
+      "Basic structures (to be, present simple, there is/are, can, negatives, questions) are handled correctly.",
+      "The full six-sentence drill is completed."
+    ],
+    xp: 20,
+    estimatedTime: "15 min",
+    difficulty: "Foundation",
+    game: {
+      type: "grammar-sentence-builder",
+      sentences: [
+        { words: ["She", "is", "a", "teacher"], grammarPoint: "verb to be" },
+        { words: ["I", "have", "two", "brothers"], grammarPoint: "present simple" },
+        { words: ["There", "are", "four", "books"], grammarPoint: "there is / are" },
+        { words: ["He", "can", "swim", "very", "well"], grammarPoint: "can (ability)" },
+        { words: ["We", "don't", "like", "coffee"], grammarPoint: "present simple (negative)" },
+        { words: ["Do", "you", "live", "here"], grammarPoint: "present simple (question)" }
+      ]
+    }
   },
   {
     career: "PN",

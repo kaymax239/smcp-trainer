@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { academicMissionTasks } from "@/data/academic/mission-tasks";
+import { TaskGamePanel } from "@/app/components/games/TaskGamePanel";
 
 const completedAcademicTaskStorageKey = "smcp.academic.completedTaskIds";
 const taskAttemptsStorageKey = "smcp.academic.taskAttempts";
@@ -49,7 +50,9 @@ export default function AcademicTaskOrderPage() {
 
   const attempt = attempts[task?.taskId ?? ""];
   const alreadyAttempted = !!attempt;
-  const showActionPanel = taskInProgress || alreadyAttempted;
+  const isGameTask = !!task?.game;
+  const showActionPanel = !isGameTask && (taskInProgress || alreadyAttempted);
+  const showGamePanel = isGameTask && (taskInProgress || taskCompleted);
 
   const subjectTasks = task
     ? academicMissionTasks
@@ -189,6 +192,15 @@ export default function AcademicTaskOrderPage() {
             </ul>
           </section>
 
+          {showGamePanel && task.game ? (
+            <TaskGamePanel
+              game={task.game}
+              xp={task.xp}
+              completed={taskCompleted}
+              onComplete={() => markTaskComplete(task.taskId)}
+            />
+          ) : null}
+
           {showActionPanel ? (
             <section className="navalOrderPanel cadetActionPanel" aria-label="Cadet action execution steps">
               <span>Cadet Action</span>
@@ -279,7 +291,7 @@ export default function AcademicTaskOrderPage() {
               <strong>{taskCompleted ? "Task Order Qualified" : "Pending"}</strong>
             </div>
 
-            {!alreadyAttempted && !taskInProgress ? (
+            {!taskCompleted && !alreadyAttempted && !taskInProgress ? (
               <button className="beginTaskButton" onClick={() => setTaskStatus("in progress")} type="button">
                 BEGIN TASK
               </button>
