@@ -1884,8 +1884,8 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
-    subjectCode: "ING102",
-    subjectName: "Inglés Marítimo I",
+    subjectCode: "Inglés por Niveles",
+    subjectName: "Sentence Builder",
     subjectId: "pn-s1-maritime-english-i",
     unit: "Construcción de oraciones",
     topic: "Orden de palabras en oraciones básicas (A1-A2)",
@@ -1929,8 +1929,8 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
-    subjectCode: "ING102",
-    subjectName: "Inglés Marítimo I",
+    subjectCode: "Inglés por Niveles",
+    subjectName: "Sentence Builder",
     subjectId: "pn-s1-maritime-english-i",
     unit: "Construcción de oraciones",
     topic: "Orden de palabras en oraciones (A2-B1)",
@@ -1974,8 +1974,8 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
-    subjectCode: "ING102",
-    subjectName: "Inglés Marítimo I",
+    subjectCode: "Inglés por Niveles",
+    subjectName: "Sentence Builder",
     subjectId: "pn-s1-maritime-english-i",
     unit: "Construcción de oraciones",
     topic: "Orden de palabras en oraciones (B1)",
@@ -2019,8 +2019,8 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
-    subjectCode: "ING102",
-    subjectName: "Inglés Marítimo I",
+    subjectCode: "Inglés por Niveles",
+    subjectName: "Sentence Builder",
     subjectId: "pn-s1-maritime-english-i",
     unit: "Construcción de oraciones",
     topic: "Orden de palabras en oraciones (B1+)",

@@ -7,6 +7,7 @@ import { academicPrograms, academicSemesters, type AcademicProgramCode } from "@
 import { academicMissionTasks } from "@/data/academic/mission-tasks";
 import { academicSubjects } from "@/data/academic/subjects";
 import { academicTasks, type AcademicTask } from "@/data/academic/tasks";
+import { englishLevelTaskIds } from "@/data/academic/english-levels";
 import { deckLevelOneMissions, type DeckLevelOneMission } from "@/data/deck-level-1-missions";
 
 type Academy = "deck" | "engine" | "ocean";
@@ -368,7 +369,7 @@ function AcademicProgramDashboard({
   const selectedSubject = semesterSubjects.find((subject) => subject.id === selectedSubjectId) ?? semesterSubjects[0];
   const completedAcademicTaskIdSet = useMemo(() => new Set(completedAcademicTaskIds), [completedAcademicTaskIds]);
   const subjectMissionTasks = academicMissionTasks
-    .filter((task) => task.subjectId === selectedSubject?.id)
+    .filter((task) => task.subjectId === selectedSubject?.id && !englishLevelTaskIds.has(task.taskId))
     .sort((a, b) => (a.week ?? 0) - (b.week ?? 0));
   const subjectCompletedMissionTasks = subjectMissionTasks.filter((task) => completedAcademicTaskIdSet.has(task.taskId));
   const subjectTasks = academicTasks.filter((task) => task.subjectId === selectedSubject?.id);
@@ -404,6 +405,13 @@ function AcademicProgramDashboard({
         <p className="sectionNote">{selectedProgramDetails.description}</p>
       </div>
 
+      <Link className="careerChoiceCard liveTrafficCard" href="/english-levels">
+        <span>Inglés General</span>
+        <strong>Inglés por Niveles</strong>
+        <small>A1–B1+</small>
+        <em>Niveles de inglés general (juego Sentence Builder y más). Sección compartida entre carreras, independiente de las materias.</em>
+      </Link>
+
       <section className="flowPanel" aria-label={`${selectedProgram} semesters`}>
         <div className="panelTitle">
           <span>Semesters</span>
@@ -433,7 +441,7 @@ function AcademicProgramDashboard({
             <strong>Subjects</strong>
           </div>
           {semesterSubjects.map((subject) => {
-            const subjectGeneratedTasks = academicMissionTasks.filter((task) => task.subjectId === subject.id);
+            const subjectGeneratedTasks = academicMissionTasks.filter((task) => task.subjectId === subject.id && !englishLevelTaskIds.has(task.taskId));
             const subjectCompletedTasks = subjectGeneratedTasks.filter((task) => completedAcademicTaskIdSet.has(task.taskId));
             const subjectEarnedTaskXp = subjectCompletedTasks.reduce((total, task) => total + task.xp, 0);
 
