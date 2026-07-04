@@ -1974,6 +1974,51 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Construcción de oraciones",
+    topic: "Orden de palabras en oraciones (B1)",
+    week: 7,
+    taskId: "pn-ing102-w07-sentence-builder-l5-game",
+    taskTitle: "English Lesson: Nivel 5 — Sentence Builder",
+    scenario: "Level 5 pushes your word order into B1 territory: future tenses, zero and first conditionals, modals of obligation, advice, ability, possibility and deduction, and the present perfect against the past simple and the present perfect progressive. Rebuild each scrambled sentence until the B1 order comes naturally, including a Marlins-style maritime block.",
+    instructions: [
+      "Read the scrambled word bank for each sentence.",
+      "Tap the words in the correct order to build the sentence.",
+      "Press Check to confirm, then continue to the next sentence.",
+      "Keep your streak going: 3 correct in a row earns a bonus."
+    ],
+    deliverable: "Twelve B1 sentences rebuilt in the correct word order, completing the Level 5 Sentence Builder drill.",
+    assessmentCriteria: [
+      "Words are placed in grammatically correct order.",
+      "Level 5 structures (future tenses, zero / first conditional, modals of obligation, advice, ability, possibility and deduction, present perfect vs past simple, present perfect progressive) are handled correctly.",
+      "The full twelve-sentence drill is completed."
+    ],
+    xp: 20,
+    estimatedTime: "15 min",
+    difficulty: "Advanced",
+    game: {
+      type: "grammar-sentence-builder",
+      sentences: [
+        { words: ["The", "vessel", "will", "reach", "the", "port"], grammarPoint: "future (will)" },
+        { words: ["They", "are", "going", "to", "build", "a", "new", "house"], grammarPoint: "future (going to)" },
+        { words: ["If", "you", "heat", "water,", "it", "boils"], grammarPoint: "zero conditional" },
+        { words: ["If", "it", "rains,", "we", "will", "stay"], grammarPoint: "first conditional" },
+        { words: ["You", "must", "keep", "a", "good", "watch"], grammarPoint: "modals of obligation (must)" },
+        { words: ["You", "should", "see", "a", "doctor"], grammarPoint: "modals of advice (should)" },
+        { words: ["She", "can", "speak", "three", "languages"], grammarPoint: "modals of ability (can)" },
+        { words: ["He", "must", "be", "tired"], grammarPoint: "modals of deduction (must be)" },
+        { words: ["The", "crew", "has", "been", "loading", "the", "cargo"], grammarPoint: "present perfect progressive" },
+        { words: ["We", "have", "been", "waiting", "for", "the", "pilot"], grammarPoint: "present perfect progressive" },
+        { words: ["I", "have", "finished", "my", "homework"], grammarPoint: "present perfect vs past simple (present perfect)" },
+        { words: ["She", "wrote", "a", "long", "letter"], grammarPoint: "present perfect vs past simple (past simple)" }
+      ]
+    }
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "C0011",
     subjectName: "Educación Física I",
     subjectId: "pn-s1-educacion-fisica-i",
