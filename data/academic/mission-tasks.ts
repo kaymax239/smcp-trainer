@@ -1929,6 +1929,51 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Construcción de oraciones",
+    topic: "Orden de palabras en oraciones (A2-B1)",
+    week: 6,
+    taskId: "pn-ing102-w06-sentence-builder-l4-game",
+    taskTitle: "English Lesson: Nivel 4 — Sentence Builder",
+    scenario: "You already control basic word order. Level 4 tightens it: tenses in contrast (present simple vs progressive, past simple vs past progressive), stative verbs, adverbs of manner, used to, phrasal verbs and the present perfect. Rebuild each scrambled sentence until the A2-B1 order comes naturally, including a Marlins-style maritime block.",
+    instructions: [
+      "Read the scrambled word bank for each sentence.",
+      "Tap the words in the correct order to build the sentence.",
+      "Press Check to confirm, then continue to the next sentence.",
+      "Keep your streak going: 3 correct in a row earns a bonus."
+    ],
+    deliverable: "Twelve A2-B1 sentences rebuilt in the correct word order, completing the Level 4 Sentence Builder drill.",
+    assessmentCriteria: [
+      "Words are placed in grammatically correct order.",
+      "Level 4 structures (present simple vs progressive, stative verbs, adverbs of manner, past simple vs past progressive, used to, phrasal verbs, present perfect with have been / have gone) are handled correctly.",
+      "The full twelve-sentence drill is completed."
+    ],
+    xp: 20,
+    estimatedTime: "15 min",
+    difficulty: "Standard",
+    game: {
+      type: "grammar-sentence-builder",
+      sentences: [
+        { words: ["The", "engineer", "checks", "the", "oil", "pressure"], grammarPoint: "present simple" },
+        { words: ["The", "students", "are", "watching", "a", "video"], grammarPoint: "present progressive" },
+        { words: ["My", "sister", "is", "cooking", "dinner"], grammarPoint: "present progressive" },
+        { words: ["This", "life", "jacket", "belongs", "to", "a", "young", "seafarer"], grammarPoint: "stative verbs (belong)" },
+        { words: ["The", "chief", "engineer", "works", "very", "hard"], grammarPoint: "adverbs of manner" },
+        { words: ["The", "ship", "arrived", "at", "the", "port"], grammarPoint: "past simple" },
+        { words: ["The", "crew", "was", "painting", "the", "deck"], grammarPoint: "past progressive" },
+        { words: ["My", "father", "was", "fixing", "the", "old", "radio"], grammarPoint: "past progressive" },
+        { words: ["She", "used", "to", "play", "the", "guitar"], grammarPoint: "used to" },
+        { words: ["The", "seafarers", "get", "on", "the", "vessel"], grammarPoint: "phrasal verbs (get on)" },
+        { words: ["The", "captain", "has", "gone", "to", "the", "bridge"], grammarPoint: "present perfect (have gone)" },
+        { words: ["The", "second", "officer", "has", "been", "to", "the", "port", "office"], grammarPoint: "present perfect (have been)" }
+      ]
+    }
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "C0011",
     subjectName: "Educación Física I",
     subjectId: "pn-s1-educacion-fisica-i",
