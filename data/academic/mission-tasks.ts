@@ -618,6 +618,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Termodinámica",
+    topic: "Leyes de los gases (ley combinada)",
+    week: 5,
+    taskId: "mn-fis104-w05-gas-law-cylinder",
+    taskTitle: "Apply The Combined Gas Law To A Cylinder Charge",
+    scenario: "In an engine cylinder the air charge is at 1 bar and 2.0 cubic metres at 27 degrees C. It is compressed to 0.5 cubic metres and its temperature rises to 327 degrees C. The engineer asks the cadet to find the new pressure.",
+    instructions: [
+      "Convert both temperatures from degrees C to kelvin by adding 273 (27 C = 300 K, 327 C = 600 K).",
+      "Write the combined gas law P1 x V1 / T1 = P2 x V2 / T2 and rearrange it for P2.",
+      "Substitute the values (with temperatures in kelvin) and calculate the new pressure P2.",
+      "State the result with the correct unit and confirm it is physically reasonable, in clear engine-room English."
+    ],
+    deliverable: "A gas-law calculation in English showing the kelvin conversion, the rearranged formula, and the new cylinder pressure, with the working shown.",
+    assessmentCriteria: [
+      "Both temperatures are correctly converted to kelvin (300 K and 600 K).",
+      "The combined gas law is correctly rearranged to P2 = P1 x V1 x T2 / (T1 x V2).",
+      "The new pressure is correct (P2 = 8 bar).",
+      "The result carries the correct unit and the English is clear."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Transferencia de calor",
+    topic: "Calor específico y calor a extraer (Q = m c deltaT)",
+    week: 6,
+    taskId: "mn-fis104-w06-cooler-heat-removal",
+    taskTitle: "Calculate The Heat A Cooler Must Remove",
+    scenario: "A lube oil cooler must bring 200 kg of oil down from 70 degrees C to 45 degrees C. The oil has a specific heat of 2.0 kJ per kg per K. The engineer asks the cadet to work out how much heat the cooler must remove.",
+    instructions: [
+      "Find the temperature change deltaT (for a difference, kelvin and degrees C are numerically equal).",
+      "Write the heat equation Q = m x c x deltaT.",
+      "Substitute the mass, specific heat and deltaT and calculate the heat to be removed.",
+      "State the result with the correct unit (kJ or MJ), in clear engine-room English."
+    ],
+    deliverable: "A heat-removal calculation in English giving the temperature change, the equation, and the heat the cooler must remove, with the working shown.",
+    assessmentCriteria: [
+      "The temperature change is correct (deltaT = 25 K).",
+      "The heat equation Q = m x c x deltaT is applied correctly.",
+      "The heat removed is correct (200 x 2.0 x 25 = 10 000 kJ = 10 MJ).",
+      "The result carries the correct unit and the English is clear."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Mecánica de fluidos",
+    topic: "Principio de Pascal e hidráulica (F1/A1 = F2/A2)",
+    week: 7,
+    taskId: "mn-fis104-w07-hydraulic-pascal",
+    taskTitle: "Apply Pascal's Principle To A Hydraulic Jack",
+    scenario: "In an engine-room hydraulic jack a force of 200 N is applied to a small piston of area 0.001 square metres. The large piston has an area of 0.02 square metres. The engineer asks the cadet to find the system pressure and the force the large piston can exert.",
+    instructions: [
+      "Calculate the system pressure using P = F1 / A1.",
+      "Write Pascal's principle F1 / A1 = F2 / A2 (the pressure is the same throughout the fluid).",
+      "Calculate the force F2 that the large piston can exert.",
+      "State the force-multiplication factor and give the results with correct units, in clear engine-room English."
+    ],
+    deliverable: "A hydraulics calculation in English giving the system pressure, the force on the large piston, and the force-multiplication factor, with the working shown.",
+    assessmentCriteria: [
+      "The system pressure is correct (200 / 0.001 = 200 000 Pa = 200 kPa).",
+      "Pascal's principle is applied correctly.",
+      "The force on the large piston is correct (F2 = 4000 N).",
+      "The force-multiplication factor (A2 / A1 = 20) and the units are correct, in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Dinámica rotacional",
+    topic: "Par, revoluciones y potencia al eje (P = 2 pi N T)",
+    week: 8,
+    taskId: "mn-fis104-w08-shaft-power-torque",
+    taskTitle: "Calculate Shaft Power From Torque And RPM",
+    scenario: "A propeller shaft transmits a torque of 50 000 N m at 120 rpm. The engineer asks the cadet to calculate the shaft power delivered, being careful with the units of rotational speed.",
+    instructions: [
+      "Note that N is given in rpm, so either convert it to rev/s by dividing by 60, or use P = 2 x pi x N x T / 60 with N in rpm.",
+      "Write the shaft power formula and state which form you are using and why.",
+      "Substitute the torque and speed and calculate the shaft power.",
+      "State the result in kilowatts and confirm it is physically reasonable, in clear engine-room English."
+    ],
+    deliverable: "A shaft-power calculation in English showing the treatment of the rpm-to-rev/s conversion, the formula used, and the shaft power in kilowatts, with the working shown.",
+    assessmentCriteria: [
+      "The rpm speed is handled correctly (120 rpm = 2 rev/s, or the /60 factor is used).",
+      "The shaft power formula is applied correctly (P = 2 x pi x N x T with N in rev/s).",
+      "The shaft power is correct (about 628 kW, i.e. 628 318 W).",
+      "The result is given in kilowatts and the English is clear."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "ELE106",
     subjectName: "Electricidad",
     subjectId: "mn-s1-electricidad",
