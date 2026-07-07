@@ -3228,6 +3228,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Toma de apuntes",
+    topic: "Método Cornell para la captura de información",
+    week: 5,
+    taskId: "pn-c0099-w05-cornell-note-taking",
+    taskTitle: "Take Cornell Notes During A Safety Briefing",
+    scenario: "Before arrival the officer gives a fast pre-arrival briefing covering the mooring plan, the main hazards and the timings. The cadet must capture it live using the Cornell note-taking method so nothing important is lost.",
+    instructions: [
+      "Set up a Cornell page with a notes column, a cue or questions column, and a summary area at the bottom.",
+      "Capture the key points of the briefing in the notes column as it is delivered.",
+      "Write cue questions in the left column to test recall of the notes later.",
+      "Write a short summary of the briefing at the bottom, in correct English."
+    ],
+    deliverable: "A Cornell-format note of the safety briefing in English, with the notes column, the cue questions, and a bottom summary.",
+    assessmentCriteria: [
+      "The page is set up correctly in the three Cornell areas.",
+      "The notes capture the essential briefing points without filler.",
+      "The cue questions would test recall of the key points.",
+      "The summary is accurate and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Técnicas de memorización",
+    topic: "Mnemotecnia y repaso espaciado",
+    week: 6,
+    taskId: "pn-c0099-w06-mnemonics-spaced-repetition",
+    taskTitle: "Build A Mnemonic And A Spaced-Repetition Plan",
+    scenario: "The cadet must memorize a body of standardized content, such as the phonetic alphabet, light and buoy characteristics, or COLREGS lights and shapes. The officer asks the cadet to build a memory aid and a spaced-repetition plan to make it stick.",
+    instructions: [
+      "Choose one standardized set to memorize (for example the phonetic alphabet, buoy and light characteristics, COLREGS lights, or common knots).",
+      "Create a mnemonic or memory aid that links the items to something easy to recall.",
+      "Design a spaced-repetition schedule (for example review after 1 day, 3 days, 1 week) and say why spacing beats cramming.",
+      "Explain how you would test yourself to confirm retention, in correct English."
+    ],
+    deliverable: "A memory plan in English with the chosen content set, a mnemonic, a spaced-repetition schedule, and a self-test method.",
+    assessmentCriteria: [
+      "The chosen content set is a real standardized nautical body of knowledge.",
+      "The mnemonic genuinely aids recall of the items.",
+      "The spaced-repetition schedule is sound and its advantage over cramming is explained.",
+      "The self-test method would confirm retention, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Gestión del tiempo",
+    topic: "Priorización y plan de estudio a bordo",
+    week: 7,
+    taskId: "pn-c0099-w07-time-management-study-plan",
+    taskTitle: "Plan Study Around The Watch Routine",
+    scenario: "A cadet stands a 4-on / 8-off watch routine with drills and the required rest under the work and rest hour rules. The officer asks the cadet to build a realistic weekly study plan that fits studying around the watch schedule.",
+    instructions: [
+      "Map the fixed blocks of a typical day: watches, meals, drills and required rest.",
+      "Identify the realistic time windows that are left for study.",
+      "Prioritize the study tasks (urgent and important) and assign them to the available windows.",
+      "Explain how the plan respects the rest requirements and stays realistic, in correct English."
+    ],
+    deliverable: "A weekly study plan in English mapping watches, rest and study windows, with prioritized study tasks assigned to realistic slots.",
+    assessmentCriteria: [
+      "The daily fixed blocks (watch, rest, drills) are mapped correctly.",
+      "The study windows identified are realistic given the routine.",
+      "Study tasks are prioritized sensibly and assigned to the windows.",
+      "The plan respects the rest requirements and is realistic, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Metacognición",
+    topic: "Autoevaluación y bitácora de aprendizaje",
+    week: 8,
+    taskId: "pn-c0099-w08-metacognition-learning-log",
+    taskTitle: "Reflect On Your Learning With A Learning Log",
+    scenario: "At the end of a training period the officer asks the cadet to review how well the term's learning strategies worked, assess progress against the training objectives, and keep a learning log to guide the next steps.",
+    instructions: [
+      "Assess your progress against two or three training objectives, with honest evidence.",
+      "Identify which learning strategies (notes, mnemonics, planning) worked best for you and which did not.",
+      "Record the reflection in a learning-log entry with a date and concrete next actions.",
+      "Explain how honest self-assessment supports continuous professional development at sea, in correct English."
+    ],
+    deliverable: "A learning-log entry in English assessing progress against the objectives, evaluating which strategies worked, with a date and concrete next actions.",
+    assessmentCriteria: [
+      "Progress is assessed against clear objectives with honest evidence.",
+      "The evaluation of which strategies worked is specific and self-aware.",
+      "The log entry is dated and gives concrete next actions.",
+      "The link to continuous professional development is sound, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "C0100",
     subjectName: "Expresión Oral y Escrita",
     subjectId: "pn-s1-expresion-oral-escrita",
