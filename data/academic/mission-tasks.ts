@@ -1314,6 +1314,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Vistas ortográficas",
+    topic: "Planta, alzado y perfil de un componente de máquina",
+    week: 5,
+    taskId: "mn-dii105-w05-orthographic-machine-component",
+    taskTitle: "Read The Orthographic Views Of A Machine Component",
+    scenario: "The engineer hands the cadet an orthographic drawing of a pump casing flange showing three views, and asks the cadet to identify each view and read the shape of the component before it is machined.",
+    instructions: [
+      "Identify which view is the plan (top), which is the front elevation, and which is the side or profile view.",
+      "Explain what each view shows about the shape and dimensions of the component (bolt holes, bore, thickness).",
+      "Describe how the three views together define the 3D form of the flange.",
+      "Report your interpretation in clear engine-room English."
+    ],
+    deliverable: "A note in English identifying the plan, front elevation and side view of the machine component, what each shows, and how the three views combine to define its 3D form.",
+    assessmentCriteria: [
+      "The plan, front elevation and side view are correctly identified.",
+      "What each view shows about shape and dimensions is correct.",
+      "The explanation of how the views combine into a 3D form is sound.",
+      "The note is clear and in correct engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Vistas en sección",
+    topic: "Cortes y secciones de un componente de máquina",
+    week: 6,
+    taskId: "mn-dii105-w06-sectional-views",
+    taskTitle: "Interpret A Sectional View Of A Component",
+    scenario: "To understand what is inside a valve, the engineer shows the cadet a sectional view (a cut through the component) and asks why the section reveals what the outside views cannot.",
+    instructions: [
+      "State what a sectional view is and how a cutting plane produces it.",
+      "Explain what the hatching (section lines) on the cut surfaces represents.",
+      "Use the sectional view to describe an internal feature of the component that the outside views do not show (for example a bore, a seat, or a passage).",
+      "Explain why sectional views are essential for machinery components, in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the sectional view, what the hatching means, one internal feature it reveals, and why sections are essential for machinery drawings.",
+    assessmentCriteria: [
+      "The idea of a sectional view and the cutting plane is explained correctly.",
+      "The meaning of the hatching on cut surfaces is correct.",
+      "An internal feature revealed by the section is correctly described.",
+      "The reason sections are essential for machinery is sound, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Diagramas de tubería e instrumentación",
+    topic: "Lectura de un P&ID y trazado del flujo",
+    week: 7,
+    taskId: "mn-dii105-w07-pid-flow-tracing",
+    taskTitle: "Trace A System Flow On A Piping And Instrumentation Diagram",
+    scenario: "Before working on a fuel or cooling system, the cadet must read its piping and instrumentation diagram (P&ID) and follow the flow through the whole system from suction to discharge.",
+    instructions: [
+      "Identify on the P&ID the pump, the main line, the valves, and the instruments in the system.",
+      "Trace the flow path from the suction side, through the pump, to the discharge side.",
+      "State the function of one valve and one instrument shown on the diagram.",
+      "Explain how correctly reading the P&ID prevents a mistake when operating the system, in clear engine-room English."
+    ],
+    deliverable: "A note in English identifying the main elements of the P&ID, tracing the flow from suction to discharge, and giving the function of one valve and one instrument.",
+    assessmentCriteria: [
+      "The pump, line, valves and instruments are correctly identified on the P&ID.",
+      "The flow is traced correctly from suction to discharge.",
+      "The function of the valve and the instrument is correct.",
+      "The link between correct P&ID reading and safe operation is sound, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Planos de disposición y de despiece",
+    topic: "Arrangement plan de la sala de máquinas y planos de partes",
+    week: 8,
+    taskId: "mn-dii105-w08-engine-room-arrangement-exploded",
+    taskTitle: "Use Arrangement And Exploded Drawings For Maintenance",
+    scenario: "For a maintenance job the cadet must locate a piece of equipment on the engine-room arrangement plan and then use the exploded parts drawing to take it apart and reassemble it in the right order.",
+    instructions: [
+      "Use the engine-room arrangement plan to locate a named item of equipment and give its position in the space.",
+      "State what an exploded (parts) drawing shows and how the part numbers relate to a parts list.",
+      "Use the exploded drawing to set out the correct order to dismantle and then reassemble the component.",
+      "Explain how these drawings support correct and safe maintenance, in clear engine-room English."
+    ],
+    deliverable: "A note in English locating the equipment on the arrangement plan, explaining the exploded parts drawing, and giving the dismantle-and-reassemble order for the component.",
+    assessmentCriteria: [
+      "The equipment is correctly located on the arrangement plan with its position.",
+      "The purpose of the exploded drawing and its link to the parts list are correct.",
+      "The dismantle and reassemble order is logical and correct.",
+      "The link between the drawings and safe maintenance is sound, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "PMR107",
     subjectName: "Prácticas Marineras I",
     subjectId: "mn-s1-practicas-marineras-i",
