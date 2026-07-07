@@ -1772,6 +1772,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Cinemática: velocidad, distancia y tiempo",
+    week: 5,
+    taskId: "pn-fis104-w05-speed-distance-eta",
+    taskTitle: "Calculate Steaming Time, ETA And A Closing Situation",
+    scenario: "The vessel departs at 0600 with 96 nautical miles to run to the pilot station, making good 12 knots over the ground. On the same passage the officer tracks another vessel 40 nautical miles ahead on a reciprocal (head-on) course making 8 knots. The cadet must work out the ETA and the closing situation.",
+    instructions: [
+      "Use v = d / t to find the steaming time to the pilot station at 12 knots over 96 nautical miles.",
+      "Add the steaming time to the 0600 departure to state the ETA at the pilot station.",
+      "Find the closing speed of the two vessels (own 12 knots, other 8 knots, head-on) and the time until they meet, 40 nautical miles apart.",
+      "Report the ETA and the closing time with correct units, in clear deck English."
+    ],
+    deliverable: "A short kinematics note in English giving the steaming time and ETA to the pilot station, and the closing speed and time-to-meet of the two vessels, with the working shown.",
+    assessmentCriteria: [
+      "The steaming time is calculated correctly from v = d / t (96 / 12 = 8 hours).",
+      "The ETA is stated correctly from the 0600 departure (1400).",
+      "The closing speed (20 knots) and time-to-meet (2 hours) are calculated correctly for a head-on situation.",
+      "Units (knots, nautical miles, hours) are consistent and the note is in clear deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Trabajo, energía y potencia",
+    week: 6,
+    taskId: "pn-fis104-w06-crane-work-power",
+    taskTitle: "Calculate The Work And Power Of A Deck Crane Lift",
+    scenario: "A deck crane lifts a cargo sling of mass 500 kg vertically through a height of 12 metres, and the lift takes 20 seconds. The chief officer asks the cadet to work out the work done and the power developed by the crane. Take g = 9.81 m/s2.",
+    instructions: [
+      "Calculate the weight (force) of the load using F = m x g.",
+      "Calculate the work done to lift the load using W = F x d.",
+      "Calculate the power developed by the crane using P = W / t.",
+      "State each result with the correct SI unit and confirm the values are reasonable for a deck lift, in clear deck English."
+    ],
+    deliverable: "A work-energy note in English giving the load's weight, the work done, and the power developed by the crane, with the working and SI units shown.",
+    assessmentCriteria: [
+      "The weight is calculated correctly from F = m x g (500 x 9.81 = 4905 N).",
+      "The work done is calculated correctly from W = F x d (4905 x 12 = 58860 J).",
+      "The power is calculated correctly from P = W / t (58860 / 20 = 2943 W).",
+      "Results carry the correct SI units (N, J, W) and the note is in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Hidrostática",
+    topic: "Presión hidrostática y densidad del agua",
+    week: 7,
+    taskId: "pn-fis104-w07-hydrostatic-pressure-density",
+    taskTitle: "Find Hull Pressure And The Fresh-Water Draught Change",
+    scenario: "At a draught giving 8 metres of water above the keel, the officer sets the cadet two problems. First, calculate the hydrostatic pressure on the hull at that depth in seawater (density 1025 kg/m3, g = 9.81 m/s2). Second, the vessel will shift from the sea into a fresh-water river berth (density 1000 kg/m3); the cadet must state whether the draught will increase or decrease, and why.",
+    instructions: [
+      "Calculate the hydrostatic pressure on the hull at 8 metres depth in seawater using P = rho x g x h.",
+      "State the result in kilopascals with the correct SI units.",
+      "Using V = m / rho at constant displacement, explain whether the underwater volume (and therefore the draught) increases or decreases when the vessel moves into less-dense fresh water.",
+      "State the correct direction of the draught change (deeper or shallower in fresh water) and report it in clear deck English."
+    ],
+    deliverable: "A hydrostatics note in English giving the hull pressure at 8 metres in seawater, and a reasoned statement of whether the draught increases or decreases in fresh water, with the working shown.",
+    assessmentCriteria: [
+      "The hydrostatic pressure is calculated correctly from P = rho x g x h (1025 x 9.81 x 8 = 80442 Pa).",
+      "The result is expressed sensibly in kilopascals (about 80.4 kPa).",
+      "The density reasoning (V = m / rho, so lower density means greater displaced volume) is applied correctly.",
+      "The draught change direction is correct — the vessel floats DEEPER in fresh water — and reported in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Movimiento oscilatorio",
+    topic: "Oscilaciones del buque: balance, cabeceo y resonancia",
+    week: 8,
+    taskId: "pn-fis104-w08-ship-motion-oscillation",
+    taskTitle: "Explain Rolling, Pitching And Synchronous Rolling",
+    scenario: "In a beam sea the vessel begins to roll heavily and the master warns the bridge team about synchronous rolling. The officer asks the cadet to explain the physics of the ship's motion at a level suitable for a first-year cadet, without advanced formulas.",
+    instructions: [
+      "Describe rolling and pitching as oscillations (repeated back-and-forth motion) about the ship's axes.",
+      "Explain what the roll period is (the time for one complete roll) and the difference between a stiff ship (short period) and a tender ship (long period).",
+      "Explain synchronous rolling: when the interval between waves matches the ship's natural roll period, each wave adds energy and the roll grows dangerously (resonance).",
+      "State one action the officer can take to break the resonance (alter course or speed to change the interval between wave encounters), in clear deck English."
+    ],
+    deliverable: "A conceptual explanation in English of rolling and pitching as oscillations, the meaning of the roll period, what synchronous rolling (resonance) is, and one action to avoid it.",
+    assessmentCriteria: [
+      "Rolling and pitching are correctly described as oscillatory motions.",
+      "The roll period and the stiff versus tender distinction are explained correctly.",
+      "Synchronous rolling is correctly explained as resonance between the wave encounter and the roll period.",
+      "The avoiding action (change course or speed) is correct and reported in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "ELE106",
     subjectName: "Electricidad",
     subjectId: "pn-s1-electricidad",
