@@ -1656,6 +1656,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Proporcion y porcentaje",
+    topic: "Proporcion, porcentaje y regla de tres",
+    week: 5,
+    taskId: "pn-alg103-w05-cargo-proportion-percent",
+    taskTitle: "Split Cargo By Ratio And Report Deadweight Percentage",
+    scenario: "A vessel with a deadweight of 8000 tonnes loads 6000 tonnes of cargo, to be split between two holds in the ratio 2:1 (hold 1 to hold 2). The chief officer asks the cadet to report the percentage of deadweight used and the tonnage in each hold.",
+    instructions: [
+      "Express the 6000 tonnes of cargo as a percentage of the 8000-tonne deadweight.",
+      "Divide the 6000 tonnes between the two holds in the ratio 2:1.",
+      "State the tonnage in each hold and confirm the two add back to 6000 tonnes.",
+      "Report the percentage and the hold split in clear deck English."
+    ],
+    deliverable: "A cargo distribution note in English giving the deadweight percentage used and the tonnage in each hold, with the working shown.",
+    assessmentCriteria: [
+      "The deadweight percentage is correct (6000 / 8000 x 100 = 75%).",
+      "The ratio split is set up correctly over 3 parts (each part = 2000 tonnes).",
+      "Hold 1 = 4000 tonnes and Hold 2 = 2000 tonnes, and they sum back to 6000 tonnes.",
+      "The results are reported clearly in correct deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Transposicion de formulas",
+    topic: "Despeje de formulas y evaluacion",
+    week: 6,
+    taskId: "pn-alg103-w06-formula-transposition-moment",
+    taskTitle: "Rearrange The Moment Formula To Find A Distance",
+    scenario: "A cargo item produces a moment of 240 tonne-metres about the midship point and weighs 40 tonnes. The officer asks the cadet to rearrange the moment formula to find how far the item is from midship, then repeat for a 30-tonne item producing the same moment.",
+    instructions: [
+      "Start from the moment formula M = P x d and rearrange it to make the distance d the subject.",
+      "Using M = 240 tonne-metres and P = 40 tonnes, calculate the distance d of the item from midship.",
+      "A second item of 30 tonnes must produce the same 240 tonne-metre moment; use the rearranged formula to find its distance.",
+      "Report both distances with units, in clear deck English."
+    ],
+    deliverable: "A transposition note in English showing the rearranged formula d = M / P and the two distances, with the working shown.",
+    assessmentCriteria: [
+      "The formula is correctly rearranged to d = M / P.",
+      "The first distance is correct (240 / 40 = 6 m).",
+      "The second distance is correct (240 / 30 = 8 m).",
+      "The results carry the correct unit (metres) and are reported in clear deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Momentos y centro de gravedad",
+    topic: "Momento, suma de momentos y media ponderada",
+    week: 7,
+    taskId: "pn-alg103-w07-centre-of-gravity-moments",
+    taskTitle: "Find The Combined Centre Of Gravity Of Three Cargo Parcels",
+    scenario: "Three cargo parcels are stowed at different distances from a common reference point: 20 tonnes at 3 metres, 30 tonnes at 8 metres, and 50 tonnes at 12 metres. The chief officer asks the cadet to find the combined centre of gravity of the cargo.",
+    instructions: [
+      "For each parcel, calculate its moment about the reference point using moment = weight x distance.",
+      "Add the three moments to get the total moment (sum of moments).",
+      "Add the three weights to get the total weight (sum of weights).",
+      "Find the centre of gravity using G = (sum of moments) / (sum of weights) — divide by the TOTAL WEIGHT, not by the number of parcels — and report it in metres from the reference, in clear deck English."
+    ],
+    deliverable: "A centre-of-gravity note in English showing the three moments, the sum of moments, the sum of weights, and the resulting G, with the working shown.",
+    assessmentCriteria: [
+      "Each moment is correct (20 x 3 = 60, 30 x 8 = 240, 50 x 12 = 600 tonne-metres).",
+      "The sum of moments is correct (60 + 240 + 600 = 900 tonne-metres).",
+      "The sum of weights is correct (20 + 30 + 50 = 100 tonnes).",
+      "The centre of gravity is correct (900 / 100 = 9 m from the reference, dividing by TOTAL WEIGHT not by the number of parcels), reported in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Desigualdades",
+    topic: "Desigualdades y limites operativos de seguridad",
+    week: 8,
+    taskId: "pn-alg103-w08-loading-limits-inequalities",
+    taskTitle: "Test A Loading Plan Against Safety Limits",
+    scenario: "The cadet must check a loading plan against two safety limits. The deck can bear up to 5 tonnes per square metre. The deadweight limit is 8000 tonnes and 6000 tonnes are already loaded. A cargo unit of 18 tonnes on a 4 square-metre footprint is offered, and separately a new 2500-tonne parcel is offered. The officer asks for a go/no-go decision on each.",
+    instructions: [
+      "Write the deck load as an inequality: load pressure (weight / footprint area) must be less than or equal to the 5 t/m2 deck limit.",
+      "For the 18-tonne unit on a 4 m2 footprint, calculate the load pressure and decide whether it satisfies the inequality (go or no-go).",
+      "Write the deadweight limit as an inequality (already loaded + new parcel less than or equal to 8000 tonnes) and test the 2500-tonne parcel on top of the 6000 tonnes already loaded.",
+      "State the maximum additional cargo that could still be accepted within the 8000-tonne limit, with the go/no-go decisions, in clear deck English."
+    ],
+    deliverable: "A loading-limits note in English giving both inequalities, the deck-load and deadweight tests, the maximum additional cargo, and the go/no-go decisions, with the working shown.",
+    assessmentCriteria: [
+      "The deck load pressure is correct (18 / 4 = 4.5 t/m2) and satisfies 4.5 <= 5, so it is a GO.",
+      "The deadweight inequality is set up correctly (6000 + 2500 <= 8000).",
+      "The deadweight test is correct: 8500 > 8000, so the 2500-tonne parcel is a NO-GO.",
+      "The maximum additional cargo is correct (8000 - 6000 = 2000 tonnes), reported with the go/no-go decisions in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "FIS104",
     subjectName: "Física",
     subjectId: "pn-s1-fisica",
