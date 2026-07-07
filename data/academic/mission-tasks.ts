@@ -2352,6 +2352,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Comunicación radiotelefónica",
+    topic: "Frases normalizadas OMI (SMCP) y marcadores de mensaje",
+    week: 5,
+    taskId: "pn-ing102-w05-smcp-vhf-message",
+    taskTitle: "Build A Standard VHF Message Using SMCP",
+    scenario: "You must call another vessel on VHF to state your intention in a crossing situation. Using the IMO Standard Marine Communication Phrases (SMCP), you build a clear standard message with the correct message marker so there is no misunderstanding.",
+    instructions: [
+      "Open the call correctly: name the vessel you are calling, then give your own vessel's name.",
+      "Choose the correct SMCP message marker for your message (for example Intention, Warning, or Question).",
+      "State the message in short, standard SMCP phrasing, avoiding everyday idioms.",
+      "Close with the correct procedure word (Over) and be ready to read back the reply, in correct English."
+    ],
+    deliverable: "A written VHF message in English built with the correct call opening, an SMCP message marker, a standard-phrase message body, and the correct closing procedure word.",
+    assessmentCriteria: [
+      "The call opening correctly names the called vessel and the own vessel.",
+      "The message marker chosen matches the intent of the message.",
+      "The message body uses short standard SMCP phrasing, not everyday idiom.",
+      "The closing procedure word is correct and the English is clear."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Órdenes normalizadas",
+    topic: "Standard wheel orders y engine orders",
+    week: 6,
+    taskId: "pn-ing102-w06-helm-engine-orders",
+    taskTitle: "Give And Acknowledge Standard Helm And Engine Orders",
+    scenario: "During a manoeuvre the officer of the watch gives helm and engine orders that must be passed and acknowledged in standard English. You must give each order correctly and show the read-back the helmsman uses.",
+    instructions: [
+      "Give three standard helm orders in correct English (for example 'Starboard ten', 'Midships', 'Steady as she goes').",
+      "Give one standard engine order (for example 'Half ahead' or 'Stop engine').",
+      "Write the correct read-back the helmsman gives for each order.",
+      "Explain why standard orders and read-back prevent errors during a manoeuvre, in correct English."
+    ],
+    deliverable: "A note in English listing three helm orders and one engine order with the correct standard wording and the helmsman's read-back for each.",
+    assessmentCriteria: [
+      "The helm orders use correct standard wording.",
+      "The engine order uses correct standard wording.",
+      "Each read-back is correct and complete.",
+      "The explanation of why standard orders prevent errors is sound and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Presente simple y there is / there are",
+    topic: "Descripción del buque, equipo y condiciones",
+    week: 7,
+    taskId: "pn-ing102-w07-describe-ship-equipment",
+    taskTitle: "Describe The Ship And Conditions At Handover",
+    scenario: "At the change of watch you must describe the state of the deck equipment and the weather to the next cadet. Using 'there is' and 'there are' with the present simple, you give a clear handover description.",
+    instructions: [
+      "Use 'there is' and 'there are' to state what equipment and conditions are present on deck.",
+      "Use the present simple to describe what the equipment does or its current state.",
+      "Describe the weather and sea state in one or two clear sentences.",
+      "Keep the handover accurate and easy for the next watch to act on, in correct English."
+    ],
+    deliverable: "A handover description in English using 'there is / there are' and the present simple to describe the deck equipment, its state, and the weather and sea conditions.",
+    assessmentCriteria: [
+      "'There is' and 'there are' are used correctly for singular and plural.",
+      "The present simple correctly describes equipment state or function.",
+      "The weather and sea description is clear and relevant.",
+      "The handover is accurate and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Pasado simple",
+    topic: "Parte de guardia: narrar un suceso en pasado",
+    week: 8,
+    taskId: "pn-ing102-w08-watch-report-past",
+    taskTitle: "Report A Watch Event In The Past Simple",
+    scenario: "At the end of your watch you must report to the officer what happened during it: a course alteration, a vessel that passed, and a minor problem you dealt with. You report the events in the past simple, in order.",
+    instructions: [
+      "Report the watch events in chronological order using the past simple (regular and irregular verbs).",
+      "State clearly what happened, when, and what action was taken.",
+      "Use correct past forms of common maritime verbs (for example altered, passed, reported, checked, found).",
+      "Keep the report factual and clear enough for the officer to log, in correct English."
+    ],
+    deliverable: "A watch report in English narrating the watch events in the past simple, in chronological order, with the actions taken.",
+    assessmentCriteria: [
+      "The past simple is used correctly for both regular and irregular verbs.",
+      "The events are in the correct chronological order.",
+      "What happened and the action taken are stated clearly.",
+      "The report is factual and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "Inglés por Niveles",
     subjectName: "Sentence Builder",
     subjectId: "pn-s1-maritime-english-i",
