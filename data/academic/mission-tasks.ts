@@ -850,6 +850,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Potencia eléctrica",
+    topic: "Potencia activa, factor de potencia y eficiencia del motor",
+    week: 5,
+    taskId: "mn-ele106-w05-motor-power-efficiency",
+    taskTitle: "Find A Motor's Input Power And Efficiency",
+    scenario: "An engine-room auxiliary motor is supplied at 200 V and draws 25 A at a power factor of 0.8. Its mechanical output is 3.2 kW. The engineer asks the cadet to work out the electrical input power and the motor's efficiency.",
+    instructions: [
+      "Calculate the electrical input power using P = V x I x power factor.",
+      "State the input power in kilowatts.",
+      "Calculate the efficiency using efficiency = output power / input power, with output = 3.2 kW.",
+      "State the efficiency as a percentage and confirm it is reasonable for a motor, in clear engine-room English."
+    ],
+    deliverable: "A power-and-efficiency calculation in English giving the input power in kW and the motor efficiency as a percentage, with the working shown.",
+    assessmentCriteria: [
+      "The input power is correct (200 x 25 x 0.8 = 4000 W = 4 kW).",
+      "The power factor is correctly applied.",
+      "The efficiency is correct (3200 / 4000 = 0.80 = 80%).",
+      "Results carry the correct units (W/kW, %) and the English is clear."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Máquinas eléctricas",
+    topic: "Motor de inducción: velocidad síncrona y deslizamiento",
+    week: 6,
+    taskId: "mn-ele106-w06-induction-motor-slip",
+    taskTitle: "Calculate Synchronous Speed And Slip",
+    scenario: "A 4-pole induction motor drives an engine-room pump on a 60 Hz supply. Its rotor turns at 1710 rpm. The engineer asks the cadet to find the synchronous speed and the slip.",
+    instructions: [
+      "Calculate the synchronous speed using Ns = 120 x f / p, with f = 60 Hz and p = 4 poles.",
+      "State the synchronous speed in rpm.",
+      "Calculate the slip using slip = (Ns - Nr) / Ns, with the rotor speed Nr = 1710 rpm.",
+      "State the slip as a percentage and explain why an induction motor must run slower than synchronous speed, in clear engine-room English."
+    ],
+    deliverable: "A calculation in English giving the synchronous speed in rpm and the slip as a percentage, with the working shown.",
+    assessmentCriteria: [
+      "The synchronous speed is correct (120 x 60 / 4 = 1800 rpm).",
+      "The slip is calculated correctly ((1800 - 1710) / 1800 = 0.05).",
+      "The slip is stated as 5%.",
+      "The reason the rotor runs below synchronous speed is correct, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Arranque de motores",
+    topic: "Corriente de arranque y arranque estrella-triángulo",
+    week: 7,
+    taskId: "mn-ele106-w07-motor-starting-star-delta",
+    taskTitle: "Compare Direct And Star-Delta Starting Current",
+    scenario: "An engine-room induction motor has a full-load current of 30 A and a direct-on-line starting current of 6 times full load. The engineer asks the cadet to compare the direct-on-line and star-delta starting currents and their effect on the generator.",
+    instructions: [
+      "Calculate the direct-on-line (DOL) starting current: 6 times the full-load current of 30 A.",
+      "State why such a high starting current is a problem for the ship's generator.",
+      "Calculate the starting current with star-delta starting, which reduces it to about one-third of the DOL value.",
+      "State what star-delta starting also does to the starting torque, in clear engine-room English."
+    ],
+    deliverable: "A comparison in English of the DOL and star-delta starting currents, with the working shown and the effect on the generator noted.",
+    assessmentCriteria: [
+      "The DOL starting current is correct (6 x 30 = 180 A).",
+      "The problem of high starting current for the generator is correctly explained.",
+      "The star-delta starting current is correct (180 / 3 = 60 A).",
+      "The effect on starting torque (also reduced to about one-third) is correct, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Protección eléctrica",
+    topic: "Protección de motores: sobrecarga, cortocircuito, tierra y aislamiento",
+    week: 8,
+    taskId: "mn-ele106-w08-motor-protection",
+    taskTitle: "Set And Explain Engine-Room Motor Protection",
+    scenario: "An engine-room motor with a full-load current of 40 A is protected by an overload relay set to trip at 115% of full load. The engineer asks the cadet to explain the motor's protection and work out the overload trip current.",
+    instructions: [
+      "Explain the purpose of an overload relay, of short-circuit protection (fuse or breaker), and of earth-fault protection for the motor.",
+      "Calculate the overload trip current if the relay is set at 115% of the 40 A full-load current.",
+      "Explain what a megger (insulation resistance test) checks and why low insulation resistance is dangerous.",
+      "State one action to take if the motor's protection trips repeatedly, in clear engine-room English."
+    ],
+    deliverable: "A protection note in English giving the purpose of overload, short-circuit and earth-fault protection, the overload trip current, and the role of insulation testing.",
+    assessmentCriteria: [
+      "The purpose of overload, short-circuit and earth-fault protection is correct.",
+      "The overload trip current is correct (1.15 x 40 = 46 A).",
+      "The purpose of the megger/insulation test and the danger of low insulation are correct.",
+      "The action for repeated tripping is sensible, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "ING102",
     subjectName: "Inglés Marítimo I",
     subjectId: "mn-s1-maritime-english-i",
