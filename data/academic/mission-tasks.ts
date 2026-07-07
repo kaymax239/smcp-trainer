@@ -1198,6 +1198,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Comunicación interna de máquinas",
+    topic: "Frases normalizadas OMI (SMCP) y marcadores de mensaje",
+    week: 5,
+    taskId: "mn-ing102-w05-smcp-engine-bridge-message",
+    taskTitle: "Pass Engine-To-Bridge Messages Using SMCP Markers",
+    scenario: "You are in the engine room and must pass messages to the bridge over the internal communication system: a warning about a rising temperature, information on a pump changeover, and your intention to slow a machine. Using the SMCP message markers, you make each message clear and unambiguous.",
+    instructions: [
+      "Choose the correct SMCP message marker for each message: a Warning, a piece of Information, and an Intention.",
+      "Build each message in short standard SMCP phrasing for the internal engine-to-bridge line, avoiding everyday idioms.",
+      "Explain how the message marker tells the bridge how to treat the message.",
+      "Confirm receipt of a reply using an acknowledgement, in correct engine-room English."
+    ],
+    deliverable: "A note in English giving three engine-to-bridge messages (a Warning, an Information, and an Intention) built with the correct SMCP message markers, and how each is acknowledged.",
+    assessmentCriteria: [
+      "The message markers match the intent of each message (Warning, Information, Intention).",
+      "The messages use short standard SMCP phrasing, not everyday idiom.",
+      "The explanation of how the marker guides the bridge is correct.",
+      "The acknowledgement is correct and the English is clear."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Órdenes de máquina",
+    topic: "Engine orders y telégrafo (read-back del lado de máquinas)",
+    week: 6,
+    taskId: "mn-ing102-w06-engine-telegraph-orders",
+    taskTitle: "Acknowledge And Act On Telegraph Engine Orders",
+    scenario: "During manoeuvring the bridge rings engine orders down on the telegraph. From the engine-room side you must recognise each order, repeat it back, and act on it. The engineer asks you to show the correct English for the main telegraph orders.",
+    instructions: [
+      "Recognise the standard telegraph engine orders in English (for example Full ahead, Half ahead, Slow astern, Stop engine, Finished with engines).",
+      "For three orders, give the correct read-back that the engine side sends to acknowledge.",
+      "State what action the engine side takes for one order (for example 'Stop engine').",
+      "Explain why the read-back of a telegraph order prevents a manoeuvring error, in correct engine-room English."
+    ],
+    deliverable: "A note in English listing the standard telegraph engine orders, the read-back for three of them, the action for one order, and why read-back prevents errors.",
+    assessmentCriteria: [
+      "The telegraph engine orders are recognised with correct standard English.",
+      "The read-back for the three orders is correct and complete.",
+      "The action taken for the order is correct.",
+      "The reason read-back prevents a manoeuvring error is sound, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Presente simple y there is / there are",
+    topic: "Descripción de la maquinaria y su estado en la entrega de guardia",
+    week: 7,
+    taskId: "mn-ing102-w07-describe-machinery-state",
+    taskTitle: "Hand Over The Machinery State In Present Simple",
+    scenario: "At the change of the engine-room watch you must hand over the state of the machinery to the next cadet: which units are running, which are on standby, and the key pressures and temperatures. Using 'there is' and 'there are' with the present simple, you give a clear handover.",
+    instructions: [
+      "Use 'there is' and 'there are' to state which machinery is running and which is on standby.",
+      "Use the present simple to describe the key readings (for example the lube oil pressure is 4 bar, the jacket water runs at 80 degrees C).",
+      "State any item that needs watching during the next watch.",
+      "Keep the handover accurate and easy for the next watch to act on, in correct engine-room English."
+    ],
+    deliverable: "A machinery handover in English using 'there is / there are' and the present simple to describe the running and standby equipment, the key readings, and anything to watch.",
+    assessmentCriteria: [
+      "'There is' and 'there are' are used correctly for singular and plural machinery.",
+      "The present simple correctly describes the readings and equipment state.",
+      "The item to watch is relevant and clearly stated.",
+      "The handover is accurate and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Pasado simple",
+    topic: "Parte de guardia de máquinas en pasado",
+    week: 8,
+    taskId: "mn-ing102-w08-engine-watch-report-past",
+    taskTitle: "Report The Engine Watch In The Past Simple",
+    scenario: "At the end of your engine-room watch you must report to the engineer what happened during it: you started a standby pump, changed over a fuel filter, and found and reported a small leak. You report the events in the past simple, in order.",
+    instructions: [
+      "Report the watch events in chronological order using the past simple (regular and irregular verbs).",
+      "State clearly what happened, when, and what action was taken.",
+      "Use correct past forms of common machinery verbs (for example started, stopped, changed over, checked, found, repaired).",
+      "Keep the report factual and clear enough for the engineer to log, in correct engine-room English."
+    ],
+    deliverable: "An engine watch report in English narrating the watch events in the past simple, in chronological order, with the actions taken.",
+    assessmentCriteria: [
+      "The past simple is used correctly for both regular and irregular verbs.",
+      "The events are in the correct chronological order.",
+      "What happened and the action taken are stated clearly.",
+      "The report is factual and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "DII105",
     subjectName: "Dibujo de Ingeniería",
     subjectId: "mn-s1-dibujo-ingenieria",
