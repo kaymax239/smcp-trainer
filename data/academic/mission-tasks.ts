@@ -2880,6 +2880,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Vistas ortográficas",
+    topic: "Planta, alzado y perfil",
+    week: 5,
+    taskId: "pn-dii105-w05-orthographic-views",
+    taskTitle: "Read The Three Orthographic Views Of A Deck Fitting",
+    scenario: "The officer hands the cadet an orthographic drawing of a deck fitting (a mooring bitt) showing three views, and asks the cadet to identify each view and read the shape of the fitting before it is fabricated.",
+    instructions: [
+      "Identify which view is the plan (top), which is the front elevation, and which is the side or profile view.",
+      "Explain what each view shows about the shape and dimensions of the fitting.",
+      "Describe how the three views together define the 3D form of the fitting.",
+      "Report your interpretation in clear technical English."
+    ],
+    deliverable: "A note in English identifying the plan, front elevation and side view of the fitting, what each shows, and how the three views combine to define its 3D form.",
+    assessmentCriteria: [
+      "The plan, front elevation and side view are correctly identified.",
+      "What each view shows about shape and dimensions is correct.",
+      "The explanation of how the views combine into a 3D form is sound.",
+      "The note is clear and in correct technical English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Planos del buque",
+    topic: "Disposición general, plano de cubiertas y de capacidades",
+    week: 6,
+    taskId: "pn-dii105-w06-general-arrangement-plan",
+    taskTitle: "Locate A Compartment On The General Arrangement Plan",
+    scenario: "During familiarization, the officer gives the cadet the vessel's General Arrangement plan and asks the cadet to find a named compartment and explain what the ship's plans provide for daily deck work.",
+    instructions: [
+      "State what a General Arrangement (GA) plan shows and how the decks are laid out on it.",
+      "Use the GA or deck plan to locate a named compartment and give its position (deck, fore or aft, port or starboard).",
+      "Explain what a capacity plan adds beyond the GA (tank and hold capacities).",
+      "Report how the deck officer uses these plans in daily operations, in clear technical English."
+    ],
+    deliverable: "A note in English describing the GA plan, locating a compartment from it with deck and position, the purpose of the capacity plan, and the deck officer's operational use.",
+    assessmentCriteria: [
+      "The purpose and deck layout of the GA plan are described correctly.",
+      "The compartment is located correctly with its deck and position.",
+      "The role of the capacity plan is correctly distinguished from the GA.",
+      "The operational use is relevant and in correct technical English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Trabajo en la carta náutica",
+    topic: "Trazado de rumbo, marcación y posición",
+    week: 7,
+    taskId: "pn-dii105-w07-chart-plotting-bearing",
+    taskTitle: "Plot A Position And Work A Bearing On The Chart",
+    scenario: "On the chart the cadet must fix the vessel's position and work a bearing. A lighthouse bears 065 degrees true from the vessel. A waypoint lies on the same meridian as the vessel, 12 minutes of latitude away. The officer asks the cadet to plot the position and work out the reciprocal bearing and the distance.",
+    instructions: [
+      "Explain how to plot a position on the chart using the latitude and longitude grid.",
+      "The lighthouse bears 065 degrees true from the vessel; work out the reciprocal bearing (the vessel's bearing from the lighthouse).",
+      "The waypoint lies on the same meridian, 12 minutes of latitude away; use the rule that 1 minute of latitude equals 1 nautical mile to state the distance.",
+      "Report the plotted position, the reciprocal bearing and the distance, in clear chart-work English."
+    ],
+    deliverable: "A chart-work note in English giving the method to plot the position, the reciprocal bearing, and the distance from the latitude scale, with the working shown.",
+    assessmentCriteria: [
+      "The method to plot a position from the latitude and longitude grid is described correctly.",
+      "The reciprocal bearing is correct (065 + 180 = 245 degrees).",
+      "The distance is correct (12 minutes of latitude = 12 nautical miles).",
+      "The results are reported clearly in correct chart-work English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Planos de seguridad",
+    topic: "Plano de contraincendios (fire control plan) SOLAS",
+    week: 8,
+    taskId: "pn-dii105-w08-fire-control-plan",
+    taskTitle: "Interpret The Ship's Fire Control Plan",
+    scenario: "During a fire drill the officer stands the cadet in front of the ship's fire control plan and asks the cadet to interpret it and find the fire-fighting appliances and escape route for a given deck space.",
+    instructions: [
+      "State what a fire control plan (fire and safety plan) is and why SOLAS requires it to be posted on board.",
+      "Identify three types of information or symbols shown on the plan (for example fire stations, extinguisher types, escape routes, fire doors, remote stops).",
+      "Use the plan to describe the nearest fire-fighting appliances and an escape route from a given deck space.",
+      "Explain how correct reading of the plan supports the deck team in an emergency, in clear technical English."
+    ],
+    deliverable: "A note in English interpreting the fire control plan: its purpose and SOLAS requirement, three symbol or information types, the appliances and escape route for a given space, and its value in an emergency.",
+    assessmentCriteria: [
+      "The purpose of the fire control plan and the SOLAS posting requirement are correct.",
+      "Three valid symbol or information types are identified.",
+      "The appliances and escape route are correctly read from the plan for the given space.",
+      "The emergency-use explanation is sound and in correct technical English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "C0099",
     subjectName: "Estrategias de Aprendizaje",
     subjectId: "pn-s1-estrategias-aprendizaje",
