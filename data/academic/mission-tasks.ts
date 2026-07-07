@@ -2004,6 +2004,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Potencia y energía eléctrica",
+    topic: "Potencia, energía y consumo eléctrico",
+    week: 5,
+    taskId: "pn-ele106-w05-floodlight-power-energy",
+    taskTitle: "Calculate The Power And Energy Of A Deck Floodlight",
+    scenario: "A deck floodlight runs on the 24 V DC deck lighting circuit and draws 5 A. During night cargo work it is left on for 8 hours. The officer asks the cadet to work out the power it draws and the energy it consumes.",
+    instructions: [
+      "Calculate the electrical power drawn by the floodlight using P = V x I.",
+      "Cross-check the power using P = I squared x R, first finding R from R = V / I.",
+      "Calculate the energy consumed over 8 hours using E = P x t and express it in kWh.",
+      "State each result with the correct unit, in clear deck English."
+    ],
+    deliverable: "A power-energy note in English giving the floodlight's power draw, the cross-check, and the energy consumed over 8 hours in kWh, with the working shown.",
+    assessmentCriteria: [
+      "The power is calculated correctly from P = V x I (24 x 5 = 120 W).",
+      "The cross-check P = I squared x R gives the same 120 W (R = V / I = 4.8 ohm).",
+      "The energy over 8 hours is correct (120 W x 8 h = 960 Wh = 0.96 kWh).",
+      "Results carry the correct units (W, Wh/kWh) and the note is in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Baterías y acumuladores",
+    topic: "Celdas en serie y paralelo, capacidad y autonomía",
+    week: 6,
+    taskId: "pn-ele106-w06-emergency-battery-bank",
+    taskTitle: "Size An Emergency Lighting Battery Bank",
+    scenario: "The emergency lighting battery is built from cells of 2 V and 100 Ah each. Six cells are connected in series to make one battery, and two such batteries are then connected in parallel. The emergency lighting load draws 5 A. The officer asks the cadet to work out the bank voltage, capacity and autonomy.",
+    instructions: [
+      "Find the battery voltage when six 2 V cells are connected in series (voltages add in series).",
+      "State the capacity of that battery in series (capacity does NOT add in series; it stays that of one cell).",
+      "When two such 12 V / 100 Ah batteries are connected in parallel, find the total capacity (capacities add in parallel; voltage stays the same).",
+      "Calculate the autonomy of the emergency lighting at a 5 A load using autonomy = capacity / load, and report it in clear deck English."
+    ],
+    deliverable: "A battery-bank note in English giving the series voltage, the series capacity, the parallel capacity, and the autonomy at a 5 A load, with the working shown.",
+    assessmentCriteria: [
+      "The series voltage is correct (6 x 2 V = 12 V).",
+      "The series capacity is correctly stated as unchanged (100 Ah).",
+      "The parallel capacity is correct (100 + 100 = 200 Ah at 12 V).",
+      "The autonomy is correct (200 Ah / 5 A = 40 h) and reported in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Seguridad y protección eléctrica",
+    topic: "Fusibles, puesta a tierra y riesgo eléctrico",
+    week: 7,
+    taskId: "pn-ele106-w07-fuse-earthing-safety",
+    taskTitle: "Select A Fuse And Apply Electrical Safety On Deck",
+    scenario: "A deck socket circuit normally carries a working current of 8 A. The available fuses are rated 5 A, 10 A and 15 A. The officer asks the cadet to select the correct fuse and set out the electrical safety precautions for working on a wet deck.",
+    instructions: [
+      "State the working current of the circuit and explain why a fuse must be rated just above the working current.",
+      "From the available fuses (5 A, 10 A, 15 A), select the correct one for an 8 A working current and say why the other two are wrong.",
+      "Explain the purpose of earthing (grounding) deck equipment and one way it protects the crew.",
+      "State one precaution for using electrical equipment on a wet deck, in clear deck English."
+    ],
+    deliverable: "An electrical safety note in English giving the selected fuse with its justification, the purpose of earthing, and one wet-deck precaution.",
+    assessmentCriteria: [
+      "The reason a fuse is rated just above the working current is explained correctly.",
+      "The 10 A fuse is correctly selected for the 8 A circuit, with 5 A (would blow) and 15 A (too high) correctly ruled out.",
+      "The purpose of earthing and how it protects the crew is explained correctly.",
+      "The wet-deck precaution is valid and written in clear deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Magnetismo y electromagnetismo",
+    topic: "Campo magnético y desvío del compás magnético",
+    week: 8,
+    taskId: "pn-ele106-w08-magnetism-compass-deviation",
+    taskTitle: "Explain How Electrical Equipment Affects The Magnetic Compass",
+    scenario: "The cadet notices that the magnetic compass reading shifts slightly when a nearby deck electrical circuit is switched on. The officer asks the cadet to explain the physics, at a level suitable for a first-year cadet, without formulas.",
+    instructions: [
+      "Explain what a magnetic field is and that an electric current produces a magnetic field around a conductor (electromagnetism).",
+      "Explain how nearby magnetic material or DC electrical circuits can deflect the magnetic compass (deviation).",
+      "State why the magnetic compass must be sited away from electrical equipment and what a deviation card is used for.",
+      "State one practical action the deck team takes to protect the compass from electrical interference, in clear deck English."
+    ],
+    deliverable: "A conceptual explanation in English of magnetic fields and electromagnetism, how electrical equipment causes compass deviation, the purpose of a deviation card, and one action to protect the compass.",
+    assessmentCriteria: [
+      "The magnetic field and the current-produces-a-magnetic-field idea are explained correctly.",
+      "Compass deviation from nearby magnetic material or DC circuits is explained correctly.",
+      "The reason for siting the compass away from electrical equipment and the use of a deviation card are correct.",
+      "The protective action is practical and written in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "ING102",
     subjectName: "Inglés Marítimo I",
     subjectId: "pn-s1-maritime-english-i",
