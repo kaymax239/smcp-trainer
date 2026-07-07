@@ -3343,6 +3343,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   },
   {
     career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Frases normalizadas OMI (SMCP) y marcadores de mensaje",
+    week: 5,
+    taskId: "pn-c0100-w05-smcp-message-markers",
+    taskTitle: "Use SMCP Message Markers To Remove Ambiguity",
+    scenario: "During a busy traffic situation a plain-language message from the bridge is misunderstood by the helmsman. The officer asks the cadet to rebuild the key messages using the IMO Standard Marine Communication Phrases (SMCP) and the correct message markers.",
+    instructions: [
+      "Name the SMCP message markers and what each one signals (Instruction, Advice, Warning, Information, Question, Answer, Request, Intention).",
+      "Take three plain-language shipboard messages and rewrite each with the correct message marker.",
+      "Explain why the message marker removes ambiguity for the receiver.",
+      "Deliver the three standardized messages clearly, as you would over VHF, in correct English."
+    ],
+    deliverable: "A note in English giving three shipboard messages rewritten with the correct SMCP message markers, with an explanation of how the markers remove ambiguity.",
+    assessmentCriteria: [
+      "The message markers are named correctly with what each one signals.",
+      "Each plain message is matched to the correct marker.",
+      "The ambiguity-removal reason is sound.",
+      "The standardized messages are clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación Escrita",
+    topic: "Registro factual y cronológico en el cuaderno de bitácora",
+    week: 6,
+    taskId: "pn-c0100-w06-logbook-entry",
+    taskTitle: "Write A Factual Deck Logbook Entry",
+    scenario: "At the end of the watch the officer asks the cadet to record the watch events in the deck logbook: a course alteration, a vessel passing clear, and a change in the weather. The entry must be factual, chronological and concise.",
+    instructions: [
+      "Record the watch events in chronological order, each with its time.",
+      "State each fact plainly, without opinion or unnecessary detail.",
+      "Use precise, standard terms for course, weather and traffic.",
+      "Write the entry so another officer could reconstruct the watch, in correct English."
+    ],
+    deliverable: "A deck logbook entry in English recording the watch events in chronological order, factually and concisely.",
+    assessmentCriteria: [
+      "Events are in the correct chronological order, each with its time.",
+      "Each entry is factual and free of opinion or filler.",
+      "Terminology for course, weather and traffic is precise.",
+      "The entry is clear enough to reconstruct the watch, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Escucha activa y confirmación de órdenes (lazo cerrado)",
+    week: 7,
+    taskId: "pn-c0100-w07-closed-loop-order-readback",
+    taskTitle: "Confirm Helm And Mooring Orders With Read-Back",
+    scenario: "On the bridge and at the mooring station orders must be confirmed to avoid mistakes. The officer gives the cadet a helm order, an engine order and a mooring order, and asks the cadet to apply closed-loop communication by reading each one back.",
+    instructions: [
+      "Explain what closed-loop (read-back) communication is and why it prevents errors.",
+      "For the three given orders (helm, engine, mooring), give the correct read-back of each.",
+      "State what the order-giver does after hearing the read-back to close the loop.",
+      "Describe one situation where a missing read-back could cause an accident, in correct English."
+    ],
+    deliverable: "A note in English giving the read-back for the three shipboard orders, an explanation of closed-loop communication, and one accident case from a missing read-back.",
+    assessmentCriteria: [
+      "Closed-loop communication is explained correctly.",
+      "Each order is read back correctly and completely.",
+      "The role of the order-giver in closing the loop is correct.",
+      "The accident example is relevant and written in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación integrada",
+    topic: "Comunicación en emergencia: informe oral y registro escrito",
+    week: 8,
+    taskId: "pn-c0100-w08-emergency-report-and-log",
+    taskTitle: "Report An Emergency Verbally And Record It In Writing",
+    scenario: "A small fire is discovered during cargo work. The cadet must first give a clear spoken report to the bridge and the fire party, then write the incident entry for the record. The officer assesses both the spoken report and the written record.",
+    instructions: [
+      "Give a clear spoken emergency report to the bridge stating what has happened, where, and what help is needed, using standardized phrasing.",
+      "Confirm the message was received, using read-back or acknowledgement.",
+      "Write the incident entry: time, location, what happened and action taken, factually and in order.",
+      "Ensure the spoken report and the written record agree, in correct English."
+    ],
+    deliverable: "A two-part deliverable in English: a clear spoken emergency report (what, where, help needed), and a factual chronological incident entry that matches it.",
+    assessmentCriteria: [
+      "The spoken report states what, where and the help needed, clearly and in standardized phrasing.",
+      "Receipt of the message is confirmed by read-back or acknowledgement.",
+      "The written entry is factual, timed and in chronological order.",
+      "The spoken report and the written record agree, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
     semester: "Semester III",
     subjectCode: "NAV316",
     subjectName: "Navegación I",
