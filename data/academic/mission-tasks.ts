@@ -1435,6 +1435,7 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     subjectId: "pn-s1-algebra",
     unit: "Algebra Elemental",
     topic: "Expresiones algebraicas",
+    week: 1,
     taskId: "pn-alg-stowage-expression-check",
     taskTitle: "Build A Cargo Stowage Expression",
     scenario: "The chief officer asks the cadet to express available cargo hold space after planned stowage allowances are deducted.",
@@ -1461,6 +1462,7 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     subjectId: "pn-s1-algebra",
     unit: "Ecuaciones, desigualdades y numeros complejos",
     topic: "Ecuaciones lineales y cuadraticas",
+    week: 2,
     taskId: "pn-alg-cargo-unit-equation",
     taskTitle: "Solve A Cargo Unit Conversion Equation",
     scenario: "A cargo manifest gives weight in mixed units. The cadet must solve the conversion equation before reporting the loading figure to the deck officer.",
@@ -1487,6 +1489,7 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     subjectId: "pn-s1-algebra",
     unit: "Sistemas de Ecuaciones y desigualdades",
     topic: "Sistemas de ecuaciones lineales",
+    week: 3,
     taskId: "pn-alg-fuel-stability-ratio",
     taskTitle: "Calculate Fuel Distribution Ratio",
     scenario: "Before departure, the officer asks the cadet to compare fuel distribution between tanks and identify whether the planned ratio supports basic vessel balance.",
@@ -1504,6 +1507,35 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     xp: 10,
     estimatedTime: "25 min",
     difficulty: "Foundation"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Algebra Vectorial",
+    topic: "Vectores y resolucion de problemas con fuerza, velocidad y aceleracion",
+    week: 4,
+    taskId: "pn-alg103-w04-mooring-load-vector",
+    taskTitle: "Balance Two Mooring Line Loads",
+    scenario: "During a mooring operation, two mooring lines pull on the same bollard at different angles. The officer asks the cadet to combine the two line loads as vectors and report the resultant load on the bollard.",
+    instructions: [
+      "List the load (tension) and direction of each of the two mooring lines.",
+      "Resolve each mooring line load into its components (along and across the quay).",
+      "Add the components to find the resultant load on the bollard, as magnitude and direction.",
+      "State the result with the correct unit for the mooring log, in clear deck English."
+    ],
+    deliverable: "A vector calculation in English giving the resultant load on the bollard, with each mooring line load resolved into components and the working shown.",
+    assessmentCriteria: [
+      "Both mooring line loads are represented with correct magnitude and direction.",
+      "Each load is resolved into components correctly.",
+      "The resultant load is calculated accurately as magnitude and direction.",
+      "The result is clearly stated with the correct unit in English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
   },
   {
     career: "PN",
