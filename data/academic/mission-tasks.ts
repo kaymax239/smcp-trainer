@@ -1198,6 +1198,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Sistema de propulsión",
+    topic: "Motor principal, línea de ejes, chumaceras y hélice",
+    week: 5,
+    taskId: "mn-tmo101-w05-propulsion-system-chain",
+    taskTitle: "Trace The Propulsion Chain From Engine To Propeller",
+    scenario: "The chief engineer asks the cadet to explain how power flows from the main engine to the propeller, naming each part of the propulsion system that transmits the drive.",
+    instructions: [
+      "Name the main parts of the propulsion chain in order: main engine, thrust block, intermediate and tail shafts, stern tube bearing, and propeller.",
+      "Explain how the drive is transmitted from the main engine along the shafting to the propeller.",
+      "Explain how the propeller converts shaft rotation into the thrust that moves the ship.",
+      "State the job of the thrust block and the shaft bearings, in clear engine-room English."
+    ],
+    deliverable: "An explanation in English tracing the propulsion chain from the main engine to the propeller, naming each part and its role in transmitting the drive and producing thrust.",
+    assessmentCriteria: [
+      "The parts of the propulsion chain are named correctly and in order.",
+      "The transmission of drive from engine to propeller is explained correctly.",
+      "The conversion of shaft rotation into thrust is explained correctly.",
+      "The role of the thrust block and bearings is correct, in clear engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Sistemas auxiliares del motor",
+    topic: "Combustible, aceite lubricante, refrigeración y aire de arranque",
+    week: 6,
+    taskId: "mn-tmo101-w06-engine-auxiliary-systems",
+    taskTitle: "Explain The Main Engine's Auxiliary Systems",
+    scenario: "The main engine cannot run without its auxiliary systems. The engineer asks the cadet to explain the purpose of the fuel oil, lubricating oil, cooling water and starting air systems.",
+    instructions: [
+      "State the purpose of the fuel oil system in supplying the main engine.",
+      "State the purpose of the lubricating oil system and why it protects the engine.",
+      "State the purpose of the cooling water system in controlling engine temperature.",
+      "Explain how the starting air system starts the main engine, in clear engine-room English."
+    ],
+    deliverable: "An explanation in English of the four auxiliary systems of the main engine — fuel oil, lubricating oil, cooling water and starting air — and the purpose of each.",
+    assessmentCriteria: [
+      "The purpose of the fuel oil system is correct.",
+      "The purpose of the lubricating oil system and its protective role are correct.",
+      "The purpose of the cooling water system is correct.",
+      "The starting air system's role in starting the engine is explained correctly, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Planta eléctrica del buque",
+    topic: "Generación, cuadro principal, servicios esenciales y emergencia",
+    week: 7,
+    taskId: "mn-tmo101-w07-ship-electrical-plant",
+    taskTitle: "Describe The Ship's Electrical Power Plant",
+    scenario: "The engineer asks the cadet to describe, at plant level, how the ship generates and distributes electrical power to run the auxiliaries and services, from the diesel generators to the main switchboard and the essential services.",
+    instructions: [
+      "Name the main sources of electrical power on board (the diesel generators) and the role of the prime mover.",
+      "Explain the job of the main switchboard in distributing power to the ship's services.",
+      "State which services are considered essential and why they must keep their supply.",
+      "Explain the purpose of the emergency generator and when it starts, in clear engine-room English."
+    ],
+    deliverable: "A plant-level description in English of the ship's electrical power system: the generators, the main switchboard, the essential services, and the emergency generator.",
+    assessmentCriteria: [
+      "The generators and the role of the prime mover are correctly described.",
+      "The distributing role of the main switchboard is correct.",
+      "The idea of essential services and why they are protected is correct.",
+      "The purpose and start condition of the emergency generator are correct, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Convenios internacionales y prevención de la contaminación",
+    topic: "MARPOL Anexos I y VI, OMI y clasificación en máquinas",
+    week: 8,
+    taskId: "mn-tmo101-w08-marpol-machinery-compliance",
+    taskTitle: "Apply MARPOL To Engine-Room Pollution Prevention",
+    scenario: "The chief engineer asks the cadet to connect the international conventions to concrete pollution-prevention duties in the engine room, covering oily bilge water and exhaust gas emissions.",
+    instructions: [
+      "State the role of the IMO and of a classification society in relation to the machinery spaces.",
+      "Explain what MARPOL Annex I requires for oily bilge water and the job of the oily water separator.",
+      "Explain what MARPOL Annex VI covers for exhaust gas emissions from the engine.",
+      "Give one concrete engine-room action that keeps the ship compliant, in clear engine-room English."
+    ],
+    deliverable: "A compliance note in English linking the IMO and classification society to the machinery spaces, MARPOL Annex I (oily bilge water and the oily water separator), MARPOL Annex VI (exhaust emissions), and one concrete compliant action.",
+    assessmentCriteria: [
+      "The roles of the IMO and the classification society for machinery are correct.",
+      "The Annex I requirement and the oily water separator's job are explained correctly.",
+      "The Annex VI coverage of exhaust emissions is correct.",
+      "The concrete compliant action is valid and in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "C0011",
     subjectName: "Educación Física I",
     subjectId: "mn-s1-educacion-fisica-i",
