@@ -2126,6 +2126,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Manejo manual de cargas",
+    topic: "Ergonomía y técnica segura de levantamiento en máquinas",
+    week: 5,
+    taskId: "mn-c0011-w05-manual-handling-lifting",
+    taskTitle: "Apply Safe Manual Handling In The Engine Room",
+    scenario: "A delivery of spare parts and tools must be moved into the engine room, down ladders and through narrow spaces, on floor plates that can be oily. The engineer asks the cadet to apply safe manual handling so no one is injured.",
+    instructions: [
+      "Assess the load and the route before lifting (weight, size, ladders, narrow spaces, and whether help or a lifting aid is needed).",
+      "Describe the correct lifting technique step by step (feet firm, back straight, lift with the legs, load close to the body, no twisting).",
+      "State the extra hazards of moving loads in the engine room (oily floor plates, ladders, confined spaces) and how to control them.",
+      "Explain how this technique prevents back and joint injury, in correct English."
+    ],
+    deliverable: "A safe manual-handling note in English covering the pre-lift assessment, the correct lifting technique, the engine-room hazards and their control, and the injury-prevention reason.",
+    assessmentCriteria: [
+      "The pre-lift assessment covers weight, route, ladders or narrow spaces, and the need for help or aids.",
+      "The lifting technique is described correctly and in order.",
+      "The engine-room hazards (oily plates, ladders, confined spaces) and their control are correct.",
+      "The injury-prevention reasoning is sound and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Acondicionamiento físico",
+    topic: "Rutina con peso corporal y equipo mínimo a bordo",
+    week: 6,
+    taskId: "mn-c0011-w06-onboard-conditioning-routine",
+    taskTitle: "Design A Safe Onboard Conditioning Routine",
+    scenario: "During a long voyage the engine cadet has little space and almost no equipment but must stay fit for the physical work in the engine room. The engineer asks the cadet to design a simple, balanced conditioning routine.",
+    instructions: [
+      "Design a balanced routine using bodyweight exercises for strength, mobility and cardiorespiratory fitness.",
+      "Include a warm-up and a cool-down, and say why each matters for injury prevention.",
+      "Set a sensible, sustainable frequency that fits around engine watches and rest, with no extreme targets.",
+      "Explain how the routine supports the physical demands of engine-room work, in correct English."
+    ],
+    deliverable: "A balanced onboard conditioning routine in English with a warm-up, main exercises, a cool-down, and a sustainable frequency for functional fitness.",
+    assessmentCriteria: [
+      "The routine is balanced across strength, mobility and cardiorespiratory fitness.",
+      "A warm-up and cool-down are included with the injury-prevention reason.",
+      "The frequency is sustainable and realistic around the watch routine, with no extreme targets.",
+      "The routine is clearly linked to the demands of engine-room work, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Fatiga y descanso",
+    topic: "Fisiología de la fatiga en máquinas: calor, ruido y vibración",
+    week: 7,
+    taskId: "mn-c0011-w07-fatigue-rest-management",
+    taskTitle: "Manage Fatigue From Heat, Noise And Vibration",
+    scenario: "After several days of engine-room watches the cadet feels the fatigue of working in heat, noise and vibration. The engineer asks the cadet to explain how to manage fatigue and protect rest under the work and rest hour rules.",
+    instructions: [
+      "Describe the signs of fatigue and how it affects alertness and safety on an engine watch.",
+      "Explain how the engine-room environment (heat, noise and vibration) adds to fatigue.",
+      "State the basic work and rest hour requirement and give three sleep-hygiene actions that improve rest quality on board.",
+      "Explain what to do if too fatigued to stand a safe watch, in correct English."
+    ],
+    deliverable: "A fatigue-management note in English covering the signs of fatigue, how heat, noise and vibration add to it, the rest-hour requirement, three sleep-hygiene actions, and what to do when too fatigued for a safe watch.",
+    assessmentCriteria: [
+      "The signs of fatigue and their effect on watch safety are correct.",
+      "The effect of heat, noise and vibration on fatigue is correctly explained.",
+      "The rest-hour requirement and three sleep-hygiene actions are correct and practical.",
+      "The action for being too fatigued to stand a safe watch is correct and in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Aptitud física para emergencias",
+    topic: "Demandas físicas de la respuesta desde el espacio de máquinas",
+    week: 8,
+    taskId: "mn-c0011-w08-emergency-physical-readiness",
+    taskTitle: "Prepare Physically For Engine-Room Emergencies",
+    scenario: "The vessel schedules an engine-room fire and abandon-ship drill. The engineer asks the cadet to explain the physical demands of escaping the machinery space and taking part in the response, and how to meet them safely.",
+    instructions: [
+      "List the physical demands of four emergency tasks: escaping the machinery space by the vertical escape ladders, engine-room firefighting effort, donning an immersion suit, and boarding the survival craft.",
+      "State which physical capacities each task draws on (strength, balance, endurance, coordination).",
+      "Explain how the term's training (fitness, balance, manual handling) prepares the cadet for these demands.",
+      "Give one safety point to avoid injury while performing under emergency stress, in correct English."
+    ],
+    deliverable: "A readiness note in English mapping four emergency tasks to their physical demands and capacities, how the training prepares for them, and one injury-avoidance safety point.",
+    assessmentCriteria: [
+      "The physical demands of the four emergency tasks are correctly identified.",
+      "Each task is matched to the physical capacities it draws on.",
+      "The link between the term's training and emergency readiness is sound.",
+      "The injury-avoidance safety point is valid and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "C0099",
     subjectName: "Estrategias de Aprendizaje",
     subjectId: "mn-s1-estrategias-aprendizaje",
