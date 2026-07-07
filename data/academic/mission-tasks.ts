@@ -2416,6 +2416,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Cabuyería",
+    topic: "Nudos, vueltas y costuras marineras esenciales",
+    week: 5,
+    taskId: "pn-pmr107-w05-knots-and-splices",
+    taskTitle: "Select And Tie The Right Knot For The Job",
+    scenario: "The bosun gives the cadet several small deck jobs before sailing: forming a fixed loop on a mooring line, securing a line to a rail, joining two ropes, and holding a line under strain. He asks which knot to use for each and to explain a basic eye splice.",
+    instructions: [
+      "Choose the correct knot or hitch for four common deck jobs (fixed loop, securing to a rail or ring, joining two ropes, holding under strain).",
+      "Name each knot correctly (for example bowline, clove hitch, sheet bend, rolling hitch).",
+      "Describe the steps to tie one of them and how you check it holds and can be released.",
+      "Explain when a basic eye splice is preferred over a knot, in clear deck English."
+    ],
+    deliverable: "A knot selection note matching four deck jobs to the correct named knot, with the tying steps for one knot and the case for using an eye splice.",
+    assessmentCriteria: [
+      "Each deck job is matched to a suitable knot or hitch.",
+      "The knots are named correctly.",
+      "The tying steps are accurate and include a check that it holds and releases.",
+      "The case for an eye splice is correct, in clear deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Fondeo",
+    topic: "Equipo de ancla y maniobra de fondear y levar",
+    week: 6,
+    taskId: "pn-pmr107-w06-anchoring-operation",
+    taskTitle: "Carry Out A Basic Anchoring Operation",
+    scenario: "The vessel is approaching the anchorage and the cadet is sent to the forecastle party for letting go the anchor. The officer asks the cadet to describe the ground tackle and the sequence the party will follow.",
+    instructions: [
+      "Name the main items of ground tackle used in anchoring (anchor, cable, hawse pipe, windlass) and the job of each.",
+      "Describe the sequence the forecastle party follows to let go the anchor on the officer's order.",
+      "State how the cable is reported to the bridge and how you check the anchor is holding.",
+      "Identify the anchoring day signal and how you would report weighing anchor, in clear deck English."
+    ],
+    deliverable: "An anchoring operation note naming the ground tackle, the let-go sequence, the cable and holding checks, and the anchoring signal.",
+    assessmentCriteria: [
+      "Ground tackle items are named correctly with their function.",
+      "The let-go sequence is in a safe, logical order.",
+      "Cable reporting and the holding check are correct.",
+      "The anchoring signal and weighing report are correct, in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Mantenimiento de cubierta",
+    topic: "Picado, rascado, limpieza, pintado y control de la corrosión",
+    week: 7,
+    taskId: "pn-pmr107-w07-deck-maintenance-corrosion",
+    taskTitle: "Plan A Deck Maintenance And Rust-Control Job",
+    scenario: "The bosun assigns the cadet a rusted section of bulwark and deck fittings. Before starting, the cadet must plan the job from surface preparation to painting and set out the safety precautions.",
+    instructions: [
+      "Describe the correct sequence to treat a rusted deck area: chipping or scraping, cleaning, priming, and painting.",
+      "State why surface preparation must be done before painting for the coating to protect the steel.",
+      "Identify the personal protective equipment and one safety precaution for the job.",
+      "Explain how regular deck maintenance controls corrosion and protects the vessel, in clear deck English."
+    ],
+    deliverable: "A deck maintenance plan describing the preparation-to-painting sequence, the reason for surface preparation, the PPE and safety precaution, and the corrosion-control benefit.",
+    assessmentCriteria: [
+      "The maintenance sequence is in the correct order.",
+      "The importance of surface preparation is correctly explained.",
+      "The PPE and safety precaution are appropriate for the job.",
+      "The corrosion-control benefit is clearly explained, in correct deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Maniobra de atraque y desatraque",
+    topic: "Sisga, envío de cabos a tierra, remolcadores, defensas y trabajo en equipo",
+    week: 8,
+    taskId: "pn-pmr107-w08-berthing-operation",
+    taskTitle: "Work The Deck During A Berthing Operation",
+    scenario: "The vessel is coming alongside with tug assistance and the cadet is stationed at the forward mooring station. The officer asks the cadet to describe the team's actions from passing the heaving line to making the vessel fast.",
+    instructions: [
+      "Describe how the heaving line is passed ashore and used to send the mooring lines.",
+      "State the order in which the lines are typically sent and made fast during berthing.",
+      "Explain the role of fenders and tugs in bringing the vessel safely alongside.",
+      "Identify two safety points for the mooring team (for example snap-back zones and clear communication) and report them in clear deck English."
+    ],
+    deliverable: "A berthing operation brief describing the heaving-line-to-made-fast sequence, the role of fenders and tugs, and two mooring-team safety points.",
+    assessmentCriteria: [
+      "The heaving line and line-sending procedure is described correctly.",
+      "The order of sending and making fast the lines is logical and safe.",
+      "The role of fenders and tugs is accurately explained.",
+      "The two safety points are valid and clearly reported in correct deck English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "DII105",
     subjectName: "Dibujo de Ingeniería",
     subjectId: "pn-s1-dibujo-ingenieria",
