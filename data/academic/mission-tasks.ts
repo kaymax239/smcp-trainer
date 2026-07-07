@@ -502,6 +502,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Proporciones y relaciones",
+    topic: "Relaciones de transmisión (engranes y poleas)",
+    week: 5,
+    taskId: "mn-alg103-w05-transmission-ratio",
+    taskTitle: "Find Output Speed Through Gear And Pulley Ratios",
+    scenario: "A reduction gearbox connects the engine to a pump, and a separate belt-pulley drives an auxiliary. The engineer asks the cadet to work out the output speeds, remembering that a reduction drive lowers the speed.",
+    instructions: [
+      "State the rule: for a reduction ratio, output speed = input speed / ratio (the reducer lowers the speed).",
+      "Calculate the gearbox output speed for an 1800 rpm input through a 3:1 reduction ratio.",
+      "Calculate the pulley output speed for a 1200 rpm input through a 4:1 reduction ratio.",
+      "Confirm each output is lower than its input and report the results in rpm, in clear engine-room English."
+    ],
+    deliverable: "A transmission calculation in English giving the gearbox and pulley output speeds, with the working shown and each output confirmed lower than its input.",
+    assessmentCriteria: [
+      "The rule (output = input / ratio, the reducer reduces speed) is stated correctly.",
+      "The gearbox output is correct (1800 / 3 = 600 rpm).",
+      "The pulley output is correct (1200 / 4 = 300 rpm).",
+      "Both outputs are correctly lower than their input, in clear engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Regla de tres",
+    topic: "Consumo de combustible y autonomía",
+    week: 6,
+    taskId: "mn-alg103-w06-fuel-consumption-autonomy",
+    taskTitle: "Work Out Fuel Use And Tank Autonomy",
+    scenario: "A generator burns fuel at a steady rate. The engineer asks the cadet to work out how much fuel is used over a watch and how long the service tank will last.",
+    instructions: [
+      "Calculate the fuel used over a 12-hour period at a consumption of 40 litres per hour (rule of three).",
+      "State the result in litres.",
+      "Calculate the autonomy of a 2000-litre service tank using autonomy = capacity / consumption.",
+      "Confirm the units work out (litres / (litres per hour) = hours) and report the results, in clear engine-room English."
+    ],
+    deliverable: "A fuel calculation in English giving the fuel used over the period and the tank autonomy in hours, with the working and the unit check shown.",
+    assessmentCriteria: [
+      "The fuel used is correct (40 L/h x 12 h = 480 L).",
+      "The autonomy is correct (2000 L / 40 L/h = 50 h).",
+      "The unit check (litres / (litres per hour) = hours) is shown correctly.",
+      "Results carry the correct units and the English is clear."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Despeje de fórmulas",
+    topic: "Transposición de fórmulas de máquinas (V = Q x t)",
+    week: 7,
+    taskId: "mn-alg103-w07-formula-transposition-transfer",
+    taskTitle: "Rearrange V = Q x t To Find A Transfer Time",
+    scenario: "A transfer pump moves fuel between tanks at a steady flow rate. The engineer asks the cadet to rearrange the volume-flow formula to find how long a transfer will take.",
+    instructions: [
+      "Start from V = Q x t and rearrange it to make the time t the subject.",
+      "Using a flow rate Q = 5 cubic metres per hour and a volume V = 30 cubic metres, calculate the transfer time t.",
+      "Repeat for a volume of 45 cubic metres at the same flow rate.",
+      "State both times with units and confirm they are reasonable, in clear engine-room English."
+    ],
+    deliverable: "A transposition calculation in English showing the rearranged formula t = V / Q and the two transfer times, with the working shown.",
+    assessmentCriteria: [
+      "The formula is correctly rearranged to t = V / Q.",
+      "The first time is correct (30 / 5 = 6 h).",
+      "The second time is correct (45 / 5 = 9 h).",
+      "The units (cubic metres / (cubic metres per hour) = hours) are correct, in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Porcentajes y tolerancias",
+    topic: "Desgaste, holgura vs tolerancia y carga del motor vs MCR",
+    week: 8,
+    taskId: "mn-alg103-w08-percentages-tolerances",
+    taskTitle: "Assess Wear, Clearance And Engine Load As Percentages",
+    scenario: "During maintenance the cadet must judge a worn bearing, a measured clearance and the engine load. The engineer asks the cadet to work these out as percentages and say whether each is within limits.",
+    instructions: [
+      "Calculate the percentage wear of a bearing journal that has worn from an original diameter of 200 mm to 197 mm, taking the wear as a percentage of the ORIGINAL dimension.",
+      "A maximum allowable clearance is 0.50 mm and the measured clearance is 0.40 mm; state whether it is within tolerance and by what margin as a percentage of the maximum.",
+      "Calculate the engine load as a percentage of MCR when the main engine runs at 6000 kW against an MCR of 8000 kW.",
+      "Report all three results with correct units and a clear within/over-limit conclusion, in clear engine-room English."
+    ],
+    deliverable: "A percentages note in English giving the bearing wear, the clearance judgement with its margin, and the engine load versus MCR, with the working shown.",
+    assessmentCriteria: [
+      "The bearing wear is correct (3 mm on the 200 mm original = 1.5%), taken on the ORIGINAL dimension.",
+      "The clearance is correctly judged within tolerance (0.40 <= 0.50), with the margin (0.10 mm = 20% of the maximum).",
+      "The engine load is correct (6000 / 8000 = 75% of MCR).",
+      "Results carry the correct units and a clear conclusion, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "FIS104",
     subjectName: "Física",
     subjectId: "mn-s1-fisica",
