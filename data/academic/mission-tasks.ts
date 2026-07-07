@@ -2356,6 +2356,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     difficulty: "Standard"
   },
   {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Marcadores de mensaje SMCP como técnica de comunicación",
+    week: 5,
+    taskId: "mn-c0100-w05-smcp-message-markers",
+    taskTitle: "Structure Engine-Department Messages With Message Markers",
+    scenario: "In the engine control room several messages must go out at once during a busy operation. To stop them being misread, the second engineer asks the cadet to structure the department's messages with SMCP message markers so each one signals clearly whether it is an instruction, a warning or information.",
+    instructions: [
+      "Explain what SMCP message markers do and name the markers relevant to engine-department messages (Instruction, Warning, Information, Intention).",
+      "Take three engine-department messages and structure each one with the correct marker.",
+      "Explain why marking a message removes ambiguity for the receiver.",
+      "State how the technique improves safety during a busy operation, in clear English."
+    ],
+    deliverable: "A note in English giving three engine-department messages structured with the correct SMCP message markers, with an explanation of how the markers remove ambiguity.",
+    assessmentCriteria: [
+      "The purpose of the markers and the relevant markers are named correctly.",
+      "Each message is matched to the correct marker.",
+      "The ambiguity-removal reason is sound.",
+      "The safety benefit of the technique is clear, in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación Escrita",
+    topic: "Registro factual y cronológico en el cuaderno de máquinas",
+    week: 6,
+    taskId: "mn-c0100-w06-engine-logbook-entry",
+    taskTitle: "Write A Factual Engine-Room Logbook Entry",
+    scenario: "At the end of the engine-room watch the second engineer asks the cadet to write up the engine-room logbook: a generator was started, a purifier was changed over, and an alarm came in and was cleared. The entries must be factual, chronological and concise.",
+    instructions: [
+      "Record the watch events in chronological order, each with its time.",
+      "State each fact plainly, without opinion or unnecessary detail.",
+      "Use precise, standard terms for the machinery, the readings and the alarms.",
+      "Write the entry so another engineer could reconstruct the watch, in correct English."
+    ],
+    deliverable: "An engine-room logbook entry in English recording the watch events in chronological order, factually and concisely.",
+    assessmentCriteria: [
+      "Events are in the correct chronological order, each with its time.",
+      "Each entry is factual and free of opinion or filler.",
+      "Terminology for the machinery, readings and alarms is precise.",
+      "The entry is clear enough to reconstruct the watch, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Escucha activa y confirmación de órdenes (lazo cerrado)",
+    week: 7,
+    taskId: "mn-c0100-w07-closed-loop-order-readback",
+    taskTitle: "Confirm Engine-Room Orders With Read-Back",
+    scenario: "In the engine room, orders from the duty engineer must be confirmed before they are carried out. The engineer gives the cadet three orders — to isolate a valve, to start a standby pump, and to acknowledge a telegraph order — and asks the cadet to apply closed-loop communication by reading each one back.",
+    instructions: [
+      "Explain what closed-loop (read-back) communication is and why it prevents errors in the engine room.",
+      "For the three orders (isolate a valve, start a standby pump, acknowledge a telegraph order), give the correct read-back.",
+      "State what the order-giver does after hearing the read-back to close the loop.",
+      "Describe one engine-room situation where a missing read-back could cause an accident, in correct English."
+    ],
+    deliverable: "A note in English giving the read-back for three engine-room orders, an explanation of closed-loop communication, and one accident case from a missing read-back.",
+    assessmentCriteria: [
+      "Closed-loop communication is explained correctly.",
+      "Each order is read back correctly and completely.",
+      "The role of the order-giver in closing the loop is correct.",
+      "The accident example is relevant and written in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación integrada",
+    topic: "Comunicación en emergencia de máquinas: informe oral y registro escrito",
+    week: 8,
+    taskId: "mn-c0100-w08-emergency-report-and-log",
+    taskTitle: "Report An Engine-Room Emergency Verbally And In Writing",
+    scenario: "An oil leak sprays onto a hot surface in the machinery space and begins to smoke. The cadet must first give a clear spoken report to the bridge and the duty engineer, then write the incident entry for the record. Both the spoken report and the written entry are assessed.",
+    instructions: [
+      "Give a clear spoken emergency report stating what has happened, where in the machinery space, and what help is needed, using standardized phrasing.",
+      "Confirm the message was received, using read-back or acknowledgement.",
+      "Write the incident entry: time, location, what happened and action taken, factually and in order.",
+      "Ensure the spoken report and the written record agree, in correct English."
+    ],
+    deliverable: "A two-part deliverable in English: a clear spoken emergency report (what, where in the machinery space, help needed), and a factual chronological incident entry that matches it.",
+    assessmentCriteria: [
+      "The spoken report states what, where and the help needed, clearly and in standardized phrasing.",
+      "Receipt of the message is confirmed by read-back or acknowledgement.",
+      "The written entry is factual, timed and in chronological order.",
+      "The spoken report and the written record agree, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
     career: "PN",
     semester: "Semester I",
     subjectCode: "ALG103",
