@@ -2242,6 +2242,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Toma de apuntes",
+    topic: "Método Cornell para la captura de información",
+    week: 5,
+    taskId: "mn-c0099-w05-cornell-note-taking",
+    taskTitle: "Take Cornell Notes During A Technical Briefing",
+    scenario: "The engineer runs a fast familiarization briefing on the fuel oil system before the cadet works on it, covering the valves, the operating sequence and the hazards. The cadet must capture it live with the Cornell note-taking method so nothing is missed.",
+    instructions: [
+      "Set up a Cornell page with a notes column, a cue or questions column, and a summary area at the bottom.",
+      "Capture the key points of the technical briefing in the notes column as it is delivered.",
+      "Write cue questions in the left column to test recall of the system later.",
+      "Write a short summary of the briefing at the bottom, in correct English."
+    ],
+    deliverable: "A Cornell-format note of the engine-room technical briefing in English, with the notes column, the cue questions, and a bottom summary.",
+    assessmentCriteria: [
+      "The page is set up correctly in the three Cornell areas.",
+      "The notes capture the essential briefing points without filler.",
+      "The cue questions would test recall of the key points.",
+      "The summary is accurate and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Técnicas de memorización",
+    topic: "Mnemotecnia y repaso espaciado",
+    week: 6,
+    taskId: "mn-c0099-w06-mnemonics-spaced-repetition",
+    taskTitle: "Build A Mnemonic And A Spaced-Repetition Plan",
+    scenario: "The cadet must memorize standardized engine-room content, such as the pipe colour code, the main engine starting sequence, or the names of the main engine parts. The engineer asks the cadet to build a memory aid and a spaced-repetition plan to make it stick.",
+    instructions: [
+      "Choose one standardized engine-room set to memorize (for example the pipe colour code, the main engine starting sequence, engine part names, or the phonetic alphabet for equipment codes).",
+      "Create a mnemonic or memory aid that links the items to something easy to recall.",
+      "Design a spaced-repetition schedule (for example review after 1 day, 3 days, 1 week) and say why spacing beats cramming.",
+      "Explain how you would test yourself to confirm retention, in correct English."
+    ],
+    deliverable: "A memory plan in English with the chosen engine-room content set, a mnemonic, a spaced-repetition schedule, and a self-test method.",
+    assessmentCriteria: [
+      "The chosen content set is a real standardized engine-room body of knowledge.",
+      "The mnemonic genuinely aids recall of the items.",
+      "The spaced-repetition schedule is sound and its advantage over cramming is explained.",
+      "The self-test method would confirm retention, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Gestión del tiempo",
+    topic: "Priorización y plan de estudio a bordo",
+    week: 7,
+    taskId: "mn-c0099-w07-time-management-study-plan",
+    taskTitle: "Plan Study Around The Engine-Room Routine",
+    scenario: "The engine cadet stands watches, has planned maintenance jobs to attend, and must take the required rest under the work and rest hour rules. The engineer asks the cadet to build a realistic weekly study plan that fits studying around the engine-room routine.",
+    instructions: [
+      "Map the fixed blocks of a typical day: engine watches, planned maintenance, meals and required rest.",
+      "Identify the realistic time windows that are left for study.",
+      "Prioritize the study tasks (urgent and important) and assign them to the available windows.",
+      "Explain how the plan respects the rest requirements and stays realistic, in correct English."
+    ],
+    deliverable: "A weekly study plan in English mapping the engine watches, maintenance, rest and study windows, with prioritized study tasks assigned to realistic slots.",
+    assessmentCriteria: [
+      "The daily fixed blocks (watch, maintenance, rest) are mapped correctly.",
+      "The study windows identified are realistic given the routine.",
+      "Study tasks are prioritized sensibly and assigned to the windows.",
+      "The plan respects the rest requirements and is realistic, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Metacognición",
+    topic: "Autoevaluación y bitácora de aprendizaje",
+    week: 8,
+    taskId: "mn-c0099-w08-metacognition-learning-log",
+    taskTitle: "Reflect On Your Learning With A Learning Log",
+    scenario: "As the engine-room training term closes, the engineer asks the cadet to look back at which study strategies worked best for the technical subjects, measure progress against the training objectives, and start a learning log that sets the next steps.",
+    instructions: [
+      "Assess your progress against two or three training objectives, with honest evidence from the technical work.",
+      "Identify which learning strategies (notes, mnemonics, planning) worked best for the machinery subjects and which did not.",
+      "Record the reflection in a learning-log entry with a date and concrete next actions.",
+      "Explain how honest self-assessment supports continuous professional development for an engineer at sea, in correct English."
+    ],
+    deliverable: "A learning-log entry in English assessing progress against the objectives, evaluating which strategies worked for the technical subjects, with a date and concrete next actions.",
+    assessmentCriteria: [
+      "Progress is assessed against clear objectives with honest evidence.",
+      "The evaluation of which strategies worked is specific and self-aware.",
+      "The log entry is dated and gives concrete next actions.",
+      "The link to continuous professional development is sound, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "C0100",
     subjectName: "Expresión Oral y Escrita",
     subjectId: "mn-s1-expresion-oral-escrita",
