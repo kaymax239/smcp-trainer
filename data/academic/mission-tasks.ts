@@ -274,6 +274,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     difficulty: "Standard"
   },
   {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Maritimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Tipos de carga y su manipulacion en cubierta",
+    topic: "Carga general, granel solido, granel liquido, contenedores, refrigerada y peligrosa (IMDG)",
+    week: 5,
+    taskId: "pn-tmo101-w05-cargo-types-handling",
+    taskTitle: "Classify Cargoes And Their Deck Handling Needs",
+    scenario: "A multipurpose vessel is loading a mixed consignment at a general cargo berth. The chief officer hands the cadet the loading list and asks how each cargo must be handled on deck before the gangs start work.",
+    instructions: [
+      "Classify four consignments from the loading list by cargo type: general, dry bulk, liquid bulk, container, reefer, or dangerous (IMDG).",
+      "State one defining handling requirement on deck for each cargo type.",
+      "Identify which consignment needs special attention (for example reefer temperature control or IMDG segregation) and explain why.",
+      "Report the classification in clear deck English for the cargo officer."
+    ],
+    deliverable: "A cargo classification note listing four consignments by type, each with its deck handling requirement and the special-attention item clearly identified.",
+    assessmentCriteria: [
+      "Each consignment is classified with the correct cargo type.",
+      "Handling requirements match the characteristics of each cargo.",
+      "The special-attention cargo is correctly identified and justified.",
+      "The note is clear and in correct deck English."
+    ],
+    xp: 15,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Maritimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Estiba y distribucion de la carga",
+    topic: "Plan de estiba, segregacion, trincado y distribucion de pesos",
+    week: 6,
+    taskId: "pn-tmo101-w06-stowage-plan-securing",
+    taskTitle: "Draft A Stowage And Securing Plan",
+    scenario: "Before a coastal passage where moderate swell is forecast, the chief officer asks the cadet to draft a basic stowage plan for a general cargo of drums, bagged goods and one container carried on deck.",
+    instructions: [
+      "Assign a hold or deck position to at least three consignments in a basic stowage plan.",
+      "Apply one segregation rule to keep incompatible or fragile cargoes apart.",
+      "Specify a lashing or securing method for the cargo carried on deck for the expected sea conditions.",
+      "Explain how your weight distribution keeps the vessel in safe trim, in clear deck English."
+    ],
+    deliverable: "A stowage and securing plan note assigning positions to the consignments, with the segregation rule, the lashing method, and a weight-distribution justification.",
+    assessmentCriteria: [
+      "Stowage positions are logical for the cargo and the vessel.",
+      "The segregation rule is correctly applied to keep incompatible cargoes apart.",
+      "The securing method is appropriate for deck cargo in the forecast conditions.",
+      "Weight distribution is justified for safe trim, in correct deck English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Maritimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Estabilidad basica del buque y la carga",
+    topic: "Centro de gravedad, GM operativo, superficie libre y efecto de la estiba",
+    week: 7,
+    taskId: "pn-tmo101-w07-stability-cargo-effect",
+    taskTitle: "Assess How Cargo Affects Basic Stability",
+    scenario: "After a day of loading, a heavy lift has been stowed high on deck and one ballast tank has been left slack. The officer asks the cadet to explain to the junior crew how the day's stowage changed the vessel's stability.",
+    instructions: [
+      "Explain what the centre of gravity (G) and the metacentric height (GM) tell the officer about the vessel's stability.",
+      "Describe how stowing heavy cargo high versus low moves G and changes the GM.",
+      "Explain the free surface effect of the slack tank and why it reduces stability.",
+      "Recommend one stowage or ballast action to keep a safe positive GM, in clear deck English."
+    ],
+    deliverable: "A stability note explaining G and GM in operational terms, the effect of cargo height and the slack tank, and one recommended action to maintain a safe positive GM.",
+    assessmentCriteria: [
+      "The roles of G and GM are explained correctly in operational terms.",
+      "The effect of high versus low cargo on G and GM is correct.",
+      "The free surface effect of the slack tank is explained accurately.",
+      "The recommended action would maintain a safe positive GM, in correct deck English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Maritimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Seguridad operacional y convenios internacionales",
+    topic: "SOLAS, MARPOL y STCW aplicados a operaciones de cubierta",
+    week: 8,
+    taskId: "pn-tmo101-w08-conventions-deck-operations",
+    taskTitle: "Apply SOLAS, MARPOL And STCW To A Deck Operation",
+    scenario: "The vessel is about to begin cargo operations and prepare for departure. The officer asks the cadet to connect the three main international conventions to the concrete actions the deck team must take during the operation.",
+    instructions: [
+      "State the main purpose of SOLAS, MARPOL and STCW in one line each.",
+      "Give one concrete deck action required by each convention during cargo operations or departure.",
+      "Identify one pollution-prevention measure the deck team applies during bunkering or cargo work, and attribute it to MARPOL.",
+      "Explain how STCW watchkeeping standards keep the deck operation safe, in clear deck English."
+    ],
+    deliverable: "A deck compliance brief linking SOLAS, MARPOL and STCW each to a concrete deck action, with the pollution-prevention measure and the watchkeeping standard clearly identified.",
+    assessmentCriteria: [
+      "The main purpose of each convention is stated correctly.",
+      "Each convention is linked to a valid, concrete deck action.",
+      "The pollution-prevention measure is appropriate and correctly attributed to MARPOL.",
+      "The brief connects watchkeeping competence to operational safety, in correct deck English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
     career: "MN",
     semester: "Semester I",
     subjectCode: "ALG103",
