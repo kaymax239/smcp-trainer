@@ -2648,6 +2648,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Manejo manual de cargas",
+    topic: "Ergonomía y técnica segura de levantamiento",
+    week: 5,
+    taskId: "pn-c0011-w05-manual-handling-lifting",
+    taskTitle: "Apply Safe Manual Handling On Deck",
+    scenario: "Stores have come aboard and the cadet must help move heavy provisions and gear along the deck. The officer asks the cadet to apply safe manual handling so no one strains their back.",
+    instructions: [
+      "Assess the load and the route before lifting (weight, size, obstacles, and whether help or a trolley is needed).",
+      "Describe the correct lifting technique step by step (feet apart, back straight, lift with the legs, load close to the body, no twisting).",
+      "State when a load should not be lifted alone and what the safe alternative is (team lift or mechanical aid).",
+      "Explain how this technique prevents back and joint injury, in correct English."
+    ],
+    deliverable: "A safe manual-handling note in English covering the pre-lift assessment, the correct lifting technique, when not to lift alone, and the injury-prevention reason.",
+    assessmentCriteria: [
+      "The pre-lift assessment covers weight, route, and the need for help or aids.",
+      "The lifting technique is described correctly and in order.",
+      "The limit on lifting alone and the safe alternative are correct.",
+      "The injury-prevention reasoning is sound and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Acondicionamiento físico",
+    topic: "Rutina con peso corporal y equipo mínimo a bordo",
+    week: 6,
+    taskId: "pn-c0011-w06-onboard-conditioning-routine",
+    taskTitle: "Design A Safe Onboard Conditioning Routine",
+    scenario: "On a long voyage there is little space and almost no gym equipment. The officer asks the cadet to design a simple, balanced conditioning routine to keep the functional fitness needed for deck duties.",
+    instructions: [
+      "Design a balanced routine using bodyweight exercises for strength, mobility and cardiorespiratory fitness.",
+      "Include a warm-up and a cool-down, and say why each matters for injury prevention.",
+      "Set a sensible, sustainable frequency that fits around watches and rest, with no extreme targets.",
+      "Explain how the routine supports the physical demands of deck work, in correct English."
+    ],
+    deliverable: "A balanced onboard conditioning routine in English with a warm-up, main exercises, a cool-down, and a sustainable frequency for functional fitness.",
+    assessmentCriteria: [
+      "The routine is balanced across strength, mobility and cardiorespiratory fitness.",
+      "A warm-up and cool-down are included with the injury-prevention reason.",
+      "The frequency is sustainable and realistic around the watch routine, with no extreme targets.",
+      "The routine is clearly linked to the demands of deck work, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Fatiga y descanso",
+    topic: "Fisiología de la fatiga, higiene del sueño y horas de descanso",
+    week: 7,
+    taskId: "pn-c0011-w07-fatigue-rest-management",
+    taskTitle: "Manage Fatigue And Rest Under A Watch Rotation",
+    scenario: "After several days on a watch rotation the cadet notices signs of fatigue on the night watch. The officer asks the cadet to explain how to manage fatigue and protect rest under the work and rest hour rules.",
+    instructions: [
+      "Describe the signs of fatigue and how it affects alertness and safety on watch.",
+      "State the basic work and rest hour requirement and why protected rest matters.",
+      "Give three sleep-hygiene actions that improve rest quality on board (for example a dark cabin, limiting caffeine before rest, a wind-down routine).",
+      "Explain what to do if too fatigued to stand a safe watch, in correct English."
+    ],
+    deliverable: "A fatigue-management note in English covering the signs of fatigue, the rest-hour requirement, three sleep-hygiene actions, and what to do when too fatigued for a safe watch.",
+    assessmentCriteria: [
+      "The signs of fatigue and their effect on watch safety are correct.",
+      "The rest-hour requirement and the value of protected rest are stated correctly.",
+      "The three sleep-hygiene actions are practical and effective.",
+      "The action for being too fatigued to stand a safe watch is correct and in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Aptitud física para emergencias",
+    topic: "Demandas físicas de los ejercicios de emergencia",
+    week: 8,
+    taskId: "pn-c0011-w08-emergency-physical-readiness",
+    taskTitle: "Prepare Physically For Emergency Drills",
+    scenario: "The vessel schedules an abandon-ship and firefighting drill. The officer asks the cadet to explain the physical demands of the tasks involved and how to meet them safely.",
+    instructions: [
+      "List the physical demands of four emergency tasks: donning an immersion suit, climbing the pilot ladder, boarding the survival craft, and firefighting effort.",
+      "State which physical capacities each task draws on (strength, balance, endurance, coordination).",
+      "Explain how the term's training (fitness, balance, swimming, manual handling) prepares the cadet for these demands.",
+      "Give one safety point to avoid injury while performing under emergency stress, in correct English."
+    ],
+    deliverable: "A readiness note in English mapping four emergency tasks to their physical demands and capacities, how the training prepares for them, and one injury-avoidance safety point.",
+    assessmentCriteria: [
+      "The physical demands of the four emergency tasks are correctly identified.",
+      "Each task is matched to the physical capacities it draws on.",
+      "The link between the term's training and emergency readiness is sound.",
+      "The injury-avoidance safety point is valid and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "PMR107",
     subjectName: "Prácticas Marineras I",
     subjectId: "pn-s1-practicas-marineras-i",
