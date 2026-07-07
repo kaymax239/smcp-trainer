@@ -1546,6 +1546,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Cabuyería",
+    topic: "Nudos, vueltas y costuras marineras esenciales",
+    week: 5,
+    taskId: "mn-pmr107-w05-knots-and-splices",
+    taskTitle: "Choose And Tie The Right Knot For Each Job",
+    scenario: "As part of basic seamanship training, the engine cadet is set several rope jobs on deck: making a fixed loop, tying a line to a rail, joining two ropes of different size, and securing a line that is under load. The instructor asks which knot fits each job and how a simple eye splice is formed.",
+    instructions: [
+      "Choose the correct knot or hitch for four rope jobs: a fixed loop, a line made fast to a rail or ring, two ropes joined, and a line held under load.",
+      "Name each knot correctly (for example bowline, clove hitch, sheet bend, rolling hitch).",
+      "Describe how one of them is tied and how you check it will hold and can be cast off.",
+      "Explain when a basic eye splice is used instead of a knot, in clear English."
+    ],
+    deliverable: "A note in English matching four rope jobs to the correct named knot, with the tying steps for one knot and the case for using an eye splice.",
+    assessmentCriteria: [
+      "Each rope job is matched to a suitable knot or hitch.",
+      "The knots are named correctly.",
+      "The tying steps are accurate and include a check that it holds and casts off.",
+      "The eye-splice case is correct, in clear English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Fondeo",
+    topic: "Equipo de ancla y maniobra de fondear y levar",
+    week: 6,
+    taskId: "mn-pmr107-w06-anchoring-operation",
+    taskTitle: "Support The Forecastle Party During Anchoring",
+    scenario: "The engine cadet is detailed to help the forecastle party during anchoring stations. The chief mate asks the cadet to list the anchor gear and to set out, in order, what happens when the anchor is let go and when it is later weighed.",
+    instructions: [
+      "Name the main items of ground tackle used in anchoring (anchor, cable, hawse pipe, windlass) and what each does.",
+      "Set out, in order, the steps the forecastle party takes to let go the anchor on the officer's order.",
+      "State how the cable is reported to the bridge and how the party checks the anchor is holding.",
+      "Identify the anchoring day signal and how weighing anchor is reported, in clear English."
+    ],
+    deliverable: "A note in English naming the ground tackle, the let-go sequence, the cable and holding checks, and the anchoring signal.",
+    assessmentCriteria: [
+      "Ground tackle items are named correctly with their function.",
+      "The let-go sequence is in a safe, logical order.",
+      "Cable reporting and the holding check are correct.",
+      "The anchoring signal and the weighing report are correct, in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Mantenimiento de cubierta",
+    topic: "Picado, rascado, limpieza, pintado y control de la corrosión",
+    week: 7,
+    taskId: "mn-pmr107-w07-deck-maintenance-corrosion",
+    taskTitle: "Plan A Rust-Control And Painting Job",
+    scenario: "On a maintenance day the engine cadet is given a rusted handrail and a set of external fittings to bring back to good order. Before starting, the cadet must plan the job from cleaning through to painting and list the safety gear.",
+    instructions: [
+      "Set out the correct order to treat the rusted area: chipping or scraping, cleaning, priming, and painting.",
+      "State why the surface must be prepared before painting for the coating to protect the metal.",
+      "Identify the protective equipment and one safety precaution for the job.",
+      "Explain how routine upkeep controls corrosion and protects the vessel, in clear English."
+    ],
+    deliverable: "A maintenance plan in English with the preparation-to-painting order, the reason for surface preparation, the protective equipment, and the corrosion-control benefit.",
+    assessmentCriteria: [
+      "The maintenance order is correct.",
+      "The importance of surface preparation is correctly explained.",
+      "The protective equipment and safety precaution are appropriate.",
+      "The corrosion-control benefit is clearly explained, in clear English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Maniobra de atraque y desatraque",
+    topic: "Sisga, envío de cabos a tierra, remolcadores, defensas y trabajo en equipo",
+    week: 8,
+    taskId: "mn-pmr107-w08-berthing-operation",
+    taskTitle: "Work The After Station During Berthing",
+    scenario: "During arrival in port the engine cadet is sent to the after mooring station to help the team. With a tug assisting, the officer asks the cadet to describe what the station does from receiving the heaving line to making the stern lines fast.",
+    instructions: [
+      "Describe how the heaving line is used to pass the mooring lines between ship and shore.",
+      "State the order in which the stern lines are typically sent and made fast during berthing.",
+      "Explain the role of fenders and the tug in bringing the vessel safely alongside.",
+      "Identify two safety points for the mooring team (for example snap-back zones and clear communication) and report them in clear English."
+    ],
+    deliverable: "A berthing note in English describing the heaving-line-to-made-fast sequence at the after station, the role of fenders and the tug, and two mooring-team safety points.",
+    assessmentCriteria: [
+      "The heaving line and line-passing procedure is described correctly.",
+      "The order of sending and making fast the stern lines is logical and safe.",
+      "The role of fenders and the tug is accurately explained.",
+      "The two safety points are valid and clearly reported in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "TMO101",
     subjectName: "Transporte Marítimo",
     subjectId: "mn-s1-transporte-maritimo",
