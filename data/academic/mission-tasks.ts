@@ -8796,6 +8796,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Aparejos y maniobras de fuerza",
+    topic: "Motones, cuadernales y ventaja mecanica para izar piezas de maquinas",
+    week: 5,
+    taskId: "mn-pmr321-w05-engine-room-lifting-tackle",
+    taskTitle: "Lift An Engine Part With A Block And Tackle",
+    scenario: "A heavy engine part, a cylinder head, must be lifted with a block and tackle from the engine-room derrick. The engineer asks the cadet to name the gear and work out the mechanical advantage, so the effort needed and the safe use of the tackle are understood.",
+    instructions: [
+      "Name the parts of the tackle: the blocks (the standing block and the moving block) with their sheaves, and the fall (the rope rove through them).",
+      "State that the ideal mechanical advantage equals the number of rope parts that support the moving block, and that friction in the sheaves increases the real effort needed.",
+      "For a tackle with 5 parts supporting the load, the mechanical advantage is 5, so a 150 kg cylinder head is lifted with an ideal effort of 150 / 5 = 30 kg; verify with effort x mechanical advantage = 30 x 5 = 150 kg.",
+      "State one safe-use rule for working with tackles in the engine room (for example do not exceed the safe working load, keep hands clear of the blocks, and never let the load pass over personnel). Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English naming the parts of a tackle, stating the mechanical advantage rule, working out the 5-part example (150 kg lifted with 30 kg of effort) with the check, and giving one safe-use rule.",
+    assessmentCriteria: [
+      "The parts of the tackle (blocks, sheaves, fall) are correctly named.",
+      "The mechanical advantage rule is correct (number of parts supporting the moving block), with friction noted.",
+      "The calculation is correct (150 / 5 = 30 kg) and verified (30 x 5 = 150 kg).",
+      "One sound safe-use rule is given (SWL, hands clear, load never over personnel), in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Operaciones de remolque",
+    topic: "Equipo, catenaria y zonas de latigazo (snap-back); disponibilidad de maquina en el remolque",
+    week: 6,
+    taskId: "mn-pmr321-w06-towing-engine-role",
+    taskTitle: "Support A Tow From The Engine Room And Control Snap-Back",
+    scenario: "The ship rigs for a towing operation and the engine room must support it. The engineer asks the cadet to describe the towing gear and its physics, the machinery's part in the tow, and above all the deadly snap-back danger that threatens the whole crew.",
+    instructions: [
+      "Name the towing gear and its physics: the tow line (rope or wire), the strengthened bitts and the shackles, and the catenary (the sag in the tow line that absorbs shock loads).",
+      "Explain the engine room's part in the tow: keeping the main engine ready and on continuous availability, responding to sudden demands for power, and having the steering gear operational.",
+      "Describe the snap-back danger with full seriousness: a line under tension that parts whips back violently along its line of pull; identify the snap-back zones and state that no one must ever stand in the line of pull or in the bight of the rope, a danger that also applies to engine staff who come on deck.",
+      "State one further measure to keep everyone safe during the tow. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English naming the towing gear and catenary, explaining the engine room's part (engine ready, power on demand, steering operational), and describing the snap-back danger and its zones for the whole crew.",
+    assessmentCriteria: [
+      "The towing gear and the catenary's shock-absorbing role are correct.",
+      "The engine room's part (continuous availability, response to power demands, steering) is correct.",
+      "The snap-back danger is correctly and seriously described, with the rule never to stand in the line of pull or the bight, applying to engine staff on deck too.",
+      "One sound further safety measure is given, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Marinería en mal tiempo",
+    topic: "Trincado en la sala de maquinas, transito seguro y preparacion de la planta antes del temporal",
+    week: 7,
+    taskId: "mn-pmr321-w07-engine-room-heavy-weather",
+    taskTitle: "Prepare The Engine Room For Heavy Weather",
+    scenario: "Heavy weather is forecast. The engineer asks the cadet to prepare the engine room: secure everything inside the machinery space, move safely once the ship is rolling hard, and ready the plant before the storm. This complements, and does not repeat, the securing of the deck.",
+    instructions: [
+      "Describe how loose items inside the machinery space are lashed and secured: spares, tools, chain blocks and lifting chains, and manhole and inspection covers.",
+      "State the rules for safe transit through the engine room in a heavy roll: one hand for the ship on the ladders and the plate floors, and watching footing on oily or wet gratings.",
+      "Explain how the plant is readied before the storm: auxiliaries ready and running as needed, the bilge and pumping systems checked, and tanks and soundings verified.",
+      "State one further precaution specific to the engine room before heavy weather. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English covering the securing of items inside the machinery space, safe transit in a heavy roll, and readying the plant (auxiliaries, bilge systems, tanks and soundings) before the storm.",
+    assessmentCriteria: [
+      "The securing of engine-room items (spares, tools, chain blocks, covers) is correctly described.",
+      "The safe-transit rules for the machinery space in a heavy roll are sound.",
+      "The plant preparation (auxiliaries, bilge systems, tanks and soundings) is correct.",
+      "One further engine-room precaution is given, complementing the deck, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Hombre al agua y embarcación de rescate",
+    topic: "Acciones inmediatas, respuesta de maquinas al Williamson y embarcacion de rescate lista para arriar",
+    week: 8,
+    taskId: "mn-pmr321-w08-man-overboard-engine-response",
+    taskTitle: "Support A Man-Overboard Recovery From The Engine Room",
+    scenario: "A man overboard is called and the engine room must support the recovery. As the closing task of the subject, the engineer asks the cadet to set out the immediate all-crew actions and, above all, the engine department's part during the manoeuvre and in readying the rescue boat.",
+    instructions: [
+      "State the immediate actions that any crew member takes: throw a lifebuoy (with light and smoke) to the casualty, mark the position, and post a dedicated lookout who points continuously at the person in the water.",
+      "Explain the engine department's part during the recovery: the bridge carries out the Williamson turn, and the engine room responds immediately to the changes of engine régime it calls for (astern, stop, stand-by), keeping the engine ready for rapid manoeuvring.",
+      "Describe the engine department's support in readying the rescue boat for lowering (launching), without repeating the engine start and maintenance covered in week 1.",
+      "State one recovery consideration for getting the casualty back on board. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English giving the immediate all-crew actions for a man overboard, the engine department's part during the Williamson turn (rapid response to régime changes), the support in readying the rescue boat for launching, and one recovery consideration.",
+    assessmentCriteria: [
+      "The immediate actions (lifebuoy, mark position, continuous lookout) are correct.",
+      "The engine department's rapid response to the régime changes of the Williamson turn is correct.",
+      "The support in readying the rescue boat for launching is correct, without repeating the week 1 engine start/maintenance.",
+      "One sound recovery consideration is given, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "C0011",
     subjectName: "Educación Física III",
     subjectId: "mn-s3-educacion-fisica-iii",
