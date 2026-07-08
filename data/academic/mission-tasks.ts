@@ -9724,6 +9724,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Previsión a bordo",
+    topic: "El barómetro y la tendencia bárica como herramienta predictiva del oficial",
+    week: 5,
+    taskId: "pn-met532-w05-barometric-tendency",
+    taskTitle: "Read The Barometer And Its Three-Hour Tendency",
+    scenario: "The officer asks the cadet to read the aneroid barometer and use its three-hour tendency to forecast the weather, following on from the depression of week 1, which the barometer detects before the sky shows it.",
+    instructions: [
+      "State how the aneroid barometer is read and its corrections as a concept: the instrument is read in hectopascals (hPa) and, for a true comparison, the reading is corrected for the height of the instrument above the waterline (a higher instrument reads lower), so that successive readings are compared on the same basis.",
+      "Define the three-hour tendency as the officer's predictive tool: tendency = later reading minus earlier reading, so a falling (negative) pressure means the weather is deteriorating and a low is approaching, while a rising (positive) pressure means it is improving.",
+      "Work the example: at 0900 the barometer reads 1012.0 hPa and at 1200 it reads 1007.5 hPa, so the tendency = 1007.5 - 1012.0 = -4.5 hPa in three hours; the negative sign confirms the pressure is falling. Interpret it with the classic guide thresholds: about 1-2 hPa/3h is a gradual change, about 3-5 hPa/3h (as here) a marked deterioration approaching, and more than 5-6 hPa/3h a severe gale warning.",
+      "Connect to week 1: the passing depression is read on the barometer before it is seen in the sky, so a marked fall warns the bridge to prepare early. Report the tendency with its sign and your forecast in clear maritime English."
+    ],
+    deliverable: "A note in English reading the barometer (corrected for instrument height as a concept) and computing the three-hour tendency (1007.5 - 1012.0 = -4.5 hPa/3h, falling), interpreted against the guide thresholds as a marked deterioration and linked to the week 1 depression.",
+    assessmentCriteria: [
+      "The barometer reading and the instrument-height correction concept are correctly explained.",
+      "The tendency is computed with the correct sign (1007.5 - 1012.0 = -4.5 hPa/3h, negative = falling).",
+      "The interpretation is correct (a 4-5 hPa/3h fall is a marked deterioration on the guide thresholds).",
+      "The link to the week 1 depression and the predictive value are correct, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "El viento",
+    topic: "Viento real y viento aparente: el triángulo de vientos y la escala Beaufort",
+    week: 6,
+    taskId: "pn-met532-w06-true-apparent-wind",
+    taskTitle: "Find The True Wind From The Apparent Wind",
+    scenario: "The anemometer on the bridge measures the apparent wind. The officer asks the cadet to explain the wind triangle and recover the true wind, and to read the sea in Beaufort terms.",
+    instructions: [
+      "State the wind triangle: a moving vessel creates its own wind equal and opposite to its velocity, so the anemometer measures the apparent wind = the vector sum of the true wind and the vessel's wind; the true wind is recovered by subtracting the vessel's velocity vector from the apparent wind.",
+      "Work the clean head-on case: the vessel steams due north at 10 knots and the true wind is from the north (on the bow) at 15 knots; the vectors are colinear, so the apparent wind = 15 + 10 = 25 knots from the north (ahead).",
+      "Work the following case: the true wind is now from the south (astern) at 15 knots, so the apparent wind = 15 - 10 = 5 knots from the south; note the sense-check: with a head wind the apparent is always greater than the true (25 > 15), and with a following wind it is always less (5 < 15).",
+      "Describe the beam-wind case qualitatively only: with the true wind on the beam the apparent wind draws forward toward the bow relative to the true, without solving the oblique triangle numerically. Anchor the strength to the Beaufort scale as the common language of wind and sea (for example Force 4, about 11-16 knots, a moderate breeze; Force 8, about 34-40 knots, a gale). Report the true and apparent winds in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the wind triangle and recovering the true wind: the head-on case (apparent = 15 + 10 = 25 knots), the following case (apparent = 15 - 10 = 5 knots), the sense-check (head wind greater, following wind less), the beam case qualitatively, and two Beaufort anchors.",
+    assessmentCriteria: [
+      "The wind triangle is correctly stated (apparent = true + vessel's wind; true recovered by subtracting the vessel's vector).",
+      "The head-on case is correct (15 + 10 = 25 knots) and the following case is correct (15 - 10 = 5 knots).",
+      "The sense-check is correct (head wind: apparent greater; following wind: apparent less) and the beam case is described qualitatively.",
+      "The Beaufort anchors are correct (e.g. F4 ~11-16 kn, F8 ~34-40 kn), in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Visibilidad",
+    topic: "Niebla y visibilidad reducida: advección, radiación y el punto de rocío como predictor",
+    week: 7,
+    taskId: "pn-met532-w07-fog-reduced-visibility",
+    taskTitle: "Forecast Fog And Reduced Visibility",
+    scenario: "Conditions are turning misty. The officer asks the cadet to identify the type of fog forming, to forecast it from the dew point, and to state the meteorological watchkeeping actions for reduced visibility.",
+    instructions: [
+      "Explain advection fog: it forms when warm, moist air flows over a colder sea, cooling the air to saturation; it is the classic sea fog, persistent, can extend over large areas and can arrive even with a working breeze.",
+      "Explain radiation fog: it forms by nocturnal cooling of the land, is coastal and typical of early morning in calm conditions, and burns off as the sun heats the ground; it matters near the coast rather than in the open sea.",
+      "Use the dew point as the predictor: when the air temperature falls close to the dew point over cold water, saturation is near and fog is imminent, so a narrowing air-to-dew-point spread is the warning to watch.",
+      "State the officer's meteorological-operational actions for reduced visibility: intensified lookout, reduce to a safe speed, and make and log weather reports. Boundary: the anti-collision manoeuvring in restricted visibility is COLREGs and belongs to Navegacion III week 8; here the concern is the phenomenon and its forecast. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English distinguishing advection fog (warm moist air over a cold sea) from radiation fog (nocturnal, coastal, burns off), using the dew point as the predictor, and listing the meteorological watchkeeping actions, with the anti-collision manoeuvre left to Navegacion III week 8.",
+    assessmentCriteria: [
+      "Advection fog is correct (warm, moist air over a colder sea, not the reverse) and persistent/sea fog.",
+      "Radiation fog is correct (nocturnal cooling, coastal, burns off with the sun).",
+      "The dew point predictor is correct (air temperature approaching the dew point over cold water = fog imminent).",
+      "The meteorological watchkeeping actions are sound and the COLREGs boundary is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Ciclones tropicales",
+    topic: "La evitación del ciclón tropical: maniobra por semicírculo y regla 1-2-3",
+    week: 8,
+    taskId: "pn-met532-w08-cyclone-avoidance",
+    taskTitle: "Manoeuvre To Avoid A Tropical Cyclone",
+    scenario: "A tropical cyclone lies near the route. As the closing task of the subject, the officer asks the cadet to turn the semicircles of week 2 into a manoeuvring decision, being exact about left and right.",
+    instructions: [
+      "State which side is dangerous and why: in the NORTHERN hemisphere the dangerous semicircle is the RIGHT-hand side of the cyclone's track and the navigable semicircle is the left; in the SOUTHERN hemisphere it is reversed, the dangerous semicircle is the LEFT-hand side. The physical reason: on the dangerous side the cyclone's rotary wind adds to the system's forward speed, so the wind is stronger and tends to blow the vessel into the storm's path.",
+      "Give the practical manoeuvre by semicircle (northern hemisphere): if the vessel is in the dangerous (right) semicircle, bring the wind on the STARBOARD BOW and make best speed to haul away from the track; if in the navigable (left) semicircle, bring the wind on the STARBOARD QUARTER and run to open the distance.",
+      "State the extent to keep clear of: allow for the radius of dangerous winds around the centre, and apply the 1-2-3 rule for the forecast track error, which grows by 100, 200 and 300 nautical miles at 24, 48 and 72 hours, so the area to avoid widens with the forecast horizon.",
+      "Close the boundary: week 2 taught what the dangerous and navigable semicircles are; this task is what to do about them. Report your manoeuvring decision, being explicit about hemisphere and side, in clear maritime English."
+    ],
+    deliverable: "A note in English turning the week 2 semicircles into a manoeuvre: the dangerous side (right in the northern hemisphere, left in the southern) with the physical reason, the per-semicircle manoeuvre (dangerous: wind on the starboard bow and haul away; navigable: wind on the starboard quarter and run), and the 1-2-3 rule (100/200/300 NM at 24/48/72 h).",
+    assessmentCriteria: [
+      "The dangerous semicircle is correct by hemisphere (northern = right, southern = left) with the correct physical reason (rotary wind adds to the system's forward speed).",
+      "The per-semicircle manoeuvre is correct (dangerous: wind on the starboard bow, haul away; navigable: wind on the starboard quarter, run).",
+      "The 1-2-3 rule is stated with the correct figures (100/200/300 NM at 24/48/72 h) and the radius of dangerous winds is considered.",
+      "The boundary with week 2 is respected (week 2 = what they are, week 8 = what to do), in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "NAV530",
     subjectName: "Navegación III",
     subjectId: "pn-s5-navegacion-iii",
