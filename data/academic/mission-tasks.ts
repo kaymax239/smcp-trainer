@@ -5316,6 +5316,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Mareas",
+    topic: "Fundamentos y terminologia de la marea; datum de sondas (chart datum)",
+    week: 5,
+    taskId: "pn-hid318-w05-tides-datum-fundamentals",
+    taskTitle: "Explain Tidal Terms And Chart Datum",
+    scenario: "Before the cadet is allowed to use the tide tables, the officer asks them to explain the basic tidal terms and, above all, what the charted depths are actually measured from, so that soundings on the chart are read correctly.",
+    instructions: [
+      "Define high water and low water, and explain what the range of the tide is.",
+      "Distinguish spring tides from neap tides (springs near new and full moon give the largest range; neaps near the quarters give the smallest range).",
+      "Explain the difference between a semidiurnal tidal cycle (two highs and two lows per day) and a diurnal cycle (one high and one low per day).",
+      "Explain that charted soundings are referred to chart datum, a low reference level close to the lowest astronomical tide, so the real depth of water is usually greater than the charted sounding. Report your answer in clear hydrographic English."
+    ],
+    deliverable: "A note in English defining high and low water and tidal range, distinguishing springs from neaps and semidiurnal from diurnal cycles, and explaining chart datum as the low reference level for charted soundings.",
+    assessmentCriteria: [
+      "High water, low water and range are correctly defined.",
+      "Springs and neaps are correctly distinguished (springs largest range, neaps smallest).",
+      "Semidiurnal and diurnal cycles are correctly distinguished.",
+      "Chart datum is correctly explained as a low reference level, so real depth is usually greater than the charted sounding, in clear hydrographic English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Mareas",
+    topic: "Calculo de altura de marea y profundidad disponible; margen bajo la quilla (UKC)",
+    week: 6,
+    taskId: "pn-hid318-w06-tidal-height-ukc",
+    taskTitle: "Work Out Depth Of Water And Under-Keel Clearance",
+    scenario: "The vessel plans to cross a charted shoal. Using the tide tables, the officer asks the cadet to work out the real depth of water and the under-keel clearance at two states of tide, and to give a go / no-go decision against the required clearance.",
+    instructions: [
+      "State the rule: available depth = charted sounding + height of tide (the height of tide is ADDED because the charted sounding is measured from chart datum, a low level), and under-keel clearance (UKC) = available depth - draught. The vessel may proceed only if UKC is at or above the required margin.",
+      "Use a charted sounding of 6.0 m, a draught of 7.5 m and a required UKC margin of 1.0 m for both cases.",
+      "Case A, high water with a height of tide of 3.5 m: available depth = 6.0 + 3.5 = 9.5 m, UKC = 9.5 - 7.5 = 2.0 m, which is at or above 1.0 m, so the decision is GO.",
+      "Case B, low water with a height of tide of 2.0 m: available depth = 6.0 + 2.0 = 8.0 m, UKC = 8.0 - 7.5 = 0.5 m, which is below 1.0 m, so the decision is NO-GO. Report both cases with the working and a clear go / no-go verdict, in clear hydrographic English."
+    ],
+    deliverable: "A depth calculation in English giving the available depth and UKC for both states of tide, with the working shown and a clear go / no-go verdict for each against the 1.0 m margin.",
+    assessmentCriteria: [
+      "The rule is stated correctly (available depth = charted sounding + height of tide, with the height of tide added; UKC = available depth - draught).",
+      "Case A is correct (6.0 + 3.5 = 9.5 m, UKC 9.5 - 7.5 = 2.0 m) and the verdict is GO.",
+      "Case B is correct (6.0 + 2.0 = 8.0 m, UKC 8.0 - 7.5 = 0.5 m) and the verdict is NO-GO.",
+      "Both verdicts are coherent with the 1.0 m margin, with correct units, in clear hydrographic English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Batimetria",
+    topic: "El ecosonda: principio del eco, monohaz y multihaz, y errores de medicion",
+    week: 7,
+    taskId: "pn-hid318-w07-echo-sounder",
+    taskTitle: "Explain How The Echo Sounder Measures Depth",
+    scenario: "Following on from bathymetry, the officer asks the cadet to explain the instrument that produces the soundings: how the echo sounder works, the difference between single-beam and multibeam, and the errors that can make a reading wrong.",
+    instructions: [
+      "Explain the echo principle: the transducer sends a sound pulse to the seabed and times the returning echo, so depth = sound speed x travel time / 2, dividing by two because the pulse travels down AND back.",
+      "Distinguish a single-beam echo sounder (one depth directly under the ship) from a multibeam system (a fan of beams giving full-coverage bathymetry across a swath).",
+      "Explain the error caused by using an assumed sound speed in water when the real speed differs (sound speed changes with temperature, salinity and pressure), and how it affects the measured depth.",
+      "Explain the transducer draught error: the echo sounder measures from the transducer, not the waterline, so the transducer's depth below the surface must be accounted for to get the true depth of water. Report your answer in clear hydrographic English."
+    ],
+    deliverable: "A note in English explaining the echo principle with the divide-by-two, distinguishing single-beam from multibeam, and describing the sound-speed and transducer-draught errors.",
+    assessmentCriteria: [
+      "The echo principle is correct, including depth = sound speed x time / 2 with the divide-by-two justified (down and back).",
+      "Single-beam and multibeam are correctly distinguished.",
+      "The sound-speed error is correctly explained (assumed vs real speed in water).",
+      "The transducer-draught error is correctly explained (measured from the transducer, not the waterline), in clear hydrographic English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Informacion hidrografica al navegante",
+    topic: "Avisos a los Marinos y correccion de cartas; flujo levantamiento-oficina hidrografica-carta",
+    week: 8,
+    taskId: "pn-hid318-w08-notices-to-mariners",
+    taskTitle: "Trace Hydrographic Information To The Updated Chart",
+    scenario: "As the closing task of the subject, the officer asks the cadet to explain how new hydrographic information reaches the mariner and keeps the charts up to date, from the survey at sea to the corrected chart on the bridge.",
+    instructions: [
+      "Explain what Notices to Mariners are and how they inform the mariner of changes affecting charts and publications (new dangers, changed depths, buoyage, and so on).",
+      "Describe how a chart correction is applied and recorded so the chart in use is kept up to date and traceable.",
+      "Describe the flow of hydrographic information: survey at sea produces the data, the hydrographic office processes and compiles it, and an updated chart or Notice to Mariners is issued to the mariner.",
+      "Explain why this flow matters for safety of navigation, keeping the focus on the flow and management of the information rather than on the chart as a drawing. Report your answer in clear hydrographic English."
+    ],
+    deliverable: "A note in English explaining Notices to Mariners, how a chart correction is applied and recorded, and the full survey-to-office-to-updated-chart flow, with why it matters for safety.",
+    assessmentCriteria: [
+      "Notices to Mariners are correctly explained as the means of informing the mariner of changes.",
+      "The chart correction process is correctly described (applied and recorded to keep the chart up to date).",
+      "The survey to hydrographic office to updated chart flow is correct and in the right order.",
+      "The focus stays on the flow and management of the information and its link to safety, in clear hydrographic English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "CAR319",
     subjectName: "Cartografía",
     subjectId: "pn-s3-cartografia",
