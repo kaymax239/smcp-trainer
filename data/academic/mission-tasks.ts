@@ -5548,6 +5548,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Simbología de la carta náutica",
+    topic: "Carta INT 1 (Chart No. 1): símbolos de peligros, ayudas a la navegación, naturaleza del fondo y abreviaturas",
+    week: 5,
+    taskId: "pn-car319-w05-chart-symbols",
+    taskTitle: "Read Chart Symbols Using Chart No. 1",
+    scenario: "The officer hands the cadet a nautical chart together with Chart No. 1 (INT 1), the symbol booklet, and asks them to identify the main symbols on the chart before it is used for planning, so nothing on the chart is misread.",
+    instructions: [
+      "Using Chart No. 1 (INT 1), identify the symbols for dangers: rocks (awash and underwater), wrecks, and shoals or shallow patches.",
+      "Identify the aids to navigation: buoys (lateral and cardinal marks) and lighthouses, and explain how a light's characteristics are shown on the chart (colour, period and range).",
+      "Identify how the nature of the seabed is shown by its standard abbreviations (for example S for sand, M for mud, R for rock, Co for coral).",
+      "Explain why standardised symbology lets any mariner read any official chart. Report your answer in clear cartographic English."
+    ],
+    deliverable: "A note in English identifying, from Chart No. 1, the symbols for dangers, aids to navigation with light characteristics, and the seabed-nature abbreviations, and explaining why standard symbology matters.",
+    assessmentCriteria: [
+      "The danger symbols (rocks, wrecks, shoals) are correctly identified.",
+      "The aids to navigation are correctly identified, including how light characteristics are shown.",
+      "The seabed-nature abbreviations are correctly read.",
+      "The value of standardised symbology is correctly explained, in clear cartographic English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Escalas",
+    topic: "Escala natural y medición de distancias en la carta con la escala de latitudes",
+    week: 6,
+    taskId: "pn-car319-w06-scale-distance-measurement",
+    taskTitle: "Measure Distance On A Chart Using The Scale",
+    scenario: "The cadet must take a distance off the chart. The officer asks them to calculate it from the natural scale and then confirm it with the latitude scale, getting the sense of the scale right so the real distance is never understated.",
+    instructions: [
+      "State the rule: a natural scale of 1:75 000 means 1 unit on the chart equals 75 000 of the same units in reality, so real distance = chart measurement x the denominator, and the real distance is ALWAYS larger than the measurement on the chart.",
+      "A distance measured on the chart is 4 cm; calculate the real distance: 4 cm x 75 000 = 300 000 cm = 3 000 m = 3.0 km, checking the units cm to m at each step.",
+      "Convert the distance to nautical miles using 1 NM = 1852 m: 3 000 / 1852 = 1.62 NM.",
+      "Cross-check with the latitude scale rule, that a span of X minutes of latitude equals X nautical miles when measured against the side (latitude) scale at the height of the measurement: 1.62 NM corresponds to 1.62 minutes of latitude, and as a clean example two points 6.0 minutes of latitude apart are 6.0 NM apart. Report the distance in metres and NM with the working, in clear cartographic English."
+    ],
+    deliverable: "A distance calculation in English giving the real distance from the 1:75 000 scale in metres and NM, with the units checked at each step and a cross-check by the latitude scale rule.",
+    assessmentCriteria: [
+      "The scale rule is stated correctly (1:75 000 = 1 unit chart to 75 000 units real; real distance = chart x denominator, always larger).",
+      "The real distance is correct (4 cm x 75 000 = 300 000 cm = 3 000 m = 3.0 km) with correct unit steps.",
+      "The conversion to NM is correct (3 000 / 1852 = 1.62 NM).",
+      "The latitude-scale cross-check is correct (X minutes of latitude = X NM; 6.0' = 6.0 NM), in clear cartographic English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Datums geodésicos horizontales",
+    topic: "WGS-84 y la posición satelital en la carta con datum local",
+    week: 7,
+    taskId: "pn-car319-w07-geodetic-datum-wgs84",
+    taskTitle: "Explain Why A GPS Position May Not Fit The Chart",
+    scenario: "A GPS position is plotted on the chart and does not fall exactly where the officer expects. The officer asks the cadet to explain the horizontal geodetic datum behind this and how the chart's datum note is used.",
+    instructions: [
+      "Explain what a horizontal geodetic datum is and state that WGS-84 is the datum used by GPS and other satellite positioning.",
+      "Explain that a chart drawn on a local datum can differ from WGS-84, so a satellite-derived position may not fall exactly on the charted feature it corresponds to.",
+      "Explain the datum note or 'satellite-derived positions' correction printed on the chart, and how the stated shift is applied so positions agree with the chart.",
+      "Contrast this HORIZONTAL datum, which fixes position, with the VERTICAL datum (chart datum) that fixes charted depths. Report your answer in clear cartographic English."
+    ],
+    deliverable: "A note in English explaining horizontal geodetic datum and WGS-84, why a GPS position may not fit a local-datum chart, how the datum-shift note is applied, and the contrast with the vertical chart datum.",
+    assessmentCriteria: [
+      "Horizontal geodetic datum is correctly explained, with WGS-84 as the satellite-positioning datum.",
+      "The reason a satellite position may not fit a local-datum chart is correct.",
+      "The datum note / satellite-derived-positions correction and its application are correctly explained.",
+      "The horizontal (position) versus vertical (depth) datum contrast is correct, in clear cartographic English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Cartas Electrónicas",
+    topic: "ECDIS en operación: ENC vs RNC, capas de información, safety contour y alarmas",
+    week: 8,
+    taskId: "pn-car319-w08-ecdis-enc-rnc",
+    taskTitle: "Explain The ECDIS Chart System In Operation",
+    scenario: "As the closing task of the subject, the officer asks the cadet to explain the electronic chart system, ECDIS, as it is used on the bridge: the chart types it displays, its information layers, and the safety features that watch over the ship.",
+    instructions: [
+      "Explain what ECDIS is and distinguish the charts it can display: ENC (vector, official) versus RNC (raster).",
+      "Explain the information layers ECDIS provides and that the display can be tailored (for example base, standard and all layers).",
+      "Explain the safety contour and the depth and danger alarms, and how they warn the watchkeeper about water that is too shallow.",
+      "State one advantage and one limitation of ECDIS as a chart system, mentioning chart updating only in passing rather than as the focus. Report your answer in clear cartographic English."
+    ],
+    deliverable: "A note in English explaining ECDIS, distinguishing ENC from RNC, describing the information layers and the safety contour and alarms, and giving one advantage and one limitation of the system.",
+    assessmentCriteria: [
+      "ECDIS is correctly explained and ENC (vector, official) is distinguished from RNC (raster).",
+      "The information layers and the tailoring of the display are correctly described.",
+      "The safety contour and the depth/danger alarms are correctly explained.",
+      "One valid advantage and one valid limitation are given, with updating only in passing, in clear cartographic English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "GEA320",
     subjectName: "Geometría Analítica",
     subjectId: "pn-s3-geometria-analitica",
