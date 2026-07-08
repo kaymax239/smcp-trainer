@@ -9260,6 +9260,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Mando y organización del sistema contra incendios",
+    topic: "Muster list, cadena de mando y el rol del control de maquinas en la emergencia",
+    week: 5,
+    taskId: "mn-c0038-w05-engine-brigade-command",
+    taskTitle: "Command The Response To An Engine-Room Fire",
+    scenario: "An engine-room fire is reported and, above the individual team, a command system must run the whole response. The engineer asks the cadet to set out the command and organisation from the engine department's side: the muster list, the chain of command, entry control and the machinery control's part in keeping essential services running, rather than naming the team roles, which is already covered.",
+    instructions: [
+      "Explain how the muster list (station bill) sends the crew to their fire stations when the alarm sounds, and how the engine department musters to it.",
+      "Set out the chain of command: the on-scene commander leads the attack and reports to and takes direction from the bridge or fire control.",
+      "Explain the machinery control's specific part: who keeps the essential services running during the emergency (the fire pumps and the emergency generator), and the communications between the engine room, the fire scene and the bridge.",
+      "Explain the assembly point and entry control for personnel accountability, without naming the team roles again (covered in week 2). Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English setting out the engine-room fire command system: the muster list, the chain of command, the machinery control's part in essential services (fire pumps, emergency generator), the assembly point and entry control, and the engine-scene-bridge communications.",
+    assessmentCriteria: [
+      "The muster list and the engine department's mustering are correctly explained.",
+      "The chain of command (on-scene commander reporting to bridge / fire control) is correct.",
+      "The machinery control's part in keeping essential services running is correct, with the engine-scene-bridge communications.",
+      "The assembly point and entry control are explained without re-naming the team roles, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Equipo de respiración autónoma y búsqueda en el espacio de máquinas",
+    topic: "SCBA, disciplina de aire con el agravante del calor y busqueda adaptada al espacio de maquinas",
+    week: 6,
+    taskId: "mn-c0038-w06-scba-machinery-space-search",
+    taskTitle: "Manage Air And Search The Machinery Space With SCBA",
+    scenario: "A team must enter the smoke-logged machinery space wearing self-contained breathing apparatus (SCBA). The engineer asks the cadet to set out the donning and pre-use checks, the air management that keeps the team alive in the heat, the BA control board, and how the search adapts to the engine-room layout.",
+    instructions: [
+      "Describe donning the SCBA and the pre-use checks: cylinder pressure full, mask and face-seal test, the low-pressure warning whistle, and the demand valve.",
+      "Explain air management as a life-or-death discipline: note the entry pressure and work out the time to withdraw, and start back BEFORE the low-pressure reserve alarm, never after, because the way out takes as long as the way in; note too that the extreme heat of the machinery space burns air faster, so the safety margin is even shorter.",
+      "Explain the BA control board: the controller logs each wearer's name, entry time and cylinder pressure and monitors the time to withdraw, so the team is turned round in good time.",
+      "Explain how the search adapts to the machinery-space layout, plate floors, vertical ladders and multiple levels, always working in pairs with a lifeline. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English covering the SCBA donning and pre-use checks, the air-management discipline (start back before the reserve alarm, with the heat shortening the margin), the BA control board, and the search adapted to the machinery-space layout with pairs and a lifeline.",
+    assessmentCriteria: [
+      "The SCBA donning and pre-use checks are correct.",
+      "Air management is correct, including starting back BEFORE the reserve alarm and the heat burning air faster.",
+      "The BA control board (entry control, air/time monitoring) is correctly explained.",
+      "The search adapts to the machinery-space layout, with pairs and a lifeline, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Sistemas fijos de extinción",
+    topic: "CO2 de inundacion total del espacio de maquinas: protocolo de seguridad y pasos que ejecuta maquinas",
+    week: 7,
+    taskId: "mn-c0038-w07-co2-total-flooding-protocol",
+    taskTitle: "Follow The CO2 Total-Flooding Protocol In The Engine Room",
+    scenario: "The machinery space itself is the space protected by the fixed CO2 total-flooding system, so anyone working there lives inside the space that would be flooded. Because total-flooding CO2 is lethal to anyone left inside, the engineer asks the cadet to state the exact CO2 discharge protocol in the correct order and the engine-room steps that go with it.",
+    instructions: [
+      "State the CO2 total-flooding protocol in the correct, non-negotiable order: (1) get everyone out of the machinery space and take a head count, making sure no one is left below; (2) seal the space by stopping the ventilation and closing the dampers, doors and openings; (3) sound the CO2 release alarm; (4) discharge the CO2 only after those steps are complete; (5) keep the space shut and do not enter until it is confirmed cold, ventilated and its atmosphere has been tested.",
+      "Describe the engine-room steps that go with the sequence: stop the machinery-space ventilation fans and, as covered in week 4, shut the fuel quick-closing valves and stop the transfer and purifier pumps to isolate the fuel; this task references that isolation rather than re-teaching it.",
+      "Explain why the head count before discharge is a matter of life and death, since total-flooding CO2 is lethal to anyone left in the space.",
+      "Explain why premature re-entry kills: the atmosphere is not breathable, and re-opening lets air back in that can re-ignite the fire, so the space stays shut until it is confirmed cold, ventilated and tested. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English stating the CO2 total-flooding protocol in the correct order (get everyone out and count, seal, alarm, discharge, no premature re-entry), with the engine-room steps referencing the week 4 fuel isolation, and why the head count and the closed space are matters of life and death.",
+    assessmentCriteria: [
+      "The CO2 protocol is in the correct, complete order: get everyone out and head-count, seal the space, sound the alarm, discharge, and no re-entry until confirmed cold, ventilated and tested.",
+      "The engine-room steps (stop vent fans; reference the week 4 fuel quick-closing valves and pump stops) are correct without re-teaching the week 4 isolation.",
+      "The head count before discharge is correctly explained as life or death.",
+      "Premature re-entry is correctly explained as lethal (unbreathable atmosphere) and a re-ignition risk, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Mando y control del escenario de incendio",
+    topic: "Ataque integrado a un incendio de maquinas y guardia de reignicion (reflash watch)",
+    week: 8,
+    taskId: "mn-c0038-w08-engine-fire-integrated-attack",
+    taskTitle: "Command An Integrated Attack On An Engine-Room Fire",
+    scenario: "As the closing task of the subject, a developed engine-room fire must be fought under command. The engineer asks the cadet to run the complete integrated attack, locate and assess, isolate, attack, boundary cool, and set the reflash watch, drawing on the command system, SCBA teams and fixed systems from the previous weeks.",
+    instructions: [
+      "Locate and assess the engine-room fire: find its seat and extent and identify the plant risks (fuel, hot surfaces, electrical).",
+      "Isolate the fire: stop the ventilation, isolate the electrical power, and shut off the fuel, referencing the fuel and electrical control of week 4.",
+      "Attack the fire with SCBA teams under entry control (the air discipline of week 6) and/or the fixed CO2 system with its protocol (week 7), while boundary cooling the adjacent bulkheads and decks.",
+      "Set the re-ignition (reflash) watch as a MANDATORY step: after the fire is out, a watch stays on the space and its boundaries, and the machinery space is not brought back into normal service until it is confirmed cold and safe. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English running the integrated engine-room fire attack under command: locate and assess, isolate (ventilation, electrical, fuel), attack with SCBA teams and/or the CO2 system while boundary cooling, and set the mandatory reflash watch.",
+    assessmentCriteria: [
+      "Locate and assess is correct (seat, extent, plant risks).",
+      "Isolation is complete (ventilation, electrical, fuel) referencing week 4.",
+      "The attack correctly integrates SCBA entry control (week 6) and/or the CO2 protocol (week 7) with boundary cooling.",
+      "The reflash watch is set as a mandatory step, with the space not returned to service until confirmed cold and safe, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "C0101",
     subjectName: "Redacción Avanzada",
     subjectId: "mn-s3-redaccion-avanzada",
