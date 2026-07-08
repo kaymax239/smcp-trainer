@@ -10884,6 +10884,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Verbos modales",
+    topic: "Modales de obligación, prohibición y permiso en el inglés normativo",
+    week: 5,
+    taskId: "pn-ing531-w05-modal-verbs-regulations",
+    taskTitle: "Read Obligation And Prohibition In Regulations",
+    scenario: "Regulations and procedures turn on their modal verbs. The officer asks the cadet to read the modal verbs of maritime regulation correctly, because misreading one changes the legal duty.",
+    instructions: [
+      "Set out the modal verbs of regulation: 'must' is a strong obligation, 'must not' is a prohibition, 'shall' is the formal obligation of a regulation (the verb of the COLREGS and SOLAS, an obligation and not a future), 'should' is a recommendation, and 'may' is permission.",
+      "Show each with a regulatory sentence in your own words: 'every vessel shall at all times keep a proper look-out' (obligation), 'the officer of the watch must not leave the bridge unattended' (prohibition), 'the master may depart from these rules when needed to avoid immediate danger' (permission).",
+      "Draw the fine line that changes the duty: 'must not' forbids the action, while 'need not' only removes the obligation (you are free not to do it), so they are opposites in effect and must not be confused; and 'shall' here is duty, not the future tense.",
+      "Rewrite one loosely worded instruction into precise regulatory English, choosing the modal that states the real duty. Report in clear maritime English."
+    ],
+    deliverable: "A note in English setting out must / must not / shall / should / may with a regulatory sentence for each in the cadet's own words, the must-not (prohibition) versus need-not (no obligation) distinction, the point that regulatory 'shall' is duty not future, and one instruction rewritten into precise regulatory English.",
+    assessmentCriteria: [
+      "The modals are correctly ranked (must = strong obligation, must not = prohibition, shall = regulatory obligation, should = recommendation, may = permission).",
+      "'shall' is correctly treated as regulatory obligation, not the future tense.",
+      "The must-not (prohibition) versus need-not (no obligation) distinction is correct.",
+      "The rewritten instruction uses the modal that states the real duty, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Verbos frasales",
+    topic: "Verbos frasales del puente y la estación de maniobra",
+    week: 6,
+    taskId: "pn-ing531-w06-bridge-phrasal-verbs",
+    taskTitle: "Use Bridge Phrasal Verbs In Orders",
+    scenario: "Bridge and mooring orders are full of phrasal verbs. The officer asks the cadet to use them with their exact operational meaning and to know when a plainer form is clearer.",
+    instructions: [
+      "Give the exact operational meaning of the working phrasal verbs: 'get under way' (begin to move), 'heave up' (bring the anchor up), 'pay out' (let rope or cable run out, that is slack it away, not haul it in), 'make fast' (secure a line), 'stand by' (be ready and wait), 'look out for' (watch attentively for), 'single up' (reduce to the minimum lines before letting go) and 'let go' (release, as in let go the lines or the anchor).",
+      "Put four of them into short bridge or mooring orders as they would actually be given.",
+      "Show the pay-out trap: 'pay out' slacks the line away from the ship, the opposite of hauling it in, so reading it backwards would run the manoeuvre the wrong way.",
+      "State the register nuance: because crews are of mixed nationality, the SMCP sometimes prefers a plainer non-phrasal form for clarity, so say when the phrasal verb is the standard order and when the explicit form is safer. Report in clear maritime English."
+    ],
+    deliverable: "A note in English giving the exact operational meaning of the bridge phrasal verbs (get under way, heave up, pay out as slack away, make fast, stand by, look out for, single up, let go), four of them in real orders, the pay-out (not haul-in) trap, and the register nuance on when a plainer SMCP form is clearer.",
+    assessmentCriteria: [
+      "Each phrasal verb is given its exact operational meaning (notably pay out = slack away, heave up = bring the anchor up).",
+      "Four are used correctly in realistic bridge or mooring orders.",
+      "The pay-out versus haul-in distinction is correct.",
+      "The register nuance (when the SMCP prefers a plainer form for mixed-nationality clarity) is sound, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Comunicación radiotelefónica",
+    topic: "El protocolo GMDSS de socorro, urgencia y seguridad",
+    week: 7,
+    taskId: "pn-ing531-w07-gmdss-distress-protocol",
+    taskTitle: "Send A Distress Call By Radiotelephony",
+    scenario: "In a serious emergency the officer must speak on the radio in the one format the whole world understands. The officer asks the cadet to send a distress call by radiotelephony in correct doctrinal form.",
+    instructions: [
+      "State the three signals and their hierarchy: MAYDAY for distress (grave and imminent danger to a vessel or person), PAN PAN for urgency (a serious matter but not immediate danger to life), and SECURITE for safety (navigational or meteorological warnings); MAYDAY is reserved for grave and imminent danger only.",
+      "Give the initial distress message in its non-negotiable order: (1) MAYDAY spoken three times, (2) THIS IS followed by the vessel's name three times and her call sign, (3) MAYDAY and the vessel's name once, (4) the position, (5) the nature of the distress, (6) the assistance required, (7) any further information (persons on board, whether abandoning, and so on), and (8) OVER.",
+      "State the spelling and the prowords: spell the vessel's name and call sign with the NATO phonetic alphabet (Alfa, Bravo, Charlie, and so on) used strictly; OVER means I have finished and expect a reply, OUT means the exchange is finished with no reply expected, so OVER and OUT are never said together; SAY AGAIN is used to ask for a repeat, never 'repeat', which in radiotelephony means to repeat gunfire; and ROGER means received.",
+      "Boundary: the routine arrival exchange with VTS was Ingles Maritimo III, and the visual distress signals were Comunicacion Visual; this task is the radiotelephony protocol of distress as its own genre. Report the call in clear maritime English."
+    ],
+    deliverable: "A note in English sending a distress call: the MAYDAY / PAN PAN / SECURITE hierarchy (MAYDAY for grave and imminent danger only), the eight-part distress message in its fixed order (MAYDAY x3, THIS IS + name x3 + call sign, MAYDAY + name, position, nature, assistance, further info, OVER), phonetic spelling and the prowords (OVER and OUT never together, SAY AGAIN not 'repeat', ROGER), distinct from the VTS exchange and the visual signals.",
+    assessmentCriteria: [
+      "The three signals and hierarchy are correct (MAYDAY distress, PAN PAN urgency, SECURITE safety) with MAYDAY reserved for grave and imminent danger.",
+      "The eight-part distress message is given in the correct fixed order.",
+      "The prowords are correct (OVER and OUT never together; SAY AGAIN not 'repeat', with the reason; ROGER = received) and the phonetic spelling is used.",
+      "The boundary with the VTS exchange (Ingles Maritimo III) and the visual signals (Comunicacion Visual) is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Discurso de mando",
+    topic: "El briefing y el debriefing del equipo de puente",
+    week: 8,
+    taskId: "pn-ing531-w08-briefing-debriefing",
+    taskTitle: "Brief And Debrief The Bridge Team",
+    scenario: "As the closing task of the subject, the officer must lead the team in English before and after a manoeuvre. The officer asks the cadet to deliver a passage brief and a debrief in the language of internal command.",
+    instructions: [
+      "Give the passage brief to the bridge team in a clear structure: the situation, the intention, the tasks by role, the points of attention, and an invitation for questions, so every member knows the plan and their part in it.",
+      "Build in the closed-loop check: key orders are repeated back so the officer hears they were understood; reference this read-back as an established practice and use it here without re-teaching it.",
+      "Deliver the debrief after the manoeuvre: compare what was planned with what actually happened, keep it blame-free, and draw the lessons for next time.",
+      "Show concision and structure as the virtues of command English: short, ordered, unambiguous. Report the brief and debrief in clear maritime English."
+    ],
+    deliverable: "A note in English delivering a passage brief in a clear structure (situation, intention, tasks by role, points of attention, questions), a closed-loop check referenced not re-taught, and a blame-free debrief comparing plan with outcome and drawing lessons, with concision and structure as the marks of command English.",
+    assessmentCriteria: [
+      "The passage brief follows a clear structure (situation, intention, tasks by role, points of attention, questions).",
+      "The closed-loop check is used and referenced as established practice, not re-taught.",
+      "The debrief compares plan with outcome, stays blame-free, and draws lessons.",
+      "Concision and structure are demonstrated as the virtues of command English, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "PMR536",
     subjectName: "Prácticas Marineras V",
     subjectId: "pn-s5-practicas-marineras-v",
