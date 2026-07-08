@@ -9028,6 +9028,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Nutrición e hidratación",
+    topic: "Alimentacion e hidratacion para el trabajo en el espacio de maquinas (ambiente caluroso)",
+    week: 5,
+    taskId: "mn-c0011iii-w05-engine-room-hydration",
+    taskTitle: "Fuel And Hydration For Hot Engine-Room Work",
+    scenario: "The engine room is a hot space, and a watchkeeper there loses fluid through continuous sweating in an enclosed, hot environment next to the engines and boilers. The training officer asks the cadet to explain positive nutrition and hydration habits for engine-room work, as general principles that support the capacity to do the job.",
+    instructions: [
+      "Explain hydration for the hot machinery space: because sweating is continuous in an enclosed, hot environment, drink water steadily and start before thirst appears, which is a late signal.",
+      "Explain balanced meals timed around the watch schedule so energy is available on duty, and why eating something before a long or night engine watch helps.",
+      "Explain steady, sustained energy versus sugar spikes and the slump that follows, favouring balanced meals that release energy slowly.",
+      "Explain that coffee and energy drinks are best taken earlier in the watch, not close to rest, since caffeine can delay sleep. Give only general, positive habits: never count calories, never track body weight, never cut out food groups, and never brand any food as off-limits. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on positive nutrition and hydration habits for the hot engine room (steady hydration against continuous sweating, meal timing, sustained energy versus sugar spikes, caffeine and rest), given as general principles with no calorie counting, body-weight figures, restrictive dieting or banned foods.",
+    assessmentCriteria: [
+      "Hydration for the hot, enclosed machinery space is correctly explained (continuous sweating, drink before thirst).",
+      "Meal timing around the watch and steady energy versus sugar spikes are correct.",
+      "The effect of caffeine near rest is correctly explained.",
+      "The guidance stays general and positive, with no calorie counting, body-weight figures, restrictive dieting or banned foods, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Deportes de conjunto y cohesión de equipo",
+    topic: "El deporte de equipo y su transferencia al equipo de guardia y la cuadrilla de maquinas",
+    week: 6,
+    taskId: "mn-c0011iii-w06-team-sport-engine-crew",
+    taskTitle: "Build Engine-Crew Cohesion Through Sport",
+    scenario: "Team sports build the same coordination, communication and trust that an engine watch team and a maintenance gang need. The training officer asks the cadet to connect team sport to teamwork in the machinery space and to the character shown in winning and losing.",
+    instructions: [
+      "Explain how a team sport trains coordination, communication and mutual trust, and how these are the same dynamics as an engine watch team or a maintenance gang.",
+      "Give one example linking a team-sport situation to a machinery-space team task, such as communicating in a noisy space or trusting a partner on a joint job.",
+      "Explain fair play and how handling winning and losing well builds character and composure.",
+      "State why the cohesion built in sport transfers to safer, smoother teamwork in the engine room. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English connecting team sport to engine-room teamwork: how it trains coordination, communication and trust, an example linked to a machinery-space task, fair play and character, and why cohesion transfers below.",
+    assessmentCriteria: [
+      "The link between team sport and coordination, communication and trust is correct.",
+      "The example connects a sport situation to a machinery-space team task (noisy space, trusting a partner).",
+      "Fair play and handling winning and losing are correctly linked to character.",
+      "The transfer of cohesion to safer engine-room teamwork is sound, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Ergonomía del trabajo de máquinas",
+    topic: "Posturas del trabajo de mantenimiento, espacios confinados y escalas verticales; micro-pausas",
+    week: 7,
+    taskId: "mn-c0011iii-w07-engine-work-ergonomics",
+    taskTitle: "Protect Posture During Engine-Room Work",
+    scenario: "Engine-room work is done in awkward postures: bending into bilges, holding forced positions during maintenance, working in cramped confined spaces and climbing vertical ladders. The training officer asks the cadet to set out good working posture and simple relief between tasks, marking the boundary with earlier physical-education topics.",
+    instructions: [
+      "Describe good working posture for physical engine-room tasks: keeping the back supported when bending into bilges, changing forced postures often during maintenance, and moving carefully in confined spaces and on vertical ladders.",
+      "Explain micro-breaks and simple stretches taken between tasks to relieve the lower back, knees and neck.",
+      "Explain how good posture and these breaks prevent lower-back, knee and neck strain over a working day.",
+      "State the double boundary clearly: this is the body in the WORKING POSTURES of engine-room tasks, not the safe lifting technique of manual handling (Semester I) and not sleep physiology (Semester I fatigue and rest). Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on good working posture for engine-room tasks (bilges, forced maintenance postures, confined spaces, vertical ladders), micro-breaks and stretches, and how they prevent lower-back, knee and neck strain, with the explicit double boundary (not lifting technique, not sleep physiology).",
+    assessmentCriteria: [
+      "Good working posture for physical engine-room tasks (bilges, forced postures, confined spaces, ladders) is correct.",
+      "Micro-breaks and stretches between tasks are correctly explained.",
+      "The link to preventing lower-back, knee and neck strain is sound.",
+      "The double boundary is stated (working posture, not lifting technique nor sleep physiology), in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Autoevaluación funcional y plan personal",
+    topic: "Pruebas funcionales e interpretacion por capacidad para el trabajo de maquinas",
+    week: 8,
+    taskId: "mn-c0011iii-w08-fitness-for-engine-work",
+    taskTitle: "Assess Your Fitness For Engine-Room Work",
+    scenario: "As the closing task of the subject, the cadet must judge their own functional fitness for engine-room work and set a sustainable personal plan. The training officer asks the cadet to use simple functional tests and interpret them by capacity for the work, not by looks or records.",
+    instructions: [
+      "Choose simple functional tests for endurance, strength and mobility (for example how long a task can be sustained, a basic strength check, and a reach or mobility check) suitable for self-assessment on board.",
+      "Interpret the results by the standard of CAPACITY FOR ENGINE-ROOM WORK, tolerating the heat with good hydration, climbing ladders and carrying out maintenance tasks safely, not by appearance, body weight or athletic records.",
+      "Build a simple, sustainable personal plan that fits ship life and improves the weaker areas, drawing on the earlier weeks (endurance, coordination, nutrition and hydration, and working posture).",
+      "State plainly that the plan aims only at steady, safe, sustainable gains in the capacity to work, and never at a crash programme, an extreme goal, a target weight or an appearance standard. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English giving simple functional tests for endurance, strength and mobility, their interpretation by capacity for engine-room work (heat tolerance, ladders, maintenance), and a sustainable personal plan that rules out crash programmes, extreme goals, weight targets and appearance standards.",
+    assessmentCriteria: [
+      "The functional tests for endurance, strength and mobility are simple and suitable for self-assessment on board.",
+      "The results are interpreted by capacity for engine-room work (heat tolerance, ladders, maintenance), not appearance, weight or records.",
+      "The personal plan is simple, sustainable and integrates earlier weeks.",
+      "The plan explicitly rules out crash programmes, extreme goals, weight targets and appearance standards, aiming only at sustainable work capacity, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "C0038",
     subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
     subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
