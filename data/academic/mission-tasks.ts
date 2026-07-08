@@ -7868,6 +7868,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Corte con oxiacetileno",
+    topic: "Principio del oxicorte, ajuste de la llama y seguridad del equipo de gas",
+    week: 5,
+    taskId: "mn-tal320-w05-oxy-cutting",
+    taskTitle: "Cut Steel Safely With The Oxy-Acetylene Torch",
+    scenario: "The cadet must cut a steel plate with an oxy-acetylene torch. The instructor asks them to explain the cutting principle, the flame settings and the safety of the gas equipment, beyond the general welding protective equipment of week 1.",
+    instructions: [
+      "Explain the cutting principle: the flame PREHEATS the steel to its ignition temperature, then a jet of oxygen cuts by OXIDISING (burning) the steel, not by melting it with the flame.",
+      "Describe the flame settings, neutral, oxidising and carburising, and state which is used (a neutral preheat flame for cutting).",
+      "State the gas-equipment safety: cylinders ALWAYS upright and secured (acetylene must NEVER be laid down, because of the acetone inside, nor used above its safe pressure), non-return valves and flashback arrestors on BOTH hoses, and the correct order of opening and closing the valves.",
+      "Note the boundary: the general welding protective equipment was week 1; here the focus is the equipment and hazards SPECIFIC to oxy-cutting. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining oxy-cutting by oxidation of preheated steel (not melting), the flame settings with the one used, and the gas-equipment safety (cylinders upright, acetylene never laid down, flashback arrestors, valve order).",
+    assessmentCriteria: [
+      "The cutting principle is correct: preheat then cut by OXIDATION of the steel, not melting by the flame.",
+      "The flame settings are correct and the neutral preheat flame is identified.",
+      "The gas-equipment safety is correct (cylinders upright/secured, acetylene never laid down, flashback arrestors on both hoses, valve order).",
+      "The boundary with week 1 (general PPE) is noted, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Preparación de juntas y posiciones de soldadura",
+    topic: "Tipos de junta, preparación del borde (biselado, root gap, root face) y posiciones de soldadura",
+    week: 6,
+    taskId: "mn-tal320-w06-joint-preparation-positions",
+    taskTitle: "Prepare A Joint And Choose The Welding Position",
+    scenario: "Before welding, the joint must be prepared correctly. The instructor asks the cadet to explain the joint types, the edge preparation and the welding positions and their relative difficulty.",
+    instructions: [
+      "Name the main joint types: the butt joint, the tee (T) joint and the lap joint.",
+      "Explain edge preparation: bevelling the edge, the root gap and the root face, and why the preparation determines the penetration of the weld.",
+      "Name the welding positions, flat, horizontal, vertical and overhead, and rank their relative difficulty (flat easiest, overhead hardest).",
+      "Explain why the joint preparation and the position both affect the quality of the weld. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English naming the joint types, explaining edge preparation (bevel, root gap, root face) and its link to penetration, and naming the welding positions ranked by difficulty.",
+    assessmentCriteria: [
+      "The joint types (butt, tee, lap) are correctly named.",
+      "Edge preparation (bevel, root gap, root face) is correct and linked to penetration.",
+      "The welding positions are named and ranked (flat easiest, overhead hardest).",
+      "The effect of preparation and position on weld quality is sound, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Trabajo en caliente a bordo",
+    topic: "Permiso de trabajo en caliente, preparación del área y fire watch antes, durante y después",
+    week: 7,
+    taskId: "mn-tal320-w07-hot-work-permit",
+    taskTitle: "Follow The Hot Work Permit Procedure",
+    scenario: "Any hot work on board, welding or cutting, must follow a strict permit procedure. As a critical-safety task, the instructor asks the cadet to set out the hot-work procedure in the correct, non-negotiable order, because hot-work fires often start hours after the work is done.",
+    instructions: [
+      "State that a HOT WORK PERMIT must be issued BEFORE work starts: what it assesses and who authorises it (a responsible officer, never the welder themselves).",
+      "Prepare the area: remove or protect combustibles, and check the ADJACENT spaces, because heat passes through bulkheads and decks so the other side must be prepared too, and ensure a gas-free atmosphere where required.",
+      "Keep a fire watch present DURING the whole job, with an extinguisher ready to hand.",
+      "Continue the fire watch AFTER the work finishes (at least the 30 to 60 minutes set by the procedure), because hot-work fires can start hours later from residual heat and hidden embers, and close the permit only after this after-watch; the after-watch is NOT optional. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English setting out the hot-work procedure in the correct order: permit issued and authorised before work, area and adjacent-space preparation, fire watch during, and the mandatory after-watch before the permit is closed.",
+    assessmentCriteria: [
+      "The permit is issued and authorised BEFORE work by a responsible officer, not the welder.",
+      "The area preparation includes combustibles AND the adjacent spaces (heat through bulkheads/decks), with gas-free atmosphere where required.",
+      "A fire watch is present during the work with an extinguisher ready.",
+      "The after-watch is stated as mandatory (30 to 60 minutes) before closing the permit, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Inspección de la soldadura terminada",
+    topic: "Inspección visual, END (líquidos penetrantes) y criterio aceptar, rechazar o reparar",
+    week: 8,
+    taskId: "mn-tal320-w08-weld-inspection",
+    taskTitle: "Inspect A Finished Weld And Decide",
+    scenario: "As the closing task of the subject, a finished weld must be inspected and judged. The instructor asks the cadet to inspect the completed weld visually, note a non-destructive test, and apply the accept, reject or repair decision, building on the defect knowledge of week 4.",
+    instructions: [
+      "Carry out a visual inspection of the finished weld: the bead profile (convexity or concavity), undercut, spatter, surface cracks and any visible lack of penetration.",
+      "Explain a non-destructive test as a concept: dye penetrant testing reveals surface cracks that are not visible to the naked eye.",
+      "Apply the accept, reject or repair criterion and state who decides (a qualified inspector or responsible officer).",
+      "State the boundary: week 4 taught what defects exist and how to prevent them WHILE welding, whereas this task INSPECTS the finished work and decides. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English inspecting a finished weld visually (profile, undercut, spatter, cracks, penetration), explaining dye penetrant testing as a concept, and applying the accept/reject/repair decision with who decides.",
+    assessmentCriteria: [
+      "The visual inspection covers the bead profile, undercut, spatter, surface cracks and visible penetration.",
+      "Dye penetrant testing is correctly explained as revealing surface cracks not visible to the eye.",
+      "The accept/reject/repair criterion is applied and the decision-maker identified.",
+      "The boundary with week 4 (prevention while welding versus inspection of finished work) is stated, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "GEA317",
     subjectName: "Geometría Analítica",
     subjectId: "mn-s3-geometria-analitica",
