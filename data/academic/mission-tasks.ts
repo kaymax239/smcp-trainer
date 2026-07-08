@@ -11348,6 +11348,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Acondicionamiento cardiovascular",
+    topic: "Entrenamiento cardiovascular por intensidad percibida",
+    week: 5,
+    taskId: "pn-c0011v-w05-cardio-intensity-zones",
+    taskTitle: "Train Cardio By Perceived Effort",
+    scenario: "The training officer asks the cadet to explain how to train the heart and lungs on board by reading the intensity of the effort, using perception rather than any prescribed number.",
+    instructions: [
+      "Explain rating of perceived effort as the practical tool: the cadet reads intensity on a felt scale from very light through moderate and vigorous to maximal, judging it by how the body feels during the effort.",
+      "Explain the talk test as a simple companion: if you can hold a conversation the effort is moderate, and if you can only speak in short phrases it is vigorous; keep intensity guided by perceived effort and the talk test, not by any prescribed pulse count or numeric heart-rate zone.",
+      "Distinguish continuous training (a steady sustained pace) from interval training (alternating harder effort with easier recovery) and say what each develops (a broad aerobic base versus a higher tolerance for hard bursts).",
+      "Apply it to the ship: brisk work on deck, climbing ladders and moving in limited space can all raise the effort, so the cadet can train within the space available. Report in clear English using correct fitness terminology."
+    ],
+    deliverable: "A note in English on training cardio by perceived effort: the perceived-effort scale and the talk test as the guides (no prescribed heart-rate numbers or zones), continuous versus interval training and what each develops, and how to apply it in the limited space of the ship.",
+    assessmentCriteria: [
+      "Perceived effort is correctly explained as the practical tool for reading intensity.",
+      "The talk test is correct (conversation = moderate, short phrases = vigorous) and intensity is guided by perception, with no prescribed heart-rate numbers or numeric zones.",
+      "Continuous and interval training are correctly distinguished with what each develops.",
+      "The application to the ship's limited space is realistic, in clear English using correct fitness terminology."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Prevención de lesiones",
+    topic: "Prevención de lesiones en el entrenamiento físico",
+    week: 6,
+    taskId: "pn-c0011v-w06-injury-prevention-training",
+    taskTitle: "Prevent Injury In Physical Training",
+    scenario: "The training officer asks the cadet to explain how to train without getting hurt, treating injury prevention as physiology rather than ritual.",
+    instructions: [
+      "Explain the warm-up by its physiological reason: it raises muscle temperature and prepares the joints for work so the tissues are ready to load, and pair it with a cool-down to ease the body down afterwards, not as a habit but because of what each does to the body.",
+      "Explain gradual progression: do not increase volume, intensity and frequency all at once, because loading the body on several fronts together is where overuse injury starts.",
+      "State the alarm signs that mean STOP: a sharp or stabbing pain means stop every time, while the ordinary discomfort of hard effort is acceptable, and knowing the difference between the two is what protects the cadet.",
+      "State that rest is part of the training, because the body adapts and gets stronger while it recovers, not only while it works. Boundary: safe lifting technique was covered in Semester I and watch-station ergonomics in Semester III; here the concern is the sports injury that happens in training. Report in clear English using correct fitness terminology."
+    ],
+    deliverable: "A note in English on preventing training injury: the warm-up and cool-down by their physiological reason, gradual progression (not raising volume, intensity and frequency at once), the STOP signs (sharp/stabbing pain always, versus normal effort discomfort), and rest as part of training, distinct from Semester I lifting technique and Semester III watch ergonomics.",
+    assessmentCriteria: [
+      "The warm-up and cool-down are explained by their physiological reason, not as a ritual.",
+      "Gradual progression is correct (not increasing volume, intensity and frequency together).",
+      "The STOP signs are correct (sharp/stabbing pain always stop; normal effort discomfort acceptable) and the difference is emphasised.",
+      "Rest is treated as part of training and the Semester I / Semester III boundary is respected, in clear English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Natación",
+    topic: "Natación de rescate básica",
+    week: 7,
+    taskId: "pn-c0011v-w07-rescue-swimming",
+    taskTitle: "Perform A Basic Water Rescue",
+    scenario: "A person is in the water in difficulty. Completing the aquatic progression of the subject, the instructor asks the cadet to carry out a basic water rescue in the correct order of priority.",
+    instructions: [
+      "State the rescue hierarchy in order, from safest to most dangerous: REACH the person with an object from a safe point, then THROW a lifebuoy or line, then TOW them with a boat if one is available, and only as a LAST RESORT swim out to the rescue.",
+      "Describe the safe approach if you must enter the water: talk to the person and calm them, and approach from BEHIND, because a panicking person grabs whatever floats, including the rescuer.",
+      "Describe a basic tow: support the person by the chin or under the armpits and keep their airway clear of the water while you bring them in.",
+      "State how to break a panic grip and the first rule of rescue: if the person seizes you, submerge, because a drowning person is trying to float and will let go of what sinks; and never forget that a rescuer who becomes a victim doubles the emergency, so your own safety is the first rule of the rescue. Report in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A brief in English on a basic water rescue: the hierarchy (reach, then throw, then tow with a boat, then swim only as a last resort), the safe approach from behind after calming the person, a basic tow keeping the airway clear, breaking a panic grip by submerging, and the rule that the rescuer's own safety comes first.",
+    assessmentCriteria: [
+      "The rescue hierarchy is in the correct order (reach, throw, tow with a boat, swim only as a last resort).",
+      "The safe approach is correct (calm the person, approach from behind).",
+      "The basic tow keeps the airway clear (chin or armpits) and the grip defence is correct (submerge to make the person let go).",
+      "The rescuer-safety-first rule is stated (a rescuer who becomes a victim doubles the emergency), in clear English suitable for a safety briefing."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Plan personal",
+    topic: "El plan de entrenamiento del período de mar",
+    week: 8,
+    taskId: "pn-c0011v-w08-sea-period-training-plan",
+    taskTitle: "Plan Your Training For The Sea Period",
+    scenario: "As the closing task of the subject, the cadet must design a personal training plan for a whole sea period. The training officer asks the cadet to build a plan that fits ship life and holds the fitness needed for the work.",
+    instructions: [
+      "State the real constraints of the sea period: limited space and equipment, and rotating watches that break up rest, so the plan has to work in short blocks around the watch routine rather than in a gym.",
+      "Integrate the capacities built this semester: strength for heavy deck work (week 1), flexibility for awkward spaces (week 2), cardio judged by perceived effort (week 5), and injury prevention with warm-up, progression and rest (week 6), balancing them across the week.",
+      "Make sustainability the test of the plan: a little done consistently beats a lot started and dropped, so the plan should be light enough to keep through fatigue and a busy watch bill.",
+      "Keep the purpose honest: the aim is the capacity to do the work and to stay well during the embarkation, not a performance record, a body-weight figure or a diet, and the plan sets no extreme goals. Boundary: the basic onboard routine was Semester I and the functional self-assessment was Semester III; here it is the integral sea-period plan built on the Semester V capacities. Report in clear maritime English."
+    ],
+    deliverable: "A note in English designing a sea-period training plan: the real constraints (limited space/equipment, rotating watches), the integration of the Semester V capacities (strength, flexibility, perceived-effort cardio, injury prevention) around the watch routine, sustainability as the test, and an honest purpose (capacity for work and wellbeing, not performance, body weight or a diet, no extreme goals), building on but distinct from the Semester I routine and the Semester III self-assessment.",
+    assessmentCriteria: [
+      "The sea-period constraints are addressed (limited space/equipment, rotating watches breaking up rest).",
+      "The Semester V capacities are integrated and balanced (strength, flexibility, perceived-effort cardio, injury prevention).",
+      "Sustainability is used as the test of the plan (a little done consistently over a lot abandoned).",
+      "The purpose is kept to capacity for the work and wellbeing, with no performance, body-weight or diet targets and no extreme goals, and the Semester I / Semester III boundary is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "C0104",
     subjectName: "Ética Profesional",
     subjectId: "pn-s5-etica-profesional",
