@@ -10188,6 +10188,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Círculo de evolución y distancia de parada",
+    topic: "El círculo de evolución y sus elementos",
+    week: 5,
+    taskId: "pn-man533-w05-turning-circle",
+    taskTitle: "Read The Vessel's Turning Circle",
+    scenario: "The officer asks the cadet to describe the vessel's turning circle and the figures that matter when planning a turn in confined water.",
+    instructions: [
+      "Name the elements of the turning circle: advance (the distance made good in the original direction), transfer (the distance made good at right angles to it), tactical diameter (the beam-to-beam distance when the vessel has turned through 180 degrees) and final diameter (the steady diameter once the turn is established).",
+      "State what changes the size of the circle: higher speed, deeper draught and trim, and heel all affect it, and it grows larger in shallow water; note the link to the week 3 squat as a reference only, without re-explaining squat.",
+      "Say where this information lives: the turning-circle curve on the wheelhouse poster or manoeuvring booklet gives the figures for the vessel's own loading and speed, so the officer must know the numbers for THIS ship rather than a general idea.",
+      "Report how you would use the advance and transfer to judge when to start a turn in confined water, in clear maritime English."
+    ],
+    deliverable: "A note in English naming the turning-circle elements (advance, transfer, tactical and final diameter), what changes its size (speed, draught/trim, heel, shallow water enlarging it, referencing week 3 squat), and the wheelhouse poster as the source of the vessel's own figures.",
+    assessmentCriteria: [
+      "The four elements are correctly defined (advance, transfer, tactical diameter, final diameter).",
+      "The factors are correct (speed, draught/trim, heel) and shallow water is correctly said to enlarge the circle, with squat referenced not re-taught.",
+      "The wheelhouse poster / manoeuvring booklet is correctly identified as the source of the vessel's own figures.",
+      "The use of advance and transfer to time a turn is sound, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Círculo de evolución y distancia de parada",
+    topic: "Distancia de parada y crash stop",
+    week: 6,
+    taskId: "pn-man533-w06-stopping-distance",
+    taskTitle: "Judge The Vessel's Stopping Distance",
+    scenario: "The officer asks the cadet to explain how far the vessel needs to stop and the difference between letting her run down and a crash stop, as a real manoeuvre rather than a calculation.",
+    instructions: [
+      "Explain headreach and inertia: a ship carries her way after the engines are stopped, so headreach is the distance run before she loses steerage and stops.",
+      "Distinguish the natural stop (stop engines and let the way run off, keeping steerage longer) from the crash stop (full astern to stop in the shortest distance).",
+      "State what changes the stopping distance: displacement and state of loading, initial speed, and the propeller type (a fixed-pitch versus a controllable-pitch propeller behave differently astern); the wheelhouse poster gives the vessel's own stopping figures.",
+      "Explain why the crash stop is a last resort: applying full astern causes a loss of steering control during the stop, so the vessel cannot be steered reliably while stopping. Boundary: the kinematics (distance = speed x time and the uniform-acceleration equations) were covered in Navegacion I week 7 and Dinamica week 5; here the concern is the real manoeuvre and its factors, not re-calculating them. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining headreach and inertia, the natural stop versus the crash stop, the factors (displacement/loading, initial speed, propeller type) with the wheelhouse poster as the source, and why the crash stop is a last resort, with the kinematics left to Navegacion I and Dinamica.",
+    assessmentCriteria: [
+      "Headreach and the ship's inertia are correctly explained.",
+      "The natural stop and the crash stop are correctly distinguished.",
+      "The factors are correct (displacement/loading, initial speed, fixed vs controllable-pitch propeller) with the wheelhouse poster as the source.",
+      "The crash stop is correctly explained as a last resort (loss of steering during the stop), the kinematics boundary is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Sistema de propulsión",
+    topic: "Efectos combinados de hélice y timón en la maniobra",
+    week: 7,
+    taskId: "pn-man533-w07-combined-propeller-rudder",
+    taskTitle: "Combine Propeller And Rudder To Turn Short",
+    scenario: "In a tight basin the officer asks the cadet to combine the propeller and rudder to turn the vessel in the shortest space, putting the separate principles of weeks 1 and 2 to work together.",
+    instructions: [
+      "Recall the transverse thrust (paddle wheel effect) direction as the building block from week 2: with a right-handed propeller (turning clockwise seen from astern when going ahead), when the engine is put ASTERN the stern walks to PORT, so the bow falls to STARBOARD.",
+      "Explain the rudder kick: a burst ahead with the rudder hard over gives an immediate sideways push of the stern from the propeller wash on the rudder, swinging the bow before the ship gathers headway.",
+      "Combine the two into a short round turn (turning in the vessel's own length): for a right-handed single-screw vessel the short round turn is made to STARBOARD, working the engine AHEAD with the rudder hard to STARBOARD (bow swings to starboard), then ASTERN to check the headway while the transverse thrust throws the stern to PORT (keeping the bow coming to starboard), repeating the ahead-astern cycle.",
+      "Boundary: weeks 1 and 2 taught the principles of the rudder and the propeller separately; this task is their combined use in a manoeuvre. Report the sequence, being explicit about the direction, in clear maritime English."
+    ],
+    deliverable: "A note in English combining propeller and rudder: the paddle-wheel direction from week 2 (right-handed propeller astern throws the stern to port, bow to starboard), the rudder kick, and the short round turn to starboard (ahead with starboard rudder, then astern), with the direction kept consistent throughout.",
+    assessmentCriteria: [
+      "The transverse thrust direction is correct (right-handed propeller astern: stern to port, bow to starboard).",
+      "The rudder kick is correctly explained (early sideways push from the wash before headway builds).",
+      "The short round turn is consistent with that direction (to starboard: ahead with starboard rudder, then astern using the transverse thrust).",
+      "The boundary with weeks 1 and 2 is respected (principles there, combined use here), in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Maniobra de atraque",
+    topic: "Atraque y desatraque: aproximación, viento y corriente, y el spring como herramienta",
+    week: 8,
+    taskId: "pn-man533-w08-berthing-manoeuvre",
+    taskTitle: "Bring The Vessel Alongside And Off",
+    scenario: "As the closing task of the subject, the officer asks the cadet to plan a berthing and unberthing manoeuvre from the bridge, bringing together the rudder, the propeller and the vessel's own distances.",
+    instructions: [
+      "Describe the approach: the angle to the berth and a minimum steerage speed, following the rule of prudence that you never approach faster than you are willing to hit the berth.",
+      "Explain wind and current as allies or enemies: berthing against the current gives control because the water flowing past keeps steerage while the ground speed stays low, whereas a following current or an onshore wind must be allowed for.",
+      "Explain the spring as a manoeuvring tool: working AHEAD against the forward (head) spring opens the STERN off the berth, and working ASTERN against the after (stern) spring opens the BOW off, which is how the vessel is sprung on and off.",
+      "State the bridge-to-stations coordination: the officer on the bridge works with the forward and after stations, drawing together the rudder (week 1), the propeller (weeks 2 and 7) and the vessel's distances (weeks 5 and 6). Boundary: the handling of the mooring lines as a deck operation belongs to Practicas Marineras V; here the lens is the ship being manoeuvred. Report your plan in clear maritime English."
+    ],
+    deliverable: "A note in English planning berthing and unberthing from the bridge: the approach angle and minimum steerage speed, wind and current as allies or enemies (berthing against the current for control), the spring as a manoeuvring tool (ahead on the head spring opens the stern, astern on the after spring opens the bow), and bridge-to-stations coordination, with line handling left to Practicas Marineras V.",
+    assessmentCriteria: [
+      "The approach is sound (angle and minimum steerage speed, the never-faster-than-willing-to-hit rule).",
+      "Wind and current are correctly explained (berthing against the current gives control).",
+      "The springs are correct and not crossed (ahead on the head spring opens the stern; astern on the after spring opens the bow).",
+      "The bridge-to-stations coordination and the Practicas Marineras V boundary are respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "QUH534",
     subjectName: "Química",
     subjectId: "pn-s5-quimica",
