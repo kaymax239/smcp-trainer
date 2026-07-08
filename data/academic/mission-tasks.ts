@@ -6824,6 +6824,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Mando y organización del sistema contra incendios",
+    topic: "Cuadro de obligaciones (muster list), cadena de mando, punto de reunión y control de entrada (entry control)",
+    week: 5,
+    taskId: "pn-c0038-w05-command-muster-organisation",
+    taskTitle: "Set Up The Command System For A Fire Response",
+    scenario: "A fire is reported and, above the individual team, a command system must run the whole response. The officer asks the cadet to set out how the fire response is commanded and organised, the muster list, the chain of command, the assembly point, entry control and brigade communications, rather than naming the team roles, which is already covered.",
+    instructions: [
+      "Explain how the muster list (station bill) assigns each crew member to a fire-response station and duty, and how the crew musters to it when the alarm sounds.",
+      "Set out the chain of command for the response: the on-scene commander leading the attack, reporting to and taking direction from the bridge or fire control (incident command).",
+      "Explain the assembly (muster) point and entry control for personnel accountability: logging who enters the fire zone and when, so that no one is ever unaccounted for.",
+      "State how the brigade maintains communications between the on-scene commander, the entry control point and the bridge. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English setting out the fire-response command system: the muster list, the chain of command (on-scene commander and bridge), the assembly point and entry control for accountability, and brigade communications.",
+    assessmentCriteria: [
+      "The muster list (station bill) and mustering are correctly explained.",
+      "The chain of command (on-scene commander reporting to bridge / fire control) is correct.",
+      "The assembly point and entry control for personnel accountability are correctly explained.",
+      "The brigade communications are sound, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Equipo de respiración autónoma y búsqueda en humo",
+    topic: "Colocación y chequeos del SCBA, gestión del aire y control de BA, y patrones de búsqueda en humo",
+    week: 6,
+    taskId: "pn-c0038-w06-scba-smoke-search",
+    taskTitle: "Manage Air And Search In Smoke Using SCBA",
+    scenario: "A team must enter a smoke-logged space wearing self-contained breathing apparatus (SCBA). The officer asks the cadet to set out the donning and pre-use checks, the air management that keeps the team alive, the BA control board, and the smoke search pattern.",
+    instructions: [
+      "Describe donning the SCBA and the pre-use checks: cylinder pressure full, mask and face-seal test, the low-pressure warning whistle, and the function of the demand valve.",
+      "Explain air management as a life-or-death discipline: note the entry pressure, work out the time to withdraw, and turn back BEFORE the reserve (low-pressure) warning, not after, remembering the way out takes as long as the way in.",
+      "Explain the BA control board (entry control): the controller logs each wearer's name, entry time and cylinder pressure and monitors the time to withdraw, so the team is turned around in good time.",
+      "Describe the smoke search: keeping one hand on the bulkhead (left-hand or right-hand search), working in pairs, and using a lifeline or guideline for orientation and retreat. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English covering the SCBA donning and pre-use checks, the air-management discipline (turn back before the reserve warning), the BA control board, and the smoke search pattern with lifeline and pairs.",
+    assessmentCriteria: [
+      "The SCBA donning and pre-use checks are correct.",
+      "Air management is correct, including turning back BEFORE the reserve warning and the way-out time.",
+      "The BA control board (entry control, air/time monitoring) is correctly explained.",
+      "The smoke search (hand on bulkhead, pairs, lifeline) is correct, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Sistemas fijos de extinción y enfriamiento de límites",
+    topic: "CO2 de inundación total y su protocolo de seguridad, espuma y water mist; boundary cooling",
+    week: 7,
+    taskId: "pn-c0038-w07-fixed-systems-co2-protocol",
+    taskTitle: "Operate Fixed Systems And The CO2 Safety Protocol",
+    scenario: "The machinery space must be flooded with the fixed CO2 total-flooding system while boundary cooling protects the surrounding structure. Because total-flooding CO2 is lethal to anyone left inside, the officer asks the cadet to state the fixed systems and, above all, the exact CO2 discharge protocol in the correct order.",
+    instructions: [
+      "Name the main fixed systems and their use: total-flooding CO2 for machinery spaces, foam for oil and flammable-liquid fires, and sprinklers or water mist for accommodation and general spaces.",
+      "State the CO2 total-flooding protocol in the correct, non-negotiable order: (1) evacuate the space and COUNT the personnel, confirming no one remains inside; (2) close the space, stopping ventilation and shutting dampers, doors and openings; (3) sound the CO2 discharge alarm; (4) only then release the CO2; (5) do NOT re-open or enter until the space is confirmed cool and has been ventilated and its atmosphere tested.",
+      "Explain why the head-count before discharge is critical (total-flooding CO2 is lethal to anyone left inside) and why the space must stay closed until verified (re-opening admits air, which can re-ignite the fire, and the atmosphere is not breathable).",
+      "Explain boundary cooling: cooling the bulkheads, decks and boundaries adjacent to the fire space with water to stop the fire spreading by conduction and to protect the surrounding structure. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English naming the fixed systems, stating the CO2 total-flooding protocol in the correct order (evacuate and count, close, alarm, discharge, no premature re-entry), explaining why the head-count and closure are critical, and describing boundary cooling.",
+    assessmentCriteria: [
+      "The fixed systems (CO2, foam, sprinklers/water mist) and their uses are correct.",
+      "The CO2 protocol is in the correct, complete order: evacuate and count personnel, close the space, sound the alarm, discharge, and no re-entry until confirmed cool, ventilated and tested.",
+      "The reasons (lethal to anyone inside; closed space prevents re-ignition and is not breathable) are correct.",
+      "Boundary cooling of adjacent bulkheads and decks is correctly explained, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Mando y control del escenario de incendio",
+    topic: "Ataque integrado: localizar y evaluar, aislar, atacar, enfriar límites y guardia de reignición (reflash watch)",
+    week: 8,
+    taskId: "pn-c0038-w08-fire-scene-command",
+    taskTitle: "Command An Integrated Attack On A Ship Fire",
+    scenario: "As the closing task of the subject, a developed fire must be fought under command. The officer asks the cadet to run the complete integrated attack, locate and assess, isolate, attack, boundary cool, and set the reflash watch, drawing on the command system, SCBA teams and fixed systems from the previous weeks.",
+    instructions: [
+      "Locate and assess the fire: find its seat and extent, identify what is burning and the risks, and decide the plan under the on-scene commander and bridge command.",
+      "Isolate the fire: stop ventilation to the space, isolate electrical power, and shut off fuel and any flammable supplies feeding it.",
+      "Attack the fire with SCBA teams under entry control (air discipline as in week 6) and/or the appropriate fixed system (CO2 protocol as in week 7), while boundary cooling the adjacent bulkheads and decks.",
+      "Set the reflash (re-ignition) watch as a MANDATORY step: after the fire is out, a watch must remain to monitor the space and its boundaries for re-ignition, and the space is not returned to normal use until confirmed cool and safe. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English running the integrated fire attack under command: locate and assess, isolate (ventilation, electrical, fuel), attack with SCBA teams and/or fixed systems while boundary cooling, and set the mandatory reflash watch.",
+    assessmentCriteria: [
+      "Locate and assess is correct (seat, extent, risks, plan under command).",
+      "Isolation is complete (ventilation, electrical power, fuel/flammable supplies).",
+      "The attack correctly integrates SCBA entry control and/or the fixed-system protocol with boundary cooling.",
+      "The reflash watch is set as a mandatory step, with the space not returned to use until confirmed safe, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "C0101",
     subjectName: "Redacción Avanzada",
     subjectId: "pn-s3-redaccion-avanzada",
