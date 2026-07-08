@@ -6012,6 +6012,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinemática de Partículas y Cuerpos Rígidos",
+    topic: "Movimiento uniformemente acelerado: ecuaciones cinemáticas y distancia de parada",
+    week: 5,
+    taskId: "pn-din321-w05-uniform-acceleration",
+    taskTitle: "Apply The Kinematic Equations To A Crash Stop",
+    scenario: "During a crash stop the vessel decelerates uniformly. The officer asks the cadet to apply the three equations of uniformly accelerated motion to find the speed and distance, and to cross-check the final speed by two independent equations.",
+    instructions: [
+      "State the three kinematic equations: v = v0 + a t; d = v0 t + (1/2) a t^2; and v^2 = v0^2 + 2 a d.",
+      "For an initial speed v0 = 12 m/s and a uniform deceleration a = -0.5 m/s^2 over t = 8 s, find the final speed: v = 12 + (-0.5)(8) = 12 - 4 = 8 m/s.",
+      "Find the distance run, writing the (1/2) a t^2 term separately: d = v0 t + (1/2) a t^2 = (12)(8) + (1/2)(-0.5)(8^2) = 96 + (-16) = 80 m.",
+      "Cross-check the final speed with the third equation: v^2 = v0^2 + 2 a d = 12^2 + 2(-0.5)(80) = 144 - 80 = 64, so v = 8 m/s, matching the second step. Report the results with the working, in clear English."
+    ],
+    deliverable: "A kinematics note in English giving the final speed and stopping distance from the equations of uniformly accelerated motion, with the (1/2) a t^2 term shown and the final speed cross-checked by v^2 = v0^2 + 2 a d.",
+    assessmentCriteria: [
+      "The three kinematic equations are stated correctly.",
+      "The final speed is correct (v = 12 - 4 = 8 m/s).",
+      "The distance is correct (d = 96 - 16 = 80 m) with the (1/2) a t^2 term shown separately.",
+      "The cross-check gives the same final speed (v^2 = 64, v = 8 m/s), in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinemática de Partículas y Cuerpos Rígidos",
+    topic: "Movimiento circular uniforme: velocidad angular y aceleración centrípeta",
+    week: 6,
+    taskId: "pn-din321-w06-circular-motion",
+    taskTitle: "Relate Angular Speed And Centripetal Acceleration",
+    scenario: "A point on rotating deck machinery, for example the arm of a radar antenna, moves in a uniform circle. The officer asks the cadet to relate its angular velocity, its linear speed and its centripetal acceleration.",
+    instructions: [
+      "State the relations: v = omega r; centripetal acceleration a = v^2 / r; and equivalently a = omega^2 r.",
+      "For a point at radius r = 3 m turning at angular velocity omega = 2 rad/s, find the linear speed: v = omega r = 2 x 3 = 6 m/s.",
+      "Find the centripetal acceleration, showing v^2 as an intermediate step: a = v^2 / r = (6^2) / 3 = 36 / 3 = 12 m/s^2.",
+      "Cross-check with a = omega^2 r = (2^2)(3) = 4 x 3 = 12 m/s^2, confirming it matches v^2 / r. Report the results with the working, in clear English."
+    ],
+    deliverable: "A circular-motion note in English giving the linear speed and centripetal acceleration of the point, with v^2 shown as an intermediate step and the acceleration cross-checked by a = omega^2 r.",
+    assessmentCriteria: [
+      "The relations v = omega r, a = v^2 / r and a = omega^2 r are stated correctly.",
+      "The linear speed is correct (v = 2 x 3 = 6 m/s).",
+      "The centripetal acceleration is correct (a = 36 / 3 = 12 m/s^2) with v^2 shown.",
+      "The cross-check a = omega^2 r = 12 m/s^2 matches, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Conservación de la energía mecánica (Ep + Ec = constante)",
+    week: 7,
+    taskId: "pn-din321-w07-energy-conservation",
+    taskTitle: "Find Fall Speed By Conservation Of Energy",
+    scenario: "A load is being lowered from a crane and, if released, would fall freely. The officer asks the cadet to use conservation of mechanical energy to find the speed after falling a given height.",
+    instructions: [
+      "State conservation of mechanical energy for the fall: the loss in potential energy equals the gain in kinetic energy, m g h = (1/2) m v^2.",
+      "Cancel the mass, which appears on both sides, explicitly, giving v^2 = 2 g h and v = square root(2 g h).",
+      "For g = 9.81 m/s^2 and a fall height h = 5.0 m, calculate v = square root(2 x 9.81 x 5.0) = square root(98.1) = 9.90 m/s (v^2 = 98.1 m^2/s^2).",
+      "Verify in reverse with a mass m = 200 kg: the kinetic energy (1/2) m v^2 = (1/2)(200)(98.1) = 9810 J equals the potential energy m g h = (200)(9.81)(5.0) = 9810 J. Report the results with the working, in clear English."
+    ],
+    deliverable: "An energy-conservation note in English giving the fall speed from v = square root(2 g h) with the mass cancelled explicitly, and a reverse check that (1/2) m v^2 equals m g h for a stated mass.",
+    assessmentCriteria: [
+      "Conservation of energy is stated correctly (m g h = (1/2) m v^2).",
+      "The mass is cancelled explicitly to give v = square root(2 g h).",
+      "The speed is correct (v = square root(98.1) = 9.90 m/s).",
+      "The reverse energy check balances (both 9810 J for m = 200 kg), in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Conservación de la cantidad de movimiento: colisión plástica",
+    week: 8,
+    taskId: "pn-din321-w08-momentum-conservation",
+    taskTitle: "Apply Momentum Conservation To A Plastic Collision",
+    scenario: "Two vessels make contact and momentarily move together, a plastic (perfectly inelastic) collision. As the closing task of the subject, the officer asks the cadet to apply conservation of momentum with correct direction signs.",
+    instructions: [
+      "State conservation of momentum for a plastic collision: m1 v1 + m2 v2 = (m1 + m2) v', where the two bodies move together after contact.",
+      "Take motion to the right as positive and assign signs: vessel 1, m1 = 3000 t at v1 = +4 m/s, and vessel 2 approaching from ahead, m2 = 1000 t at v2 = -4 m/s (opposite direction, so a negative sign).",
+      "Compute the total momentum before with signs: m1 v1 + m2 v2 = (3000)(+4) + (1000)(-4) = 12000 - 4000 = 8000 t m/s, then v' = 8000 / (3000 + 1000) = 8000 / 4000 = +2 m/s.",
+      "Verify the momentum after equals the momentum before: (m1 + m2) v' = (4000)(2) = 8000 t m/s, equal to the total before, and confirm the result is reasonable (v' = +2 m/s, in the direction of the greater momentum and smaller than the larger initial speed of 4 m/s). Report the results with the working, in clear English."
+    ],
+    deliverable: "A momentum-conservation note in English giving the common velocity after a plastic collision, with direction signs assigned, the total momentum before and after shown equal, and a reasonableness check on the result.",
+    assessmentCriteria: [
+      "Conservation of momentum for a plastic collision is stated correctly (m1 v1 + m2 v2 = (m1 + m2) v').",
+      "Direction signs are assigned correctly (approaching vessel is negative).",
+      "The common velocity is correct (v' = 8000 / 4000 = +2 m/s).",
+      "The momentum before and after are shown equal (8000 t m/s) with a reasonableness check, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "ING317",
     subjectName: "Inglés Marítimo III",
     subjectId: "pn-s3-ingles-maritimo-iii",
