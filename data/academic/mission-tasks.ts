@@ -5084,6 +5084,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Compás magnético",
+    topic: "Conversión de rumbos verdadero, magnético y de compás (variación y desvío en cadena)",
+    week: 5,
+    taskId: "pn-nav316-w05-course-conversion-chain",
+    taskTitle: "Convert A Course True To Magnetic To Compass And Back",
+    scenario: "Before steering, the officer of the watch gives the cadet a true course and the vessel's variation and deviation, and asks for the compass course to pass to the helmsman. Getting the East and West signs wrong sends the ship off track, so the cadet must apply the corrections in the right order and prove the chain by reversing it.",
+    instructions: [
+      "State the rule with the memory aid 'error west, compass best; error east, compass least': a West error is ADDED to true to get compass, an East error is SUBTRACTED.",
+      "Working True to Magnetic to Compass, convert a true course of 050 degrees with variation 10 degrees West and deviation 4 degrees East: apply the variation first, then the deviation.",
+      "Show the magnetic course (050 + 10 = 060 degrees M) and the compass course (060 - 4 = 056 degrees C).",
+      "Verify by reversing the chain Compass to Magnetic to True (add East going to true): 056 + 4 = 060 degrees M, then 060 - 10 = 050 degrees T, confirming it returns to the original course. Report every course as three figures in 000-360 degrees, in clear navigational English."
+    ],
+    deliverable: "A course conversion note in English showing the full True-Magnetic-Compass chain with each step, and the reverse Compass-Magnetic-True check confirming it returns to the original true course, all courses in three figures.",
+    assessmentCriteria: [
+      "The sign rule is stated correctly (West error added, East error subtracted, going from true to compass).",
+      "The magnetic course is correct (050 + 10W = 060 degrees M) and the compass course is correct (060 - 4E = 056 degrees C).",
+      "The reverse check returns to the original (056 + 4E = 060 degrees M, 060 - 10W = 050 degrees T).",
+      "All courses are given as three figures in 000-360 degrees, in clear navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Navegación loxodrómica",
+    topic: "Navegación plana (plane sailing): diferencia de latitud, apartamiento, rumbo y distancia",
+    week: 6,
+    taskId: "pn-nav316-w06-plane-sailing",
+    taskTitle: "Find Course And Distance By Plane Sailing",
+    scenario: "The vessel must run a short rhumb-line leg between two positions. The officer asks the cadet to find the course to steer and the distance using plane sailing, treating the leg as a plane right triangle of difference of latitude and departure.",
+    instructions: [
+      "State the two positions A 59 degrees 30 minutes N, 010 degrees 00 minutes W and B 60 degrees 30 minutes N, 008 degrees 00 minutes W, and find the difference of latitude in minutes (1 minute of latitude = 1 NM).",
+      "Calculate the departure with departure = difference of longitude in minutes x cosine of the mean latitude: mean latitude = 60 degrees (cos 60 = 0.5), difference of longitude = 120 minutes, so departure = 120 x 0.5 = 60 NM.",
+      "Find the course with course angle = arctangent(departure / difference of latitude) = arctangent(60 / 60) = 45 degrees, giving 045 degrees T in the NE quadrant.",
+      "Find the distance by Pythagoras, distance = square root(difference of latitude squared + departure squared) = square root(60 squared + 60 squared) = 84.9 NM, and verify with distance = difference of latitude / cosine(course) = 60 / cos 45 = 84.9 NM. Report the course in three figures and the distance in nautical miles, in clear navigational English."
+    ],
+    deliverable: "A plane sailing calculation in English giving the difference of latitude, the departure, the course (three figures) and the distance in NM, with the working shown and the distance verified by both methods.",
+    assessmentCriteria: [
+      "The difference of latitude is correct (60 minutes = 60 NM) and the departure is correct (120 x cos 60 = 60 NM).",
+      "The course is correct (arctangent(60/60) = 45 degrees, i.e. 045 degrees T) in the correct quadrant.",
+      "The distance is correct (square root(60 squared + 60 squared) = 84.9 NM) and verified by distance = difference of latitude / cos(course) = 84.9 NM.",
+      "The course is given as three figures in 000-360 degrees and the distance in NM, in clear navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Navegación loxodrómica",
+    topic: "Velocidad, tiempo y ETA en la derrota con corrección por corriente (SOG vs velocidad de superficie)",
+    week: 7,
+    taskId: "pn-nav316-w07-speed-time-eta-current",
+    taskTitle: "Work Out ETA On A Leg Corrected For Current",
+    scenario: "The vessel is running a leg toward a waypoint and a known current sets along the track. The officer asks the cadet to work out the passage time and ETA using speed over the ground, remembering that a head current makes the passage slower and a fair current faster.",
+    instructions: [
+      "State the leg: distance to waypoint WP1 = 60 NM, speed through the water = 12 knots, departure time 08:00.",
+      "With no current, calculate the time as distance / speed = 60 / 12 = 5.0 hours, giving ETA 13:00.",
+      "With a 2 knot current AGAINST, speed over the ground = 12 - 2 = 10 knots, so time = 60 / 10 = 6.0 hours and ETA = 08:00 + 6:00 = 14:00; confirm this ETA is LATER than the no-current ETA.",
+      "With a 2 knot current in FAVOUR, speed over the ground = 12 + 2 = 14 knots, so time = 60 / 14 = 4.29 hours = 4 hours 17 minutes. Report all times and ETAs, in clear navigational English."
+    ],
+    deliverable: "An ETA calculation in English giving the passage time and ETA for no current, a head current and a fair current, using speed over the ground, with the working shown and the head-current ETA confirmed later than the no-current ETA.",
+    assessmentCriteria: [
+      "The no-current time and ETA are correct (60 / 12 = 5.0 h, ETA 13:00).",
+      "The head current uses speed over the ground correctly (12 - 2 = 10 kn, 60 / 10 = 6.0 h, ETA 14:00) and is confirmed later than the no-current ETA.",
+      "The fair current uses speed over the ground correctly (12 + 2 = 14 kn, 60 / 14 = 4 h 17 min).",
+      "Times and ETAs carry the correct units and the reasoning is in clear navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Líneas de posición",
+    topic: "Situación por demoras cruzadas: conversión de demoras de compás a verdaderas y triángulo de error (cocked hat)",
+    week: 8,
+    taskId: "pn-nav316-w08-fix-cross-bearings",
+    taskTitle: "Fix The Ship By Cross Bearings And The Cocked Hat",
+    scenario: "Approaching the coast the cadet takes compass bearings of three charted objects to fix the ship. The officer asks the cadet to correct each bearing to true, plot the position lines, and judge the fix from the small triangle of error they form.",
+    instructions: [
+      "State the corrections, variation 5 degrees East and deviation 3 degrees East (total error 8 degrees East), and the rule Compass to True adds East: true bearing = compass bearing + 8 degrees.",
+      "Convert the three compass bearings to true: object A 040 degrees C = 048 degrees T, object B 100 degrees C = 108 degrees T, object C 340 degrees C = 348 degrees T, and verify each by reversing (True to Compass subtracts East) back to the original.",
+      "Give the reciprocal of each true bearing (bearing plus or minus 180 degrees) for plotting the position line from the object: 048 + 180 = 228 degrees, 108 + 180 = 288 degrees, 348 - 180 = 168 degrees.",
+      "Explain that when the three position lines do not meet at a single point they form a triangle of error (a cocked hat), and that the fix is taken at its centre, or at the corner nearest to danger for safety. Report all bearings as three figures in 000-360 degrees, in clear navigational English."
+    ],
+    deliverable: "A fix note in English giving the three true bearings with their reverse check, their reciprocals for plotting, and an explanation of the cocked hat and where the fix is taken, all bearings in three figures.",
+    assessmentCriteria: [
+      "Each compass bearing is correctly converted to true (040 + 8 = 048, 100 + 8 = 108, 340 + 8 = 348 degrees T) and verified by the reverse conversion.",
+      "The reciprocals are correct (048/228, 108/288, 348/168 degrees) for plotting the position lines.",
+      "The triangle of error (cocked hat) is correctly explained, including taking the fix at its centre or nearest the danger.",
+      "All bearings are given as three figures in 000-360 degrees, in clear navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "HID318",
     subjectName: "Hidrografía",
     subjectId: "pn-s3-hidrografia",
