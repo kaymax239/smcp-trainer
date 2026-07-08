@@ -7404,6 +7404,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Corriente alterna",
+    topic: "Generación de la onda senoidal, frecuencia y período, valores pico y eficaz (Vrms = Vp / raiz de 2)",
+    week: 5,
+    taskId: "mn-ele316-w05-ac-sine-wave-rms",
+    taskTitle: "Work Out Frequency, Period And RMS Of An AC Supply",
+    scenario: "The ship's alternator produces alternating current as a coil turns in a magnetic field. The engineer asks the cadet to relate the sine wave to frequency and period and to work out the effective (RMS) voltage from the peak, before working with the AC supply.",
+    instructions: [
+      "Explain how a coil rotating in a magnetic field generates a sinusoidal voltage, linking it to the magnetism and induction of weeks 1 and 2.",
+      "State the relationship between frequency and period, T = 1 / f, and for a 60 Hz supply calculate T = 1 / 60 = 0.0167 s = 16.7 ms.",
+      "State that the RMS (effective) value is always LESS than the peak, RMS = peak / square root of 2, and for a peak of 311 V calculate Vrms = 311 / 1.414 = 220 V.",
+      "Verify by reversing it, peak = RMS x square root of 2 = 220 x 1.414 = 311 V, confirming it returns to the original peak. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "An AC calculation in English giving the period from T = 1 / f, the RMS voltage from Vrms = Vp / square root of 2 (with RMS confirmed less than peak), and the reverse check returning the original peak, with units.",
+    assessmentCriteria: [
+      "The generation of the sine wave from a rotating coil is correctly explained and linked to weeks 1 and 2.",
+      "The period is correct (T = 1 / 60 = 16.7 ms).",
+      "The RMS voltage is correct (311 / 1.414 = 220 V) and stated as less than the peak.",
+      "The reverse check returns the peak (220 x 1.414 = 311 V), with correct units, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Reactancia e impedancia",
+    topic: "Reactancia inductiva y capacitiva e impedancia en serie (Z = raiz de R cuadrado mas XL cuadrado)",
+    week: 6,
+    taskId: "mn-ele316-w06-reactance-impedance",
+    taskTitle: "Calculate Reactance And Series Impedance",
+    scenario: "An AC circuit on board contains resistance and inductance. The engineer asks the cadet to work out the inductive reactance and the series impedance, and to note what capacitive reactance is.",
+    instructions: [
+      "State that inductive reactance is XL = 2 x pi x f x L; calculate 2 x pi x f first as an intermediate step: 2 x 3.1416 x 60 = 377, then for L = 0.106 H, XL = 377 x 0.106 = 40 ohms.",
+      "State that capacitive reactance is XC = 1 / (2 x pi x f x C) as a concept, and for C = 100 microfarads, XC = 1 / (377 x 0.0001) = 26.5 ohms.",
+      "Calculate the series impedance with Z = square root of (R squared + XL squared); for R = 30 ohms and XL = 40 ohms, Z = square root of (900 + 1600) = square root of 2500 = 50 ohms.",
+      "Confirm the result with the 30-40-50 right triangle (30 squared + 40 squared = 2500 = 50 squared). Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "An AC calculation in English giving the inductive reactance from XL = 2 x pi x f x L (with 2 x pi x f shown), the capacitive reactance as a concept, and the series impedance Z = square root of (R squared + XL squared) confirmed by the 30-40-50 triangle, with units.",
+    assessmentCriteria: [
+      "The inductive reactance is correct (2 x pi x f = 377 shown, XL = 40 ohms).",
+      "The capacitive reactance concept is correct (XC = 1 / (2 x pi x f x C), 26.5 ohms).",
+      "The series impedance is correct (square root of (900 + 1600) = 50 ohms).",
+      "The 30-40-50 triangle confirms the impedance, with correct units, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Potencia en corriente alterna",
+    topic: "El triangulo de potencia (activa, reactiva, aparente) y el factor de potencia de la planta electrica",
+    week: 7,
+    taskId: "mn-ele316-w07-power-triangle-plant",
+    taskTitle: "Analyse The Power Triangle Of The Ship's Plant",
+    scenario: "The ship's electrical plant supplies a load at a given power factor. The engineer asks the cadet to work out the apparent, active and reactive powers and to explain what a low power factor costs the plant. This task is about the PLANT and its power triangle, not the input power or efficiency of a single motor (that was covered in Semester I electricity).",
+    instructions: [
+      "Distinguish the three powers: apparent power S = V x I (in VA), active power P = V x I x power factor (in W), and reactive power Q (in VAR), noting that P is always less than or equal to S. Here P = V x I x power factor is a reference, not the aim of the exercise.",
+      "For a plant load at V = 440 V and I = 100 A with power factor 0.8, calculate S = 440 x 100 = 44 kVA and P = 44 x 0.8 = 35.2 kW, and verify P / S = 35.2 / 44 = 0.8 = the power factor.",
+      "Close the power triangle with Q = square root of (S squared - P squared) = square root of (44 squared - 35.2 squared) = square root of 696.96 = 26.4 kVAR, and verify with square root of (P squared + Q squared) = square root of (35.2 squared + 26.4 squared) = 44 kVA (the 26.4-35.2-44 triangle, a scaled 3-4-5).",
+      "Explain the plant consequence: at power factor 0.8 the 44 kVA generator delivers only 35.2 kW of useful power (8.8 kW of capacity 'wasted'), and the lines still carry the full 100 A; contrast with power factor 1.0, where the same 44 kVA would deliver 44 kW. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A power-triangle analysis in English giving S, P and Q for the plant load, the verification P / S = power factor and the Pythagorean triangle check, and an explanation of the generator capacity and extra current caused by a low power factor, with units.",
+    assessmentCriteria: [
+      "The three powers are correctly distinguished (S in VA, P in W, Q in VAR, with P less than or equal to S).",
+      "S and P are correct (44 kVA and 35.2 kW) with P / S = 0.8 verified as the power factor.",
+      "Q closes the triangle (26.4 kVAR) and the Pythagorean check returns 44 kVA (26.4-35.2-44).",
+      "The plant consequence is correct (35.2 kW of 44 kVA used, full current, contrast with power factor 1.0), scoped to the plant and not motor efficiency, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "El transformador",
+    topic: "Principio de induccion mutua, relacion de transformacion (V1/V2 = N1/N2 = I2/I1) y transformadores a bordo",
+    week: 8,
+    taskId: "mn-ele316-w08-transformer-ratio",
+    taskTitle: "Apply The Transformer Ratio On Board",
+    scenario: "As the closing task of the subject, a step-down transformer feeds a lighting and instrumentation circuit. The engineer asks the cadet to explain how the transformer works and to apply the turns ratio, closing the arc with the mutual induction of week 2.",
+    instructions: [
+      "Explain the transformer principle of mutual induction, in which the changing current in the primary induces a voltage in the secondary (linking back to Lenz and induction in week 2).",
+      "State the transformation ratio: V1 / V2 = N1 / N2, but the currents are INVERSE, I1 / I2 = N2 / N1, so if the voltage steps down the current steps up.",
+      "For a 440 V to 110 V step-down transformer, N1 / N2 = 440 / 110 = 4, so with a primary current I1 = 10 A the secondary current is I2 = 4 x 10 = 40 A.",
+      "Verify by power (ideal transformer, no losses): V1 x I1 = 440 x 10 = 4400 VA equals V2 x I2 = 110 x 40 = 4400 VA; then note typical shipboard uses (lighting, instrumentation, isolation). Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A transformer note in English explaining mutual induction, applying V1 / V2 = N1 / N2 with the INVERSE current ratio I1 / I2 = N2 / N1, verified by V1 x I1 = V2 x I2, and naming shipboard transformer uses, with units.",
+    assessmentCriteria: [
+      "The mutual-induction principle is correct and linked to week 2 (Lenz / induction).",
+      "The ratio is applied correctly (V1 / V2 = N1 / N2 = 4; currents inverse).",
+      "The secondary current is correct (I2 = 4 x 10 = 40 A) and verified by V1 x I1 = V2 x I2 = 4400 VA.",
+      "Shipboard transformer uses (lighting, instrumentation, isolation) are given, with correct units, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "TEM319",
     subjectName: "Tecnología de Materiales",
     subjectId: "mn-s3-tecnologia-materiales",
