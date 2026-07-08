@@ -8332,6 +8332,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinemática de Partículas y Cuerpos Rígidos",
+    topic: "Movimiento uniformemente acelerado: ecuaciones cinematicas en la linea de propulsion",
+    week: 5,
+    taskId: "mn-din318-w05-drive-line-coastdown",
+    taskTitle: "Apply The Kinematic Equations To A Drive-Line Coast-Down",
+    scenario: "When power is cut, the propulsion drive line decelerates uniformly towards rest. The engineer asks the cadet to apply the three equations of uniformly accelerated motion to find the speed and distance, and to cross-check the final speed by two independent equations.",
+    instructions: [
+      "State the three kinematic equations: v = v0 + a t; d = v0 t + (1/2) a t^2; and v^2 = v0^2 + 2 a d.",
+      "For an initial speed v0 = 15 m/s and a uniform deceleration a = -1 m/s^2 over t = 5 s, find the final speed: v = 15 + (-1)(5) = 15 - 5 = 10 m/s.",
+      "Find the distance run, writing the (1/2) a t^2 term separately: d = v0 t + (1/2) a t^2 = (15)(5) + (1/2)(-1)(5^2) = 75 + (-12.5) = 62.5 m.",
+      "Cross-check the final speed with the third equation: v^2 = v0^2 + 2 a d = 15^2 + 2(-1)(62.5) = 225 - 125 = 100, so v = 10 m/s, matching the second step. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A kinematics note in English giving the final speed and coast-down distance from the equations of uniformly accelerated motion, with the (1/2) a t^2 term shown and the final speed cross-checked by v^2 = v0^2 + 2 a d.",
+    assessmentCriteria: [
+      "The three kinematic equations are stated correctly.",
+      "The final speed is correct (v = 15 - 5 = 10 m/s).",
+      "The distance is correct (d = 75 - 12.5 = 62.5 m) with the (1/2) a t^2 term shown separately.",
+      "The cross-check gives the same final speed (v^2 = 100, v = 10 m/s), in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinemática de Partículas y Cuerpos Rígidos",
+    topic: "Movimiento circular uniforme: velocidad angular y aceleracion centripeta en la periferia del volante",
+    week: 6,
+    taskId: "mn-din318-w06-flywheel-rim-acceleration",
+    taskTitle: "Relate A Flywheel Rim's Speed And Acceleration",
+    scenario: "A point on the rim of a flywheel moves in a uniform circle. The engineer asks the cadet to relate the flywheel's angular velocity to the rim point's linear speed and centripetal acceleration.",
+    instructions: [
+      "State the relations: v = omega r; centripetal acceleration a = v^2 / r; and equivalently a = omega^2 r.",
+      "For a rim point at radius r = 0.5 m turning at angular velocity omega = 10 rad/s, find the linear speed: v = omega r = 10 x 0.5 = 5 m/s.",
+      "Find the centripetal acceleration, showing v^2 as an intermediate step: a = v^2 / r = (5^2) / 0.5 = 25 / 0.5 = 50 m/s^2.",
+      "Cross-check with a = omega^2 r = (10^2)(0.5) = 100 x 0.5 = 50 m/s^2, confirming it matches v^2 / r. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A circular-motion note in English giving the rim point's linear speed and centripetal acceleration, with v^2 shown as an intermediate step and the acceleration cross-checked by a = omega^2 r.",
+    assessmentCriteria: [
+      "The relations v = omega r, a = v^2 / r and a = omega^2 r are stated correctly.",
+      "The linear speed is correct (v = 10 x 0.5 = 5 m/s).",
+      "The centripetal acceleration is correct (a = 25 / 0.5 = 50 m/s^2) with v^2 shown.",
+      "The cross-check a = omega^2 r = 50 m/s^2 matches, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Conservacion de la energia mecanica: carga del polipasto del taller (v = raiz de 2 g h)",
+    week: 7,
+    taskId: "mn-din318-w07-hoist-load-fall-speed",
+    taskTitle: "Find Hoist Load Fall Speed By Conservation Of Energy",
+    scenario: "A load is being lowered from the workshop hoist and, if it were released, would fall freely. The engineer asks the cadet to use conservation of mechanical energy to find the speed after falling a given height.",
+    instructions: [
+      "State conservation of mechanical energy for the fall: the loss in potential energy equals the gain in kinetic energy, m g h = (1/2) m v^2.",
+      "Cancel the mass, which appears on both sides, explicitly, giving v^2 = 2 g h and v = square root(2 g h).",
+      "For g = 9.81 m/s^2 and a fall height h = 3.2 m, calculate v = square root(2 x 9.81 x 3.2) = square root(62.784) = 7.92 m/s (v^2 = 62.784 m^2/s^2).",
+      "Verify in reverse with a mass m = 150 kg: the kinetic energy (1/2) m v^2 = (1/2)(150)(62.784) = 4708.8 J equals the potential energy m g h = (150)(9.81)(3.2) = 4708.8 J. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "An energy-conservation note in English giving the fall speed from v = square root(2 g h) with the mass cancelled explicitly, and a reverse check that (1/2) m v^2 equals m g h for a stated mass.",
+    assessmentCriteria: [
+      "Conservation of energy is stated correctly (m g h = (1/2) m v^2).",
+      "The mass is cancelled explicitly to give v = square root(2 g h).",
+      "The speed is correct (v = square root(62.784) = 7.92 m/s).",
+      "The reverse energy check balances (both 4708.8 J for m = 150 kg), in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Conservacion de la cantidad de movimiento: enganche de carros de taller (colision plastica)",
+    week: 8,
+    taskId: "mn-din318-w08-trolley-coupling",
+    taskTitle: "Apply Momentum Conservation To Coupling Trolleys",
+    scenario: "A moving workshop trolley couples onto a stationary one and they move off together, a plastic (perfectly inelastic) collision. As the closing task of the subject, the engineer asks the cadet to apply conservation of momentum with correct direction signs.",
+    instructions: [
+      "State conservation of momentum for a plastic collision: m1 v1 + m2 v2 = (m1 + m2) v', where the two bodies move together after coupling.",
+      "Take the direction of motion as positive: trolley 1, m1 = 1200 kg at v1 = +5 m/s, and the stationary trolley 2, m2 = 800 kg at v2 = 0.",
+      "Compute the total momentum before: m1 v1 + m2 v2 = (1200)(5) + (800)(0) = 6000 kg m/s, then v' = 6000 / (1200 + 800) = 6000 / 2000 = +3 m/s.",
+      "Verify the momentum after equals the momentum before: (m1 + m2) v' = (2000)(3) = 6000 kg m/s, equal to the total before, and confirm the result is reasonable (v' = +3 m/s lies between the two initial speeds, 0 and 5 m/s). Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A momentum-conservation note in English giving the common velocity after the trolleys couple, with direction signs, the total momentum before and after shown equal, and a reasonableness check on the result.",
+    assessmentCriteria: [
+      "Conservation of momentum for a plastic collision is stated correctly (m1 v1 + m2 v2 = (m1 + m2) v').",
+      "The signs are assigned correctly (the stationary trolley contributes zero momentum).",
+      "The common velocity is correct (v' = 6000 / 2000 = +3 m/s).",
+      "The momentum before and after are shown equal (6000 kg m/s) with a reasonableness check (0 < 3 < 5), in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "ING315",
     subjectName: "Inglés Marítimo III",
     subjectId: "mn-s3-ingles-maritimo-iii",
