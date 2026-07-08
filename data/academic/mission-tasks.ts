@@ -11116,6 +11116,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Maniobras de fondeo",
+    topic: "La maniobra de fondeo ejecutada",
+    week: 5,
+    taskId: "pn-pmr536-w05-anchoring-execution",
+    taskTitle: "Execute The Anchoring Manoeuvre",
+    scenario: "The preparations are done and the vessel is on the anchorage. The officer asks the cadet to execute the anchoring manoeuvre and report it from the forecastle, taking the preparations of week 2 into the deck operation itself.",
+    instructions: [
+      "State the two ways of laying the anchor and when each is used: walking back with the windlass in gear (controlled, lowering the anchor under power) and letting go on the brake (fast, dropping to the bottom, only where the depth and holding ground suit it).",
+      "State how much cable to pay out: the working rule is about three to four times the depth of water in good weather, increased for strong wind, sea or a long stay, because it is the weight of the cable lying in a catenary that cushions the pull, so the anchor digs in and the cable takes the snatch out of the load.",
+      "Describe the vessel being brought up: as the cable is paid out and the vessel drops back, the cable tightens and then eases as the anchor takes hold, the sign that she is brought up and holding.",
+      "Report from the station to the bridge with the correct terms: how many shackles are out (reading the markings from week 4), when the cable is up and down (leading vertically), and when the anchor is aweigh (broken out and lifted off the bottom). Boundary: week 2 was the preparations and the officer's roles were in Maniobras I; here it is the deck execution. Report in clear maritime English."
+    ],
+    deliverable: "A note in English executing the anchoring manoeuvre: walking back versus letting go and when each is used, the cable scope rule (about 3-4 times the depth in good weather, more in bad), the vessel brought up (cable tightens as the anchor holds), and the station reports (shackles out, up and down, anchor aweigh = broken out), building on the week 2 preparations.",
+    assessmentCriteria: [
+      "Walking back and letting go are correctly distinguished and situated (controlled under power vs fast on the brake).",
+      "The scope rule is correct (about 3-4 times the depth in good weather, increased for wind/sea/long stay) with the catenary reason.",
+      "Being brought up is correctly described (cable tightens then eases as the anchor holds).",
+      "The station reports are correct (shackles out, up and down, anchor aweigh = broken out of the ground), in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Plumas y grúas",
+    topic: "La faena de carga: señalización, eslingado y zona de seguridad",
+    week: 6,
+    taskId: "pn-pmr536-w06-cargo-lifting-operations",
+    taskTitle: "Run A Safe Lifting Operation",
+    scenario: "A lift is being worked with the ship's crane. The officer asks the cadet to run the full deck operation on top of the basic crane handling of week 3: signalling, slinging and the safety zone.",
+    instructions: [
+      "State the standard hand signals to the operator (hoist, lower, stop) and the rule that STOP is the one signal that anyone may give and the operator always obeys.",
+      "Explain safe slinging and the sling angle: with a two-leg sling the angle between the legs increases the tension in each leg, so for a 1000 kg load the tension per leg is T = W / (2 x cos(half the angle)) — about 500 kg per leg with the legs near vertical (angle 0 degrees), about 577 kg per leg at 60 degrees, and a full 1000 kg per leg at 120 degrees, where each leg carries the whole load; so keep the angle closed (ideally under 90 degrees) or use longer slings, and inspect the slings before use.",
+      "State the golden rule of the safety zone: no one stands under a suspended load or in its path, and the zone is cleared before the lift.",
+      "Explain how the signaller, operator and slingers work as one team throughout the lift. Report in clear maritime English."
+    ],
+    deliverable: "A note in English running a lifting operation: the hand signals (hoist, lower, stop, with stop obeyed from anyone), safe slinging with the sling-angle effect (T = W/(2 cos(half-angle)): ~500 kg per leg near vertical, ~577 kg at 60 degrees, 1000 kg at 120 degrees for a 1000 kg load, so keep the angle closed), sling inspection, and the safety zone (no one under or in the path of the load).",
+    assessmentCriteria: [
+      "The hand signals are correct and the stop rule is stated (anyone may signal stop, the operator always obeys).",
+      "The sling-angle effect is correct (tension per leg increases with the angle: ~500 kg near vertical, ~577 kg at 60 degrees, 1000 kg at 120 degrees) with the keep-it-closed rule.",
+      "Sling inspection before use is included.",
+      "The safety zone rule is correct (no one under or in the path of a suspended load, cleared before lifting), in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Aparejo de amarre",
+    topic: "Inspección, descarte y estiba del aparejo de amarre",
+    week: 7,
+    taskId: "pn-pmr536-w07-mooring-gear-maintenance",
+    taskTitle: "Inspect And Maintain Mooring Gear",
+    scenario: "Mooring gear that fails puts the whole station in danger. The officer asks the cadet to inspect and maintain the mooring lines and fittings so that a line is discarded before it parts, not after.",
+    instructions: [
+      "State how to inspect fibre rope: look for external abrasion, friction burns from surging, and internal hardness or stiffness that shows the fibres are worn or fused.",
+      "State how to inspect wire rope: count broken wires against the discard criterion (a set number of broken wires in a given length, as the concept) and look for corrosion and for kinks that deform the core.",
+      "State correct stowage: rope coiled down, dry and ventilated, and synthetic fibre kept out of the sun, which weakens it.",
+      "State the fittings point: bitts, fairleads and rollers must be sound, because a rusted or pitted fairlead saws through the line that works over it. Boundary: the snap-back danger during a towing operation was Practicas Marineras III; here the concern is the prevention, since the line that is inspected and discarded in time is the one that does not part. Report in clear maritime English."
+    ],
+    deliverable: "A note in English on maintaining mooring gear: inspecting fibre rope (abrasion, friction burns, internal hardness), wire rope (broken-wire discard criterion, corrosion, kinks), correct stowage (coiled, dry, ventilated, synthetic out of the sun), and fittings (a pitted fairlead saws the line), as the prevention behind the snap-back danger taught in Practicas Marineras III.",
+    assessmentCriteria: [
+      "Fibre rope inspection is correct (external abrasion, friction burns, internal hardness/stiffness).",
+      "Wire rope inspection is correct (broken-wire discard criterion as a concept, corrosion, kinks deforming the core).",
+      "Correct stowage is stated (coiled, dry, ventilated, synthetic kept out of the sun).",
+      "The fittings point is correct (sound bitts/fairleads/rollers; a pitted fairlead saws the line) and the Practicas Marineras III snap-back boundary is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Faena de puerto",
+    topic: "La faena integrada de llegada desde la estación de amarre",
+    week: 8,
+    taskId: "pn-pmr536-w08-integrated-berthing-operation",
+    taskTitle: "Run The Integrated Arrival Operation",
+    scenario: "As the closing task of the subject, the bosun runs the whole arrival on deck. The officer asks the cadet to run the integrated berthing operation from the mooring station, drawing together everything learned in the subject.",
+    instructions: [
+      "State the preparation at the station: mooring lines coiled down and clear for running by side, fenders in position, heaving lines ready, and the windlass or capstan tested, so the station is ready before the vessel is alongside.",
+      "Report the station ready to the bridge, and keep the communication running both ways throughout the operation.",
+      "Run the typical mooring sequence: the heaving line across first, then the first line ashore, then the spring made fast early to control the vessel's movement in coordination with the bridge manoeuvre, then the remaining lines, and finally the fine adjustment until the vessel is fast on her mooring plan.",
+      "Keep the station-to-bridge communication continuous through the whole faena. Boundary (closing the circle with Maniobras I): there the lens was the ship being manoeuvred alongside; here it is the deck faena that moors her. Report the integrated operation in clear maritime English."
+    ],
+    deliverable: "A note in English running the integrated arrival from the mooring station: preparation (lines coiled and clear, fenders, heaving lines, windlass tested), the station-ready report, the mooring sequence (heaving line, first line ashore, early spring coordinated with the bridge, remaining lines, fine adjustment to the mooring plan), and continuous station-to-bridge communication, closing the circle with the Maniobras I berthing manoeuvre.",
+    assessmentCriteria: [
+      "The station preparation is complete (lines coiled and clear by side, fenders, heaving lines, windlass/capstan tested).",
+      "The station-ready report and the two-way communication are stated.",
+      "The mooring sequence is correct (heaving line, first line ashore, early spring coordinated with the bridge, remaining lines, fine adjustment to the mooring plan).",
+      "The communication is continuous and the boundary with Maniobras I is respected (ship manoeuvred there, faena that moors her here), integrating weeks 1-7 in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "C0011",
     subjectName: "Educación Física V",
     subjectId: "pn-s5-educacion-fisica-v",
