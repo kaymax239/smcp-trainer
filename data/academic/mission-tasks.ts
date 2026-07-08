@@ -6708,6 +6708,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Nutrición e hidratación",
+    topic: "Alimentación e hidratación para el rendimiento y la resistencia en la guardia",
+    week: 5,
+    taskId: "pn-c0011iii-w05-nutrition-hydration",
+    taskTitle: "Fuel And Hydration For Watch Performance",
+    scenario: "A watchkeeper needs steady energy and good hydration to stay sharp through a long watch, especially in heat, sun or on the bridge. The training officer asks the cadet to explain positive nutrition and hydration habits for work on board, as general principles that support the capacity to do the job.",
+    instructions: [
+      "Explain regular hydration through the watch: drinking water steadily, drinking more in heat, sun or a hot engine space, and that thirst is a late signal.",
+      "Explain balanced meals timed around the watch schedule, so that energy is available when on duty and eating something before a long or night watch helps.",
+      "Explain steady, sustained energy versus sugar spikes and the slump that follows, favouring balanced meals that release energy slowly.",
+      "Explain the effect of coffee and energy drinks near rest periods (caffeine can delay sleep) and using them earlier in the watch rather than close to rest. Keep all advice as general positive habits: do NOT count calories, do NOT set body-weight targets, do NOT recommend restrictive diets, and do NOT label any food as forbidden. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on positive nutrition and hydration habits for watch performance (regular hydration, meal timing, steady energy versus sugar spikes, caffeine and rest), framed as general principles with no calorie counting, weight targets, restrictive diets or forbidden foods.",
+    assessmentCriteria: [
+      "Regular hydration through the watch is correctly explained, including drinking more in heat and thirst as a late signal.",
+      "Meal timing around the watch and steady energy versus sugar spikes are correctly explained.",
+      "The effect of caffeine near rest is correctly explained.",
+      "The advice stays as general positive habits, with no calorie counting, weight targets, restrictive diets or forbidden foods, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Deportes de conjunto y cohesión de equipo",
+    topic: "El deporte de equipo como entrenamiento de coordinación, comunicación y confianza; juego limpio",
+    week: 6,
+    taskId: "pn-c0011iii-w06-team-sport-cohesion",
+    taskTitle: "Build Team Cohesion Through Sport",
+    scenario: "Team sports build the same coordination, communication and trust that a fire party or a deck gang needs. The training officer asks the cadet to connect team sport to teamwork on board and to the character shown in winning and losing.",
+    instructions: [
+      "Explain how a team sport trains coordination, communication and mutual trust, and how these are the same dynamics as a fire party or a deck working party.",
+      "Give one example linking a team-sport situation to a shipboard team task.",
+      "Explain fair play and how handling winning and losing well builds character and composure.",
+      "State why the cohesion built in sport transfers to safer, smoother teamwork on board. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English connecting team sport to shipboard teamwork: how it trains coordination, communication and trust, an example linked to a ship task, fair play and character, and why cohesion transfers on board.",
+    assessmentCriteria: [
+      "The link between team sport and coordination, communication and trust is correct.",
+      "The example connects a sport situation to a shipboard team task.",
+      "Fair play and handling winning and losing are correctly linked to character.",
+      "The transfer of cohesion to safer teamwork on board is sound, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Ergonomía de la guardia",
+    topic: "Postura estática en guardia, micro-pausas y estiramientos; prevención de lesiones lumbares y de cuello",
+    week: 7,
+    taskId: "pn-c0011iii-w07-watch-ergonomics",
+    taskTitle: "Protect Posture During Long Watches",
+    scenario: "Long watches are spent standing on the bridge or sitting at the chart table, and poor static posture strains the lower back and neck. The training officer asks the cadet to set out good working posture and simple relief during the watch.",
+    instructions: [
+      "Describe good static working posture for a long watch: standing balanced on the bridge and sitting well supported at the chart table, with the back, neck and the chart or screen at good angles.",
+      "Explain micro-breaks and simple stretches taken during the watch to relieve the lower back, neck and shoulders without leaving the task.",
+      "Explain how good posture and these breaks prevent lower-back and neck strain over long watches.",
+      "State the boundary of this topic clearly: this is the body in the WORKING POSTURE, not safe lifting technique (covered in Semester I manual handling) and not sleep physiology (covered in Semester I fatigue and rest). Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on good static working posture for long watches, micro-breaks and stretches, and how they prevent lower-back and neck strain, with the explicit boundary that this is working posture (not lifting technique nor sleep physiology).",
+    assessmentCriteria: [
+      "Good static working posture for standing and sitting watches is correctly described.",
+      "Micro-breaks and simple stretches during the watch are correctly explained.",
+      "The link to preventing lower-back and neck strain is sound.",
+      "The boundary is stated (working posture, not lifting technique or sleep physiology), in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Autoevaluación funcional y plan personal",
+    topic: "Pruebas funcionales sencillas, interpretación por capacidad para el trabajo a bordo y plan personal sostenible",
+    week: 8,
+    taskId: "pn-c0011iii-w08-functional-self-assessment",
+    taskTitle: "Assess Your Fitness For Work And Plan Sustainably",
+    scenario: "As the closing task of the subject, the cadet must judge their own functional fitness for shipboard work and set a sustainable personal plan. The training officer asks the cadet to use simple functional tests and interpret them by capacity for the work, not by looks or records.",
+    instructions: [
+      "Choose simple functional tests for endurance, strength and mobility (for example how long a task can be sustained, a basic strength check, and a reach or mobility check) suitable for self-assessment on board.",
+      "Interpret the results by the standard of CAPACITY FOR SHIPBOARD WORK, that is whether deck and emergency tasks can be carried out safely, not by appearance, body weight or athletic records.",
+      "Build a simple, sustainable personal plan that fits ship life and improves the weaker areas, drawing on the earlier weeks (endurance, coordination, nutrition and hydration, and posture).",
+      "State explicitly that the plan sets NO extreme targets: no crash programmes and no extreme goals, only steady, safe, sustainable improvement in the capacity to work. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English giving simple functional tests for endurance, strength and mobility, their interpretation by capacity for shipboard work, and a sustainable personal plan with no extreme targets that draws on the earlier weeks.",
+    assessmentCriteria: [
+      "The functional tests for endurance, strength and mobility are simple and suitable for self-assessment on board.",
+      "The results are interpreted by capacity for shipboard work, not appearance, weight or records.",
+      "The personal plan is simple, sustainable and integrates earlier weeks.",
+      "The plan explicitly sets no extreme targets, only steady safe improvement, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "C0038",
     subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
     subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
