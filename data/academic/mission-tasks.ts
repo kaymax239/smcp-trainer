@@ -11580,6 +11580,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y Moral",
+    topic: "El método de análisis del dilema ético a bordo",
+    week: 5,
+    taskId: "pn-c0104-w05-ethical-dilemma-method",
+    taskTitle: "Analyse An Ethical Dilemma Step By Step",
+    scenario: "A hard choice at sea rarely announces itself as right versus wrong. Building on the ethical reflection of week 2, the officer asks the cadet to work a real dilemma through a method of analysis rather than deciding on impulse.",
+    instructions: [
+      "Work the method in order, as a discipline of reasoning and not a set of commandments: (1) identify the VALUES in conflict, remembering that the hardest dilemmas are right versus right, such as safety against loyalty or honesty against compassion; (2) identify who is AFFECTED by each course of action; (3) lay out the real OPTIONS, which are rarely only two; (4) weigh the CONSEQUENCES of each, in the short and the long term; (5) decide and be able to GIVE REASONS for the decision.",
+      "Apply it to a non-environmental maritime dilemma: the commercial pressure to keep the schedule set against a genuine doubt about safety.",
+      "Apply it to a second one: discovering an error made by a colleague you like and respect, which nonetheless has to be reported.",
+      "State plainly what the method does and does not do: it does not hand you the single correct answer, because a right-versus-right dilemma has no one solution; what it gives is the discipline to decide by reasoning rather than by impulse or pressure. Report in clear maritime English."
+    ],
+    deliverable: "A note in English working two non-environmental dilemmas (schedule pressure versus a safety doubt; a liked colleague's error that must be reported) through the five-step method (values in conflict, affected parties, real options, consequences short and long term, decide and give reasons), stated as a discipline of reasoning that does not hand over a single answer.",
+    assessmentCriteria: [
+      "The five steps are applied in order (conflicting values, affected parties, real options, consequences, decide with reasons).",
+      "The dilemmas are non-environmental and the right-versus-right nature is recognised (e.g. safety vs loyalty).",
+      "The method is presented as a discipline of reasoning, not a formula that yields the single correct answer.",
+      "The reasoning is honest about there being no one solution to a right-versus-right dilemma, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "La cultura justa y el deber ético de reportar",
+    week: 6,
+    taskId: "pn-c0104-w06-just-culture-reporting",
+    taskTitle: "Explain Just Culture And The Duty To Report",
+    scenario: "The officer asks the cadet to explain why a seafarer reports near-misses and their own mistakes, and why a just culture, not a blame culture, is what keeps a ship safe.",
+    instructions: [
+      "Explain why errors must be reported: a blame-and-punishment culture drives mistakes into hiding, and a hidden mistake is repeated until it finally causes harm, whereas a just culture turns the same mistake into learning for everyone.",
+      "Draw the distinction that a just culture rests on, keeping it sharp: an HONEST ERROR (a human slip, learned from and not punished), NEGLIGENCE (a failure to attend to a known duty), and a DELIBERATE VIOLATION (knowingly breaking a rule).",
+      "State clearly that a just culture is NOT impunity: negligence and deliberate violation do carry consequences, and it is exactly that line that gives the crew confidence to report the honest errors, because they trust the system to tell the difference.",
+      "State the ethical duty to report an unsafe condition even when it is uncomfortable or reflects on oneself. Boundary: writing the near-miss report as a document was covered in Advanced Writing; here the concern is the moral reason for reporting. Report in clear maritime English."
+    ],
+    deliverable: "A note in English on just culture and the duty to report: why a blame culture hides mistakes while a just culture makes them learning, the sharp triad (honest error not punished / negligence / deliberate violation), the point that just culture is not impunity because the last two carry consequences, and the ethical duty to report unsafe conditions, distinct from the Advanced Writing near-miss document.",
+    assessmentCriteria: [
+      "The blame-versus-just culture contrast is correct (blame hides errors and they repeat; just culture makes them learning).",
+      "The triad is sharp and correct (honest error not punished; negligence and deliberate violation as distinct).",
+      "It is explicit that just culture is not impunity (negligence and deliberate violation carry consequences, and that line builds trust).",
+      "The ethical duty to report unsafe conditions is stated and the Advanced Writing boundary is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "La ética de la fatiga y el reconocimiento de los límites",
+    week: 7,
+    taskId: "pn-c0104-w07-ethics-of-fatigue-limits",
+    taskTitle: "Face The Ethics Of Fatigue And Limits",
+    scenario: "The officer asks the cadet to treat fatigue not as a physical fact but as an ethical question: the duty to speak up about a limit that puts other lives at risk.",
+    instructions: [
+      "Frame saying 'I am not fit for this' as an ETHICAL act rather than a weakness, because fatigue that is kept silent puts other lives at risk: a drowsy watchkeeper does not gamble with their own watch alone but with everyone aboard and everyone they might run down.",
+      "Set the pressure to finish the task against the duty to recognise the limit, and distinguish this honestly from simply dodging work: recognising a real limit that endangers others is a duty, while using 'fatigue' to evade a fair task is not.",
+      "State the double responsibility: the person who orders others to work past known limits carries as much of the ethical weight as the person who stays silent about their own.",
+      "Name the quality required as moral courage: the uncomfortable word said in time. Boundary: the physiology of fatigue and the rest-hour rules were covered in Physical Education I; here the concern is the conscience that decides to speak. Report in clear maritime English."
+    ],
+    deliverable: "A note in English on the ethics of fatigue: saying 'I am not fit' as an ethical act (silent fatigue risks other lives), the pressure to finish versus the duty to recognise a limit (and how that differs from dodging work), the double responsibility of the one who orders past limits and the one who stays silent, and moral courage as the uncomfortable word in time, distinct from the Physical Education I physiology and rest rules.",
+    assessmentCriteria: [
+      "Speaking up about fatigue is framed as an ethical act, with the point that silent fatigue endangers others, not just oneself.",
+      "The message is the duty to COMMUNICATE the limit, clearly distinguished from refusing or dodging a fair task.",
+      "The double responsibility is stated (ordering past known limits weighs as much as staying silent).",
+      "Moral courage (the uncomfortable word in time) is named and the Physical Education I boundary is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "El perfil ético del oficial y su código personal de conducta",
+    week: 8,
+    taskId: "pn-c0104-w08-officers-ethical-profile",
+    taskTitle: "Write Your Ethical Profile As An Officer",
+    scenario: "As the closing task of the subject, the cadet must draw the ethical profile of the officer they intend to be, turning values into concrete conduct and pointing towards the leadership still to come.",
+    instructions: [
+      "Turn the seafarer values of week 3 into a PERSONAL CODE of concrete commitments, written by the cadet: use commitments like 'I will never sign for what I have not checked myself' and 'I will report what I see, whether it discomforts me or not' only as examples of the FORMAT, and write your own.",
+      "Explain that COHERENCE between word and deed is the real measure of character, because a crew believes what it sees an officer do, not what it hears an officer say.",
+      "Explain the officer as an example: moral authority is earned by conduct and comes before formal authority, so a rank commands compliance but character commands respect.",
+      "Point towards the next subject without developing it: how this ethical character is carried into leading others is the ground of Leadership; here the task is the individual profile. Report your ethical profile in clear maritime English."
+    ],
+    deliverable: "A note in English drawing the officer's ethical profile: a personal code of concrete commitments written by the cadet (the given commitments used only as format examples), coherence between word and deed as the measure of character, and moral authority preceding formal authority, pointing towards Leadership without developing it.",
+    assessmentCriteria: [
+      "The values of week 3 are turned into concrete personal commitments written by the cadet, with the given examples treated as format, not imposition.",
+      "Coherence between word and deed is explained as the real measure of character.",
+      "Moral authority is correctly placed before formal authority (character commands respect, rank commands compliance).",
+      "The bridge to Leadership is drawn without developing leadership itself, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "C0105",
     subjectName: "Liderazgo",
     subjectId: "pn-s5-liderazgo",
