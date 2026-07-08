@@ -10420,6 +10420,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Análisis y tratamiento del agua",
+    topic: "Tratamiento del agua de calderas y de refrigeración",
+    week: 5,
+    taskId: "pn-quh534-w05-boiler-water-treatment",
+    taskTitle: "Monitor And Treat Boiler Water",
+    scenario: "The officer asks the cadet to explain why boiler and cooling water is treated and what is watched on board, as the officer who understands the reason behind the routine.",
+    instructions: [
+      "State why the water is treated: hardness leaves scale (as covered in week 3) and untreated water corrodes the metal (the galvanic corrosion of week 2), so treatment protects the boiler; refer to both as the reason, without re-explaining hardness or corrosion.",
+      "State what is monitored: the pH is kept in a controlled alkaline band (typically about 9 to 11 depending on the system, as an illustrative range) so the water is neither corrosive nor scale-forming, and chlorides are watched as the indicator of seawater contamination from a condenser or cooler leak.",
+      "Work the reading: a test gives pH = 8.2 against a target band of 9.5 to 11.0; since 8.2 is below the band the water is insufficiently alkaline and tends acidic for the system, so the action is to dose the alkaline treatment and re-test. Note the scale sense: a lower pH is more acidic and a higher pH more alkaline, so 8.2 below 9.5 means not alkaline enough, not too alkaline.",
+      "State how it is done: periodic on-board testing as a routine and the logging of results so trends are visible. Report your monitoring and action in clear maritime English."
+    ],
+    deliverable: "A note in English explaining why boiler/cooling water is treated (scale from hardness in week 3, corrosion from week 2, as references), what is monitored (pH in an alkaline band ~9-11, chlorides for seawater contamination), the reading pH 8.2 below the 9.5-11.0 band (insufficiently alkaline, dose and re-test), and the routine of periodic testing and logging.",
+    assessmentCriteria: [
+      "The reason for treatment is correct (scale from hardness, corrosion) and given as references, not re-taught.",
+      "The monitored parameters are correct (alkaline pH band ~9-11, chlorides as seawater-contamination indicator).",
+      "The reading is interpreted correctly (pH 8.2 is below the 9.5-11.0 band = insufficiently alkaline = tends acidic; dose alkaline treatment and re-test), with the correct scale sense.",
+      "The routine (periodic testing and logging of results) is correct, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Combustibles y lubricantes",
+    topic: "Química del fuego: el tetraedro y los rangos de inflamabilidad",
+    week: 6,
+    taskId: "pn-quh534-w06-fire-chemistry",
+    taskTitle: "Explain The Chemistry Of Fire",
+    scenario: "The officer asks the cadet to explain the chemistry of fire, building on the flash point of week 4 towards why a vapour ignites at all.",
+    instructions: [
+      "State the fire tetrahedron: fuel, oxygen, heat and the chain reaction; the chain reaction is the fourth element that turns the old triangle into a tetrahedron, and removing it is how chemical extinguishing agents put out a fire.",
+      "State the flammability range: the lower explosive limit (LEL) and the upper explosive limit (UEL), where below the LEL the mixture is too lean and above the UEL it is too rich, so ignition is possible only between the two, and note that the LEL is always lower than the UEL.",
+      "Use the classic example of methane as illustrative: an LEL of about 5 percent and a UEL of about 15 percent by volume in air, so a methane-air mixture ignites only between roughly 5 and 15 percent.",
+      "Connect to week 4: the flash point tells you WHEN a liquid gives off flammable vapours, while the LEL and UEL tell you at WHAT CONCENTRATION those vapours will burn. Boundary: fighting the fire is the fire-fighting subject (C0038); here the concern is the chemistry of why it burns. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the fire tetrahedron (fuel, oxygen, heat, chain reaction, the fourth element that chemical agents break), the flammability range (LEL below the UEL, ignition only between them), methane as illustrative (~5% to ~15%), and the link to week 4 (flash point = when vapours form, LEL/UEL = at what concentration they burn), with fire-fighting left to C0038.",
+    assessmentCriteria: [
+      "The tetrahedron is correct (fuel, oxygen, heat, chain reaction) and the chain reaction is identified as what chemical agents break.",
+      "The flammability range is correct (LEL below UEL, ignition only between them, lean below / rich above).",
+      "The methane example is correct and illustrative (LEL ~5%, UEL ~15% by volume).",
+      "The link to week 4 flash point is correct and the C0038 fire-fighting boundary is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Atmósferas peligrosas",
+    topic: "La química de la atmósfera en espacios cerrados",
+    week: 7,
+    taskId: "pn-quh534-w07-hazardous-atmospheres",
+    taskTitle: "Test A Dangerous Enclosed-Space Atmosphere",
+    scenario: "Before anyone enters an enclosed space the officer asks the cadet to explain the chemistry of its atmosphere and why it must be measured, not judged by eye.",
+    instructions: [
+      "Explain oxygen deficiency: normal air is 20.9 percent oxygen, but in a closed space the oxidation of the cargo, the steel corroding (rusting) and decomposition all CONSUME oxygen, so the atmosphere can fall below what is safe to breathe.",
+      "Name the common toxic gases: hydrogen sulphide (H2S), which smells of rotten eggs at low concentration but deadens the sense of smell at high concentration, so a smell that fades is not safety, and carbon monoxide (CO), which is colourless and odourless; note that a flammable atmosphere is measured against the LEL from week 6.",
+      "State the order of testing and why: oxygen first, then flammables, then toxics, because many flammable-gas meters need sufficient oxygen to read correctly, so the oxygen reading must come first.",
+      "State why the space is ventilated and MEASURED before entry: the atmosphere cannot be seen, so it is measured with instruments, not judged by eye. Boundary: the full enclosed-space entry procedure belongs to the operational subjects; here the lens is the chemistry of the atmosphere. Note the practical entry reference (about 20.9 percent oxygen ideal, with a minimum such as ~19.5-20 percent as an industry reference, while the ship's procedure governs). Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the chemistry of an enclosed-space atmosphere: oxygen deficiency (20.9% normal, consumed by oxidation/rusting/decomposition), the toxic gases (H2S deadening the smell, CO colourless and odourless), the flammable measurement against the LEL, the testing order (oxygen then flammables then toxics, with the reason) and why the atmosphere is measured not judged by eye, with the full entry procedure left to operational subjects.",
+    assessmentCriteria: [
+      "Oxygen deficiency is correct (20.9% normal air; oxidation, rusting and decomposition consume oxygen).",
+      "The toxic gases are correct (H2S deadens the sense of smell at high concentration; CO is colourless and odourless) and the flammable-vs-LEL link to week 6 is made.",
+      "The testing order is correct and justified (oxygen first because flammable meters need oxygen to read correctly, then flammables, then toxics).",
+      "The measure-don't-judge principle and the boundary with the operational entry procedure are respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Química ambiental marina",
+    topic: "Contaminación marina: hidrocarburos, SOx y NOx, y agua de lastre",
+    week: 8,
+    taskId: "pn-quh534-w08-marine-environmental-chemistry",
+    taskTitle: "Explain The Chemistry Of Marine Pollution",
+    scenario: "As the closing task of the subject, the officer asks the cadet to explain the chemistry behind the main forms of marine pollution from ships.",
+    instructions: [
+      "Explain the behaviour of spilled oil: it spreads into a thin film on the water, the lighter fractions evaporate, and the heavier fractions persist and either sink or emulsify into a water-in-oil mixture that is hard to recover.",
+      "Explain SOx and NOx and where they come from: the sulphur in the fuel burns to sulphur oxides (SOx), while the high temperature of combustion makes the nitrogen and oxygen of the air combine into nitrogen oxides (NOx); they are regulated because they cause acid rain and harm health, with MARPOL Annex VI as the framework.",
+      "Explain ballast water as a vector: water taken on in one port carries living organisms that are discharged in another, so ballast water can spread invasive species.",
+      "Boundary: the environmental ethical decision belongs to Professional Ethics week 4; here the concern is the chemistry that underlies it. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the chemistry of marine pollution: spilled-oil behaviour (film, light fractions evaporate, heavy persist/sink/emulsify), SOx from the fuel sulphur and NOx from high-temperature combustion (regulated under MARPOL Annex VI for acid rain and health), and ballast water as a vector for invasive species, with the ethical decision left to Professional Ethics week 4.",
+    assessmentCriteria: [
+      "The behaviour of spilled oil is correct (spreads as a film, light fractions evaporate, heavy fractions persist/sink/emulsify).",
+      "SOx and NOx are correctly sourced (SOx from the fuel sulphur, NOx from high-temperature combustion) and correctly linked to acid rain/health and MARPOL Annex VI.",
+      "Ballast water is correctly explained as a vector for invasive species.",
+      "The boundary with Professional Ethics week 4 is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "COV535",
     subjectName: "Comunicación Visual",
     subjectId: "pn-s5-comunicacion-visual",
