@@ -7636,6 +7636,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Metales no ferrosos",
+    topic: "Cobre y sus aleaciones (bronce, laton) y aluminio: propiedades y usos a bordo",
+    week: 5,
+    taskId: "mn-tem319-w05-non-ferrous-metals",
+    taskTitle: "Match Non-Ferrous Metals To Their Shipboard Uses",
+    scenario: "The engine room and hull use many non-ferrous metals. The engineer asks the cadet to identify the copper alloys and aluminium by their properties and to say where each is used on board, taking them by their properties and uses rather than by their galvanic behaviour, which was covered in week 3.",
+    instructions: [
+      "Describe copper and its main alloys, bronze (copper-tin) and brass (copper-zinc), and their key properties (good corrosion resistance in seawater, good bearing and heat-conducting qualities).",
+      "Describe aluminium and its characteristics (light, corrosion-resistant through its natural oxide film, lower strength than steel).",
+      "Match each metal to where it lives on board: cupronickel or bronze for seawater piping, bronze for bearings, copper-alloy tubes for heat exchangers, and aluminium for light superstructures.",
+      "Keep the focus on properties and uses, not galvanic behaviour (covered in week 3). Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English identifying copper alloys (bronze, brass) and aluminium by their properties and matching each to a shipboard use (seawater piping, bearings, heat exchangers, superstructures).",
+    assessmentCriteria: [
+      "Copper, bronze and brass are correctly described with their key properties.",
+      "Aluminium's characteristics are correct (light, oxide-film corrosion resistance, lower strength).",
+      "Each metal is matched to a valid shipboard use.",
+      "The focus stays on properties and uses, not galvanic behaviour, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Ensayos de materiales",
+    topic: "Ensayo de traccion, curva esfuerzo-deformacion y dureza (esfuerzo sigma = F / A)",
+    week: 6,
+    taskId: "mn-tem319-w06-tensile-test-stress",
+    taskTitle: "Work Out Stress And Read A Material Certificate",
+    scenario: "Before fitting a spare, the engineer reads the material's mechanical values off its certificate. The engineer asks the cadet to work out the stress in a loaded bar, judge it against the material's yield strength, and explain what the stress-strain curve and hardness tests tell them.",
+    instructions: [
+      "State the stress formula, stress = force / area (sigma = F / A), working in newtons and square millimetres so the result comes out directly in MPa (1 N/mm2 = 1 MPa).",
+      "For a bar of cross-section A = 200 mm2 under a load F = 50 000 N (50 kN), calculate the stress: sigma = 50 000 / 200 = 250 MPa, and verify by reversing it, F = sigma x A = 250 x 200 = 50 000 N.",
+      "Read the stress-strain curve: the elastic region, the yield point (elastic limit), the ultimate tensile strength and fracture; and note Brinell and Rockwell hardness as a concept (they measure resistance to indentation, not a formula).",
+      "Judge the result: if the material's yield strength is 355 MPa (a typical structural steel), the 250 MPa stress is within the elastic region, so the part works safely, with a margin of 355 / 250 = 1.42. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A materials-testing note in English giving the stress from sigma = F / A (250 MPa) with the reverse check, the reading of the stress-strain curve and hardness concept, and the verdict that the stress is within the yield strength with its margin.",
+    assessmentCriteria: [
+      "The stress is correct (50 000 / 200 = 250 MPa), with units handled correctly (N and mm2 giving MPa) and verified by F = sigma x A.",
+      "The stress-strain curve is correctly read (elastic region, yield point, ultimate strength, fracture).",
+      "Brinell and Rockwell hardness are correctly described as resistance to indentation.",
+      "The verdict is coherent (250 MPa within the 355 MPa yield, margin 1.42), in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Proteccion contra la corrosion",
+    topic: "Recubrimientos, anodos de sacrificio y proteccion catodica por corriente impresa",
+    week: 7,
+    taskId: "mn-tem319-w07-corrosion-protection",
+    taskTitle: "Protect The Ship Against Corrosion",
+    scenario: "The ship must be defended against corrosion. Building on the galvanic mechanism from week 3, the engineer asks the cadet to explain the defences: protective coatings, sacrificial anodes and impressed-current protection. Week 3 taught how galvanic corrosion happens; this task is about turning that same principle to the ship's advantage.",
+    instructions: [
+      "Explain protective coatings: paints and galvanizing (a zinc coating) that separate the metal from the seawater electrolyte.",
+      "Explain sacrificial anodes: a block of a MORE ACTIVE, less noble metal (zinc or aluminium) is bonded to the steel so that the anode corrodes FIRST and protects the steel; the more active metal is sacrificed, not the nobler one.",
+      "Explain impressed-current cathodic protection as a concept: an external DC source drives a protective current onto the hull so it does not corrode.",
+      "State the boundary clearly: week 3 taught the MECHANISM of galvanic corrosion, while this task teaches the DEFENCE, using that same galvanic principle in the ship's favour. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining corrosion defences (coatings, sacrificial anodes with the more-active metal sacrificed, and impressed-current protection), with the boundary that week 3 was the mechanism and this is the defence.",
+    assessmentCriteria: [
+      "Protective coatings (paints, galvanizing) are correctly explained as a barrier to the electrolyte.",
+      "Sacrificial anodes are correct, with the MORE ACTIVE / less noble metal (zinc, aluminium) corroding first to protect the steel.",
+      "Impressed-current cathodic protection is correctly explained as a concept.",
+      "The boundary with week 3 (mechanism versus defence) is stated, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Seleccion de materiales",
+    topic: "Criterio integrado de seleccion: resistencia mecanica, resistencia a la corrosion, compatibilidad y costo",
+    week: 8,
+    taskId: "mn-tem319-w08-material-selection",
+    taskTitle: "Select Materials For Three Shipboard Components",
+    scenario: "As the closing task of the subject, the engineer asks the cadet to select materials for three components, a seawater pipe, a pump shaft and a bearing, weighing mechanical strength, corrosion resistance, compatibility and cost, drawing on the whole subject.",
+    instructions: [
+      "State the selection criteria: mechanical strength, corrosion resistance, compatibility (avoiding a bad galvanic pair), and cost.",
+      "For a seawater pipe, choose a suitable material (for example cupronickel, a suitable bronze, or coated steel) and justify it by its corrosion resistance in seawater.",
+      "For a pump shaft, choose a suitable material (for example a stainless or heat-treated steel) justified by strength and adequate corrosion resistance; and for a bearing, choose a bronze justified by its bearing and wear properties.",
+      "Weigh the trade-offs, drawing on properties (week 1), steels (week 2), corrosion (weeks 3 and 7), heat treatment (week 4) and non-ferrous metals (week 5), including compatibility and cost. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A material-selection note in English choosing a material for a seawater pipe, a pump shaft and a bearing, each justified against strength, corrosion resistance, compatibility and cost, integrating the whole subject.",
+    assessmentCriteria: [
+      "The selection criteria (strength, corrosion resistance, compatibility, cost) are stated.",
+      "The seawater pipe choice is justified mainly by corrosion resistance in seawater.",
+      "The pump shaft and bearing choices are justified by strength and by bearing/wear properties respectively.",
+      "The trade-offs integrate earlier weeks, including compatibility and cost, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "TAL320",
     subjectName: "Taller II",
     subjectId: "mn-s3-taller-ii",
