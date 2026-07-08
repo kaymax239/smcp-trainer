@@ -6476,6 +6476,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Aparejos y maniobras de fuerza",
+    topic: "Motones, cuadernales y ventaja mecánica de un aparejo (blocks and tackles)",
+    week: 5,
+    taskId: "pn-pmr322-w05-blocks-and-tackles",
+    taskTitle: "Work Out The Mechanical Advantage Of A Tackle",
+    scenario: "The deck party must lift a heavy item with a block and tackle. The bosun asks the cadet to name the gear and work out the mechanical advantage, so the effort needed and the safe use of the tackle are understood.",
+    instructions: [
+      "Name the parts of the tackle: the blocks (the standing block and the moving block) with their sheaves, and the fall (the rope rove through them).",
+      "State that the ideal mechanical advantage equals the number of rope parts that support the moving block, and that friction in the sheaves increases the real effort needed.",
+      "For a tackle with 4 parts supporting the load, the mechanical advantage is 4, so a 100 kg load is lifted with an ideal effort of 100 / 4 = 25 kg; verify with effort x mechanical advantage = 25 x 4 = 100 kg.",
+      "State one safe-use rule for working with tackles on board (for example do not exceed the safe working load, keep hands clear of the blocks). Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English naming the parts of a tackle, stating the mechanical advantage rule, working out the 4-part example (100 kg lifted with 25 kg of effort) with the check, and giving one safe-use rule.",
+    assessmentCriteria: [
+      "The parts of the tackle (blocks, sheaves, fall) are correctly named.",
+      "The mechanical advantage rule is correct (number of parts supporting the moving block), with friction noted.",
+      "The calculation is correct (100 / 4 = 25 kg) and verified (25 x 4 = 100 kg).",
+      "One sound safe-use rule is given, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Operaciones de remolque",
+    topic: "Equipo, conexión y largado seguro; catenaria y zonas de latigazo (snap-back)",
+    week: 6,
+    taskId: "pn-pmr322-w06-towing-operations",
+    taskTitle: "Rig A Tow Safely And Control Snap-Back",
+    scenario: "The vessel must rig for a towing operation. The officer asks the cadet to describe the towing gear, the safe connection and release, and above all the deadly snap-back danger on deck.",
+    instructions: [
+      "Name the towing gear: the tow line (rope or wire), the strengthened bitts or towing bracket, and the shackles that connect them.",
+      "Describe the safe connection and the safe release of the tow, and the role of the catenary (the sag in the tow line that absorbs shock loads).",
+      "Describe the snap-back danger: a line under tension that parts whips back violently along its line of pull; identify the snap-back zones and state that no one must ever stand in the line of pull or in the bight of the rope.",
+      "State one further measure to keep the deck party safe during the tow. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English naming the towing gear, describing safe connection and release with the catenary's role, explaining the snap-back danger and its zones, and giving one further safety measure.",
+    assessmentCriteria: [
+      "The towing gear (tow line, strengthened bitts, shackles) is correctly named.",
+      "Safe connection and release are described, including the catenary's shock-absorbing role.",
+      "The snap-back danger is correctly and seriously described, with the rule never to stand in the line of pull or the bight.",
+      "One sound further safety measure is given, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Marinería en mal tiempo",
+    topic: "Trincado y aseguramiento en cubierta, andariveles (lifelines) y tránsito seguro con mar gruesa",
+    week: 7,
+    taskId: "pn-pmr322-w07-heavy-weather-seamanship",
+    taskTitle: "Prepare The Deck For Heavy Weather",
+    scenario: "Heavy weather is forecast. The officer asks the cadet to prepare the deck: lash and secure equipment, rig lifelines, and set out how to move safely once the sea is rough.",
+    instructions: [
+      "Describe how loose deck equipment and stores are lashed down and secured before the weather arrives.",
+      "Explain the rigging and use of lifelines for safe movement across an exposed deck.",
+      "State the rules for safe transit on deck in a rough sea (for example one hand for the ship, timing movement with the roll, avoiding the weather side).",
+      "List two further actions to prepare the vessel before the storm. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English describing the lashing and securing of deck equipment, the rigging and use of lifelines, the rules for safe transit in a rough sea, and two further pre-storm actions.",
+    assessmentCriteria: [
+      "The lashing and securing of deck equipment is correctly described.",
+      "The rigging and use of lifelines is correct.",
+      "The safe-transit rules for a rough sea are sound.",
+      "Two further sensible pre-storm actions are given, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Hombre al agua y embarcación de rescate",
+    topic: "Acciones inmediatas, maniobra de Williamson a nivel de faena de cubierta y arriado de la embarcación de rescate",
+    week: 8,
+    taskId: "pn-pmr322-w08-man-overboard-rescue-boat",
+    taskTitle: "Act On A Man Overboard And Launch The Rescue Boat",
+    scenario: "A man overboard is called on deck. As the closing task of the subject, the officer asks the cadet to set out the immediate deck actions, the deck party's role while the Williamson turn is carried out, and the launching of the rescue boat, all from the deck-work side rather than the bridge manoeuvre.",
+    instructions: [
+      "State the immediate actions on deck: throw a lifebuoy (with light and smoke) to the casualty, mark the position, and post a dedicated lookout who points continuously at the person in the water.",
+      "Explain the deck party's role while the bridge carries out the Williamson turn to bring the vessel back to the casualty, keeping to the deck role and not the bridge manoeuvre itself.",
+      "Describe the safe preparation and lowering (launching) of the rescue boat and its crew.",
+      "State one consideration for recovering the casualty back on board. Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English giving the immediate deck actions for a man overboard, the deck party's role during the Williamson turn, the safe launching of the rescue boat, and one recovery consideration.",
+    assessmentCriteria: [
+      "The immediate deck actions (lifebuoy, mark position, continuous lookout) are correct.",
+      "The deck party's role during the Williamson turn is correct and stays on the deck side.",
+      "The safe launching of the rescue boat is correctly described.",
+      "One sound recovery consideration is given, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "C0011",
     subjectName: "Educación Física III",
     subjectId: "pn-s3-educacion-fisica-iii",
