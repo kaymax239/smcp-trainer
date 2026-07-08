@@ -10652,6 +10652,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Código Internacional de Señales",
+    topic: "Banderas de un solo significado que el oficial reconoce a la vista",
+    week: 5,
+    taskId: "pn-cov535-w05-single-letter-flags",
+    taskTitle: "Recognise Single-Letter Flag Signals At Sight",
+    scenario: "A vessel is flying a single code flag. The officer asks the cadet to give the exact meanings of the single-letter hoists that every watchkeeper must know at sight, building on the flag system of week 2.",
+    instructions: [
+      "State why a single-letter signal is urgent by design: it carries a complete standard message that is read at a glance without a code book, so it is used for the situations that must be understood immediately.",
+      "Give the exact meanings of the safety-critical letters: A (Alfa) 'I have a diver down; keep well clear at slow speed', B (Bravo) 'I am taking in, discharging or carrying dangerous goods', O (Oscar) 'Man overboard', and Q (Quebec) 'My vessel is healthy and I request free pratique'.",
+      "Give the pilot pair, which are easily confused: G (Golf) 'I require a pilot' versus H (Hotel) 'I have a pilot on board'; and note P (Papa), the Blue Peter, which in harbour means all persons should report on board as the vessel is about to proceed to sea.",
+      "Boundary: week 2 taught the flag system (how a hoist carries a message); this task is the critical vocabulary itself. Report the meanings in clear maritime English."
+    ],
+    deliverable: "A note in English giving the exact meanings of the safety-critical single-letter flags (A diver down, B dangerous goods, O man overboard, Q free pratique), the confused pilot pair (G require a pilot vs H pilot on board) and P (all aboard in harbour), with why a single-letter signal is urgent by design, building on the week 2 system.",
+    assessmentCriteria: [
+      "A, B, O and Q are given with their exact meanings (A diver down, B dangerous goods, O man overboard, Q request free pratique).",
+      "The pilot pair is correct and correctly distinguished (G 'I require a pilot' vs H 'I have a pilot on board') and P is correct.",
+      "The reason a single-letter signal is urgent by design (read at a glance, no code book) is correct.",
+      "The boundary with week 2 (system there, vocabulary here) is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Señales luminosas y de maniobra",
+    topic: "La lámpara de señales y las señales de maniobra de la Regla 34",
+    week: 6,
+    taskId: "pn-cov535-w06-manoeuvring-signals",
+    taskTitle: "Signal A Manoeuvre By Light And Sound",
+    scenario: "Two vessels are in sight of one another and one is about to alter course. The officer asks the cadet to explain the signal lamp procedure and the manoeuvring signals that state the intended action.",
+    instructions: [
+      "Explain the basic signal lamp (Aldis) call-and-answer procedure in Morse light: the general call is AA AA repeated, the answer is TTTT, and a single T acknowledges that a word or group is received.",
+      "State the manoeuvring signals of COLREGS Rule 34, given when vessels are in sight of one another, as short blasts on the whistle with an optional matching light flash: one short = 'I am altering my course to STARBOARD', two short = 'I am altering my course to PORT', three short = 'I am operating ASTERN propulsion'.",
+      "State the doubt signal: at least five short and rapid blasts (and flashes) mean doubt about whether the other vessel is taking sufficient action to avoid collision, i.e. a warning of danger.",
+      "Boundary: week 1 was the Morse distress signal and week 4 was the Part C lights a vessel carries to show her situation; this task is the ACTIVE signal of an intended manoeuvre (the light version complements the sound). Report the signals in clear maritime English."
+    ],
+    deliverable: "A note in English on the signal lamp procedure (call AA AA, answer TTTT, received T) and the Rule 34 manoeuvring signals (one short = starboard, two = port, three = astern, five or more = doubt/danger), with light complementing sound, distinct from the week 1 distress Morse and the week 4 Part C situation lights.",
+    assessmentCriteria: [
+      "The signal lamp call-and-answer procedure is correct (AA AA call, TTTT answer, T received).",
+      "The Rule 34 signals are correctly mapped (one short = starboard, two = port, three = astern) with no shift.",
+      "The doubt signal is correct (at least five short and rapid blasts = doubt/danger).",
+      "The boundary with week 1 (distress) and week 4 (Part C situation lights) is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Sistema de Boyado Marítimo (IALA)",
+    topic: "Marcas laterales, regiones A y B, y el resto del sistema IALA",
+    week: 7,
+    taskId: "pn-cov535-w07-lateral-marks-regions",
+    taskTitle: "Read IALA Lateral Marks And Regions",
+    scenario: "The vessel is entering a buoyed channel from seaward. The officer asks the cadet to complete the IALA system beyond the cardinal marks of week 3: the lateral marks, the two regions, and the remaining marks.",
+    instructions: [
+      "State the lateral marks and the critical region difference. In IALA Region B (the Americas, including Mexico, plus Japan, the Philippines and Korea), when entering from seaward you keep the RED marks and red light to STARBOARD ('red right returning') and the green marks to port. In IALA Region A (Europe, Africa, most of Asia and Oceania) it is REVERSED: the red marks are kept to port when entering from seaward.",
+      "State clearly that Mexico is in Region B, so 'red right returning' applies here, and warn that this is the classic mistake to avoid.",
+      "Give the remaining marks: safe water (red and white vertical stripes, white light), isolated danger (black with red bands, two black spheres as a topmark, white light group flashing two), special marks (yellow) and the emergency wreck marking buoy for a new wreck (blue and yellow vertical stripes, alternating blue and yellow light).",
+      "Boundary: week 3 covered the cardinal marks, referenced here without re-teaching. Report how you would read the channel in clear maritime English."
+    ],
+    deliverable: "A note in English completing the IALA system: the lateral marks and the region difference (Region B / Mexico = red to starboard entering, 'red right returning'; Region A = red to port), plus safe-water, isolated-danger, special and new-wreck marks, with the week 3 cardinal marks referenced not re-taught.",
+    assessmentCriteria: [
+      "The region rule is correct and not inverted (Region B / Mexico: red to starboard entering from seaward, 'red right returning'; Region A: red to port).",
+      "Mexico is correctly placed in Region B and the classic mistake is flagged.",
+      "The remaining marks are correct (safe water red/white stripes; isolated danger black with red bands and two spheres; special yellow; new-wreck blue/yellow).",
+      "The boundary with the week 3 cardinal marks is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Señales de peligro",
+    topic: "Señales de peligro del Anexo IV y su composición integrada",
+    week: 8,
+    taskId: "pn-cov535-w08-integrated-distress",
+    taskTitle: "Compose An Integrated Distress Picture",
+    scenario: "As the closing task of the subject, the officer asks the cadet to know the COLREGS Annex IV distress signals and to compose the correct set of signals for a given emergency, drawing together everything learned in the subject.",
+    instructions: [
+      "List the main Annex IV distress signals the officer must recognise: SOS by any method, MAYDAY by radiotelephony, the flag signal November-Charlie (NC) of the International Code, red rockets or red flares, an orange smoke signal, arms outstretched to each side raised and lowered SLOWLY and repeatedly, and flames on the vessel.",
+      "Explain that these signals may be used together to make the emergency unmistakable, and that they must not be used for any other purpose.",
+      "Work the integrating scenario: for a vessel not under command with an injured crew member near a buoyed channel, compose the correct signal picture, combining flags (the NC distress signal and the single-letter flags of weeks 2 and 5), light or Morse (the distress and manoeuvring signals of weeks 1 and 6) and the reading of the buoyage (the cardinal and lateral marks of weeks 3 and 7).",
+      "Report your composed distress picture, explaining each element, in clear maritime English."
+    ],
+    deliverable: "A note in English listing the main Annex IV distress signals (SOS, MAYDAY, NC flags, red rockets/flares, orange smoke, arms raised and lowered slowly, flames on board) and composing the correct integrated signal picture for the given scenario, combining flags (weeks 2/5), light or Morse (weeks 1/6) and buoyage (weeks 3/7).",
+    assessmentCriteria: [
+      "The Annex IV signals are correct (arms raised and lowered slowly, orange smoke, red rockets/flares, NC flags, SOS/MAYDAY, flames on board).",
+      "The rule that distress signals are only for distress is stated.",
+      "The composed signal picture is correct and appropriate for the scenario, combining flags, light/Morse and buoyage.",
+      "The integration of weeks 1-7 is coherent, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "ING531",
     subjectName: "Inglés Marítimo V",
     subjectId: "pn-s5-ingles-maritimo-v",
