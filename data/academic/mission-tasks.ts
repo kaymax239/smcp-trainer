@@ -5780,6 +5780,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Segmento rectilíneo",
+    topic: "Punto medio y división de un segmento en una razón dada",
+    week: 5,
+    taskId: "pn-gea320-w05-midpoint-division",
+    taskTitle: "Find A Midpoint And Divide A Segment By Ratio",
+    scenario: "Working on a cartesian plot where positions are given as (x, y) coordinates, the officer asks the cadet to find an intermediate point as the midpoint between two plotted positions and a point that divides a segment in a given ratio, using coordinate geometry rather than bearings.",
+    instructions: [
+      "State the midpoint formula M = ((x1 + x2) / 2, (y1 + y2) / 2).",
+      "For A = (2, 4) and B = (8, 12), calculate the midpoint: M = ((2 + 8) / 2, (4 + 12) / 2) = (5, 8).",
+      "Verify M is equidistant from both ends: distance A to M = square root((5 - 2)^2 + (8 - 4)^2) = square root(9 + 16) = 5, and distance M to B = square root((8 - 5)^2 + (12 - 8)^2) = square root(9 + 16) = 5, confirming they are equal.",
+      "Using the section formula, find the point P dividing C = (2, 3) to D = (8, 15) in the ratio 1:2 from C: P = ((1 x 8 + 2 x 2) / 3, (1 x 15 + 2 x 3) / 3) = (4, 7). Report the results with the working, in clear English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the midpoint of A-B with its equidistance check, and the point dividing C-D in the ratio 1:2, with the working shown.",
+    assessmentCriteria: [
+      "The midpoint formula is stated correctly and applied (M = (5, 8)).",
+      "The equidistance check is correct (both distances = 5).",
+      "The section-formula point is correct (P = (4, 7) for the ratio 1:2).",
+      "The working is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Ecuación de la recta (punto-pendiente y pendiente-ordenada) e intersección de dos rectas",
+    week: 6,
+    taskId: "pn-gea320-w06-line-intersection",
+    taskTitle: "Write Two Line Equations And Find Their Intersection",
+    scenario: "Two straight lines are drawn on a cartesian plot. The officer asks the cadet to write the equation of each line and find where they cross by solving the system, using coordinate geometry rather than bearings.",
+    instructions: [
+      "Write line A through the point (1, 3) with slope 2 using point-slope form: y - 3 = 2(x - 1), giving y = 2x + 1.",
+      "Write line B through the point (5, 2) with slope -1: y - 2 = -1(x - 5), giving y = -x + 7.",
+      "Find the intersection by setting the two equal: 2x + 1 = -x + 7, so 3x = 6, x = 2, and y = 2(2) + 1 = 5, giving the point (2, 5).",
+      "Verify that (2, 5) satisfies BOTH original equations: line A gives 2(2) + 1 = 5, and line B gives -(2) + 7 = 5. Report the equations and the intersection with the working, in clear English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the two line equations, their intersection point, and the check that the point satisfies both equations, with the working shown.",
+    assessmentCriteria: [
+      "Line A is correctly written from point-slope form (y = 2x + 1).",
+      "Line B is correctly written (y = -x + 7).",
+      "The intersection is correctly found (x = 2, y = 5).",
+      "The point is verified in BOTH original equations, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Rectas paralelas y perpendiculares; distancia de un punto a una recta",
+    week: 7,
+    taskId: "pn-gea320-w07-parallel-perpendicular-distance",
+    taskTitle: "Use Parallel, Perpendicular And Point-To-Line Distance",
+    scenario: "A straight line is drawn on the cartesian plot. The officer asks the cadet to give lines parallel and perpendicular to it and to find the shortest distance from a fixed position to the line, using coordinate geometry.",
+    instructions: [
+      "For the line L: 3x + 4y - 12 = 0, find its slope m1 = -A / B = -3/4.",
+      "State that a parallel line has the same slope (m1 = m2 = -3/4), and that a perpendicular line has slope m2 = 4/3; show the product m1 x m2 = (-3/4)(4/3) = -1, which confirms perpendicularity.",
+      "Find the shortest distance from the position P = (1, 1) to L with d = |A x x0 + B x y0 + C| / square root(A^2 + B^2), keeping the absolute value and the sign of C = -12.",
+      "Calculate d = |3(1) + 4(1) - 12| / square root(3^2 + 4^2) = |-5| / square root(25) = 5 / 5 = 1. Report the slopes and the distance with the working, in clear English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the parallel and perpendicular slopes with the product check, and the shortest distance from P to the line, with the working shown.",
+    assessmentCriteria: [
+      "The slope of L is correct (m1 = -3/4).",
+      "The parallel and perpendicular slopes are correct, with the product m1 x m2 = -1 shown for perpendicularity.",
+      "The distance formula is applied with the absolute value and the correct sign of C.",
+      "The distance is correct (d = 1), in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Circunferencia",
+    topic: "Ecuación general y centro-radio; posición de un punto respecto a la circunferencia",
+    week: 8,
+    taskId: "pn-gea320-w08-circle-position",
+    taskTitle: "Convert Circle Forms And Test A Point's Position",
+    scenario: "A lighthouse's range is drawn as a circle on the cartesian plot. As the closing task of the subject, the officer asks the cadet to convert between the circle's forms and decide whether given positions lie inside, on, or outside the range circle, using coordinate geometry.",
+    instructions: [
+      "For a circle with centre (3, 4) and radius 5, write the centre-radius form (x - 3)^2 + (y - 4)^2 = 25 and expand it to the general form x^2 + y^2 - 6x - 8y = 0.",
+      "Recover the centre and radius from the general form by completing the square: (x^2 - 6x + 9) + (y^2 - 8y + 16) = 0 + 9 + 16, giving (x - 3)^2 + (y - 4)^2 = 25, so the centre is (-D/2, -E/2) = (3, 4) and the radius is 5 (watch the signs: D = -6 gives 3, E = -8 gives 4).",
+      "Decide the position of each point by comparing its distance to the centre with the radius: Q1 = (6, 8) gives square root((6-3)^2 + (8-4)^2) = square root(25) = 5 = radius, so ON the circle; Q2 = (3, 7) gives square root(0 + 9) = 3 < 5, so INSIDE; Q3 = (9, 4) gives square root(36 + 0) = 6 > 5, so OUTSIDE.",
+      "State each verdict with both numbers (distance and radius) shown. Report the forms and the verdicts with the working, in clear English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the centre-radius and general forms of the circle, the recovery of centre and radius by completing the square, and the inside/on/outside verdict for the three points with distances shown.",
+    assessmentCriteria: [
+      "The centre-radius form is expanded correctly to the general form (x^2 + y^2 - 6x - 8y = 0).",
+      "The centre (3, 4) and radius 5 are correctly recovered by completing the square, with the signs handled correctly.",
+      "Each point is correctly classified (Q1 ON = 5, Q2 INSIDE = 3, Q3 OUTSIDE = 6) with distance compared to radius.",
+      "Both numbers are shown for each verdict, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "DIN321",
     subjectName: "Dinámica",
     subjectId: "pn-s3-dinamica",
