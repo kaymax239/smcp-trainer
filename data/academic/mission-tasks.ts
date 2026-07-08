@@ -8100,6 +8100,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Segmento rectilíneo",
+    topic: "Punto medio y division de un segmento en el plano del taller",
+    week: 5,
+    taskId: "mn-gea317-w05-bedplate-midpoint",
+    taskTitle: "Find A Bedplate Midpoint And Divide A Support Span",
+    scenario: "On the workshop layout plane, positions are given as (x, y) coordinates. The instructor asks the cadet to find the midpoint of a machine bedplate and a point that divides a pipe-support span in a given ratio, using coordinate geometry.",
+    instructions: [
+      "State the midpoint formula M = ((x1 + x2) / 2, (y1 + y2) / 2).",
+      "For the bedplate ends A = (1, 2) and B = (7, 10), calculate the midpoint: M = ((1 + 7) / 2, (2 + 10) / 2) = (4, 6).",
+      "Verify M is equidistant from both ends: distance A to M = square root((4 - 1)^2 + (6 - 2)^2) = square root(9 + 16) = 5, and distance M to B = square root((7 - 4)^2 + (10 - 6)^2) = square root(9 + 16) = 5, confirming they are equal.",
+      "Using the section formula, find the point P dividing the support span C = (1, 1) to D = (10, 7) in the ratio 2:1 from C: P = ((2 x 10 + 1 x 1) / 3, (2 x 7 + 1 x 1) / 3) = (7, 5). Report the results with the working, in clear engine-room English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the bedplate midpoint with its equidistance check, and the point dividing the support span C-D in the ratio 2:1, with the working shown.",
+    assessmentCriteria: [
+      "The midpoint formula is applied correctly (M = (4, 6)).",
+      "The equidistance check is correct (both distances = 5).",
+      "The section-formula point is correct (P = (7, 5) for the ratio 2:1).",
+      "The working is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Ecuacion de la recta e interseccion de dos recorridos de tuberia",
+    week: 6,
+    taskId: "mn-gea317-w06-pipe-run-intersection",
+    taskTitle: "Find Where Two Pipe Runs Cross",
+    scenario: "Two pipe runs are drawn as straight lines on the workshop layout plane. The instructor asks the cadet to write the equation of each run and find where they cross by solving the system, using coordinate geometry.",
+    instructions: [
+      "Write pipe run A through the point (1, -2) with slope 3 using point-slope form: y - (-2) = 3(x - 1), giving y = 3x - 5.",
+      "Write pipe run B through the point (7, 4) with slope -1: y - 4 = -1(x - 7), giving y = -x + 11.",
+      "Find the crossing point by setting the two equal: 3x - 5 = -x + 11, so 4x = 16, x = 4, and y = 3(4) - 5 = 7, giving the point (4, 7).",
+      "Verify that (4, 7) satisfies BOTH equations: run A gives 3(4) - 5 = 7, and run B gives -(4) + 11 = 7. Report the equations and the crossing point with the working, in clear engine-room English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the equations of the two pipe runs, their crossing point, and the check that the point satisfies both equations, with the working shown.",
+    assessmentCriteria: [
+      "Pipe run A is correctly written from point-slope form (y = 3x - 5).",
+      "Pipe run B is correctly written (y = -x + 11).",
+      "The crossing point is correctly found (x = 4, y = 7).",
+      "The point is verified in BOTH equations, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Rectas paralelas y perpendiculares y distancia de un equipo a una recta de referencia",
+    week: 7,
+    taskId: "mn-gea317-w07-equipment-clearance-distance",
+    taskTitle: "Measure Clearance From Equipment To A Reference Line",
+    scenario: "A reference line, the axis of a pipe, is drawn on the workshop plane. The instructor asks the cadet to give lines parallel and perpendicular to it and to find the shortest distance from a fixed piece of equipment to the line, using coordinate geometry.",
+    instructions: [
+      "For the reference line L: 5x + 12y - 26 = 0, find its slope m1 = -A / B = -5/12.",
+      "State that a parallel line has the same slope (m1 = m2 = -5/12), and that a perpendicular line has slope m2 = 12/5; show the product m1 x m2 = (-5/12)(12/5) = -1, which confirms perpendicularity.",
+      "Find the shortest distance from the equipment at P = (8, 1) to L with d = |A x x0 + B x y0 + C| / square root(A^2 + B^2), keeping the absolute value and the sign of C = -26.",
+      "Calculate d = |5(8) + 12(1) - 26| / square root(5^2 + 12^2) = |40 + 12 - 26| / square root(169) = 26 / 13 = 2. Report the slopes and the distance with the working, in clear engine-room English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the parallel and perpendicular slopes with the product check, and the shortest distance from the equipment to the reference line (using the 5-12-13 triangle), with the working shown.",
+    assessmentCriteria: [
+      "The slope of L is correct (m1 = -5/12).",
+      "The parallel and perpendicular slopes are correct, with the product m1 x m2 = -1 shown for perpendicularity.",
+      "The distance formula is applied with the absolute value and the correct sign of C.",
+      "The distance is correct (d = 26 / 13 = 2), in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Circunferencia",
+    topic: "Posicion de un punto respecto a la circunferencia: circulo de barrido de una pieza rotativa",
+    week: 8,
+    taskId: "mn-gea317-w08-rotating-part-sweep",
+    taskTitle: "Test A Point Against A Rotating Part's Sweep Circle",
+    scenario: "The sweep circle of a rotating machine part is drawn on the workshop plane. As the closing task of the subject, the instructor asks the cadet to convert the circle's forms and decide whether given points lie inside, on, or outside the sweep circle, using coordinate geometry.",
+    instructions: [
+      "For a sweep circle with centre (2, 3) and radius 5, write the centre-radius form (x - 2)^2 + (y - 3)^2 = 25 and expand it to the general form x^2 + y^2 - 4x - 6y - 12 = 0.",
+      "Recover the centre and radius from the general form by completing the square: (x^2 - 4x + 4) + (y^2 - 6y + 9) = 12 + 4 + 9, giving (x - 2)^2 + (y - 3)^2 = 25, so the centre is (-D/2, -E/2) = (2, 3) and the radius is square root((D/2)^2 + (E/2)^2 - F) = square root(4 + 9 + 12) = 5 (watch the sign: F = -12, so minus F is plus 12).",
+      "Decide the position of each point by comparing its distance to the centre with the radius: Q1 = (5, 7) gives square root((5-2)^2 + (7-3)^2) = square root(25) = 5 = radius, so ON the circle; Q2 = (2, 6) gives square root(0 + 9) = 3 < 5, so INSIDE; Q3 = (8, 3) gives square root(36 + 0) = 6 > 5, so OUTSIDE.",
+      "State each verdict with both numbers (distance and radius) shown. Report the forms and the verdicts with the working, in clear engine-room English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the centre-radius and general forms of the sweep circle, the recovery of centre and radius by completing the square (with F = -12), and the inside/on/outside verdict for the three points with distances shown.",
+    assessmentCriteria: [
+      "The centre-radius form is expanded correctly to the general form (x^2 + y^2 - 4x - 6y - 12 = 0).",
+      "The centre (2, 3) and radius 5 are recovered by completing the square, with the sign of F handled correctly.",
+      "Each point is correctly classified (Q1 ON = 5, Q2 INSIDE = 3, Q3 OUTSIDE = 6) with distance compared to radius.",
+      "Both numbers are shown for each verdict, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "DIN318",
     subjectName: "Dinámica",
     subjectId: "mn-s3-dinamica",
