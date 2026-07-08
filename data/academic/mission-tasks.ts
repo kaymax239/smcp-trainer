@@ -8564,6 +8564,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Voz pasiva",
+    topic: "La voz pasiva en el engine log y los reportes de mantenimiento de maquinas",
+    week: 5,
+    taskId: "mn-ing315-w05-passive-engine-log",
+    taskTitle: "Write Engine Log Entries In The Passive Voice",
+    scenario: "Writing up the engine log and a maintenance report, you must use the passive voice, which is standard in engine-room reports because the work done or the result matters more than who performed it. This builds on the present perfect from unit 1.",
+    instructions: [
+      "Form the passive as be + past participle, keeping the correct tense in the verb 'be': past simple passive ('the injector was overhauled at 0300'), present perfect passive ('the purifier has been cleaned'), and a passive of expectation ('the main engine is expected to be ready by 0600').",
+      "Write three engine log or maintenance report entries in the passive, one in each of those forms, using real engine-room events.",
+      "Explain when the passive is preferred (when the work or result matters more than who did it).",
+      "Keep each entry factual, timed where appropriate, and in correct engine-room English."
+    ],
+    deliverable: "Three engine log or maintenance entries in English written in the passive voice, one past simple, one present perfect and one of expectation, with a note on when the passive is preferred.",
+    assessmentCriteria: [
+      "Each entry is correctly formed as be + past participle with the right tense in 'be'.",
+      "The three forms (was overhauled / has been cleaned / is expected to be) are each used correctly.",
+      "The choice of the passive is correctly justified.",
+      "The entries are factual, timed where appropriate, and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Condicionales",
+    topic: "Primer y segundo condicional en las standing orders del jefe de maquinas",
+    week: 6,
+    taskId: "mn-ing315-w06-conditionals-plant",
+    taskTitle: "Use Conditionals For Engine Standing Orders",
+    scenario: "The Chief Engineer's standing orders and contingency plans are written with conditionals: the first conditional for real, likely situations and the second conditional for hypothetical ones. You must write standing-order statements for the plant using both, without mixing them.",
+    instructions: [
+      "Form the first conditional as 'If + present simple, will + infinitive' for real and likely situations, for example 'If the lube oil pressure drops below 2 bar, the engine will shut down automatically.'",
+      "Form the second conditional as 'If + past simple, would + infinitive' for hypothetical situations, for example 'If the main generator failed, we would start the standby unit.' Never mix the two (do not write 'If it will...').",
+      "Write two first conditionals with concrete engine thresholds (a pressure or a temperature) and two second conditionals for hypothetical plant failures, as standing-order statements.",
+      "Keep each statement operationally sensible and grammatically correct in English."
+    ],
+    deliverable: "Four plant standing-order statements in English, two first conditionals with concrete engine thresholds and two second conditionals for hypothetical failures, each correctly formed.",
+    assessmentCriteria: [
+      "The first conditionals use 'If + present simple, will + infinitive' correctly, with concrete engine thresholds.",
+      "The second conditionals use 'If + past simple, would + infinitive' correctly.",
+      "The two conditional types are not mixed (no 'If it will...').",
+      "The statements are operationally sensible and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Estilo indirecto",
+    topic: "Reported speech en el relevo de guardia de maquinas con backshift de tiempos",
+    week: 7,
+    taskId: "mn-ing315-w07-reported-speech-handover",
+    taskTitle: "Relay Engine Watch Messages In Reported Speech",
+    scenario: "At engine watch handover and when logging messages received from the bridge, direct messages must be relayed in reported speech, applying the backshift of tenses and the change of pronouns and time expressions.",
+    instructions: [
+      "Apply the backshift when reporting: will becomes would, is/are becomes was/were, can becomes could, present simple becomes past simple, and time words change (for example 'tonight' becomes 'that night').",
+      "Convert direct speech to reported speech, for example the Chief said, 'The purifier will need attention tonight', becomes 'The Chief said that the purifier would need attention that night.'",
+      "Report an order received from the bridge with an appropriate reporting verb, for example the bridge said, 'Stand by the engine', becomes 'The bridge requested us to stand by the engine.'",
+      "Write three reported-speech sentences relaying orders or information received on the engine watch, with correct backshift and pronoun and time changes, in correct English."
+    ],
+    deliverable: "Three reported-speech sentences in English relaying orders or information received on the engine watch, each with correct backshift and pronoun and time changes.",
+    assessmentCriteria: [
+      "The backshift of tenses is applied correctly (will to would, is to was, can to could).",
+      "Direct speech is correctly converted to reported speech with 'that'.",
+      "An order from the bridge is reported with an appropriate reporting verb (e.g. requested us to).",
+      "Pronouns and time expressions are changed correctly (e.g. tonight to that night), in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Comunicacion integrada maquinas-puente",
+    topic: "Intercambio interno completo: estado de la planta, stand-by y respuesta a ordenes del telegrafo",
+    week: 8,
+    taskId: "mn-ing315-w08-engine-bridge-exchange",
+    taskTitle: "Handle A Full Engine-To-Bridge Exchange",
+    scenario: "On preparing for manoeuvring, you must handle a complete internal exchange between the engine room and the bridge as the closing task of the subject: report the plant status, prepare the engine for stand-by, and confirm and respond to telegraph orders, integrating the passive, conditionals and reported speech. Unlike the external arrival exchange, this one is internal, engine to bridge.",
+    instructions: [
+      "Report the plant status to the bridge using a passive or future form, for example 'the main engine has been warmed through and is expected to be ready for stand-by by 0545.'",
+      "Prepare the engine for stand-by and include a first conditional for a contingency, for example 'if the control air pressure falls below 25 bar, we will start the second air compressor.'",
+      "Relay one instruction received from the bridge in reported speech, for example 'the bridge said that they would ring stand-by at 0545.'",
+      "Confirm and respond to the telegraph orders by repeating each order back (for example acknowledge 'Stand By Engines', then repeat back 'Half Ahead'), and write the whole exchange as a short multi-turn engine-to-bridge script; this builds on the standard engine orders of week 3 but now integrates the passive, conditionals and reported speech. Report in clear engine-room English."
+    ],
+    deliverable: "A short multi-turn engine-to-bridge script in English covering the plant status report, the stand-by preparation and the telegraph-order responses, integrating the passive, a first conditional and reported speech.",
+    assessmentCriteria: [
+      "The plant status is reported using a correct passive or future form.",
+      "A first conditional with a concrete engine threshold is correctly used for the contingency.",
+      "One instruction from the bridge is correctly relayed in reported speech.",
+      "The telegraph orders are correctly acknowledged and repeated back in a sensible multi-turn script, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "PMR321",
     subjectName: "Prácticas Marineras III",
     subjectId: "mn-s3-practicas-marineras-iii",
