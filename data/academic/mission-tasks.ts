@@ -9840,6 +9840,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Tipos de Derrota",
+    topic: "Cálculo de la derrota ortodrómica por trigonometría esférica",
+    week: 5,
+    taskId: "pn-nav530-w05-great-circle-distance",
+    taskTitle: "Calculate The Great Circle Distance",
+    scenario: "For a long ocean passage the officer asks the cadet to calculate the great circle distance between two positions using spherical trigonometry, following on from the concept explained in week 1.",
+    instructions: [
+      "State the great circle distance formula: cos D = sin L1 x sin L2 + cos L1 x cos L2 x cos (difference of longitude), where D is the angular distance, and the distance in nautical miles is D in degrees x 60.",
+      "For L1 = 45 degrees N, L2 = 45 degrees N and a difference of longitude of 60 degrees, compute each product separately: sin 45 x sin 45 = 0.7071 x 0.7071 = 0.5, and cos 45 x cos 45 x cos 60 = 0.7071 x 0.7071 x 0.5 = 0.25, so cos D = 0.5 + 0.25 = 0.75.",
+      "Find D = arccos(0.75) = 41.41 degrees, and the distance = 41.41 x 60 = 2485 NM.",
+      "Check the sense with the equator case: if both points were on the equator (L1 = L2 = 0), cos D = cos(difference of longitude), so D = 60 degrees = 3600 NM, and the 45 degrees N great circle (2485 NM) is shorter than the equatorial arc, as a great circle should be at higher latitudes. Note the initial course as a concept: because the great circle crosses the meridians at changing angles, the course changes continuously along the route. Report the distance in NM, in clear navigational English."
+    ],
+    deliverable: "A great circle calculation in English giving the distance from cos D = sin L1 sin L2 + cos L1 cos L2 cos(difference of longitude) with each product shown, the conversion D x 60 to NM (2485 NM), and the equator sense-check, distinct from the week 1 concept.",
+    assessmentCriteria: [
+      "The formula is stated correctly and each product is shown (0.5 and 0.25, giving cos D = 0.75).",
+      "The angular distance is correct (arccos 0.75 = 41.41 degrees) and converted to distance (x 60 = 2485 NM).",
+      "The equator sense-check is correct (3600 NM) and shows the 45 degrees N route is shorter.",
+      "The initial course is correctly explained as changing along the route, in clear navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Tipos de Derrota",
+    topic: "Ortodromica vs loxodromica: decision de derrota",
+    week: 6,
+    taskId: "pn-nav530-w06-orthodromic-vs-loxodromic",
+    taskTitle: "Choose Between Great Circle And Rhumb Line",
+    scenario: "Before a long passage the officer asks the cadet to decide between a great circle and a rhumb line route, weighing the trade-offs, without re-teaching the rhumb line plane sailing method.",
+    instructions: [
+      "State when each route is preferred: the great circle (orthodromic) saves distance on long passages and in high latitudes, while the rhumb line (loxodromic) is a constant course and simple to steer.",
+      "Explain what the saving depends on: it grows with latitude and with an east-west orientation of the passage, and is small near the equator or on north-south passages.",
+      "Explain how a great circle is navigated in practice: as a series of rhumb line legs between waypoints along the great circle, so the ship steers a constant course on each leg.",
+      "Note the boundary: the rhumb line plane sailing method itself was covered in Navegacion I, so here the rhumb line is only the term of comparison for the routing decision. Report your answer in clear navigational English."
+    ],
+    deliverable: "A routing-decision note in English comparing great circle and rhumb line (when each is preferred, what the saving depends on, and navigating the great circle as rhumb line legs), with the rhumb line used only as the comparison, not re-taught.",
+    assessmentCriteria: [
+      "When each route is preferred is correct (great circle for long/high-latitude passages, rhumb line for simple constant course).",
+      "What the saving depends on is correct (latitude and east-west orientation).",
+      "Navigating the great circle as rhumb line legs between waypoints is correct.",
+      "The rhumb line is used only as the comparison, not re-teaching plane sailing, in clear navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar",
+    topic: "Ploteo radar: calculo de CPA y TCPA",
+    week: 7,
+    taskId: "pn-nav530-w07-radar-plotting-cpa-tcpa",
+    taskTitle: "Work Out CPA And TCPA From A Radar Plot",
+    scenario: "A radar contact must be assessed. The officer asks the cadet to work out the CPA and TCPA from a relative plot, taking the relative motion of week 2 from the concept to the number.",
+    instructions: [
+      "State that two ranges and bearings of the contact taken a few minutes apart give the relative motion line, and that the relative speed = relative distance run / time.",
+      "For a contact first seen at 10 NM, with two plots 6 minutes apart showing a relative advance of 2 NM, calculate the relative speed = 2 NM / 0.1 h = 20 knots.",
+      "From the plot, the CPA is the perpendicular distance from own ship to the relative motion line, here 6 NM, and the distance along the line to the CPA is 8 NM; verify the geometry with square root(6^2 + 8^2) = square root(36 + 64) = square root(100) = 10 NM, the initial range (a 6-8-10 triangle).",
+      "Calculate the TCPA = distance along the line to the CPA / relative speed = 8 NM / 20 knots = 0.4 h = 24 minutes; and note the limit case that if the relative motion line passed through own ship the CPA would be 0, a collision course, which is exactly what the officer watches for. Report the CPA in NM and the TCPA in minutes, in clear navigational English."
+    ],
+    deliverable: "A radar-plotting calculation in English giving the relative speed (20 knots), the CPA (6 NM) verified by the 6-8-10 triangle against the 10 NM initial range, and the TCPA (24 minutes), with the CPA = 0 collision case noted.",
+    assessmentCriteria: [
+      "The relative speed is correct (2 NM / 0.1 h = 20 knots).",
+      "The CPA (6 NM) is verified by square root(6^2 + 8^2) = 10 NM, the initial range.",
+      "The TCPA is correct (8 NM / 20 knots = 24 minutes).",
+      "The CPA = 0 collision-course limit case is correctly noted, in clear navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "ARPA en la decision anticolision (COLREGs Parte B) verificada por el ploteo",
+    week: 8,
+    taskId: "pn-nav530-w08-arpa-collision-avoidance",
+    taskTitle: "Decide An Anti-Collision Action With ARPA",
+    scenario: "With the plot in hand, the officer must decide and act. As the closing task of the subject, the officer asks the cadet to use ARPA to support an anti-collision decision under COLREGs and to verify the action afterwards.",
+    instructions: [
+      "Explain CPA and TCPA limits as the ARPA alarm criteria: setting them tells the ARPA when to warn of a close-quarters situation, and they are configurable to the waters and visibility (for example 2 NM and 12 minutes as illustrative values, not fixed doctrine).",
+      "Read the target's vector on the ARPA to judge its course and speed and how the situation is developing.",
+      "Take action in accordance with COLREGs Part B (the steering and sailing rules): a positive, early and readily apparent manoeuvre, and verify it by the subsequent plot, checking that the CPA has improved.",
+      "Close with the warning from week 3: the ARPA assists but the officer decides, and over-reliance on the ARPA is a danger. Report your answer in clear navigational English."
+    ],
+    deliverable: "A note in English using ARPA for an anti-collision decision: the CPA/TCPA alarm limits as configurable criteria, reading the target vector, a COLREGs Part B manoeuvre verified by the later plot (CPA improved), and the over-reliance warning.",
+    assessmentCriteria: [
+      "CPA/TCPA limits are correctly explained as configurable alarm criteria (with illustrative values, not fixed doctrine).",
+      "Reading the target's vector for course, speed and development is correct.",
+      "The action follows COLREGs Part B (positive, early, apparent) and is verified by the subsequent plot (CPA improved).",
+      "The week 3 over-reliance warning (ARPA assists, officer decides) is included, in clear navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "MAN533",
     subjectName: "Maniobras I",
     subjectId: "pn-s5-maniobras-i",
