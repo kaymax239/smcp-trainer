@@ -9490,6 +9490,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     difficulty: "Standard"
   },
   {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "El reporte formal de falla",
+    topic: "Reporte objetivo de falla de maquinaria: hecho vs opinion, near-miss y valor probatorio",
+    week: 5,
+    taskId: "mn-c0101-w05-objective-fault-report",
+    taskTitle: "Write An Objective Machinery Fault Report",
+    scenario: "A machinery fault, or a near-miss, must be reported in writing. Because the report may later be read by the classification society or the insurer, it must record the facts objectively. The engineer asks the cadet to write it, keeping strictly to fact and out of opinion.",
+    instructions: [
+      "Structure the report with the facts in chronological order, recording what happened, when and where, in objective and precise language.",
+      "Separate fact from opinion strictly: record observable facts (for example 'the bearing temperature reached 95 degrees C at 0230') and leave out opinion or blame (for example 'the manufacturer's bearings are poor quality'), and explain why the opinion must not appear in the report.",
+      "Include a near-miss: report a machinery event that caused no damage or injury but could have, so the hazard is on record and can be acted on.",
+      "Note that this report is about objectivity, filtering fact from opinion, not about prioritising by importance (which was week 4), and explain why its evidential value before the classification society or insurer depends on staying factual. Report in clear engine-room English."
+    ],
+    deliverable: "A machinery fault or near-miss report in English with facts in chronological order, a strict separation of fact from opinion (with the bearing-temperature/manufacturer example), and a note on why objectivity gives the report its evidential value.",
+    assessmentCriteria: [
+      "The facts are recorded in chronological order in objective, precise language.",
+      "Fact is strictly separated from opinion, with the correct example (fact 'bearing temperature reached 95 degrees C at 0230' kept, opinion 'manufacturer's bearings are poor quality' excluded).",
+      "A near-miss is correctly reported as a machinery event that could have caused harm.",
+      "The evidential value of objectivity (classification society / insurer) is correctly explained, distinct from week 4's prioritisation, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Correspondencia técnica",
+    topic: "Reporte al superintendente tecnico y requisicion formal de repuestos",
+    week: 6,
+    taskId: "mn-c0101-w06-technical-correspondence",
+    taskTitle: "Write A Technical Report And Spare-Parts Requisition",
+    scenario: "The engine department must correspond formally with the office ashore. The engineer asks the cadet to write a formal report to the technical superintendent and a formal spare-parts requisition, in the correct formal register. Unlike a commercial letter of protest, this is the engine department's technical correspondence with the office.",
+    instructions: [
+      "Write a formal report to the technical superintendent giving the plant status, the breakdown and a recommendation, structured formally (sender, addressee, date, vessel, subject, the facts, and the recommendation).",
+      "Write a formal spare-parts requisition with its technical justification: the part identification (name and part number), the reason it is needed, and the urgency.",
+      "Keep the tone professional and use formal register, contrasting it with the informal register of routine ship-to-office messages.",
+      "Explain why a clear, well-justified requisition gets the right part to the ship faster. Report in clear engine-room English."
+    ],
+    deliverable: "A formal report to the technical superintendent (plant status, breakdown, recommendation) and a formal spare-parts requisition (part identification, reason, urgency) in English, both in professional formal register.",
+    assessmentCriteria: [
+      "The report to the superintendent is correctly structured (sender, addressee, date, vessel, subject, facts, recommendation).",
+      "The requisition gives the part identification, the reason and the urgency with a technical justification.",
+      "The tone is professional and in formal register, contrasted with routine messages.",
+      "The value of a clear, justified requisition is correctly explained, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Documentación operativa",
+    topic: "Standing orders y night orders del jefe de maquinas: redaccion accionable con umbrales medibles",
+    week: 7,
+    taskId: "mn-c0101-w07-chief-engineer-orders",
+    taskTitle: "Write Actionable Chief Engineer's Orders",
+    scenario: "The Chief Engineer's standing orders and night orders tell the duty engineer exactly what to do and when to call. The engineer asks the cadet to write orders that will be executed, not interpreted, with concrete measurable thresholds.",
+    instructions: [
+      "Explain the purpose of standing orders (permanent) and night orders (specific to the night), and that both must be clear, unambiguous and actionable.",
+      "Give the contrast between an ambiguous order and an actionable one: 'call me if something looks wrong with the engine' (ambiguous) versus 'call me if the main engine exhaust temperature on any unit exceeds 420 degrees C, or if the lube oil pressure falls below 2.5 bar' (actionable, with concrete thresholds).",
+      "Write three 'call me if...' orders, each with a concrete, measurable engine threshold (a temperature, a pressure, a level or a consumption).",
+      "Explain why writing for execution, not interpretation, prevents dangerous delay or hesitation in the engine room. Report in clear engine-room English."
+    ],
+    deliverable: "A set of Chief Engineer's standing and night orders in English, including three 'call me if...' orders each with a concrete measurable engine threshold, and the ambiguous-versus-actionable contrast, written for execution not interpretation.",
+    assessmentCriteria: [
+      "The purpose of standing versus night orders is correctly explained.",
+      "The ambiguous-versus-actionable contrast is correct ('something looks wrong' versus 'exhaust temperature exceeds 420 degrees C or lube oil pressure below 2.5 bar').",
+      "The three 'call me if...' orders each carry a concrete, measurable engine threshold.",
+      "The reasoning that orders must be executable, not interpreted, is sound, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "El informe ejecutivo",
+    topic: "Informe ejecutivo tecnico: resumen primero, hechos por importancia y recomendaciones accionables",
+    week: 8,
+    taskId: "mn-c0101-w08-technical-executive-report",
+    taskTitle: "Write A Technical Executive Report",
+    scenario: "A complex breakdown or a maintenance period must be condensed into a short report for the company to act on. As the closing task of the subject, the engineer asks the cadet to synthesise it into a technical executive report.",
+    instructions: [
+      "Open with an executive summary that comes FIRST and stands on its own: a reader who reads only the summary must grasp what happened, its operational impact, and what is recommended.",
+      "Below the summary, present the essential facts in order of importance, drawing objective facts from the fault record (as in week 5).",
+      "Give clear, actionable recommendations with concrete steps, in the actionable style of week 7's orders.",
+      "Keep the whole report brief and decision-focused, cutting detail that does not help the reader decide. Report in clear engine-room English."
+    ],
+    deliverable: "A technical executive report in English opening with a self-contained executive summary, followed by the essential facts by importance and clear actionable recommendations, kept brief and decision-focused.",
+    assessmentCriteria: [
+      "The executive summary comes first and stands on its own (what happened, operational impact, recommendation).",
+      "The essential facts are ordered by importance and drawn objectively from the fault record.",
+      "The recommendations are clear, actionable and concrete.",
+      "The report is brief and decision-focused, cutting non-essential detail, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
     career: "PN",
     semester: "Semester V",
     subjectCode: "MET532",
