@@ -6244,6 +6244,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Voz pasiva",
+    topic: "La voz pasiva en reportes y el cuaderno de bitácora (be + participio pasado)",
+    week: 5,
+    taskId: "pn-ing317-w05-passive-voice-reports",
+    taskTitle: "Write Report Entries In The Passive Voice",
+    scenario: "Writing up the logbook and a status report, you must use the passive voice, which is standard in maritime reports because the action or result matters more than who performed it. This builds on the present perfect from unit 1.",
+    instructions: [
+      "Form the passive as be + past participle, keeping the correct tense in the verb 'be': past simple passive ('the anchor was let go at 0620'), present perfect passive ('the cargo has been secured'), and a passive of expectation ('the vessel is expected to berth at 1400').",
+      "Write three logbook or report entries in the passive, one in each of those forms, using real deck events.",
+      "Explain when the passive is preferred (when the action or result matters more than who did it).",
+      "Keep each entry factual, timed where appropriate, and in correct English."
+    ],
+    deliverable: "Three report or logbook entries in English written in the passive voice, one past simple, one present perfect and one of expectation, with a note on when the passive is preferred.",
+    assessmentCriteria: [
+      "Each entry is correctly formed as be + past participle with the right tense in 'be'.",
+      "The three forms (was let go / has been secured / is expected to) are each used correctly.",
+      "The choice of the passive is correctly justified.",
+      "The entries are factual, timed where appropriate, and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Condicionales",
+    topic: "Primer y segundo condicional en decisiones operativas y standing orders",
+    week: 6,
+    taskId: "pn-ing317-w06-conditionals-contingency",
+    taskTitle: "Use First And Second Conditionals For Contingencies",
+    scenario: "The Master's standing orders and contingency plans are written with conditionals: the first conditional for real, likely situations and the second conditional for hypothetical ones. You must write standing-order statements using both, without mixing them.",
+    instructions: [
+      "Form the first conditional as 'If + present simple, will + infinitive' for real and likely situations, for example 'If visibility decreases, we will reduce speed.'",
+      "Form the second conditional as 'If + past simple, would + infinitive' for hypothetical situations, for example 'If the engine failed, we would anchor.' Never mix the two (do not write 'If it will...').",
+      "Write two first conditionals for real contingencies and two second conditionals for hypothetical ones, as standing-order or contingency statements.",
+      "Keep each statement operationally sensible and grammatically correct in English."
+    ],
+    deliverable: "Four contingency statements in English, two first conditionals for real situations and two second conditionals for hypothetical ones, each correctly formed.",
+    assessmentCriteria: [
+      "The first conditionals use 'If + present simple, will + infinitive' correctly.",
+      "The second conditionals use 'If + past simple, would + infinitive' correctly.",
+      "The two conditional types are not mixed (no 'If it will...').",
+      "The statements are operationally sensible and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Estilo indirecto",
+    topic: "Reported speech: retransmitir órdenes e información con backshift de tiempos",
+    week: 7,
+    taskId: "pn-ing317-w07-reported-speech-relay",
+    taskTitle: "Relay Orders And Information In Reported Speech",
+    scenario: "At watch handover and when logging VHF traffic received, direct messages must be relayed in reported speech, applying the backshift of tenses and the change of pronouns and time expressions.",
+    instructions: [
+      "Apply the backshift when reporting: will becomes would, is/are becomes was/were, can becomes could, present simple becomes past simple, and time words change (for example 'tomorrow' becomes 'the next day').",
+      "Convert direct speech to reported speech, for example the Master said, 'The pilot will board at 0700', becomes 'The Master said that the pilot would board at 0700.'",
+      "Report an order with an appropriate reporting verb, for example VTS said, 'Proceed to the anchorage', becomes 'VTS advised us to proceed to the anchorage.'",
+      "Write three reported-speech sentences relaying orders or information received on watch, with correct backshift and pronoun and time changes, in correct English."
+    ],
+    deliverable: "Three reported-speech sentences in English relaying orders or information received on watch, each with correct backshift and pronoun and time changes.",
+    assessmentCriteria: [
+      "The backshift of tenses is applied correctly (will to would, is to was, can to could).",
+      "Direct speech is correctly converted to reported speech with 'that'.",
+      "An order is reported with an appropriate reporting verb (e.g. advised us to).",
+      "Pronouns and time expressions are changed correctly, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Comunicación externa integrada",
+    topic: "Intercambio completo de arribo: reporte de ETA, VTS y solicitud de práctico (SMCP)",
+    week: 8,
+    taskId: "pn-ing317-w08-arrival-communication-exchange",
+    taskTitle: "Handle A Full Arrival Exchange With VTS And Pilot",
+    scenario: "On approach to port, you must handle a complete arrival exchange as the closing task of the subject: report the ETA, communicate with VTS, and request a pilot, integrating the passive, conditionals and reported speech in real maritime English, following SMCP where it applies.",
+    instructions: [
+      "Report the vessel's ETA to the port using a passive or future form, for example 'the vessel is expected to arrive at the pilot station at 0700.'",
+      "Call VTS in a multi-turn exchange, following SMCP where it applies: identify the vessel, give position and intentions, and request permission or instructions.",
+      "Request a pilot and include a first conditional for a contingency, for example 'if the pilot cannot board at the pilot station, we will proceed to the anchorage.'",
+      "Relay one instruction received from VTS in reported speech, for example 'VTS said that we should reduce speed and stand by on channel 12', and write the whole exchange as a short multi-turn script in correct English."
+    ],
+    deliverable: "A short multi-turn arrival script in English covering the ETA report, the VTS exchange and the pilot request, integrating the passive, a first conditional and reported speech, following SMCP where it applies.",
+    assessmentCriteria: [
+      "The ETA is reported using a correct passive or future form.",
+      "The VTS exchange is a sensible multi-turn SMCP-style exchange (identity, position, intentions, request).",
+      "A first conditional is correctly used for the pilot-boarding contingency.",
+      "One VTS instruction is correctly relayed in reported speech, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "PMR322",
     subjectName: "Prácticas Marineras III",
     subjectId: "pn-s3-practicas-marineras-iii",
