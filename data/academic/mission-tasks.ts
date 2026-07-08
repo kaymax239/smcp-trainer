@@ -7054,6 +7054,122 @@ export const academicMissionTasks: AcademicMissionTask[] = [
     difficulty: "Standard"
   },
   {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "El reporte formal de incidente",
+    topic: "Reporte de incidente y near-miss: hecho vs opinión, lenguaje objetivo y valor probatorio",
+    week: 5,
+    taskId: "pn-c0101-w05-objective-incident-report",
+    taskTitle: "Write An Objective Incident / Near-Miss Report",
+    scenario: "An incident, or a near-miss, must be reported in writing. Because the report may later be read by a maritime tribunal or the insurer, it must record the facts objectively. The officer asks the cadet to write it, keeping strictly to fact and out of opinion.",
+    instructions: [
+      "Structure the report with the facts in chronological order, recording what happened, when and where, in objective and precise language.",
+      "Separate fact from opinion strictly: record observable facts (for example 'the container was found damaged at 0800') and leave out opinion or blame (for example 'the stevedores were careless'), and explain why the opinion must not appear in the report.",
+      "Include a near-miss: report an event that caused no damage or injury but could have, so the hazard is on record and can be acted on.",
+      "Note that this report is about objectivity, filtering fact from opinion, not about prioritising by importance (which was week 4), and explain why its evidential value before a tribunal or insurer depends on staying factual. Report in clear written English."
+    ],
+    deliverable: "An incident or near-miss report in English with facts in chronological order, a strict separation of fact from opinion (with the container/stevedores example), and a note on why objectivity gives the report its evidential value.",
+    assessmentCriteria: [
+      "The facts are recorded in chronological order in objective, precise language.",
+      "Fact is strictly separated from opinion, with the correct example (fact 'container found damaged at 0800' kept, opinion 'stevedores were careless' excluded).",
+      "A near-miss is correctly reported as an event that could have caused harm.",
+      "The evidential value of objectivity (tribunal / insurer) is correctly explained, distinct from week 4's prioritisation, in correct written English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "Correspondencia comercial marítima",
+    topic: "Carta de protesta (Letter of Protest / Note of Protest): cuándo se emite, estructura y registro formal",
+    week: 6,
+    taskId: "pn-c0101-w06-letter-of-protest",
+    taskTitle: "Draft A Letter Of Protest",
+    scenario: "A dispute arises, cargo damage, delay, a discrepancy or heavy weather, that the vessel must formally record. The officer asks the cadet to draft a Letter of Protest that states the ship's position firmly but professionally.",
+    instructions: [
+      "State when a Letter of Protest (or Note of Protest) is issued, for example cargo damage, delays, quantity or quality discrepancies, or heavy weather that may have affected the cargo.",
+      "Structure the letter formally: sender, addressee, date, vessel and port, a clear statement of the facts protested, and the formal reservation of the ship's rights.",
+      "Keep the tone firm and professional, without hostility or accusation, and use formal register (contrast with the informal register of routine ship-shore messages).",
+      "State what the ship keeps for its records and why a timely protest matters. Report in clear written English."
+    ],
+    deliverable: "A Letter of Protest in English with the correct formal structure, a clear factual statement of what is protested, the reservation of the ship's rights, and a firm professional tone in formal register.",
+    assessmentCriteria: [
+      "The circumstances for issuing a Letter / Note of Protest are correct.",
+      "The formal structure is complete (sender, addressee, date, vessel/port, facts, reservation of rights).",
+      "The tone is firm and professional without hostility, in formal register.",
+      "The record-keeping and timeliness are correctly explained, in correct written English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "Documentación operativa",
+    topic: "Standing orders y night orders del capitán: redacción accionable con umbrales concretos",
+    week: 7,
+    taskId: "pn-c0101-w07-standing-night-orders",
+    taskTitle: "Write Actionable Standing And Night Orders",
+    scenario: "The Master's standing orders and night orders tell the watchkeeper exactly what to do and when to call. The officer asks the cadet to write orders that will be executed, not interpreted, with concrete thresholds.",
+    instructions: [
+      "Explain the purpose of standing orders (permanent) and night orders (specific to the night), and that both must be clear, unambiguous and actionable.",
+      "Give the contrast between an ambiguous order and an actionable one: 'call me if the weather gets bad' (ambiguous) versus 'call me if the wind exceeds force 6 or visibility falls below 3 NM' (actionable, with concrete thresholds).",
+      "Write three 'call me if...' orders, each with a concrete, measurable threshold (for example a CPA, a depth, a distance to a mark, or a traffic situation).",
+      "Explain why writing for execution, not interpretation, prevents dangerous delay or hesitation on watch. Report in clear written English."
+    ],
+    deliverable: "A set of standing and night orders in English, including three 'call me if...' orders each with a concrete measurable threshold, and the ambiguous-versus-actionable contrast, written for execution not interpretation.",
+    assessmentCriteria: [
+      "The purpose of standing versus night orders is correctly explained.",
+      "The ambiguous-versus-actionable contrast is correct ('weather gets bad' versus 'wind exceeds force 6 or visibility below 3 NM').",
+      "The three 'call me if...' orders each carry a concrete, measurable threshold.",
+      "The reasoning that orders must be executable, not interpreted, is sound, in correct written English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "El informe ejecutivo",
+    topic: "Sintetizar para decidir: resumen ejecutivo primero, jerarquización y recomendaciones accionables",
+    week: 8,
+    taskId: "pn-c0101-w08-executive-report",
+    taskTitle: "Write An Executive Report To Support A Decision",
+    scenario: "A complex event, a passage with incidents or an inspection, must be condensed into a short report for the company or authority to act on. As the closing task of the subject, the officer asks the cadet to synthesise it into an executive report.",
+    instructions: [
+      "Open with an executive summary that comes FIRST and stands on its own: a reader who reads only the summary must grasp what happened, its impact, and what is recommended.",
+      "Below the summary, present the essential facts in order of importance, drawing objective facts from the incident record (as in week 5) and any formal correspondence such as a protest (as in week 6).",
+      "Give clear, actionable recommendations with concrete steps, in the actionable style of week 7's orders.",
+      "Keep the whole report brief and decision-focused, cutting detail that does not help the reader decide. Report in clear written English."
+    ],
+    deliverable: "An executive report in English opening with a self-contained executive summary, followed by the essential facts by importance and clear actionable recommendations, kept brief and decision-focused.",
+    assessmentCriteria: [
+      "The executive summary comes first and stands on its own (what happened, impact, recommendation).",
+      "The essential facts are ordered by importance and drawn objectively from the record.",
+      "The recommendations are clear, actionable and concrete.",
+      "The report is brief and decision-focused, cutting non-essential detail, in correct written English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
     career: "MN",
     semester: "Semester III",
     subjectCode: "ELE316",
