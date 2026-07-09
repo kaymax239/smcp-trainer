@@ -1044,5 +1044,353 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
     xp: 25,
     estimatedTime: "35 min",
     difficulty: "Standard"
-  }
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Sistema de combustible",
+    topic: "Cambio de combustible HFO a MGO al entrar en zona ECA",
+    week: 5,
+    taskId: "mn-lma745-w05-fuel-changeover",
+    taskTitle: "Change Over Fuel From HFO To MGO",
+    scenario: "Entering an emission control area, the engine must change from heavy fuel oil to marine gas oil. The engineer asks the cadet to explain the operational fuel changeover procedure and its risks.",
+    instructions: [
+      "Explain why and when the changeover is done: on entering an emission control area (ECA) the ship must burn a low-sulphur fuel such as MGO, so the change is planned and completed before the boundary.",
+      "Explain the gradual ramp: change the temperature and the viscosity slowly, because MGO is lighter and less viscous than heavy fuel, so do not change temperature abruptly; the fuel and injection system was covered in Motores I (Semester V) and is used here as established — this is the operation of the changeover, not the system.",
+      "State the risks of a sudden change: thermal shock and cracking of components, gasification (vapour lock) of the light fuel if it is too hot, and seizure of the injection pumps and injectors that rely on the heavier fuel for lubrication.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the HFO to MGO changeover: why and when (before the ECA boundary), the gradual ramp of temperature and viscosity (not abrupt, with the Motores I fuel system as established), and the risks of a sudden change (thermal shock and cracking, gasification or vapour lock, injection pump seizure).",
+    assessmentCriteria: [
+      "The reason and timing are correct (low-sulphur fuel in an ECA, completed before the boundary).",
+      "The gradual temperature and viscosity ramp is correct and the Motores I fuel-system boundary is respected (operation, not the system).",
+      "The risks of a sudden change are correct (thermal shock and cracking, gasification or vapour lock, injection pump seizure).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Planta de Generación Eléctrica",
+    topic: "La secuencia de recuperación de un apagón (blackout)",
+    week: 6,
+    taskId: "mn-lma745-w06-blackout-recovery",
+    taskTitle: "Recover The Plant From A Blackout",
+    scenario: "The ship suffers a blackout and all power is lost. In the machinery laboratory the engineer asks the cadet to run the blackout recovery sequence.",
+    instructions: [
+      "State the first step: the emergency generator starts automatically on the loss of main power and supplies the emergency switchboard (the essential services), so there is light and control to work with.",
+      "Restore the main generation: start a main diesel generator, put it on the main switchboard and restore power to the main bus. Boundary: the emergency generator and the preferential trip were taught as concepts of distribution in Electrotecnia (Semester V); here it is the operational recovery drill.",
+      "Restart the auxiliaries in order of priority: the pumps and services needed to start and run the main engine (cooling, lube oil, fuel) first, then the rest, until propulsion is restored, because a wrong order leaves the main engine unable to start.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on blackout recovery: the emergency generator on the emergency switchboard first, restoring the main generation to the main bus (the Electrotecnia emergency-generator and preferential-trip concepts as established), and restarting the auxiliaries in priority order until propulsion is restored.",
+    assessmentCriteria: [
+      "The emergency generator's automatic start on the emergency switchboard is correct as the first step.",
+      "Restoring the main generation to the main bus is correct and the Electrotecnia distribution boundary is respected (drill, not concept).",
+      "The auxiliaries are restarted in priority order (main-engine services first) until propulsion is restored.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Prevención de la contaminación",
+    topic: "Operación del separador de 15 ppm y el Oil Record Book",
+    week: 7,
+    taskId: "mn-lma745-w07-bilge-oily-water-orb",
+    taskTitle: "Pump Bilges And Keep The Oil Record Book",
+    scenario: "The engine-room bilges must be pumped out without polluting the sea. The engineer asks the cadet to explain the bilge operation through the 15 ppm separator and the Oil Record Book.",
+    instructions: [
+      "Explain the operation: pump the oily bilge water through the oily water separator, which brings the oil content down to below 15 ppm before any discharge overboard, and the clean water is monitored; the separator's working was covered in Maquinaria Marítima Auxiliar (Semester V) and is used here — this is the bilge operation and its record.",
+      "Explain the 15 ppm alarm and the three-way valve: the oil content monitor alarms if the discharge exceeds 15 ppm and the valve returns the flow to the bilge or holding tank instead of overboard, so a discharge above the limit cannot go to sea.",
+      "State the record: every bilge operation, transfer and discharge is entered in the Oil Record Book, which is a legal MARPOL document, so what is done is written down and signed.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on pumping bilges: through the 15 ppm oily water separator (the Maquinaria Marítima Auxiliar separator as established), the 15 ppm alarm and three-way valve that stops an over-limit discharge, and the entry of every operation in the Oil Record Book as a legal MARPOL document.",
+    assessmentCriteria: [
+      "The bilge operation is correct (through the separator to below 15 ppm before discharge) with the Maquinaria Marítima Auxiliar boundary respected.",
+      "The 15 ppm alarm and three-way valve are correct (an over-limit discharge returned to the bilge or holding tank, not overboard).",
+      "The Oil Record Book is correctly described (every operation entered and signed, a legal MARPOL document).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Máquina principal",
+    topic: "Preparación para maniobra (standby) y el relevo de la guardia de máquinas",
+    week: 8,
+    taskId: "mn-lma745-w08-standby-and-handover",
+    taskTitle: "Prepare For Manoeuvre And Hand Over The Watch",
+    scenario: "As the closing task, the plant must be made ready for manoeuvring and the watch handed over. The engineer asks the cadet to explain the standby preparation and the watch handover.",
+    instructions: [
+      "Explain preparing the running plant for stand-by (manoeuvring): the pre-manoeuvre checks and tests — testing the telegraph and its communication with the bridge, testing the engine start on air, and testing the steering gear — so the engine can answer bridge orders immediately. Boundary: putting the main engine into service from cold was week 1; here it is bringing a plant that is already running to a manoeuvring stand-by.",
+      "Explain the readiness: the auxiliaries running, the fuel and cooling ready for rapid changes of load, and the engineers at their stations, so nothing has to be started during the manoeuvre.",
+      "Explain the watch handover: passing on the information that cannot be missing — the state of the machinery and any defects, the orders and standing orders in force, the alarms overridden or pending, and the work in progress — so the relieving engineer takes over with the full picture.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on standby and handover: the pre-manoeuvre checks (telegraph, air start, steering gear) so the engine answers the bridge immediately (distinct from the week 1 start from cold), the plant's readiness for rapid load changes, and the watch handover of the essential information (machinery state and defects, orders, alarms, work in progress).",
+    assessmentCriteria: [
+      "The stand-by preparation is correct (telegraph, air start, steering gear tests) with the week 1 start-from-cold boundary respected.",
+      "The readiness for manoeuvring is correct (auxiliaries running, ready for rapid load changes, engineers at their stations).",
+      "The watch handover covers the essential information (machinery state and defects, orders, alarms, work in progress).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Datos hidrostáticos",
+    topic: "Curvas hidrostáticas, desplazamiento por calado y TPC",
+    week: 5,
+    taskId: "mn-est748-w05-hydrostatics-tpc",
+    taskTitle: "Read Hydrostatics And Use TPC",
+    scenario: "The ship's hydrostatic curves turn a draught reading into displacement and other data. The engineer asks the cadet to explain reading the hydrostatics and using TPC.",
+    instructions: [
+      "Explain reading the hydrostatic curves or tables: from the mean draught you read the displacement, and the other hydrostatic data (the TPC, the centre of flotation, and so on) at that draught.",
+      "Explain TPC (tonnes per centimetre immersion): the mass that must be loaded or discharged to change the mean draught by one centimetre, found from the waterplane area and the water density, TPC = waterplane area x density / 100.",
+      "Work an example: a ship with a waterplane area of about 2000 square metres has a TPC of roughly 20.5 tonnes per centimetre in sea water (2000 x 1.025 / 100 = 20.5), so loading 205 tonnes sinks her about 10 centimetres; use the TPC to estimate the change of draught from a weight loaded.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on hydrostatics and TPC: reading displacement and data from the mean draught on the hydrostatic curves or tables, TPC as the mass to change the mean draught one centimetre (waterplane area x density / 100), and an example (a waterplane of about 2000 square metres gives TPC of about 20.5 t/cm in sea water, so 205 t sinks her about 10 cm).",
+    assessmentCriteria: [
+      "Reading the hydrostatics is correct (displacement and data from the mean draught).",
+      "TPC is correctly defined and calculated (mass to change the mean draught one cm; waterplane area x density / 100).",
+      "The worked example is correct (about 2000 square metres gives TPC about 20.5 t/cm in sea water; 205 t gives about 10 cm).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Determinación del KG",
+    topic: "La experiencia de estabilidad (inclining experiment)",
+    week: 6,
+    taskId: "mn-est748-w06-inclining-experiment",
+    taskTitle: "Explain The Inclining Experiment",
+    scenario: "The real KG of a ship is found by experiment, not just by calculation. The engineer asks the cadet to explain the inclining experiment and why it is done.",
+    instructions: [
+      "Explain why it is done: the calculated KG can differ from the real one because of the exact weights and their positions as built and fitted out, so the inclining experiment measures the ship's actual KG (and GM) in the lightship condition.",
+      "Explain the method: known weights are shifted transversely across the deck by a measured distance, and the resulting small angle of heel is measured with a pendulum (a plumb line) or an inclinometer, so the GM is found from the heeling moment and the angle.",
+      "Explain the conditions for accuracy: still water and no wind, the ship free (moorings slack), minimum free surface (tanks pressed up or empty), and the exact lightship weights known, so the result is not spoiled by other effects.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the inclining experiment: why it is done (measure the real KG and GM, which can differ from the calculated ones), the method (shift known weights transversely, measure the small heel with a pendulum or inclinometer, find GM from the moment and angle), and the conditions for accuracy (still water, ship free, minimum free surface, known lightship weights).",
+    assessmentCriteria: [
+      "The reason is correct (the real KG and GM can differ from the calculated ones; measured in the lightship condition).",
+      "The method is correct (known weights shifted transversely, heel measured with a pendulum or inclinometer, GM from the moment and angle).",
+      "The conditions for accuracy are correct (still water, ship free, minimum free surface, known lightship weights).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Corrección de escora",
+    topic: "Diagnóstico de una escora y su corrección por trasiego de lastre",
+    week: 7,
+    taskId: "mn-est748-w07-list-correction-ballast",
+    taskTitle: "Correct A List By Ballast Transfer",
+    scenario: "The ship has taken on a steady list and the engineer must correct it from the engine room. The engineer asks the cadet to identify the cause of the list and correct it by transferring ballast between tanks.",
+    instructions: [
+      "Distinguish a list from a heel: a list is a steady angle from an off-centre weight or an asymmetry, while a heel is a temporary angle from wind or a turn, so identify which it is before acting.",
+      "Find the cause of the list: an off-centre weight, unequal ballast or fuel in the port and starboard tanks, or a free surface pulling the ship to one side; check the tank soundings to locate the imbalance. Boundary: the theory of how a transverse weight shift causes heel was covered in Teoría del buque II; here it is the operation of finding and correcting a real list.",
+      "Correct it by ballast transfer: move ballast from the low side to the high side (or fill and empty the appropriate tanks) to bring the ship upright, in small steps while watching the angle, and avoid creating a large free surface while doing it.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on correcting a list: distinguishing a list (steady, off-centre weight or asymmetry) from a heel (temporary, wind or turn), finding the cause from the tank soundings, and correcting it by transferring ballast from the low side to the high side in small steps (watching the angle, avoiding a large free surface), distinct from the Teoría del buque II theory of transverse weight shift.",
+    assessmentCriteria: [
+      "A list is correctly distinguished from a heel (steady off-centre cause versus temporary).",
+      "The cause is found operationally (off-centre weight, unequal ballast or free surface, located by tank soundings) with the Teoría del buque II boundary respected.",
+      "The correction by ballast transfer is correct (low side to high side in small steps, watching the angle, avoiding a large free surface).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Criterios de estabilidad",
+    topic: "Los criterios de estabilidad del Código IS y el cuadernillo de estabilidad",
+    week: 8,
+    taskId: "mn-est748-w08-imo-stability-criteria",
+    taskTitle: "Check Stability Against The IMO Criteria",
+    scenario: "As the closing task, the ship's loading condition must meet the international stability criteria. The engineer asks the cadet to explain the IMO stability criteria and how the approved stability booklet is used.",
+    instructions: [
+      "Explain what the criteria check: the IMO Intact Stability (IS) Code sets minimum requirements that a loading condition must meet, expressed on the GZ curve (the righting-arm curve is a reference established in Teoría del buque II and in week 4, not re-derived here).",
+      "Name the kinds of criteria as concepts: a minimum area under the GZ curve up to a given angle (and between two angles), a minimum righting arm GZ at a stated angle, and a minimum initial GM; treat any figures as illustrative or typical (for example a minimum GM of the order of 0.15 m and a GZ of the order of 0.20 m at 30 degrees), since the exact values are in the Code and in the ship's approved booklet.",
+      "Explain the use of the stability booklet: for each loading condition (departure, arrival, and the various cargo and ballast states) the approved booklet gives the stability data and shows whether the criteria are met, so the officer loads to a condition that complies before sailing.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the IMO stability criteria: what they check on the GZ curve (the curve as established in Teoría del buque II and week 4), the kinds of criteria as concepts (minimum area under the curve, minimum GZ at an angle, minimum GM — figures illustrative or typical, exact values in the Code and booklet), and using the approved stability booklet to confirm each loading condition complies before sailing.",
+    assessmentCriteria: [
+      "The criteria are correctly placed on the GZ curve, with the curve referenced (Teoría del buque II, week 4) not re-derived.",
+      "The kinds of criteria are correct as concepts (area under the curve, GZ at an angle, minimum GM) and any figures are marked illustrative or typical, not asserted as exact normative values.",
+      "The use of the approved stability booklet for each loading condition is correct (load to a complying condition before sailing).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Alineación",
+    topic: "Alineación de ejes con reloj comparador (dial indicator)",
+    week: 5,
+    taskId: "mn-tal750-w05-shaft-alignment",
+    taskTitle: "Align Shafts With A Dial Indicator",
+    scenario: "Two shafts joined by a coupling must be aligned, or the coupling and bearings fail. The engineer asks the cadet to explain shaft alignment with a dial indicator.",
+    instructions: [
+      "Explain the two kinds of misalignment: parallel (offset) misalignment, where the two shaft axes are parallel but not in the same line, and angular misalignment, where the axes meet at an angle; both must be corrected.",
+      "Explain the measurement with a dial indicator: mount the dial indicator to read the rim and the face of the coupling, rotate the shafts together, and read the run-out, which shows the offset (rim) and the angular error (face).",
+      "Explain why alignment matters: a misaligned coupling forces the shafts every revolution, so it overheats and destroys the coupling, the bearings and the seals and causes vibration; correct the alignment by shimming and moving the machine until the readings are within tolerance. Boundary: installing the bearing itself was week 1; here it is aligning the shafts that run in them.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on shaft alignment: parallel (offset) versus angular misalignment, measuring the rim and face run-out with a dial indicator as the shafts are rotated, and why alignment matters (a misaligned coupling destroys the coupling, bearings and seals and causes vibration), corrected by shimming, distinct from the week 1 bearing installation.",
+    assessmentCriteria: [
+      "Parallel (offset) and angular misalignment are correctly distinguished.",
+      "The dial-indicator measurement is correct (rim and face read as the shafts are rotated, showing offset and angular error).",
+      "The importance is correct (misalignment destroys coupling, bearings and seals and causes vibration; corrected by shimming) with the week 1 bearing-installation boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Engranes",
+    topic: "Inspección en servicio de engranes: patrón de contacto, backlash y desgaste",
+    week: 6,
+    taskId: "mn-tal750-w06-gear-inspection",
+    taskTitle: "Inspect Gears For Wear In Service",
+    scenario: "A gear in service wears, and the inspection catches it before it fails. Building on the manufacture of spur gears in week 4, the engineer asks the cadet to explain inspecting gears in service.",
+    instructions: [
+      "Explain the contact pattern: marking the teeth (for example with engineer's blue) and running them to see where they touch, because the contact should be spread across the tooth face, so a pattern to one end or edge shows misalignment or a wrong mesh.",
+      "Explain backlash: the small play between the meshing teeth measured with a feeler gauge or a dial indicator; too little binds and overheats, while too much (from wear) is noisy and shock-loads the teeth, so it is kept within tolerance.",
+      "Explain the typical wear and damage to look for: normal wear of the tooth flank, pitting (small surface fatigue craters), and a broken or chipped tooth, deciding whether to continue, adjust or renew. Boundary: making the spur gear was week 4; here it is inspecting the gear in service.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on inspecting gears in service: the contact pattern (marked and spread across the face, not to one edge), backlash (the play measured, kept within tolerance — too little binds, too much shock-loads), and the typical wear and damage (flank wear, pitting, broken tooth), distinct from the week 4 manufacture of the spur gear.",
+    assessmentCriteria: [
+      "The contact pattern is correctly explained (marked, should be spread across the face; a pattern to one edge shows a problem).",
+      "Backlash is correct (the play measured, kept within tolerance; too little binds, too much shock-loads).",
+      "The typical wear and damage is correct (flank wear, pitting, broken tooth) with the week 4 manufacture boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Rectificado de válvulas",
+    topic: "El esmerilado (lapping) de válvulas y asientos",
+    week: 7,
+    taskId: "mn-tal750-w07-valve-lapping",
+    taskTitle: "Lap A Valve And Its Seat",
+    scenario: "A leaking valve is overhauled by lapping it to its seat. The engineer asks the cadet to explain the lapping (grinding) of a valve and its seat.",
+    instructions: [
+      "Explain the purpose: a valve that does not seal lets gas or liquid pass, so the valve and its seat are lapped to a matching, gas-tight contact.",
+      "Explain the lapping: apply grinding paste (a fine abrasive) between the valve face and the seat and work the valve against the seat (by hand or with a lapping tool) until a continuous, even matt band appears all the way round, then clean off every trace of paste.",
+      "Explain checking the seal: check the seat width and the contact band, test the tightness (for example a marking-blue check or a fluid test), and know when a valve is too worn or pitted to lap and must be re-faced or renewed. This is a valve overhaul, distinct from the pump maintenance and the mechanical seal of Taller IV (Semester V).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on lapping a valve: the purpose (a gas-tight valve-to-seat contact), the lapping with grinding paste worked to a continuous even band (then all paste cleaned off), and checking the seal (seat width and contact band, tightness test) and when a valve is too worn to lap, distinct from the Taller IV pump maintenance and mechanical seal.",
+    assessmentCriteria: [
+      "The purpose is correct (restore a gas-tight valve-to-seat contact).",
+      "The lapping is correct (grinding paste worked to a continuous even band, then all paste removed).",
+      "The seal check is correct (seat width and contact band, tightness test, when to re-face or renew) and distinct from the Taller IV pump maintenance.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Intercambiadores de calor",
+    topic: "Limpieza, prueba de fugas y taponado de intercambiadores",
+    week: 8,
+    taskId: "mn-tal750-w08-heat-exchanger-maintenance",
+    taskTitle: "Maintain A Heat Exchanger",
+    scenario: "As the closing task, a fouled heat exchanger must be cleaned and tested in the workshop. The engineer asks the cadet to explain the maintenance of a heat exchanger.",
+    instructions: [
+      "Explain cleaning the tubes: mechanical cleaning (brushing or water-jetting the tubes) and chemical cleaning (circulating a cleaning solution) to remove the scale and fouling that block the flow and reduce the heat transfer; the refrigeration cycle and the HT/LT engine cooling that these exchangers serve were covered in Maquinaria Marítima Auxiliar and Motores I (Semester V) and are the established background — here it is the workshop work on the equipment.",
+      "Explain the leak test: pressure-test the exchanger to find a leaking tube, because a pitted or cracked tube lets the two fluids mix (for example sea water into the fresh-water or the oil side), and the leaking tube is identified.",
+      "Explain plugging and re-tubing as the repair: a single leaking tube can be plugged at both ends to take it out of service as a temporary measure, while heavy tube loss needs re-tubing (renewing the tube bundle); note that plugging reduces the heat-transfer area a little.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on maintaining a heat exchanger: cleaning the tubes (mechanical and chemical) to remove scale and fouling (the Maquinaria Marítima Auxiliar refrigeration and Motores I HT/LT cooling as established background), the leak test to find a pitted tube that mixes the fluids, and plugging a single tube versus re-tubing for heavy loss (plugging reduces the heat-transfer area).",
+    assessmentCriteria: [
+      "The tube cleaning is correct (mechanical and chemical to remove scale and fouling) with the Semester V refrigeration and cooling background referenced, not re-taught.",
+      "The leak test is correct (pressure test to find a pitted or cracked tube that mixes the two fluids).",
+      "Plugging versus re-tubing is correct (plug a single tube temporarily, reducing the heat-transfer area; re-tube for heavy loss).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
 ];
