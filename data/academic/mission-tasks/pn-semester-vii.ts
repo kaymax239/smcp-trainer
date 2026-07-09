@@ -1161,4 +1161,584 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
     estimatedTime: "35 min",
     difficulty: "Standard"
   },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "ECDIS",
+    topic: "Configuración de seguridad y gestión de alarmas del ECDIS",
+    week: 5,
+    taskId: "pn-nav745-w05-ecdis-safety-settings",
+    taskTitle: "Set Up And Watch An ECDIS Safely",
+    scenario: "The bridge navigates on ECDIS, but the display is only as safe as its settings. The captain asks the cadet to explain the key safety settings and the danger of over-relying on the screen.",
+    instructions: [
+      "Explain the safety contour and the safety depth, and how the officer sets them to the ship's draught so ECDIS shades and warns of water too shallow to enter.",
+      "Explain the management of alarms and indications: setting them so real dangers are seen, and why silencing or ignoring nuisance alarms is dangerous.",
+      "Explain the risk of over-reliance on the display: ECDIS is a tool, not the lookout, so the officer keeps watching the real world and cross-checks the position by an independent means.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on safe ECDIS operation: the safety contour and safety depth set to the draught, alarm management, and the danger of over-relying on the screen instead of the lookout and an independent position check.",
+    assessmentCriteria: [
+      "The safety contour and safety depth are correctly explained and tied to the draught.",
+      "Alarm management is correct (set to reveal real dangers, not silence them).",
+      "The over-reliance risk is correct (ECDIS is a tool; keep the lookout and cross-check the position).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Responsabilidad del oficial de guardia",
+    topic: "Procedimientos del oficial de guardia en visibilidad reducida",
+    week: 6,
+    taskId: "pn-nav745-w06-restricted-visibility-watch",
+    taskTitle: "Keep The Watch In Restricted Visibility",
+    scenario: "Fog closes in and the officer of the watch must act before the master arrives. The captain asks the cadet to explain the watchkeeping procedures for restricted visibility.",
+    instructions: [
+      "State the immediate actions of the officer of the watch when visibility falls: inform the master, put the engines on stand-by (ready for manoeuvre), post extra lookouts, and switch on the navigation lights.",
+      "Explain safe speed as a decision of the watch (COLREGs Rule 6): the vessel must be able to stop or take action within the distance she can see, so speed is reduced for the conditions.",
+      "State the conduct in restricted visibility from the watchkeeping side (Rule 19): sound the correct fog signals and proceed with caution. Boundary: the radar plotting and the ARPA anti-collision calculation of a close-quarters situation were covered in Navegación III; here the concern is the officer's watchkeeping procedures, not the plot.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on keeping the watch in restricted visibility: the immediate actions (call the master, engines on stand-by, extra lookouts, lights on), safe speed as a Rule 6 decision, and Rule 19 conduct with fog signals, as watchkeeping procedures distinct from the Navegación III radar plotting and ARPA.",
+    assessmentCriteria: [
+      "The immediate actions are correct (inform the master, engines on stand-by, extra lookouts, navigation lights on).",
+      "Safe speed is correctly explained as a watch decision (Rule 6, able to stop within the visible distance).",
+      "Rule 19 conduct (fog signals, caution) is covered from the watchkeeping side, with the Navegación III radar-plotting/ARPA boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Navegación en aguas restringidas",
+    topic: "Resguardo bajo la quilla (UKC), squat y monitoreo del paso",
+    week: 7,
+    taskId: "pn-nav745-w07-restricted-waters-ukc-squat",
+    taskTitle: "Navigate Restricted Waters Safely",
+    scenario: "The vessel transits a shallow, narrow channel. The captain asks the cadet to explain under keel clearance, squat, and how the passage is monitored.",
+    instructions: [
+      "Explain under keel clearance (UKC): the water below the keel that must be kept as a margin, and how it is reduced in shallow water, by the state of the tide and by the ship's own squat.",
+      "Explain squat: as the vessel moves through shallow or confined water she sits deeper and changes trim, and squat increases with the square of the speed, so halving the speed cuts the squat to about a quarter, which is why reducing speed is the main way to reduce squat.",
+      "Explain the passage monitoring plan: parallel indexing, wheel-over points, clearing bearings and no-go areas, so the officer knows at every moment whether the ship is on the plan.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on restricted-waters navigation: under keel clearance and what reduces it (shallow water, tide, squat), squat and its increase with the square of the speed (halving the speed roughly quarters the squat), and the passage monitoring plan (parallel indexing, wheel-over points, clearing bearings, no-go areas).",
+    assessmentCriteria: [
+      "UKC is correctly explained as the margin below the keel and what reduces it.",
+      "Squat is correct (deeper sitting and trim change in confined water, increasing with the square of the speed so halving the speed roughly quarters it, reduced by slowing).",
+      "The passage monitoring plan is correct (parallel indexing, wheel-over points, clearing bearings, no-go areas).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Responsabilidad del oficial de guardia",
+    topic: "La guardia de fondeo: control de la posición y detección de garreo",
+    week: 8,
+    taskId: "pn-nav745-w08-anchor-watch",
+    taskTitle: "Keep A Safe Anchor Watch",
+    scenario: "At anchor the officer of the watch must make sure the ship is not dragging. As the closing task, the captain asks the cadet to explain the anchor watch.",
+    instructions: [
+      "Explain how the position is verified regularly: fixing it by bearings, radar range or GNSS and comparing it with the anchored position.",
+      "Explain the swing circle: the ship swings around her anchor within a circle of radius equal to the cable paid out plus her own length, and this circle must stay clear of dangers and other ships.",
+      "Explain how dragging is detected and what the officer does: the position moves outside the swing circle or the bearings open, so the officer calls the master and may need more cable, the engines, or to weigh and re-anchor. Reference: knowing when to call the master was covered in week 4; here it is applied to the anchor watch.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the anchor watch: verifying the position regularly, the swing circle (cable plus length, kept clear of dangers), and detecting dragging with the officer's actions (call the master, more cable, engines, re-anchor), applying the week 4 calling-the-master rule.",
+    assessmentCriteria: [
+      "Position verification is correct (regular fixes compared with the anchored position).",
+      "The swing circle is correct (radius = cable paid out plus the ship's length, kept clear of dangers).",
+      "Dragging detection and actions are correct (position outside the circle or bearings opening; call the master, more cable/engines/re-anchor), referencing the week 4 rule.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Traslación de pesos",
+    topic: "Traslación vertical de pesos y efecto sobre KG y GM",
+    week: 5,
+    taskId: "pn-teb749-w05-vertical-weight-shift",
+    taskTitle: "Explain Vertical Weight Shift And GM",
+    scenario: "Moving weight up or down changes the ship's stability. The officer asks the cadet to explain how loading, discharging and shifting weight vertically affects KG and GM.",
+    instructions: [
+      "Explain that KG is the height of the centre of gravity and GM (the metacentric height) is KM minus KG, so a higher KG means a smaller GM and less stability.",
+      "Explain the effect of moving a weight up (KG rises, GM falls, the ship is more tender) and down (KG falls, GM rises, the ship is more stiff).",
+      "Explain loading a weight high versus low, and why heavy weights are stowed low to keep GM adequate.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on vertical weight shift: GM = KM - KG, moving weight up raises KG and lowers GM (tender), moving it down lowers KG and raises GM (stiff), and why heavy weights are stowed low.",
+    assessmentCriteria: [
+      "The KG/GM relationship is correct (GM = KM - KG; higher KG = smaller GM).",
+      "The effect of moving weight up or down is correct (tender vs stiff).",
+      "The stow-heavy-low reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Estabilidad a grandes ángulos",
+    topic: "La curva de brazos adrizantes GZ",
+    week: 6,
+    taskId: "pn-teb749-w06-gz-curve",
+    taskTitle: "Read The Statical Stability Curve",
+    scenario: "Initial GM does not tell the whole stability story at large angles. The officer asks the cadet to explain the statical stability (GZ) curve.",
+    instructions: [
+      "Explain the righting arm GZ and how the GZ curve plots it against the angle of heel, showing the ship's righting ability at every angle, not just the small angles the initial GM describes.",
+      "State what the curve shows: the maximum GZ and the angle at which it occurs, and the angle of vanishing stability where GZ returns to zero and beyond which the ship will capsize.",
+      "Explain how the initial GM relates to the curve: GM is the slope of the curve at the origin, so it describes only the small-angle behaviour, and a ship can have adequate GM yet a poor range of stability.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the statical stability curve: GZ plotted against heel, the maximum GZ and its angle, the angle of vanishing stability, and how the initial GM is only the slope at the origin (small angles) so it does not describe the whole curve.",
+    assessmentCriteria: [
+      "GZ and the GZ curve are correctly explained (righting arm versus heel angle).",
+      "The curve features are correct (maximum GZ and its angle, angle of vanishing stability).",
+      "The GM-as-initial-slope point is correct (GM describes only the small angles).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Traslación de pesos",
+    topic: "Traslación longitudinal de pesos y cambio de asiento",
+    week: 7,
+    taskId: "pn-teb749-w07-trim-longitudinal-shift",
+    taskTitle: "Explain Trim And Longitudinal Weight Shift",
+    scenario: "Moving weight forward or aft changes the ship's trim. The officer asks the cadet to explain trim and how a longitudinal weight shift changes it.",
+    instructions: [
+      "Explain trim as the difference between the forward and after draughts, and that a weight shifted longitudinally trims the ship about the centre of flotation.",
+      "Explain the moment to change trim one centimetre (MCTC) as the concept: the moment needed to change the trim by one centimetre, so a given longitudinal shift produces a predictable change of trim.",
+      "Explain why trim matters operationally: for propeller immersion, for steering and for keeping the required draughts, and why excessive trim is avoided.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on trim: trim as the difference of the forward and after draughts, a longitudinal weight shift trimming the ship about the centre of flotation, MCTC as the concept relating a shift to the change of trim, and why trim matters (propeller immersion, steering, draughts).",
+    assessmentCriteria: [
+      "Trim is correctly defined (difference of forward and after draughts) and the shift trims about the centre of flotation.",
+      "MCTC is correctly explained as a concept (moment to change trim one centimetre).",
+      "The operational importance of trim is sound (propeller immersion, steering, draughts).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Esfuerzos y estabilidad",
+    topic: "Efecto de superficie libre y la corrección del GM",
+    week: 8,
+    taskId: "pn-teb749-w08-free-surface-correction",
+    taskTitle: "Correct GM For Free Surface Effect",
+    scenario: "The mate is checking the ship's stability before sailing with several slack tanks left after a ballasting operation. The officer asks the cadet to explain the free surface effect and how the GM is corrected for it.",
+    instructions: [
+      "Explain the free surface effect: liquid in a slack (partly filled) tank moves as the ship rolls, and this shift acts like a virtual rise of G, reducing the effective GM.",
+      "Explain the free surface correction (FSC): the loss of GM depends on the free surface of the tank and grows with the cube of the tank's breadth (beam), so a wide slack tank is far worse than a narrow one.",
+      "State how the effect is reduced: press tanks up full or empty them, avoid many slack tanks at once, and subdivide a wide tank with a longitudinal bulkhead; because the effect grows with the cube of the breadth, halving the breadth with one bulkhead cuts the free surface effect to about a quarter. Apply this to the several slack tanks left after the ballasting operation, correcting the GM before sailing.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the free surface effect and its correction: liquid in a slack tank acting as a virtual rise of G that reduces GM, the free surface correction growing with the cube of the tank's breadth, and the measures (press up or empty tanks, avoid many slack tanks, subdivide wide tanks so halving the breadth cuts the effect to about a quarter), applied to the slack tanks left after a ballasting operation.",
+    assessmentCriteria: [
+      "The free surface effect is correct (liquid shift acts as a virtual rise of G, reducing effective GM).",
+      "The free surface correction's dependence on the cube of the tank's breadth is correct (a wide slack tank is much worse; subdividing to halve the breadth cuts the effect to about a quarter).",
+      "The reduction measures are valid (press up or empty, avoid many slack tanks, subdivide with a longitudinal bulkhead) and applied to the slack tanks after ballasting.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Planificación de la estiba",
+    topic: "Factor de estiba y broken stowage",
+    week: 5,
+    taskId: "pn-cye748-w05-stowage-plan-stowage-factor",
+    taskTitle: "Plan Stowage Using Stowage Factor",
+    scenario: "A cargo must be planned into the holds before loading. The officer asks the cadet to explain the stowage factor and broken stowage in planning a stowage.",
+    instructions: [
+      "Explain the stowage factor: the volume that one tonne of a cargo occupies, so a high stowage factor cargo is bulky (light) and a low one is dense (heavy), and it tells how much cargo fits in a given hold volume.",
+      "Explain broken stowage: the space lost between and around the cargo that cannot be filled, greater for irregular or large units, and how it reduces the cargo actually loaded.",
+      "Explain how the plan balances the ship: distributing cargo so no hold is overloaded and the ship keeps good trim and stability, using the stowage factor to estimate what fits.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on planning stowage: the stowage factor (volume per tonne, high = bulky/light, low = dense/heavy), broken stowage (space lost around the cargo), and how the plan uses them to fit and balance the cargo.",
+    assessmentCriteria: [
+      "The stowage factor is correct (volume per tonne; high = bulky, low = dense).",
+      "Broken stowage is correct (unusable space around the cargo, reducing what is loaded).",
+      "The plan balances the ship (distribution for load, trim and stability).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Ventilación de la carga",
+    topic: "Punto de rocío y sudor de carga vs sudor del buque",
+    week: 6,
+    taskId: "pn-cye748-w06-cargo-ventilation",
+    taskTitle: "Decide When To Ventilate The Holds",
+    scenario: "Sweat can damage cargo in the holds. The officer asks the cadet to explain hold ventilation using the dew point, and the rule for when to ventilate.",
+    instructions: [
+      "Explain the dew point as the temperature at which the air is saturated and water begins to condense, so comparing dew points tells whether sweat will form.",
+      "Distinguish cargo sweat (condensation on cold cargo when warmer, moister outside air is let in) from ship sweat (condensation on the cold steel of the ship when the cargo is warm and moist).",
+      "State the rule for when to ventilate: ventilate when the outside air dew point is lower than the dew point of the air in the hold, and do not ventilate when it is higher, because letting in more humid air would cause sweat.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on hold ventilation: the dew point, cargo sweat versus ship sweat, and the rule to ventilate only when the outside dew point is lower than the hold's (not when higher, which would cause sweat).",
+    assessmentCriteria: [
+      "The dew point is correctly explained (saturation temperature where water condenses).",
+      "Cargo sweat and ship sweat are correctly distinguished.",
+      "The ventilation rule is correct (ventilate when the outside dew point is lower than the hold's; not when higher).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Cargas peligrosas",
+    topic: "Segregación de mercancías peligrosas (IMDG)",
+    week: 7,
+    taskId: "pn-cye748-w07-imdg-segregation",
+    taskTitle: "Segregate Dangerous Goods By IMDG",
+    scenario: "Dangerous goods that react together must be kept apart. The officer asks the cadet to carry out the segregation of dangerous goods under the IMDG Code.",
+    instructions: [
+      "Explain why incompatible dangerous goods are segregated: goods of certain classes react dangerously together (for example an acid with a cyanide, or an oxidizer with a flammable), so they are kept apart; the classification of the goods was covered in week 4 and is used here as established, not re-explained.",
+      "State the segregation terms as the operation, in increasing distance: 'away from', 'separated from', 'separated by a complete compartment or hold from', and 'separated longitudinally by an intervening complete compartment or hold from'.",
+      "Explain how the segregation table and the stowage plan are used together to place each consignment at the required separation, on deck or under deck.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on segregating dangerous goods under IMDG: why incompatible classes are kept apart (using the week 4 classification as established), the four segregation terms in increasing distance, and using the segregation table with the stowage plan to place each consignment.",
+    assessmentCriteria: [
+      "The reason for segregation is correct (incompatible classes react) and the week 4 classification is referenced, not re-taught.",
+      "The segregation terms are correct and in increasing order (away from / separated from / by a complete compartment / longitudinally by an intervening compartment).",
+      "The use of the segregation table with the stowage plan is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Cálculo de carga",
+    topic: "Escala de peso muerto, calados y carga máxima",
+    week: 8,
+    taskId: "pn-cye748-w08-deadweight-cargo-calculation",
+    taskTitle: "Calculate The Maximum Cargo To Load",
+    scenario: "As the closing task, the officer must work out how much cargo the ship can load. The captain asks the cadet to calculate the maximum cargo using the deadweight scale and the draughts.",
+    instructions: [
+      "Explain deadweight (DWT) as the total weight the ship can carry (cargo, fuel, water, stores) and how the deadweight scale relates the draught to displacement and deadweight.",
+      "Explain how the maximum cargo is found: the deadweight available for cargo is the total deadweight at the permitted draught minus the fuel, water and stores on board, so the cargo is what remains.",
+      "State the limits that govern the permitted draught: the load line for the zone and season (so the ship is not overloaded) and the density of the water (a ship loads to a deeper draught in fresh water); integrate the subject, since the cargo must also fit (stowage factor and broken stowage from week 5) and be stowed for stability and trim.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English calculating the maximum cargo: deadweight and the deadweight scale (draught to displacement), the cargo deadweight as total deadweight minus fuel/water/stores, the limits on the permitted draught (load line for zone/season, water density), and the check that the cargo fits and stows for stability and trim.",
+    assessmentCriteria: [
+      "Deadweight and the deadweight scale are correctly explained (draught to displacement and deadweight).",
+      "The maximum cargo is correctly found (deadweight for cargo = total deadweight minus fuel, water and stores).",
+      "The permitted-draught limits are correct (load line for zone/season, water density) and the subject is integrated (the cargo must fit and stow for stability and trim).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio SOLAS",
+    topic: "Estructura del Convenio SOLAS y capítulos clave",
+    week: 5,
+    taskId: "pn-omi750-w05-solas-structure",
+    taskTitle: "Explain The Structure Of SOLAS",
+    scenario: "SOLAS is the most important safety convention. The officer asks the cadet to explain what SOLAS is and its key chapters for the watch officer.",
+    instructions: [
+      "Explain what SOLAS (the International Convention for the Safety of Life at Sea) sets: minimum standards for the construction, equipment and operation of ships for the safety of life.",
+      "Name key chapters the officer meets: construction and subdivision, fire protection, life-saving appliances, radiocommunications (GMDSS), and safety of navigation.",
+      "Explain the role of certificates and surveys: a ship must hold valid SOLAS certificates, verified by survey, and port State control checks them.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on SOLAS: what it sets (construction, equipment, operation for the safety of life), key chapters (subdivision, fire, life-saving, radio/GMDSS, safety of navigation), and the role of certificates, surveys and port State control.",
+    assessmentCriteria: [
+      "The purpose of SOLAS is correct (safety of life: construction, equipment, operation).",
+      "Key chapters are correctly named (e.g. life-saving, fire, safety of navigation, GMDSS).",
+      "The certificate, survey and port State control role is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio MARPOL",
+    topic: "Estructura de anexos de MARPOL",
+    week: 6,
+    taskId: "pn-omi750-w06-marpol-annexes",
+    taskTitle: "Explain The Structure Of MARPOL",
+    scenario: "MARPOL is the convention against pollution from ships. The officer asks the cadet to explain MARPOL as a regulatory framework of annexes.",
+    instructions: [
+      "Explain MARPOL (the International Convention for the Prevention of Pollution from Ships) as the framework that regulates pollution, organised into annexes, each covering a type of pollutant.",
+      "Name the annexes by their subject: Annex I oil, Annex II noxious liquid substances in bulk, Annex III harmful substances in packaged form, Annex IV sewage, Annex V garbage, and Annex VI air pollution.",
+      "Explain the framework role, referencing the chemistry as established: the chemistry of oil, SOx and NOx pollution was covered in Química (week 8), so here the concern is the regulatory framework (discharge limits, special areas and the required records), not the chemistry; note that ballast water is controlled by its own Ballast Water Management Convention (week 2), not by MARPOL.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on MARPOL: the anti-pollution framework organised into annexes (I oil, II noxious liquids, III packaged harmful, IV sewage, V garbage, VI air), with the pollution chemistry referenced from Química week 8 as established (the framework, not the chemistry), and ballast water noted as its own convention (week 2), not MARPOL.",
+    assessmentCriteria: [
+      "MARPOL is correctly explained as the anti-pollution framework organised in annexes.",
+      "The annexes are correctly matched to their pollutant (oil, noxious liquids, packaged harmful, sewage, garbage, air).",
+      "The chemistry is referenced (Química week 8) not re-taught, and ballast water is correctly placed under its own convention (week 2), not MARPOL.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio de Líneas de Carga",
+    topic: "Francobordo, marca de línea de carga y zonas",
+    week: 7,
+    taskId: "pn-omi750-w07-load-line-convention",
+    taskTitle: "Explain The Load Line Convention",
+    scenario: "The load line on the ship's side marks how deep she may load. The officer asks the cadet to explain the Load Line Convention of 1966.",
+    instructions: [
+      "Explain freeboard: the distance from the waterline to the freeboard deck, the reserve buoyancy that keeps the ship safe, so a minimum freeboard means a maximum permitted draught.",
+      "Explain the load line mark (the Plimsoll mark) and the seasonal marks (S, W, T, F and so on) for summer, winter, tropical and fresh water, so the permitted draught changes with the zone and the season.",
+      "Explain the purpose: the convention prevents overloading by setting the maximum draught for the conditions, and the marks are assigned by survey and enforced by port State control.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the Load Line Convention: freeboard as reserve buoyancy (minimum freeboard = maximum draught), the load line mark and the seasonal marks (S/W/T/F) changing with zone and season, and the purpose of preventing overloading, assigned by survey and enforced by port State control.",
+    assessmentCriteria: [
+      "Freeboard is correctly explained as reserve buoyancy (minimum freeboard = maximum draught).",
+      "The load line mark and the seasonal marks are correct (S/W/T/F changing with zone and season).",
+      "The anti-overloading purpose and the survey and port State control enforcement are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio de Trabajo Marítimo",
+    topic: "MLC 2006: condiciones de trabajo y vida de la gente de mar",
+    week: 8,
+    taskId: "pn-omi750-w08-mlc-2006",
+    taskTitle: "Explain The Maritime Labour Convention",
+    scenario: "The MLC protects the rights of seafarers. As the closing task, the officer asks the cadet to explain the Maritime Labour Convention 2006.",
+    instructions: [
+      "Explain what the MLC 2006 sets: minimum standards for seafarers' conditions of work and life, so often called the 'fourth pillar' alongside SOLAS, MARPOL and STCW.",
+      "Name key areas it covers: minimum age, a seafarer employment agreement, hours of work and rest, wages, accommodation and food, medical care, and repatriation.",
+      "Explain enforcement: ships carry a Maritime Labour Certificate and a Declaration of Maritime Labour Compliance, checked by port State control, and seafarers may make a complaint.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the MLC 2006: minimum standards for seafarers' work and life (the fourth pillar), key areas (minimum age, employment agreement, hours of rest, wages, accommodation, food, medical care, repatriation), and enforcement (Maritime Labour Certificate, DMLC, port State control, complaint procedure).",
+    assessmentCriteria: [
+      "The purpose of the MLC is correct (seafarers' conditions of work and life; the fourth pillar).",
+      "Key areas are correctly named (e.g. hours of rest, wages, accommodation, medical care, repatriation).",
+      "Enforcement is correct (Maritime Labour Certificate, DMLC, port State control).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Gestión de la evacuación",
+    topic: "Control del flujo en las rutas de escape",
+    week: 5,
+    taskId: "pn-sem751-w05-zone-evacuation-flow",
+    taskTitle: "Control Evacuation Flow By Zones",
+    scenario: "In an evacuation the passengers must be moved along the escape routes without jams. The officer asks the cadet to explain how the flow is controlled by zones.",
+    instructions: [
+      "Explain dividing the ship into zones and moving passengers zone by zone along the marked escape routes towards the muster stations, so the flow is steady and controlled.",
+      "Explain preventing bottlenecks: crew posted at stairways, doors and junctions keep the crowd moving, prevent crushing at pinch points, and keep the escape routes clear.",
+      "Explain one-way flow and signage: guiding passengers in one direction along the low-location lighting and the signs so counter-flow and confusion are avoided.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on zone evacuation flow: moving passengers zone by zone along marked escape routes to the muster stations, preventing bottlenecks (crew at stairways, doors and junctions, routes clear), and one-way flow guided by lighting and signs.",
+    assessmentCriteria: [
+      "Zone-by-zone movement along the escape routes to the muster stations is correct.",
+      "Bottleneck prevention is correct (crew at pinch points, the crowd kept moving, routes clear).",
+      "One-way flow and signage/lighting are correctly used.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Asistencia a los pasajeros",
+    topic: "Pasajeros con necesidades especiales en la emergencia",
+    week: 6,
+    taskId: "pn-sem751-w06-special-needs-passengers",
+    taskTitle: "Assist Passengers With Special Needs",
+    scenario: "Some passengers cannot evacuate unaided. The officer asks the cadet to explain how passengers with special needs are assisted in an emergency.",
+    instructions: [
+      "Identify the passengers who need extra help: those with reduced mobility (wheelchair users, the elderly), children and unaccompanied minors, and passengers who do not speak the language or cannot hear the announcements.",
+      "Explain the assistance: assign crew to help them early (not last), use the accessible routes and equipment, and never leave a person who cannot move on their own.",
+      "Explain planning ahead: identifying passengers who need assistance at embarkation where possible, so help is ready rather than improvised in the emergency.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on assisting passengers with special needs: identifying them (reduced mobility, children, language or hearing), assigning crew to help early on accessible routes, never leaving someone who cannot move, and planning ahead from embarkation.",
+    assessmentCriteria: [
+      "The passengers needing help are correctly identified (reduced mobility, children, language or hearing).",
+      "The assistance is correct (crew assigned early, accessible routes, no one left behind).",
+      "Planning ahead from embarkation is included.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "El tripulante en el control de multitudes",
+    topic: "Órdenes claras, conteo y reporte al puesto de reunión",
+    week: 7,
+    taskId: "pn-sem751-w07-crew-group-leader",
+    taskTitle: "Lead A Passenger Group As Crew",
+    scenario: "Each crew member may have to lead a group of passengers to a muster station. The officer asks the cadet to explain the duties of the crew group leader.",
+    instructions: [
+      "Explain giving clear, simple orders to the group: short instructions in a calm, firm voice, repeated as needed, so frightened passengers understand and follow.",
+      "Explain counting and keeping the group together: counting the passengers, moving at the pace of the slowest, and checking that no one is left behind or wandering off.",
+      "Explain reporting at the muster station: reporting the number of passengers brought and any missing or injured to the person in charge, so the muster is accurate.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the crew group leader's duties: clear simple orders in a calm firm voice, counting and keeping the group together at the slowest pace, and reporting the numbers (and any missing or injured) at the muster station.",
+    assessmentCriteria: [
+      "Giving clear simple orders in a calm firm voice is covered.",
+      "Counting and keeping the group together (the slowest pace, no one left) is correct.",
+      "Reporting the numbers and any missing or injured at the muster station is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Ejercicio integrado",
+    topic: "El ejercicio de abandono con pasaje",
+    week: 8,
+    taskId: "pn-sem751-w08-integrated-abandonment-drill",
+    taskTitle: "Run An Abandonment Drill With Passengers",
+    scenario: "As the closing task, the officer must run a full abandonment drill with passengers aboard. The captain asks the cadet to describe the integrated drill, drawing together the whole subject.",
+    instructions: [
+      "Describe the sequence: the alarm and announcement, passengers directed to the muster stations by zone, the muster and the count, donning lifejackets, and the briefing at the survival craft.",
+      "Integrate the subject: managing the first reaction and panic (weeks 1-2), assisting at the muster stations and passengers with special needs (weeks 3 and 6), controlling the flow by zones (week 5), and the crew group leaders counting and reporting (week 7).",
+      "Use communication with passengers without re-teaching it: clear, reassuring information keeps the crowd calm; this was covered as its own topic in week 4 and in the RoRo passenger-ship familiarization, and here it is used as one element of the integrated drill, not taught again.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English running an integrated abandonment drill with passengers: the sequence (alarm/announcement, muster by zone, count, lifejackets, survival-craft briefing), integrating the first-reaction and panic management, the muster assistance and special-needs help, the zone flow control and the crew group leaders' counting and reporting, with passenger communication used (not re-taught) as one element.",
+    assessmentCriteria: [
+      "The drill sequence is correct (alarm/announcement, muster by zone, count, lifejackets, survival-craft briefing).",
+      "The subject is integrated (first reaction and panic, muster assistance and special needs, zone flow, crew group leaders' count and report).",
+      "Passenger communication is used as one element and referenced (week 4 and the RoRo familiarization), not re-taught.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
 ];
