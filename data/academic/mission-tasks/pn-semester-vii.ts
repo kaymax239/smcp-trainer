@@ -1741,4 +1741,584 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
     estimatedTime: "45 min",
     difficulty: "Advanced"
   },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Oraciones condicionales",
+    topic: "Condicionales en procedimientos y contingencias operativas",
+    week: 5,
+    taskId: "pn-ing746-w05-conditionals-procedures",
+    taskTitle: "Use Conditionals For Procedures And Contingencies",
+    scenario: "Procedures and contingency plans are written as conditions and actions. The officer asks the cadet to use conditional sentences to state what to do if something happens on board.",
+    instructions: [
+      "Use the first conditional for real operational contingencies (if + present, will or imperative): 'if the general alarm sounds, proceed to your muster station', 'if the weather deteriorates, the master will be called'.",
+      "Use the zero conditional for standing rules and facts that are always true (if + present, present): 'if the oil pressure drops, the alarm activates', 'if a valve is closed, the flow stops'.",
+      "Explain the difference in use: the zero conditional states a rule or a fact that always holds, while the first conditional states a likely future situation and its action; note that this is a different structure from the modal verbs of week 4, which state duty rather than a condition.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English using conditionals for procedures and contingencies: the first conditional for real contingencies (if the alarm sounds..., if the weather deteriorates...), the zero conditional for standing rules and facts, and the difference between them, distinct from the modal verbs of week 4.",
+    assessmentCriteria: [
+      "The first conditional is correctly used for operational contingencies (if + present, will or imperative).",
+      "The zero conditional is correctly used for standing rules and facts (if + present, present).",
+      "The difference in use is correct (fact or rule versus likely future action) and distinct from the week 4 modals.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Cohesión en el texto",
+    topic: "Conectores de cohesión en el reporte escrito",
+    week: 6,
+    taskId: "pn-ing746-w06-cohesion-connectors",
+    taskTitle: "Link A Written Report With Connectors",
+    scenario: "A report that jumps between facts is hard to read. The officer asks the cadet to link a written report with cohesive connectors so it flows.",
+    instructions: [
+      "Explain the main connectors by their function: 'however' (contrast), 'therefore' and 'as a result' (consequence), 'in addition' and 'moreover' (adding), and 'firstly / then / finally' (sequence).",
+      "Show each in a short sentence from a report: 'the pump was tested; however, the pressure was low', 'the valve was leaking; therefore, it was isolated'.",
+      "Explain how connectors make a report flow: they show the reader the relationship between the facts (cause, contrast, sequence) instead of leaving a list of disconnected statements.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English linking a written report with connectors: the main connectors by function (however = contrast, therefore / as a result = consequence, in addition / moreover = adding, firstly / then / finally = sequence), each in a report sentence, and how they make the report flow.",
+    assessmentCriteria: [
+      "The connectors are correctly grouped by function (contrast, consequence, adding, sequence).",
+      "Each is correctly used in a report sentence.",
+      "The role of connectors in making a report flow (showing the relationships) is explained.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "El ámbito laboral",
+    topic: "El CV marítimo y la entrevista de trabajo",
+    week: 7,
+    taskId: "pn-ing746-w07-maritime-cv-interview",
+    taskTitle: "Write A Maritime CV And Face The Interview",
+    scenario: "Getting the job starts with the CV and the interview. The officer asks the cadet to prepare a maritime CV and answer interview questions in English, building on the work collocations of week 3.",
+    instructions: [
+      "Set out the sections of a maritime CV: personal details, certificates of competency and STCW courses, sea service (ship types, ranks, dates), and skills, using the work collocations from week 3 (make fast, keep a watch, carry out maintenance).",
+      "Prepare answers to common interview questions: 'why do you want to work for this company', 'describe your sea experience', 'tell me about a time you handled an emergency', keeping the answers concrete and honest.",
+      "State the register of the interview: professional and clear, giving concrete examples rather than vague claims, because a specific answer is believed and a vague one is not.",
+      "Report your CV outline and sample answers in clear maritime English."
+    ],
+    deliverable: "A note in English preparing a maritime CV and interview: the CV sections (personal details, certificates and STCW, sea service by ship type / rank / date, skills using the week 3 collocations), answers to common interview questions, and the professional register of concrete examples over vague claims.",
+    assessmentCriteria: [
+      "The CV sections are correct (personal details, certificates and STCW, sea service, skills) and use the week 3 collocations.",
+      "The interview answers are relevant and concrete.",
+      "The professional register (specific examples over vague claims) is applied.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Discurso profesional",
+    topic: "La presentación técnica oral y la señalización discursiva",
+    week: 8,
+    taskId: "pn-ing746-w08-technical-presentation",
+    taskTitle: "Give A Technical Presentation In English",
+    scenario: "As the closing task, the officer must present a technical topic to the team. The officer asks the cadet to deliver a short technical presentation using clear discourse signposting.",
+    instructions: [
+      "Structure the presentation: an introduction that states the topic and the plan, a body in ordered parts, and a conclusion that summarises.",
+      "Use discourse signposting so the audience can follow: 'firstly / secondly', 'moving on to', 'in other words', and 'to summarise / to conclude', signalling each move.",
+      "Explain the delivery: clear and concise, at a steady pace, and inviting questions at the end; note that this is a technical presentation to inform, distinct from the operational bridge briefing and debriefing of Maritime English V, which give and review orders.",
+      "Report the presentation outline in clear maritime English."
+    ],
+    deliverable: "A note in English delivering a technical presentation: the structure (introduction with topic and plan, ordered body, summarising conclusion), the discourse signposting (firstly, moving on to, to summarise), and clear steady delivery inviting questions, distinct from the operational briefing and debriefing of Maritime English V.",
+    assessmentCriteria: [
+      "The presentation is well structured (introduction, ordered body, summarising conclusion).",
+      "Discourse signposting is correctly used (firstly, moving on to, to summarise).",
+      "The delivery advice is sound and the boundary with the Maritime English V operational briefing and debriefing is respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Auxilio de personas en peligro en el agua",
+    topic: "La faena de hombre al agua: alarma, marcado y bote de rescate",
+    week: 5,
+    taskId: "pn-pmr752-w05-man-overboard-operation",
+    taskTitle: "Run The Man-Overboard Deck Operation",
+    scenario: "A crew member falls overboard and the whole deck must react. The officer asks the cadet to run the man-overboard deck operation, from the alarm to the recovery.",
+    instructions: [
+      "State the immediate actions on deck: shout 'man overboard', throw a lifebuoy with a light and smoke marker to mark the position and give the person buoyancy, and post a person to point continuously at the casualty so they are not lost from sight.",
+      "Describe launching and handling the rescue boat: the crew mustered, the boat lowered and driven to the casualty, and the approach made from downwind or down-current so the boat drifts onto the person, not over them. Boundary: the safe approach to the victim in the water was covered in week 1; here the concern is the full deck operation and the boat.",
+      "Describe the recovery: getting the person aboard the rescue boat or to the recovery point, treating them for cold and shock, and reporting to the bridge. Boundary: swimming out to a casualty was the last-resort method taught in Physical Education; here the boat is used.",
+      "Report the man-overboard operation in clear maritime English."
+    ],
+    deliverable: "A note in English running the man-overboard deck operation: the immediate actions (shout, mark with a lifebuoy / light / smoke, point continuously), launching and driving the rescue boat with a downwind or down-current approach, and the recovery and report, distinct from the week 1 approach to the victim and the Physical Education swim rescue.",
+    assessmentCriteria: [
+      "The immediate actions are correct (shout man overboard, mark with lifebuoy / light / smoke, continuous pointer).",
+      "The rescue boat handling is correct (mustered, lowered, downwind or down-current approach) with the week 1 boundary respected.",
+      "The recovery and report are correct (person aboard, treat for cold and shock, report to the bridge), distinct from the Physical Education swim rescue.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Equipos de cubierta",
+    topic: "Mantenimiento del molinete y el cabrestante",
+    week: 6,
+    taskId: "pn-pmr752-w06-windlass-capstan-maintenance",
+    taskTitle: "Maintain The Windlass And Capstan",
+    scenario: "The windlass and capstan must work when the anchor or the mooring lines are handled. The officer asks the cadet to explain the maintenance of the windlass and capstan.",
+    instructions: [
+      "Explain the greasing and lubrication: greasing the moving parts, the bearings and the gearing on a schedule, so the machinery runs freely and does not seize.",
+      "Explain inspecting the brake: the brake band and linings checked for wear and correct adjustment, because the brake holds the anchor cable and a worn brake can let it run out.",
+      "Explain checking the cable lifter (the wildcat or gypsy): that the cable seats correctly and that the whelps are not worn, so the cable is held and does not jump.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on maintaining the windlass and capstan: greasing and lubricating the moving parts, bearings and gearing on a schedule, inspecting the brake band and linings for wear and adjustment, and checking the cable lifter (wildcat) and whelps so the cable seats and holds.",
+    assessmentCriteria: [
+      "The greasing and lubrication of moving parts, bearings and gearing is correct.",
+      "The brake inspection is correct (band and linings for wear and adjustment; the brake holds the cable).",
+      "The cable-lifter and whelps check is correct (the cable seats and is held, does not jump).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Pertrechos y consumos",
+    topic: "Estiba, inventario y control de consumos del pañol",
+    week: 7,
+    taskId: "pn-pmr752-w07-bosun-store-management",
+    taskTitle: "Manage The Bosun's Store",
+    scenario: "The bosun's store holds the deck's ropes, paint and gear, and it must be kept in order. The officer asks the cadet to explain managing the bosun's store, building on the spares report of week 3.",
+    instructions: [
+      "Explain the stowage of the store: heavy items low and secured, paints and chemicals in their proper ventilated place away from ignition, and everything stowed so it is found and does not shift at sea.",
+      "Explain the inventory: keeping a list of what is held, so the officer knows the stock and can requisition before an item runs out, building on the spares report (partes de respeto) of week 3.",
+      "Explain the control of consumption: recording what is used and reordering in time, so a critical item (a mooring rope, a shackle) is never missing when it is needed.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on managing the bosun's store: safe stowage (heavy low and secured, paints and chemicals ventilated away from ignition, nothing shifting), the inventory building on the week 3 spares report, and the control of consumption (record use, reorder in time so a critical item is never missing).",
+    assessmentCriteria: [
+      "The stowage is correct (heavy low and secured, paints and chemicals ventilated away from ignition, nothing shifting).",
+      "The inventory is correct and builds on the week 3 spares report.",
+      "The control of consumption is correct (record use, reorder in time).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Faena de puerto",
+    topic: "La faena integrada de zarpe desde la estación de amarre",
+    week: 8,
+    taskId: "pn-pmr752-w08-integrated-departure-operation",
+    taskTitle: "Run The Integrated Departure Operation",
+    scenario: "As the closing task, the deck must let the ship go from the berth. The officer asks the cadet to run the integrated departure operation from the mooring station, the reverse of the arrival.",
+    instructions: [
+      "State the preparation: the station manned, the lines ready to let go, and communication with the bridge established, so the deck acts on the bridge's orders.",
+      "Run the departure sequence: single up to the last lines on the master's order, then let go and heave in each line in turn as ordered (the springs and breast lines coordinated with the bridge manoeuvre), keeping every line clear of the propeller.",
+      "Explain how this is the reverse of the arrival: the arrival made her fast to the berth (covered as the integrated arrival in Prácticas Marineras V); the departure is singling up, letting go and recovering the lines to set her free, so the two complete the port faena together without repeating each other.",
+      "Report the departure operation in clear maritime English."
+    ],
+    deliverable: "A note in English running the integrated departure: the preparation (station manned, lines ready, bridge communication), the sequence (single up on order, let go and heave in each line, springs and breast lines coordinated, lines clear of the propeller), and how it is the reverse of the Prácticas Marineras V integrated arrival.",
+    assessmentCriteria: [
+      "The preparation is correct (station manned, lines ready, bridge communication established).",
+      "The departure sequence is correct (single up on order, let go and heave in in turn, coordinated with the bridge, lines clear of the propeller).",
+      "It is correctly explained as the reverse of the Prácticas Marineras V integrated arrival, not a repeat.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Acondicionamiento integral",
+    topic: "El circuito de entrenamiento por estaciones a bordo",
+    week: 5,
+    taskId: "pn-c0011vii-w05-onboard-circuit-training",
+    taskTitle: "Build An Onboard Circuit Workout",
+    scenario: "Space and time are short at sea, and a circuit gets a lot done in a small area. The training officer asks the cadet to explain how to build a circuit that trains several capacities by stations.",
+    instructions: [
+      "Explain the idea of a circuit: a set of stations done one after another, each working a different capacity (a pushing station, a pulling station, a legs station, a core station), so strength and endurance are trained together in a small space.",
+      "Explain judging the effort by feel: keep each station at a moderate to firm effort read by how the body feels, and do not set a repetition target, a time record or any number to beat.",
+      "Explain rotating and resting: move from station to station with short easy recovery, and stop a station if the form breaks down, because a rushed repetition with poor form is where injury starts.",
+      "Report your circuit plan in clear English using correct fitness terms."
+    ],
+    deliverable: "A note in English building an onboard circuit: stations that each train a different capacity (push, pull, legs, core) in a small space, effort judged by feel with no repetition target or time record, and rotating with short recovery while stopping a station if the form breaks down.",
+    assessmentCriteria: [
+      "The circuit idea is correct (stations by capacity trained together in a small space).",
+      "Effort is judged by feel with no repetition target, time record or number to beat.",
+      "Rotation with recovery and stopping when the form breaks down are covered.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Movilidad y postura",
+    topic: "Movilidad, postura y pausas de movimiento en la guardia",
+    week: 6,
+    taskId: "pn-c0011vii-w06-mobility-posture-watch",
+    taskTitle: "Keep Mobility And Posture On Long Watches",
+    scenario: "A long watch in one position stiffens the body. The training officer asks the cadet to explain how mobility, posture and movement breaks keep the body well on watch.",
+    instructions: [
+      "Explain active stretching for the areas that stiffen on watch: the neck, shoulders, lower back and hips, moving gently through the range rather than forcing a position.",
+      "Explain posture on watch: standing and sitting with the load shared and the position changed often, so no one joint or muscle is held under strain for the whole watch.",
+      "Explain movement breaks: taking short breaks to move and reset when the watch allows, because a body kept still stiffens, and do not force a stretch to the point of pain or chase an extreme range.",
+      "Report your answer in clear English using correct fitness terms."
+    ],
+    deliverable: "A note in English on mobility and posture for long watches: active stretching for the neck, shoulders, back and hips (gently, not forced), posture with the load shared and the position changed often, and movement breaks to reset, without forcing a stretch to pain or chasing an extreme range.",
+    assessmentCriteria: [
+      "Active stretching for the watch-stiffened areas is correct (gentle, through the range, not forced).",
+      "Posture on watch is correct (load shared, position changed often, no joint held under strain).",
+      "Movement breaks are covered, with no forcing a stretch to pain or chasing an extreme range.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Natación",
+    topic: "Abandono simulado: salto, nado agrupado y conservación del calor",
+    week: 7,
+    taskId: "pn-c0011vii-w07-simulated-abandonment-swim",
+    taskTitle: "Practise A Simulated Abandonment Swim",
+    scenario: "Abandoning to the water is a last resort, and doing it well saves life. The instructor asks the cadet to practise the simulated self-abandonment: the entry, the grouped swim and keeping warm.",
+    instructions: [
+      "Explain the correct entry to the water: check that below is clear, step off with the feet together and one hand covering the nose and mouth and the other holding the lifejacket down, so the entry is controlled and the lifejacket does not ride up.",
+      "Explain swimming to the raft as a group: staying together and moving to the survival craft as one, because a group is seen more easily and helps each other, rather than swimming off alone.",
+      "Explain keeping warm in the water while waiting: adopt the heat-conserving posture (HELP) alone or huddle together in a group, and keep still to hold body heat, since moving about loses it. Boundary: general survival floating was week 3 and rescuing another person was Physical Education V; here it is the person's own abandonment.",
+      "Report your answer in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A brief in English on the simulated self-abandonment: the controlled entry (feet together, nose and mouth covered, lifejacket held down), the grouped swim to the survival craft, and keeping warm with the HELP posture or the huddle, distinct from the week 3 survival floating and the Physical Education V rescue of another person.",
+    assessmentCriteria: [
+      "The entry is correct (clear below, feet together, nose and mouth covered, lifejacket held down).",
+      "The grouped swim to the survival craft is correct (stay together, not alone).",
+      "Keeping warm is correct (HELP posture or huddle, keep still to hold heat) and the week 3 survival and Physical Education V rescue boundary is respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Liderazgo en la actividad física",
+    topic: "Dirigir el calentamiento, la sesión y el cierre del grupo",
+    week: 8,
+    taskId: "pn-c0011vii-w08-lead-group-session",
+    taskTitle: "Lead The Group's Physical Session",
+    scenario: "As the closing task, the cadet must lead a physical session for the group. The training officer asks the cadet to run a full session — warm-up, main part and cool-down — as the person in charge.",
+    instructions: [
+      "Lead the warm-up: raise the body gently and prepare the joints before the effort, explaining to the group why it is done so they take it seriously.",
+      "Lead the main part: give clear simple instructions, watch the group's form and effort, and adjust so everyone works at a level that suits them, without pushing anyone to an extreme or setting a competition to win.",
+      "Lead the cool-down and close: ease the body down, and check that no one is hurt or over-strained, because a leader is responsible for the group's wellbeing, not for a performance figure.",
+      "Report how you would lead the session in clear maritime English."
+    ],
+    deliverable: "A note in English leading a group physical session: leading the warm-up (and explaining why), the main part with clear instructions and the form watched (no one pushed to an extreme, no competition to win), and the cool-down and close checking that no one is hurt, as a leader responsible for wellbeing rather than a performance figure.",
+    assessmentCriteria: [
+      "The warm-up is led and its purpose explained to the group.",
+      "The main part is led with clear instructions and the form watched, with no one pushed to an extreme and no competition to win.",
+      "The cool-down and close check for injury or over-strain, treating the group's wellbeing (not a performance figure) as the responsibility.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Prevención de incendios y explosiones",
+    topic: "El sistema de gas inerte (IGS) en petroleros",
+    week: 5,
+    taskId: "pn-c0129-w05-inert-gas-system",
+    taskTitle: "Explain The Inert Gas System On A Tanker",
+    scenario: "On an oil tanker the cargo tanks are kept inert so the atmosphere cannot ignite. The officer asks the cadet to explain the purpose and the basic operation of the inert gas system.",
+    instructions: [
+      "Explain the purpose: inert gas (from the flue gas of the boiler or from an inert gas generator) lowers the oxygen in the cargo tank below the level that supports combustion, so the tank atmosphere is kept too lean in oxygen to ignite, outside the flammable range.",
+      "Explain the basic operation: the tanks are kept under a slight positive pressure of inert gas so air cannot enter, and inert gas is supplied during discharge (as the cargo leaves, inert gas fills the space) and when purging.",
+      "State the key safety points: the oxygen content is monitored to confirm it stays low, and the deck seal and non-return arrangements stop cargo gas coming back towards the machinery space.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the inert gas system: the purpose (lower the oxygen in the tank below what supports combustion, keeping the atmosphere outside the flammable range), the basic operation (positive pressure, supply during discharge and purging), and the safety points (oxygen monitored, deck seal and non-return).",
+    assessmentCriteria: [
+      "The purpose is correct (lowers oxygen below the level supporting combustion, tank kept outside the flammable range).",
+      "The basic operation is correct (positive pressure so air cannot enter, supply during discharge and purging).",
+      "The safety points are correct (oxygen monitored, deck seal and non-return arrangements).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de la carga",
+    topic: "El procedimiento operativo de medición de atmósferas en tanques",
+    week: 6,
+    taskId: "pn-c0129-w06-tank-atmosphere-measurement",
+    taskTitle: "Measure The Atmosphere In Cargo Tanks",
+    scenario: "Before work on a cargo tank the atmosphere must be measured correctly. The officer asks the cadet to carry out the tanker operational procedure for measuring the tank atmosphere.",
+    instructions: [
+      "State what is measured and with what: oxygen with an oxygen meter, flammable vapour (hydrocarbons) with the correct gas meter, and toxic gases where relevant, using calibrated instruments; the chemistry of these atmospheres was covered in Química (week 7) and is used here as established, not re-explained.",
+      "State the operational sequence and why: measure in the order oxygen first, then flammable, then toxic, and take readings at several levels and positions in the tank because the gases layer, so a single reading is not enough; this applies the measuring order established in Química (week 7) as the tanker procedure.",
+      "State the interpretation for the job: for an inerted tank the oxygen is kept low, but for entry or hot work the tank must be gas-freed and tested to a safe atmosphere, and the ship's procedure and the permit govern.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on measuring the cargo-tank atmosphere as a tanker operation: what and with what (oxygen, flammable, toxic on calibrated meters, the chemistry from Química week 7 used as established), the operational sequence (oxygen then flammable then toxic, readings at several levels and positions because the gases layer), and the interpretation for the job (low oxygen when inerted, gas-freed and safe for entry or hot work under the permit).",
+    assessmentCriteria: [
+      "What is measured and with what is correct (oxygen, flammable, toxic on calibrated meters) with the Química week 7 chemistry referenced, not re-taught.",
+      "The operational sequence is correct (oxygen then flammable then toxic, several levels and positions because the gases layer), applying the week 7 measuring order as established.",
+      "The interpretation for the job is correct (low oxygen when inerted; gas-freed and safe for entry or hot work under the permit).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de la carga",
+    topic: "El lavado con crudo (COW) y la electricidad estática",
+    week: 7,
+    taskId: "pn-c0129-w07-crude-oil-washing",
+    taskTitle: "Explain Crude Oil Washing And Its Precautions",
+    scenario: "On a crude oil tanker the tanks are washed with the cargo itself. The officer asks the cadet to explain crude oil washing (COW) and its precautions.",
+    instructions: [
+      "Explain the purpose of COW: washing the cargo tanks with jets of the crude oil during discharge dissolves and removes the clingage (the oil that sticks to the structure), so more cargo is delivered and less residue and slop remain.",
+      "Explain the environmental benefit: because the tanks are cleaned with the cargo, far less oily water is generated than washing with water, reducing pollution (with MARPOL as the framework, covered elsewhere, not re-taught here).",
+      "State the static electricity precaution: COW is done only in an inerted tank with the oxygen kept low, because the oil jets and mist can build up a static charge and, in an atmosphere with enough oxygen, a static spark could ignite it, so the inert gas condition of week 5 must be confirmed first.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on crude oil washing: the purpose (wash with the crude during discharge to remove clingage, deliver more cargo, less residue), the environmental benefit (less oily water than water washing), and the static electricity precaution (only in an inerted, low-oxygen tank, because the oil mist builds a static charge that could ignite otherwise), confirming the week 5 inert gas condition.",
+    assessmentCriteria: [
+      "The purpose of COW is correct (wash with the crude during discharge, remove clingage, more cargo, less residue).",
+      "The environmental benefit is correct (less oily water than water washing).",
+      "The static electricity precaution is correct (only in an inerted, low-oxygen tank because the oil mist builds a static charge that could ignite), linked to the week 5 inert gas condition.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de la carga",
+    topic: "La transferencia buque-terminal y el ship/shore safety checklist",
+    week: 8,
+    taskId: "pn-c0129-w08-ship-shore-transfer",
+    taskTitle: "Run A Safe Ship-Shore Transfer",
+    scenario: "As the closing task, the officer must transfer cargo safely between the ship and the terminal. The officer asks the cadet to explain the ship-shore transfer and the safety checklist.",
+    instructions: [
+      "Explain the ship/shore safety checklist: the ship and the terminal agree and check the safety items together before transfer (moorings tight, cargo hoses or arms connected and tested, communications agreed, the emergency stop understood, no naked lights, scuppers plugged and drip trays in place).",
+      "Explain the agreed transfer parameters: the maximum rate, the topping-off procedure near the end, and the signals to slow down and to stop, so both sides act together.",
+      "Explain the continuous watch during transfer: monitoring the pressure, watching for leaks and overflows, and keeping communication with the terminal, ready to stop immediately if anything goes wrong; integrate the subject, since the tank is kept inert (week 5), the atmosphere is known (week 6), and the operation is governed by the checklist and the ship's procedures.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the ship-shore transfer: the ship/shore safety checklist agreed and checked together (moorings, hoses or arms, communications, emergency stop, no naked lights, scuppers plugged), the agreed parameters (rate, topping off, slow and stop signals), and the continuous watch (pressure, leaks and overflows, communication, ready to stop), integrating the inert gas and atmosphere control of weeks 5 and 6.",
+    assessmentCriteria: [
+      "The ship/shore safety checklist is correct (moorings, hoses or arms, communications, emergency stop, no naked lights, scuppers plugged).",
+      "The agreed transfer parameters are correct (rate, topping off, slow and stop signals).",
+      "The continuous watch is correct (pressure, leaks and overflows, communication, ready to stop) and the subject is integrated (inert tank week 5, atmosphere week 6).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Seguridad de la carga rodada",
+    topic: "El trincado de vehículos contra el movimiento del buque",
+    week: 5,
+    taskId: "pn-c0131-w05-vehicle-lashing",
+    taskTitle: "Lash Vehicles On The Ro-Ro Deck",
+    scenario: "Vehicles that break loose on a ro-ro deck are a grave danger. The officer asks the cadet to explain how the rolling cargo is lashed against the ship's movement.",
+    instructions: [
+      "Explain why vehicles are lashed: the ship rolls, pitches and heaves, and an unsecured vehicle slides and topples, damaging others and endangering stability, so each is secured to the deck.",
+      "Explain the lashing: web or chain lashings from the vehicle's lashing points to the deck securing points (the elephant feet or cloverleaf sockets), tensioned, at angles that resist both fore-and-aft and athwartships movement.",
+      "Explain the checks: the number and strength of the lashings suit the weight of the vehicle and the expected weather, the handbrake is on and it is left in gear, and the lashings are checked and re-tensioned during the voyage, especially before heavy weather.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on lashing vehicles: why they are secured (the ship's motion slides and topples an unsecured vehicle, endangering others and stability), the lashings (web or chain from the vehicle to the deck sockets, tensioned, resisting fore-and-aft and athwartships), and the checks (lashings suit weight and weather, handbrake on and in gear, re-tensioned before heavy weather).",
+    assessmentCriteria: [
+      "The reason for lashing is correct (the ship's motion slides and topples an unsecured vehicle, danger to others and stability).",
+      "The lashing is correct (web or chain from the vehicle to the deck sockets, tensioned, resisting fore-and-aft and athwartships).",
+      "The checks are correct (lashings suit weight and weather, handbrake on and in gear, re-tensioned before heavy weather).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Operaciones de carga rodada",
+    topic: "Secuencia y seguridad de la carga y descarga por rampa",
+    week: 6,
+    taskId: "pn-c0131-w06-ramp-operations",
+    taskTitle: "Run Safe Ramp Operations",
+    scenario: "Loading and discharging a ro-ro ship is done over the ramps. The officer asks the cadet to explain the sequence and the safety of ramp operations.",
+    instructions: [
+      "Explain the loading sequence: vehicles driven aboard in a planned order that keeps the ship in trim and balanced as she loads, following the marshalling and the plan, not at random.",
+      "Explain the traffic control and safety: controlling the flow and speed of the vehicles, marshallers directing, pedestrians kept apart from the moving vehicles, and the ventilation managed for the exhaust. Boundary: the maintenance of the doors and ramps themselves was covered in week 1; here the concern is the loading and discharge operation over them.",
+      "Explain the checks before sailing: the ramps and doors closed and secured, the vehicles lashed (week 5), and the deck ready, before the ship goes to sea.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on ramp operations: the planned loading sequence keeping the ship in trim, the traffic control and safety (flow and speed, marshallers, pedestrians apart, exhaust ventilation), and the checks before sailing (ramps and doors closed and secured, vehicles lashed), distinct from the week 1 maintenance of the doors and ramps.",
+    assessmentCriteria: [
+      "The loading sequence is correct (planned order keeping the ship in trim, following the plan).",
+      "The traffic control and safety are correct (flow and speed, marshallers, pedestrians apart, exhaust ventilation) with the week 1 maintenance boundary respected.",
+      "The pre-sailing checks are correct (ramps and doors secured, vehicles lashed).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Emergencias en RoRo",
+    topic: "Particularidades del incendio en la cubierta de vehículos",
+    week: 7,
+    taskId: "pn-c0131-w07-vehicle-deck-fire",
+    taskTitle: "Face A Fire On The Vehicle Deck",
+    scenario: "A fire on the open vehicle deck spreads fast. The officer asks the cadet to explain the ro-ro particularities of a vehicle-deck fire: detection, containment and the danger of the open space.",
+    instructions: [
+      "Explain the danger of the continuous open deck: a ro-ro vehicle deck is one long open space with fuel in the vehicles, so a fire spreads quickly from vehicle to vehicle with little to stop it.",
+      "Explain the detection and the drencher system: the deck is covered by fire detection and by a drencher (deluge) system that sprays large amounts of water over the vehicles to cool and control the fire, and the officer knows how it is started.",
+      "Explain the containment: closing the ramps and doors and stopping the ventilation to limit the air to the fire, and accounting for people. Boundary: the actual firefighting techniques and teams are the fire-fighting subject; here the concern is the ro-ro particularities of detection, the drencher and the open-space danger.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on a vehicle-deck fire: the danger of the continuous open deck with vehicle fuel (fast spread), the detection and the drencher or deluge system cooling the vehicles, and the containment (close ramps and doors, stop ventilation, account for people), distinct from the fire-fighting subject's techniques and teams.",
+    assessmentCriteria: [
+      "The open-space danger is correct (one continuous deck with vehicle fuel, fast spread).",
+      "The detection and the drencher or deluge system are correctly explained (cool and control with water, the officer knows how it starts).",
+      "The containment is correct (close ramps and doors, stop ventilation, account for people) with the fire-fighting-subject boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Emergencias en RoRo",
+    topic: "Inundación de la cubierta de vehículos y la respuesta integrada",
+    week: 8,
+    taskId: "pn-c0131-w08-vehicle-deck-flooding",
+    taskTitle: "Respond To Vehicle-Deck Flooding",
+    scenario: "Water on the open vehicle deck of a ro-ro ship is one of the gravest dangers she faces. As the closing task, the officer asks the cadet to explain the danger and the integrated response to vehicle-deck flooding.",
+    instructions: [
+      "Explain why water on the vehicle deck is so dangerous: the deck is wide and open, so the water forms a large free surface that surges to the low side as the ship heels, and this free surface effect can capsize the ship rapidly (the free surface effect was covered in Teoría del buque II and is used here, not re-explained).",
+      "State the sources and detection: water from a bow or stern door leak, from the firefighting drencher, or from damage, detected by level alarms and by watching the deck, so it is caught early.",
+      "Explain the integrated response: stop the source if possible, drain the water overboard through the freeing ports and scuppers so it does not accumulate, reduce the heeling, and be ready to muster and evacuate the passengers if the ship's stability is threatened.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on vehicle-deck flooding: why it is so dangerous (a wide open deck gives a large free surface that surges to the low side and can capsize the ship, using the Teoría del buque II free surface effect as established), the sources and detection (door leak, drencher, damage; level alarms), and the integrated response (stop the source, drain through the freeing ports and scuppers, reduce the heeling, ready to evacuate).",
+    assessmentCriteria: [
+      "The danger is correctly explained (a wide open deck gives a large free surface surging to the low side, capsize risk) using the Teoría del buque II free surface effect as established, not re-taught.",
+      "The sources and detection are correct (door leak, drencher, damage; level alarms and watching).",
+      "The integrated response is correct (stop the source, drain through the freeing ports and scuppers, reduce the heeling, ready to muster and evacuate).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
 ];
