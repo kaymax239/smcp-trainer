@@ -1277,4 +1277,584 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
     estimatedTime: "35 min",
     difficulty: "Standard"
   },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Ciclos operativos",
+    topic: "2 tiempos",
+    week: 5,
+    taskId: "mn-mot529-w05-two-stroke-cycle",
+    taskTitle: "Explain The Two-Stroke Cycle",
+    scenario: "The ship's main engine is a slow-speed two-stroke crosshead engine. The engineer asks the cadet to explain the two-stroke cycle and how it differs from the four-stroke cycle of week 2.",
+    instructions: [
+      "Explain what happens in a two-stroke cycle, where a power stroke is produced on every revolution.",
+      "Explain scavenging: how fresh air is blown in to push out the burnt exhaust gases (e.g. uniflow scavenging).",
+      "State two differences between the two-stroke crosshead engine and the four-stroke engine.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the two-stroke cycle (power every revolution), scavenging, and two differences from the four-stroke engine.",
+    assessmentCriteria: [
+      "The two-stroke cycle is correctly explained (power every revolution).",
+      "Scavenging is correctly described.",
+      "The two differences from the four-stroke are valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sistemas principales de la máquina principal",
+    topic: "Sistema de enfriamiento",
+    week: 6,
+    taskId: "mn-mot529-w06-cooling-system",
+    taskTitle: "Explain The Engine Cooling System",
+    scenario: "The main engine is kept within safe temperatures by its cooling system. The engineer asks the cadet to explain how the high-temperature (HT) and low-temperature (LT) fresh-water circuits and the sea water cool the engine.",
+    instructions: [
+      "Explain why the engine must be cooled and what happens if it overheats.",
+      "Describe the HT and LT fresh-water circuits and what each cools (e.g. HT cools the cylinder jackets, LT cools the air coolers and lube oil).",
+      "Explain how sea water carries the heat away through the coolers/heat exchangers, keeping fresh water and sea water separate.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the engine cooling system: the HT and LT fresh-water circuits, and how sea water carries the heat away through the heat exchangers.",
+    assessmentCriteria: [
+      "The need for cooling and the overheating danger are correct.",
+      "The HT and LT circuits are correctly described.",
+      "The sea water / heat exchanger role is correct (fresh and sea water kept apart).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sistemas principales de la máquina principal",
+    topic: "Sistema de combustible e inyección",
+    week: 7,
+    taskId: "mn-mot529-w07-fuel-injection-system",
+    taskTitle: "Explain The Fuel And Injection System",
+    scenario: "Heavy fuel oil must be treated and then delivered to the cylinders at high pressure. The engineer asks the cadet to explain the fuel and injection system from the tank to the injector.",
+    instructions: [
+      "Explain why heavy fuel must be purified and heated before injection (removing water and solids, lowering its viscosity).",
+      "Describe how the fuel is raised to high injection pressure and delivered by the injector as a fine spray.",
+      "Explain why correct atomisation and injection timing matter for good combustion.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the fuel and injection system: prior purification and heating, high-pressure delivery, and the injector's atomisation and timing.",
+    assessmentCriteria: [
+      "The need for purification and heating is correct.",
+      "The high-pressure delivery and injector spray are correctly described.",
+      "The atomisation/timing reasoning is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sistemas principales de la máquina principal",
+    topic: "Arranque e inversión de marcha",
+    week: 8,
+    taskId: "mn-mot529-w08-starting-air-reversing",
+    taskTitle: "Explain Air Starting And Engine Reversing",
+    scenario: "A large marine diesel is started with compressed air and, for manoeuvring, can be reversed to go astern. As the closing task, the engineer asks the cadet to explain air starting and reversing.",
+    instructions: [
+      "Explain how compressed air from the air bottles is admitted to the cylinders in the correct order to turn and start the engine.",
+      "State one important safety point of the starting-air system (e.g. relief/flame arrangements against an air-line explosion, draining condensate).",
+      "Explain what reversing means and why a direct-drive engine must be reversed to go astern (e.g. changing the fuel/valve timing for the opposite direction).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining air starting from the air bottles, one safety point, and how the engine is reversed to go astern.",
+    assessmentCriteria: [
+      "The air-starting process is correct.",
+      "The safety point is valid.",
+      "The reversing explanation is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Flujo en conductos",
+    topic: "Pérdidas de carga por fricción y número de Reynolds",
+    week: 5,
+    taskId: "mn-mef532-w05-friction-losses",
+    taskTitle: "Explain Friction Losses And Reynolds Number",
+    scenario: "Pumping a fluid through a long pipe loses pressure to friction. The engineer asks the cadet to explain friction head losses and the Reynolds number.",
+    instructions: [
+      "Explain what friction (head) loss is and why a longer or narrower pipe loses more pressure.",
+      "Explain the Reynolds number and how it tells whether the flow is laminar or turbulent.",
+      "State how the flow regime and the pipe roughness affect the friction loss.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining friction head loss, the Reynolds number, and how laminar/turbulent flow and pipe roughness affect the loss.",
+    assessmentCriteria: [
+      "Friction head loss is correctly explained.",
+      "The Reynolds number and the laminar/turbulent distinction are correct.",
+      "The effect of flow regime and roughness is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Máquinas hidráulicas",
+    topic: "Bombas centrífugas: curva característica y punto de operación",
+    week: 6,
+    taskId: "mn-mef532-w06-centrifugal-pump-curve",
+    taskTitle: "Explain The Centrifugal Pump Curve",
+    scenario: "A centrifugal pump delivers less flow as the discharge head rises. The engineer asks the cadet to explain the pump characteristic curve and the operating point.",
+    instructions: [
+      "Explain how a centrifugal pump works (the impeller adds energy to the fluid).",
+      "Explain the characteristic curve: how the head falls as the flow increases.",
+      "Explain the operating point as the point where the pump curve meets the system resistance curve.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the centrifugal pump, its head-flow characteristic curve, and the operating point where it meets the system curve.",
+    assessmentCriteria: [
+      "The centrifugal pump principle is correct.",
+      "The head-flow characteristic is correctly explained.",
+      "The operating point (pump curve vs system curve) is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Máquinas hidráulicas",
+    topic: "Cavitación y NPSH",
+    week: 7,
+    taskId: "mn-mef532-w07-cavitation-npsh",
+    taskTitle: "Explain Cavitation And NPSH",
+    scenario: "A pump that loses suction pressure can cavitate and be damaged. The engineer asks the cadet to explain cavitation and NPSH.",
+    instructions: [
+      "Explain cavitation: how low pressure at the pump suction makes vapour bubbles that collapse and damage the impeller.",
+      "Explain NPSH (net positive suction head) and why the available NPSH must be greater than the required NPSH.",
+      "State two ways to prevent cavitation (e.g. raise the suction pressure, do not throttle the suction, keep the fluid cool).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining cavitation, NPSH (available vs required), and two ways to prevent cavitation.",
+    assessmentCriteria: [
+      "Cavitation is correctly explained (vapour bubbles collapsing).",
+      "NPSH available vs required is correct.",
+      "The two prevention measures are valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Medición de flujo",
+    topic: "Venturi, placa de orificio y rotámetro",
+    week: 8,
+    taskId: "mn-mef532-w08-flow-measurement",
+    taskTitle: "Explain Flow Measurement Devices",
+    scenario: "Engine-room systems need their flow rates measured. As the closing task, the engineer asks the cadet to explain how a venturi, an orifice plate and a rotameter measure flow.",
+    instructions: [
+      "Explain how a venturi and an orifice plate measure flow from the pressure drop they create (building on the Bernoulli principle of week 3, referenced here, not re-explained).",
+      "Explain how a rotameter (variable-area meter) shows the flow by the height of a float in a tapered tube.",
+      "State one advantage or typical use of each device on board.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining flow measurement by venturi, orifice plate and rotameter, with one advantage or use of each, referring to the week 3 Bernoulli principle as established.",
+    assessmentCriteria: [
+      "The venturi/orifice pressure-drop principle is correct (linked to Bernoulli, not re-taught).",
+      "The rotameter float principle is correct.",
+      "The advantages/uses are valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Aire comprimido",
+    topic: "Compresores de aire y botellas de arranque",
+    week: 5,
+    taskId: "mn-mma533-w05-air-compressors",
+    taskTitle: "Explain Air Compressors And Air Receivers",
+    scenario: "The engine needs stored compressed air to start. The engineer asks the cadet to explain the air compressors and the starting-air receivers (bottles) that supply it.",
+    instructions: [
+      "Explain the job of the air compressor and why the compression is done in stages with intercooling.",
+      "Explain what the air receivers (bottles) store and why a minimum air pressure must always be kept ready for starting.",
+      "State one safety fitting of the air system (e.g. relief valve, fusible plug, condensate drains).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining air compressors (staged, intercooled), the starting-air receivers, and one safety fitting of the system.",
+    assessmentCriteria: [
+      "The compressor job and staged/intercooled compression are correct.",
+      "The air receiver purpose and the minimum-pressure need are correct.",
+      "The safety fitting is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Tratamiento de aguas residuales",
+    topic: "Planta de aguas residuales (sewage) y MARPOL Anexo IV",
+    week: 6,
+    taskId: "mn-mma533-w06-sewage-treatment",
+    taskTitle: "Explain The Sewage Treatment Plant",
+    scenario: "A ship must not discharge untreated sewage near the coast. The engineer asks the cadet to explain the sewage treatment plant and MARPOL Annex IV.",
+    instructions: [
+      "Explain what the sewage (black water) treatment plant does (e.g. biological treatment and disinfection before discharge).",
+      "State what MARPOL Annex IV controls and why discharge is restricted near land.",
+      "Explain the difference between treated discharge allowed offshore and holding the sewage for a port reception facility.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the sewage treatment plant, the MARPOL Annex IV control, and treated discharge offshore vs holding for port reception.",
+    assessmentCriteria: [
+      "The sewage plant function is correct.",
+      "The MARPOL Annex IV control is correctly stated.",
+      "The discharge vs holding distinction is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Refrigeración y climatización",
+    topic: "Refrigeración de provisiones y aire acondicionado",
+    week: 7,
+    taskId: "mn-mma533-w07-refrigeration-ac",
+    taskTitle: "Explain Provision Refrigeration And Air Conditioning",
+    scenario: "The ship keeps its provisions cold and the accommodation comfortable. The engineer asks the cadet to explain the refrigeration and air-conditioning plant.",
+    instructions: [
+      "Explain the basic refrigeration cycle (compressor, condenser, expansion valve, evaporator).",
+      "Explain how the same cycle serves the cold provision rooms and the air conditioning of the accommodation.",
+      "State why the refrigerant choice and leak control matter (safety and the environment).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the refrigeration cycle, its use for provisions and air conditioning, and why refrigerant and leak control matter.",
+    assessmentCriteria: [
+      "The refrigeration cycle (four main components) is correct.",
+      "The provision and air-conditioning use is correctly explained.",
+      "The refrigerant/leak-control point is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Generación de vapor",
+    topic: "Caldera auxiliar y sistema de vapor",
+    week: 8,
+    taskId: "mn-mma533-w08-auxiliary-boiler",
+    taskTitle: "Explain The Auxiliary Boiler And Steam System",
+    scenario: "In port the ship needs steam for heating fuel and other services. As the closing task, the engineer asks the cadet to explain the auxiliary boiler and steam system.",
+    instructions: [
+      "Explain what the auxiliary boiler produces steam for (e.g. heating heavy fuel, tank and accommodation heating).",
+      "Describe the basic steam system (boiler, steam to the services, condensate return, feed water back to the boiler).",
+      "State one boiler safety point (e.g. safety valve, water-level control and low-water alarm).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the auxiliary boiler's uses, the basic steam/condensate/feed system, and one boiler safety point.",
+    assessmentCriteria: [
+      "The boiler's steam uses are correct.",
+      "The steam/condensate/feed cycle is correctly described.",
+      "The safety point is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Sistema trifásico de Corriente Alterna",
+    topic: "Conexión delta y relaciones de línea y fase",
+    week: 5,
+    taskId: "mn-eia531-w05-delta-line-phase",
+    taskTitle: "Explain Delta Connection And Line-Phase Relationships",
+    scenario: "Building on the star/delta comparison of week 2, the engineer asks the cadet to explain the delta connection in detail and the line and phase relationships that set it apart from star.",
+    instructions: [
+      "Describe the delta connection and how the three windings are joined end to end (there is no neutral point).",
+      "State the line/phase relationships: in delta the line voltage equals the phase voltage, but the line current is the square root of three (about 1.73) times the phase current — the opposite of the star connection.",
+      "Explain where the delta connection is preferred on board (e.g. the running windings of large motors, transformer windings).",
+      "You may refer to the three-phase power triangle (active, reactive, apparent) and power factor as already established in Electricity III; do not re-explain it, focus on the delta connection itself. Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the delta connection and its line/phase voltage and current relationships (contrasted with star), and where delta is used, referring to the Electricity III power triangle as established.",
+    assessmentCriteria: [
+      "The delta connection is correctly described (windings end to end, no neutral).",
+      "The line/phase relationships are correct (line voltage = phase voltage, line current = 1.73 x phase current) and contrasted with star.",
+      "A valid use of the delta connection on board is given.",
+      "The power triangle is referenced, not re-taught, and the answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Sincronización",
+    topic: "Generadores en paralelo y reparto de carga",
+    week: 6,
+    taskId: "mn-eia531-w06-generators-parallel",
+    taskTitle: "Explain Paralleling Generators And Load Sharing",
+    scenario: "Two generators often run in parallel to share the ship's electrical load. Building on the synchronisation of week 3, the engineer asks the cadet to explain paralleling and load sharing.",
+    instructions: [
+      "State the conditions that must be met before a generator is put on the bus (same voltage, same frequency, same phase sequence, and in phase) — building on the synchronisation of week 3.",
+      "Explain how the active load (kW) is shared between the generators by adjusting the engine governors (fuel).",
+      "Explain how the reactive load (kVAr) is shared by adjusting the excitation (the AVR).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining paralleling generators (the synchronising conditions) and how active load is shared via the governors and reactive load via the excitation.",
+    assessmentCriteria: [
+      "The synchronising conditions are correct.",
+      "Active (kW) load sharing via the governors is correct.",
+      "Reactive (kVAr) load sharing via the excitation is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Control de motores",
+    topic: "Variadores de frecuencia (VFD): arranque suave y control de velocidad",
+    week: 7,
+    taskId: "mn-eia531-w07-vfd-drives",
+    taskTitle: "Explain Variable Frequency Drives On Board",
+    scenario: "Many pumps and fans on modern ships are driven by motors fed from variable frequency drives. The engineer asks the cadet to explain what a VFD does and why it is used.",
+    instructions: [
+      "Explain that a VFD changes the frequency (and voltage) fed to an AC motor to control its speed.",
+      "Explain two benefits: a soft start that avoids the high direct-on-line starting current, and energy saving when a pump or fan can run slower instead of being throttled.",
+      "State one care point of VFDs (e.g. harmonics injected onto the ship's network, cooling of the drive).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the variable frequency drive: speed control by changing the frequency, the soft-start and energy-saving benefits, and one care point.",
+    assessmentCriteria: [
+      "The VFD principle (varying the frequency to control speed) is correct.",
+      "The soft-start and energy-saving benefits are correct.",
+      "The care point is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Distribución eléctrica del buque",
+    topic: "Cuadro principal, disparo preferencial y generador de emergencia",
+    week: 8,
+    taskId: "mn-eia531-w08-ship-distribution",
+    taskTitle: "Explain The Ship's Electrical Distribution",
+    scenario: "The ship's power is distributed from the main switchboard, with protection against overload and a back-up for emergencies. As the closing task, the engineer asks the cadet to explain the distribution system.",
+    instructions: [
+      "Explain the role of the main switchboard in distributing power to the ship's services.",
+      "Explain preferential trip (load shedding): how non-essential loads are tripped first if the generators are overloaded, to protect the essential services.",
+      "Explain the emergency generator: what it supplies and why it starts automatically on loss of main power (a blackout).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the main switchboard distribution, preferential tripping (load shedding), and the emergency generator's role on a blackout.",
+    assessmentCriteria: [
+      "The main switchboard role is correct.",
+      "Preferential trip / load shedding is correctly explained.",
+      "The emergency generator's automatic start and supply are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Torno",
+    topic: "Cilindrado y refrentado",
+    week: 5,
+    taskId: "mn-tal534-w05-lathe-turning-facing",
+    taskTitle: "Explain Lathe Turning And Facing",
+    scenario: "In the ship's workshop the lathe is used to machine cylindrical parts. The engineer asks the cadet to explain turning and facing on the lathe.",
+    instructions: [
+      "Explain what the lathe does: the workpiece rotates while a cutting tool removes metal.",
+      "Explain turning (a cut along the axis that reduces the diameter) and facing (a flat cut across the end of the work).",
+      "State one point about the cutting speed/feed and safety when using the lathe.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the lathe, the turning and facing operations, and one point on cutting speed/feed and safety.",
+    assessmentCriteria: [
+      "The lathe principle (rotating work, cutting tool) is correct.",
+      "Turning and facing are correctly distinguished.",
+      "The speed/feed/safety point is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Fresadora",
+    topic: "Operaciones básicas de fresado",
+    week: 6,
+    taskId: "mn-tal534-w06-milling-operations",
+    taskTitle: "Explain Basic Milling Operations",
+    scenario: "The workshop milling machine cuts flat faces, slots and keyways that the lathe cannot. Building on the lathe of week 5, the engineer asks the cadet to explain basic milling.",
+    instructions: [
+      "Explain how a milling machine works: a rotating multi-tooth cutter removes metal while the work is fed past it (the opposite arrangement to the lathe of week 5, where the work rotates).",
+      "State two things milling can make (e.g. a flat face, a slot, a keyway).",
+      "State one point about clamping the work and safety on the milling machine.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining basic milling: the rotating cutter and the fed work, two things milling can make, and one clamping/safety point.",
+    assessmentCriteria: [
+      "The milling principle is correct (rotating cutter, work fed past), contrasted with the lathe.",
+      "Two valid milling products are given.",
+      "The clamping/safety point is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Ajuste y montaje",
+    topic: "Rodamientos y empaquetaduras",
+    week: 7,
+    taskId: "mn-tal534-w07-bearings-packing",
+    taskTitle: "Explain Fitting Bearings And Packing",
+    scenario: "Correct fitting of bearings and seals keeps machinery running. The engineer asks the cadet to explain fitting rolling bearings and gland packing/gaskets.",
+    instructions: [
+      "Explain how a rolling bearing is fitted correctly (clean, the correct fit, mounted without hammering the races, e.g. heating the bearing for an interference fit).",
+      "Explain the job of gland packing and gaskets in sealing shafts and joints against leakage.",
+      "State one consequence of a badly fitted bearing or over-tight packing (e.g. overheating, rapid wear).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining correct bearing fitting, the sealing job of packing and gaskets, and one consequence of poor fitting.",
+    assessmentCriteria: [
+      "Correct bearing fitting is described.",
+      "The sealing role of packing/gaskets is correct.",
+      "The consequence of poor fitting is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Mantenimiento de bombas",
+    topic: "Desarme, inspección y sello mecánico",
+    week: 8,
+    taskId: "mn-tal534-w08-pump-maintenance",
+    taskTitle: "Explain Pump Maintenance And The Mechanical Seal",
+    scenario: "A workshop task is to overhaul a centrifugal pump. As the closing task, the engineer asks the cadet to explain stripping, inspecting and reassembling a pump and its mechanical seal.",
+    instructions: [
+      "Describe the steps to strip and inspect a pump (isolate and drain, dismantle, check the impeller, shaft, wear rings and clearances).",
+      "Explain the mechanical seal: how its two flat faces seal the rotating shaft, and why they must be clean and undamaged.",
+      "State one point for correct reassembly (e.g. shaft alignment, new gaskets/seal, correct clearances).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining pump stripping and inspection, the mechanical seal's sealing faces, and one point for correct reassembly.",
+    assessmentCriteria: [
+      "The strip-and-inspect steps are correct.",
+      "The mechanical seal (two faces sealing the shaft) is correctly explained.",
+      "The reassembly point is valid.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
 ];
