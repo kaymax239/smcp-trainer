@@ -1,7 +1,7 @@
 // Task type definitions live in ./mission-tasks/types and are re-exported
 // here so existing consumers keep importing them from
 // "@/data/academic/mission-tasks" unchanged.
-export type { GrammarSentence, TaskGame, AcademicMissionTask } from "./mission-tasks/types";
+export type { GrammarSentence, VocabularyPair, TaskGame, AcademicMissionTask } from "./mission-tasks/types";
 import type { AcademicMissionTask } from "./mission-tasks/types";
 import { pnSemesterITasks } from "./mission-tasks/pn-semester-i";
 import { mnSemesterITasks } from "./mission-tasks/mn-semester-i";

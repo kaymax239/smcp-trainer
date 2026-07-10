@@ -13,10 +13,17 @@ export type GrammarSentence = {
   grammarPoint: string;
 };
 
+export type VocabularyPair = {
+  /** Term to match, e.g. an SMCP proword or a technical noun. */
+  term: string;
+  /** The definition the term must be matched to. */
+  definition: string;
+};
+
 export type TaskGame =
-  | { type: "grammar-sentence-builder"; sentences: GrammarSentence[] };
-// Future: | { type: "vocabulary-match"; pairs: ... }
-//         | { type: "reading-comprehension"; ... }
+  | { type: "grammar-sentence-builder"; sentences: GrammarSentence[] }
+  | { type: "vocabulary-match"; pairs: VocabularyPair[] };
+// Future: | { type: "reading-comprehension"; ... }
 
 export type AcademicMissionTask = {
   career: AcademicProgramCode;

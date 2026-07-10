@@ -2,6 +2,7 @@
 
 import type { TaskGame } from "@/data/academic/mission-tasks";
 import { GrammarGame } from "./GrammarGame";
+import { VocabularyGame } from "./VocabularyGame";
 
 type TaskGamePanelProps = {
   game: TaskGame;
@@ -18,6 +19,15 @@ export function TaskGamePanel({ game, xp, completed, onComplete }: TaskGamePanel
       return (
         <GrammarGame
           sentences={game.sentences}
+          xp={xp}
+          completed={completed}
+          onComplete={onComplete}
+        />
+      );
+    case "vocabulary-match":
+      return (
+        <VocabularyGame
+          pairs={game.pairs}
           xp={xp}
           completed={completed}
           onComplete={onComplete}

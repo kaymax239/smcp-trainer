@@ -48,6 +48,22 @@ export const englishLevels: EnglishLevel[] = [
     cefr: "B1+",
     description: "Past perfect, preguntas indirectas, gerundio vs infinitivo, comparativos, conectores temporales y adverbios de modo.",
     taskIds: ["pn-ing102-w08-sentence-builder-l6-game"]
+  },
+  {
+    level: 7,
+    label: "Nivel 7",
+    title: "Vocabulary Match — Términos operativos SMCP",
+    cefr: "B2",
+    description: "Vocabulario operativo estándar: señales de socorro y urgencia, prowords, órdenes de amarre y maniobra, y estado del buque (SMCP).",
+    taskIds: ["pn-ing102-vocabulary-match-level7-game"]
+  },
+  {
+    level: 8,
+    label: "Nivel 8",
+    title: "Vocabulary Match — Términos técnicos avanzados",
+    cefr: "C1",
+    description: "Vocabulario técnico avanzado de puente y máquinas: estabilidad, hidrodinámica, maquinaria y seguridad (freeboard, GM, squat, cavitation, flash point y más).",
+    taskIds: ["pn-ing102-vocabulary-match-level8-game"]
   }
 ];
 

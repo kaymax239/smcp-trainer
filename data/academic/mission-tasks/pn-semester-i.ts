@@ -2611,4 +2611,94 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
     estimatedTime: "35 min",
     difficulty: "Advanced"
   },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "Inglés por Niveles",
+    subjectName: "Sentence Builder",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Vocabulario",
+    topic: "Vocabulario operativo SMCP (B2)",
+    week: 9,
+    taskId: "pn-ing102-vocabulary-match-level7-game",
+    taskTitle: "Vocabulary Match: SMCP Operational Terms",
+    scenario: "On the bridge, standard vocabulary has to be automatic: one wrong word in a distress call or a mooring order costs time or safety. In this drill you match SMCP operational terms to their meanings until the vocabulary comes naturally.",
+    instructions: [
+      "Read the term in one column and the definitions in the other.",
+      "Tap a term, then tap the definition that matches it.",
+      "A correct pair locks in green; a wrong pair clears so you can try again.",
+      "Keep your streak going: 3 correct in a row earns a bonus."
+    ],
+    deliverable: "Twelve SMCP operational terms matched to their correct definitions, completing the Level 7 Vocabulary Match drill.",
+    assessmentCriteria: [
+      "Each term is matched to its correct definition.",
+      "Level 7 SMCP operational vocabulary (distress and urgency signals, prowords, mooring and manoeuvring orders, vessel status) is handled correctly.",
+      "The full twelve-pair drill is completed."
+    ],
+    xp: 20,
+    estimatedTime: "15 min",
+    difficulty: "Advanced",
+    game: {
+      type: "vocabulary-match",
+      pairs: [
+        { term: "MAYDAY", definition: "Distress signal: grave and imminent danger to a vessel or person" },
+        { term: "PAN PAN", definition: "Urgency signal: a serious matter, but no immediate danger to life" },
+        { term: "SÉCURITÉ", definition: "Safety signal: navigational or meteorological warning" },
+        { term: "SAY AGAIN", definition: "Proword asking the other station to repeat the message" },
+        { term: "STAND BY", definition: "Order to be ready and wait for further instructions" },
+        { term: "MAKE FAST", definition: "Order to secure a line to bitts or bollard" },
+        { term: "LET GO", definition: "Order to release the lines or the anchor" },
+        { term: "SINGLE UP", definition: "Reduce mooring lines to the minimum before letting go" },
+        { term: "UNDER WAY", definition: "A vessel not at anchor, not made fast to the shore, not aground" },
+        { term: "NOT UNDER COMMAND", definition: "A vessel unable to manoeuvre as required by the rules" },
+        { term: "DRAGGING ANCHOR", definition: "The anchor is moving over the sea bottom instead of holding" },
+        { term: "CLOSED-LOOP", definition: "Repeating an order back so the sender confirms it was understood" }
+      ]
+    }
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "Inglés por Niveles",
+    subjectName: "Sentence Builder",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Vocabulario",
+    topic: "Vocabulario técnico avanzado (C1)",
+    week: 10,
+    taskId: "pn-ing102-vocabulary-match-level8-game",
+    taskTitle: "Vocabulary Match: Advanced Technical Terms",
+    scenario: "Bridge and engine room share a precise technical vocabulary: stability, hydrodynamics and safety terms that must be understood exactly. In this drill you match advanced technical terms to their definitions until the vocabulary comes naturally.",
+    instructions: [
+      "Read the term in one column and the definitions in the other.",
+      "Tap a term, then tap the definition that matches it.",
+      "A correct pair locks in green; a wrong pair clears so you can try again.",
+      "Keep your streak going: 3 correct in a row earns a bonus."
+    ],
+    deliverable: "Twelve advanced technical terms matched to their correct definitions, completing the Level 8 Vocabulary Match drill.",
+    assessmentCriteria: [
+      "Each term is matched to its correct definition.",
+      "Level 8 advanced technical vocabulary (stability, hydrodynamics, machinery and safety terms from the bridge and the engine room) is handled correctly.",
+      "The full twelve-pair drill is completed."
+    ],
+    xp: 20,
+    estimatedTime: "15 min",
+    difficulty: "Advanced",
+    game: {
+      type: "vocabulary-match",
+      pairs: [
+        { term: "FREEBOARD", definition: "Vertical distance from the waterline to the deck: the reserve of buoyancy" },
+        { term: "METACENTRIC HEIGHT (GM)", definition: "The measure of a ship's initial transverse stability" },
+        { term: "SQUAT", definition: "Increased sinkage of a vessel moving in shallow water, growing with the square of the speed" },
+        { term: "CAVITATION", definition: "Vapour bubbles forming at low pressure and collapsing, damaging the impeller" },
+        { term: "SCAVENGING", definition: "Clearing burnt exhaust gases from the cylinder with fresh air" },
+        { term: "LOWER EXPLOSIVE LIMIT", definition: "The minimum vapour concentration in air at which ignition is possible" },
+        { term: "INERT GAS", definition: "Low-oxygen gas keeping a cargo tank atmosphere outside the flammable range" },
+        { term: "FREE SURFACE EFFECT", definition: "Loss of effective stability caused by liquid moving in a partially filled tank" },
+        { term: "UNDER KEEL CLEARANCE", definition: "The depth of water between the ship's keel and the sea bottom" },
+        { term: "PREFERENTIAL TRIP", definition: "Shedding non-essential electrical loads to protect the essential services" },
+        { term: "DEW POINT", definition: "The temperature at which the moisture in the air condenses into water" },
+        { term: "FLASH POINT", definition: "The lowest temperature at which a liquid gives off ignitable vapours" }
+      ]
+    }
+  },
 ];
