@@ -345,10 +345,8 @@ export default function Home() {
 
 function AcademicProgramDashboard({
   onBackToCareers,
-  onOpenTask,
   selectedProgram,
   selectedSemesterId,
-  selectedSubjectId,
   completedAcademicTaskIds,
   setSelectedSemesterId,
   setSelectedSubjectId
@@ -366,16 +364,120 @@ function AcademicProgramDashboard({
   const programSemesters = academicSemesters.filter((semester) => semester.program === selectedProgram);
   const selectedSemester = programSemesters.find((semester) => semester.id === selectedSemesterId) ?? programSemesters[0];
   const semesterSubjects = academicSubjects.filter((subject) => subject.semesterId === selectedSemester?.id);
-  const selectedSubject = semesterSubjects.find((subject) => subject.id === selectedSubjectId) ?? semesterSubjects[0];
   const completedAcademicTaskIdSet = useMemo(() => new Set(completedAcademicTaskIds), [completedAcademicTaskIds]);
-  const subjectMissionTasks = academicMissionTasks
-    .filter((task) => task.subjectId === selectedSubject?.id && !englishLevelTaskIds.has(task.taskId))
-    .sort((a, b) => (a.week ?? 0) - (b.week ?? 0));
-  const subjectCompletedMissionTasks = subjectMissionTasks.filter((task) => completedAcademicTaskIdSet.has(task.taskId));
-  const subjectTasks = academicTasks.filter((task) => task.subjectId === selectedSubject?.id);
-  const subjectTotalXp = subjectMissionTasks.reduce((total, task) => total + task.xp, 0);
-  const subjectEarnedXp = subjectCompletedMissionTasks.reduce((total, task) => total + task.xp, 0);
-  const subjectProgress = subjectMissionTasks.length > 0 ? Math.round((subjectCompletedMissionTasks.length / subjectMissionTasks.length) * 100) : selectedSubject?.progress ?? 0;
+
+  // Ordinal position of each subject (data order) — used to order the weekly
+  // list "by subject" and to scan for the first pending task.
+  const semesterSubjectOrder = useMemo(() => {
+    const order = new Map<string, number>();
+    semesterSubjects.forEach((subject, index) => order.set(subject.id, index));
+    return order;
+  }, [semesterSubjects]);
+
+  // All curricular tasks of the semester, excluding the English-levels games
+  // (same exclusion the previous view used).
+  const semesterTasks = useMemo(() => {
+    const subjectIds = new Set(semesterSubjects.map((subject) => subject.id));
+    return academicMissionTasks.filter(
+      (task) => subjectIds.has(task.subjectId) && !englishLevelTaskIds.has(task.taskId)
+    );
+  }, [semesterSubjects]);
+
+  // Per-subject roll-up (order = data order). Feeds the accordion and the
+  // "Continue" resolver.
+  const perSubject = useMemo(() => {
+    return semesterSubjects.map((subject) => {
+      const tasks = semesterTasks
+        .filter((task) => task.subjectId === subject.id)
+        .sort((a, b) => (a.week ?? 0) - (b.week ?? 0));
+      const done = tasks.filter((task) => completedAcademicTaskIdSet.has(task.taskId));
+      const pending = tasks.filter((task) => !completedAcademicTaskIdSet.has(task.taskId));
+      return {
+        subject,
+        tasks,
+        pending,
+        doneCount: done.length,
+        total: tasks.length,
+        earnedXp: done.reduce((sum, task) => sum + task.xp, 0)
+      };
+    });
+  }, [semesterSubjects, semesterTasks, completedAcademicTaskIdSet]);
+
+  // Week chips: contiguous range from the LOWEST week present among the
+  // non-excluded tasks, stopping at the first gap. Out-of-range tasks (e.g. the
+  // vocabulary-match games in weeks 9-10, already excluded) never create chips.
+  const weekChips = useMemo(() => {
+    const present = new Set<number>();
+    semesterTasks.forEach((task) => {
+      if (typeof task.week === "number") present.add(task.week);
+    });
+    if (present.size === 0) return [] as number[];
+    const chips: number[] = [];
+    let week = Math.min(...Array.from(present));
+    while (present.has(week)) {
+      chips.push(week);
+      week += 1;
+    }
+    return chips;
+  }, [semesterTasks]);
+
+  // Status per week (complete / partial / pending) derived from completedTaskIds.
+  const weekStatus = useMemo(() => {
+    const status = new Map<number, "complete" | "partial" | "pending">();
+    weekChips.forEach((week) => {
+      const tasks = semesterTasks.filter((task) => task.week === week);
+      const done = tasks.filter((task) => completedAcademicTaskIdSet.has(task.taskId)).length;
+      status.set(week, done === 0 ? "pending" : done === tasks.length ? "complete" : "partial");
+    });
+    return status;
+  }, [weekChips, semesterTasks, completedAcademicTaskIdSet]);
+
+  // Default active week = first with a pending task; if all complete, the last.
+  const defaultWeek = useMemo(() => {
+    if (weekChips.length === 0) return null;
+    return weekChips.find((week) => weekStatus.get(week) !== "complete") ?? weekChips[weekChips.length - 1];
+  }, [weekChips, weekStatus]);
+
+  const [viewMode, setViewMode] = useState<"week" | "subject">("week");
+  const [manualWeek, setManualWeek] = useState<number | null>(null);
+  const [openSubjectId, setOpenSubjectId] = useState<string | null>(null);
+
+  // Reset per-semester UI state when the semester changes. Only stable setters
+  // are referenced, so no extra dependencies are needed.
+  useEffect(() => {
+    setManualWeek(null);
+    setOpenSubjectId(null);
+  }, [selectedSemesterId]);
+
+  const activeWeek = manualWeek != null && weekChips.includes(manualWeek) ? manualWeek : defaultWeek;
+
+  const activeWeekTasks = useMemo(() => {
+    if (activeWeek == null) return [];
+    return semesterTasks
+      .filter((task) => task.week === activeWeek)
+      .sort((a, b) => (semesterSubjectOrder.get(a.subjectId) ?? 0) - (semesterSubjectOrder.get(b.subjectId) ?? 0));
+  }, [activeWeek, semesterTasks, semesterSubjectOrder]);
+
+  // "Continue where you left off": subject with the highest partial progress
+  // (completed > 0 and < total), its first pending task by week; else the first
+  // pending task of the semester; else celebrate + suggest the next semester.
+  const continueTarget = useMemo(() => {
+    const withTasks = perSubject.filter((entry) => entry.total > 0);
+    const partial = withTasks.filter((entry) => entry.doneCount > 0 && entry.doneCount < entry.total);
+    if (partial.length > 0) {
+      const best = partial.reduce((leader, entry) =>
+        entry.doneCount / entry.total > leader.doneCount / leader.total ? entry : leader
+      );
+      return { status: "task" as const, subject: best.subject, task: best.pending[0], resume: true };
+    }
+    const firstPending = withTasks.find((entry) => entry.pending.length > 0);
+    if (firstPending) {
+      return { status: "task" as const, subject: firstPending.subject, task: firstPending.pending[0], resume: false };
+    }
+    const index = programSemesters.findIndex((semester) => semester.id === selectedSemester?.id);
+    const nextSemester = index >= 0 && index < programSemesters.length - 1 ? programSemesters[index + 1] : null;
+    return { status: "complete" as const, nextSemester };
+  }, [perSubject, programSemesters, selectedSemester?.id]);
 
   const selectSemester = (semesterId: string) => {
     const firstSubject = academicSubjects.find((subject) => subject.semesterId === semesterId);
@@ -396,6 +498,33 @@ function AcademicProgramDashboard({
           <strong>{selectedProgram}</strong>
         </div>
       </div>
+
+      {continueTarget.status === "task" ? (
+        <Link className="semflow-continue" href={`/tasks/${continueTarget.task.taskId}`}>
+          <span className="semflow-continue-eyebrow">{continueTarget.resume ? "Continúa donde ibas" : "Empieza el semestre"}</span>
+          <strong className="semflow-continue-title">{continueTarget.task.taskTitle}</strong>
+          <span className="semflow-continue-meta">
+            {continueTarget.subject.title}
+            {typeof continueTarget.task.week === "number" ? ` · Semana ${continueTarget.task.week}` : ""}
+            {` · ${continueTarget.task.difficulty}`}
+          </span>
+          <span className="semflow-continue-cta">{continueTarget.resume ? "Continuar" : "Empezar"} →</span>
+        </Link>
+      ) : (
+        <div className="semflow-continue is-complete">
+          <span className="semflow-continue-eyebrow">¡Semestre completo!</span>
+          <strong className="semflow-continue-title">
+            Completaste todas las tasks de {selectedSemester?.title}
+          </strong>
+          {continueTarget.nextSemester ? (
+            <button className="semflow-continue-cta" onClick={() => selectSemester(continueTarget.nextSemester!.id)} type="button">
+              Ir a {continueTarget.nextSemester.label} →
+            </button>
+          ) : (
+            <span className="semflow-continue-meta">No hay más semestres en este programa.</span>
+          )}
+        </div>
+      )}
 
       <div className="sectionHeader programHeader">
         <div>
@@ -434,112 +563,142 @@ function AcademicProgramDashboard({
         </div>
       </section>
 
-      <div className="subjectWorkspace guidedSubjectWorkspace">
-        <aside className="subjectList" aria-label="Subjects in selected semester">
-          <div className="panelTitle">
-            <span>{selectedSemester?.program} {selectedSemester?.label}</span>
-            <strong>Subjects</strong>
-          </div>
-          {semesterSubjects.map((subject) => {
-            const subjectGeneratedTasks = academicMissionTasks.filter((task) => task.subjectId === subject.id && !englishLevelTaskIds.has(task.taskId));
-            const subjectCompletedTasks = subjectGeneratedTasks.filter((task) => completedAcademicTaskIdSet.has(task.taskId));
-            const subjectEarnedTaskXp = subjectCompletedTasks.reduce((total, task) => total + task.xp, 0);
+      <div className="semflow-modeToggle" role="group" aria-label="Modo de vista">
+        <button
+          className={`semflow-modeButton ${viewMode === "week" ? "is-active" : ""}`}
+          onClick={() => setViewMode("week")}
+          type="button"
+          aria-pressed={viewMode === "week"}
+        >
+          Por semana
+        </button>
+        <button
+          className={`semflow-modeButton ${viewMode === "subject" ? "is-active" : ""}`}
+          onClick={() => setViewMode("subject")}
+          type="button"
+          aria-pressed={viewMode === "subject"}
+        >
+          Por materia
+        </button>
+      </div>
 
-            return (
-              <button className={`subjectCard ${selectedSubjectId === subject.id ? "selected" : ""}`} key={subject.id} onClick={() => setSelectedSubjectId(subject.id)} type="button">
-                <span>{subject.officialArea}</span>
-                <strong>{subject.title} / {subjectGeneratedTasks.length} tasks</strong>
-                <small>{subject.stcwAlignment}</small>
-                <em>{subjectGeneratedTasks.length > 0 ? `${subjectCompletedTasks.length}/${subjectGeneratedTasks.length} complete / ${subjectEarnedTaskXp} XP earned` : subject.status === "prototype" ? "Prototype functional" : "Planned"}</em>
-              </button>
-            );
-          })}
-        </aside>
-
-        {selectedSubject ? (
-          <section className="subjectDetail" aria-label={`${selectedSubject.title} detail`}>
-            <div className="missionLead">
-              <div>
-                <p className="eyebrow">Subject</p>
-                <h2>{selectedSubject.title}</h2>
+      {viewMode === "week" ? (
+        <section className="semflow-weekView" aria-label={`${selectedSemester?.label ?? ""} por semana`}>
+          {weekChips.length > 0 ? (
+            <>
+              <div className="semflow-weekbar" role="group" aria-label="Semanas">
+                {weekChips.map((week) => {
+                  const status = weekStatus.get(week) ?? "pending";
+                  return (
+                    <button
+                      className={`semflow-weekChip is-${status} ${activeWeek === week ? "is-active" : ""}`}
+                      key={week}
+                      onClick={() => setManualWeek(week)}
+                      type="button"
+                      aria-pressed={activeWeek === week}
+                    >
+                      <span className="semflow-weekChip-num">S{week}</span>
+                      <span className="semflow-weekChip-dot" aria-hidden="true" />
+                      <span className="semflow-sronly">
+                        {status === "complete" ? "completa" : status === "partial" ? "parcial" : "pendiente"}
+                      </span>
+                    </button>
+                  );
+                })}
               </div>
-              <div className="missionBadge">
-                <span>Progress</span>
-                <strong>{subjectProgress}% / {subjectEarnedXp} XP earned</strong>
-              </div>
-            </div>
-            {subjectMissionTasks.length > 0 ? (
-              <div className="subjectProgressPanel" aria-label={`${selectedSubject.title} local progress`}>
-                <div className="subjectProgressStats">
-                  <span>{subjectCompletedMissionTasks.length} / {subjectMissionTasks.length} tasks complete</span>
-                  <strong>{subjectEarnedXp} / {subjectTotalXp} XP earned</strong>
-                </div>
-                <div className="subjectProgressTrack" aria-hidden="true">
-                  <span style={{ width: `${subjectProgress}%` }} />
-                </div>
-              </div>
-            ) : null}
-            <div className="academicInfoGrid">
-              <AcademicInfoBlock title="Units" items={selectedSubject.units} />
-              <AcademicInfoBlock title="Topics" items={selectedSubject.topics} />
-              <AcademicInfoBlock title="Assessments" items={selectedSubject.assessments} />
-            </div>
-            {subjectMissionTasks.length > 0 ? (
-              <section className="missionTaskSection" aria-label={`${selectedSubject.title} missions and tasks`}>
-                <div className="panelTitle">
-                  <span>Missions / Tasks</span>
-                  <strong>{subjectMissionTasks.length} generated</strong>
-                </div>
-                <div className="taskGrid missionTaskGrid">
-                  {subjectMissionTasks.map((task) => {
-                    const taskCompleted = completedAcademicTaskIdSet.has(task.taskId);
-
-                    return (
-                      <article className={`taskCard missionTaskCard ${taskCompleted ? "completed" : ""}`} key={task.taskId}>
-                        <span>{taskCompleted ? "Completed" : task.topic}</span>
-                        <strong>{task.taskTitle}</strong>
-                        <p>{task.scenario}</p>
-                        <div className="missionTaskMeta" aria-label={`${task.taskTitle} mission details`}>
-                          {typeof task.week === "number" ? <em>Week {task.week}</em> : null}
-                          <em>{task.xp} XP</em>
-                          <em>{task.estimatedTime}</em>
-                          <em>{task.difficulty}</em>
-                        </div>
-                        <Link className={`secondaryAction missionTaskStartLink ${taskCompleted ? "completed" : ""}`} href={`/tasks/${task.taskId}`}>
-                          {taskCompleted ? "Completed" : "Start Mission"}
-                        </Link>
-                      </article>
-                    );
-                  })}
-                </div>
-              </section>
-            ) : (
-              <section className="missionTaskSection" aria-label={`${selectedSubject.title} missions and tasks`}>
-                <div className="panelTitle">
-                  <span>Missions / Tasks</span>
-                  <strong>0 generated</strong>
-                </div>
-                <div className="plannedNotice">
-                  <span>No missions generated yet for this subject.</span>
-                </div>
-              </section>
-            )}
-            {subjectTasks.length > 0 ? (
-              <div className="taskGrid">
-                {subjectTasks.map((task) => (
-                  <button className="taskCard" key={task.id} onClick={() => onOpenTask(task)} type="button">
-                    <span>{task.officialTopic}</span>
-                    <strong>{taskOrderDashboardTitles[task.id] ?? task.title}</strong>
-                    <p>{task.missionBriefing}</p>
-                    <em>{task.xp} XP / {task.progressStatus}</em>
-                  </button>
+              <div className="semflow-taskList" aria-live="polite">
+                {activeWeekTasks.map((task) => (
+                  <SemflowTaskRow key={task.taskId} task={task} completed={completedAcademicTaskIdSet.has(task.taskId)} showSubject />
                 ))}
               </div>
-            ) : null}
-          </section>
-        ) : null}
-      </div>
+            </>
+          ) : (
+            <div className="plannedNotice">
+              <span>No hay tasks curriculares en este semestre todavía.</span>
+            </div>
+          )}
+        </section>
+      ) : (
+        <section className="semflow-accordion" aria-label={`${selectedSemester?.label ?? ""} por materia`}>
+          {perSubject.map((entry) => {
+            const open = openSubjectId === entry.subject.id;
+            const pct = entry.total > 0 ? Math.round((entry.doneCount / entry.total) * 100) : 0;
+            return (
+              <div className={`semflow-subjectRow ${open ? "is-open" : ""}`} key={entry.subject.id}>
+                <button
+                  className="semflow-subjectRow-head"
+                  onClick={() => setOpenSubjectId(open ? null : entry.subject.id)}
+                  type="button"
+                  aria-expanded={open}
+                >
+                  <span className="semflow-subjectRow-info">
+                    <span className="semflow-subjectRow-name">{entry.subject.title}</span>
+                    <span className="semflow-subjectRow-area">{entry.subject.officialArea}</span>
+                  </span>
+                  <span className="semflow-subjectRow-progress">
+                    <span className="semflow-progressTrack" aria-hidden="true">
+                      <span style={{ width: `${pct}%` }} />
+                    </span>
+                    <em>{entry.doneCount}/{entry.total} · {entry.earnedXp} XP</em>
+                  </span>
+                  <span className="semflow-chevron" aria-hidden="true">{open ? "▾" : "▸"}</span>
+                </button>
+                {open ? (
+                  <div className="semflow-subjectRow-body">
+                    {entry.tasks.length > 0 ? (
+                      <div className="semflow-taskList">
+                        {entry.tasks.map((task) => (
+                          <SemflowTaskRow key={task.taskId} task={task} completed={completedAcademicTaskIdSet.has(task.taskId)} />
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="plannedNotice">
+                        <span>No missions generated yet for this subject.</span>
+                      </div>
+                    )}
+                    <details className="semflow-syllabus">
+                      <summary>Programa de la materia</summary>
+                      <div className="semflow-syllabusGrid">
+                        <AcademicInfoBlock title="Units" items={entry.subject.units} />
+                        <AcademicInfoBlock title="Topics" items={entry.subject.topics} />
+                        <AcademicInfoBlock title="Assessments" items={entry.subject.assessments} />
+                      </div>
+                    </details>
+                  </div>
+                ) : null}
+              </div>
+            );
+          })}
+        </section>
+      )}
     </section>
+  );
+}
+
+function SemflowTaskRow({
+  task,
+  completed,
+  showSubject = false
+}: {
+  task: (typeof academicMissionTasks)[number];
+  completed: boolean;
+  showSubject?: boolean;
+}) {
+  return (
+    <article className={`semflow-taskRow ${completed ? "is-complete" : ""}`}>
+      <div className="semflow-taskRow-main">
+        {showSubject ? <span className="semflow-taskRow-subject">{task.subjectName}</span> : null}
+        <strong className="semflow-taskRow-title">{task.taskTitle}</strong>
+        <div className="semflow-taskRow-meta">
+          {typeof task.week === "number" ? <em>Semana {task.week}</em> : null}
+          <em>{task.difficulty}</em>
+          <em>{task.estimatedTime}</em>
+        </div>
+      </div>
+      <Link className={`semflow-taskRow-cta ${completed ? "is-complete" : ""}`} href={`/tasks/${task.taskId}`}>
+        {completed ? "Completada ✓" : "Empezar"}
+      </Link>
+    </article>
   );
 }
 function AcademicInfoBlock({ items, title }: { items: string[]; title: string }) {

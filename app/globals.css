@@ -1891,3 +1891,370 @@ button:disabled {
   height: 100%;
   width: 100%;
 }
+
+/* ============================================================
+   Semester-flow redesign (semflow-*) — ADDITIVE ONLY.
+   New classes for: "Continue" card, week view, subject accordion.
+   No existing class is modified.
+   ============================================================ */
+
+/* --- Continue card ------------------------------------------------------- */
+.semflow-continue {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 16px 0 4px;
+  padding: 16px 18px;
+  border: 1px solid rgba(143, 224, 218, 0.5);
+  border-left: 4px solid #8fe0da;
+  border-radius: 10px;
+  background: linear-gradient(120deg, rgba(143, 224, 218, 0.12), rgba(9, 20, 36, 0.6));
+  color: #e8eef5;
+  text-decoration: none;
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+a.semflow-continue:hover {
+  transform: translateY(-1px);
+  border-color: #8fe0da;
+}
+.semflow-continue.is-complete {
+  border-color: rgba(34, 197, 94, 0.5);
+  border-left-color: #22c55e;
+  background: linear-gradient(120deg, rgba(34, 197, 94, 0.12), rgba(9, 20, 36, 0.6));
+}
+.semflow-continue-eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #8fe0da;
+}
+.semflow-continue.is-complete .semflow-continue-eyebrow {
+  color: #22c55e;
+}
+.semflow-continue-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+.semflow-continue-meta {
+  font-size: 0.85rem;
+  color: #a9b7c8;
+}
+.semflow-continue-cta {
+  align-self: flex-start;
+  margin-top: 6px;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 999px;
+  background: #8fe0da;
+  color: #06121f;
+  font-size: 0.82rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+.semflow-continue.is-complete .semflow-continue-cta {
+  background: #22c55e;
+}
+
+/* --- View-mode toggle ---------------------------------------------------- */
+.semflow-modeToggle {
+  display: inline-flex;
+  gap: 4px;
+  margin: 20px 0 12px;
+  padding: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+}
+.semflow-modeButton {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: #a9b7c8;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+.semflow-modeButton.is-active {
+  background: #8fe0da;
+  color: #06121f;
+}
+
+/* --- Week bar (horizontally scrollable chips) ---------------------------- */
+.semflow-weekView {
+  margin-top: 4px;
+}
+.semflow-weekbar {
+  display: flex;
+  gap: 8px;
+  padding: 4px 2px 10px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+.semflow-weekChip {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #d7dee8;
+  font-size: 0.86rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+.semflow-weekChip.is-active {
+  border-color: #8fe0da;
+  background: rgba(143, 224, 218, 0.16);
+  color: #ffffff;
+}
+.semflow-weekChip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #64748b;
+}
+.semflow-weekChip.is-complete .semflow-weekChip-dot {
+  background: #22c55e;
+}
+.semflow-weekChip.is-partial .semflow-weekChip-dot {
+  background: #f5b301;
+}
+.semflow-weekChip.is-pending .semflow-weekChip-dot {
+  background: #64748b;
+}
+
+/* --- Compact task rows (shared: week view + accordion) ------------------- */
+.semflow-taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 6px;
+}
+.semflow-taskRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+}
+.semflow-taskRow.is-complete {
+  border-color: rgba(34, 197, 94, 0.4);
+  background: rgba(34, 197, 94, 0.07);
+}
+.semflow-taskRow-main {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.semflow-taskRow-subject {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #8fe0da;
+}
+.semflow-taskRow-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #eef3f8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.semflow-taskRow-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 2px;
+}
+.semflow-taskRow-meta em {
+  font-style: normal;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #93a4b8;
+}
+.semflow-taskRow-cta {
+  flex: 0 0 auto;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #8fe0da;
+  color: #06121f;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.semflow-taskRow-cta.is-complete {
+  background: transparent;
+  color: #22c55e;
+  border: 1px solid rgba(34, 197, 94, 0.5);
+}
+
+/* --- Subject accordion --------------------------------------------------- */
+.semflow-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+.semflow-subjectRow {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  overflow: hidden;
+}
+.semflow-subjectRow.is-open {
+  border-color: rgba(143, 224, 218, 0.4);
+}
+.semflow-subjectRow-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 64px;
+  padding: 12px 16px;
+  border: none;
+  background: transparent;
+  color: #e8eef5;
+  text-align: left;
+  cursor: pointer;
+}
+.semflow-subjectRow-info {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.semflow-subjectRow-name {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #eef3f8;
+}
+.semflow-subjectRow-area {
+  font-size: 0.74rem;
+  color: #93a4b8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.semflow-subjectRow-progress {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+.semflow-subjectRow-progress em {
+  font-style: normal;
+  font-size: 0.74rem;
+  font-weight: 800;
+  color: #8fe0da;
+}
+.semflow-progressTrack {
+  width: 96px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+}
+.semflow-progressTrack > span {
+  display: block;
+  height: 100%;
+  background: #8fe0da;
+}
+.semflow-chevron {
+  flex: 0 0 auto;
+  color: #8fe0da;
+  font-size: 0.9rem;
+}
+.semflow-subjectRow-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 4px 14px 16px;
+}
+.semflow-syllabus {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+}
+.semflow-syllabus > summary {
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #a9b7c8;
+}
+.semflow-syllabusGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+/* --- Screen-reader only -------------------------------------------------- */
+.semflow-sronly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* --- Responsive: tablet collapses the 3-col syllabus to 1 col ------------ */
+@media (max-width: 980px) {
+  .semflow-syllabusGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- Responsive: phone (<=620px) ----------------------------------------- */
+@media (max-width: 620px) {
+  .semflow-continue-title {
+    font-size: 1rem;
+  }
+  .semflow-modeToggle {
+    display: flex;
+  }
+  .semflow-modeButton {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  .semflow-taskRow {
+    padding: 10px 12px;
+  }
+  .semflow-taskRow-title {
+    font-size: 0.9rem;
+  }
+  .semflow-taskRow-cta {
+    padding: 8px 12px;
+    font-size: 0.78rem;
+  }
+  .semflow-subjectRow-head {
+    gap: 10px;
+    min-height: 60px;
+    padding: 10px 12px;
+  }
+  .semflow-progressTrack {
+    width: 72px;
+  }
+  .semflow-subjectRow-area {
+    max-width: 46vw;
+  }
+}
