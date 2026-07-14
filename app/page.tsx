@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { signOut } from "next-auth/react";
 import { useEffect, useMemo, useState } from "react";
 import { academicPrograms, academicSemesters, type AcademicProgramCode } from "@/data/academic/semesters";
 import { academicMissionTasks } from "@/data/academic/mission-tasks";
@@ -497,6 +498,9 @@ function AcademicProgramDashboard({
           <span>Selected Career</span>
           <strong>{selectedProgram}</strong>
         </div>
+        <button className="secondaryAction" onClick={() => signOut({ redirectTo: "/login" })} type="button">
+          Cerrar sesión
+        </button>
       </div>
 
       {continueTarget.status === "task" ? (
