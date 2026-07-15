@@ -332,13 +332,6 @@ export default function Home() {
             <em>Engine room, machinery watch, technical operations and safety.</em>
           </button>
         </div>
-
-        <Link className="careerChoiceCard liveTrafficCard" href="/traffic">
-          <span>Simulador de guardia</span>
-          <strong>Tráfico marítimo en vivo — Tampico / Altamira</strong>
-          <small>AIS</small>
-          <em>Mapa de buques en tiempo real (AIS) del puerto y fondeadero. Datos en vivo o escenario capturado.</em>
-        </Link>
       </section>
     </main>
   );
@@ -544,6 +537,22 @@ function AcademicProgramDashboard({
         <small>A1–B1+</small>
         <em>Niveles de inglés general (juego Sentence Builder y más). Sección compartida entre carreras, independiente de las materias.</em>
       </Link>
+
+      {selectedProgram === "PN" ? (
+        <Link className="careerChoiceCard liveTrafficCard" href="/traffic">
+          <span>Simulador de guardia</span>
+          <strong>Tráfico marítimo en vivo — Tampico / Altamira</strong>
+          <small>AIS</small>
+          <em>Mapa de buques en tiempo real (AIS) del puerto y fondeadero. Datos en vivo o escenario capturado.</em>
+        </Link>
+      ) : (
+        <Link className="careerChoiceCard liveTrafficCard" href="/engine-room">
+          <span>Simulador de guardia</span>
+          <strong>Sala de Máquinas — Motor Principal</strong>
+          <small>MOT</small>
+          <em>Guardia de máquinas: diagnostica fallas del motor diésel 2T leyendo temperaturas de escape, presiones y alarmas en tiempo real.</em>
+        </Link>
+      )}
 
       <section className="flowPanel" aria-label={`${selectedProgram} semesters`}>
         <div className="panelTitle">
