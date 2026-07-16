@@ -1,6 +1,18 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
+import { useSession } from "next-auth/react";
+
+/* Rol derivado del dominio del email de sesión (NO hay sistema de roles).
+   Mismo patrón que ALLOWED_DOMAINS de auth.ts: split por "@" y comparación
+   estricta del dominio COMPLETO — un endsWith("@fidena.edu.mx") clasificaría
+   MAL a "es.fidena.edu.mx". Default restrictivo: sin email legible = alumno. */
+export function isDocente(email: string | null | undefined): boolean {
+  if (!email) return false;
+  const parts = email.toLowerCase().split("@");
+  if (parts.length !== 2) return false;
+  return parts[1] === "fidena.edu.mx";
+}
 
 /* ============================================================
    SMCP TRAINER — SIMULADOR DE GUARDIA DE MÁQUINAS (PROTOTIPO)
@@ -170,11 +182,23 @@ export default function EngineRoomSim() {
   const [acked, setAcked] = useState<Record<string, boolean>>({});
   const [slowdown, setSlowdown] = useState(false);
 
+  // Rol derivado de la sesión. En "loading" o sin email → alumno (restrictivo).
+  const { data: session, status } = useSession();
+  const esDocente = isDocente(session?.user?.email);
+  // CANDADO REAL sobre el estado: el alumno nunca puede fijar mode="instructor".
+  const setModeSafe = useCallback((m: "instructor" | "diagnostico") => {
+    if (m === "instructor" && !esDocente) return;
+    setMode(m);
+  }, [esDocente]);
+  // Modo efectivo para render/física: el alumno queda fijo en diagnóstico
+  // aunque manipule la UI o mientras la sesión aún carga.
+  const effectiveMode = esDocente ? mode : "diagnostico";
+
   // Estado físico (refs para el loop, espejo en state para render)
   const S = useRef<PhysState>({ rpm:0, tc:0, scav:0.0, lo:2.9, jw:68, exh:Array<number>(CYLS).fill(95), loFilterDrop:0, jwFoulRise:0 });
   const [snap, setSnap] = useState<PhysState>({ ...S.current, exh:[...S.current.exh] });
 
-  const activeFault: FaultKey = mode === "diagnostico" ? (hiddenFault ?? "none") : fault;
+  const activeFault: FaultKey = effectiveMode === "diagnostico" ? (hiddenFault ?? "none") : fault;
 
   const reset = useCallback(() => {
     S.current = { rpm:0, tc:0, scav:0.0, lo:2.9, jw:68, exh:Array<number>(CYLS).fill(95), loFilterDrop:0, jwFoulRise:0 };
@@ -182,7 +206,7 @@ export default function EngineRoomSim() {
     setAcked({}); setSlowdown(false); setGuessResult(null); setElapsed(0);
   }, []);
 
-  const startDiagnostico = () => {
+  const startDiagnostico = useCallback(() => {
     reset();
     setMode("diagnostico");
     setRunning(true);
@@ -190,7 +214,15 @@ export default function EngineRoomSim() {
     const f = FAULT_KEYS[Math.floor(Math.random() * FAULT_KEYS.length)];
     setHiddenFault(f);
     setFaultCyl(1 + Math.floor(Math.random() * CYLS));
-  };
+  }, [reset]);
+
+  // El alumno arranca directo en diagnóstico: flujo jugable sin modo instructor.
+  // Se espera a que la sesión resuelva para no adelantar al docente (que hoy
+  // arranca en instructor). Transición instructor→diagnóstico de una sola vía.
+  useEffect(() => {
+    if (status === "loading") return;
+    if (!esDocente && mode === "instructor") startDiagnostico();
+  }, [status, esDocente, mode, startDiagnostico]);
 
   /* ---------- Loop de simulación ---------- */
   useEffect(() => {
@@ -317,10 +349,10 @@ export default function EngineRoomSim() {
         {/* Modos */}
         <div style={{ background:"#1B222A", border:"1px solid #2E3942", borderRadius:10, padding:16 }}>
           <div style={{ display:"flex", gap:8, marginBottom:14 }}>
-            {["instructor","diagnostico"].map(m => (
-              <button key={m} onClick={() => { if (m === "diagnostico") startDiagnostico(); else { setMode("instructor"); setHiddenFault(null); setGuessResult(null); } }}
+            {(esDocente ? ["instructor","diagnostico"] : ["diagnostico"]).map(m => (
+              <button key={m} onClick={() => { if (m === "diagnostico") startDiagnostico(); else { setModeSafe("instructor"); setHiddenFault(null); setGuessResult(null); } }}
                 style={{ padding:"8px 16px", borderRadius:7, border:"1px solid #2E3942", cursor:"pointer", fontSize:12, fontWeight:700,
-                         background: mode===m ? "#4FA3FF" : "#141A20", color: mode===m ? "#10151A" : "#8A97A3" }}>
+                         background: effectiveMode===m ? "#4FA3FF" : "#141A20", color: effectiveMode===m ? "#10151A" : "#8A97A3" }}>
                 {m === "instructor" ? "Modo instructor" : "Modo diagnóstico (falla oculta)"}
               </button>
             ))}
@@ -329,7 +361,7 @@ export default function EngineRoomSim() {
             </div>
           </div>
 
-          {mode === "instructor" ? (
+          {effectiveMode === "instructor" ? (
             <div>
               <div style={{ fontSize:11, color:"#8A97A3", marginBottom:8 }}>Inyecta una falla y observa la respuesta de los instrumentos:</div>
               <div style={{ display:"flex", flexWrap:"wrap", gap:8 }}>
