@@ -198,8 +198,8 @@ export default function VHFRadioSimulator() {
   if (!scenario) {
     return (
       <div className="mx-auto max-w-3xl p-6">
-        <h1 className="mb-1 text-2xl font-bold">VHF Radio Simulator</h1>
-        <p className="mb-6 text-sm text-slate-500">
+        <h1 className="mb-1 text-2xl font-bold text-[var(--mist)]">VHF Radio Simulator</h1>
+        <p className="mb-6 text-sm text-[var(--muted)]">
           Choose a scenario, press and hold the PTT button, and speak your transmission in English.
         </p>
         <div className="grid gap-4 sm:grid-cols-2">
@@ -207,7 +207,7 @@ export default function VHFRadioSimulator() {
             <button
               key={s.id}
               onClick={() => selectScenario(s)}
-              className="rounded-xl border border-slate-200 bg-white p-4 text-left shadow-sm transition hover:border-amber-400 hover:shadow"
+              className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 text-left text-[var(--mist)] shadow-sm transition hover:border-[var(--signal)] hover:shadow"
             >
               <span
                 className={
@@ -224,7 +224,7 @@ export default function VHFRadioSimulator() {
                 {s.category}
               </span>
               <h2 className="font-semibold">{s.title}</h2>
-              <p className="mt-1 text-xs text-slate-500">
+              <p className="mt-1 text-xs text-[var(--muted)]">
                 CH {s.channel} · Semester {s.semesterMin}+
               </p>
             </button>
@@ -239,18 +239,18 @@ export default function VHFRadioSimulator() {
       {/* Encabezado del escenario */}
       <div className="mb-4 flex items-start justify-between gap-4">
         <div>
-          <h1 className="text-xl font-bold">{scenario.title}</h1>
-          <p className="text-sm text-slate-500">
+          <h1 className="text-xl font-bold text-[var(--mist)]">{scenario.title}</h1>
+          <p className="text-sm text-[var(--muted)]">
             {scenario.studentVessel.name} · Call sign {scenario.studentVessel.callSign} · Channel {scenario.channel}
           </p>
         </div>
-        <button onClick={resetAll} className="text-sm text-slate-500 underline hover:text-slate-700">
+        <button onClick={resetAll} className="text-sm text-[var(--muted)] underline hover:text-[var(--mist)]">
           Change scenario
         </button>
       </div>
 
       {/* Briefing */}
-      <div className="mb-4 rounded-lg border border-slate-200 bg-slate-50 p-4 text-sm leading-relaxed">
+      <div className="mb-4 rounded-lg border border-[var(--line)] bg-[var(--panel)] p-4 text-sm leading-relaxed text-[var(--steel)]">
         {scenario.briefing}
       </div>
 
@@ -262,7 +262,7 @@ export default function VHFRadioSimulator() {
       {error && <p className="mb-4 rounded-lg bg-red-50 p-3 text-sm text-red-700">{error}</p>}
 
       {/* Registro de radio */}
-      <div className="mb-4 min-h-[10rem] space-y-2 rounded-lg border border-slate-200 bg-slate-900 p-4 font-mono text-sm">
+      <div className="mb-4 min-h-[10rem] space-y-2 rounded-lg border border-[var(--line)] bg-[var(--ink)] p-4 font-mono text-sm">
         {exchanges.length === 0 && (
           <p className="text-slate-500">— Channel {scenario.channel} open. Awaiting your transmission —</p>
         )}
@@ -309,7 +309,7 @@ export default function VHFRadioSimulator() {
                 value={fallbackText}
                 onChange={(e) => setFallbackText(e.target.value)}
                 rows={3}
-                className="w-full rounded-lg border border-slate-300 p-3 text-sm"
+                className="w-full rounded-lg border border-[var(--line)] bg-[var(--ink)] p-3 text-sm text-[var(--mist)] placeholder:text-[var(--muted)]"
                 placeholder="Type your transmission…"
               />
               <button
@@ -340,7 +340,7 @@ export default function VHFRadioSimulator() {
 
       {/* Evaluación */}
       {evaluation && (
-        <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+        <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 shadow-sm">
           <p
             className={
               'mb-3 inline-block rounded-full px-3 py-1 text-sm font-bold ' +
@@ -360,7 +360,7 @@ export default function VHFRadioSimulator() {
               </li>
             ))}
           </ul>
-          <p className="border-t border-slate-100 pt-3 text-sm italic text-slate-600">{evaluation.overallFeedback}</p>
+          <p className="border-t border-[var(--line)] pt-3 text-sm italic text-[var(--muted)]">{evaluation.overallFeedback}</p>
           <div className="mt-4 flex gap-3">
             <button
               onClick={() => selectScenario(scenario)}
@@ -370,7 +370,7 @@ export default function VHFRadioSimulator() {
             </button>
             <button
               onClick={resetAll}
-              className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50"
+              className="rounded-lg border border-[var(--line)] px-4 py-2 text-sm font-semibold text-[var(--mist)] hover:bg-[var(--panel-strong)]"
             >
               Other scenarios
             </button>
