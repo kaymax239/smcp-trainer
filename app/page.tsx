@@ -554,6 +554,13 @@ function AcademicProgramDashboard({
         </Link>
       )}
 
+      <Link className="careerChoiceCard liveTrafficCard" href="/vhf">
+        <span>Simulador de radio</span>
+        <strong>VHF Radio — Comunicaciones SMCP</strong>
+        <small>VHF</small>
+        <em>Practica por voz llamadas de radio (radio check, MAYDAY, PAN-PAN, SÉCURITÉ) con una estación costera simulada y recibe evaluación del procedimiento. Sección compartida entre carreras.</em>
+      </Link>
+
       <section className="flowPanel" aria-label={`${selectedProgram} semesters`}>
         <div className="panelTitle">
           <span>Semesters</span>
