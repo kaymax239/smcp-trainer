@@ -18,7 +18,20 @@
 // ============================================================
 
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { useSession } from 'next-auth/react';
 import { VHF_SCENARIOS, VhfScenario } from '@/data/vhf-scenarios'; // Ajustar ruta
+
+/* Rol por dominio del email de sesión (mismo patrón validado que
+   engine-room/EngineRoomSim.tsx). Split estricto por "@" — un
+   endsWith clasificaría MAL "es.fidena.edu.mx". Default restrictivo:
+   sin email legible = no docente. Se usa SOLO para mostrar el panel
+   de diagnóstico del micrófono a docentes (no a alumnos). */
+function isDocente(email: string | null | undefined): boolean {
+  if (!email) return false;
+  const parts = email.toLowerCase().split('@');
+  if (parts.length !== 2) return false;
+  return parts[1] === 'fidena.edu.mx';
+}
 
 // ---- Tipos mínimos para Web Speech API (evita errores de TS) ----
 interface SpeechRecognitionLike {
@@ -73,6 +86,8 @@ function speakAsCoastStation(text: string, onEnd: () => void) {
 }
 
 export default function VHFRadioSimulator() {
+  const { data: session } = useSession();
+  const showDiag = isDocente(session?.user?.email); // panel de micro solo a docentes
   const [scenario, setScenario] = useState<VhfScenario | null>(null);
   const [status, setStatus] = useState<SimStatus>('idle');
   const [exchanges, setExchanges] = useState<RadioExchange[]>([]);
@@ -81,9 +96,14 @@ export default function VHFRadioSimulator() {
   const [error, setError] = useState<string | null>(null);
   const [speechSupported, setSpeechSupported] = useState(true);
   const [fallbackText, setFallbackText] = useState('');
+  const [debug, setDebug] = useState<string[]>([]);
 
   const recognitionRef = useRef<SpeechRecognitionLike | null>(null);
   const finalTranscriptRef = useRef('');
+
+  // Diagnóstico temporal: rastrea el ciclo de vida del micro para distinguir
+  // "reconexión rota" de "dispositivo de entrada mudo". Quitar tras la prueba.
+  const dbg = useCallback((m: string) => setDebug((d) => [...d.slice(-11), m]), []);
 
   useEffect(() => {
     setSpeechSupported(!!getRecognition());
@@ -97,7 +117,16 @@ export default function VHFRadioSimulator() {
     if (!rec) return;
     finalTranscriptRef.current = '';
     setInterim('');
+    setDebug([]);
+    const r = rec as any;
+    r.onstart = () => dbg('recognition start');
+    r.onaudiostart = () => dbg('audio captured (mic open)');
+    r.onsoundstart = () => dbg('sound detected');
+    r.onspeechstart = () => dbg('SPEECH detected ✓');
+    r.onspeechend = () => dbg('speech end');
+    r.onnomatch = () => dbg('no match (heard but not understood)');
     rec.onresult = (event: any) => {
+      dbg('result received');
       let interimText = '';
       for (let i = event.resultIndex; i < event.results.length; i++) {
         const chunk = event.results[i][0].transcript;
@@ -107,13 +136,33 @@ export default function VHFRadioSimulator() {
       setInterim(interimText);
     };
     rec.onerror = (e: any) => {
-      if (e?.error === 'not-allowed') {
-        setError('Microphone permission denied. Please allow microphone access.');
-      }
+      // Antes solo se reportaba 'not-allowed' y el resto de fallos quedaban
+      // mudos (el clásico "no pasa nada al hablar"). Mapear cada código para
+      // que el cadete vea el motivo real — típico con audífonos sin micro.
+      const code = e?.error as string | undefined;
+      dbg(`ERROR: ${code ?? 'unknown'}`);
+      const messages: Record<string, string> = {
+        'not-allowed': 'Microphone permission denied. Please allow microphone access.',
+        'service-not-allowed': 'Microphone permission denied. Please allow microphone access.',
+        'audio-capture':
+          'No microphone detected. If you are on headphones without a mic, switch the input device (Chrome ⋮ → site settings) or unplug them.',
+        network:
+          'Speech service unreachable. Voice recognition needs an internet connection — check your network.',
+        'no-speech': 'No speech detected. Check your input device and speak clearly after pressing PTT.',
+        aborted: 'Transmission aborted. Try again.',
+      };
+      setError(messages[code ?? ''] ?? `Voice recognition error${code ? ` (${code})` : ''}. Try again.`);
+      setStatus('idle');
     };
     recognitionRef.current = rec;
-    rec.start();
-    setStatus('listening');
+    try {
+      rec.start();
+      setStatus('listening');
+    } catch (err: any) {
+      dbg(`start() threw: ${err?.message ?? err}`);
+      setError('Could not start voice recognition. Release and press PTT again.');
+      setStatus('idle');
+    }
   }, [scenario, status]);
 
   const stopListeningAndSend = useCallback(() => {
@@ -261,6 +310,17 @@ export default function VHFRadioSimulator() {
       )}
       {error && <p className="mb-4 rounded-lg bg-red-50 p-3 text-sm text-red-700">{error}</p>}
 
+      {/* Panel de diagnóstico del micrófono — visible SOLO a docentes.
+          Permite seguir validando la voz en producción sin exponerlo a alumnos. */}
+      {showDiag && debug.length > 0 && (
+        <div className="mb-4 rounded-lg border border-[var(--line)] bg-[var(--midnight)] p-3 font-mono text-xs text-[var(--muted)]">
+          <p className="mb-1 font-bold text-[var(--signal)]">MIC DIAGNOSTIC</p>
+          {debug.map((line, i) => (
+            <div key={i}>{line}</div>
+          ))}
+        </div>
+      )}
+
       {/* Registro de radio */}
       <div className="mb-4 min-h-[10rem] space-y-2 rounded-lg border border-[var(--line)] bg-[var(--ink)] p-4 font-mono text-sm">
         {exchanges.length === 0 && (
@@ -282,20 +342,23 @@ export default function VHFRadioSimulator() {
         <div className="flex flex-col items-center gap-3">
           {speechSupported ? (
             <button
-              onMouseDown={startListening}
-              onMouseUp={stopListeningAndSend}
-              onMouseLeave={() => status === 'listening' && stopListeningAndSend()}
-              onTouchStart={(e) => {
+              // PTT robusto: pointer events + captura del puntero. Con un botón
+              // redondo, onMouseLeave disparaba stop() en cuanto el cursor salía
+              // del círculo (movimiento mínimo al mantener) → 'aborted' antes de
+              // captar audio. setPointerCapture mantiene el pointerup en este
+              // elemento aunque el cursor se salga; así el hold no se corta.
+              onPointerDown={(e) => {
                 e.preventDefault();
+                (e.currentTarget as HTMLElement).setPointerCapture?.(e.pointerId);
                 startListening();
               }}
-              onTouchEnd={(e) => {
-                e.preventDefault();
+              onPointerUp={(e) => {
+                (e.currentTarget as HTMLElement).releasePointerCapture?.(e.pointerId);
                 stopListeningAndSend();
               }}
               disabled={status === 'processing' || status === 'coast-speaking'}
               className={
-                'h-28 w-28 select-none rounded-full text-sm font-bold uppercase tracking-wider text-white shadow-lg transition ' +
+                'h-28 w-28 touch-none select-none rounded-full text-sm font-bold uppercase tracking-wider text-white shadow-lg transition ' +
                 (status === 'listening'
                   ? 'scale-110 bg-red-600 ring-4 ring-red-300'
                   : 'bg-slate-700 hover:bg-slate-600 disabled:opacity-40')
