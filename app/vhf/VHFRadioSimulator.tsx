@@ -33,6 +33,12 @@ function isDocente(email: string | null | undefined): boolean {
   return parts[1] === 'fidena.edu.mx';
 }
 
+// Marcador que se muestra/envía cuando el micro captó sonido pero el
+// reconocedor no produjo texto legible. Así el alumno SIEMPRE ve algo
+// en la ventana ("incluyendo si no se entiende") y la estación puede
+// pedir "say again".
+const UNINTELLIGIBLE = '(unintelligible — say again)';
+
 // ---- Tipos mínimos para Web Speech API (evita errores de TS) ----
 interface SpeechRecognitionLike {
   lang: string;
@@ -100,6 +106,9 @@ export default function VHFRadioSimulator() {
 
   const recognitionRef = useRef<SpeechRecognitionLike | null>(null);
   const finalTranscriptRef = useRef('');
+  // Última hipótesis parcial (interim). Se guarda en ref para poder leerla
+  // dentro del closure de onend sin depender del estado de React.
+  const interimRef = useRef('');
 
   // Diagnóstico temporal: rastrea el ciclo de vida del micro para distinguir
   // "reconexión rota" de "dispositivo de entrada mudo". Quitar tras la prueba.
@@ -116,6 +125,7 @@ export default function VHFRadioSimulator() {
     const rec = getRecognition();
     if (!rec) return;
     finalTranscriptRef.current = '';
+    interimRef.current = '';
     setInterim('');
     setDebug([]);
     const r = rec as any;
@@ -124,7 +134,12 @@ export default function VHFRadioSimulator() {
     r.onsoundstart = () => dbg('sound detected');
     r.onspeechstart = () => dbg('SPEECH detected ✓');
     r.onspeechend = () => dbg('speech end');
-    r.onnomatch = () => dbg('no match (heard but not understood)');
+    r.onnomatch = () => {
+      dbg('no match (heard but not understood)');
+      // Se oyó algo pero no se entendió: mostrar el marcador en vivo.
+      interimRef.current = UNINTELLIGIBLE;
+      setInterim(UNINTELLIGIBLE);
+    };
     rec.onresult = (event: any) => {
       dbg('result received');
       let interimText = '';
@@ -133,7 +148,10 @@ export default function VHFRadioSimulator() {
         if (event.results[i].isFinal) finalTranscriptRef.current += chunk + ' ';
         else interimText += chunk;
       }
-      setInterim(interimText);
+      // La ventana "teclea" en vivo: mostramos lo definitivo acumulado + lo parcial.
+      const liveText = (finalTranscriptRef.current + interimText).trim();
+      interimRef.current = liveText;
+      setInterim(liveText);
     };
     rec.onerror = (e: any) => {
       // Antes solo se reportaba 'not-allowed' y el resto de fallos quedaban
@@ -141,6 +159,10 @@ export default function VHFRadioSimulator() {
       // que el cadete vea el motivo real — típico con audífonos sin micro.
       const code = e?.error as string | undefined;
       dbg(`ERROR: ${code ?? 'unknown'}`);
+      // 'aborted' / 'no-speech' NO son errores duros: el alumno soltó el PTT
+      // o hizo una pausa. Dejamos que onend decida con el texto capturado en
+      // vez de tirar un error rojo y borrar el flujo.
+      if (code === 'aborted' || code === 'no-speech') return;
       const messages: Record<string, string> = {
         'not-allowed': 'Microphone permission denied. Please allow microphone access.',
         'service-not-allowed': 'Microphone permission denied. Please allow microphone access.',
@@ -148,8 +170,6 @@ export default function VHFRadioSimulator() {
           'No microphone detected. If you are on headphones without a mic, switch the input device (Chrome ⋮ → site settings) or unplug them.',
         network:
           'Speech service unreachable. Voice recognition needs an internet connection — check your network.',
-        'no-speech': 'No speech detected. Check your input device and speak clearly after pressing PTT.',
-        aborted: 'Transmission aborted. Try again.',
       };
       setError(messages[code ?? ''] ?? `Voice recognition error${code ? ` (${code})` : ''}. Try again.`);
       setStatus('idle');
@@ -169,13 +189,15 @@ export default function VHFRadioSimulator() {
     const rec = recognitionRef.current;
     if (!rec) return;
     rec.onend = () => {
-      const transcript = finalTranscriptRef.current.trim();
+      // Prioridad: texto definitivo. Si el alumno soltó el PTT antes de que el
+      // reconocedor "finalizara" (el caso "no sale nada"), caemos a la última
+      // hipótesis parcial para no perder lo dicho. Si tampoco hay nada legible,
+      // enviamos el marcador para que igual quede registrado en la ventana.
+      const finalT = finalTranscriptRef.current.trim();
+      const partialT = interimRef.current.trim();
+      const transcript = finalT || partialT || UNINTELLIGIBLE;
       setInterim('');
-      if (transcript) {
-        void sendTransmission(transcript, false);
-      } else {
-        setStatus('idle');
-      }
+      void sendTransmission(transcript, false);
     };
     rec.stop();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -323,7 +345,7 @@ export default function VHFRadioSimulator() {
 
       {/* Registro de radio */}
       <div className="mb-4 min-h-[10rem] space-y-2 rounded-lg border border-[var(--line)] bg-[var(--ink)] p-4 font-mono text-sm">
-        {exchanges.length === 0 && (
+        {exchanges.length === 0 && status !== 'listening' && (
           <p className="text-slate-500">— Channel {scenario.channel} open. Awaiting your transmission —</p>
         )}
         {exchanges.map((e, i) => (
@@ -332,7 +354,15 @@ export default function VHFRadioSimulator() {
             {e.text}
           </p>
         ))}
-        {status === 'listening' && interim && <p className="italic text-emerald-200/70">{interim}…</p>}
+        {/* Transcripción EN VIVO: la ventana teclea lo que se va oyendo,
+            incluso una hipótesis parcial o "(unintelligible)". */}
+        {status === 'listening' && (
+          <p className="italic text-emerald-200/70">
+            <span className="mr-2 font-bold not-italic text-emerald-300">YOU:</span>
+            {interim || 'listening…'}
+            <span className="ml-0.5 animate-pulse">▋</span>
+          </p>
+        )}
         {status === 'processing' && <p className="animate-pulse text-slate-400">▮▮ transmitting…</p>}
         {status === 'coast-speaking' && <p className="animate-pulse text-sky-400">📻 incoming transmission…</p>}
       </div>

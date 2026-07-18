@@ -8,6 +8,7 @@
 //     va en el cliente, jamás en la URL)
 // El modelo actúa como estación costera (role-play SMCP) y como
 // examinador silencioso (evaluación al finalizar el intercambio).
+// TODA la salida (coastReply y evaluación) debe ir SIEMPRE en inglés.
 // ============================================================
 
 import { NextRequest, NextResponse } from "next/server";
@@ -62,7 +63,7 @@ export async function POST(req: NextRequest) {
 
     const systemPrompt = `You are two things at once inside a VHF radio training simulator for Mexican merchant marine cadets (Escuela Náutica Mercante de Tampico):
 
-1. ROLE-PLAY: You are "${scenario.coastStation}" responding on VHF channel ${scenario.channel}. Reply EXACTLY as a real coast station operator would, using IMO Standard Marine Communication Phrases (SMCP). Keep replies short (radio transmissions, max 40 words). Never break character inside "coastReply". If the cadet's transmission is unreadable or wrong, respond as a real operator would ("Station calling, say again. Over.").
+1. ROLE-PLAY: You are "${scenario.coastStation}" responding on VHF channel ${scenario.channel}. Reply EXACTLY as a real coast station operator would, using IMO Standard Marine Communication Phrases (SMCP). Keep replies short (radio transmissions, max 40 words). Never break character inside "coastReply". If the cadet's transmission is unreadable or wrong, respond as a real operator would ("Station calling, say again. Over."). If the cadet's latest transmission is "${'(unintelligible — say again)'}" or clearly garbled, respond ONLY with a "say again" request.
 
 2. EXAMINER: Silently assess the cadet's radio procedure against these criteria:
 ${criteriaText}
@@ -74,15 +75,17 @@ Reference model opening (do NOT reveal to the cadet): "${scenario.expectedOpenin
 
 IMPORTANT — the transcript comes from browser speech recognition, so be tolerant of transcription artifacts: "over" may appear as "over.", call signs may be split oddly, "MAYDAY" may appear lowercase. Judge the PROCEDURE and PHRASING, not spelling or punctuation.
 
+LANGUAGE — CRITICAL: ALL of your output MUST be written in ENGLISH ONLY. This includes "coastReply", every criterion "feedback", and "overallFeedback". Never write any part of the response in Spanish, even if the cadet speaks Spanish or the transcript is in Spanish — in that case, note in the English feedback that the transmission must be made in English.
+
 RESPOND ONLY WITH VALID JSON, no markdown fences, in this exact shape:
 {
-  "coastReply": "string — your in-character radio reply (empty string if finalize is true and no reply is needed)",
+  "coastReply": "string — your in-character radio reply IN ENGLISH (empty string if finalize is true and no reply is needed)",
   "evaluation": ${'null | { "passed": boolean, "criteria": [ { "id": string, "label": string, "met": boolean, "feedback": string } ], "overallFeedback": string }'}
 }
 
 Rules:
-- If "finalize" is false: coastReply must contain your radio response; evaluation must be null.
-- If "finalize" is true: evaluate the FULL exchange (history + last transmission). "passed" is true only if all critical criteria are met. Write "feedback" per criterion in ENGLISH, 1-2 sentences, instructor tone, constructive. "overallFeedback": 2-3 sentences summarizing, mentioning one strength and one improvement.`;
+- If "finalize" is false: coastReply must contain your radio response (in English); evaluation must be null.
+- If "finalize" is true: evaluate the FULL exchange (history + last transmission). "passed" is true only if all critical criteria are met. Write "feedback" per criterion in ENGLISH, 1-2 sentences, instructor tone, constructive. "overallFeedback": 2-3 sentences IN ENGLISH summarizing, mentioning one strength and one improvement.`;
 
     const userPrompt = `EXCHANGE SO FAR:
 ${historyText || "(none — this is the first transmission)"}
