@@ -1866,6 +1866,96 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
     subjectName: "Sentence Builder",
     subjectId: "pn-s1-maritime-english-i",
     unit: "Construcción de oraciones",
+    topic: "Orden de palabras en oraciones elementales (A0-A1)",
+    week: 3,
+    taskId: "pn-ing102-w03-sentence-builder-l1-game",
+    taskTitle: "English Lesson: Nivel 1 — Sentence Builder",
+    scenario: "Every report on board starts with simple, correct English. In this Level 1 drill you rebuild very basic scrambled sentences — greetings, introductions and the verb to be — until the correct word order comes naturally.",
+    instructions: [
+      "Read the scrambled word bank for each sentence.",
+      "Tap the words in the correct order to build the sentence.",
+      "Press Check to confirm, then continue to the next sentence.",
+      "Keep your streak going: 3 correct in a row earns a bonus."
+    ],
+    deliverable: "Twelve A0-A1 sentences rebuilt in the correct word order, completing the Level 1 Sentence Builder drill.",
+    assessmentCriteria: [
+      "Words are placed in grammatically correct order.",
+      "Level 1 structures (verb to be, a/an articles, simple plurals, this/that, greetings and self-introduction) are handled correctly.",
+      "The full twelve-sentence drill is completed."
+    ],
+    xp: 20,
+    estimatedTime: "15 min",
+    difficulty: "Foundation",
+    game: {
+      type: "grammar-sentence-builder",
+      sentences: [
+        { words: ["I", "am", "a", "cadet"], grammarPoint: "verb to be" },
+        { words: ["She", "is", "the", "captain"], grammarPoint: "verb to be" },
+        { words: ["It", "is", "a", "ship"], grammarPoint: "a / an (articles)" },
+        { words: ["He", "is", "an", "officer"], grammarPoint: "a / an (articles)" },
+        { words: ["This", "is", "my", "cabin"], grammarPoint: "this / that" },
+        { words: ["That", "is", "the", "bridge"], grammarPoint: "this / that" },
+        { words: ["We", "are", "sailors"], grammarPoint: "plural nouns" },
+        { words: ["They", "are", "engineers"], grammarPoint: "plural nouns" },
+        { words: ["Good", "morning", "Captain"], grammarPoint: "greetings" },
+        { words: ["My", "name", "is", "Ana"], grammarPoint: "introducing yourself" },
+        { words: ["Are", "you", "the", "pilot"], grammarPoint: "verb to be (questions)" },
+        { words: ["The", "boat", "is", "new"], grammarPoint: "verb to be" }
+      ]
+    }
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "Inglés por Niveles",
+    subjectName: "Sentence Builder",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Construcción de oraciones",
+    topic: "Orden de palabras en oraciones simples (A1)",
+    week: 4,
+    taskId: "pn-ing102-w04-sentence-builder-l2-game",
+    taskTitle: "English Lesson: Nivel 2 — Sentence Builder",
+    scenario: "Now you build everyday shipboard sentences. This Level 2 drill practises the present simple, there is / there are, prepositions of place, can / can't and possessive adjectives until the A1 word order comes naturally.",
+    instructions: [
+      "Read the scrambled word bank for each sentence.",
+      "Tap the words in the correct order to build the sentence.",
+      "Press Check to confirm, then continue to the next sentence.",
+      "Keep your streak going: 3 correct in a row earns a bonus."
+    ],
+    deliverable: "Twelve A1 sentences rebuilt in the correct word order, completing the Level 2 Sentence Builder drill.",
+    assessmentCriteria: [
+      "Words are placed in grammatically correct order.",
+      "Level 2 structures (present simple, there is / there are, prepositions of place, can / can't and possessive adjectives) are handled correctly.",
+      "The full twelve-sentence drill is completed."
+    ],
+    xp: 20,
+    estimatedTime: "15 min",
+    difficulty: "Foundation",
+    game: {
+      type: "grammar-sentence-builder",
+      sentences: [
+        { words: ["The", "captain", "works", "on", "the", "bridge"], grammarPoint: "present simple" },
+        { words: ["I", "check", "the", "engine", "every", "day"], grammarPoint: "present simple" },
+        { words: ["There", "is", "a", "lifeboat", "on", "deck"], grammarPoint: "there is" },
+        { words: ["There", "are", "four", "officers", "on", "board"], grammarPoint: "there are" },
+        { words: ["The", "chart", "is", "on", "the", "table"], grammarPoint: "prepositions of place" },
+        { words: ["The", "crew", "is", "in", "the", "mess", "room"], grammarPoint: "prepositions of place" },
+        { words: ["I", "can", "read", "the", "compass"], grammarPoint: "can" },
+        { words: ["She", "can't", "swim", "very", "well"], grammarPoint: "can't" },
+        { words: ["This", "is", "my", "life", "jacket"], grammarPoint: "possessive adjectives" },
+        { words: ["Their", "cabin", "is", "very", "small"], grammarPoint: "possessive adjectives" },
+        { words: ["He", "starts", "the", "main", "engine"], grammarPoint: "present simple (third person)" },
+        { words: ["There", "are", "two", "anchors", "at", "the", "bow"], grammarPoint: "there are" }
+      ]
+    }
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "Inglés por Niveles",
+    subjectName: "Sentence Builder",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Construcción de oraciones",
     topic: "Orden de palabras en oraciones básicas (A1-A2)",
     week: 5,
     taskId: "pn-ing102-w05-sentence-builder-game",
@@ -3866,6 +3956,96 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
         { term: "PREFERENTIAL TRIP", definition: "Shedding non-essential electrical loads to protect the essential services" },
         { term: "DEW POINT", definition: "The temperature at which the moisture in the air condenses into water" },
         { term: "FLASH POINT", definition: "The lowest temperature at which a liquid gives off ignitable vapours" }
+      ]
+    }
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "Inglés por Niveles",
+    subjectName: "Sentence Builder",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Construcción de oraciones",
+    topic: "Orden de palabras en oraciones complejas (B1-B2)",
+    week: 11,
+    taskId: "pn-ing102-w11-sentence-builder-l7-game",
+    taskTitle: "English Lesson: Nivel 7 — Sentence Builder",
+    scenario: "Incident reports and watch handovers need controlled, higher-level grammar. This Level 7 drill practises present perfect versus past simple, first and second conditionals, the passive voice and basic reported speech until the B1-B2 order comes naturally.",
+    instructions: [
+      "Read the scrambled word bank for each sentence.",
+      "Tap the words in the correct order to build the sentence.",
+      "Press Check to confirm, then continue to the next sentence.",
+      "Keep your streak going: 3 correct in a row earns a bonus."
+    ],
+    deliverable: "Twelve B1-B2 sentences rebuilt in the correct word order, completing the Level 7 Sentence Builder drill.",
+    assessmentCriteria: [
+      "Words are placed in grammatically correct order.",
+      "Level 7 structures (present perfect vs past simple, first and second conditionals, passive voice and basic reported speech) are handled correctly.",
+      "The full twelve-sentence drill is completed."
+    ],
+    xp: 20,
+    estimatedTime: "15 min",
+    difficulty: "Standard",
+    game: {
+      type: "grammar-sentence-builder",
+      sentences: [
+        { words: ["The", "crew", "has", "finished", "the", "cargo", "operation"], grammarPoint: "present perfect" },
+        { words: ["We", "arrived", "in", "Tampico", "yesterday"], grammarPoint: "past simple" },
+        { words: ["I", "have", "already", "checked", "the", "lifeboats"], grammarPoint: "present perfect vs past simple" },
+        { words: ["If", "the", "weather", "worsens", "we", "will", "reduce", "speed"], grammarPoint: "first conditional" },
+        { words: ["If", "I", "were", "the", "captain", "I", "would", "change", "course"], grammarPoint: "second conditional" },
+        { words: ["The", "engine", "was", "repaired", "by", "the", "second", "engineer"], grammarPoint: "passive voice (past)" },
+        { words: ["The", "cargo", "is", "loaded", "every", "morning"], grammarPoint: "passive voice (present)" },
+        { words: ["The", "captain", "said", "that", "the", "pilot", "was", "late"], grammarPoint: "reported speech" },
+        { words: ["She", "told", "me", "she", "had", "seen", "the", "vessel"], grammarPoint: "reported speech" },
+        { words: ["He", "has", "worked", "on", "this", "ship", "for", "two", "years"], grammarPoint: "present perfect (for / since)" },
+        { words: ["If", "the", "alarm", "sounds", "the", "crew", "will", "muster", "on", "deck"], grammarPoint: "first conditional" },
+        { words: ["The", "report", "has", "been", "sent", "to", "the", "office"], grammarPoint: "passive voice (present perfect)" }
+      ]
+    }
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "Inglés por Niveles",
+    subjectName: "Sentence Builder",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Construcción de oraciones",
+    topic: "Orden de palabras en oraciones avanzadas (B2)",
+    week: 12,
+    taskId: "pn-ing102-w12-sentence-builder-l8-game",
+    taskTitle: "English Lesson: Nivel 8 — Sentence Builder",
+    scenario: "At the top of the ladder you handle the grammar of professional analysis: relative clauses, the third conditional, perfect passives, modals of deduction and discourse connectors. This Level 8 drill rebuilds complex scrambled sentences until the B2 order comes naturally.",
+    instructions: [
+      "Read the scrambled word bank for each sentence.",
+      "Tap the words in the correct order to build the sentence.",
+      "Press Check to confirm, then continue to the next sentence.",
+      "Keep your streak going: 3 correct in a row earns a bonus."
+    ],
+    deliverable: "Twelve B2 sentences rebuilt in the correct word order, completing the Level 8 Sentence Builder drill.",
+    assessmentCriteria: [
+      "Words are placed in grammatically correct order.",
+      "Level 8 structures (relative clauses, third conditional, perfect passives, modals of deduction and discourse connectors) are handled correctly.",
+      "The full twelve-sentence drill is completed."
+    ],
+    xp: 20,
+    estimatedTime: "15 min",
+    difficulty: "Advanced",
+    game: {
+      type: "grammar-sentence-builder",
+      sentences: [
+        { words: ["The", "officer", "who", "has", "the", "watch", "must", "stay", "alert"], grammarPoint: "relative clauses (who)" },
+        { words: ["This", "is", "the", "pump", "that", "failed", "last", "night"], grammarPoint: "relative clauses (that)" },
+        { words: ["If", "we", "had", "checked", "the", "gauge", "we", "would", "have", "avoided", "the", "fault"], grammarPoint: "third conditional" },
+        { words: ["If", "the", "master", "had", "known", "he", "would", "have", "altered", "course"], grammarPoint: "third conditional" },
+        { words: ["The", "valve", "should", "have", "been", "closed", "before", "departure"], grammarPoint: "perfect passive with modal" },
+        { words: ["The", "tanks", "had", "been", "inspected", "before", "loading"], grammarPoint: "past perfect passive" },
+        { words: ["The", "engineer", "must", "have", "forgotten", "to", "log", "the", "reading"], grammarPoint: "modals of deduction (must have)" },
+        { words: ["The", "vessel", "can't", "have", "left", "the", "port", "yet"], grammarPoint: "modals of deduction (can't have)" },
+        { words: ["The", "pump", "failed", "therefore", "we", "started", "the", "standby", "unit"], grammarPoint: "discourse connectors (therefore)" },
+        { words: ["The", "sea", "was", "rough", "nevertheless", "the", "crew", "finished", "the", "work"], grammarPoint: "discourse connectors (nevertheless)" },
+        { words: ["The", "chief", "engineer", "who", "joined", "last", "month", "is", "very", "experienced"], grammarPoint: "non-defining relative clauses" },
+        { words: ["They", "might", "have", "received", "the", "message", "already"], grammarPoint: "modals of deduction (might have)" }
       ]
     }
   },
