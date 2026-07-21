@@ -352,6 +352,130 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Maritimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Equipo de maniobra",
+    topic: "Equipo de fondeo y maniobra: anclas, molinete, cadena y frenos",
+    week: 9,
+    taskId: "pn-tmo101-plan-anchoring-operation",
+    taskTitle: "Plan An Anchoring Operation In The Outer Anchorage",
+    scenario:
+      "The vessel is inbound to Tampico and ordered to anchor in the outer anchorage to await a berth. The master tells the deck cadet to prepare the forecastle team and brief the anchoring plan before stations.",
+    instructions: [
+      "Name the main anchoring equipment: anchor, cable, windlass, brake, and chain stopper, and state the function of each.",
+      "Explain how the officer decides the amount of cable to pay out for the charted depth in the anchorage.",
+      "Give the sequence of orders from 'stand by the anchor' to 'brought up', in correct SMCP-style bridge-to-forecastle English.",
+      "State two safety checks the forecastle team reports back before and after letting go."
+    ],
+    deliverable:
+      "A forecastle anchoring brief: equipment named with functions, cable scope reasoning, and the ordered sequence of commands and reports in maritime English.",
+    assessmentCriteria: [
+      "Anchoring equipment is named correctly with its function.",
+      "Cable scope reasoning is sound for the charted depth.",
+      "Order sequence follows correct anchoring procedure.",
+      "Bridge-to-forecastle communication is clear and in correct SMCP-style English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Maritimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Refuerzos de Proa y Popa",
+    topic: "Refuerzos estructurales de proa y popa frente a esfuerzos y mar gruesa",
+    week: 10,
+    taskId: "pn-tmo101-bow-stern-reinforcement-heavy-weather",
+    taskTitle: "Brief Bow And Stern Reinforcement Against Heavy-Weather Stresses",
+    scenario:
+      "A heavy-weather warning is in force for the passage north of Tampico with a rising swell. The deck officer asks the cadet to explain why the bow and stern are specially reinforced and how the sea state affects those structures.",
+    instructions: [
+      "Identify the structural reinforcements at the bow and stern (e.g. panting arrangements, breasthooks, transom framing) and what each resists.",
+      "Using the heavy-weather / sea-state picture, explain how pitching in a head swell loads the bow structure.",
+      "Connect the reinforcement to one deck-watch action taken in heavy weather (e.g. reducing speed, altering course to ease pounding).",
+      "Report the brief in clear deck-watch English."
+    ],
+    deliverable:
+      "A heavy-weather structural brief linking bow/stern reinforcement to the sea-state loads and to a deck-watch action.",
+    assessmentCriteria: [
+      "Bow and stern reinforcements are named correctly with what they resist.",
+      "The link between swell/pitching and structural load is sound.",
+      "A relevant heavy-weather deck action is identified.",
+      "The brief is clear and in correct deck-watch English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Maritimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Tanques de lastre, agua dulce y combustible",
+    topic: "Operacion de lastre y su efecto en calado, asiento y estabilidad",
+    week: 11,
+    taskId: "pn-tmo101-direct-ballast-operation",
+    taskTitle: "Direct A Ballast Operation For Departure Trim",
+    scenario:
+      "Before departure the vessel is light on cargo forward and the master wants an even keel with a small stern trim. The cadet must plan and communicate a simple ballast operation with the duty engineer.",
+    instructions: [
+      "Explain what ballast water is for and how filling or emptying tanks changes draft and trim.",
+      "Decide, in general terms, which tanks to adjust to correct a bow-down condition to a small stern trim.",
+      "Write the request to the engine room to transfer/adjust ballast, using clear operational English.",
+      "State one MARPOL-related precaution when handling ballast water."
+    ],
+    deliverable:
+      "A ballast operation plan with the deck-to-engine request in maritime English and the expected effect on draft and trim.",
+    assessmentCriteria: [
+      "Effect of ballast on draft and trim is explained correctly.",
+      "Tank-adjustment reasoning matches the desired trim.",
+      "The deck-to-engine request is clear and professional in English.",
+      "A valid MARPOL ballast precaution is stated."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Maritimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Lineas de Carga y Marca de calados",
+    topic: "Zonas y periodos estacionales de las lineas de carga y francobordo",
+    week: 12,
+    taskId: "pn-tmo101-verify-load-line-compliance",
+    taskTitle: "Verify Load Line Compliance For A Loaded Departure",
+    scenario:
+      "The vessel is fully loaded and about to depart Tampico bound for a port across a seasonal load line zone boundary. The master asks the cadet to verify the ship is not overloaded for the zone it will transit.",
+    instructions: [
+      "Identify the load line marks (S, W, T, F, TF) and what each represents.",
+      "Explain how the applicable mark changes with the seasonal zone and season of the voyage.",
+      "Read the departure draft against the applicable load line and state whether the vessel complies.",
+      "Report the compliance check as a written statement in maritime English, flagging any corrective action if overloaded."
+    ],
+    deliverable:
+      "A load line compliance statement for the intended voyage, showing the applicable mark, the draft read, and a clear compliant / not-compliant verdict.",
+    assessmentCriteria: [
+      "Load line marks are identified correctly.",
+      "The applicable mark matches the seasonal zone of the voyage.",
+      "Draft-to-mark comparison and verdict are correct.",
+      "The statement is clear, professional, and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "ALG103",
     subjectName: "Algebra",
     subjectId: "pn-s1-algebra",
@@ -573,6 +697,122 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Algebra Elemental",
+    topic: "Exponentes y radicales",
+    week: 9,
+    taskId: "pn-alg103-w09-radical-range-calculation",
+    taskTitle: "Calculate A Direct Range Using Squares And A Square Root",
+    scenario: "On the approach to Altamira the officer notes a buoy 3 nautical miles right ahead and an offshore platform 4 nautical miles abeam to starboard, the two lying at a right angle from the vessel. The officer asks the cadet to find the straight-line distance to the platform.",
+    instructions: [
+      "Set up the relationship between the two legs and the direct distance using squares (Pythagoras): d squared = a squared + b squared.",
+      "Substitute a = 3 nautical miles ahead and b = 4 nautical miles abeam and evaluate the squares.",
+      "Take the square root of the sum to find the direct distance to the platform.",
+      "Report the direct distance with the correct unit, in clear deck English."
+    ],
+    deliverable: "A calculation note in English giving the direct range via the sum of squares and a square root, with the working shown.",
+    assessmentCriteria: [
+      "The relationship is set up correctly with squares (d squared = a squared + b squared).",
+      "The squares are evaluated correctly (9 + 16 = 25).",
+      "The square root gives the correct direct distance (root 25 = 5 nautical miles).",
+      "The result carries the correct unit and is reported in clear deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Logaritmos",
+    topic: "Funciones exponenciales y logaritmicas",
+    week: 10,
+    taskId: "pn-alg103-w10-logarithm-sound-signal",
+    taskTitle: "Work A Sound Signal Level Using Logarithms",
+    scenario: "During a fog-signal check the officer explains that the ship's whistle level is measured in decibels, a logarithmic scale, and asks the cadet to work out the level and how it changes when a second signal is far more intense.",
+    instructions: [
+      "State that the decibel scale is logarithmic and use the formula L = 10 x log10(I / I0).",
+      "For an intensity ratio I / I0 = 10 to the power 12, evaluate the logarithm and the sound level in decibels.",
+      "A second signal is 100 times more intense; use the log rule to find how many decibels that adds.",
+      "Report both levels in decibels, in clear deck English."
+    ],
+    deliverable: "A note in English giving the whistle sound level in decibels and the decibels added by the more intense signal, with the working shown.",
+    assessmentCriteria: [
+      "The logarithmic decibel formula is stated correctly.",
+      "The first level is correct (10 x log10(10 to the 12) = 120 dB).",
+      "The added level is correct (10 x log10(100) = 20 dB, giving 140 dB).",
+      "The results carry the decibel unit and are reported in clear deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Matrices y determinantes",
+    topic: "Matrices, determinantes e inversa",
+    week: 11,
+    taskId: "pn-alg103-w11-matrix-ballast-distribution",
+    taskTitle: "Solve A Two-Tank Ballast Split With Matrices",
+    scenario: "To set a departure trim the officer must add 100 tonnes of ballast split between a forward and an after tank so that the total moment about a reference point is 500 tonne-metres. The cadet is asked to solve the split using matrices.",
+    instructions: [
+      "Write the two conditions as a system: x + y = 100 (total ballast) and 3x + 8y = 500 (moment target), where x and y are the tank quantities.",
+      "Express the system in matrix form and calculate the determinant of the coefficient matrix.",
+      "Solve for x and y using determinants (Cramer's rule) or the inverse matrix.",
+      "Report the ballast in each tank, confirm both conditions are met, in clear deck English."
+    ],
+    deliverable: "A matrix-solution note in English giving the ballast quantity for each tank, with the determinant and the working shown.",
+    assessmentCriteria: [
+      "The two conditions are written correctly as a 2x2 linear system.",
+      "The determinant of the coefficient matrix is correct (1x8 - 1x3 = 5).",
+      "The tank quantities are correct (x = 60 tonnes, y = 40 tonnes) and satisfy both equations.",
+      "The result is reported clearly with units in correct deck English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Algebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Sistemas de Ecuaciones y desigualdades",
+    topic: "Programacion lineal",
+    week: 12,
+    taskId: "pn-alg103-w12-linear-programming-cargo-mix",
+    taskTitle: "Optimise A Cargo Mix Under Weight And Space Limits",
+    scenario: "A vessel can load two cargoes for the same voyage. Cargo A earns 40 freight units per unit and weighs 2 tonnes; cargo B earns 30 and weighs 1 tonne. The deadweight allows 100 tonnes and the hold takes 70 units in total. The chief officer asks the cadet to find the mix that earns the most freight.",
+    instructions: [
+      "Write the objective function (total freight P = 40A + 30B) and the weight (2A + B <= 100) and volume (A + B <= 70) constraints.",
+      "Identify the corner points (vertices) of the feasible region.",
+      "Evaluate the freight at each vertex and select the loading mix that maximises it.",
+      "Report the optimal number of units of each cargo and the freight earned, in clear deck English."
+    ],
+    deliverable: "A linear-programming note in English giving the objective, the constraints, the vertices tested, and the optimal cargo mix, with the working shown.",
+    assessmentCriteria: [
+      "The objective and both constraints are written correctly as a linear program.",
+      "The feasible corner points are found correctly.",
+      "The optimal mix is correct (30 units of A and 40 of B) maximising freight at 2400.",
+      "The result is reported clearly in correct deck English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -810,6 +1050,122 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecanica",
+    topic: "Movimiento circular",
+    week: 9,
+    taskId: "pn-fis104-w09-turning-circle-centripetal",
+    taskTitle: "Analyse The Forces In A Vessel's Turn",
+    scenario: "While altering course in the Tampico approaches the vessel makes a steady turn of radius 250 metres at 5 metres per second. The officer asks the cadet to explain the forces in the turn and to work out the centripetal acceleration.",
+    instructions: [
+      "Explain that in a turn the centripetal acceleration points toward the centre of the turning circle.",
+      "Using a = v squared / r, calculate the centripetal acceleration for v = 5 m/s and r = 250 m.",
+      "Explain why the vessel heels outward in the turn and how speed and radius change the effect.",
+      "Report the acceleration with units and the effect on the vessel, in clear deck English."
+    ],
+    deliverable: "A circular-motion note in English giving the centripetal acceleration and the reason the vessel heels in a turn, with the working shown.",
+    assessmentCriteria: [
+      "Centripetal acceleration is correctly described as directed toward the centre of the turn.",
+      "The acceleration is calculated correctly from a = v squared / r (25 / 250 = 0.1 m/s2).",
+      "The outward heel and the effect of speed and radius are explained correctly.",
+      "The result carries the correct unit and is reported in clear deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecanica",
+    topic: "Impulso y cantidad de movimiento",
+    week: 10,
+    taskId: "pn-fis104-w10-berthing-momentum-impulse",
+    taskTitle: "Calculate The Momentum And Impulse At Berthing",
+    scenario: "A 200-tonne workboat comes alongside the quay at 0.5 metres per second and is brought to rest by a fender over 5 seconds. The officer asks the cadet to work out the momentum and the average force the fender must absorb.",
+    instructions: [
+      "Calculate the vessel's momentum on approach using p = m x v.",
+      "State that to stop the vessel the fender must supply an impulse equal to the change in momentum.",
+      "Using impulse = force x time, calculate the average force on the fender over the 5-second contact.",
+      "Report the momentum and the fender force with units and one berthing-safety implication, in clear deck English."
+    ],
+    deliverable: "A momentum-impulse note in English giving the approach momentum, the impulse, and the average fender force, with one safety implication and the working shown.",
+    assessmentCriteria: [
+      "The momentum is calculated correctly from p = m x v (200000 x 0.5 = 100000 kg m/s).",
+      "The impulse needed to stop the vessel is correctly set equal to the change in momentum.",
+      "The average fender force is correct (100000 / 5 = 20000 N = 20 kN).",
+      "Units are correct and the safety implication is reported in clear deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Ondas",
+    topic: "Movimiento ondulatorio",
+    week: 11,
+    taskId: "pn-fis104-w11-wave-sound-and-swell",
+    taskTitle: "Apply Wave Physics To A Sound Signal And A Swell",
+    scenario: "In fog off the approaches the vessel sounds its whistle, and a heavy swell is running. The officer asks the cadet to apply the wave relationship to find the wavelength of the whistle's sound and of the swell.",
+    instructions: [
+      "State the wave relationship speed = frequency x wavelength and that it applies to sound and to sea waves.",
+      "For the whistle (speed of sound 340 m/s, frequency 170 Hz), calculate the wavelength.",
+      "For a swell moving at 10 m/s with a period of 8 s, calculate its wavelength using wavelength = speed x period.",
+      "Report both wavelengths with units and one operational use of wave information in fog or heavy weather, in clear deck English."
+    ],
+    deliverable: "A wave note in English giving the sound wavelength and the swell wavelength and one operational use, with the working shown.",
+    assessmentCriteria: [
+      "The relationship speed = frequency x wavelength is stated correctly.",
+      "The sound wavelength is correct (340 / 170 = 2 m).",
+      "The swell wavelength is correct (10 x 8 = 80 m).",
+      "Units are correct and the operational use is reported in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecanica",
+    topic: "Cinematica en una y dos dimensiones",
+    week: 12,
+    taskId: "pn-fis104-w12-relative-motion-cpa",
+    taskTitle: "Work The Relative Motion Of Two Vessels On The AIS Picture",
+    scenario: "On the AIS traffic picture in the Altamira approaches own vessel is steering 000 at 12 knots and a target steering 270 at 12 knots is on a steady bearing. The officer asks the cadet to work out the relative motion and judge the risk of collision.",
+    instructions: [
+      "Represent own vessel's velocity and the target's velocity as 2D vectors (take east as x and north as y).",
+      "Find the target's relative velocity (target velocity minus own velocity) as components.",
+      "Calculate the magnitude of the relative speed and describe the direction of relative motion.",
+      "State whether a steady compass bearing to the target means risk of collision, and report it in clear deck English."
+    ],
+    deliverable: "A relative-motion note in English giving the two velocity vectors, the relative velocity components, the relative speed and direction, and the collision-risk judgement, with the working shown.",
+    assessmentCriteria: [
+      "Own and target velocities are represented correctly as 2D vectors.",
+      "The relative velocity components are correct (-12, -12 in knots).",
+      "The relative speed is correct (about 17 knots) with the direction described.",
+      "The constant-bearing collision-risk reasoning is correct and reported in clear deck English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "ELE106",
     subjectName: "Electricidad",
     subjectId: "pn-s1-electricidad",
@@ -1042,6 +1398,122 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Electrodinamica",
+    topic: "Definicion y tipos de electricidad",
+    week: 9,
+    taskId: "pn-ele106-w09-ac-dc-shore-power",
+    taskTitle: "Compare AC And DC For A Shore Power Connection",
+    scenario: "In port the vessel is to connect to shore power to shut down its generators. The electro-technical officer asks the cadet to compare AC and DC supply and state what must be checked before connecting to the shore.",
+    instructions: [
+      "Distinguish direct current (DC) from alternating current (AC) and give one shipboard use of each.",
+      "Explain why the ship's main distribution and the shore supply use AC rather than DC.",
+      "State what must match between ship and shore before connecting shore power (voltage and frequency).",
+      "Report the comparison and the pre-connection check, in clear deck English."
+    ],
+    deliverable: "A note in English comparing AC and DC with a shipboard use of each, why AC is used for distribution, and the ship-to-shore matching check.",
+    assessmentCriteria: [
+      "DC and AC are distinguished correctly with a valid shipboard use of each.",
+      "The reason AC is used for main distribution is correct.",
+      "The voltage-and-frequency matching requirement for shore power is correct.",
+      "The comparison is reported clearly in correct deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Electrostatica",
+    topic: "Carga electrica, Ley de Coulomb y campo electrico",
+    week: 10,
+    taskId: "pn-ele106-w10-static-electricity-bonding",
+    taskTitle: "Control A Static Electricity Hazard During Transfer",
+    scenario: "During a bunkering operation the officer warns the cadet about static electricity building up as fuel flows. The cadet must explain the hazard and the precaution that prevents a spark.",
+    instructions: [
+      "Explain what electric charge is and how it builds up when liquids flow or surfaces rub (static electricity).",
+      "Use the electric field and Coulomb attraction to explain how a spark can jump between charged objects.",
+      "Explain how bonding and earthing remove the hazard before and during a fuel or cargo transfer.",
+      "Report the precaution as a safety statement, in clear deck English."
+    ],
+    deliverable: "A static-hazard note in English explaining charge build-up, the spark mechanism via the electric field, and the bonding and earthing precaution.",
+    assessmentCriteria: [
+      "Charge build-up from flow or friction is explained correctly.",
+      "The electric field and Coulomb attraction are used correctly to explain the spark risk.",
+      "Bonding and earthing are correctly identified as the control measure.",
+      "The safety statement is clear and in correct deck English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Conexiones electricas",
+    topic: "Conexiones estrella y delta",
+    week: 11,
+    taskId: "pn-ele106-w11-star-delta-motor-start",
+    taskTitle: "Explain Star-Delta Starting Of A Ship's Motor",
+    scenario: "A large three-phase motor driving the bow thruster is started with a star-delta starter to limit the inrush current. The officer asks the cadet to explain how the connection works and why it protects the ship's network.",
+    instructions: [
+      "Describe a three-phase supply and the difference between a star (wye) and a delta connection.",
+      "State the relationship between line and phase voltage in a star connection (line voltage = root 3 x phase voltage).",
+      "Explain why a large motor is started in star and then switched to delta to limit the starting current.",
+      "Report why star-delta starting protects the ship's network, in clear deck English."
+    ],
+    deliverable: "A note in English explaining the star and delta connections, the line-to-phase voltage relationship, and why star-delta starting limits the starting current.",
+    assessmentCriteria: [
+      "Star and delta three-phase connections are described correctly.",
+      "The line-to-phase voltage relationship in star (root 3) is stated correctly.",
+      "The reason for starting in star then switching to delta (reduced starting current) is correct.",
+      "The network-protection reason is reported clearly in correct deck English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Redes electricas",
+    topic: "Resistencia e intensidad de corriente en redes electricas",
+    week: 12,
+    taskId: "pn-ele106-w12-load-shedding-blackout",
+    taskTitle: "Manage A Generator Overload To Prevent A Blackout",
+    scenario: "One generator rated 400 kW is on the board carrying lighting 80 kW, pumps 150 kW, the galley 60 kW and the HVAC 70 kW. The bow thruster, needing 120 kW, is about to be started. The officer asks the cadet to decide whether to shed load to avoid a blackout.",
+    instructions: [
+      "Add the connected loads to find the total power drawn and compare it with the generator's 400 kW rating.",
+      "Determine whether starting the 120 kW bow thruster would overload the generator.",
+      "Decide which non-essential loads to shed (preferential trip) so the generator stays within its rating, and show the new total.",
+      "Report the load-shedding decision and why it prevents a blackout, in clear deck English."
+    ],
+    deliverable: "A power-management note in English giving the total load, the overload check, the loads shed, the new total, and the blackout-prevention reason, with the working shown.",
+    assessmentCriteria: [
+      "The total connected load is added correctly (360 kW) and compared with the 400 kW rating.",
+      "The overload from the extra consumer is identified correctly (360 + 120 = 480 kW > 400 kW).",
+      "The shed loads bring the total within rating (for example galley + HVAC, giving 350 kW <= 400 kW) with essential services kept.",
+      "The decision and its blackout-prevention reason are reported clearly in correct deck English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "ING102",
     subjectName: "Inglés Marítimo I",
     subjectId: "pn-s1-maritime-english-i",
@@ -1269,6 +1741,122 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Adverbios de frecuencia",
+    topic: "Rutinas, habitos e informacion general",
+    week: 9,
+    taskId: "pn-ing102-w09-watch-routine-frequency",
+    taskTitle: "Describe The Daily Watch Routine Using Frequency Adverbs",
+    scenario: "At handover you must brief a new cadet on the daily routine of the watch. Using the present simple and adverbs of frequency, you describe how often each duty is carried out.",
+    instructions: [
+      "Describe the fixed daily routine of the watch using the present simple.",
+      "Use adverbs of frequency (always, usually, often, sometimes, never) to say how often each duty is done.",
+      "Include one standing-order habit the watch always follows and one thing it never does.",
+      "Give the routine description clearly, as a handover to the next cadet, in correct English."
+    ],
+    deliverable: "A watch-routine description in English using the present simple and adverbs of frequency to show how often each duty is carried out.",
+    assessmentCriteria: [
+      "The present simple is used correctly for the routine duties.",
+      "Adverbs of frequency are placed and used correctly.",
+      "The description includes an always-habit and a never-item that are operationally sensible.",
+      "The handover is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Verbo Haber There is there are",
+    topic: "Ubicacion de objetos y personas",
+    week: 10,
+    taskId: "pn-ing102-w10-locate-safety-equipment",
+    taskTitle: "Direct A Crew Member To The Safety Equipment",
+    scenario: "A new crew member cannot find the lifejackets or the muster station. Using 'there is' and 'there are' with prepositions of place, you tell them what is in the space and guide them to the muster station.",
+    instructions: [
+      "Use 'there is' and 'there are' to state what safety equipment is in the space.",
+      "Use prepositions of place (under, next to, on, behind, opposite) to give the exact location.",
+      "Direct the crew member from where they are to the muster station step by step.",
+      "Give the directions clearly enough to follow in an emergency, in correct English."
+    ],
+    deliverable: "A set of directions in English using 'there is / there are' and prepositions of place to locate the safety equipment and reach the muster station.",
+    assessmentCriteria: [
+      "'There is' and 'there are' are used correctly for singular and plural.",
+      "Prepositions of place give an accurate location.",
+      "The step-by-step route to the muster station is clear and correct.",
+      "The directions could be followed in an emergency and are in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Uso del verbo to be con adjetivos posesivos",
+    topic: "Paises, idiomas y nacionalidades",
+    week: 11,
+    taskId: "pn-ing102-w11-crew-nationalities",
+    taskTitle: "Present The Multinational Crew To Port Officials",
+    scenario: "On arrival, port officials ask about the crew. Using the verb 'to be' and possessive adjectives, you present the crew's nationalities and languages and state the working language of the vessel.",
+    instructions: [
+      "State the nationality and language of several crew members using the verb 'to be' (for example 'He is Filipino; his language is Tagalog').",
+      "Use possessive adjectives (my, his, her, their) correctly with country, language and nationality.",
+      "State the common working language of the bridge and why one shared language is required.",
+      "Present the crew information clearly to the port official, in correct English."
+    ],
+    deliverable: "A crew presentation in English stating nationalities and languages with 'to be' and possessive adjectives, and the working language of the vessel.",
+    assessmentCriteria: [
+      "Country, nationality and language words are used correctly.",
+      "'To be' and possessive adjectives are used correctly together.",
+      "The working-language point is correct and relevant.",
+      "The presentation is clear and professional in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Sustantivos contables y no contables",
+    topic: "Numeros ordinales y cardinales",
+    week: 12,
+    taskId: "pn-ing102-w12-numbers-over-vhf",
+    taskTitle: "Pass Numbers And Quantities Correctly Over The VHF",
+    scenario: "On the VHF radio simulator you must report figures to the VTS: the vessel's position, draft, berth and quantities of stores. You read cardinal numbers digit by digit, ordinals for berth and deck, and use countable and uncountable nouns for the quantities.",
+    instructions: [
+      "Read a position, a course and a draft as cardinal numbers, spoken digit by digit as required for radio (for example 'draft six point two metres').",
+      "Use ordinal numbers correctly for the berth and the deck (for example 'the third berth', 'the second deck').",
+      "Report quantities using countable and uncountable nouns correctly (for example 'two containers', 'some fuel', 'ten tonnes of fresh water').",
+      "Deliver the numeric report to the VTS clearly, in correct SMCP-style English."
+    ],
+    deliverable: "A VHF numeric report in English using cardinal numbers for figures, ordinals for berth and deck, and correct countable and uncountable nouns for quantities.",
+    assessmentCriteria: [
+      "Cardinal numbers are read correctly and clearly for radio.",
+      "Ordinal numbers are used correctly for berth and deck.",
+      "Countable and uncountable nouns are used correctly with the quantities.",
+      "The report is clear and in correct SMCP-style English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -1686,6 +2274,122 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Percepcion y coordinacion motriz",
+    topic: "Movimientos fisicos y ubicacion espacial",
+    week: 9,
+    taskId: "pn-c0011-w09-spatial-awareness-confined",
+    taskTitle: "Move Safely Through Confined Ship Spaces",
+    scenario: "Moving about a rolling ship in low light, through hatches, narrow passages and vertical ladders, is a real injury risk. The officer asks the cadet to explain the spatial awareness and body movement that keep a crew member safe.",
+    instructions: [
+      "Explain what spatial awareness (knowing your body position in space) is and why it matters when moving about a ship.",
+      "Describe how to move safely through a hatch, along a passage and up or down a vertical ladder on a moving deck (three points of contact, one hand for the ship).",
+      "Identify two spaces where poor spatial awareness causes head or limb injuries.",
+      "Report the safe-movement guidance in clear maritime English."
+    ],
+    deliverable: "A note in English explaining spatial awareness and safe movement through confined ship spaces, with two injury-risk spaces identified.",
+    assessmentCriteria: [
+      "Spatial awareness is explained correctly.",
+      "The safe-movement techniques (three points of contact, one hand for the ship) are correct.",
+      "The two risk spaces are relevant and justified.",
+      "The guidance is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Natacion",
+    topic: "Tecnica, flotacion, nado libre, nado en grupo y sobrevivencia",
+    week: 10,
+    taskId: "pn-c0011-w10-group-swim-liferaft",
+    taskTitle: "Keep A Group Together Swimming To A Liferaft",
+    scenario: "After abandoning ship, several survivors are in the water and must reach a liferaft together. The instructor asks the cadet to describe the group-swimming technique that keeps everyone together and supports the weakest.",
+    instructions: [
+      "Describe the group-swim (chain or huddle) technique for moving several people together in the water.",
+      "Explain how the group keeps the weakest or injured swimmer supported so no one is left behind.",
+      "State how the group conserves energy and stays visible while swimming to the liferaft.",
+      "Report the group-swim procedure as a safety brief, in clear English."
+    ],
+    deliverable: "A group-swim brief in English describing the chain technique, supporting the weakest swimmer, and conserving energy and visibility on the way to the liferaft.",
+    assessmentCriteria: [
+      "The group-swim / chain technique is described correctly.",
+      "The method for supporting the weakest swimmer is sound.",
+      "Energy conservation and visibility are addressed.",
+      "The brief is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Desarrollo fisico integral",
+    topic: "Fuerza, vigor y flexibilidad",
+    week: 11,
+    taskId: "pn-c0011-w11-strength-for-heavy-tasks",
+    taskTitle: "Build The Strength For Heavy Deck Tasks Safely",
+    scenario: "Hauling a mooring line and carrying a casualty on a stretcher both demand real muscular strength and flexibility. The officer asks the cadet to match the strength needed to these heavy tasks and give safe conditioning for them.",
+    instructions: [
+      "Identify two heavy deck tasks that demand muscular strength and power (for example hauling a mooring line, a stretcher carry).",
+      "Describe the strength and flexibility a crew member needs to perform each safely.",
+      "Give one conditioning exercise for the main muscle groups each task uses, with correct technique.",
+      "Explain how flexibility reduces strain injury during these tasks, and report it in clear English."
+    ],
+    deliverable: "A conditioning note in English matching two heavy deck tasks to the strength and flexibility they need, with a conditioning exercise for each and the injury-reduction reason.",
+    assessmentCriteria: [
+      "The two heavy tasks and their strength demands are correctly identified.",
+      "The conditioning exercises target the right muscle groups with correct technique.",
+      "The role of flexibility in reducing strain injury is explained correctly.",
+      "The note is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Condicion fisica",
+    topic: "Fuerza muscular, resistencia cardiorrespiratoria y flexibilidad",
+    week: 12,
+    taskId: "pn-c0011-w12-fitness-self-assessment-plan",
+    taskTitle: "Assess Your Fitness Against Sea-Survival Requirements",
+    scenario: "At the end of the term the officer asks the cadet to assess their own fitness honestly against the physical competencies a seafarer must meet, and to build a personal plan to close the biggest gap.",
+    instructions: [
+      "List the physical competencies a seafarer must be able to perform (swim a distance, tread water, don a lifejacket in the water, climb a vertical ladder, board a survival craft).",
+      "Assess your own current level against each, honestly, using the term's training as the benchmark.",
+      "Build a short personal plan to close the biggest gap, with a realistic and safe target.",
+      "Report the self-assessment and plan in a clear written statement, in correct English."
+    ],
+    deliverable: "A fitness self-assessment and personal development plan in English mapping the sea-survival physical competencies to your current level and a plan to close the main gap.",
+    assessmentCriteria: [
+      "The sea-survival physical competencies are correctly listed.",
+      "The self-assessment is honest and benchmarked against the training.",
+      "The personal plan targets the biggest gap realistically and safely.",
+      "The statement is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "PMR107",
     subjectName: "Prácticas Marineras I",
     subjectId: "pn-s1-practicas-marineras-i",
@@ -1913,6 +2617,122 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Natacion",
+    topic: "Flotacion y nado libre",
+    week: 9,
+    taskId: "pn-pmr107-w09-flotation-free-swimming",
+    taskTitle: "Demonstrate Flotation And Free Swimming For Survival",
+    scenario: "Before any survival-craft drill the cadet must master the base water skill: floating with minimum effort and swimming freely without exhaustion. The instructor asks the cadet to describe the technique.",
+    instructions: [
+      "Describe how to float in the water with minimum effort (back or survival float) and how breathing supports it.",
+      "Describe the free-swimming stroke used to cover distance without exhausting yourself.",
+      "Explain how a lifejacket changes flotation and swimming, and how to swim with it on.",
+      "Report the flotation and swimming technique as a training note, in clear English."
+    ],
+    deliverable: "A water-skills note in English describing flotation, free swimming, and how a lifejacket changes both.",
+    assessmentCriteria: [
+      "The flotation technique is described correctly.",
+      "The free-swimming stroke is appropriate for conserving energy.",
+      "The effect of the lifejacket on flotation and swimming is correct.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Boga",
+    topic: "Organizacion del bote y ordenes para la boga",
+    week: 10,
+    taskId: "pn-pmr107-w10-boat-organisation-oar-orders",
+    taskTitle: "Organise A Pulling Boat And Give The Oar Orders",
+    scenario: "The cadet is placed in a pulling (oared) survival boat and must help the coxswain organise the crew and get the boat moving. The officer asks the cadet to set out the organisation and the standard oar orders.",
+    instructions: [
+      "State how the boat's crew is organised: the coxswain, the bow, and the oarsmen at their stations.",
+      "Give the standard oar orders to get the boat moving and to stop (for example 'give way together', 'oars', 'hold water', 'back water').",
+      "Explain the job of the coxswain in steering and keeping the stroke together.",
+      "Report the boat organisation and orders clearly, as you would to the boat's crew, in correct English."
+    ],
+    deliverable: "A boat-handling note in English giving the crew organisation, the standard oar orders, and the coxswain's role.",
+    assessmentCriteria: [
+      "The boat crew organisation is correct.",
+      "The standard oar orders are correct and in a usable sequence.",
+      "The coxswain's steering and stroke-keeping role is correct.",
+      "The orders are clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Boga",
+    topic: "Boga a Pareles, a la Tercio, a la Singa y a la Punta",
+    week: 11,
+    taskId: "pn-pmr107-w11-rowing-techniques",
+    taskTitle: "Select The Rowing Technique For The Situation",
+    scenario: "The pulling boat must manoeuvre in a narrow space and, if oars are lost, be propelled with a single oar. The coxswain asks the cadet to choose among the rowing techniques for the conditions.",
+    instructions: [
+      "Describe the four rowing techniques: a pareles, a la tercio, a la singa, and a la punta, and how each moves or turns the boat.",
+      "Choose the appropriate technique to manoeuvre in a narrow space and to propel the boat with a single oar (sculling) if oars are lost.",
+      "Explain how the coxswain coordinates the change from one technique to another.",
+      "Report the selection and the reason, as an order to the boat crew, in correct English."
+    ],
+    deliverable: "A note in English describing the four rowing techniques, selecting the right one for a confined-water manoeuvre and for single-oar propulsion, with the coxswain's coordination.",
+    assessmentCriteria: [
+      "The four rowing techniques are described correctly.",
+      "The technique chosen suits the confined-water and single-oar situations.",
+      "The coxswain's coordination of the change is correct.",
+      "The selection is reported clearly in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Bote salvavidas",
+    topic: "Uso correcto del chaleco salvavidas y aro salvavidas",
+    week: 12,
+    taskId: "pn-pmr107-w12-man-overboard-recovery",
+    taskTitle: "Coordinate A Man-Overboard Recovery",
+    scenario: "During a coastal passage a crew member falls overboard. The deck team must throw the lifebuoy, keep the casualty in sight, and recover them with the rescue boat, integrating the term's water and boat skills.",
+    instructions: [
+      "State the immediate actions on 'man overboard': throw the lifebuoy with light and smoke, post a lookout pointing at the casualty, and inform the bridge.",
+      "Describe how the casualty uses flotation to stay afloat and conserve energy until recovery.",
+      "Describe launching and pulling the rescue boat to the casualty and getting them aboard safely.",
+      "Report the recovery sequence as a clear brief to the deck team, in correct English."
+    ],
+    deliverable: "A man-overboard recovery brief in English integrating the lifebuoy action, the casualty's flotation, and the boat recovery, in the correct sequence.",
+    assessmentCriteria: [
+      "The immediate man-overboard actions are correct and in order.",
+      "The casualty flotation and energy-conservation point is correct.",
+      "The boat launch and recovery steps are safe and correct.",
+      "The recovery brief is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -2150,6 +2970,122 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Problemas Geometricas",
+    topic: "Solucion de problemas geometricos",
+    week: 9,
+    taskId: "pn-dii105-w09-geometric-construction",
+    taskTitle: "Construct A Geometric Layout For A Deck Marking",
+    scenario: "Before a fitting is set out on deck, the officer asks the cadet to lay out the geometry: bisect an angle, erect a perpendicular and divide a line into equal parts, using only a straightedge and compasses on a plotting sheet.",
+    instructions: [
+      "Describe how to bisect an angle and erect a perpendicular using only a straightedge and compasses.",
+      "Describe how to divide a line into a number of equal parts geometrically.",
+      "Apply one of these constructions to set out a deck fitting position or a course line on a plotting sheet.",
+      "Report the construction steps clearly, in correct technical English."
+    ],
+    deliverable: "A note in English describing the geometric constructions (angle bisection, perpendicular, equal division) and applying one to a deck or plotting layout.",
+    assessmentCriteria: [
+      "The angle-bisection and perpendicular constructions are described correctly.",
+      "The equal-division method is correct.",
+      "The construction is correctly applied to a deck or plotting layout.",
+      "The steps are clear and in correct technical English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Proyeccion Isometrica",
+    topic: "Proyeccion isometrica",
+    week: 10,
+    taskId: "pn-dii105-w10-isometric-fitting",
+    taskTitle: "Produce An Isometric View Of A Deck Fitting",
+    scenario: "The workshop needs a 3D view of a deck fitting for fabrication. The officer gives the cadet the orthographic views of a bollard and asks for an isometric projection built from them.",
+    instructions: [
+      "Explain what an isometric projection is and how it differs from the orthographic views.",
+      "Explain how the three axes are drawn (at 30 degrees) and how lengths are set along them.",
+      "Describe how you would build the isometric view of a simple deck fitting from its plan and elevations.",
+      "Report the method and its use for fabrication, in correct technical English."
+    ],
+    deliverable: "A note in English explaining isometric projection, the 30-degree axes, and how to build the isometric of a deck fitting from its orthographic views.",
+    assessmentCriteria: [
+      "Isometric projection and its difference from orthographic views are explained correctly.",
+      "The 30-degree axis convention and setting lengths are correct.",
+      "The method to build the isometric from plan and elevations is sound.",
+      "The note is clear and in correct technical English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Proyecciones ortogonales en primer cuadrante",
+    topic: "Proyecciones, cortes y secciones",
+    week: 11,
+    taskId: "pn-dii105-w11-section-view-tank",
+    taskTitle: "Read A Sectional View Of A Tank Or Valve",
+    scenario: "Before a maintenance discussion the officer hands the cadet a section (cut) drawing of a ballast tank and a valve and asks the cadet to read the internal arrangement from it.",
+    instructions: [
+      "Explain what a sectional view (a cut through the object) shows that an external view cannot.",
+      "Explain what the cutting plane line and the section hatching represent on the drawing.",
+      "Use a sectional view to describe the internal arrangement of a tank or a valve for a maintenance discussion.",
+      "Report the interpretation clearly, in correct technical English."
+    ],
+    deliverable: "A note in English explaining a sectional view, the cutting plane and hatching, and using a section to describe the internal arrangement of a tank or valve.",
+    assessmentCriteria: [
+      "The purpose of a sectional view is explained correctly.",
+      "The cutting plane line and hatching are interpreted correctly.",
+      "The internal arrangement is described correctly from the section.",
+      "The interpretation is clear and in correct technical English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Interpretacion",
+    topic: "Instalaciones electricas navales",
+    week: 12,
+    taskId: "pn-dii105-w12-electrical-single-line-diagram",
+    taskTitle: "Interpret A Shipboard Electrical Diagram",
+    scenario: "A navigation-light circuit has failed. The officer gives the cadet the single-line wiring diagram of the naval electrical installation and asks the cadet to trace the supply and say where to check first.",
+    instructions: [
+      "State what a single-line (wiring) diagram of a naval electrical installation shows and how it uses standard electrical symbols.",
+      "Trace the circuit from the switchboard through the switch and protective device to a load (for example a navigation light).",
+      "Use the diagram to say where you would check first if that load failed.",
+      "Report the trace and the fault-finding step, in correct technical English."
+    ],
+    deliverable: "A note in English interpreting a shipboard electrical single-line diagram: what it shows, the traced supply path to a load, and the first fault-check point.",
+    assessmentCriteria: [
+      "The purpose of the single-line diagram and its symbols is explained correctly.",
+      "The supply path from switchboard to load is traced correctly.",
+      "The first fault-check point is logical from the diagram.",
+      "The interpretation is clear and in correct technical English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "C0099",
     subjectName: "Estrategias de Aprendizaje",
     subjectId: "pn-s1-estrategias-aprendizaje",
@@ -2382,6 +3318,122 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Tecnicas de estudio",
+    topic: "Metodos de estudio individual y en grupo",
+    week: 9,
+    taskId: "pn-c0099-w09-individual-group-study",
+    taskTitle: "Choose Individual Or Group Study For A Drill Preparation",
+    scenario: "The cadet is preparing for a shipboard drill and its theory check. The officer asks the cadet to decide which material to study alone and which in a peer group, and to run an effective group session.",
+    instructions: [
+      "State the strengths of individual study and of group study for learning shipboard material.",
+      "Decide which parts of the drill and theory preparation are better studied alone and which in a group, with reasons.",
+      "Set out how to run an effective 30-minute peer study session (roles, questions, checking each other).",
+      "Report the study approach as a clear plan, in correct English."
+    ],
+    deliverable: "A study plan in English choosing individual versus group study for the parts of a drill and theory preparation, with a structure for an effective peer session.",
+    assessmentCriteria: [
+      "The strengths of individual and group study are stated correctly.",
+      "The split of material between alone and group study is well reasoned.",
+      "The peer-session structure would be effective.",
+      "The plan is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Manejo de informacion",
+    topic: "Resumen, sintesis y la pregunta",
+    week: 10,
+    taskId: "pn-c0099-w10-multi-source-synthesis",
+    taskTitle: "Synthesise Two Sources Into One Job Aid",
+    scenario: "A company procedure and a manufacturer checklist cover the same shipboard task with overlaps and gaps. The officer asks the cadet to synthesise both into one concise job aid, using questions to find the gaps.",
+    instructions: [
+      "Read the two sources on the same shipboard task and note where they overlap and where they differ.",
+      "Use guiding questions (what, when, who, safety-critical?) to decide what must be kept.",
+      "Synthesise both into one concise job aid with no contradictions and no lost safety step.",
+      "Report the synthesised job aid, in correct English."
+    ],
+    deliverable: "A synthesised one-page job aid in English combining two sources on the same task, with overlaps merged and gaps resolved by questioning.",
+    assessmentCriteria: [
+      "Overlaps and differences between the sources are correctly identified.",
+      "Guiding questions are used to keep what matters.",
+      "The job aid is concise, consistent, and loses no safety-critical step.",
+      "The job aid is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Presentacion grafica de la informacion",
+    topic: "Organizadores graficos, diagramas, mapas y esquemas",
+    week: 11,
+    taskId: "pn-c0099-w11-decision-flowchart-emergency",
+    taskTitle: "Build A Decision Flowchart For An Emergency Procedure",
+    scenario: "A written emergency procedure is hard to follow under stress. The officer asks the cadet to turn it into a decision flowchart with clear yes/no branches so it can be acted on quickly.",
+    instructions: [
+      "Take a written emergency procedure and identify its decision points and actions.",
+      "Represent it as a decision flowchart with clear yes/no branches and end states.",
+      "Check that every branch leads to a safe, defined action with no dead ends.",
+      "Report the flowchart (in text or sketch form) and how it helps under stress, in correct English."
+    ],
+    deliverable: "A decision flowchart (described in text or sketch) in English for an emergency procedure, with yes/no branches and defined safe end states.",
+    assessmentCriteria: [
+      "The decision points and actions are identified correctly.",
+      "The flowchart branches are logical with no dead ends.",
+      "Every branch leads to a defined safe action.",
+      "The flowchart and its stress-use benefit are clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Tecnicas de estudio",
+    topic: "Tecnica de los seis pasos",
+    week: 12,
+    taskId: "pn-c0099-w12-integrated-study-system",
+    taskTitle: "Build A Complete Study System For The Ordinary Exam",
+    scenario: "With the ordinary exam approaching, the officer asks the cadet to combine the whole term's strategies into one system to master a full subject: summary, graphic organisers, the six-step method and group study.",
+    instructions: [
+      "Break a full subject into study blocks and apply the six-step method to plan them.",
+      "Choose, for each block, the best tool from the term (summary, graphic organiser, mnemonic, group session).",
+      "Schedule the blocks with spaced review before the ordinary exam.",
+      "Report the complete study system as a plan, in correct English."
+    ],
+    deliverable: "A complete study-system plan in English for a full subject, applying the six-step method, the right learning tool per block, and spaced review before the exam.",
+    assessmentCriteria: [
+      "The subject is broken into blocks with the six-step method applied.",
+      "The learning tool chosen for each block fits the content.",
+      "The schedule uses spaced review before the exam.",
+      "The plan is clear, realistic, and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "C0100",
     subjectName: "Expresión Oral y Escrita",
     subjectId: "pn-s1-expresion-oral-escrita",
@@ -2609,6 +3661,122 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Proceso de comunicacion",
+    topic: "Factores personales, fisicos y semanticos",
+    week: 9,
+    taskId: "pn-c0100-w09-communication-barriers-bridge",
+    taskTitle: "Overcome Communication Barriers On The Bridge",
+    scenario: "On a busy bridge with engine noise, mixed accents and a tired watch, a message is misread. The officer asks the cadet to identify the personal, physical and semantic barriers and how to overcome them.",
+    instructions: [
+      "Identify a personal, a physical and a semantic barrier in a given bridge communication.",
+      "Explain how each barrier can distort or block the message.",
+      "Give one practical measure to overcome each barrier (for example standard phrases, read-back, reducing noise).",
+      "Report the barriers and remedies clearly, in correct English."
+    ],
+    deliverable: "A note in English identifying a personal, a physical and a semantic communication barrier on the bridge, their effect, and a remedy for each.",
+    assessmentCriteria: [
+      "A personal, a physical and a semantic barrier are each correctly identified.",
+      "The effect of each on the message is explained correctly.",
+      "The remedies are practical and relevant.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicacion Escrita",
+    topic: "Reglas ortograficas y oracion gramatical",
+    week: 10,
+    taskId: "pn-c0100-w10-correct-written-notice",
+    taskTitle: "Write A Correct And Unambiguous Crew Notice",
+    scenario: "A change to the drill schedule must be posted for the crew. The officer asks the cadet to draft a notice that is correctly spelled and grammatically clear so no one misreads it.",
+    instructions: [
+      "Draft a short crew notice with a clear subject and instruction.",
+      "Apply correct spelling and grammar, including well-formed complete sentences.",
+      "Remove any ambiguous wording that could be misread.",
+      "Report the final notice, in correct English."
+    ],
+    deliverable: "A crew notice in English that is correctly spelled, grammatically well-formed, and free of ambiguity.",
+    assessmentCriteria: [
+      "Spelling is correct throughout.",
+      "Sentences are complete and grammatically correct.",
+      "Ambiguous wording is removed.",
+      "The notice is clear and professional in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicacion Oral",
+    topic: "Lenguaje, lengua y habla",
+    week: 11,
+    taskId: "pn-c0100-w11-register-working-language",
+    taskTitle: "Match Register To The Situation On A Multinational Crew",
+    scenario: "On a multinational crew the cadet must choose the right register: formal standard English for an operational order or report, informal speech among the crew, and know when only the working language is acceptable.",
+    instructions: [
+      "Explain the difference between language, a specific tongue, and everyday speech (register and usage).",
+      "Give an example of formal operational register and of informal crew speech for the same idea.",
+      "State when only the standard working language (English) must be used and why.",
+      "Report the register guidance clearly, in correct English."
+    ],
+    deliverable: "A note in English distinguishing formal operational register from informal crew speech, with an example of each and the rule for the working language.",
+    assessmentCriteria: [
+      "Language, tongue and speech or register are distinguished correctly.",
+      "The formal and informal examples are appropriate for the same idea.",
+      "The working-language rule and its reason are correct.",
+      "The guidance is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicacion Oral",
+    topic: "Expresion escrita y expresion oral",
+    week: 12,
+    taskId: "pn-c0100-w12-voyage-debrief-report-presentation",
+    taskTitle: "Prepare And Deliver A Voyage Debrief",
+    scenario: "At the end of a training voyage the officer asks the cadet to prepare a written debrief report and deliver a short oral presentation of it to the officers, applying the term's written and oral communication skills.",
+    instructions: [
+      "Write a structured debrief report (what was planned, what happened, lessons) leading with the main points.",
+      "Prepare a short oral presentation of the report with a clear opening, key points and close.",
+      "Ensure the written report and the spoken presentation agree and use correct register and terminology.",
+      "Deliver the debrief clearly and answer one follow-up question, in correct English."
+    ],
+    deliverable: "A two-part debrief in English: a structured written report and a short oral presentation that agree in content, register and terminology.",
+    assessmentCriteria: [
+      "The written report is structured and leads with the main points.",
+      "The oral presentation has a clear opening, key points and close.",
+      "The written and spoken versions agree in content and register.",
+      "The debrief is delivered clearly and professionally in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
