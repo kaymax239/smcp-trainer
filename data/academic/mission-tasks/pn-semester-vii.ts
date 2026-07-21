@@ -1280,6 +1280,122 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Sistemas de reporte de buques",
+    topic: "Reportes de situación a los VTS",
+    week: 9,
+    taskId: "pn-nav745-w09-vts-position-reports",
+    taskTitle: "Make Position Reports To The Altamira VTS",
+    scenario: "The vessel is inbound to Altamira and enters the VTS reporting area on the approach. The captain tells the cadet to prepare and pass the position reports the Vessel Traffic Service requires as the ship works up the channel.",
+    instructions: [
+      "Explain what a VTS is and why a ship reports: the traffic service builds a picture of the traffic in a busy port approach, so a ship entering the area reports on the working VHF channel at the reporting points set in the sailing directions.",
+      "State the content of a routine position report using the standard order: the ship's name and call sign, position, course and speed, and intentions (the next reporting point or the berth), keeping to the VHF Standard Marine Communication Phrases.",
+      "Explain the two-way value: the VTS gives back traffic information and any instructions, and the officer reads them back and complies, so the report is a controlled exchange, not a one-way call.",
+      "Report the VTS exchange on the VHF radio simulator in clear SMCP English."
+    ],
+    deliverable: "A VTS reporting brief with a sample position report for the Altamira approach: the purpose of the VTS, the report content in standard order (name and call sign, position, course and speed, intentions), and the two-way exchange with the traffic service, delivered on the VHF radio simulator in SMCP English.",
+    assessmentCriteria: [
+      "The purpose of the VTS and when to report are correct (build the traffic picture, report at the set points).",
+      "The report content and order are correct (name and call sign, position, course and speed, intentions).",
+      "The two-way exchange is correct (receive traffic information and instructions, read back and comply).",
+      "The VHF exchange is clear and in correct SMCP English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Sistemas de reporte de buques",
+    topic: "AMVER",
+    week: 10,
+    taskId: "pn-nav745-w10-amver-ship-reporting",
+    taskTitle: "Report To The AMVER Ship Reporting System",
+    scenario: "The vessel is bound across the Gulf of Mexico and the master wants her enrolled in AMVER for the passage. The captain asks the cadet to explain the system and prepare the reports it needs.",
+    instructions: [
+      "Explain what AMVER is and its purpose: a voluntary ship reporting system that keeps a plot of participating ships at sea, so that when a distress happens the search and rescue authorities know which ships are near and can divert the best-placed one to help.",
+      "State the main reports: the sailing plan (the intended route) before or on departure, position reports along the way, and an arrival report, so the plot stays current; a deviation report is sent if the route changes.",
+      "Explain why participation helps everyone: it costs the ship nothing but makes rescue faster for whoever needs it, and one day it may be your own ship that is found quickly because a nearby ship was on the plot.",
+      "Report a sample AMVER position report in clear maritime English."
+    ],
+    deliverable: "An AMVER brief with a sample position report: the purpose of the system (a rescue plot of ships at sea), the main reports (sailing plan, position, deviation, arrival), and why voluntary participation speeds up rescue for all, in maritime English.",
+    assessmentCriteria: [
+      "The purpose of AMVER is correct (a voluntary plot of ships used to divert help to a distress).",
+      "The main reports are correct (sailing plan, position, deviation, arrival).",
+      "The reasoning for participation is sound (faster rescue for all at no cost to the ship).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Responsabilidad del oficial de guardia",
+    topic: "Cambio de guardia",
+    week: 11,
+    taskId: "pn-nav745-w11-navigation-watch-handover",
+    taskTitle: "Hand Over The Navigation Watch",
+    scenario: "It is the end of the watch and the relieving officer arrives on the bridge. The captain asks the cadet to explain how the navigation watch is properly handed over so nothing is lost in the change.",
+    instructions: [
+      "Explain the principle: the officer being relieved does not hand over until the relieving officer is fully in the picture and adjusted to the night vision and the conditions, and does not hand over during a manoeuvre in progress.",
+      "State what is passed in the handover: the ship's position, course and speed, the traffic and any close-quarters situation, the standing and night orders, the passage plan and the next wheel-over, and any defect, restriction or the master's calling conditions.",
+      "Explain how this applies bridge resource management (covered in week 1): the handover is a deliberate exchange that keeps the shared situational awareness intact across the change of watch, and the relieving officer confirms understanding before taking over the con.",
+      "Report the watch handover in clear maritime English."
+    ],
+    deliverable: "A note in English on handing over the navigation watch: the principle (relieve only when the relief is fully in the picture and not during a manoeuvre), what is passed (position, course and speed, traffic, orders, passage plan and next wheel-over, defects and calling conditions), and how it keeps the shared awareness of bridge resource management (week 1) across the change.",
+    assessmentCriteria: [
+      "The handover principle is correct (relieve only when the relief is ready and adjusted, not during a manoeuvre).",
+      "The items passed are complete (position, course and speed, traffic, orders, passage plan, next wheel-over, defects and calling conditions).",
+      "The link to bridge resource management (week 1) and confirming understanding before taking the con are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Ejecución del plan de viaje",
+    topic: "Monitoreo de la ruta",
+    week: 12,
+    taskId: "pn-nav745-w12-monitor-passage-against-plan",
+    taskTitle: "Monitor The Passage Against The Plan",
+    scenario: "The vessel is on passage on the approaches to Tampico with several ships showing on the traffic picture. As the closing task, the captain asks the cadet to explain how the officer of the watch monitors the passage against the plan, drawing the subject together.",
+    instructions: [
+      "Explain continuous position monitoring: fixing the position regularly by more than one means (visual bearings, radar range, GNSS) and comparing it with the planned track, using the parallel index, the clearing bearings and the no-go areas so the officer knows at every moment whether the ship is on the plan (the plan itself was made in week 2).",
+      "Explain using the traffic picture: reading the AIS and radar targets on the Tampico and Altamira approaches to keep the collision-avoidance appraisal current, and acting in good time under the rules of the road while staying on the planned track where it is safe to do so.",
+      "Explain acting on a deviation: if the ship is set off track or a target forces a departure from the plan, the officer corrects back to the track when clear, records it, and calls the master if the situation is beyond the watch (the calling conditions of week 4); this integrates passage planning, watchkeeping and the reporting of the semester into the live conduct of the watch.",
+      "Report the passage monitoring in clear maritime English."
+    ],
+    deliverable: "A note in English on monitoring the passage against the plan: continuous position monitoring by more than one means compared with the planned track (parallel index, clearing bearings, no-go areas), using the AIS and radar traffic picture on the Tampico and Altamira approaches to keep the collision appraisal current, and acting on a deviation (correct back, record, call the master per week 4), integrating the passage plan of week 2 with the watchkeeping of the semester.",
+    assessmentCriteria: [
+      "Continuous position monitoring is correct (regular fixes by more than one means compared with the planned track, using parallel index, clearing bearings and no-go areas).",
+      "The use of the AIS and radar traffic picture on the Tampico and Altamira approaches is correct (keep the collision appraisal current, act in good time, stay on track where safe).",
+      "Acting on a deviation is correct (correct back to the track, record, call the master per week 4) and the subject is integrated (plan from week 2 with the semester's watchkeeping).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
     subjectCode: "TEB749",
     subjectName: "Teoría del buque II",
     subjectId: "pn-s7-teoria-buque-ii",
@@ -1387,6 +1503,122 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
       "The free surface effect is correct (liquid shift acts as a virtual rise of G, reducing effective GM).",
       "The free surface correction's dependence on the cube of the tank's breadth is correct (a wide slack tank is much worse; subdividing to halve the breadth cuts the effect to about a quarter).",
       "The reduction measures are valid (press up or empty, avoid many slack tanks, subdivide with a longitudinal bulkhead) and applied to the slack tanks after ballasting.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Arqueo de buques",
+    topic: "Tipos de arqueos y su aplicación",
+    week: 9,
+    taskId: "pn-teb749-w09-gross-net-tonnage",
+    taskTitle: "Explain Gross And Net Tonnage",
+    scenario: "The ship's papers give her gross and net tonnage, and these numbers decide many of the charges she pays. The officer asks the cadet to explain what tonnage is and how it is used.",
+    instructions: [
+      "Explain that tonnage is a measure of volume, not weight: the gross tonnage (GT) is a figure derived from the total enclosed volume of the ship, and the net tonnage (NT) is derived from the volume of the cargo and revenue-earning spaces.",
+      "Distinguish tonnage from displacement and deadweight: displacement and deadweight are weights (in tonnes) while GT and NT are dimensionless numbers from volume, so a cadet must not confuse the two families.",
+      "Explain the application: port dues, canal tolls, pilotage and manning and survey requirements are often set by GT or NT, so the tonnage certificate has a direct commercial and regulatory effect.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on tonnage: gross and net tonnage as volume-derived figures (GT from the total enclosed volume, NT from the cargo and revenue spaces), the distinction from displacement and deadweight (weights, not volumes), and the application to dues, tolls, pilotage, manning and surveys.",
+    assessmentCriteria: [
+      "Gross and net tonnage are correctly explained as volume-derived figures (GT total enclosed volume, NT cargo and revenue spaces).",
+      "The distinction from displacement and deadweight (weight versus volume) is correct.",
+      "The application is correct (dues, tolls, pilotage, manning and surveys set by tonnage).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Traslación de pesos",
+    topic: "Experimento de inclinación",
+    week: 10,
+    taskId: "pn-teb749-w10-inclining-experiment",
+    taskTitle: "Determine KG By The Inclining Experiment",
+    scenario: "A new ship, or one that has been altered, must have her light-ship stability data found before she enters service. The officer asks the cadet to explain how the inclining experiment finds the ship's KG.",
+    instructions: [
+      "Explain the purpose: the inclining experiment finds the height of the centre of gravity (KG) of the light ship, which cannot be calculated reliably from the drawings alone but is the starting point for every later stability calculation.",
+      "Explain the method: known weights are shifted transversely across the deck by a measured distance, the small angle of heel produced is read (by a long pendulum or a stabilograph), and from the heeling moment and the heel the GM is found, and hence KG.",
+      "State the conditions for a valid test: still water and no wind, moorings slack, free surfaces minimised (tanks pressed up or empty), and all loose weights accounted for, because any uncontrolled moment would spoil the result.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the inclining experiment: the purpose (find the light-ship KG as the basis for later stability), the method (shift known weights a measured distance, read the small heel, derive GM and hence KG), and the conditions for a valid test (still water, slack moorings, minimised free surfaces, all loose weights accounted for).",
+    assessmentCriteria: [
+      "The purpose is correct (find the light-ship KG as the basis for later stability calculations).",
+      "The method is correct (shift known weights transversely, read the heel, derive GM and hence KG).",
+      "The conditions for validity are correct (still water and no wind, slack moorings, minimised free surfaces, loose weights accounted for).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Inundación y sus efectos",
+    topic: "Inundación de un compartimento y permeabilidad",
+    week: 11,
+    taskId: "pn-teb749-w11-compartment-flooding-permeability",
+    taskTitle: "Assess The Effect Of Flooding A Compartment",
+    scenario: "After a collision one compartment of the ship is open to the sea. The officer asks the cadet to explain what flooding a compartment does to the ship and what permeability means in that assessment.",
+    instructions: [
+      "Explain the lost buoyancy effect: a flooded compartment no longer provides buoyancy, so the ship sinks deeper (bodily and by the trim towards the damage) until the remaining intact volume provides the buoyancy again, and the reserve buoyancy is reduced.",
+      "Explain permeability: not all of a compartment's volume floods, because machinery, cargo or structure occupies some of it, so the permeability is the fraction of the space that water can actually fill, and a full cargo hold floods less than an empty one.",
+      "Explain the effect on stability: flooding a compartment, especially a wide one with a free surface, can reduce the GM sharply and cause heel and loss of range of stability, so the officer checks the damage stability and controls the situation (cross-flooding, boundaries, watertight closures); this builds on the free surface effect of week 8.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on flooding a compartment: the lost buoyancy effect (deeper draught and trim towards the damage, reduced reserve buoyancy), permeability (the fraction of the space water can fill, lower for a full hold), and the effect on stability (GM reduced, heel and lost range, controlled by cross-flooding and watertight boundaries), building on the free surface effect of week 8.",
+    assessmentCriteria: [
+      "The lost buoyancy effect is correct (deeper draught and trim towards the damage, reduced reserve buoyancy).",
+      "Permeability is correctly explained (the fraction of the space water can fill; a full hold floods less than an empty one).",
+      "The effect on stability and its control are correct (GM reduced, heel and lost range; cross-flooding and watertight boundaries) building on week 8.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Cálculo del desplazamiento por inspección de calados",
+    topic: "Determinar el calado medio real y la densidad del agua",
+    week: 12,
+    taskId: "pn-teb749-w12-draught-survey-displacement",
+    taskTitle: "Calculate Displacement From A Draught Survey",
+    scenario: "Before and after loading a bulk cargo the ship's weight is found by reading her draughts, the draught survey that decides how much cargo was loaded. As the closing task, the officer asks the cadet to explain the draught survey, drawing the subject together.",
+    instructions: [
+      "Explain reading the six draughts and finding the mean: the forward, midships and after draughts on both sides are read and combined (correcting for any list) and the true mean draught is found by the quarter-mean (the 'mean of means') so that the ship's hog or sag is allowed for, not just a simple average.",
+      "Explain entering the hydrostatics: the mean draught is taken into the ship's hydrostatic tables to read the displacement, correcting for the trim (using the longitudinal centre of flotation, which links to the trim of week 7) so the displacement matches the ship's actual attitude.",
+      "Explain the density correction and the cargo figure: the tabulated displacement is for standard water, so it is corrected for the density of the water the ship floats in (the fresh water allowance idea of week 1), and the cargo loaded is the difference between the final and initial displacements after deducting the change in fuel, water and stores.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the draught survey: reading the six draughts and finding the true mean by the quarter-mean (allowing for hog or sag), entering the hydrostatics for the displacement with the trim correction (linking to the trim of week 7), and the density correction (the fresh water allowance of week 1) with the cargo found as the difference of displacements less the change in fuel, water and stores.",
+    assessmentCriteria: [
+      "Reading the draughts and the true mean are correct (six draughts, list corrected, quarter-mean allowing for hog or sag).",
+      "Entering the hydrostatics with the trim correction is correct (displacement from the mean draught corrected for trim, linking to week 7).",
+      "The density correction and the cargo figure are correct (correct for water density per week 1; cargo = difference of displacements less the change in fuel, water and stores).",
       "The answer is clear and in correct English."
     ],
     xp: 25,
@@ -1512,6 +1744,122 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Contenedores",
+    topic: "El plan maestro de estiba de contenedores por bahías, líneas y tiras",
+    week: 9,
+    taskId: "pn-cye748-w09-container-bay-plan",
+    taskTitle: "Read A Container Bay Plan",
+    scenario: "A container ship works cargo at Altamira and every box has a planned slot. The officer asks the cadet to explain how a container bay plan is organised and read.",
+    instructions: [
+      "Explain the coordinate system of the plan: the ship is divided into bays (fore and aft), rows or lines (across, port and starboard) and tiers (in height), so every slot has a bay-row-tier address and any container can be located exactly.",
+      "Explain what the plan shows for each box: its port of discharge (often by colour), its weight, and whether it is a reefer, an out-of-gauge or a dangerous-goods unit, so the officer sees the stow at a glance.",
+      "Explain the master plan and its updates: the master plan is kept current bay by bay as loading and discharge proceed, so the ship always knows what is where, which supports the discharge sequence and the weight distribution.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the container bay plan: the bay-row-tier coordinate system that gives every slot an address, what the plan shows for each box (discharge port, weight, reefer, out-of-gauge, dangerous goods), and the master plan kept updated bay by bay through the operation.",
+    assessmentCriteria: [
+      "The coordinate system is correct (bays, rows or lines, tiers giving each slot an address).",
+      "What the plan shows per box is correct (discharge port, weight, reefer, out-of-gauge, dangerous goods).",
+      "The master plan and its bay-by-bay updates are correctly explained.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Carga sobre cubierta",
+    topic: "Tipos de cargamento estibados sobre cubierta y su aseguramiento",
+    week: 10,
+    taskId: "pn-cye748-w10-deck-cargo-stowage",
+    taskTitle: "Plan A Safe Deck Cargo",
+    scenario: "A cargo of timber and project units must be carried on deck. The officer asks the cadet to explain how a deck cargo is planned, stowed and secured, and its effects on the ship.",
+    instructions: [
+      "State what is stowed on deck and why: cargo too large for the holds, dangerous goods needing open-air stowage, or deck cargoes such as timber and containers, secured for the worst weather expected on the voyage.",
+      "Explain the operational precautions: keep clear access to vital parts of the ship (sounding pipes, fire hydrants, the safe crew route) and do not block the navigating visibility, and rig lifelines where the crew must pass the cargo.",
+      "Explain the effects on the ship: a deck cargo raises the KG and can reduce GM, it can trap water or ice on deck adding weight high up, and it must not overload the deck, so the stow, the lashings and the stability are checked together (using the securing methods of week 2).",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on planning a deck cargo: what is stowed on deck and why (oversize, dangerous goods, timber, containers, secured for the worst weather), the operational precautions (clear access to vital parts, visibility kept clear, lifelines rigged), and the effects on the ship (KG raised and GM reduced, water or ice trapped high, deck not overloaded) using the securing methods of week 2.",
+    assessmentCriteria: [
+      "What is stowed on deck and why is correct (oversize, dangerous goods, timber and containers, secured for the worst weather).",
+      "The operational precautions are correct (clear access to vital parts, visibility kept clear, lifelines rigged).",
+      "The effects on the ship are correct (KG raised and GM reduced, water or ice trapped high, deck not overloaded) using the week 2 securing methods.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Cargas a granel no vegetal",
+    topic: "Cargas que pueden licuarse: límite de humedad y punto de fluidez (IMSBC)",
+    week: 11,
+    taskId: "pn-cye748-w11-cargo-liquefaction",
+    taskTitle: "Guard Against Bulk Cargo Liquefaction",
+    scenario: "The ship is to load a mineral concentrate that can turn from a solid into a slurry at sea, one of the most dangerous bulk cargoes there is. The officer asks the cadet to explain liquefaction and how it is guarded against under the IMSBC Code.",
+    instructions: [
+      "Explain liquefaction: certain moist fine-grained cargoes (mineral concentrates, some ores, nickel ore) behave like a solid when loaded, but the ship's vibration and rolling can make the water in them migrate so the cargo flows like a liquid, shifts to one side and can capsize the ship.",
+      "Explain the moisture limits: the cargo has a transportable moisture limit (TML) set at a fraction of its flow moisture point, and it may only be loaded if its actual moisture content is below the TML, on the shipper's declaration and certificate.",
+      "State the officer's precautions: check the shipper's cargo declaration and moisture certificate, watch for cargo that is wet or has free water at the surface, refuse or stop loading a cargo that may be over the limit, and remember that trimming level does not make an over-limit cargo safe (distinct from the grain trimming of week 3, which is a stability-of-a-solid problem, not liquefaction).",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on liquefaction: how a moist fine-grained cargo can flow and shift under vibration and rolling and capsize the ship, the moisture limits (the transportable moisture limit from the flow moisture point, load only below the TML on the shipper's certificate), and the officer's precautions (check the declaration and certificate, watch for wet cargo or free water, stop loading if in doubt), distinct from the grain trimming of week 3.",
+    assessmentCriteria: [
+      "Liquefaction is correctly explained (a moist fine cargo flows and shifts under vibration and rolling, capsize risk).",
+      "The moisture limits are correct (transportable moisture limit from the flow moisture point; load only below the TML on the shipper's certificate).",
+      "The precautions are correct (check declaration and certificate, watch for wet cargo or free water, stop loading if in doubt) and distinct from the week 3 grain problem.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Cálculo y planos de carga",
+    topic: "Resistencia de las planchas y cargas máximas permisibles del entrepuente",
+    week: 12,
+    taskId: "pn-cye748-w12-tank-top-load-heavy-lift",
+    taskTitle: "Verify Tank-Top Strength For A Heavy Lift",
+    scenario: "A single heavy unit must be stowed in a hold, and its weight is concentrated on a small footprint. As the closing task, the officer asks the cadet to verify that the tank top or deck can take the load, drawing the subject together.",
+    instructions: [
+      "Explain the permissible load: the tank top and each deck have a maximum permissible load, usually given as a load per unit area (tonnes per square metre), because the plating and the supporting structure can only carry so much before they are overstressed.",
+      "Explain the load spreading: a heavy unit on a small footprint produces a high pressure, so dunnage, bearers or a spread of steel plates are used to distribute the weight over a larger area and bring the pressure under the permissible figure.",
+      "Explain the integrated check: confirm the point load against the permissible load per unit area, place the unit over or near a strong point (a bulkhead or a web frame) rather than mid-span, and check that the stow keeps the ship's stability and trim in hand (using the stowage factor and broken-stowage thinking of week 5), so the load is safe for both the structure and the ship.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on verifying tank-top strength for a heavy lift: the permissible load per unit area of the tank top and decks, load spreading with dunnage, bearers or steel plates to bring the pressure under the limit, and the integrated check (point load against the permissible figure, unit placed over a strong point, stability and trim kept in hand using the week 5 stowage thinking).",
+    assessmentCriteria: [
+      "The permissible load is correctly explained (a maximum load per unit area set by the strength of the plating and structure).",
+      "Load spreading is correct (dunnage, bearers or steel plates distribute the weight to reduce the pressure under the limit).",
+      "The integrated check is correct (point load against the permissible figure, placed over a strong point, stability and trim kept in hand using week 5).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
     subjectCode: "OMI750",
     subjectName: "Convenios Organización Marítima Internacional I",
     subjectId: "pn-s7-convenios-omi-i",
@@ -1620,6 +1968,122 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
       "Key areas are correctly named (e.g. hours of rest, wages, accommodation, medical care, repatriation).",
       "Enforcement is correct (Maritime Labour Certificate, DMLC, port State control).",
       "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Reciclaje de buques",
+    topic: "Importancia del reciclaje de buques y sus procedimientos",
+    week: 9,
+    taskId: "pn-omi750-w09-ship-recycling-convention",
+    taskTitle: "Explain The Ship Recycling Convention",
+    scenario: "At the end of her life a ship is broken up for her steel, and this has often been done in unsafe and polluting conditions. The officer asks the cadet to explain the Hong Kong Convention on the safe and environmentally sound recycling of ships.",
+    instructions: [
+      "Explain why ship recycling is regulated: breaking up ships releases hazardous materials (asbestos, heavy metals, oil residues) and has caused deaths and pollution at some beaching yards, so the convention exists to make recycling safe for the workers and the environment.",
+      "State the key requirement for the ship: she carries an Inventory of Hazardous Materials (IHM), a list of the dangerous materials in her structure and equipment, kept current through her life and verified by survey.",
+      "State the requirement for the yard: recycling is done at an authorised facility that works to an approved ship recycling plan, so the ship goes only to a yard that can handle her materials safely.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the Ship Recycling Convention: why recycling is regulated (hazardous materials, worker safety and pollution at unsafe yards), the ship's Inventory of Hazardous Materials kept current and surveyed, and the requirement to recycle at an authorised facility under an approved ship recycling plan.",
+    assessmentCriteria: [
+      "The reason for regulation is correct (hazardous materials, worker safety and pollution).",
+      "The ship's requirement is correct (Inventory of Hazardous Materials, kept current and surveyed).",
+      "The yard requirement is correct (authorised facility, approved ship recycling plan).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Piratería y terrorismo",
+    topic: "Instrumentos para la represión de actos ilícitos (Convenio SUA)",
+    week: 10,
+    taskId: "pn-omi750-w10-sua-convention",
+    taskTitle: "Explain The SUA Convention Against Unlawful Acts",
+    scenario: "Piracy is not the only threat to a ship; deliberate unlawful acts such as seizing a ship or planting a device are crimes in their own right. The officer asks the cadet to explain the SUA Convention for the suppression of unlawful acts against the safety of navigation.",
+    instructions: [
+      "Explain what the SUA Convention covers: it makes it an offence to unlawfully seize or control a ship by force, to commit violence against people on board, or to place a device likely to destroy or damage the ship, so these acts are crimes that states must prosecute or extradite.",
+      "Distinguish it from piracy: piracy is committed for private ends on the high seas (covered in week 4), while SUA covers unlawful acts including those with a terrorist motive and applies more widely, and the 2005 protocol extended it to the use of a ship as a weapon or to carry weapons of mass destruction.",
+      "Explain the purpose for the seafarer: by obliging states to treat these acts as serious crimes and to cooperate, the convention closes the gaps that let offenders escape, supporting the wider maritime security regime a ship operates under.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the SUA Convention: the unlawful acts it criminalises (seizing or controlling a ship by force, violence against those on board, placing a destructive device), the distinction from piracy (private ends on the high seas in week 4 versus unlawful and terrorist acts, with the 2005 protocol extending it), and the purpose (states must prosecute or extradite and cooperate).",
+    assessmentCriteria: [
+      "The acts covered are correct (unlawful seizure or control by force, violence on board, placing a destructive device).",
+      "The distinction from piracy is correct (private ends on the high seas in week 4 versus wider unlawful and terrorist acts; the 2005 protocol).",
+      "The purpose for the seafarer is correct (states prosecute or extradite and cooperate, supporting maritime security).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Piratería y terrorismo",
+    topic: "La evolución sobre la libertad de la navegación",
+    week: 11,
+    taskId: "pn-omi750-w11-freedom-of-navigation",
+    taskTitle: "Explain Freedom Of Navigation",
+    scenario: "A ship's right to sail from port to port across the world rests on the freedom of navigation. The officer asks the cadet to explain what this freedom is, how it developed, and its limits.",
+    instructions: [
+      "Explain the principle: on the high seas ships of every state enjoy the freedom of navigation, a long-standing principle now set out in the law of the sea, so that trade can move freely and no state may claim the open ocean as its own.",
+      "Explain the maritime zones that qualify it: within the territorial sea a foreign ship has the right of innocent passage, and through straits used for international navigation the right of transit passage, so the freedom is balanced against the coastal state's rights the nearer the ship comes to the coast.",
+      "Explain the modern tension: threats such as piracy, terrorism (the SUA acts of week 10) and unlawful interference, and the security measures taken against them, must be balanced against keeping the sea lanes open, because world trade depends on ships being able to pass safely.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on freedom of navigation: the high-seas principle set out in the law of the sea, how it is qualified nearer the coast (innocent passage in the territorial sea, transit passage through international straits), and the modern tension between security measures against piracy and unlawful acts (week 10) and keeping the sea lanes open for trade.",
+    assessmentCriteria: [
+      "The high-seas principle is correctly explained (freedom of navigation for all states, set out in the law of the sea).",
+      "The qualifying zones are correct (innocent passage in the territorial sea, transit passage through international straits).",
+      "The modern tension is sound (security against piracy and unlawful acts per week 10 balanced against open sea lanes for trade).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Piratería y terrorismo",
+    topic: "La piratería y su incidencia en el comercio marítimo internacional",
+    week: 12,
+    taskId: "pn-omi750-w12-piracy-impact-on-trade",
+    taskTitle: "Analyse Piracy's Impact On World Trade",
+    scenario: "Piracy off certain coasts has forced ships to change routes, buy protection and pay ransoms, and the cost falls on world trade. As the closing task, the officer asks the cadet to analyse the effect of piracy on international shipping, drawing the subject together.",
+    instructions: [
+      "Explain the direct costs to trade: ransoms, higher war-risk insurance premiums, armed guards and hardening, and slower or longer routes to avoid the high-risk areas, all of which raise the cost of moving cargo and ultimately the price to the consumer.",
+      "Explain the response and how it is coordinated: the industry Best Management Practices, naval patrols in the high-risk areas, and reporting to the military and to the reporting centres, so a ship transiting a high-risk area registers, follows the guidance and reports her position, calling for help on the distress and security channels if attacked.",
+      "Integrate the subject: connect this to the ship security measures and the ship security plan of week 4, the SUA framework of week 10, and the balance with freedom of navigation of week 11, so the analysis shows piracy as both a security threat to the individual ship and an economic threat to the trade the convention regime protects.",
+      "Report your analysis in clear maritime English, including the security reporting a ship makes when transiting a high-risk area."
+    ],
+    deliverable: "A note in English analysing piracy's impact on world trade: the direct costs (ransoms, insurance, armed guards, longer routes raising the cost of cargo), the coordinated response (Best Management Practices, naval patrols, registration and reporting for a high-risk-area transit, calling for help if attacked), integrated with the ship security plan of week 4, the SUA framework of week 10 and the freedom of navigation of week 11.",
+    assessmentCriteria: [
+      "The direct costs to trade are correct (ransoms, insurance, armed guards, longer or slower routes raising the cost of cargo).",
+      "The coordinated response and reporting are correct (Best Management Practices, naval patrols, register and report for a high-risk transit, call for help if attacked).",
+      "The subject is integrated (ship security plan week 4, SUA framework week 10, freedom of navigation week 11) showing piracy as both a security and an economic threat.",
+      "The answer is clear and in correct English, including the security reporting for a high-risk-area transit."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -1744,6 +2208,122 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Liderazgo",
+    topic: "Toma de decisiones en situaciones de emergencia",
+    week: 9,
+    taskId: "pn-sem751-w09-emergency-decision-making",
+    taskTitle: "Make Decisions As A Leader In An Emergency",
+    scenario: "In an emergency on a passenger ship the officer in charge of a section must decide and act, often on incomplete information. The officer asks the cadet to explain how a leader makes decisions under this pressure.",
+    instructions: [
+      "Explain the situation the leader faces: incomplete information, little time, and passengers watching, so the leader must gather the key facts quickly, decide, and act rather than wait for certainty that will not come.",
+      "Explain deciding and communicating: choose the action that best protects life, give clear and simple orders to the crew and passengers, and show calm and confidence, because a visibly decisive leader steadies the crowd.",
+      "Explain adjusting: keep taking in new information and be ready to change the plan if the situation changes, while not flip-flopping so often that the team loses confidence.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on decision-making as a leader in an emergency: the situation (incomplete information, little time, passengers watching), deciding and communicating (act to protect life, clear simple orders, visible calm and confidence), and adjusting to new information without losing the team's confidence.",
+    assessmentCriteria: [
+      "The situation is correctly described (incomplete information and time pressure, decide and act).",
+      "Deciding and communicating are sound (protect life, clear simple orders, visible calm and confidence).",
+      "Adjusting to new information without flip-flopping is covered.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Capacitación a pasajeros",
+    topic: "Demostración a los pasajeros de los dispositivos de salvamento",
+    week: 10,
+    taskId: "pn-sem751-w10-lifesaving-demonstration",
+    taskTitle: "Demonstrate Lifesaving Appliances To Passengers",
+    scenario: "At the start of a voyage the passengers are shown how to use the lifesaving appliances. The officer asks the cadet to explain how the crew demonstrate the lifejacket and the drill to the passengers.",
+    instructions: [
+      "State when the demonstration is given: the safety briefing or muster drill at or soon after departure, so passengers know what to do before any real emergency, and it is repeated or broadcast for a longer voyage.",
+      "Explain demonstrating the lifejacket: show clearly where the lifejacket is kept, how to put it on and secure it, and how the light and whistle work, having a passenger try it so it is not just watched.",
+      "Explain conveying the drill: show the muster signal, the route to the muster station and what passengers must do (and not do), keeping the message simple and visual so passengers of any language can follow.",
+      "Report how you would give the demonstration in clear maritime English."
+    ],
+    deliverable: "A note in English on demonstrating the lifesaving appliances to passengers: when it is given (the safety briefing or muster drill at departure, repeated for a long voyage), demonstrating the lifejacket (where it is, how to don and secure it, the light and whistle, a passenger trying it), and conveying the drill (the muster signal, the route, what to do and not do) kept simple and visual for any language.",
+    assessmentCriteria: [
+      "When the demonstration is given is correct (safety briefing or muster drill at departure, repeated for a long voyage).",
+      "The lifejacket demonstration is correct (where it is, how to don and secure, light and whistle, a passenger trying it).",
+      "Conveying the drill is correct (muster signal, route, do and do-not) kept simple and visual for any language.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Control de estrés",
+    topic: "Síntomas de estrés excesivo y su efecto en el comportamiento de la multitud",
+    week: 11,
+    taskId: "pn-sem751-w11-crowd-stress-behaviour",
+    taskTitle: "Recognise And Manage Stress In A Crowd",
+    scenario: "Under an emergency the passengers' fear can build into dangerous crowd behaviour. The officer asks the cadet to explain the symptoms of excessive stress in a crowd and how they change the crowd's behaviour.",
+    instructions: [
+      "Describe the symptoms of excessive stress in individuals and the crowd: rising panic, people freezing or not responding to instructions, pushing and shoving towards an exit, shouting, and irrational actions such as going back for belongings.",
+      "Explain how stress changes the crowd's behaviour: fear spreads from person to person, a frightened crowd surges and can crush at a bottleneck, and people stop thinking for themselves and follow the movement of the crowd, which is why a crowd can become more dangerous than the original emergency.",
+      "Explain how the crew reduce the stress: a calm and confident presence, clear repeated instructions and honest information, keeping the crowd moving and breaking up a dangerous crush, so that the crew's behaviour is used to steady the crowd (building on the first-reaction and panic management of weeks 1 and 2).",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on stress in a crowd: the symptoms of excessive stress (rising panic, freezing, pushing towards exits, shouting, irrational actions), how stress changes crowd behaviour (fear spreads, the crowd surges and can crush, people follow the crowd), and how the crew reduce it (calm presence, clear repeated instructions, honest information, keep the crowd moving), building on the first-reaction and panic management of weeks 1 and 2.",
+    assessmentCriteria: [
+      "The symptoms of excessive stress are correctly described (panic, freezing, pushing, shouting, irrational actions).",
+      "The effect on crowd behaviour is correct (fear spreads, the crowd surges and can crush, people follow the crowd).",
+      "The crew's reduction of stress is sound (calm presence, clear repeated instructions, honest information, keep moving) building on weeks 1 and 2.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Control de multitudes",
+    topic: "El plan de dispositivos de salvamento y de control de multitudes (cuadro orgánico)",
+    week: 12,
+    taskId: "pn-sem751-w12-muster-list-control-plan",
+    taskTitle: "Apply The Muster List And Crowd Control Plan",
+    scenario: "Every crew member on a passenger ship has an assigned duty for an emergency, set out in the muster list and the crowd control plan. As the closing task, the officer asks the cadet to explain how these plans organise the crew to control the passengers, drawing the subject together.",
+    instructions: [
+      "Explain the muster list: it assigns every crew member a specific emergency duty and station (who leads which group of passengers, who mans the survival craft, who assists special-needs passengers), so that when the alarm sounds each person knows their task without being told.",
+      "Explain the crowd control plan: it divides the passenger spaces into areas with crew assigned to guide, muster and count the passengers along the escape routes, so the plans of the semester (the flow control, the muster assistance, the special-needs help, the group leaders) all have a place in one organised scheme.",
+      "Explain making it work: it works only if the crew are trained and drilled so the assignments are second nature, and the plan is displayed and kept current as the crew changes; integrate the subject by showing how the muster list turns the whole semester's skills into an organised response rather than an improvised one.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the muster list and crowd control plan: the muster list assigning every crew member an emergency duty and station, the crowd control plan dividing the passenger spaces with crew to guide, muster and count, and making it work through training, drills and a current displayed plan, integrating the flow control, muster assistance, special-needs help and group leaders of the semester into one organised response.",
+    assessmentCriteria: [
+      "The muster list is correctly explained (every crew member assigned a specific emergency duty and station).",
+      "The crowd control plan is correct (passenger spaces divided with crew to guide, muster and count along the escape routes).",
+      "Making it work is sound (training and drills, a current displayed plan) and the subject is integrated (the semester's skills organised into one response).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
     subjectCode: "ING746",
     subjectName: "Inglés Marítimo VII",
     subjectId: "pn-s7-ingles-maritimo-vii",
@@ -1852,6 +2432,122 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
       "Discourse signposting is correctly used (firstly, moving on to, to summarise).",
       "The delivery advice is sound and the boundary with the Maritime English V operational briefing and debriefing is respected.",
       "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Oraciones condicionales",
+    topic: "Tercer condicional",
+    week: 9,
+    taskId: "pn-ing746-w09-third-conditional-near-miss",
+    taskTitle: "Analyse A Near-Miss Using The Third Conditional",
+    scenario: "After a near-miss the ship reviews what happened and what would have prevented it. The captain asks the cadet to write up the review using the third conditional to reason about the past.",
+    instructions: [
+      "Choose a near-miss to review (for example a close-quarters situation or an almost-grounding) and state the facts of what actually happened.",
+      "Use the third conditional correctly to reason about the past (if + past perfect, would have + past participle): 'if the lookout had reported the light earlier, we would have altered in good time', 'if the depth had been checked, the ship would not have stood into danger'.",
+      "Keep the purpose clear: the third conditional is for the unreal past, drawing the lesson from what would have happened, so it reads as a genuine safety review, not a grammar drill, and it is distinct from the first and zero conditionals of week 5 which deal with real present and future contingencies.",
+      "Report your near-miss review in clear maritime English."
+    ],
+    deliverable: "A short near-miss review in English using the third conditional (if + past perfect, would have + past participle) to reason about what would have prevented the event, drawing the lesson, distinct from the real first and zero conditionals of week 5.",
+    assessmentCriteria: [
+      "The near-miss facts are stated clearly and realistically.",
+      "The third conditional is formed correctly (if + past perfect, would have + past participle).",
+      "It reads as a genuine safety review drawing the lesson, distinct from the week 5 first and zero conditionals.",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Descifrando códigos",
+    topic: "Relative clauses, reducidas e indefinidas",
+    week: 10,
+    taskId: "pn-ing746-w10-relative-clauses-definitions",
+    taskTitle: "Write Precise Definitions Using Relative Clauses",
+    scenario: "A ship's manual and reports must define equipment and terms precisely. The captain asks the cadet to write clear definitions and descriptions using relative clauses.",
+    instructions: [
+      "Write defining relative clauses that identify equipment precisely (using who, which, that, where): 'the EPIRB is the device which transmits the ship's position in distress', 'the muster station is the place where passengers assemble in an emergency'.",
+      "Use a non-defining relative clause to add extra information set off by commas: 'the chief officer, who is in charge of cargo, signed the plan', showing that the extra information could be removed without changing the identification.",
+      "Reduce a relative clause where it reads better ('the container which is marked...' becomes 'the container marked...'), keeping the meaning exact so the definition is tighter, not looser.",
+      "Report your definitions in clear maritime English."
+    ],
+    deliverable: "A short set of English definitions and descriptions using relative clauses: defining clauses that identify equipment precisely (who, which, that, where), a non-defining clause adding extra information set off by commas, and a reduced clause, kept exact for a manual or report.",
+    assessmentCriteria: [
+      "Defining relative clauses identify the equipment precisely (who, which, that, where).",
+      "The non-defining clause is correctly punctuated with commas and adds removable information.",
+      "The reduced clause keeps the meaning exact.",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Ley y honestidad",
+    topic: "Reporting verbs y verb patterns",
+    week: 11,
+    taskId: "pn-ing746-w11-reporting-verbs-investigation",
+    taskTitle: "Write An Investigation Summary Using Reporting Verbs",
+    scenario: "An accident investigation summary reports what different people said and did, and a plain 'said' is not precise enough. The captain asks the cadet to write a summary using a range of reporting verbs with their correct patterns.",
+    instructions: [
+      "Use precise reporting verbs instead of 'said', chosen for meaning: the officer 'warned' the crew, the master 'confirmed' the order, the engineer 'admitted' the error, the lookout 'denied' seeing the light, the company 'recommended' a change.",
+      "Use the correct pattern after each verb: 'advised the crew to wear...', 'suggested checking...', 'insisted on isolating...', 'reported that the valve was leaking', so the grammar after the verb is right, not just the verb.",
+      "Build on the reported speech of week 1: reported speech relayed a message accurately, and here the reporting verbs add the precise meaning and attitude of who said what in an investigation, so the summary is exact and fair.",
+      "Report your investigation summary in clear maritime English."
+    ],
+    deliverable: "A short investigation summary in English using a range of reporting verbs chosen for meaning (warned, confirmed, admitted, denied, recommended) each with its correct pattern (advised someone to, suggested doing, insisted on, reported that), building on the reported speech of week 1 to attribute precisely and fairly.",
+    assessmentCriteria: [
+      "The reporting verbs are chosen precisely for meaning (warned, confirmed, admitted, denied, recommended).",
+      "The pattern after each verb is correct (verb + object + to, verb + -ing, verb + that, verb + preposition).",
+      "It builds on the week 1 reported speech to attribute precisely and fairly.",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Economía personal",
+    topic: "Lenguaje para debatir",
+    week: 12,
+    taskId: "pn-ing746-w12-argue-a-recommendation",
+    taskTitle: "Argue A Recommendation In A Safety Meeting",
+    scenario: "At the ship's safety committee a proposed change to a procedure is debated. As the closing task, the captain asks the cadet to put and defend a recommendation in the meeting, drawing the subject together.",
+    instructions: [
+      "State the recommendation and the case for it: open with the proposal, then give the reasons in a logical order joined with the cohesive connectors of week 6 ('firstly... in addition... therefore...'), so the argument builds rather than lists.",
+      "Use the language of debate to agree, disagree and concede politely: 'I take your point, however...', 'I see what you mean, but the evidence suggests...', 'that is a fair concern; to address it we could...', so a disagreement stays professional.",
+      "Handle a challenge and close: answer an objection with a concrete example rather than a vague claim (the register of the week 7 interview), acknowledge a valid point, and restate the recommendation, so the case is made and the meeting can decide.",
+      "Report your argued recommendation in clear maritime English."
+    ],
+    deliverable: "A note in English arguing a recommendation in a safety meeting: stating the recommendation and building the case with the cohesive connectors of week 6, using the language of debate to agree, disagree and concede politely, and handling a challenge with concrete examples (the register of week 7) before restating the recommendation for decision.",
+    assessmentCriteria: [
+      "The recommendation and its case are clear and logically built (using the week 6 connectors).",
+      "The language of debate is used correctly to agree, disagree and concede politely.",
+      "A challenge is handled with concrete examples (the week 7 register) and the recommendation is restated for decision.",
+      "The English reads professionally, not as a grammar exercise."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -1976,6 +2672,122 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Aplicación de anticorrosivos",
+    topic: "Preparación de la superficie y aplicación de anticorrosivos",
+    week: 9,
+    taskId: "pn-pmr752-w09-corrosion-protection",
+    taskTitle: "Protect The Ship Against Corrosion",
+    scenario: "Rust never stops attacking a steel ship, and the deck department fights it constantly. The officer asks the cadet to explain how a steel surface is prepared and protected against corrosion.",
+    instructions: [
+      "Explain why the surface preparation decides everything: paint only lasts if the steel beneath is clean, so the rust, scale and old loose paint are removed by chipping, scraping, wire-brushing or power tools down to a sound surface, and the area is clean and dry before any coat goes on.",
+      "Explain the coating system: an anticorrosive primer is applied first to bond to the steel and stop the rust, followed by the finishing coats, each coat allowed to dry before the next, so the system protects rather than just covers.",
+      "State the safety and the conditions: do not paint on a wet or dusty surface or in unsuitable weather, ventilate and protect against fumes in an enclosed space, and observe the paint's data for thinning and drying, so the job is safe and the coating holds.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on corrosion protection: why surface preparation decides the result (remove rust, scale and loose paint to a sound, clean, dry surface), the coating system (anticorrosive primer then finishing coats, each dried before the next), and the safety and conditions (not on a wet or dusty surface, ventilate against fumes, follow the paint data).",
+    assessmentCriteria: [
+      "The importance of surface preparation is correct (clean, dry, sound steel; rust, scale and loose paint removed).",
+      "The coating system is correct (anticorrosive primer then finishing coats, each dried before the next).",
+      "The safety and conditions are correct (not on a wet or dusty surface, ventilation against fumes, follow the paint data).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Acabados, esmaltes y barnices",
+    topic: "Composición de los esmaltes, preparación de la pintura e igualación de colores",
+    week: 10,
+    taskId: "pn-pmr752-w10-prepare-match-paintwork",
+    taskTitle: "Prepare And Match The Ship's Paintwork",
+    scenario: "After the anticorrosive work the finishing paint must be mixed and matched so the repair does not stand out. The officer asks the cadet to explain preparing enamels and varnishes and matching the colour.",
+    instructions: [
+      "Explain the finishing coats: enamels give a hard glossy protective finish and varnishes protect bright woodwork, and each is chosen for where it is used (deck, superstructure, accommodation, brightwork).",
+      "Explain preparing the paint: stir it thoroughly so the pigment is evenly mixed, thin it only as the maker's data allows, and strain it if needed, so it flows and covers evenly.",
+      "Explain matching the colour: mix from the correct base and tint and test on a small area against the surrounding paintwork before doing the whole job, because a poor match or a wrongly thinned paint spoils the finish and wastes the work.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the ship's paintwork: the finishing coats (enamels for a hard glossy finish, varnishes for brightwork, each chosen for its place), preparing the paint (stir thoroughly, thin only as the data allows, strain if needed), and matching the colour (mix from the correct base and tint, test against the surrounding paintwork before the whole job).",
+    assessmentCriteria: [
+      "The finishing coats are correctly explained (enamels for a hard glossy finish, varnishes for brightwork, chosen for their place).",
+      "Preparing the paint is correct (stir thoroughly, thin per the data, strain if needed).",
+      "Matching the colour is correct (mix from the correct base and tint, test before the whole job).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Banderas y señales",
+    topic: "Uso y significado de las banderas del código internacional",
+    week: 11,
+    taskId: "pn-pmr752-w11-flag-signalling",
+    taskTitle: "Send A Message By Flag Hoist",
+    scenario: "The ship must send a message by flags to a vessel whose radio has failed. The officer asks the cadet to use the International Code of Signals, going beyond simply recognising the flags to using their meanings.",
+    instructions: [
+      "Explain the single-letter signals as urgent standard messages, each flag meaning a complete message on its own: for example 'A' - I have a diver down, keep clear; 'O' - man overboard; 'H' - I have a pilot on board; 'B' - I am handling dangerous goods, so one flag says a great deal.",
+      "Explain a hoist of more than one flag: two- and three-letter groups from the International Code of Signals stand for whole messages regardless of language, so ships of different nations can communicate, and the hoist is read from the top down.",
+      "Explain the operation of signalling: choose the correct hoist for the message, run it up where the other ship can see it clearly, and read the other ship's reply, building on the recognition by shape and colour of week 2 to now use the flags to actually pass a message.",
+      "Report the flag message you would send and its meaning in clear maritime English."
+    ],
+    deliverable: "A note in English on sending a message by flag hoist: the single-letter signals as complete urgent messages (A diver down, O man overboard, H pilot on board, B dangerous goods), multi-flag groups from the International Code of Signals standing for whole messages across languages and read top down, and the operation of choosing, hoisting and reading the reply, building on the week 2 recognition to pass a message.",
+    assessmentCriteria: [
+      "The single-letter signals are correct (each flag a complete message, with valid examples such as A, O, H, B).",
+      "Multi-flag groups are correctly explained (International Code groups for whole messages across languages, read top down).",
+      "The operation is correct (choose the hoist, run it up visibly, read the reply) building on the week 2 recognition.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Faenas con anclas",
+    topic: "Bajada del ancla a plan de muelle e inspección de la cadena",
+    week: 12,
+    taskId: "pn-pmr752-w12-range-inspect-anchor-cable",
+    taskTitle: "Range And Inspect The Anchor Cable",
+    scenario: "Alongside in Tampico the anchor cable is walked out onto the quay so it can be examined link by link. As the closing task, the officer asks the cadet to run the ranging and inspection of the cable, drawing the anchor work of the semester together.",
+    instructions: [
+      "Explain the purpose and the operation: the cable is walked back with the windlass and lowered to the quay ('a plan de muelle') so it can be laid out and inspected end to end, which cannot be done with the cable stowed in the locker.",
+      "State what is inspected and recorded: the wear of the links and the studs, the condition of the joining shackles and the swivel, the marking of the shackles (the colour and turns of wire that show how much cable is out), and the state of the bitter end and its securing in the locker.",
+      "Explain the integration and safety: this uses the windlass and brake maintained in week 6 and applies the anchor-handling safety of week 4 (the team clear of the cable, clear communication with the windlass operator), so the closing task ties the anchor gear, its maintenance and its safe handling together, and any defect is reported for the spares and repair record of week 3.",
+      "Report the ranging and inspection of the cable in clear maritime English."
+    ],
+    deliverable: "A note in English on ranging and inspecting the anchor cable: the purpose and operation (walk the cable back and lower it to the quay to inspect it end to end), what is inspected and recorded (link and stud wear, joining shackles and swivel, the cable marking, the bitter end and its securing), and the integration and safety (using the week 6 windlass and brake, the week 4 handling safety, and the week 3 spares and repair record).",
+    assessmentCriteria: [
+      "The purpose and operation are correct (walk the cable back and lower it to the quay to inspect it end to end).",
+      "What is inspected and recorded is correct (link and stud wear, shackles and swivel, cable marking, bitter end and securing).",
+      "The integration and safety are correct (week 6 windlass and brake, week 4 handling safety, week 3 spares and repair record).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
     subjectCode: "C0011",
     subjectName: "Educación Física VII",
     subjectId: "pn-s7-educacion-fisica-vii",
@@ -2083,6 +2895,122 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
       "The warm-up is led and its purpose explained to the group.",
       "The main part is led with clear instructions and the form watched, with no one pushed to an extreme and no competition to win.",
       "The cool-down and close check for injury or over-strain, treating the group's wellbeing (not a performance figure) as the responsibility.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Condición física",
+    topic: "Flexibilidad articular y muscular",
+    week: 9,
+    taskId: "pn-c0011vii-w09-flexibility-routine",
+    taskTitle: "Maintain Joint And Muscle Flexibility",
+    scenario: "Deck work in awkward positions and long watches leave the body stiff, and good flexibility helps prevent strains. The training officer asks the cadet to explain how joint and muscle flexibility is maintained.",
+    instructions: [
+      "Define flexibility and why it matters at sea: the range of movement of the joints and the length of the muscles, which lets an officer bend, reach and work in awkward positions without straining, and reduces the risk of a pulled muscle.",
+      "Describe a simple mobility and stretching routine for the areas used on deck: the neck, shoulders, back, hips and hamstrings, moving gently through the range and holding each stretch without bouncing.",
+      "State the safe limits: warm up before stretching hard, never force a stretch to the point of pain, and do not chase an extreme range, because the aim is healthy movement for the work, not a performance figure.",
+      "Report your answer in clear English using correct fitness terms."
+    ],
+    deliverable: "A note in English on flexibility: what it is and why it matters at sea (joint range and muscle length for working in awkward positions without strain), a simple mobility and stretching routine for the deck-work areas (neck, shoulders, back, hips, hamstrings, gently and held), and the safe limits (warm up first, never force to pain, no extreme range).",
+    assessmentCriteria: [
+      "Flexibility is correctly defined and linked to safe deck work (joint range and muscle length, fewer strains).",
+      "The routine is appropriate (the deck-work areas, gentle movement, held without bouncing).",
+      "The safe limits are correct (warm up first, never force to pain, no extreme range).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Desarrollo físico integral",
+    topic: "Deportes de conjunto: voleibol y básquetbol",
+    week: 10,
+    taskId: "pn-c0011vii-w10-team-sport-teamwork",
+    taskTitle: "Use Team Sport To Sharpen Teamwork",
+    scenario: "A game of volleyball or basketball on board is not only exercise; it builds the teamwork the crew needs. The training officer asks the cadet to explain how a team sport develops fitness and crew cooperation.",
+    instructions: [
+      "Explain what a team sport trains physically: general fitness, coordination, agility and reaction, in a way that is enjoyable so people keep it up better than a solitary routine.",
+      "Explain what it trains for the crew: communication, reading what teammates do, sharing a role and supporting each other under a little pressure, which are the same habits that make a good bridge or deck team.",
+      "Explain running it fairly and safely: balance the sides, keep it friendly rather than a fierce competition to win, and watch for anyone straining or at risk of injury, so the session builds the crew rather than dividing or hurting it.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on team sport: what it trains physically (fitness, coordination, agility, reaction, kept up because it is enjoyable), what it trains for the crew (communication, reading teammates, sharing a role, mutual support under pressure), and running it fairly and safely (balanced sides, friendly not fierce, watching for strain and injury).",
+    assessmentCriteria: [
+      "The physical benefits are correct (fitness, coordination, agility, reaction, sustained because it is enjoyable).",
+      "The teamwork benefits are sound (communication, reading teammates, sharing a role, mutual support).",
+      "Running it fairly and safely is covered (balanced sides, friendly not fierce, watching for strain and injury).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Natación",
+    topic: "Nado en grupo",
+    week: 11,
+    taskId: "pn-c0011vii-w11-coordinated-group-swim",
+    taskTitle: "Swim As A Coordinated Group",
+    scenario: "Survivors who swim as an organised group reach safety and are found more easily than swimmers who scatter. The instructor asks the cadet to explain and lead a coordinated group swim.",
+    instructions: [
+      "Explain why the group swims together: a group is seen more easily than a lone swimmer, the members can help a weaker swimmer, and staying together prevents anyone from being lost, so the group moves as one to the survival craft or the shore.",
+      "Explain organising the swim: set a pace the weakest can hold, keep the group in a tight formation, appoint someone to lead and someone to watch the rear, and account for everyone regularly by a count.",
+      "Explain the boundary with the earlier weeks: this is the coordinated group swim itself, distinct from the survival-floating skill of week 3 (leading survivors) and the self-abandonment entry of week 7; here the focus is moving a group through the water together.",
+      "Report how you would lead the group swim in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A brief in English on the coordinated group swim: why the group swims together (seen more easily, help the weak, no one lost, move as one to safety), organising it (a pace the weakest can hold, tight formation, a leader and a rear watch, a regular count), and the boundary with the week 3 survival floating and the week 7 self-abandonment.",
+    assessmentCriteria: [
+      "The reason for swimming together is correct (seen more easily, help the weak, no one lost, move as one).",
+      "Organising the swim is sound (pace for the weakest, tight formation, leader and rear watch, regular count).",
+      "The boundary with week 3 and week 7 is respected (this is the group swim itself).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Natación",
+    topic: "Flotación y conservación de energía en el agua",
+    week: 12,
+    taskId: "pn-c0011vii-w12-floating-conserve-energy",
+    taskTitle: "Conserve Energy By Floating While Awaiting Rescue",
+    scenario: "A person in the water awaiting rescue can survive far longer by floating and conserving energy than by swimming hard. As the closing task, the instructor asks the cadet to explain floating to conserve energy and body heat, drawing the water-survival skills together.",
+    instructions: [
+      "Explain why conserving energy matters: swimming and struggling burn energy and body heat fast, so unless safety is close the survivor floats and stays as still as possible to last longer in the water.",
+      "Explain floating with and without a lifejacket: with a lifejacket, relax and let it hold the head clear and adopt the heat-conserving posture (HELP) or huddle with others; without one, use a relaxed back float or a gentle survival float, breathing steadily, to stay up with the least effort.",
+      "Integrate the water-survival skills: connect this to the survival leadership of week 3, the self-abandonment of week 7 and the group swim of week 11, so the closing task shows the survivor deciding when to swim and when to float and conserve, choosing survival over effort.",
+      "Report your answer in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A brief in English on floating to conserve energy: why it matters (swimming burns energy and heat, so float and stay still to last longer unless safety is close), floating with a lifejacket (relax, head clear, HELP posture or huddle) and without one (a relaxed back or survival float, breathing steadily), integrating the survival leadership of week 3, the self-abandonment of week 7 and the group swim of week 11 into deciding when to swim and when to conserve.",
+    assessmentCriteria: [
+      "Why conserving energy matters is correct (swimming burns energy and heat; float and stay still to last longer unless safety is close).",
+      "Floating with and without a lifejacket is correct (relax and HELP or huddle with one; relaxed back or survival float breathing steadily without one).",
+      "The water-survival skills are integrated (weeks 3, 7 and 11) into deciding when to swim and when to conserve.",
       "The answer is clear and in correct English."
     ],
     xp: 25,
@@ -2208,6 +3136,122 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Toxicidad y otros peligros",
+    topic: "La hoja de datos de seguridad del material y el peligro para la salud",
+    week: 9,
+    taskId: "pn-c0129-w09-safety-data-sheet",
+    taskTitle: "Read A Cargo Safety Data Sheet",
+    scenario: "Before handling a cargo the crew must know what it can do to them, and the material safety data sheet is where that information is found. The officer asks the cadet to explain how to read a cargo safety data sheet for the health hazard.",
+    instructions: [
+      "Explain what the material safety data sheet (MSDS) is for: it is the document that comes with a cargo giving its hazards, its properties and the precautions, so the crew can handle it and respond to an incident safely.",
+      "Explain the health hazard section: the routes of harm (breathing the vapour, skin or eye contact, swallowing), the signs of over-exposure, and the exposure limits that say how much vapour is safe, so the crew know what protection to wear and when a space is unsafe.",
+      "Explain acting on it: use the personal protective equipment the sheet requires, know the first-aid measures for that cargo, and keep the sheet available to the crew and to any responder, so the information is used, not filed away.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the cargo safety data sheet: what the MSDS is for (hazards, properties and precautions with the cargo), the health hazard section (routes of harm, signs of over-exposure, exposure limits), and acting on it (wear the required protective equipment, know the first-aid measures, keep the sheet available).",
+    assessmentCriteria: [
+      "The purpose of the MSDS is correct (the document giving a cargo's hazards, properties and precautions).",
+      "The health hazard section is correctly read (routes of harm, signs of over-exposure, exposure limits).",
+      "Acting on it is correct (required protective equipment, first-aid measures, sheet kept available).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de emergencia",
+    topic: "Estructura organizacional, alarmas y procedimiento de emergencia",
+    week: 10,
+    taskId: "pn-c0129-w10-tanker-emergency-response",
+    taskTitle: "Respond To A Tanker Cargo Emergency",
+    scenario: "A cargo leak is discovered on deck during operations and the alarm is raised. The officer asks the cadet to explain how the crew is organised to respond to a tanker cargo emergency.",
+    instructions: [
+      "State the first actions on the alarm: raise the alarm and stop the cargo operation, and on a serious release close down and shut the valves, so the source is stopped and the situation is not made worse while the response is organised.",
+      "Explain the emergency organisation: the crew muster to their assigned emergency stations under the emergency plan, with a command team directing, teams for firefighting and for containment, and communication kept with the terminal, so everyone acts to a plan rather than at random.",
+      "Explain the response and the outside link: contain and control the release, be ready to fight a fire, account for all persons, and alert the terminal and shore authorities, linking to the ship-shore emergency stop and communication agreed in the transfer of week 8 and the pollution response of the SOPEP (week 3).",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on responding to a tanker cargo emergency: the first actions on the alarm (raise the alarm, stop the operation, shut down and close valves on a serious release), the emergency organisation (muster to stations under the plan, command team, firefighting and containment teams, terminal communication), and the response and outside link (contain and control, ready to fight fire, account for persons, alert the terminal and shore), linking to the week 8 transfer and the week 3 SOPEP.",
+    assessmentCriteria: [
+      "The first actions are correct (raise the alarm, stop the operation, shut down and close valves on a serious release).",
+      "The emergency organisation is correct (muster to stations under the plan, command team, firefighting and containment teams, terminal communication).",
+      "The response and outside link are correct (contain and control, ready to fight fire, account for persons, alert the terminal and shore) linking to week 8 and the week 3 SOPEP.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de emergencia",
+    topic: "Tratamiento de primeros auxilios y uso del resucitador",
+    week: 11,
+    taskId: "pn-c0129-w11-toxic-exposure-first-aid",
+    taskTitle: "Treat A Casualty Of Toxic Cargo Exposure",
+    scenario: "A crew member is found collapsed near a cargo tank, overcome by cargo vapour. The officer asks the cadet to explain the first-aid treatment of a casualty of toxic exposure and the use of the resuscitator.",
+    instructions: [
+      "State the first and overriding rule: do not become the second casualty, so the rescuer does not enter a toxic or oxygen-deficient space without breathing apparatus and a standby, and the casualty is removed to fresh air by a team that is protected (linking to the breathing apparatus of week 2).",
+      "State the immediate first aid in fresh air: check the response, the airway and the breathing, place an unconscious breathing casualty in the recovery position, keep them warm, and send for help, giving the responders the cargo and the safety data sheet (week 9) so the right treatment is given.",
+      "Explain the use of the resuscitator: for a casualty who is not breathing, oxygen and a resuscitator are used to support or restore breathing by trained crew as the ship's medical guidance directs, while resuscitation is continued and medical advice is obtained.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on treating a casualty of toxic cargo exposure: the overriding rule not to become the second casualty (protected rescue with breathing apparatus and a standby, per week 2), the immediate first aid in fresh air (response, airway, breathing, recovery position, keep warm, send for help with the cargo and the week 9 safety data sheet), and the use of oxygen and the resuscitator for a casualty who is not breathing.",
+    assessmentCriteria: [
+      "The overriding rule is correct (do not become the second casualty; protected rescue with breathing apparatus and a standby, per week 2).",
+      "The immediate first aid is correct (response, airway, breathing, recovery position, keep warm, send for help with the cargo and the week 9 data sheet).",
+      "The use of oxygen and the resuscitator is correct (support or restore breathing by trained crew, continue resuscitation, obtain medical advice).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Equipos para la carga",
+    topic: "Equipo de manipulación de la carga en quimiqueros y gaseros",
+    week: 12,
+    taskId: "pn-c0129-w12-chemical-gas-tanker-systems",
+    taskTitle: "Compare Chemical And Gas Tanker Cargo Systems",
+    scenario: "The familiarization has followed the oil tanker; the closing task looks across to the chemical and the gas carrier, which handle their cargoes differently. As the closing task, the officer asks the cadet to compare the cargo systems of the three tanker types, drawing the subject together.",
+    instructions: [
+      "Recall the oil tanker system as the baseline (covered across the semester): cargo pumps and pipelines, an inert gas system, and crude oil washing, moving a liquid cargo carried near atmospheric conditions.",
+      "Explain the chemical tanker differences: many separate grades needing segregated cargo lines and often individual deepwell pumps per tank, tank coatings or stainless steel to resist aggressive cargoes, and careful compatibility and segregation of reactive chemicals, because a chemical tanker carries many different and sometimes reactive cargoes at once.",
+      "Explain the gas carrier differences: the cargo is carried as a liquefied gas by refrigeration and/or pressure in special containment tanks, with reliquefaction plant and strict control of temperature and pressure, so a gas carrier is a far more specialised ship; conclude by stating that each type needs its own type-specific training beyond this basic familiarization.",
+      "Report your comparison in clear maritime English."
+    ],
+    deliverable: "A note in English comparing the tanker cargo systems: the oil tanker baseline (pumps and pipelines, inert gas, crude oil washing, a liquid near atmospheric conditions), the chemical tanker (segregated lines and deepwell pumps, coatings or stainless steel, compatibility and segregation of reactive grades), and the gas carrier (liquefied gas by refrigeration and/or pressure, special containment, reliquefaction, temperature and pressure control), concluding that each needs its own type-specific training.",
+    assessmentCriteria: [
+      "The oil tanker baseline is correctly recalled (pumps and pipelines, inert gas, crude oil washing, liquid near atmospheric conditions).",
+      "The chemical tanker differences are correct (segregated lines and deepwell pumps, resistant coatings or stainless steel, compatibility and segregation of reactive grades).",
+      "The gas carrier differences are correct (liquefied gas by refrigeration and/or pressure, special containment, reliquefaction, temperature and pressure control) with the need for type-specific training.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
     subjectCode: "C0131",
     subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
     subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
@@ -2319,6 +3363,122 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación en control de multitudes",
+    topic: "Conocimiento de los dispositivos salvavidas y de los planes de control",
+    week: 9,
+    taskId: "pn-c0131-w09-lsa-and-control-plans",
+    taskTitle: "Know The Ro-Ro Lifesaving Appliances And Control Plans",
+    scenario: "On a ro-ro passenger ferry the crew must know where the lifesaving appliances are and what the control plans show. The officer asks the cadet to explain the ship's lifesaving appliances and its control plans.",
+    instructions: [
+      "State the main lifesaving appliances of a passenger ferry and where they are: the survival craft (lifeboats and liferafts), the marine evacuation systems (chutes and slides), the lifejackets (including child and infant sizes) and the lifebuoys, sited so a full ship of passengers can be evacuated.",
+      "Explain the fire control plan and the safety plan: the permanently displayed plans that show the arrangement of the escape routes, the muster and embarkation stations, the fire divisions and the location of the safety and lifesaving equipment, so the crew can find and use it.",
+      "Explain why the crew must know these cold: in an emergency there is no time to search, so each crew member must already know the appliances and the plan for their area, which is the basis for the muster and evacuation duties.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the ro-ro lifesaving appliances and control plans: the main appliances and their location (survival craft, marine evacuation systems, lifejackets including child and infant sizes, lifebuoys, sized for a full ship), the fire control and safety plans showing escape routes, muster and embarkation stations and equipment, and why the crew must know them cold for the muster and evacuation.",
+    assessmentCriteria: [
+      "The main lifesaving appliances and their location are correct (survival craft, marine evacuation systems, lifejackets including child and infant sizes, lifebuoys, sized for a full ship).",
+      "The control plans are correctly explained (fire control and safety plans showing escape routes, muster and embarkation stations, equipment).",
+      "Why the crew must know them cold is sound (no time to search; the basis for the muster and evacuation duties).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación en control de multitudes",
+    topic: "Asistencia a los pasajeros a los puestos de reunión y los procedimientos de reunión",
+    week: 10,
+    taskId: "pn-c0131-w10-roro-muster-passengers",
+    taskTitle: "Muster Ro-Ro Passengers Safely",
+    scenario: "When the muster signal sounds on the ferry the passengers must be gathered quickly at their stations. The officer asks the cadet to explain how the crew muster the ro-ro passengers.",
+    instructions: [
+      "Explain guiding the passengers to the muster stations: the crew direct passengers from the passenger spaces and the vehicle deck along the marked escape routes to their assigned muster or assembly stations, keeping the flow moving and not letting passengers return for belongings or vehicles.",
+      "State what is done at the muster station: the passengers are counted, lifejackets are issued and checked (including child and infant jackets), instructions are given, and those needing assistance are identified and helped.",
+      "Explain reporting the muster: each station's numbers and any missing, injured or special-needs passengers are reported to the command team, so the ship knows the whole passenger body is accounted for; note the boundary that the general crowd-control skills are the Control de Multitudes subject, while here they are applied to the ro-ro ferry's own muster.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on mustering ro-ro passengers: guiding them from the passenger spaces and the vehicle deck along the escape routes to their stations (flow kept moving, no return for belongings or vehicles), what is done at the station (count, issue and check lifejackets including child and infant, instructions, identify those needing help), and reporting each station's numbers and any missing, injured or special-needs passengers to the command team, applied to the ferry (the general skills being the Control de Multitudes subject).",
+    assessmentCriteria: [
+      "Guiding the passengers is correct (from the spaces and vehicle deck along the escape routes to the stations, flow moving, no return for belongings or vehicles).",
+      "What is done at the muster station is correct (count, issue and check lifejackets including child and infant, instructions, identify those needing help).",
+      "Reporting the muster is correct (each station's numbers and any missing, injured or special-needs to the command team) applied to the ferry.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación sobre seguridad de los pasajeros, la carga e integridad del casco",
+    topic: "Cálculo de estabilidad, asiento y esfuerzos en el buque de pasaje RoRo",
+    week: 11,
+    taskId: "pn-c0131-w11-roro-stability-trim-stresses",
+    taskTitle: "Assess Ro-Ro Stability, Trim And Stresses",
+    scenario: "A ro-ro passenger ship must be kept within her stability, trim and stress limits as vehicles and passengers come and go at each port. The officer asks the cadet to explain how these are assessed on a ro-ro ferry.",
+    instructions: [
+      "Explain the stability assessment: the ship must keep an adequate GM and range of stability with the high vehicle decks and passengers aboard, so the loading is kept within the approved limits and the effect of a raised centre of gravity is watched (building on the ro-ro stability of week 2).",
+      "Explain trim and the loading: the vehicles are distributed and the ship is ballasted to keep her at the required trim and draughts and to match the shore ramp at each port, since a large and quickly changing vehicle load can shift the trim between ports.",
+      "Explain the special ro-ro concern in the assessment: the assessment must allow for the danger of water on the vehicle deck, whose free surface can rapidly reduce stability (the flooding of week 8), so the ship is kept with a margin, and integrate this into a single check of stability, trim and the hull stresses before sailing.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on assessing ro-ro stability, trim and stresses: keeping an adequate GM and range with the high vehicle decks and passengers (within the approved limits, watching the raised centre of gravity, building on week 2), distributing and ballasting for the required trim, draughts and the shore ramp, and allowing for the free-surface danger of water on the vehicle deck (week 8) in a single pre-sailing check of stability, trim and hull stresses.",
+    assessmentCriteria: [
+      "The stability assessment is correct (adequate GM and range with the vehicle decks and passengers, within approved limits, raised centre of gravity watched, building on week 2).",
+      "Trim and loading are correct (vehicles distributed and ballasted for the required trim, draughts and the shore ramp).",
+      "The special ro-ro concern is integrated (the free-surface danger of vehicle-deck water from week 8, a margin kept, one check of stability, trim and stresses).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación sobre gestión de emergencias y comportamiento humano",
+    topic: "Prescripciones internacionales y nacionales aplicables a los buques de pasaje RoRo",
+    week: 12,
+    taskId: "pn-c0131-w12-roro-international-requirements",
+    taskTitle: "Apply The International Rules For Ro-Ro Passenger Ships",
+    scenario: "Ro-ro passenger ships are among the most heavily regulated of all merchant ships because of past disasters. As the closing task, the officer asks the cadet to explain the international rules that apply to them, drawing the subject together.",
+    instructions: [
+      "Explain why ro-ro passenger ships are so strictly regulated: past disasters (a bow door left open, water on the vehicle deck causing a rapid capsize) led to special rules, so the whole subject is shaped by hard-won safety lessons.",
+      "State the main international requirements: SOLAS special provisions for passenger ships (subdivision and damage stability, the vehicle-deck and door arrangements, fire protection of the ro-ro spaces, and the lifesaving for a full ship), the STCW special training for ro-ro passenger ship crews (crowd management, familiarization, crisis and human behaviour, and passenger safety), and any regional damage-stability agreements that apply on a given route.",
+      "Integrate the subject: connect these rules to the door integrity (week 1), the stability limitations (weeks 2 and 11), the vehicle-deck fire and flooding (weeks 7 and 8) and the crowd and muster duties, so the closing task shows the crew's duties as the practical expression of the international rules.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the international rules for ro-ro passenger ships: why they are so strictly regulated (past disasters from open doors and vehicle-deck water), the main requirements (SOLAS special provisions for passenger ships, STCW special training in crowd management, crisis and passenger safety, and regional damage-stability agreements), integrating the door integrity (week 1), the stability limitations (weeks 2 and 11) and the vehicle-deck fire and flooding (weeks 7 and 8) as the practical expression of those rules.",
+    assessmentCriteria: [
+      "Why ro-ro passenger ships are strictly regulated is correct (past disasters from open doors and vehicle-deck water).",
+      "The main international requirements are correct (SOLAS special provisions, STCW special training in crowd management, crisis and passenger safety, regional damage-stability agreements).",
+      "The subject is integrated (door integrity week 1, stability weeks 2 and 11, fire and flooding weeks 7 and 8) as the practical expression of the rules.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
 ];
