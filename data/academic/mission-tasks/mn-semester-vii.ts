@@ -1164,6 +1164,122 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Maquinaria Maritima Auxiliar",
+    topic: "Sistema de planta de vapor",
+    week: 9,
+    taskId: "mn-lma745-w09-steam-plant",
+    taskTitle: "Operate The Auxiliary Steam Plant",
+    scenario: "In the machinery simulator the auxiliary boiler must raise steam for the fuel and lube oil heating and the domestic services. The engineer asks the cadet to bring the steam plant into service and hold it.",
+    instructions: [
+      "Explain what the auxiliary boiler and steam plant supply: steam for heating the heavy fuel and the lubricating oil, for tank and accommodation heating, and for the services that need it, so the plant is kept ready.",
+      "Describe raising steam: light the burner, raise the pressure gradually so the boiler is not thermally shocked, and watch the water level in the gauge glass throughout.",
+      "State the key safety points: keep the water level in sight and never let it fall out of the glass, watch the steam pressure against the safety valve setting, and know the low-water and flame-failure protections.",
+      "Report the procedure in clear engine-room English."
+    ],
+    deliverable: "A note in English on operating the auxiliary steam plant: what it supplies (fuel and lube oil heating, tank and accommodation heating), raising steam gradually while watching the water level, and the key safety points (water level in the glass, pressure against the safety valve, low-water and flame-failure protection).",
+    assessmentCriteria: [
+      "The purpose of the steam plant is correct (fuel and lube oil heating, tank and accommodation heating, services).",
+      "Raising steam is correct (light the burner, raise the pressure gradually to avoid thermal shock, watch the water level).",
+      "The safety points are correct (water level in the glass, pressure against the safety valve, low-water and flame-failure protection).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Maquinaria Maritima Auxiliar",
+    topic: "Sistema de gobierno (servo del timon)",
+    week: 10,
+    taskId: "mn-lma745-w10-steering-gear",
+    taskTitle: "Operate The Steering Gear And Answer A Steering Failure",
+    scenario: "The steering gear turns the rudder on the bridge's order, and a failure must be answered at once. In the simulator the engineer asks the cadet to explain running the steering gear and changing over on a failure.",
+    instructions: [
+      "Explain how the steering gear works in basic terms: the hydraulic power unit (the pumps) moves the rams or the rotary actuator that turns the rudder stock, following the order from the bridge.",
+      "Explain the redundancy: there are two power units, so on the loss of one the other is started or is already running, and SOLAS requires the steering to keep working on a single failure.",
+      "State the response to a steering failure: change over to the standby pump or to local or emergency steering, tell the bridge immediately, and follow the steering-gear failure procedure so the ship keeps steering.",
+      "Report the procedure in clear engine-room English."
+    ],
+    deliverable: "A note in English on the steering gear: how it works (the hydraulic power unit moving the rams or rotary actuator to turn the rudder on the bridge's order), the redundancy of two power units required by SOLAS, and the response to a failure (change over to the standby pump or emergency steering, tell the bridge, follow the failure procedure).",
+    assessmentCriteria: [
+      "How the steering gear works is correct (hydraulic power unit moving the rams or rotary actuator to turn the rudder on the bridge's order).",
+      "The redundancy is correct (two power units; steering kept working on a single failure as SOLAS requires).",
+      "The failure response is correct (change over to the standby pump or emergency steering, tell the bridge, follow the procedure).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Maquinaria Maritima Auxiliar",
+    topic: "Sistema contra incendio y estacion de CO2",
+    week: 11,
+    taskId: "mn-lma745-w11-fire-main-co2",
+    taskTitle: "Fight An Engine-Room Fire With The Fixed Systems",
+    scenario: "A fire breaks out in the machinery space and the fixed systems must be used. In the simulator the engineer asks the cadet to run the engine-room fire response with the fire main and the fixed CO2 installation.",
+    instructions: [
+      "Explain the fire main: start the fire pump to pressurise the fire main so the hydrants and hoses have water, and know that the emergency fire pump outside the machinery space supplies the main if the space must be abandoned.",
+      "Explain releasing the fixed CO2: for a fire that cannot be fought locally, the space is evacuated and sealed and the ventilation and fuel are shut off before the CO2 is released, because the CO2 will suffocate anyone still inside, so the count of persons is confirmed and the alarm sounded first.",
+      "State the shut-offs and the boundary: trip the fuel from the quick-closing valves, stop the ventilation and close the fire dampers and skylights, and stop the affected machinery, so the fire is starved of fuel and air. Boundary: the fire alarm and CO2 stations were introduced as familiarization; here it is the operational fire response.",
+      "Report the response in clear engine-room English."
+    ],
+    deliverable: "A note in English on fighting an engine-room fire with the fixed systems: pressurising the fire main (and the emergency fire pump outside the space), the safe release of the fixed CO2 (space evacuated, counted, sealed, fuel and ventilation shut off, alarm sounded first), and the shut-offs (quick-closing fuel valves, ventilation and fire dampers, affected machinery stopped).",
+    assessmentCriteria: [
+      "The fire main is correctly explained (fire pump pressurises the main; emergency fire pump outside the space supplies it if abandoned).",
+      "The CO2 release is correct and safe (space evacuated and counted, sealed, fuel and ventilation shut off, alarm sounded before release).",
+      "The shut-offs are correct (quick-closing fuel valves, ventilation and fire dampers, affected machinery stopped).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Planta de Generacion Electrica",
+    topic: "Generador de eje de cola y suministro electrico de tierra",
+    week: 12,
+    taskId: "mn-lma745-w12-shaft-generator-shore-supply",
+    taskTitle: "Manage The Ship's Power Sources",
+    scenario: "As the closing task, the ship's electrical supply must be managed across its sources: the diesel generators at sea, the shaft generator when the main engine drives it, and shore power in port. In the simulator the engineer asks the cadet to change between the power sources without a blackout.",
+    instructions: [
+      "Explain the shaft generator: when the main engine is running at sea it can drive a shaft generator to make the ship's electrical power, saving fuel over running a separate diesel generator, provided the engine speed is steady.",
+      "Explain the shore supply: in port the ship can take power from ashore (cold ironing) and stop her own generators, cutting noise and emissions in port, and the shore supply must match the ship's voltage and frequency.",
+      "Explain changing over without a blackout: bring the incoming source on and synchronise it before taking the outgoing one off, so the load is transferred with the bus always fed, and never leave the board without a source. Integrate the subject: this builds on paralleling the diesel generators (week 2) and the blackout recovery (week 6), which the correct changeover prevents.",
+      "Report the procedure in clear engine-room English."
+    ],
+    deliverable: "A note in English on managing the ship's power sources: the shaft generator driven by the main engine at sea (fuel saving, needs steady speed), the shore supply in port (cold ironing, matched voltage and frequency), and changing over without a blackout (synchronise the incoming source before removing the outgoing one, the bus always fed), integrating the paralleling of week 2 and the blackout recovery of week 6.",
+    assessmentCriteria: [
+      "The shaft generator is correctly explained (driven by the main engine at sea, saves fuel, needs steady engine speed).",
+      "The shore supply is correctly explained (cold ironing in port, own generators stopped, voltage and frequency matched).",
+      "The changeover is correct (synchronise the incoming source before removing the outgoing one, the bus always fed) and integrates the week 2 paralleling and the week 6 blackout recovery.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "EST748",
     subjectName: "Estabilidad del Buque",
     subjectId: "mn-s7-estabilidad-buque",
@@ -1275,6 +1391,122 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Planos y coeficientes de formas del buque",
+    topic: "Coeficientes de formas del buque",
+    week: 9,
+    taskId: "mn-est748-w09-form-coefficients",
+    taskTitle: "Determine The Ship's Form Coefficients",
+    scenario: "The fullness of a hull is described by its form coefficients, which the engineer meets in the stability data. The engineer asks the cadet to explain the block coefficient and the other form coefficients and what they tell about the ship.",
+    instructions: [
+      "Define the block coefficient (Cb): the ratio of the underwater volume of the hull to the box of length x breadth x draught, so a full-bodied tanker has a high Cb and a fine fast hull a low Cb.",
+      "Name the other form coefficients as concepts: the waterplane area coefficient (Cw), the midship section coefficient (Cm) and the prismatic coefficient (Cp), each comparing an area or a volume of the hull to its enclosing rectangle.",
+      "Explain what they are used for: fuller forms (high Cb) carry more cargo for the dimensions but are less easily driven, so the coefficients relate the hull's fullness to its capacity and its resistance.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the ship's form coefficients: the block coefficient Cb (underwater volume over length x breadth x draught; high for a tanker, low for a fine hull), the other coefficients (waterplane Cw, midship Cm, prismatic Cp) as ratios of area or volume to the enclosing rectangle, and what they tell about capacity versus resistance.",
+    assessmentCriteria: [
+      "The block coefficient is correctly defined (underwater volume over length x breadth x draught; full versus fine hulls).",
+      "The other coefficients are correctly named as concepts (waterplane, midship, prismatic).",
+      "The use is correct (fullness related to cargo capacity and resistance).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Areas y volumenes",
+    topic: "Regla de Simpson",
+    week: 10,
+    taskId: "mn-est748-w10-simpsons-rule",
+    taskTitle: "Compute A Waterplane Area By Simpson's Rule",
+    scenario: "The area of a curved shape like the waterplane is found by Simpson's rule from a set of offsets. The engineer asks the cadet to explain and work a simple Simpson's-rule calculation.",
+    instructions: [
+      "Explain the idea: Simpson's rule finds the area under a curve from equally spaced ordinates (offsets), by summing them with the pattern 1-4-2-4...4-1 and multiplying by one third of the spacing.",
+      "State the formula: Area = (h/3) x (y0 + 4y1 + 2y2 + 4y3 + ... + yn), where h is the common spacing and the y values are the ordinates, needing an even number of intervals.",
+      "Work a short example: with a spacing of 10 m and half-breadth ordinates of 0, 4, 6, 5, 0 m, the area of that half is (10/3) x (0 + 4x4 + 2x6 + 4x5 + 0) = (10/3) x 48 = 160 square metres, doubled for the full waterplane.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on Simpson's rule: the idea (area under a curve from equally spaced offsets with the 1-4-2-4-1 pattern), the formula (Area = (h/3)(y0 + 4y1 + 2y2 + ... + yn), even number of intervals), and a worked example (spacing 10 m, ordinates 0/4/6/5/0 giving 160 square metres for the half, doubled for the full waterplane).",
+    assessmentCriteria: [
+      "The idea of Simpson's rule is correct (area from equally spaced ordinates with the 1-4-2-...-4-1 multipliers).",
+      "The formula is correct (h/3 times the weighted sum of ordinates, even number of intervals).",
+      "The worked example is correct (0/4/6/5/0 at 10 m gives 160 square metres for the half, doubled for the full area).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Estabilidad estatica transversal a grandes angulos de escora",
+    topic: "Curvas cruzadas de estabilidad y curvas KN",
+    week: 11,
+    taskId: "mn-est748-w11-gz-curve-large-angles",
+    taskTitle: "Build The GZ Curve At Large Angles Of Heel",
+    scenario: "Beyond small angles the righting arm must be read from the cross curves of stability. The engineer asks the cadet to explain building the GZ curve at large angles from the KN cross curves.",
+    instructions: [
+      "Explain why large angles need the cross curves: at large heel the simple GZ = GM x sin(theta) no longer holds because the wedge shapes change, so the KN values are read from the cross curves of stability at the displacement.",
+      "Explain the correction to G: GZ = KN - KG x sin(theta), so from the tabulated KN at each angle you subtract the effect of the real height of G to get the actual righting arm at that angle.",
+      "Explain reading the curve: plotting GZ against the angle of heel gives the statical stability curve, from which you read the maximum GZ, the angle of maximum GZ and the range of stability (the angle at which GZ returns to zero). Boundary: the small-angle righting arm and GM were week 2; here it is the large-angle curve.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the large-angle GZ curve: why the cross curves (KN) are needed (the small-angle GZ = GM x sin theta fails at large heel), the correction GZ = KN - KG x sin(theta), and reading the statical stability curve for the maximum GZ, its angle and the range of stability, distinct from the small-angle GM of week 2.",
+    assessmentCriteria: [
+      "The need for the cross curves is correct (small-angle GZ = GM sin theta fails at large heel; KN read at the displacement).",
+      "The correction to G is correct (GZ = KN - KG x sin theta).",
+      "Reading the statical stability curve is correct (maximum GZ, its angle, the range of stability) with the week 2 small-angle boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Asiento",
+    topic: "Calculo del asiento y los calados",
+    week: 12,
+    taskId: "mn-est748-w12-trim-and-drafts",
+    taskTitle: "Calculate The Change Of Trim And The Final Drafts",
+    scenario: "As the closing task, a weight shift changes the ship's trim, and the final drafts must be found. The engineer asks the cadet to calculate the change of trim and the new drafts forward and aft.",
+    instructions: [
+      "Explain trim and the centre of flotation: trim is the difference between the draft forward and the draft aft, and the ship trims about the centre of flotation (F), the centre of the waterplane, not the midships.",
+      "Explain the change of trim: a longitudinal shift or addition of weight makes a trimming moment (weight x distance from F), and the change of trim = trimming moment / MCTC (the moment to change trim one centimetre), giving the total change spread forward and aft about F.",
+      "Work the final drafts: split the change of trim between forward and aft in proportion to the distance of each perpendicular from F, apply any bodily sinkage from added weight using the TPC of week 5, and state the new drafts forward and aft. Integrate the subject with the hydrostatics (week 5) and the list correction (week 7).",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on trim and drafts: trim as the difference of the drafts forward and aft about the centre of flotation, the change of trim (trimming moment / MCTC), and finding the final drafts (the change split forward and aft about F, plus any bodily sinkage from the TPC of week 5), integrating the hydrostatics of week 5 and the list correction of week 7.",
+    assessmentCriteria: [
+      "Trim and the centre of flotation are correct (trim is the draft difference; the ship trims about F, the centre of the waterplane).",
+      "The change of trim is correct (trimming moment = weight x distance from F; change of trim = moment / MCTC).",
+      "The final drafts are correct (change split forward and aft about F, plus bodily sinkage from the TPC of week 5), integrating weeks 5 and 7.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -1396,6 +1628,122 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Dimensiones de piezas",
+    topic: "Tolerancias geometricas y ajustes",
+    week: 9,
+    taskId: "mn-tal750-w09-tolerances-and-fits",
+    taskTitle: "Measure A Part To Tolerance And Select The Fit",
+    scenario: "A shaft and its housing must go together with the right fit, neither too tight nor too loose. The instructor asks the cadet to explain measuring a part to its tolerance and choosing the fit.",
+    instructions: [
+      "Explain limits and tolerance: a dimension is given a maximum and a minimum size, and the tolerance is the difference between them, so the part is accepted if it measures within the limits.",
+      "Explain the kinds of fit: a clearance fit (the shaft always smaller than the hole, so it turns freely), an interference fit (the shaft larger, pressed or shrunk in so it will not move), and a transition fit in between, chosen by what the joint must do.",
+      "Explain measuring it: use a micrometer or a vernier for the size and a bore gauge for the hole, take the reading correctly, and compare it with the limits to accept or reject the part. Boundary: the tolerances and fits are the standard behind the bearing and shaft work of weeks 1 and 5.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on tolerances and fits: limits and tolerance (maximum and minimum size, the difference between them, accept if within the limits), the kinds of fit (clearance, interference, transition and what each is for), and measuring the part (micrometer or vernier and bore gauge, compared with the limits to accept or reject), the standard behind the bearing and shaft work of weeks 1 and 5.",
+    assessmentCriteria: [
+      "Limits and tolerance are correct (maximum and minimum size, the tolerance between them, accept if within the limits).",
+      "The kinds of fit are correct (clearance, interference, transition, and the purpose of each).",
+      "Measuring is correct (micrometer or vernier and bore gauge, compared with the limits to accept or reject).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Dispositivo de aseguramiento",
+    topic: "Tuerca seguro, pasadores, resortes y arandelas",
+    week: 10,
+    taskId: "mn-tal750-w10-locking-devices",
+    taskTitle: "Secure Fasteners Against Vibration",
+    scenario: "Machinery vibrates, and a fastener that is not locked will slacken and fall out. The instructor asks the cadet to explain the locking devices that keep nuts and bolts secure.",
+    instructions: [
+      "Explain why locking is needed: constant vibration works a plain nut loose over time, so a locking device holds it, which matters where a lost fastener would cause a failure.",
+      "Name the common locking devices and how each works: a lock nut (a second nut jammed against the first), a split pin through a castle nut, a tab or locking washer bent up against a flat, a spring washer, and thread-locking adhesive or lock-wire.",
+      "Explain choosing and fitting: match the device to the joint and the access, fit it correctly (for example the split pin spread, the tab bent hard against a flat), and know that a locking device once disturbed is renewed, not reused.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on securing fasteners: why locking is needed (vibration slackens a plain nut, a lost fastener causes failure), the common devices and how each works (lock nut, split pin and castle nut, tab or locking washer, spring washer, adhesive or lock-wire), and choosing and fitting them correctly (matched to the joint, split pin spread, tab bent hard, renewed not reused).",
+    assessmentCriteria: [
+      "The need for locking is correct (vibration slackens a plain nut; a lost fastener causes failure).",
+      "The common locking devices are correctly named with how each works.",
+      "Choosing and fitting are correct (matched to the joint, fitted correctly, renewed not reused).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Cepillo mecanico",
+    topic: "Velocidad de corte, golpes por minuto y ajuste de la carrera",
+    week: 11,
+    taskId: "mn-tal750-w11-shaping-machine",
+    taskTitle: "Set Up And Run The Shaping Machine",
+    scenario: "A flat surface or a keyway must be cut on the shaping machine (cepillo mecanico). The instructor asks the cadet to set up and run the shaper safely and correctly.",
+    instructions: [
+      "Explain how the shaper works: the tool cuts on the forward stroke of the ram and returns idle, and the work is fed across a little on each return, so a flat surface, a slot or a keyway is machined stroke by stroke.",
+      "Explain the settings: set the stroke length and its position to suit the job with a small over-run each end, set the number of strokes per minute (the cutting speed) to suit the material, and set the depth and the feed per stroke.",
+      "Explain clamping and safety: clamp the work solidly in the vice or to the table so it cannot lift, keep clear of the moving ram, and use the correct tool ground for the material. Boundary: the milling machine and its safety were weeks 3 and 6; here it is the reciprocating shaper.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the shaping machine: how it works (cuts on the forward stroke, returns idle, work fed across on each return to machine a flat, slot or keyway), the settings (stroke length and position with a small over-run, strokes per minute for the material, depth and feed per stroke), and clamping and safety (work clamped solidly, clear of the ram, correct tool), distinct from the milling machine of weeks 3 and 6.",
+    assessmentCriteria: [
+      "How the shaper works is correct (cutting forward stroke, idle return, feed across on each return).",
+      "The settings are correct (stroke length and position with over-run, strokes per minute for the material, depth and feed).",
+      "Clamping and safety are correct (work clamped solidly, clear of the ram, correct tool) with the milling-machine boundary of weeks 3 and 6 respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Fabricacion de engranes",
+    topic: "Engranes helicoidales y el cabezal divisor",
+    week: 12,
+    taskId: "mn-tal750-w12-helical-gear",
+    taskTitle: "Cut A Helical Gear",
+    scenario: "As the closing task, a helical gear must be machined, a step beyond the spur gear. The instructor asks the cadet to explain cutting a helical gear on the milling machine with the dividing head.",
+    instructions: [
+      "Explain how a helical gear differs from a spur gear: its teeth run at a helix angle across the face instead of straight, so the teeth engage gradually and the gear runs more smoothly and quietly and carries more load, but it produces an end (axial) thrust.",
+      "Explain the dividing head and the table swivel: the dividing head indexes the blank to space the teeth equally (as for the spur gear of week 4), and for a helix the table is swivelled to the helix angle and the dividing head is geared to the table lead screw so the blank rotates as it feeds, cutting the helix.",
+      "Explain the checks: the tooth count and spacing from the indexing, the helix angle and hand (left or right), and the tooth form from the correct cutter, then inspect the gear as in service (contact pattern and backlash of week 6). Integrate the subject: this builds on the spur gear of week 4 and the gear inspection of week 6.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on cutting a helical gear: how it differs from a spur gear (teeth at a helix angle, smoother and quieter, more load, but an axial thrust), the dividing head indexing plus the table swivelled to the helix angle and geared to the lead screw to cut the helix, and the checks (tooth count and spacing, helix angle and hand, tooth form, then contact pattern and backlash), integrating the spur gear of week 4 and the gear inspection of week 6.",
+    assessmentCriteria: [
+      "The difference from a spur gear is correct (teeth at a helix angle, smoother running, more load, produces axial thrust).",
+      "The method is correct (dividing head indexes the teeth; table swivelled to the helix angle and geared to the lead screw to cut the helix).",
+      "The checks are correct (tooth count and spacing, helix angle and hand, tooth form, contact pattern and backlash) integrating weeks 4 and 6.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "PMR751",
     subjectName: "Prácticas Marineras VII",
     subjectId: "mn-s7-practicas-marineras-vii",
@@ -1512,6 +1860,122 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Aplicacion de anticorrosivos",
+    topic: "Diferentes tipos y su uso",
+    week: 9,
+    taskId: "mn-pmr751-w09-anticorrosive-application",
+    taskTitle: "Treat And Protect Steel Against Corrosion",
+    scenario: "Salt air and water rust the ship's steel, and it must be treated and protected. The officer asks the cadet to explain preparing and applying anticorrosive coatings.",
+    instructions: [
+      "Explain preparing the surface: remove the rust, scale and loose old paint (by chipping, wire-brushing or a needle gun) and clean and dry the surface, because a coating over rust or grease will not hold.",
+      "Explain the anticorrosive types and their use: a primer that bonds to the steel and inhibits rust (for example a zinc-based or a red-oxide primer) goes on first, and know where each type is used (deck, ship's side, bilges, tanks).",
+      "Explain applying it and the conditions: apply the primer evenly in the recommended coats and let each dry, and do not paint in rain, damp or on a wet surface, because trapped moisture defeats the coating.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on anticorrosive protection: preparing the surface (rust, scale and loose paint removed, cleaned and dried), the anticorrosive types and their use (a bonding, rust-inhibiting primer such as zinc or red-oxide, and where each is used), and applying it (even coats, each dried, never in rain or on a wet surface).",
+    assessmentCriteria: [
+      "The surface preparation is correct (rust, scale and loose paint removed, cleaned and dried).",
+      "The anticorrosive types and their use are correct (a bonding, rust-inhibiting primer, applied where appropriate).",
+      "Applying it is correct (even coats, each dried, not in rain or on a wet surface).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Acabados, esmaltes y barnices",
+    topic: "Preparacion de la pintura e igualacion de colores",
+    week: 10,
+    taskId: "mn-pmr751-w10-paint-finish-matching",
+    taskTitle: "Prepare And Match A Finish Coat",
+    scenario: "Over the primer the ship gets a finish coat that must match the existing colour. The officer asks the cadet to explain preparing the paint and matching the colour for a finish coat, building on the anticorrosive work of week 9.",
+    instructions: [
+      "Explain preparing the paint: stir it thoroughly to mix the settled pigment, thin it only as the maker allows for the method (brush, roller or spray), and strain it if needed, so it flows and covers evenly.",
+      "Explain matching the colour: identify the existing colour and mix or select to match it, testing on a small area first, because a finish coat that does not match shows every touch-up. Boundary: the primer and corrosion protection were week 9; here it is the finish coat over it.",
+      "Explain applying the finish evenly: apply in the right conditions in even coats without runs, keeping a wet edge, so the finish is uniform and protects the primer.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on the finish coat: preparing the paint (stirred, thinned only as allowed for the method, strained), matching the colour (identified and mixed or selected to match, tested first), and applying it evenly (right conditions, even coats, a wet edge, no runs), building on the primer of week 9.",
+    assessmentCriteria: [
+      "Preparing the paint is correct (stirred, thinned only as allowed, strained).",
+      "Matching the colour is correct (identified and matched, tested on a small area first).",
+      "Applying the finish is correct (right conditions, even coats, wet edge, no runs) building on the week 9 primer.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Banderas y senales",
+    topic: "Uso y significado de las senales de banderas",
+    week: 11,
+    taskId: "mn-pmr751-w11-flag-signalling",
+    taskTitle: "Send A Message By Flag Signal",
+    scenario: "When radios are silent or a ship must show her situation to all around, flag signals speak. The officer asks the cadet to send a message by flag hoist, building on recognising the flags in week 2.",
+    instructions: [
+      "Explain single-flag signals: many flags have an urgent meaning on their own (for example A - diver down, keep clear; B - dangerous goods; O - man overboard; H - pilot on board), understood at a glance.",
+      "Explain a hoist of several flags and the code: flags hoisted together spell a message or a code group from the International Code of Signals, so ships of any language read the same meaning.",
+      "Explain using them correctly: hoist where they are best seen and clear to fly, use the answering pendant to acknowledge, and choose the signal that fits the situation. Boundary: recognising the flags by shape and colour was week 2; here it is using them to send a message.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on flag signalling: single-flag signals with their urgent meanings (A, B, O, H and the like), a hoist of several flags spelling a message or code group from the International Code of Signals read by any language, and using them correctly (hoisted where seen and clear to fly, answering pendant to acknowledge, the right signal for the situation), building on the flag recognition of week 2.",
+    assessmentCriteria: [
+      "The single-flag signals are correct with their meanings (e.g. A, B, O, H).",
+      "The multi-flag hoist and the International Code of Signals are correctly explained (a common meaning for any language).",
+      "Using the flags is correct (hoisted where seen, answering pendant, the right signal) with the week 2 recognition boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Faenas con anclas",
+    topic: "Bajada del ancla a plan de muelle",
+    week: 12,
+    taskId: "mn-pmr751-w12-anchor-to-dock-bottom",
+    taskTitle: "Lower The Anchor To The Dock Bottom",
+    scenario: "As the closing task, an anchor must be walked right down to the bottom of a dock or a shallow berth, not let go on the run. The officer asks the cadet to explain lowering the anchor to the dock bottom under power.",
+    instructions: [
+      "Explain when it is done and why: in shallow water, a dock or alongside where letting the anchor run free would damage the anchor, the cable or the bottom, so the anchor is walked down under the windlass power in gear, controlled all the way.",
+      "Explain the operation: with the windlass in gear, walk the cable out steadily to lower the anchor to the bottom, watching the cable and the marks, and hold it under control rather than letting the brake render.",
+      "Explain the safety and communication: the team clear of the cable, the bridge and the windlass operator working together on clear orders, and the state reported (cable out, anchor on the bottom, brought up). Integrate the subject: this builds on the anchor work and hazards of week 4 and the windlass maintenance of week 6.",
+      "Report the operation in clear maritime English."
+    ],
+    deliverable: "A note in English on lowering the anchor to the dock bottom: when and why (shallow water or alongside, walked down under power to avoid damaging the anchor, cable or bottom), the operation (windlass in gear, cable walked out steadily, watched and controlled), and the safety and communication (team clear of the cable, bridge and operator on clear orders, the state reported), integrating the anchor work of week 4 and the windlass maintenance of week 6.",
+    assessmentCriteria: [
+      "When and why it is done is correct (shallow water or alongside, walked down under power to avoid damage).",
+      "The operation is correct (windlass in gear, cable walked out steadily, watched and controlled, not let run).",
+      "The safety and communication are correct (team clear, bridge and operator coordinated, state reported) integrating weeks 4 and 6.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "C0011",
     subjectName: "Educación Física VII",
     subjectId: "mn-s7-educacion-fisica-vii",
@@ -1619,6 +2083,122 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
       "The warm-up is led and its reason given to the group.",
       "The main part is led with short clear directions and technique watched, with no one driven to an extreme and no contest to win.",
       "The cool-down and finish check for injury or overload, treating the group's wellbeing (not a performance number) as what the leader answers for.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "mn-s7-educacion-fisica-vii",
+    unit: "Condicion fisica",
+    topic: "Flexibilidad articular y muscular",
+    week: 9,
+    taskId: "mn-c0011vii-w09-flexibility-routine",
+    taskTitle: "Build A Flexibility Routine",
+    scenario: "Stiff joints and tight muscles injure easily in the physical work of the engine room. The training officer asks the cadet to build a flexibility routine that keeps the joints and muscles supple.",
+    instructions: [
+      "Define joint and muscle flexibility and why it matters: the range a joint moves through and the length a muscle stretches to, which lets the body work and reach without strain or tearing.",
+      "Describe a simple flexibility routine: static stretches held gently for the main muscle groups (calves, hamstrings, hips, back, shoulders, neck) after the muscles are warm, easing into each stretch rather than forcing or bouncing it.",
+      "State the safe limits and the benefit: stretch to a mild tension and never into pain, breathe and hold, and know that regular flexibility work reduces the risk of strains in physical tasks. Boundary: week 6 covered mobility and movement breaks during a watch; here it is a dedicated flexibility routine.",
+      "Report your routine in clear English using correct fitness terms."
+    ],
+    deliverable: "A note in English on a flexibility routine: what joint and muscle flexibility is and why it matters, a routine of gentle static stretches for the main muscle groups done warm (eased into, not forced or bounced), and the safe limits and benefit (mild tension not pain, breathe and hold, fewer strains), distinct from the watch mobility of week 6.",
+    assessmentCriteria: [
+      "Flexibility is correctly defined and its importance is sound.",
+      "The routine is safe and covers the main muscle groups (gentle static stretches done warm, not forced or bounced).",
+      "The safe limits and benefit are correct (mild tension not pain, fewer strains) with the week 6 boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "mn-s7-educacion-fisica-vii",
+    unit: "Natacion",
+    topic: "Nado libre y tecnica",
+    week: 10,
+    taskId: "mn-c0011vii-w10-freestyle-technique",
+    taskTitle: "Refine The Freestyle Swimming Technique",
+    scenario: "A strong, efficient swimming stroke lets a seafarer cover distance in the water without exhausting themselves. The instructor asks the cadet to explain and refine the freestyle (front crawl) technique.",
+    instructions: [
+      "Describe the freestyle stroke: a steady flutter kick from the hips, alternating arm strokes that pull through the water, and a streamlined body position with the head low.",
+      "Explain the breathing and the rhythm: turn the head to the side to breathe in time with the stroke without lifting it, and keep a steady rhythm so the effort is even and sustainable.",
+      "State the common faults and the benefit: a dropped or lifted head, a weak or bent kick, and rushing the stroke waste energy, while a smooth technique lets you swim further for the same effort. Boundary: week 3 was survival in the water and week 7 the abandonment swim; here it is the swimming technique itself for fitness.",
+      "Report your answer in clear English using correct fitness terms."
+    ],
+    deliverable: "A note in English on the freestyle technique: the stroke (steady flutter kick from the hips, alternating arm pulls, streamlined body with the head low), the breathing and rhythm (turn to breathe in time, steady and sustainable), and the common faults and benefit (head, kick and rushing faults waste energy; a smooth stroke swims further), distinct from the survival of week 3 and the abandonment swim of week 7.",
+    assessmentCriteria: [
+      "The freestyle stroke is correctly described (kick from the hips, alternating arm pulls, streamlined body).",
+      "The breathing and rhythm are correct (turn to breathe in time, steady and sustainable).",
+      "The common faults and the benefit are correct (head, kick and rushing faults; a smooth stroke is more efficient) with the week 3 and week 7 boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "mn-s7-educacion-fisica-vii",
+    unit: "Desarrollo fisico integral",
+    topic: "Deportes de equipo: futbol, basquetbol y voleibol",
+    week: 11,
+    taskId: "mn-c0011vii-w11-team-sport-cohesion",
+    taskTitle: "Build Crew Teamwork Through A Team Sport",
+    scenario: "A crew that plays together works better together, and team sports build the coordination and cooperation a ship needs. The training officer asks the cadet to explain how a team sport develops teamwork and coordination for the crew.",
+    instructions: [
+      "Explain how a team sport (football, basketball or volleyball) develops teamwork: players must communicate, take positions and roles, and cooperate toward a shared aim, the same skills a crew uses.",
+      "Explain the physical and coordination benefit: the running, changing direction and reacting build fitness and gross and fine motor coordination together.",
+      "Explain running it well and safely for a crew: mixed teams so everyone takes part, fair play kept above winning, and the intensity managed so no one is hurt, because the aim is crew cohesion and fitness, not the score.",
+      "Report your answer in clear English using correct fitness terms."
+    ],
+    deliverable: "A note in English on building teamwork through a team sport: how it develops teamwork (communication, roles and cooperation toward a shared aim, as a crew uses), the physical and coordination benefit (fitness and motor coordination from the play), and running it well for a crew (mixed teams, fair play above winning, intensity managed, aiming at cohesion and fitness not the score).",
+    assessmentCriteria: [
+      "The teamwork development is correct (communication, roles and cooperation toward a shared aim).",
+      "The physical and coordination benefit is sound (fitness and motor coordination from the play).",
+      "Running it for a crew is correct (mixed teams, fair play, managed intensity, aim of cohesion and fitness not the score).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "mn-s7-educacion-fisica-vii",
+    unit: "Natacion",
+    topic: "Nado en grupo y flotacion",
+    week: 12,
+    taskId: "mn-c0011vii-w12-group-swim-organisation",
+    taskTitle: "Organise A Group Swim In The Water",
+    scenario: "As the closing task, a group in the water survives and reaches safety better together than alone, and it must be organised. The instructor asks the cadet to lead and organise a group swim, holding the group together and afloat.",
+    instructions: [
+      "Explain forming and holding the group: gather the swimmers into a close group, link or keep contact, and set a steady pace the weakest can hold, so no one is left behind.",
+      "Explain flotation and conserving energy: keep everyone afloat with their lifejackets or by resting on floating support, use an easy stroke or float rather than thrashing, and conserve energy and warmth for the distance.",
+      "Explain leading and reaching safety: count and watch the group, encourage and keep them calm, and steer them together toward the craft or the shore. Integrate the subject: this builds on the survival of week 3 and the own-abandonment of week 7, applied now to leading a group.",
+      "Report how you would organise the group swim in clear English."
+    ],
+    deliverable: "A note in English on organising a group swim: forming and holding the group (gathered close, in contact, a pace the weakest can hold), flotation and conserving energy (afloat on lifejackets or support, an easy stroke, warmth conserved), and leading to safety (count and watch, encourage and keep calm, steer together), integrating the survival of week 3 and the own-abandonment of week 7.",
+    assessmentCriteria: [
+      "Forming and holding the group is correct (gathered close, in contact, a pace the weakest can hold).",
+      "Flotation and conserving energy are correct (afloat on lifejackets or support, easy stroke, warmth conserved).",
+      "Leading to safety is correct (count and watch, encourage, steer together) integrating weeks 3 and 7.",
       "The answer is clear and in correct English."
     ],
     xp: 25,
@@ -1744,6 +2324,122 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Reciclaje de buques",
+    topic: "Importancia del reciclaje de buques",
+    week: 9,
+    taskId: "mn-omi749-w09-ship-recycling",
+    taskTitle: "Explain The Ship Recycling Convention",
+    scenario: "When a ship reaches the end of her life she is recycled, and it must be done safely and cleanly. The engineer asks the cadet to explain the Hong Kong Convention on the safe and environmentally sound recycling of ships.",
+    instructions: [
+      "Explain why ship recycling is regulated: old ships contain hazardous materials (asbestos, oils, heavy metals, PCBs) and are often broken up on beaches with poor safety, so the convention protects the workers and the environment.",
+      "State what the Hong Kong Convention requires in outline: ships are recycled only at authorised facilities working to a safe and environmentally sound standard, under a ship recycling plan.",
+      "Explain the engineer's connection: the machinery spaces hold much of the oil, chemicals and hazardous materials, so what the engine department records and where it stores these feeds the ship's hazardous-materials inventory.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the Ship Recycling (Hong Kong) Convention: why recycling is regulated (hazardous materials and unsafe beaching, protecting workers and the environment), what it requires in outline (authorised facilities, a safe and sound standard, a ship recycling plan), and the engineer's connection (the machinery spaces hold much of the hazardous material).",
+    assessmentCriteria: [
+      "The reason for regulating recycling is correct (hazardous materials and unsafe practices; protecting workers and the environment).",
+      "The convention's requirement is correct in outline (authorised facilities, safe and sound standard, ship recycling plan).",
+      "The engineer's connection is sound (the machinery spaces hold much of the hazardous material).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Reciclaje de buques",
+    topic: "Procedimientos aplicables para el reciclaje de buques",
+    week: 10,
+    taskId: "mn-omi749-w10-hazmat-inventory",
+    taskTitle: "Keep The Inventory Of Hazardous Materials",
+    scenario: "Under the recycling convention every ship carries an Inventory of Hazardous Materials, kept current through her life. The engineer asks the cadet to explain the inventory and the procedures for safe recycling, building on week 9.",
+    instructions: [
+      "Explain the Inventory of Hazardous Materials (IHM): a listed record of the hazardous materials in the ship's structure and equipment (Part I), and later the operational wastes and stores (Parts II and III), so the recycler knows what is aboard.",
+      "Explain keeping it current: when equipment or materials are changed, the IHM is updated, and new stores and chemicals brought aboard are checked against it, so it stays accurate through the ship's life.",
+      "Explain the recycling procedure in outline: before recycling a ship-specific recycling plan is made from the IHM, the facility is authorised, and the hazardous materials are removed and disposed of safely, with the work checked. Boundary: this is the procedure built on the convention of week 9, not the convention again.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the Inventory of Hazardous Materials and recycling procedures: the IHM as a listed record (Part I structure and equipment, Parts II and III wastes and stores), keeping it current as materials change and stores are checked against it, and the recycling procedure in outline (a ship-specific plan from the IHM, an authorised facility, safe removal and disposal), building on the convention of week 9.",
+    assessmentCriteria: [
+      "The IHM is correctly explained (a listed record of hazardous materials in the structure and equipment, and the operational wastes and stores).",
+      "Keeping it current is correct (updated as materials change, new stores checked against it).",
+      "The recycling procedure is correct in outline (ship-specific plan from the IHM, authorised facility, safe removal and disposal) and builds on week 9.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Pirateria y terrorismo",
+    topic: "La OMI frente al terrorismo y la represion de actos ilicitos",
+    week: 11,
+    taskId: "mn-omi749-w11-maritime-security-isps",
+    taskTitle: "Apply The Maritime Security Framework",
+    scenario: "After terrorist and unlawful acts against shipping, a security framework was built to protect ships and ports. The engineer asks the cadet to explain the maritime security framework (the ISPS Code and the SUA instruments) and the engineer's part in it.",
+    instructions: [
+      "Explain the framework: the ISPS Code (under SOLAS) sets security levels, a ship security plan, a ship security officer and ship-shore security coordination, and the SUA instruments make unlawful acts against ships crimes to be prosecuted.",
+      "Explain the security levels: level 1 normal, level 2 heightened, level 3 exceptional, with the ship raising its measures (access control, watches, restricted areas) as the level rises.",
+      "Explain the engineer's part: controlling access to the machinery spaces and the steering gear and emergency generator, watching for tampering, and following the ship security plan, because the engine department holds spaces critical to the ship's safety. Boundary: piracy self-protection at sea was week 4; here it is the security framework and its legal instruments.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the maritime security framework: the ISPS Code (security levels, ship security plan and officer, ship-shore coordination) and the SUA instruments making unlawful acts crimes, the three security levels and the measures that rise with them, and the engineer's part (access control to critical machinery spaces, watching for tampering, following the plan), distinct from the piracy self-protection of week 4.",
+    assessmentCriteria: [
+      "The framework is correct (ISPS Code under SOLAS: security levels, ship security plan and officer, coordination; SUA makes unlawful acts crimes).",
+      "The security levels are correct (1 normal, 2 heightened, 3 exceptional, measures rising with the level).",
+      "The engineer's part is sound (access control to critical machinery spaces, watching for tampering, following the plan) with the week 4 piracy boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Pirateria y terrorismo",
+    topic: "La evolucion sobre la libertad de la navegacion",
+    week: 12,
+    taskId: "mn-omi749-w12-freedom-of-navigation",
+    taskTitle: "Explain Freedom Of Navigation And The Law Of The Sea",
+    scenario: "As the closing task, the legal framework that lets ships trade across the world's seas underlies everything the engineer does. The engineer asks the cadet to explain the freedom of navigation and the maritime zones under the law of the sea.",
+    instructions: [
+      "Explain the freedom of navigation: the principle that ships may navigate the seas freely, the basis of world trade, developed over centuries and now set out in the law of the sea (UNCLOS).",
+      "Explain the maritime zones in outline: internal waters and the territorial sea under the coastal State (with the right of innocent passage), the exclusive economic zone, and the high seas open to all, so a ship's rights and duties change with the zone.",
+      "Explain how it ties the conventions together: freedom of navigation is exercised under the flag State's rules and the IMO conventions (SOLAS, MARPOL, STCW, security), so the freedom comes with the duty to meet those standards, and port and coastal States enforce them. Integrate the subject as the closing overview of the OMI conventions studied.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on freedom of navigation and the law of the sea: the principle of free navigation as the basis of trade (now in UNCLOS), the maritime zones in outline (internal waters and territorial sea with innocent passage, the EEZ, the high seas) and how the ship's rights and duties change with the zone, and how the freedom is exercised under the flag State and the IMO conventions, as a closing overview.",
+    assessmentCriteria: [
+      "Freedom of navigation is correctly explained (ships navigate the seas freely, the basis of trade, set out in UNCLOS).",
+      "The maritime zones are correct in outline (internal waters and territorial sea with innocent passage, EEZ, high seas; rights change with the zone).",
+      "The tie to the conventions is sound (freedom exercised under the flag State and the IMO conventions, enforced by port and coastal States), integrating the subject.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "ING744",
     subjectName: "Inglés Marítimo VII",
     subjectId: "mn-s7-ingles-maritimo-vii",
@@ -1852,6 +2548,122 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
       "Discourse signposting is correctly used (firstly, moving on to, to summarise).",
       "The delivery advice is sound and the boundary with the Maritime English V operational briefing and debriefing is respected.",
       "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Clausulas relativas",
+    topic: "Relative clauses en la descripcion tecnica",
+    week: 9,
+    taskId: "mn-ing744-w09-relative-clauses",
+    taskTitle: "Describe Machinery With Relative Clauses",
+    scenario: "A clear technical description defines each part by what it does, which is the work of relative clauses. The engineer asks the cadet to describe machinery components using relative clauses correctly.",
+    instructions: [
+      "Use defining relative clauses to say which part is meant: 'the valve which controls the fuel supply', 'the pump that feeds the boiler', 'the tank where the sludge is collected'.",
+      "Use the right relative pronoun: which or that for things, who for people, where for places, whose for possession, and drop the pronoun where it is the object ('the spare (that) we ordered').",
+      "Write three sentences describing real engine-room components with defining relative clauses, so each clearly identifies a part by its function.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English describing machinery with relative clauses: defining clauses that identify a part by its function (the valve which controls..., the pump that feeds...), the correct relative pronouns (which/that, who, where, whose, and dropping the object pronoun), and three example sentences describing real components.",
+    assessmentCriteria: [
+      "Defining relative clauses correctly identify the parts by function.",
+      "The relative pronouns are correct (which/that, who, where, whose; the object pronoun dropped where natural).",
+      "The example sentences describe real engine-room components clearly.",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Phrasal verbs",
+    topic: "Phrasal verbs en la operacion de maquinas",
+    week: 10,
+    taskId: "mn-ing744-w10-phrasal-verbs",
+    taskTitle: "Report Engine Operations With Phrasal Verbs",
+    scenario: "The engine room runs on phrasal verbs: machinery is started up, shut down, cut out and topped up. The engineer asks the cadet to use technical phrasal verbs correctly in operational reporting.",
+    instructions: [
+      "Explain the common engine-room phrasal verbs by meaning: start up and shut down (a machine), cut out (stops by itself), build up (pressure rises), run out (a supply is used up), top up (refill), and warm up and cool down.",
+      "Show each in a short operational sentence: 'the purifier cut out on high back-pressure', 'the header tank ran low so it was topped up'.",
+      "Note the word order with objects: many separate ('shut the pump down' or 'shut down the pump'), but a pronoun goes in the middle ('shut it down', not 'shut down it').",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English using engine-room phrasal verbs: the common ones by meaning (start up, shut down, cut out, build up, run out, top up, warm up, cool down), each in an operational sentence, and the word order with objects and pronouns (shut the pump down / shut it down).",
+    assessmentCriteria: [
+      "The phrasal verbs are correctly explained by meaning.",
+      "Each is correctly used in an operational sentence.",
+      "The word order with objects and pronouns is correct (shut it down, not shut down it).",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Oraciones condicionales",
+    topic: "Tercer condicional en el analisis de incidentes",
+    week: 11,
+    taskId: "mn-ing744-w11-third-conditional",
+    taskTitle: "Analyse An Incident With The Third Conditional",
+    scenario: "After a machinery failure the investigation asks what would have happened if things had been different, which is the work of the third conditional. The engineer asks the cadet to analyse an incident using the third conditional correctly.",
+    instructions: [
+      "Explain the third conditional: it talks about the unreal past (if + past perfect, would have + past participle), for what did not happen: 'if the alarm had been tested, the failure would have been caught'.",
+      "Take a short engine-room incident and write two or three third-conditional sentences drawing the lessons: what would have been avoided if a check had been done, or if a procedure had been followed.",
+      "Note the boundary with week 5: the first and zero conditionals of week 5 state real procedures and rules, while the third conditional here reasons about a past that cannot be changed, so it is used to learn from the incident, not to give an order.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English analysing an incident with the third conditional: the form (if + past perfect, would have + past participle) for the unreal past, two or three sentences drawing the lessons from a real incident (what would have been avoided if a check or procedure had been done), and the boundary with the real first and zero conditionals of week 5.",
+    assessmentCriteria: [
+      "The third conditional is correctly formed (if + past perfect, would have + past participle).",
+      "The sentences draw sound lessons from the incident.",
+      "The boundary with the real conditionals of week 5 is respected (learning from the past, not giving an order).",
+      "The English reads professionally, not as a grammar exercise."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Sistema de verbos",
+    topic: "Presente perfecto y futuro perfecto en el reporte de mantenimiento",
+    week: 12,
+    taskId: "mn-ing744-w12-perfect-tenses-maintenance",
+    taskTitle: "Report Maintenance Status In The Perfect Tenses",
+    scenario: "As the closing task, a maintenance report must say what has been done and what will have been done by a deadline, which needs the perfect tenses. The engineer asks the cadet to report maintenance status using the present perfect and the future perfect correctly.",
+    instructions: [
+      "Use the present perfect for work completed with a present result: 'the pump has been overhauled', 'the filters have been renewed', and the present perfect continuous for work still going on: 'we have been running the trial for two hours'.",
+      "Use the future perfect for work that will be finished by a point in time: 'by 1600 the cooler will have been reassembled', 'the overhaul will have been completed before departure'.",
+      "Write a short maintenance status report mixing the two: what has been done, what is in progress, and what will have been done by a stated time, so the reader knows the exact state. Integrate the subject: this is the professional written report the whole subject has built toward.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English reporting maintenance status in the perfect tenses: the present perfect for completed work with a present result (the pump has been overhauled) and the continuous for work in progress, the future perfect for work finished by a deadline (by 1600 the cooler will have been reassembled), and a short status report mixing them so the reader knows the exact state.",
+    assessmentCriteria: [
+      "The present perfect (and continuous) is correctly used for completed and ongoing work.",
+      "The future perfect is correctly used for work finished by a stated time.",
+      "The status report is realistic and gives the exact state (done, in progress, will have been done).",
+      "The English reads professionally, not as a grammar exercise."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -1976,6 +2788,122 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "mn-s7-familiarizacion-buques-tanque",
+    unit: "Toxicidad y otros peligros",
+    topic: "Conceptos y efectos de la toxicidad y peligro para la salud",
+    week: 9,
+    taskId: "mn-c0129-w09-cargo-toxicity-health",
+    taskTitle: "Recognise The Health Hazards Of Cargo Vapours",
+    scenario: "The vapours of a tanker's cargo are toxic and can harm anyone who breathes them. The engineer asks the cadet to explain the toxicity and health hazards of the cargo and how a person is protected.",
+    instructions: [
+      "Explain how the cargo harms health: hydrocarbon and chemical vapours are toxic and some are poisonous even in small amounts, causing dizziness, unconsciousness or lasting harm, and they also displace oxygen.",
+      "Explain exposure limits in concept: there is a level below which short exposure is tolerated and above which it is dangerous, so the atmosphere is measured against these limits before and during work (using the meters of week 6).",
+      "Explain protecting the person: keep out of the vapour, ventilate, wear breathing apparatus where the atmosphere is not safe (week 2), and limit the time of exposure, so no one is overcome. Boundary: week 1 was the fire hazard of the cargo; here it is the toxic and health hazard.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the health hazards of cargo vapours: how they harm (toxic and poisonous vapours causing dizziness, unconsciousness or lasting harm, and displacing oxygen), the exposure limits in concept (a tolerated level and a dangerous level, measured with the meters of week 6), and protecting the person (keep out, ventilate, breathing apparatus of week 2, limit the exposure time), distinct from the fire hazard of week 1.",
+    assessmentCriteria: [
+      "The health harm is correct (toxic and poisonous vapours, effects, and oxygen displacement).",
+      "The exposure limits are correct in concept (a tolerated and a dangerous level, measured against them).",
+      "Protecting the person is correct (keep out, ventilate, breathing apparatus, limit the time) with the week 1 fire-hazard boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "mn-s7-familiarizacion-buques-tanque",
+    unit: "Caracteristicas de la carga",
+    topic: "Hoja de datos de seguridad de la carga",
+    week: 10,
+    taskId: "mn-c0129-w10-safety-data-sheet",
+    taskTitle: "Use The Cargo Safety Data Sheet",
+    scenario: "Every cargo comes with a Safety Data Sheet that tells the crew how to handle it safely. The engineer asks the cadet to explain reading and using the cargo Safety Data Sheet before handling.",
+    instructions: [
+      "Explain what the Safety Data Sheet (SDS) is: a document for the cargo giving its hazards, its properties, and the precautions and emergency actions, so the crew knows what they are handling before they start.",
+      "State the key information the engineer looks for: the flammability and toxicity, the personal protection needed, the first-aid and spill actions, and the firefighting media, so the response is prepared in advance.",
+      "Explain using it: read the SDS before the operation, brief the precautions from it, and keep it available, because the right protection and emergency action come from it. This applies to the toxicity and fire hazards of weeks 1 and 9.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English on the cargo Safety Data Sheet: what it is (a document giving the cargo's hazards, properties, precautions and emergency actions), the key information the engineer looks for (flammability and toxicity, protection, first aid and spill actions, firefighting media), and using it (read and brief before the operation, kept available), applying the hazards of weeks 1 and 9.",
+    assessmentCriteria: [
+      "What the SDS is is correct (the cargo's hazards, properties, precautions and emergency actions).",
+      "The key information is correctly identified (flammability and toxicity, protection, first aid and spill, firefighting media).",
+      "Using it is correct (read and brief before the operation, kept available) linked to the hazards of weeks 1 and 9.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "mn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de emergencia",
+    topic: "Alarmas, estructura organizacional y procedimiento de emergencia",
+    week: 11,
+    taskId: "mn-c0129-w11-cargo-emergency-response",
+    taskTitle: "Respond To A Cargo Emergency On A Tanker",
+    scenario: "A cargo leak and gas release is reported on deck, and the whole ship must respond. The engineer asks the cadet to explain the emergency response: the alarm, the organisation, and the procedure.",
+    instructions: [
+      "Explain raising the alarm and the response organisation: the emergency alarm is sounded and the crew muster to their emergency stations under the ship's emergency organisation (the command team, the emergency party, the support team and the engine team), so everyone knows their role.",
+      "Explain the immediate actions: stop the cargo operation and the sources of ignition, close down as the procedure requires, start boundary cooling or gas dispersal as ordered, and account for all persons.",
+      "Explain the engine department's part: the engineer provides the fire and cooling pumps, the inert gas and the power for the response, and stands ready to shut down or isolate systems on the command team's order. Integrate the subject: this brings together the fire hazard (week 1), the SOPEP (week 3) and the safety systems.",
+      "Report the response in clear engine-room English."
+    ],
+    deliverable: "A note in English on responding to a cargo emergency: raising the alarm and mustering under the ship's emergency organisation (command team, emergency party, support team, engine team), the immediate actions (stop the cargo and ignition sources, close down, boundary cooling or gas dispersal, account for persons), and the engine department's part (fire and cooling pumps, inert gas, power, ready to shut down on order), integrating the fire hazard of week 1 and the SOPEP of week 3.",
+    assessmentCriteria: [
+      "The alarm and the emergency organisation are correct (mustered to stations under the command team, emergency party, support team and engine team).",
+      "The immediate actions are correct (stop the cargo and ignition sources, close down, boundary cooling or gas dispersal, account for persons).",
+      "The engine department's part is correct (fire and cooling pumps, inert gas, power, ready to shut down on order) integrating the fire hazard of week 1 and the SOPEP of week 3.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "mn-s7-familiarizacion-buques-tanque",
+    unit: "Equipos para la carga",
+    topic: "Equipo de manipulacion de la carga en petroleros, quimiqueros y gaseros",
+    week: 12,
+    taskId: "mn-c0129-w12-tanker-cargo-equipment",
+    taskTitle: "Compare The Cargo Equipment Of Oil, Chemical And Gas Tankers",
+    scenario: "As the closing task, the three kinds of tanker handle their cargo with different equipment, and the engineer supports it all. The engineer asks the cadet to compare the cargo-handling equipment of oil, chemical and gas tankers.",
+    instructions: [
+      "Explain the oil (crude and product) tanker's equipment: large cargo pumps and pipelines, tank heating for heavy cargoes, the inert gas system (week 5) and crude oil washing (week 7), sized to move large volumes.",
+      "Explain the chemical tanker's equipment: many segregated tanks with their own pumps (often deepwell pumps) and separate lines to keep cargoes apart, coated or stainless tanks for aggressive cargoes, and careful compatibility control.",
+      "Explain the gas (LPG/LNG) tanker's equipment: pressurised or refrigerated tanks, compressors and reliquefaction or boil-off handling, and strict temperature and pressure control, because the cargo is carried as a liquefied gas. Integrate the subject as the closing comparison across the tanker types.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English comparing the cargo equipment of the three tanker types: the oil tanker (large pumps and pipelines, tank heating, inert gas of week 5 and crude oil washing of week 7), the chemical tanker (segregated tanks with their own pumps and lines, coated or stainless tanks, compatibility control), and the gas tanker (pressurised or refrigerated tanks, compressors and reliquefaction or boil-off handling, strict temperature and pressure control), as the closing comparison.",
+    assessmentCriteria: [
+      "The oil tanker's equipment is correct (large pumps and pipelines, tank heating, inert gas, crude oil washing).",
+      "The chemical tanker's equipment is correct (segregated tanks with own pumps and lines, coated or stainless tanks, compatibility control).",
+      "The gas tanker's equipment is correct (pressurised or refrigerated tanks, compressors and reliquefaction or boil-off handling, temperature and pressure control), integrating the subject.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "C0131",
     subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
     subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
@@ -2087,6 +3015,122 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formacion en control de multitudes",
+    topic: "Procedimientos de reunion y asistencia a los puestos de reunion",
+    week: 9,
+    taskId: "mn-c0131-w09-crowd-management-muster",
+    taskTitle: "Guide Passengers To The Muster Stations",
+    scenario: "In an emergency on a ro-ro passenger ship hundreds of passengers must be moved calmly to the muster stations. The officer asks the cadet to explain crowd management and the muster procedures.",
+    instructions: [
+      "Explain the muster procedure: on the alarm and the order, the crew direct the passengers to their muster stations by the marked escape routes, where they are counted and prepared.",
+      "Explain controlling the crowd: give clear firm directions, keep people moving and prevent bottlenecks and pushing, and pay attention to those who need help (children, elderly, disabled and injured).",
+      "Explain the crew's positions and role: crew posted at stairways, corners and doors to guide the flow and keep the routes clear, so a large crowd moves safely and without panic. Boundary: week 3 was communicating with the passengers; here it is the crowd control and the muster.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on crowd management and muster: the muster procedure (on the order, passengers directed to the muster stations by the escape routes and counted), controlling the crowd (clear firm directions, no bottlenecks or pushing, help for those who need it), and the crew's positions guiding the flow, distinct from the passenger communication of week 3.",
+    assessmentCriteria: [
+      "The muster procedure is correct (passengers directed to the muster stations by the escape routes and counted).",
+      "Controlling the crowd is correct (clear firm directions, no bottlenecks or pushing, help for the vulnerable).",
+      "The crew's positions and role are correct (posted to guide the flow and keep routes clear) with the week 3 communication boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formacion sobre gestion de emergencias y comportamiento humano",
+    topic: "Demostracion a los pasajeros del uso de los dispositivos salvavidas",
+    week: 10,
+    taskId: "mn-c0131-w10-lifejacket-demonstration",
+    taskTitle: "Demonstrate Lifejacket Use To Passengers",
+    scenario: "Passengers who cannot use a lifejacket are in danger, so the crew must show them clearly. The officer asks the cadet to explain demonstrating the use of lifejackets to passengers.",
+    instructions: [
+      "Explain what to demonstrate: where the lifejacket is stowed, how to put it on the right way, fasten and tighten it, and any light and whistle, shown step by step so a passenger can copy it.",
+      "Explain doing it clearly: show slowly with clear words and actions, have passengers try their own, and check that children's and infants' lifejackets are fitted, because a lifejacket worn wrong can fail or ride up.",
+      "Explain when and where: at the safety briefing or muster, so passengers know before an emergency, not during one. Boundary: this is the life-saving-appliance demonstration, distinct from the emergency communication of week 3 and the crowd muster of week 9.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on demonstrating lifejacket use: what to show (stowage, putting it on correctly, fasten and tighten, light and whistle, step by step), doing it clearly (slow clear words and actions, passengers try their own, children and infants fitted), and when and where (at the briefing or muster, before an emergency), distinct from the communication of week 3 and the muster of week 9.",
+    assessmentCriteria: [
+      "What to demonstrate is correct (stowage, correct donning, fastening, light and whistle, step by step).",
+      "Doing it clearly is correct (slow clear demonstration, passengers try, children and infants fitted).",
+      "When and where is correct (at the briefing or muster, before an emergency) with the week 3 and week 9 boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formacion sobre seguridad de los pasajeros, la carga e integridad del casco",
+    topic: "Precauciones para el transporte de mercancias peligrosas en RoRo",
+    week: 11,
+    taskId: "mn-c0131-w11-dangerous-goods-roro",
+    taskTitle: "Handle Dangerous Goods On The Ro-Ro Deck",
+    scenario: "A ro-ro ship carries vehicles and units that may contain dangerous goods, close to passengers. The officer asks the cadet to explain the special precautions for dangerous goods on a ro-ro passenger ship.",
+    instructions: [
+      "Explain the risk and the rule: dangerous goods (fuels, gases, chemicals) on the vehicle deck near passengers must be declared, documented and carried under the IMDG Code rules for packing, marking and stowage.",
+      "Explain the stowage and segregation: dangerous goods stowed in their permitted positions, segregated from incompatible goods and from ignition sources, secured against the ship's motion, and their location known.",
+      "Explain the precautions in service: ventilation kept running, no ignition sources, the goods monitored, and the emergency information (from the IMDG Code and the SDS) ready in case of a leak or fire. Boundary: general lashing was week 5 and the vehicle-deck fire week 7; here it is the dangerous-goods precautions.",
+      "Report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English on dangerous goods on a ro-ro ship: the risk and rule (declared, documented and carried under the IMDG Code near passengers), the stowage and segregation (permitted positions, segregated from incompatible goods and ignition, secured, location known), and the precautions in service (ventilation running, no ignition, monitored, emergency information ready), distinct from the lashing of week 5 and the fire of week 7.",
+    assessmentCriteria: [
+      "The risk and rule are correct (declared, documented, carried under the IMDG Code).",
+      "The stowage and segregation are correct (permitted positions, segregated from incompatible goods and ignition, secured, location known).",
+      "The in-service precautions are correct (ventilation running, no ignition, monitored, emergency information ready) with the week 5 and week 7 boundary respected.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formacion sobre seguridad de los pasajeros, la carga e integridad del casco",
+    topic: "Apertura, cierre y sujecion de las aberturas del casco y estanqueidad",
+    week: 12,
+    taskId: "mn-c0131-w12-hull-openings-watertight",
+    taskTitle: "Secure The Hull Openings And Verify Watertight Integrity",
+    scenario: "As the closing task, before a ro-ro ship goes to sea every hull opening must be shut and secured and the watertight integrity confirmed. The officer asks the cadet to explain operating and securing the hull openings and verifying the watertight integrity.",
+    instructions: [
+      "Explain the hull openings and their operation: the bow and stern doors and ramps, the side doors and the watertight doors are closed and secured in the correct sequence before sea, using their hydraulics and locking devices.",
+      "Explain confirming they are secured: the closed-and-secured position confirmed by the indicators and where needed by eye, and any door left open or unsecured is a direct threat to the watertight integrity, so it is reported and corrected before sailing.",
+      "Explain the watertight integrity and its limits: the closed openings and the watertight subdivision keep water out and confine any flooding, and the operational limits on the doors (the bow doors kept shut at sea) are observed. Integrate the subject: this ties the door maintenance of week 1, the ramp operations of week 6 and the flooding response of week 8.",
+      "Report the check in clear maritime English."
+    ],
+    deliverable: "A note in English on the hull openings and watertight integrity: operating and securing the bow and stern doors and ramps, side doors and watertight doors in sequence before sea; confirming the secured position by indicators and by eye and reporting any opening left unsecured; and the watertight integrity and its operational limits (bow doors shut at sea), integrating the door maintenance of week 1, the ramp operations of week 6 and the flooding response of week 8.",
+    assessmentCriteria: [
+      "The hull openings and their operation are correct (bow and stern doors and ramps, side and watertight doors closed and secured in sequence before sea).",
+      "Confirming the secured state is correct (indicators and eye check, any unsecured opening reported and corrected).",
+      "The watertight integrity and its limits are correct (openings and subdivision keep water out, bow doors shut at sea) integrating weeks 1, 6 and 8.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
 ];
