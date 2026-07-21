@@ -230,6 +230,122 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Logaritmos",
+    topic: "Funciones exponenciales y logaritmicas",
+    week: 9,
+    taskId: "mn-alg103-w09-noise-level-logarithm",
+    taskTitle: "Work Out Engine-Room Noise Levels With Logarithms",
+    scenario: "The engine room is a high-noise space and the safety officer asks the cadet to check the sound level near the main engine, where the measured sound intensity is a million times the hearing threshold, using the logarithmic decibel scale.",
+    instructions: [
+      "State the decibel formula L = 10 x log10(I / I0), where I0 is the reference intensity.",
+      "Calculate the sound level for a measured intensity that is 1 000 000 (10^6) times the reference intensity I0.",
+      "Explain why sound is measured on a logarithmic scale instead of a simple linear ratio.",
+      "Report the level in decibels and whether hearing protection is required, in clear engine-room English."
+    ],
+    deliverable: "A noise calculation in English giving the sound level in decibels from the intensity ratio, with the working shown and a hearing-protection conclusion.",
+    assessmentCriteria: [
+      "The decibel formula with log base 10 is stated correctly.",
+      "The level is correct (10 x log10(10^6) = 60 dB).",
+      "The reason a logarithmic scale suits sound is explained correctly.",
+      "The result carries the correct unit and the English is clear."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Matrices y determinantes",
+    topic: "Matrices, determinantes e inversa",
+    week: 10,
+    taskId: "mn-alg103-w10-load-sharing-determinants",
+    taskTitle: "Solve Generator Load Sharing With Determinants",
+    scenario: "Two diesel generators run in parallel and must share a 900 kW load, with generator A set to carry twice the power of generator B. The electrician asks the cadet to solve the load split using a system of two equations and determinants.",
+    instructions: [
+      "Write the two equations: A + B = 900 and A = 2 x B (so A - 2B = 0).",
+      "Form the coefficient matrix and calculate its determinant D.",
+      "Use Cramer's rule (determinants) to solve for the power carried by each generator A and B.",
+      "State each generator's load in kW and confirm the split, in clear engine-room English."
+    ],
+    deliverable: "A load-sharing calculation in English using determinants (Cramer's rule) to give each generator's power, with the matrix, the determinant, and the working shown.",
+    assessmentCriteria: [
+      "The two equations correctly represent the load-sharing condition.",
+      "The determinant of the coefficient matrix is calculated correctly (D = -3).",
+      "Cramer's rule gives the correct split (A = 600 kW, B = 300 kW).",
+      "The result is stated with units and clearly written in English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Sistemas de Ecuaciones y desigualdades",
+    topic: "Programacion lineal",
+    week: 11,
+    taskId: "mn-alg103-w11-linear-programming-fuel",
+    taskTitle: "Optimise Generator Loading With Linear Programming",
+    scenario: "In port the ship needs at least 600 kW of electrical power. Generator 1 can supply up to 500 kW and burns 0.21 kg of fuel per kWh; generator 2 can supply up to 400 kW and burns 0.19 kg per kWh. The chief engineer asks the cadet to find the loading that meets demand at the lowest fuel consumption.",
+    instructions: [
+      "Write the constraints: x + y >= 600, x <= 500, y <= 400, with x and y greater than or equal to 0.",
+      "Write the objective function for fuel per hour F = 0.21x + 0.19y to be minimised.",
+      "Identify the vertices of the feasible region and evaluate the fuel use at each.",
+      "State the optimum loading of each generator and the minimum fuel rate, in clear engine-room English."
+    ],
+    deliverable: "A linear-programming note in English giving the constraints, the objective function, the feasible-region vertices tested, and the optimum generator loading with the minimum fuel rate.",
+    assessmentCriteria: [
+      "The constraints and objective function are formulated correctly.",
+      "The feasible-region vertices are identified correctly.",
+      "The optimum is correct (generator 1 at 200 kW, generator 2 at 400 kW, F = 118 kg/h).",
+      "The result is stated with units and clearly explained in English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Ecuaciones, desigualdades y numeros complejos",
+    topic: "Numeros complejos",
+    week: 12,
+    taskId: "mn-alg103-w12-ac-impedance-complex",
+    taskTitle: "Express AC Circuit Impedance With Complex Numbers",
+    scenario: "An auxiliary AC circuit in the engine room has a resistance of 3 ohm and an inductive reactance of 4 ohm. The electrician asks the cadet to express the impedance as a complex number and find its magnitude before checking the current on a 230 V supply.",
+    instructions: [
+      "Write the impedance as a complex number Z = R + jX, using R = 3 ohm and X = 4 ohm.",
+      "Calculate the magnitude of the impedance |Z| = sqrt(R^2 + X^2).",
+      "Use |Z| and the 230 V supply to find the current magnitude I = V / |Z|.",
+      "State the impedance, its magnitude and the current, and explain what the imaginary part represents, in clear engine-room English."
+    ],
+    deliverable: "A calculation in English giving the impedance as a complex number, its magnitude, and the resulting current, with the working shown and the meaning of the imaginary part explained.",
+    assessmentCriteria: [
+      "The impedance is written correctly as Z = 3 + j4 ohm.",
+      "The magnitude is correct (|Z| = 5 ohm).",
+      "The current is correct (230 / 5 = 46 A).",
+      "The meaning of the reactive (imaginary) part is explained, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "FIS104",
     subjectName: "Física",
     subjectId: "mn-s1-fisica",
@@ -457,6 +573,122 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Ondas",
+    topic: "Movimiento ondulatorio",
+    week: 9,
+    taskId: "mn-fis104-w09-vibration-wave",
+    taskTitle: "Relate Frequency And Wavelength Of Engine Noise",
+    scenario: "A condition-monitoring check picks up a 500 Hz tone radiating from the main engine. The engineer asks the cadet to use the wave equation to find the wavelength of that sound in air, where sound travels at about 340 m/s.",
+    instructions: [
+      "State the wave equation v = f x lambda relating wave speed, frequency and wavelength.",
+      "Rearrange it to make the wavelength lambda the subject.",
+      "Substitute f = 500 Hz and v = 340 m/s and calculate the wavelength.",
+      "State the wavelength with its unit and explain how frequency helps identify which machine is vibrating, in clear engine-room English."
+    ],
+    deliverable: "A wave calculation in English giving the wavelength of the engine noise from its frequency and speed, with the working shown and a note on using frequency in condition monitoring.",
+    assessmentCriteria: [
+      "The wave equation v = f x lambda is stated and rearranged correctly.",
+      "The wavelength is correct (340 / 500 = 0.68 m).",
+      "The result carries the correct unit.",
+      "The link between frequency and machinery monitoring is sound, in clear engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Impulso y cantidad de movimiento",
+    week: 10,
+    taskId: "mn-fis104-w10-jet-reaction-momentum",
+    taskTitle: "Calculate The Reaction Force Of A Water Jet",
+    scenario: "An emergency fire pump drives water out of a nozzle and the cadet must help hold the hose. The engineer asks the cadet to work out the reaction force from the change in momentum of the water leaving the nozzle at 15 m/s with a mass flow of 40 kg/s.",
+    instructions: [
+      "State the momentum principle: force equals rate of change of momentum, F = mass flow x change in velocity.",
+      "Take the water as accelerated from rest to the jet velocity of 15 m/s.",
+      "Substitute the mass flow of 40 kg/s and calculate the reaction force.",
+      "State the force with its unit and explain why the hose team must brace against it, in clear engine-room English."
+    ],
+    deliverable: "A momentum calculation in English giving the reaction force of the water jet from the mass flow and velocity change, with the working shown and a safety note for the hose team.",
+    assessmentCriteria: [
+      "The momentum principle F = mass flow x change in velocity is stated correctly.",
+      "The reaction force is correct (40 x 15 = 600 N).",
+      "The result carries the correct unit.",
+      "The safety reasoning for the hose team is sound, in clear engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Movimiento circular",
+    week: 11,
+    taskId: "mn-fis104-w11-centripetal-governor",
+    taskTitle: "Find The Centripetal Force On A Rotating Governor Weight",
+    scenario: "A speed governor uses a flyweight of 2 kg spinning at a radius of 0.5 m. At an engine speed of 300 rpm the engineer asks the cadet to work out the centripetal force pulling the flyweight outward, which sets the governor's action.",
+    instructions: [
+      "Convert the rotational speed of 300 rpm to an angular velocity omega in rad/s using omega = 2 x pi x N / 60.",
+      "State the centripetal force equation F = m x omega^2 x r.",
+      "Substitute the mass 2 kg, radius 0.5 m and the angular velocity and calculate the force.",
+      "State the force with its unit and explain how a change in engine speed changes it, in clear engine-room English."
+    ],
+    deliverable: "A circular-motion calculation in English giving the centripetal force on the governor flyweight, with the rpm-to-rad/s conversion and the working shown.",
+    assessmentCriteria: [
+      "The speed is converted correctly (300 rpm = about 31.4 rad/s).",
+      "The centripetal force equation F = m x omega^2 x r is applied correctly.",
+      "The force is correct (about 987 N).",
+      "The effect of engine speed on the force is explained, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Cinematica en una y dos dimensiones",
+    week: 12,
+    taskId: "mn-fis104-w12-hoist-kinematics",
+    taskTitle: "Analyse The Motion Of An Engine-Room Hoist",
+    scenario: "A provisions hoist in the engine room lifts a load from rest with a steady acceleration of 0.5 m/s^2 for 2 seconds before running at constant speed. The engineer asks the cadet to work out the speed reached and the distance travelled during the acceleration.",
+    instructions: [
+      "State the kinematic equations v = u + a x t and s = u x t + 0.5 x a x t^2, noting the load starts from rest (u = 0).",
+      "Calculate the speed v reached at the end of the 2-second acceleration.",
+      "Calculate the distance s travelled during that acceleration.",
+      "State both results with units and confirm they are reasonable for a hoist, in clear engine-room English."
+    ],
+    deliverable: "A kinematics calculation in English giving the speed reached and the distance travelled during the hoist's acceleration, with the equations and working shown.",
+    assessmentCriteria: [
+      "The correct kinematic equations are stated with u = 0.",
+      "The speed is correct (v = 0.5 x 2 = 1 m/s).",
+      "The distance is correct (s = 0.5 x 0.5 x 2^2 = 1 m).",
+      "Both results carry correct units and the English is clear."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -694,6 +926,122 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Circuito eléctrico",
+    topic: "Conductores, aislantes, pilas y acumuladores",
+    week: 9,
+    taskId: "mn-ele106-w09-emergency-battery-capacity",
+    taskTitle: "Check The Emergency Battery Endurance",
+    scenario: "The emergency battery bank must keep essential lighting alive if the generators are lost. The bank is rated 24 V, 200 Ah and the emergency lighting draws 25 A. The engineer asks the cadet to check how long the battery will hold the load and how the cells are arranged.",
+    instructions: [
+      "Explain the difference between a conductor, an insulator, and an accumulator (rechargeable battery) in this circuit.",
+      "Calculate the endurance of the bank using time = capacity in Ah / current in A.",
+      "Explain how cells are connected in series to raise the voltage and in parallel to raise the capacity.",
+      "State the endurance in hours and whether it meets a typical emergency requirement, in clear engine-room English."
+    ],
+    deliverable: "A note in English giving the emergency battery endurance from its capacity and load, the role of conductors, insulators and accumulators, and how the cells are arranged.",
+    assessmentCriteria: [
+      "Conductor, insulator and accumulator are correctly distinguished.",
+      "The endurance is correct (200 Ah / 25 A = 8 h).",
+      "The series/parallel cell arrangement for voltage and capacity is correct.",
+      "The result carries the correct unit and the English is clear."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Electrostática",
+    topic: "Carga electrica, Ley de Coulomb y campo electrico",
+    week: 10,
+    taskId: "mn-ele106-w10-static-fuel-transfer",
+    taskTitle: "Control Static Electricity During A Fuel Transfer",
+    scenario: "During a bunker transfer the cadet notices that flowing fuel can build up an electrostatic charge. The engineer asks the cadet to explain the static hazard and the earthing and bonding used to prevent a spark.",
+    instructions: [
+      "Explain how electrostatic charge builds up as fuel flows through pipes and filters.",
+      "Using the idea of charge and electric field, state why an accumulated charge can jump as a spark.",
+      "Describe the bonding and earthing that keep the ship, the pipe and the receiving tank at the same potential.",
+      "State one operational precaution during bunkering and report it in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining electrostatic charge build-up during fuel transfer, why it can spark, and the bonding, earthing and precaution that prevent it.",
+    assessmentCriteria: [
+      "The build-up of electrostatic charge in flowing fuel is explained correctly.",
+      "The link between accumulated charge, electric field and a spark is sound.",
+      "The bonding and earthing measures are correct.",
+      "The precaution is valid and clearly reported in English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Conexiones eléctricas",
+    topic: "Conexiones estrella y delta",
+    week: 11,
+    taskId: "mn-ele106-w11-star-delta-connection",
+    taskTitle: "Compare Star And Delta Line And Phase Values",
+    scenario: "The ship's three-phase system runs at 440 V between lines. The electrician asks the cadet to work out the phase voltage for a load connected in star and the same load connected in delta, and to explain where each connection is used.",
+    instructions: [
+      "State the star relationship: line voltage = square root of 3 times phase voltage, so phase voltage = line voltage / 1.732.",
+      "Calculate the phase voltage of a star-connected load on the 440 V line supply.",
+      "State the delta relationship: phase voltage equals line voltage, and give the phase voltage for a delta-connected load.",
+      "Explain why star gives a lower phase voltage and where each connection is used on board, in clear engine-room English."
+    ],
+    deliverable: "A note in English giving the star and delta phase voltages on the 440 V system, with the working shown and where each connection is used.",
+    assessmentCriteria: [
+      "The star relationship (line = root 3 x phase) is stated correctly.",
+      "The star phase voltage is correct (440 / 1.732 = about 254 V).",
+      "The delta phase voltage is correct (equal to 440 V).",
+      "The use of each connection is explained, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Electrodinámica",
+    topic: "Definicion y tipos de electricidad",
+    week: 12,
+    taskId: "mn-ele106-w12-ac-dc-shipboard-power",
+    taskTitle: "Compare AC And DC Systems In The Ship's Power Plant",
+    scenario: "As the electrical term closes, the engineer asks the cadet to bring the topics together and explain why the ship distributes power as three-phase AC but keeps DC for certain services, from the main switchboard to the battery-backed systems.",
+    instructions: [
+      "Distinguish alternating current (AC) from direct current (DC) and give the main property of each.",
+      "Explain why the main distribution on board is three-phase AC (generation, transformation and motor supply).",
+      "State which services use DC and why (battery-backed emergency, control and electronics).",
+      "Summarise how AC and DC work together in the ship's electrical plant, in clear engine-room English."
+    ],
+    deliverable: "An integrated note in English comparing AC and DC on board, why distribution is three-phase AC, which services use DC, and how they work together in the ship's plant.",
+    assessmentCriteria: [
+      "AC and DC are correctly distinguished with a key property of each.",
+      "The reasons for three-phase AC distribution are correct.",
+      "The DC services and the reason for them are correct.",
+      "The integration of AC and DC is explained clearly, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "ING102",
     subjectName: "Inglés Marítimo I",
     subjectId: "mn-s1-maritime-english-i",
@@ -921,6 +1269,122 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Ubicacion de objetos y personas",
+    topic: "Preposiciones de lugar en la sala de maquinas",
+    week: 9,
+    taskId: "mn-ing102-w09-locate-spares-prepositions",
+    taskTitle: "Direct A Shipmate To A Spare Part Using Prepositions",
+    scenario: "The engineer needs a spare gasket and sends the cadet to guide a rating to it over the phone. Using prepositions of place, the cadet must describe exactly where the part is stored in the engine-room store.",
+    instructions: [
+      "Locate the item using prepositions of place (on, in, under, behind, next to, above, between).",
+      "Give clear directions from a known landmark, such as the workshop bench, to the item's shelf.",
+      "Describe the item's position on the shelf so it cannot be confused with another part.",
+      "Deliver the directions clearly enough for the rating to find it first time, in correct engine-room English."
+    ],
+    deliverable: "A set of spoken directions in English using prepositions of place to guide a shipmate to a spare part in the engine-room store.",
+    assessmentCriteria: [
+      "Prepositions of place are used correctly and precisely.",
+      "The directions start from a clear landmark and are easy to follow.",
+      "The item's position is described unambiguously.",
+      "The directions are clear and in correct engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Numeros ordinales y cardinales",
+    topic: "Lectura de valores y numeracion de unidades",
+    week: 10,
+    taskId: "mn-ing102-w10-readings-ordinal-cardinal",
+    taskTitle: "Report Gauge Readings And Unit Numbers Correctly",
+    scenario: "During a round the engineer asks the cadet to read off several gauges and identify which cylinder and which generator they belong to. The cadet must say the values as cardinal numbers and the unit positions as ordinal numbers without confusion.",
+    instructions: [
+      "Read three gauge values aloud as cardinal numbers with their units (for example thirty-two bar, one hundred and ten degrees).",
+      "Identify the machinery unit by ordinal number where it applies (for example the third cylinder, the second generator).",
+      "State a decimal reading correctly in spoken form (for example four point five bar).",
+      "Give the full report so the engineer can log it without asking again, in correct engine-room English."
+    ],
+    deliverable: "A spoken reading report in English giving three gauge values as cardinal numbers with units and the machinery units by ordinal number.",
+    assessmentCriteria: [
+      "Cardinal numbers and units are said correctly.",
+      "Ordinal numbers correctly identify the machinery units.",
+      "The decimal reading is spoken correctly.",
+      "The report is clear and unambiguous in correct engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Adverbios de frecuencia",
+    topic: "Rutinas de mantenimiento y frecuencia",
+    week: 11,
+    taskId: "mn-ing102-w11-maintenance-frequency-adverbs",
+    taskTitle: "Describe The Maintenance Routine Using Frequency Adverbs",
+    scenario: "A new cadet joins the watch and the engineer asks you to explain the planned maintenance routine: which checks happen every watch, which are done weekly, and which are only occasional. You must describe it using adverbs and expressions of frequency.",
+    instructions: [
+      "Describe the routine checks using frequency adverbs (always, usually, often, sometimes, never) in the present simple.",
+      "State how often each task is done using time expressions (every watch, daily, weekly, once a month).",
+      "Distinguish a routine daily check from a periodic overhaul so the new cadet understands the difference.",
+      "Deliver the explanation clearly so the new cadet can follow the routine, in correct engine-room English."
+    ],
+    deliverable: "An explanation in English of the engine-room maintenance routine using frequency adverbs and time expressions to show how often each task is done.",
+    assessmentCriteria: [
+      "Frequency adverbs are used correctly with the present simple.",
+      "Time expressions state how often each task is done accurately.",
+      "The routine and periodic tasks are clearly distinguished.",
+      "The explanation is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Sustantivos contables y no contables",
+    topic: "Reporte de consumibles y repuestos",
+    week: 12,
+    taskId: "mn-ing102-w12-countable-uncountable-stores",
+    taskTitle: "Write A Stores And Consumables Report",
+    scenario: "Before a port call the engineer asks the cadet to draft the engine stores report: how much fuel and oil remain, and how many filters, gaskets and drums are left. The cadet must use countable and uncountable nouns and the right quantity words.",
+    instructions: [
+      "Separate the items into uncountable (fuel, oil, water, grease) and countable (filters, gaskets, drums, valves).",
+      "Use the correct quantifiers: much / a little / litres of for uncountable, many / a few / a number of for countable.",
+      "State the remaining quantity of each and flag any item that must be re-ordered in port.",
+      "Present the stores report clearly for the engineer to send ashore, in correct engine-room English."
+    ],
+    deliverable: "An engine stores report in English using countable and uncountable nouns with correct quantifiers, giving the remaining quantities and the items to re-order.",
+    assessmentCriteria: [
+      "Countable and uncountable nouns are correctly separated.",
+      "The quantifiers match the noun type (much/little vs many/few).",
+      "The remaining quantities and re-order flags are clear and correct.",
+      "The report is professional and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -1158,6 +1622,122 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Proyección Isométrica",
+    topic: "Vista isometrica de un componente de maquina",
+    week: 9,
+    taskId: "mn-dii105-w09-isometric-view",
+    taskTitle: "Read An Isometric View Of A Machine Component",
+    scenario: "The engineer hands the cadet an isometric drawing of a small valve body before it is assembled, and asks the cadet to read the 3D shape and relate it to the flat orthographic views on the same sheet.",
+    instructions: [
+      "Explain what an isometric projection shows and how it differs from a flat orthographic view.",
+      "Read the isometric drawing to describe the 3D shape of the component and its main features.",
+      "Relate one face of the isometric view to the matching orthographic view on the sheet.",
+      "Report how the isometric view helps in assembling the component, in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the isometric projection, describing the component's 3D shape, and relating it to the orthographic views, with the assembly benefit noted.",
+    assessmentCriteria: [
+      "The nature of an isometric projection is explained correctly.",
+      "The 3D shape and main features are read correctly.",
+      "The isometric face is correctly related to an orthographic view.",
+      "The assembly benefit is sound, in clear engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Problemas Geométricas",
+    topic: "Construcciones geometricas para plantillas y bridas",
+    week: 10,
+    taskId: "mn-dii105-w10-geometric-bolt-circle",
+    taskTitle: "Set Out A Bolt Circle On A Flange By Construction",
+    scenario: "A new gasket and flange must be marked out for a pipe repair. The engineer asks the cadet to use geometric construction to divide the flange's bolt circle into equal spacings so the holes line up with the mating flange.",
+    instructions: [
+      "State how many bolt holes are required and the diameter of the bolt circle.",
+      "Explain the geometric method to divide the circle into that number of equal parts (dividing 360 degrees and stepping the angle around the centre).",
+      "Calculate the angular spacing between holes for the given number of bolts.",
+      "Report the marking-out steps so a fitter could reproduce them, in clear engine-room English."
+    ],
+    deliverable: "A note in English giving the geometric construction to divide a flange bolt circle into equal spacings, with the angular spacing calculated and the marking-out steps.",
+    assessmentCriteria: [
+      "The geometric method for equal division of the circle is correct.",
+      "The angular spacing is calculated correctly (360 degrees / number of bolts).",
+      "The marking-out steps are clear and reproducible.",
+      "The note uses correct drawing terms, in clear engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Interpretación",
+    topic: "Instalaciones electricas navales: diagrama unifilar",
+    week: 11,
+    taskId: "mn-dii105-w11-single-line-diagram",
+    taskTitle: "Read The Engine-Room Single-Line Electrical Diagram",
+    scenario: "Before an electrical isolation the cadet must read the ship's single-line diagram to trace how power reaches a specific engine-room motor from the main switchboard through its breaker.",
+    instructions: [
+      "Identify the standard symbols on the single-line diagram: generator, main switchboard, breaker, transformer and motor.",
+      "Trace the supply path from the generator through the main switchboard and breaker to the motor.",
+      "Identify the breaker that must be opened to isolate that motor safely.",
+      "Report the isolation point and path clearly for a permit-to-work, in clear engine-room English."
+    ],
+    deliverable: "A note in English identifying the single-line diagram symbols, tracing the supply path to the motor, and naming the breaker to open for isolation.",
+    assessmentCriteria: [
+      "The single-line diagram symbols are correctly identified.",
+      "The supply path from generator to motor is traced correctly.",
+      "The correct isolation breaker is identified.",
+      "The isolation point is reported clearly for a permit-to-work, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Introducción",
+    topic: "Dibujo de ingenieria como medio de comunicacion: croquis acotado",
+    week: 12,
+    taskId: "mn-dii105-w12-dimensioned-sketch-spare",
+    taskTitle: "Produce A Dimensioned Sketch To Order A Spare",
+    scenario: "A small bracket has fractured and no drawing exists on board. The engineer asks the cadet to make a clear dimensioned sketch with a title block so the workshop ashore can manufacture an exact replacement.",
+    instructions: [
+      "Sketch the part showing the necessary views to define its shape.",
+      "Add the dimensions, the scale, and the material so the part can be made without the original.",
+      "Complete a title block (part name, ship, date, drawn by) so the drawing communicates clearly.",
+      "Write the covering note that sends the sketch to the workshop, in clear engine-room English."
+    ],
+    deliverable: "A dimensioned sketch with a title block (described in text) plus a covering note in English, together giving the workshop everything needed to make the replacement part.",
+    assessmentCriteria: [
+      "The views chosen define the part's shape completely.",
+      "The dimensions, scale and material are complete and correct.",
+      "The title block carries the information needed to identify the drawing.",
+      "The covering note is clear and professional, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "PMR107",
     subjectName: "Prácticas Marineras I",
     subjectId: "mn-s1-practicas-marineras-i",
@@ -1385,6 +1965,122 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Natación",
+    topic: "Flotacion y nado libre en supervivencia",
+    week: 9,
+    taskId: "mn-pmr107-w09-survival-swim-to-craft",
+    taskTitle: "Swim And Float To Reach A Survival Craft",
+    scenario: "In an abandon-ship exercise the engine cadet must enter the water safely and swim to the liferaft while conserving energy. The instructor asks the cadet to set out the correct technique for entering, floating and swimming to the craft.",
+    instructions: [
+      "Describe the safe way to enter the water from a height wearing a lifejacket.",
+      "Describe the floating and free-swimming technique used to reach the craft while conserving energy.",
+      "State what to do if the craft is far off or the cadet must wait to be picked up.",
+      "Report the procedure clearly for a safety briefing, in correct maritime English."
+    ],
+    deliverable: "A survival-swim brief in English covering safe water entry, the floating and free-swimming technique to reach the craft, and conserving energy while waiting.",
+    assessmentCriteria: [
+      "The safe water-entry method with a lifejacket is correct.",
+      "The floating and free-swimming technique is described correctly.",
+      "The energy-conserving and waiting guidance is sound.",
+      "The brief is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Boga",
+    topic: "Organizacion del bote y ordenes para la boga",
+    week: 10,
+    taskId: "mn-pmr107-w10-boat-crew-rowing-orders",
+    taskTitle: "Organise A Boat Crew And Give Rowing Orders",
+    scenario: "The engine cadet is put in charge of a pulling boat during a drill and must organise the crew at their stations and get them rowing together. The instructor asks the cadet to set the crew out and give the standard rowing orders.",
+    instructions: [
+      "Assign the crew to their positions in the boat (coxswain, bow, and the oarsmen) and state each role.",
+      "Give the standard orders to get under way and to keep the crew pulling together.",
+      "State the orders to stop, to back water and to come alongside safely.",
+      "Deliver the orders clearly so the crew acts as one, in correct maritime English."
+    ],
+    deliverable: "A note in English setting out the boat crew positions and the standard rowing orders to get under way, keep together, stop and come alongside.",
+    assessmentCriteria: [
+      "The crew positions and roles are correct.",
+      "The orders to get under way and pull together are correct.",
+      "The orders to stop, back water and come alongside are correct.",
+      "The orders are clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Boga",
+    topic: "Boga a pareles, a la tercio, a la singa y a la punta",
+    week: 11,
+    taskId: "mn-pmr107-w11-rowing-techniques",
+    taskTitle: "Select The Right Rowing Technique For The Conditions",
+    scenario: "During boat handling the space and the sea conditions change: an open stretch, then a narrow gap alongside, then a crowded jetty. The instructor asks the engine cadet to choose the correct rowing technique for each and explain the change.",
+    instructions: [
+      "Name the main rowing techniques (pulling together, a la tercio, sculling / a la singa, and a la punta) and when each is used.",
+      "Choose the technique for open water where full speed is needed.",
+      "Choose the technique for a narrow gap or crowded space where only one oar can work.",
+      "Explain each choice and give the order to change technique, in correct maritime English."
+    ],
+    deliverable: "A note in English matching the rowing techniques to open water, narrow spaces and crowded berths, with the reason and the order to change technique.",
+    assessmentCriteria: [
+      "The rowing techniques are named correctly with their use.",
+      "The open-water choice is correct and justified.",
+      "The narrow-space choice (sculling / single oar) is correct.",
+      "The orders to change technique are clear, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Bote salvavidas",
+    topic: "Arriado, embarque y abandono en bote salvavidas",
+    week: 12,
+    taskId: "mn-pmr107-w12-survival-craft-launch",
+    taskTitle: "Coordinate A Lifeboat Launch And Boarding",
+    scenario: "At an abandon-ship drill the engine cadet is part of the survival craft party and must help lower the lifeboat, board the crew and account for everyone, bringing together the boat nomenclature, the crew organisation and the safety checks learned this term.",
+    instructions: [
+      "State the pre-launch checks on the lifeboat, davit and falls before lowering.",
+      "Set out the order of boarding and lowering so the boat is launched safely with the crew accounted for.",
+      "Assign the key roles in the boat once waterborne (coxswain, painter, engine or oars) and the first actions clear of the ship.",
+      "Give the reports to the officer in charge confirming the boat is launched and all accounted for, in correct maritime English."
+    ],
+    deliverable: "A note in English coordinating the lifeboat launch: pre-launch checks, the boarding and lowering order, the crew roles once waterborne, and the reports to the officer in charge.",
+    assessmentCriteria: [
+      "The pre-launch checks on boat, davit and falls are correct.",
+      "The boarding and lowering order is safe and logical.",
+      "The crew roles and first actions clear of the ship are correct.",
+      "The reports confirming launch and accounting for the crew are clear, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -1622,6 +2318,122 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Dimensiones y elementos del Buque",
+    topic: "Dimensiones principales y nomenclatura del buque",
+    week: 9,
+    taskId: "mn-tmo101-w09-ship-dimensions-nomenclature",
+    taskTitle: "Relate The Ship's Principal Dimensions To Engine Planning",
+    scenario: "The chief engineer asks the cadet to read the ship's principal particulars and connect them to engine-department planning, since deadweight and displacement affect fuel, ballast and power demand.",
+    instructions: [
+      "Name the principal dimensions of the ship (length overall, beam, draft, depth) and what each means.",
+      "Explain the difference between displacement and deadweight.",
+      "State how a deeper draft (more deadweight) increases the power the main engine must deliver for the same speed.",
+      "Report the link between the ship's particulars and engine planning, in clear engine-room English."
+    ],
+    deliverable: "A note in English naming the ship's principal dimensions, distinguishing displacement from deadweight, and linking draft and deadweight to engine power demand.",
+    assessmentCriteria: [
+      "The principal dimensions are named correctly with their meaning.",
+      "Displacement and deadweight are correctly distinguished.",
+      "The link between draft/deadweight and engine power is sound.",
+      "The report is clear and in correct engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Líneas de Carga y Marca de calados",
+    topic: "Lineas de carga, francobordo, desplazamiento y lectura de calados",
+    week: 10,
+    taskId: "mn-tmo101-w10-draft-freeboard-bunkers",
+    taskTitle: "Read Draft Marks And Relate Them To Bunkering",
+    scenario: "Before a bunker delivery the chief engineer asks the cadet to read the ship's draft marks and explain how taking on fuel oil changes the draft, the freeboard and the displacement.",
+    instructions: [
+      "Explain how to read the draft marks forward and aft and what the reading represents.",
+      "Define freeboard and the load line, and how they limit how deep the ship may load.",
+      "Explain how adding a mass of bunker fuel increases displacement and draft and reduces freeboard.",
+      "Report the draft check and the bunkering effect, in clear engine-room English."
+    ],
+    deliverable: "A note in English on reading the draft marks, the meaning of freeboard and the load line, and how bunkering changes draft, displacement and freeboard.",
+    assessmentCriteria: [
+      "Reading of the draft marks is explained correctly.",
+      "Freeboard and the load line are correctly defined.",
+      "The effect of bunkering on displacement, draft and freeboard is correct.",
+      "The report is clear and in correct engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Organismos Internacionales que regulan la Marina Mercante",
+    topic: "OMI, OIT, UIT y OMM y su efecto en el departamento de maquinas",
+    week: 11,
+    taskId: "mn-tmo101-w11-international-bodies-engine",
+    taskTitle: "Map The International Bodies To Engine-Department Duties",
+    scenario: "The chief engineer asks the cadet to connect the international organisations that govern shipping to concrete duties in the engine department, so the cadet understands where the rules come from.",
+    instructions: [
+      "State what the IMO does and name one instrument that affects the engine room (for example MARPOL or SOLAS).",
+      "State what the ILO does and how the MLC protects the engine crew's work and rest hours.",
+      "State the role of the ITU (radio spectrum for GMDSS) and the WMO (weather information) in ship operation.",
+      "Give one concrete engine-department duty that comes from each of two of these bodies, in clear engine-room English."
+    ],
+    deliverable: "A note in English mapping the IMO, ILO, ITU and WMO to their role and giving concrete engine-department duties that come from them.",
+    assessmentCriteria: [
+      "The role of the IMO and one relevant instrument are correct.",
+      "The role of the ILO and the MLC work/rest protection are correct.",
+      "The roles of the ITU and WMO are correctly stated.",
+      "The concrete engine-department duties are valid, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Equipo de carga/descarga",
+    topic: "Maquinaria de carga, descarga y amarre y su planta de fuerza",
+    week: 12,
+    taskId: "mn-tmo101-w12-deck-machinery-power",
+    taskTitle: "Explain The Power Behind The Deck And Cargo Machinery",
+    scenario: "During cargo operations the deck machinery, winches and cargo pumps all draw on the engine department for power. The chief engineer asks the cadet to explain how the engine room supplies and supports this machinery, bringing together the electrical, hydraulic and pumping systems.",
+    instructions: [
+      "Name the main cargo and mooring machinery (cargo pumps, cranes or derricks, mooring winches, windlass) and what each does.",
+      "Explain how the engine department supplies the power: electric motors, hydraulic power packs, and steam or pump drives.",
+      "State how a heavy cargo or mooring demand shows up as an extra load on the generators or hydraulic system.",
+      "Report how the engine room supports a cargo operation, in clear engine-room English."
+    ],
+    deliverable: "A note in English naming the cargo and mooring machinery, explaining how the engine department powers it, and how its demand loads the ship's systems during a cargo operation.",
+    assessmentCriteria: [
+      "The cargo and mooring machinery is named correctly with its function.",
+      "The power supply (electric, hydraulic, pump/steam) is explained correctly.",
+      "The link between machinery demand and engine-room load is sound.",
+      "The report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "C0011",
     subjectName: "Educación Física I",
     subjectId: "mn-s1-educacion-fisica-i",
@@ -1849,6 +2661,122 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Percepción y coordinación motriz",
+    topic: "Movimientos fisicos y ubicacion espacial",
+    week: 9,
+    taskId: "mn-c0011-w09-spatial-awareness-engine-room",
+    taskTitle: "Move Safely Through Confined Machinery Spaces",
+    scenario: "The engine room is full of ladders, low beams, hot lines and moving machinery, sometimes in poor light. The officer asks the cadet to explain how spatial awareness and controlled movement prevent injury when moving through these spaces.",
+    instructions: [
+      "Explain how spatial awareness (knowing where your body is in the space) prevents striking machinery or falling.",
+      "Describe how to move through ladders, narrow walkways and low clearances in a controlled way.",
+      "Identify two engine-room features that demand extra spatial care (hot lines, rotating machinery, floor plate openings).",
+      "Report the safe-movement guidance for a new cadet, in clear maritime English."
+    ],
+    deliverable: "A note in English explaining how spatial awareness and controlled movement keep a cadet safe in confined machinery spaces, with two hazard features identified.",
+    assessmentCriteria: [
+      "The role of spatial awareness in preventing injury is explained correctly.",
+      "The controlled-movement technique is practical and correct.",
+      "The two hazard features are relevant and correctly identified.",
+      "The guidance is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Natación",
+    topic: "Nado en grupo y sobrevivencia",
+    week: 10,
+    taskId: "mn-c0011-w10-group-survival-swim",
+    taskTitle: "Lead A Group Survival Swim After Abandon Ship",
+    scenario: "After abandon ship several crew are in the water waiting for rescue. The instructor asks the engine cadet to explain how a group stays together, keeps warm and moves as one towards the liferaft.",
+    instructions: [
+      "Explain why staying in a group improves survival and rescue chances over swimming alone.",
+      "Describe the huddle and chain techniques a group uses to conserve heat and stay together.",
+      "State how the group moves as one towards the craft while helping a weaker or injured shipmate.",
+      "Report the group-survival guidance for a safety briefing, in clear maritime English."
+    ],
+    deliverable: "A note in English explaining group survival in the water: why to stay together, the huddle and chain techniques, and how the group moves to the craft helping the weak.",
+    assessmentCriteria: [
+      "The survival benefit of staying in a group is explained correctly.",
+      "The huddle and chain techniques are described correctly.",
+      "The method for moving as a group and helping the injured is sound.",
+      "The guidance is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Condición física",
+    topic: "Evaluacion de la condicion fisica para el servicio",
+    week: 11,
+    taskId: "mn-c0011-w11-fitness-self-assessment",
+    taskTitle: "Assess Your Fitness Against The Demands Of Sea Service",
+    scenario: "Near the end of the term the officer asks the cadet to assess personal fitness against the real physical demands of engine-room service and set honest, safe goals for improvement.",
+    instructions: [
+      "List the physical capacities that sea service demands (strength, cardiorespiratory endurance, flexibility, balance).",
+      "Assess your own level in each against the demands of engine-room work, with honest evidence.",
+      "Set one safe, realistic improvement goal for a weaker capacity, with no extreme target.",
+      "Report the self-assessment and the goal for a training review, in clear maritime English."
+    ],
+    deliverable: "A fitness self-assessment in English rating each physical capacity against the demands of sea service, with honest evidence and one safe improvement goal.",
+    assessmentCriteria: [
+      "The physical capacities demanded by sea service are correctly identified.",
+      "The self-assessment is honest and evidence-based.",
+      "The improvement goal is safe, realistic and well targeted.",
+      "The report is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Percepción y coordinación motriz",
+    topic: "Coordinacion motriz fina y gruesa en tareas de maquinas",
+    week: 12,
+    taskId: "mn-c0011-w12-motor-coordination-task",
+    taskTitle: "Apply Fine And Gross Motor Coordination To A Machinery Task",
+    scenario: "A maintenance job needs both heavy handling and delicate work: lifting a pump cover into place, then aligning and torquing small bolts by feel in a tight space. The officer asks the cadet to explain how fine and gross motor coordination combine to do the job safely.",
+    instructions: [
+      "Distinguish gross motor coordination (lifting, carrying, positioning) from fine motor coordination (aligning, threading, torquing).",
+      "Explain how the task moves between the two and where each is needed.",
+      "State how fatigue or a moving deck degrades coordination and how to compensate.",
+      "Report how good coordination keeps the job safe and accurate, in clear maritime English."
+    ],
+    deliverable: "A note in English distinguishing fine and gross motor coordination, showing how they combine in a machinery task, and how to compensate when conditions degrade them.",
+    assessmentCriteria: [
+      "Fine and gross motor coordination are correctly distinguished.",
+      "The way the task moves between them is explained correctly.",
+      "The effect of fatigue or ship motion and the compensation are sound.",
+      "The report is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -2086,6 +3014,122 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Técnicas de estudio",
+    topic: "Metodos de estudio individual y en grupo",
+    week: 9,
+    taskId: "mn-c0099-w09-group-study-methods",
+    taskTitle: "Organise A Group Study Session For A Technical Subject",
+    scenario: "Several cadets struggle with the same machinery subject before an exam. The officer asks the cadet to organise a group study session and explain when group study beats studying alone.",
+    instructions: [
+      "State the goal of the session and the technical topic to be covered.",
+      "Plan how the group divides the material and teaches each part to the others.",
+      "State when individual study is better and when group study is better for this content.",
+      "Report the session plan clearly for the group, in correct English."
+    ],
+    deliverable: "A group study plan in English with the goal, how the material is divided and taught, and when individual versus group study is used.",
+    assessmentCriteria: [
+      "The session goal and topic are clear.",
+      "The division and peer-teaching plan is sound.",
+      "The individual-versus-group reasoning is correct.",
+      "The plan is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Manejo de información",
+    topic: "Evaluacion y contraste de fuentes tecnicas",
+    week: 10,
+    taskId: "mn-c0099-w10-evaluate-technical-sources",
+    taskTitle: "Evaluate And Cross-Check A Technical Source",
+    scenario: "The cadet finds conflicting advice about a maintenance procedure: the machinery manual, a workshop note, and a shipmate's word-of-mouth tip. The officer asks the cadet to judge which source to trust and why.",
+    instructions: [
+      "Compare the three sources for reliability (authority, currency, and evidence).",
+      "Identify which source should be followed for a safety-critical procedure and why.",
+      "Explain how to cross-check when sources disagree before acting.",
+      "Report the reasoned decision clearly, in correct English."
+    ],
+    deliverable: "A note in English evaluating the three technical sources, choosing the one to follow for a safety-critical procedure, and explaining how to cross-check when they disagree.",
+    assessmentCriteria: [
+      "The sources are compared on sound reliability criteria.",
+      "The correct source for a safety-critical procedure is chosen and justified.",
+      "The cross-checking method is sensible.",
+      "The decision is clearly reasoned in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Presentación gráfica de la información",
+    topic: "Mapa conceptual integrador de un sistema",
+    week: 11,
+    taskId: "mn-c0099-w11-integrating-concept-map",
+    taskTitle: "Build An Integrating Concept Map Of A Machinery System",
+    scenario: "To prepare for the technical finals the cadet must see a whole machinery system at once. The officer asks the cadet to build a concept map that links the parts, the flows and the controls of one system.",
+    instructions: [
+      "Choose one machinery system (for example the fuel oil or cooling water system).",
+      "Build a concept map linking the parts, the flow path, and the controls, showing how they connect.",
+      "Mark the cause-and-effect links (for example how a blocked filter affects downstream pressure).",
+      "Explain how the concept map supports recall and problem-solving in the exam, in correct English."
+    ],
+    deliverable: "A concept map (described in text/sketch form) in English integrating one machinery system's parts, flows and controls, with the cause-and-effect links marked.",
+    assessmentCriteria: [
+      "The concept map represents the whole system accurately.",
+      "The parts, flows and controls are correctly linked.",
+      "The cause-and-effect links are sound.",
+      "The learning benefit is explained clearly, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Técnicas de estudio",
+    topic: "Estrategia integral de preparacion para examenes",
+    week: 12,
+    taskId: "mn-c0099-w12-exam-preparation-strategy",
+    taskTitle: "Design A Complete Exam-Preparation Strategy",
+    scenario: "The technical finals are two weeks away. The officer asks the cadet to bring together every study strategy from the term into one realistic preparation plan that fits around watches and rest.",
+    instructions: [
+      "Combine the term's strategies (summary, concept maps, the six-step method, spaced repetition) into one plan.",
+      "Schedule the two weeks across the available study windows, respecting watches and rest.",
+      "Prioritise the weakest subjects and set a review checkpoint before the exam.",
+      "Explain how the integrated plan improves on studying one way only, in correct English."
+    ],
+    deliverable: "A two-week exam-preparation plan in English that integrates summary, concept maps, the six-step method and spaced repetition, scheduled realistically around watches and rest.",
+    assessmentCriteria: [
+      "The plan integrates several strategies coherently, not just one.",
+      "The two-week schedule is realistic around watches and rest.",
+      "The weakest subjects are prioritised with a review checkpoint.",
+      "The advantage of the integrated approach is explained, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "C0100",
     subjectName: "Expresión Oral y Escrita",
     subjectId: "mn-s1-expresion-oral-escrita",
@@ -2313,6 +3357,122 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Proceso de comunicación",
+    topic: "Factores personales, fisicos y semanticos",
+    week: 9,
+    taskId: "mn-c0100-w09-communication-barriers-engine",
+    taskTitle: "Identify And Overcome Engine-Room Communication Barriers",
+    scenario: "A message shouted over running machinery is misheard and the wrong valve is touched. The officer asks the cadet to identify the barriers that blocked the message and how to overcome each one.",
+    instructions: [
+      "Identify the physical barriers (machinery noise, distance, hearing protection) in the engine-room exchange.",
+      "Identify the personal and semantic barriers (fatigue, language differences, ambiguous terms).",
+      "Propose one practical measure to overcome each type of barrier (for example standard phrasing, read-back, sound-powered phones).",
+      "Report the barriers and the fixes clearly, in correct English."
+    ],
+    deliverable: "A note in English identifying the physical, personal and semantic barriers to an engine-room message and a practical measure to overcome each.",
+    assessmentCriteria: [
+      "The physical barriers are correctly identified.",
+      "The personal and semantic barriers are correctly identified.",
+      "The measures to overcome each barrier are practical and relevant.",
+      "The report is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación Escrita",
+    topic: "Reglas ortograficas y oracion gramatical",
+    week: 10,
+    taskId: "mn-c0100-w10-written-requisition",
+    taskTitle: "Write A Correct Spare-Parts Requisition",
+    scenario: "The engineer asks the cadet to write a spare-parts requisition to send to the office. It must be spelled correctly and grammatically clear, because an ambiguous or misspelled request delays the delivery.",
+    instructions: [
+      "Write the requisition in complete, correct sentences with accurate spelling.",
+      "State clearly what is needed, the quantity, and the reason, without ambiguity.",
+      "Check the grammar and spelling so no part number or term can be misread.",
+      "Present the requisition ready to send to the office, in correct English."
+    ],
+    deliverable: "A spare-parts requisition in English written in correct, well-spelled sentences that state the item, quantity and reason without ambiguity.",
+    assessmentCriteria: [
+      "Spelling is accurate throughout.",
+      "The sentences are grammatically correct and complete.",
+      "The item, quantity and reason are stated unambiguously.",
+      "The requisition is professional and ready to send, in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Lenguaje, lengua y habla: registro segun el interlocutor",
+    week: 11,
+    taskId: "mn-c0100-w11-register-audience",
+    taskTitle: "Adapt Your Message To The Listener",
+    scenario: "The same fault must be reported three ways: a quick word to a rating on the tools, a formal report to the chief engineer, and an explanation to the shore superintendent. The officer asks the cadet to adapt the register for each listener.",
+    instructions: [
+      "Explain how language, level and tone change with the listener and the situation.",
+      "Write the brief spoken message to the rating carrying out the work.",
+      "Write the formal report of the same fault to the chief engineer.",
+      "Write the explanation to the shore superintendent and state what changed and why, in correct English."
+    ],
+    deliverable: "A note in English giving the same fault reported in three registers (rating, chief engineer, shore superintendent) with an explanation of what changed and why.",
+    assessmentCriteria: [
+      "The effect of listener and situation on register is explained correctly.",
+      "Each of the three messages fits its listener.",
+      "The core facts stay accurate across all three versions.",
+      "The explanation of the changes is sound, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Exposicion tecnica formal: oral, escrita y visual",
+    week: 12,
+    taskId: "mn-c0100-w12-technical-presentation",
+    taskTitle: "Prepare And Deliver A Technical Briefing",
+    scenario: "At the end of the term the cadet must give a short technical briefing to the crew on one machinery system, supported by a simple visual and a written handout, bringing together everything learned about oral and written communication.",
+    instructions: [
+      "Prepare the spoken briefing with a clear opening, key points and a close.",
+      "Prepare a simple visual aid (a diagram or a few slides) that supports, not replaces, the words.",
+      "Prepare a short written handout that the crew keeps, with the essential points.",
+      "Deliver the briefing so the spoken, visual and written parts agree, in correct English."
+    ],
+    deliverable: "A complete technical briefing package in English: the spoken briefing outline, a supporting visual (described), and a short written handout, all consistent with each other.",
+    assessmentCriteria: [
+      "The spoken briefing has a clear, logical structure.",
+      "The visual aid genuinely supports the message.",
+      "The written handout captures the essential points.",
+      "The three parts agree and are clear and professional, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
 ];
