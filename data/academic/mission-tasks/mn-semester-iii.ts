@@ -236,6 +236,122 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Materiales magneticos",
+    topic: "Histeresis y perdidas en el nucleo de las maquinas",
+    week: 9,
+    taskId: "mn-ele316-w09-hysteresis-core-losses",
+    taskTitle: "Explain Hysteresis And Core Losses In A Machine",
+    scenario: "A running motor's magnetic core heats up in service. The engineer asks the cadet to explain magnetic materials and the hysteresis loop and why the core loses energy as heat every cycle.",
+    instructions: [
+      "Distinguish soft magnetic materials (easily magnetised and demagnetised, used for cores) from hard magnetic materials (which retain magnetism, used for permanent magnets).",
+      "Describe the hysteresis loop: as the magnetising current alternates, the magnetisation lags behind, and the area of the loop represents energy lost as heat in each cycle.",
+      "Explain why a soft iron core with a narrow hysteresis loop is chosen for a motor or transformer to keep these losses low, and why laminating the core reduces eddy-current losses too.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining soft and hard magnetic materials, the hysteresis loop as energy lost as heat per cycle, and why a narrow-loop laminated core is used in machines.",
+    assessmentCriteria: [
+      "Soft and hard magnetic materials are correctly distinguished.",
+      "The hysteresis loop is correctly explained as energy lost as heat per cycle.",
+      "The choice of a narrow-loop laminated core to limit losses is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Motores de corriente continua",
+    topic: "Motores CD serie, shunt y compound: comportamiento par-velocidad",
+    week: 10,
+    taskId: "mn-ele316-w10-dc-motor-behaviour",
+    taskTitle: "Compare DC Motor Behaviour For A Winch Drive",
+    scenario: "A deck winch and a ventilation fan both need DC motors. The engineer asks the cadet to compare the torque and speed behaviour of series, shunt and compound DC motors and choose one for each drive, noting that week 3 compared DC generators while this is about motors.",
+    instructions: [
+      "Describe the series motor: high starting torque, but its speed runs away dangerously if the load is removed, so it must never be run unloaded.",
+      "Describe the shunt motor: nearly constant speed from no load to full load, with moderate starting torque.",
+      "Describe the compound motor as combining both: good starting torque with a safe, stable speed.",
+      "Choose a motor for the winch (high starting torque under heavy load) and for the fan (steady speed), justify each, and report in clear engine-room English."
+    ],
+    deliverable: "A note in English comparing series, shunt and compound DC motor torque-speed behaviour and choosing a motor for a winch and a fan with justification.",
+    assessmentCriteria: [
+      "The series motor's high starting torque and no-load runaway are correct.",
+      "The shunt motor's near-constant speed is correct.",
+      "The compound motor's combination of both is correct.",
+      "The winch and fan choices are justified, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Producción de corriente continua",
+    topic: "Efecto del magnetismo remanente y autoexcitacion del generador de CD",
+    week: 11,
+    taskId: "mn-ele316-w11-generator-voltage-buildup",
+    taskTitle: "Diagnose A DC Generator That Will Not Build Up Voltage",
+    scenario: "A shunt DC generator is run up but the voltmeter stays near zero: it will not build up voltage. The engineer asks the cadet to explain how a self-excited generator builds up voltage and to diagnose the failure.",
+    instructions: [
+      "Explain self-excitation: a small residual magnetism in the field poles induces a small voltage, which drives a small field current, which strengthens the field, so the voltage builds up progressively.",
+      "State the three conditions for build-up: there must be residual magnetism, the field must be connected so it AIDS the residual flux (not opposes it), and the field-circuit resistance must be below the critical value.",
+      "Diagnose the fault: lost residual magnetism (cured by flashing the field from a battery), reversed field connections or reversed rotation (the field then cancels the residual flux), or too high a field resistance or an open field circuit.",
+      "Report the diagnosis and the remedy in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining self-excitation and residual magnetism, the three conditions for voltage build-up, and a diagnosis with remedies for a generator that fails to build up.",
+    assessmentCriteria: [
+      "Self-excitation from residual magnetism is correctly explained as a progressive build-up.",
+      "The three build-up conditions are correct (residual magnetism, correct field polarity, resistance below critical).",
+      "The diagnosis and remedies are sound (flash the field, correct reversed connections, check field resistance).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Prácticas complementarias",
+    topic: "Efecto Joule: perdidas en el cobre, perdidas en el hierro y eficiencia de la maquina",
+    week: 12,
+    taskId: "mn-ele316-w12-joule-losses-efficiency",
+    taskTitle: "Assess The Losses And Efficiency Of The Ship's DC Machine",
+    scenario: "The chief wants to know how much of a DC machine's power is wasted as heat. As the closing task of the subject, the engineer asks the cadet to work out the copper (Joule) losses, add the iron losses and find the efficiency, integrating the hysteresis of week 9.",
+    instructions: [
+      "State the Joule effect: a current I in a resistance R dissipates power as heat, P = I squared x R (the copper losses in the windings).",
+      "For an armature current I = 50 A through an armature resistance R = 0.2 ohms, calculate the copper loss: P = 50 squared x 0.2 = 2500 x 0.2 = 500 W.",
+      "Add the iron losses (the hysteresis and eddy-current losses of week 9), taken here as 300 W, giving total losses = 500 + 300 = 800 W.",
+      "For an output power of 15 200 W, find the efficiency = output / (output + losses) = 15200 / (15200 + 800) = 15200 / 16000 = 0.95 = 95 percent. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A note in English giving the copper (Joule) losses from P = I squared R, the total losses including the week 9 iron losses, and the machine efficiency = output / (output + losses), with units.",
+    assessmentCriteria: [
+      "The Joule copper loss is correct (50 squared x 0.2 = 500 W).",
+      "The iron losses (hysteresis and eddy current, week 9) are correctly added (total 800 W).",
+      "The efficiency is correct (15200 / 16000 = 95 percent).",
+      "The results carry correct units, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "TEM319",
     subjectName: "Tecnología de Materiales",
     subjectId: "mn-s3-tecnologia-materiales",
@@ -463,6 +579,122 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Pruebas no-destructivas de los metales",
+    topic: "Metodos de particula magnetica, liquidos penetrantes, radiograficos y ultrasonicos",
+    week: 9,
+    taskId: "mn-tem319-w09-ndt-selection",
+    taskTitle: "Select A Non-Destructive Test For A Suspect Part",
+    scenario: "A suspect engine part may have a crack that cannot be seen. The engineer asks the cadet to choose the right non-destructive test (NDT) to find it without damaging the part.",
+    instructions: [
+      "Name the main NDT methods: dye penetrant (PT) and magnetic particle (MT) for SURFACE flaws, and radiography (RT) and ultrasonics (UT) for INTERNAL flaws.",
+      "State what each detects: penetrant reveals cracks open to the surface; magnetic particle reveals surface and near-surface cracks in ferrous parts; radiography shows internal voids and inclusions on film; ultrasonics finds internal flaws by echo.",
+      "Choose a method for a suspected surface crack in a steel shaft and a method for a suspected internal flaw in a thick casting, and justify each.",
+      "Report your selection in clear engine-room English."
+    ],
+    deliverable: "A note in English naming the NDT methods (PT, MT, RT, UT), what each detects (surface versus internal), and a justified choice for a surface crack and for an internal flaw.",
+    assessmentCriteria: [
+      "The NDT methods are correctly named and grouped by surface versus internal detection.",
+      "What each method detects is accurate.",
+      "The choices for the surface crack and the internal flaw are justified.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Metales no-ferrosos y metales antifricción",
+    topic: "Aleaciones antifriccion (metal blanco) para cojinetes",
+    week: 10,
+    taskId: "mn-tem319-w10-antifriction-bearing-alloy",
+    taskTitle: "Choose An Antifriction Alloy For A Bearing",
+    scenario: "A worn main bearing must be re-metalled. The engineer asks the cadet to explain antifriction (white metal) alloys and why they suit bearings, going beyond the bronze bearings of week 5.",
+    instructions: [
+      "State what an antifriction alloy must do: carry the load, run with a low coefficient of friction, embed small dirt particles, and wear in preference to the shaft it protects.",
+      "Name the main antifriction alloys: white metal (babbitt), based on tin or lead with antimony and copper, and note bronze as a harder bearing material from week 5.",
+      "Explain the bearing principle: the soft white-metal lining is sacrificial and protects the more expensive journal or shaft, and it holds an oil film for hydrodynamic lubrication.",
+      "Choose a material for a heavily loaded main bearing and report in clear engine-room English."
+    ],
+    deliverable: "A note in English stating what an antifriction alloy must do, naming white metal (babbitt), and explaining why the soft sacrificial lining protects the shaft and holds an oil film.",
+    assessmentCriteria: [
+      "The requirements of an antifriction alloy are correct (load, low friction, embed dirt, sacrificial wear).",
+      "White metal (babbitt) is correctly named, with bronze noted from week 5.",
+      "The sacrificial-lining and oil-film principle is correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Recubrimientos metálicos",
+    topic: "Metalizacion y cromado duro para recuperar piezas desgastadas",
+    week: 11,
+    taskId: "mn-tem319-w11-hard-chrome-shaft-reclaim",
+    taskTitle: "Reclaim A Worn Shaft By Metallizing And Hard Chrome",
+    scenario: "A shaft journal is worn under size and a new shaft is costly. The engineer asks the cadet to explain how metallizing and hard chrome plating build the surface back up and restore the part.",
+    instructions: [
+      "Explain metallizing (thermal spraying): molten metal is sprayed onto the prepared, roughened surface to build it up, then it is machined or ground back to size.",
+      "Explain hard chrome plating: a hard, wear- and corrosion-resistant chromium layer is electroplated onto the surface, then ground to the finished dimension.",
+      "State the preparation that makes the coating hold (cleaning, roughening or undercutting the surface, grinding to final size afterwards) and one limitation (the bond depends on that preparation, and there is a maximum practical build-up).",
+      "Recommend a method to reclaim the worn journal and report in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining metallizing and hard chrome plating as surface build-up repairs, the preparation that makes them hold, and a recommendation to reclaim a worn journal.",
+    assessmentCriteria: [
+      "Metallizing (thermal-spray build-up then machining) is correctly explained.",
+      "Hard chrome plating (electroplated hard layer then ground) is correctly explained.",
+      "The preparation steps and a limitation are correct.",
+      "The recommendation is sound, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Materiales aislantes",
+    topic: "Materiales aislantes, refractarios y no-metalicos para servicios electricos y de alta temperatura",
+    week: 12,
+    taskId: "mn-tem319-w12-insulating-refractory-materials",
+    taskTitle: "Select Insulating And Refractory Materials For Hot And Electrical Duties",
+    scenario: "As the closing task of the subject, the engineer asks the cadet to select non-metallic materials for three duties: electrical insulation, a high-temperature lining, and a light non-metallic part, drawing together the material picture of the subject.",
+    instructions: [
+      "Choose an electrical insulating material (for example mica for high-temperature insulation, or fibreglass or varnished cloth for windings) and justify it by its dielectric strength and heat resistance.",
+      "Choose a refractory material (for example firebrick, or a high-alumina or magnesite brick) for lining a boiler furnace or exhaust uptake and justify it by its resistance to high temperature.",
+      "Choose a non-metallic material (for example a suitable plastic or a fibreglass composite) for a light, corrosion-free part and justify it by weight and corrosion resistance.",
+      "Weigh these choices against the metals of the earlier weeks (why non-metallic is right here) and report in clear engine-room English."
+    ],
+    deliverable: "A material-selection note in English choosing an electrical insulator, a refractory and a non-metallic material for three duties, each justified, and contrasted with the metals of earlier weeks.",
+    assessmentCriteria: [
+      "The electrical insulator (mica, fibreglass) is justified by dielectric strength and heat resistance.",
+      "The refractory (firebrick, high-alumina or magnesite) is justified by high-temperature resistance.",
+      "The non-metallic part choice is justified by weight and corrosion resistance.",
+      "The contrast with metals is sound, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -700,6 +932,122 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Tipos de soldadura y su uso",
+    topic: "Soldadura blanda (estano), fundentes, riesgos y precauciones",
+    week: 9,
+    taskId: "mn-tal320-w09-soft-soldering",
+    taskTitle: "Make A Soft-Soldered Joint On A Small Pipe",
+    scenario: "A small copper instrument pipe needs a soft-soldered joint. The instructor asks the cadet to explain soft (tin) soldering, its flux and its limits before making the joint.",
+    instructions: [
+      "Explain soft soldering: a tin-based solder with a low melting point joins the metals; the PARTS are not melted, only the solder, which bonds to clean surfaces.",
+      "Explain the flux: it cleans the metal and stops oxidation so the solder wets and flows into the joint, and state that the surfaces must be clean first.",
+      "State the limitation: a soft-soldered joint is LOW strength, so it suits electrical connections and small low-pressure pipes, not load-bearing or high-pressure work.",
+      "Describe the steps to make the joint and report in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining soft (tin) soldering, the role of the flux, the low-strength limitation, and the steps to make a small soldered joint.",
+    assessmentCriteria: [
+      "Soft soldering is correctly explained (the solder melts, the parts do not).",
+      "The role of the flux (cleaning, wetting) is correct.",
+      "The low-strength limitation and suitable uses are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Tipos de soldadura y su uso",
+    topic: "Soldadura fuerte (plata, laton y bronce), fundentes, riesgos y precauciones",
+    week: 10,
+    taskId: "mn-tal320-w10-brazing-copper-pipe",
+    taskTitle: "Braze A Seawater Pipe Joint",
+    scenario: "A copper-alloy seawater pipe needs a strong, leak-tight joint. The instructor asks the cadet to explain brazing (hard soldering) and why it is stronger than the soft soldering of week 9.",
+    instructions: [
+      "Explain brazing: a filler of silver, brass or bronze with a HIGHER melting point than soft solder flows into the joint by capillary action, while the parent metal is still not melted.",
+      "Explain why brazing is much stronger than soft soldering and suits pressure and seawater pipework, and the role of the flux in preventing oxidation.",
+      "State the safety precautions: good ventilation against fumes (some fluxes and fillers give off harmful fumes) and the gas-torch precautions.",
+      "Contrast brazing with soft soldering (week 9) by strength and use, and report in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining brazing with a silver, brass or bronze filler by capillary action, why it is stronger than soft soldering, the flux and fume safety, and the contrast with week 9.",
+    assessmentCriteria: [
+      "Brazing is correctly explained (higher-melting filler, capillary action, parent metal not melted).",
+      "The greater strength and suitability for pressure and seawater pipe are correct.",
+      "The fume-ventilation and gas-torch safety are correct.",
+      "The contrast with soft soldering is sound, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Seguridad durante el proceso de soldadura",
+    topic: "Precauciones antes de soldar un tanque que haya contenido combustibles (gas-free)",
+    week: 11,
+    taskId: "mn-tal320-w11-fuel-tank-gas-freeing",
+    taskTitle: "Make A Fuel Tank Safe Before Hot Work",
+    scenario: "Hot work is needed on a tank that has held fuel oil. Because residual vapour can explode, the instructor asks the cadet, as a critical-safety task, to set out the steps that make the tank safe before any flame is struck, building on the hot-work permit of week 7.",
+    instructions: [
+      "State the danger: a tank that held fuel still holds explosive vapour, and welding or cutting on it without gas-freeing can cause an explosion; an 'empty' tank is NOT a safe tank.",
+      "Set out the gas-freeing steps in order: empty and clean the tank, remove sludge and residues, then ventilate thoroughly to clear the vapour.",
+      "Test the atmosphere with a gas meter and obtain a GAS-FREE certificate from a competent person BEFORE any hot work, and re-test because vapour can build up again.",
+      "Link this to the week 7 hot-work permit (the gas-free certificate is a condition of the permit) and report in clear engine-room English."
+    ],
+    deliverable: "A note in English setting out, in order, how a fuel tank is made safe for hot work: the explosion danger, cleaning and ventilating, gas testing and the gas-free certificate as a condition of the week 7 permit.",
+    assessmentCriteria: [
+      "The residual-vapour explosion danger is correctly stated (an empty tank is not a safe tank).",
+      "The gas-freeing steps are in the correct order (clean, remove residues, ventilate).",
+      "Gas testing and a gas-free certificate before hot work, with re-testing, are correct.",
+      "The link to the week 7 hot-work permit is made, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Esmeriles",
+    topic: "Esmeriles: tipos de piedra, seleccion, riesgos y precauciones al esmerilar",
+    week: 12,
+    taskId: "mn-tal320-w12-grinding-safety",
+    taskTitle: "Grind And Finish A Weld Safely",
+    scenario: "As the closing task of the subject, a completed weld must be ground and dressed. The instructor asks the cadet to select the right grinding wheel and set out the grinder hazards and precautions, finishing the fabrication skills of the subject.",
+    instructions: [
+      "Select the grinding wheel for the job: a coarse wheel for fast stock removal and a finer wheel for finishing, matched to the material, and state that a wheel has a maximum safe speed (rpm) that must never be exceeded.",
+      "State the main hazards: a wheel can burst if it is damaged or over-speeded, sparks and hot particles fly off, and the work can kick back.",
+      "State the precautions: inspect and ring-test the wheel for cracks, use the guard and the correct tool-rest gap, wear eye and face protection, and keep sparks away from flammable materials and gas bottles.",
+      "Describe dressing the wheel and finishing the weld, and report in clear engine-room English."
+    ],
+    deliverable: "A note in English selecting a grinding wheel, stating the grinder hazards (wheel burst, sparks, kickback) and the precautions (inspect and ring-test, guard, PPE, keep sparks clear), and describing finishing the weld.",
+    assessmentCriteria: [
+      "The wheel selection (coarse versus fine, matched to material, within the maximum speed) is correct.",
+      "The hazards (wheel burst, sparks, kickback) are correct.",
+      "The precautions (inspection and ring-test, guard and rest, PPE, sparks clear of flammables) are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "GEA317",
     subjectName: "Geometría Analítica",
     subjectId: "mn-s3-geometria-analitica",
@@ -927,6 +1275,122 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Angulo entre dos rectas",
+    week: 9,
+    taskId: "mn-gea317-w09-angle-between-pipe-runs",
+    taskTitle: "Find The Angle Between Two Pipe Runs",
+    scenario: "Two pipe runs meet at a fitting on the workshop layout plane. The instructor asks the cadet to find the angle between them from their slopes, using coordinate geometry.",
+    instructions: [
+      "State the angle formula between two lines: tan(theta) = |(m2 - m1) / (1 + m1 x m2)|, where m1 and m2 are the slopes.",
+      "For pipe run 1 with slope m1 = 1 and pipe run 2 with slope m2 = 3, substitute: tan(theta) = |(3 - 1) / (1 + 1 x 3)| = |2 / 4| = 0.5.",
+      "Find the angle: theta = arctan(0.5) = 26.57 degrees.",
+      "Check the perpendicular case as a control (if m1 x m2 = -1 the denominator is zero and the lines meet at 90 degrees). Report the angle with the working, in clear engine-room English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the angle between two pipe runs from tan(theta) = |(m2 - m1) / (1 + m1 m2)|, with the working and the arctan result.",
+    assessmentCriteria: [
+      "The angle formula is stated correctly.",
+      "The substitution is correct (tan theta = 0.5).",
+      "The angle is correct (theta = 26.57 degrees).",
+      "The perpendicular control is noted, in correct engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Parábola, elipse e hipérbola",
+    topic: "Ecuacion de la parabola con vertice en el origen",
+    week: 10,
+    taskId: "mn-gea317-w10-parabola-reflector",
+    taskTitle: "Model A Parabolic Reflector With Its Equation",
+    scenario: "A parabolic reflector (the profile of a searchlight or a radar dish) is set out on the workshop plane. The instructor asks the cadet to write the parabola's equation and locate its focus, using coordinate geometry.",
+    instructions: [
+      "State the parabola with vertex at the origin opening upwards: x^2 = 4py, where p is the distance from the vertex to the focus.",
+      "For a reflector whose focus is p = 3 units above the vertex, write the equation: x^2 = 4 x 3 x y = 12y.",
+      "Find the width of the dish at the level of the focus (the latus rectum = 4p): at y = 3, x^2 = 12 x 3 = 36, so x = plus or minus 6, a full width of 12 units.",
+      "Explain why the focus matters (rays parallel to the axis reflect through the focus) and report the equation and focus with the working, in clear engine-room English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the parabola x^2 = 4py for the reflector, its focus, the width at the focus (latus rectum), and the meaning of the focus, with the working.",
+    assessmentCriteria: [
+      "The parabola equation x^2 = 4py is correctly stated and applied (x^2 = 12y).",
+      "The focus is correctly located (p = 3).",
+      "The width at the focus is correct (latus rectum = 12 units).",
+      "The meaning of the focus is explained, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Parábola, elipse e hipérbola",
+    topic: "Ecuacion de la elipse con centro en el origen",
+    week: 11,
+    taskId: "mn-gea317-w11-ellipse-manhole",
+    taskTitle: "Describe An Elliptical Manhole With Its Equation",
+    scenario: "An elliptical manhole in a tank top is set out on the workshop plane. As an advanced task, the instructor asks the cadet to write the ellipse's equation and find its foci, using coordinate geometry.",
+    instructions: [
+      "State the ellipse centred at the origin: x^2 / a^2 + y^2 / b^2 = 1, where a is the semi-major axis and b the semi-minor axis.",
+      "For a manhole 10 units long and 8 units wide, a = 5 and b = 4, so the equation is x^2 / 25 + y^2 / 16 = 1.",
+      "Find the foci with c^2 = a^2 - b^2 = 25 - 16 = 9, so c = 3, and the foci lie at (plus or minus 3, 0) on the major axis.",
+      "Verify a point: at x = 0, y^2 / 16 = 1 so y = plus or minus 4 (the ends of the minor axis). Report the equation and foci with the working, in clear engine-room English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the ellipse x^2 / a^2 + y^2 / b^2 = 1 for the manhole, its semi-axes, its foci from c^2 = a^2 - b^2, and a point check, with the working.",
+    assessmentCriteria: [
+      "The ellipse equation is correctly written (x^2 / 25 + y^2 / 16 = 1).",
+      "The semi-major and semi-minor axes are correct (a = 5, b = 4).",
+      "The foci are correct (c^2 = 9, c = 3, foci at (plus or minus 3, 0)).",
+      "The point check is correct, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Geometría Analítica del Espacio",
+    topic: "Ecuacion de la superficie esferica con centro fuera del origen",
+    week: 12,
+    taskId: "mn-gea317-w12-sphere-tank-surface",
+    taskTitle: "Model A Spherical Tank Surface And Test Points",
+    scenario: "A spherical gas tank is modelled in space on the workshop coordinates. As the closing task of the subject, the instructor asks the cadet to write the sphere's equation and decide whether given points lie inside, on or outside it, extending the circle work of week 8 to three dimensions.",
+    instructions: [
+      "State the sphere with centre (h, k, l) and radius r: (x - h)^2 + (y - k)^2 + (z - l)^2 = r^2.",
+      "For a tank of radius r = 5 centred at (2, 3, 1), write the equation: (x - 2)^2 + (y - 3)^2 + (z - 1)^2 = 25.",
+      "Test a point by comparing its distance from the centre with the radius: for P = (2, 3, 6), the distance squared = 0 + 0 + (6 - 1)^2 = 25 = r^2, so P is ON the surface; for Q = (2, 3, 4), the distance squared = (4 - 1)^2 = 9 < 25, so Q is INSIDE.",
+      "State each verdict with both numbers shown, noting this is the three-dimensional version of the week 8 circle test. Report the equation and verdicts with the working, in clear engine-room English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the sphere equation for the tank, and inside/on verdicts for two points by comparing distance-squared with radius-squared, with the working, as the 3D extension of week 8.",
+    assessmentCriteria: [
+      "The sphere equation with centre (h, k, l) and radius r is correctly written.",
+      "The tank equation is correct ((x - 2)^2 + (y - 3)^2 + (z - 1)^2 = 25).",
+      "Each point is correctly classified (P ON = 25, Q INSIDE = 9) with the distance compared to the radius.",
+      "The link to the week 8 circle test is made, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -1164,6 +1628,122 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Leyes del Movimiento de Newton",
+    topic: "Segunda ley de Newton: fuerza para acelerar una carga",
+    week: 9,
+    taskId: "mn-din318-w09-newton-second-law",
+    taskTitle: "Apply Newton's Second Law To Accelerate A Load",
+    scenario: "A hoist must accelerate a heavy load upward. The engineer asks the cadet to use Newton's second law to find the force needed, separating the weight from the extra force required to accelerate it.",
+    instructions: [
+      "State Newton's second law: net force F = m a, and that the weight of the load is W = m g acting downward.",
+      "For a load of mass m = 200 kg lifted with an upward acceleration a = 0.5 m/s^2, find the weight: W = m g = 200 x 9.81 = 1962 N.",
+      "Find the total upward force the hoist must apply: F = W + m a = 1962 + (200 x 0.5) = 1962 + 100 = 2062 N.",
+      "Check the limit: if the load is lifted at STEADY speed (a = 0), the force is just the weight, 1962 N, and the extra 100 N is what accelerates it. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A dynamics note in English giving the weight m g, the extra force m a, and the total hoist force F = m g + m a to accelerate the load, with the steady-speed limit check and units.",
+    assessmentCriteria: [
+      "Newton's second law F = m a and the weight m g are correctly stated.",
+      "The weight is correct (200 x 9.81 = 1962 N).",
+      "The total force is correct (1962 + 100 = 2062 N).",
+      "The steady-speed limit (force equals weight) is checked, in correct engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Cinetica de cuerpos rigidos: par, momento de inercia y aceleracion angular",
+    week: 10,
+    taskId: "mn-din318-w10-rigid-body-torque",
+    taskTitle: "Spin Up A Flywheel With A Known Torque",
+    scenario: "A flywheel must be brought up to speed by the engine. The engineer asks the cadet to relate the applied torque, the moment of inertia and the angular acceleration for the rotating flywheel.",
+    instructions: [
+      "State the rotational form of Newton's second law: torque T = I x alpha, where I is the moment of inertia and alpha the angular acceleration.",
+      "For a flywheel with I = 40 kg m^2 driven by a torque T = 200 N m, find the angular acceleration: alpha = T / I = 200 / 40 = 5 rad/s^2.",
+      "Find the time to reach omega = 30 rad/s from rest: omega = alpha x t, so t = omega / alpha = 30 / 5 = 6 s.",
+      "Cross-check by torque: T = I alpha = 40 x 5 = 200 N m, matching the applied torque. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A rotational-dynamics note in English giving the angular acceleration from T = I alpha, the time to reach speed from omega = alpha t, and the torque cross-check, with units.",
+    assessmentCriteria: [
+      "The rotational law T = I alpha is correctly stated.",
+      "The angular acceleration is correct (200 / 40 = 5 rad/s^2).",
+      "The time to reach speed is correct (30 / 5 = 6 s).",
+      "The torque cross-check matches (40 x 5 = 200 N m), in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Leyes del Movimiento de Newton",
+    topic: "Segunda ley de Newton en un plano inclinado con friccion",
+    week: 11,
+    taskId: "mn-din318-w11-inclined-plane-load",
+    taskTitle: "Move A Load Up An Inclined Skid",
+    scenario: "A heavy machine is dragged up an inclined skid ramp. As an advanced task, the engineer asks the cadet to resolve the forces on the incline and find the pull needed, using Newton's second law with friction.",
+    instructions: [
+      "Resolve the weight on an incline of angle theta = 30 degrees: the component along the ramp is W sin(theta) and the component pressing on the ramp (the normal force) is N = W cos(theta).",
+      "For a mass m = 500 kg, W = m g = 500 x 9.81 = 4905 N, so W sin(30) = 4905 x 0.5 = 2452.5 N and N = W cos(30) = 4905 x 0.866 = 4247.7 N.",
+      "Find the friction force with a coefficient mu = 0.2: friction = mu x N = 0.2 x 4247.7 = 849.5 N, acting DOWN the ramp, opposing the upward motion.",
+      "Find the steady pull up the ramp: P = W sin(theta) + friction = 2452.5 + 849.5 = 3302 N. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A dynamics note in English resolving the weight on the incline (W sin theta along the ramp and N = W cos theta), the friction mu N, and the pull P = W sin theta + friction to move the load up the ramp, with units.",
+    assessmentCriteria: [
+      "The weight is resolved correctly (W sin theta along the ramp, N = W cos theta).",
+      "The components are correct (2452.5 N and N = 4247.7 N).",
+      "The friction is correct (0.2 x 4247.7 = 849.5 N, acting down the ramp).",
+      "The pull is correct (2452.5 + 849.5 = 3302 N), in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Energia cinetica de rotacion y potencia en el eje",
+    week: 12,
+    taskId: "mn-din318-w12-rotational-energy-power",
+    taskTitle: "Compute A Flywheel's Rotational Energy And Shaft Power",
+    scenario: "As the closing task of the subject, the engineer asks the cadet to find the energy stored in a spinning flywheel and the power delivered by the shaft, integrating rotation, energy and torque from across the subject.",
+    instructions: [
+      "State rotational kinetic energy KE = (1/2) I omega^2 and shaft power P = T x omega (torque times angular velocity).",
+      "For a flywheel with I = 40 kg m^2 at omega = 30 rad/s, find the stored energy: KE = (1/2)(40)(30^2) = (1/2)(40)(900) = 18 000 J = 18 kJ.",
+      "For a shaft delivering torque T = 200 N m at omega = 30 rad/s, find the power: P = T omega = 200 x 30 = 6000 W = 6 kW.",
+      "Link the results: the 18 kJ stored (the energy of week 3 and the inertia of week 10) is what smooths the running, and the 6 kW is the rate of doing work; note that omega must be in rad/s. Report the results with units, in clear engine-room English."
+    ],
+    deliverable: "A dynamics note in English giving the rotational kinetic energy KE = (1/2) I omega^2 and the shaft power P = T omega, with the results linked to the flywheel's smoothing role, and units.",
+    assessmentCriteria: [
+      "The formulas KE = (1/2) I omega^2 and P = T omega are correctly stated.",
+      "The stored energy is correct ((1/2)(40)(900) = 18 kJ).",
+      "The shaft power is correct (200 x 30 = 6 kW).",
+      "The results are linked and the units correct (omega in rad/s), in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "ING315",
     subjectName: "Inglés Marítimo III",
     subjectId: "mn-s3-ingles-maritimo-iii",
@@ -1391,6 +1971,122 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Peticiones, obligaciones y permisos",
+    topic: "Verbos modales de obligacion, prohibicion y permiso en las reglas del espacio de maquinas",
+    week: 9,
+    taskId: "mn-ing315-w09-obligation-modals-safety",
+    taskTitle: "State Engine-Room Rules Using Obligation Modals",
+    scenario: "New crew must be told the engine-room safety rules clearly. The engineer asks the cadet to write the rules using modal verbs of obligation, prohibition and permission so nothing is misunderstood.",
+    instructions: [
+      "Use MUST or HAVE TO for obligations (for example 'You must wear hearing protection in the engine room').",
+      "Use MUSTN'T for prohibitions (a strong rule, for example 'You mustn't smoke near the fuel tanks') and NEEDN'T or DON'T HAVE TO for what is not required.",
+      "Use CAN or MAY for permission (for example 'You may enter the control room during your watch').",
+      "Write four engine-room rules, one of each type, keeping each short and unambiguous in English."
+    ],
+    deliverable: "Four engine-room rules in English, one each using an obligation, a prohibition, a not-required and a permission modal, each short and unambiguous.",
+    assessmentCriteria: [
+      "The obligation (must / have to) is used correctly.",
+      "The prohibition (mustn't) and not-required (needn't / don't have to) are correctly distinguished.",
+      "The permission (can / may) is used correctly.",
+      "The rules are short, unambiguous and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Unidades de medidas para sustantivos contables y no contables",
+    topic: "Cantidades y unidades de medida para reportar combustible, aceite y consumos",
+    week: 10,
+    taskId: "mn-ing315-w10-quantities-fuel-oil",
+    taskTitle: "Report Fuel And Oil Quantities With Correct Measure Words",
+    scenario: "The engineer must report bunker and lube-oil quantities to the bridge and the office. The cadet is asked to report the amounts using correct quantifiers and measure words for countable and uncountable things.",
+    instructions: [
+      "Treat fuel and oil as UNCOUNTABLE: use much / a little / a great deal of (for example 'there is a little fuel left in the settling tank'), not 'many'.",
+      "Treat drums, filters and spares as COUNTABLE: use many / a few / several (for example 'we have a few spare filters').",
+      "Use measure words to make uncountables countable: 'two tonnes of fuel oil', 'a drum of lubricating oil', '200 litres of diesel'.",
+      "Write three quantity reports (a fuel sounding, a lube-oil stock and a spares count) with correct quantifiers and units, in clear engine-room English."
+    ],
+    deliverable: "Three quantity reports in English (fuel, lube oil, spares) using correct countable and uncountable quantifiers and measure words with units.",
+    assessmentCriteria: [
+      "Fuel and oil are treated as uncountable with correct quantifiers (much / a little).",
+      "Countable items use correct quantifiers (many / a few).",
+      "Measure words correctly quantify the uncountables (tonnes of, a drum of, litres of).",
+      "The reports are clear, with units, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Futuro",
+    topic: "Formas de futuro (will, going to, presente continuo) en el plan de mantenimiento",
+    week: 11,
+    taskId: "mn-ing315-w11-future-maintenance-plan",
+    taskTitle: "Brief The Maintenance Plan Using Future Forms",
+    scenario: "The chief has set the week's planned maintenance. As an advanced task, the cadet must brief it using the right future forms so decisions, plans, arrangements and fixed times are each clear.",
+    instructions: [
+      "Use WILL for a decision or offer made now (for example 'I'll check the purifier after this') and for a prediction.",
+      "Use GOING TO for an existing plan or intention (for example 'we are going to overhaul number two generator this week').",
+      "Use the PRESENT CONTINUOUS for a fixed arrangement with a time (for example 'the service engineer is coming on board on Thursday') and the PRESENT SIMPLE for a timetable (for example 'the vessel enters dry dock at 0800 on Monday').",
+      "Write a short maintenance brief using all four future forms correctly, in clear engine-room English."
+    ],
+    deliverable: "A maintenance brief in English using will, going to, the present continuous and the present simple for future, each in its correct function.",
+    assessmentCriteria: [
+      "WILL is used correctly for a decision or prediction.",
+      "GOING TO is used correctly for a plan or intention.",
+      "The present continuous (arrangement) and present simple (timetable) are correctly used for future.",
+      "The brief is coherent and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Introducción: Inglés Marítimo",
+    topic: "Puestos a bordo, ubicacion del equipo de seguridad y dar direcciones en la sala de maquinas",
+    week: 12,
+    taskId: "mn-ing315-w12-engine-room-familiarisation-tour",
+    taskTitle: "Give An Engine-Room Familiarisation Tour",
+    scenario: "As the closing task of the subject, a new crew member must be shown round the engine room. The cadet gives a familiarisation tour, naming the machinery spaces and safety equipment and giving directions, integrating the maritime English of the subject.",
+    instructions: [
+      "Name the main machinery spaces and equipment and their location using position language (for example 'the emergency generator is on the deck above, forward of the workshop').",
+      "Give directions on board using clear expressions (go up or down the ladder, forward or aft, port or starboard, at the top of the ladder).",
+      "Point out the safety equipment and its location and purpose (the fire extinguishers, the emergency escape, the breathing-apparatus sets, the emergency stops).",
+      "Deliver the tour as a short spoken script, using correct present tense and position language, in clear engine-room English."
+    ],
+    deliverable: "A short engine-room familiarisation tour script in English naming the machinery spaces and safety equipment with their location and giving directions on board.",
+    assessmentCriteria: [
+      "The machinery spaces and equipment are named with correct position language.",
+      "Directions on board are given clearly (ladders, forward or aft, port or starboard).",
+      "The safety equipment is located with its purpose.",
+      "The tour is coherent and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -1628,6 +2324,122 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Uso de anticorrosivos, pinturas y solventes",
+    topic: "Preparacion de superficie, anticorrosivos, pinturas y solventes y sus herramientas",
+    week: 9,
+    taskId: "mn-pmr321-w09-surface-prep-painting",
+    taskTitle: "Prepare And Paint A Corroded Engine-Room Surface",
+    scenario: "A rusted engine-room surface must be protected with paint. The officer asks the cadet to plan the surface preparation and painting using the right products, tools and safety.",
+    instructions: [
+      "Prepare the surface: remove rust and scale (wire brush, scraper or powered tool), then clean and degrease it so the paint will key and hold.",
+      "Apply the coating system: an anticorrosive primer first, then the finishing coats, and state why the primer must go on before the topcoat.",
+      "Choose the tools (brush, roller or spray) and the correct solvent or thinner for the paint, and note not to apply on a damp or dirty surface.",
+      "State the safety: ventilation against solvent fumes, no naked flames (flammable solvents), and PPE. Report the plan in clear engine-room English."
+    ],
+    deliverable: "A painting plan in English covering surface preparation, the primer-then-topcoat system, the tools and solvent, and the fume and flammable safety.",
+    assessmentCriteria: [
+      "The surface preparation (de-rust, clean, degrease) is correct.",
+      "The primer-then-topcoat system is correctly ordered and justified.",
+      "The tools and correct solvent or thinner are appropriate.",
+      "The fume and flammable safety is sound, in clear engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Pintura de ductos",
+    topic: "Codigo de colores de tuberias: agua, combustible, aire y ductos de alta temperatura",
+    week: 10,
+    taskId: "mn-pmr321-w10-pipeline-colour-coding",
+    taskTitle: "Identify And Paint Pipelines By Their Colour Code",
+    scenario: "The engine-room pipelines must be identified by a colour code so any crew member knows what each one carries. The officer asks the cadet to explain and apply the pipeline colour coding.",
+    instructions: [
+      "Explain why pipelines are colour coded: so the contents (water, fuel, air, steam) are identified at a glance for safe operation and in emergencies.",
+      "Match the main services to their identification: fresh and sea water, fuel and lube oil, compressed air lines, and high-temperature ducts (steam and exhaust), noting that the fire main is usually red.",
+      "State the precautions when painting near a high-temperature duct or a live line (heat, do not paint over valves, gauges or nameplates, keep flammable paint clear of hot surfaces).",
+      "Describe applying an identification band and report in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining pipeline colour coding, matching the main services to their identification (with the red fire main), the precautions near hot lines, and applying an identification band.",
+    assessmentCriteria: [
+      "The purpose of colour coding is correctly explained.",
+      "The main services are matched to sensible identification, including the fire main.",
+      "The precautions near hot or live lines are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Procedimientos para controlar vías de agua",
+    topic: "Materiales y metodos para control de vias de agua: estera de colision, cunas, tapones y apuntalado",
+    week: 11,
+    taskId: "mn-pmr321-w11-leak-control-materials",
+    taskTitle: "Control A Hull Leak With Damage-Control Materials",
+    scenario: "Water is entering through a damaged plate near the engine room. Building on the ingress types of week 2, the officer asks the cadet to control the leak with the ship's damage-control materials.",
+    instructions: [
+      "Match the material or method to the leak: soft wooden wedges and plugs for small holes and split seams, a cement box for a crack, and a collision mat over a larger breach from outside.",
+      "Describe shoring: use timber or adjustable shores to support a weakened bulkhead, door or patch against the water pressure.",
+      "State the order of actions: stop or reduce the inflow first, then start pumping or bilging the space, and report the situation, watching the effect of the water on stability.",
+      "Distinguish this from week 2 (which identified the TYPES of ingress); here the cadet controls it. Report the response in clear engine-room English."
+    ],
+    deliverable: "A damage-control note in English matching materials and methods to the leak (wedges, plugs, cement box, collision mat), describing shoring, and the order stop-inflow, pump, report, distinct from week 2.",
+    assessmentCriteria: [
+      "The materials and methods are correctly matched to the leak type (wedges and plugs, cement box, collision mat).",
+      "Shoring is correctly described to support against water pressure.",
+      "The order of actions (stop inflow, pump, report, watch stability) is sound.",
+      "The response is distinct from week 2 and in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Mantenimiento y Operación de Botes Salvavidas",
+    topic: "Arreado y virado del bote con pescantes, manejo y trincado en el zafarrancho",
+    week: 12,
+    taskId: "mn-pmr321-w12-lifeboat-launch-handling",
+    taskTitle: "Launch, Handle And Secure The Lifeboat In A Drill",
+    scenario: "As the closing task of the subject, a lifeboat drill is held. The officer asks the cadet to set out lowering the boat on the davits, handling it in the water, and recovering and securing it, drawing together the survival-craft skills of the subject.",
+    instructions: [
+      "Describe lowering (arreado): man the boat, release the gripes, lower on the davit falls under control of the brake, and release the falls or hooks once waterborne (the on-load release only when clear).",
+      "Handle the boat clear of the ship's side using the engine (started and checked as in week 1) or the oars, keeping clear of the ship in a swell.",
+      "Recover (virado): hook on, hoist on the davits under control, and secure and stow the boat in its cradle (trincado) with the gripes.",
+      "State one safety point for the drill (crew in lifejackets, no one under a suspended boat, control the brake) and report in clear maritime English."
+    ],
+    deliverable: "A note in English setting out lowering the lifeboat on the davits, handling it clear under engine or oars, recovering and securing it, with one drill safety point, integrating the survival-craft skills of the subject.",
+    assessmentCriteria: [
+      "Lowering on the davits (man, release gripes, brake control, release when waterborne) is correct.",
+      "Handling the boat clear under engine (week 1) or oars is sound.",
+      "Recovery and securing or stowing (virado, trincado) are correct.",
+      "One valid drill safety point is given, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "C0011",
     subjectName: "Educación Física III",
     subjectId: "mn-s3-educacion-fisica-iii",
@@ -1852,6 +2664,122 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
       "The results are interpreted by capacity for engine-room work (heat tolerance, ladders, maintenance), not appearance, weight or records.",
       "The personal plan is simple, sustainable and integrates earlier weeks.",
       "The plan explicitly rules out crash programmes, extreme goals, weight targets and appearance standards, aiming only at sustainable work capacity, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Desarrollo físico integral",
+    topic: "Fuerza muscular para las tareas fisicas del espacio de maquinas",
+    week: 9,
+    taskId: "mn-c0011iii-w09-functional-strength",
+    taskTitle: "Build Functional Strength For Engine-Room Tasks",
+    scenario: "Engine-room work needs practical strength: turning stiff valves, carrying spares and handling tools. The training officer asks the cadet to explain how functional strength is built and used, as general positive habits, not as appearance or records.",
+    instructions: [
+      "Give two engine-room tasks that need muscular strength (for example turning a stiff valve, lifting a pump spare, or freeing a tight bolt).",
+      "Describe how strength is trained safely and generally (progressive, whole-body movements, good technique) and why a warm-up matters.",
+      "Explain how good strength together with correct posture (week 7) reduces the risk of strain and injury on the job.",
+      "Give only general, positive guidance (steady, sustainable gains for work capacity, never a target weight, never an appearance goal, never a maximal test to prove strength) and report in clear engine-room English."
+    ],
+    deliverable: "A note in English linking muscular strength to engine-room tasks, how it is trained safely, and how strength plus posture reduce injury, given as positive habits with no weight targets or appearance goals.",
+    assessmentCriteria: [
+      "The tasks chosen genuinely need muscular strength.",
+      "The training described is safe, general and progressive, with a warm-up.",
+      "The link to posture (week 7) and reduced injury is sound.",
+      "The guidance stays positive with no weight targets or appearance goals, in clear engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Desarrollo físico integral",
+    topic: "Flexibilidad articular y muscular para trabajar en espacios confinados",
+    week: 10,
+    taskId: "mn-c0011iii-w10-flexibility-mobility",
+    taskTitle: "Improve Flexibility For Awkward Engine Spaces",
+    scenario: "Much engine-room work is done reaching into tight, awkward spaces. The training officer asks the cadet to explain how flexibility and mobility help this work and how they are maintained, as positive general habits.",
+    instructions: [
+      "Explain what flexibility and joint mobility are and why they help when reaching into bilges, behind machinery and into confined spaces.",
+      "Describe simple, safe mobility work and stretching (gentle, within range, not forced or bounced) and when to do it (when warm, after activity).",
+      "Explain how good flexibility, with the micro-breaks of week 7, reduces stiffness and strain over a working day.",
+      "Keep the guidance general and positive (mobility for the work, not extreme flexibility or a performance test) and report in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining flexibility and joint mobility for confined-space work, safe stretching, and how flexibility with week 7's micro-breaks reduces strain, as positive general habits.",
+    assessmentCriteria: [
+      "Flexibility and mobility are correctly linked to confined-space engine work.",
+      "The stretching described is safe (gentle, within range, when warm).",
+      "The link to week 7's micro-breaks and less strain is sound.",
+      "The guidance stays general and positive, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Percepción y coordinación motriz",
+    topic: "Equilibrio y lateralidad para moverse con seguridad en un buque que cabecea",
+    week: 11,
+    taskId: "mn-c0011iii-w11-balance-rolling-ship",
+    taskTitle: "Train Balance For Moving Safely On A Rolling Ship",
+    scenario: "On a rolling, pitching ship the engine crew move on ladders, gratings and plate floors. As an advanced task, the training officer asks the cadet to explain how balance is trained and how it keeps them safe in a seaway.",
+    instructions: [
+      "Explain balance and how the body keeps it (the inner ear, vision and the feel of the feet) and why a moving deck makes it harder.",
+      "Describe simple, safe ways to train balance and coordination (single-leg work, controlled movements), linking to the coordination of week 2.",
+      "State the safe-movement rules on a rolling ship: one hand for the ship on ladders, move with the roll not against it, and watch footing on wet or oily gratings.",
+      "Explain how trained balance reduces the risk of a fall in the machinery space, and report in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining balance and how it is trained, the safe-movement rules on a rolling ship, and how balance reduces falls, linked to week 2 coordination.",
+    assessmentCriteria: [
+      "Balance and how the body maintains it are correctly explained.",
+      "The training described is safe and linked to week 2 coordination.",
+      "The safe-movement rules on a rolling ship are correct (one hand for the ship, move with the roll, watch footing).",
+      "The link to fewer falls is sound, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Natación",
+    topic: "Flotacion, nado libre y nado en grupo para la supervivencia en el agua",
+    week: 12,
+    taskId: "mn-c0011iii-w12-swimming-group-water",
+    taskTitle: "Demonstrate Swimming And Group-Water Skills",
+    scenario: "As the closing task of the subject, the whole crew must be able to swim and act together in the water. The instructor asks the cadet to describe floating, free swimming and group-in-the-water skills, complementing the survival techniques of week 3.",
+    instructions: [
+      "Describe floating to conserve energy (a relaxed back float or the survival float) and steady breathing.",
+      "Describe free swimming with an efficient stroke to cover distance without exhausting yourself, and pacing.",
+      "Describe group-in-the-water skills: staying together, linking up (the huddle to keep warm, or a chain), and helping a weaker swimmer.",
+      "Explain how these complement the week 3 survival skills (entry, staying afloat, reaching a craft) and report in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A swimming brief in English covering floating to conserve energy, efficient free swimming, and group-in-the-water skills, complementing the week 3 survival techniques.",
+    assessmentCriteria: [
+      "Floating to conserve energy is correctly described.",
+      "Efficient free swimming and pacing are sound.",
+      "The group-in-the-water skills (staying together, huddle or chain, helping a weaker swimmer) are correct.",
+      "The link to week 3 survival skills is made, in clear English."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -2092,6 +3020,122 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Inspeccionar los servicios de los sistemas y equipos de detección y extinción de incendios",
+    topic: "Linea principal contra incendios, hidrantes, mangueras, toberas y bombas",
+    week: 9,
+    taskId: "mn-c0038-w09-fire-main-hoses",
+    taskTitle: "Bring The Fire Main Into Action In The Engine Room",
+    scenario: "A fire in the engine room must be fought with water from the fire main. The officer asks the cadet to bring the fire main into action: pump, hydrant, hose and nozzle.",
+    instructions: [
+      "Name the parts of the system: the fire pump (and the emergency fire pump outside the machinery space), the fire main, the hydrants, the hoses and the nozzles.",
+      "Describe rigging a hose to a hydrant and selecting the nozzle setting: a JET for reach and a SPRAY for a wide, cooling, protective pattern.",
+      "Explain the emergency fire pump's importance: it can be run when the main machinery-space fire pump is out of action or its space cannot be entered.",
+      "State that a spray or fog is used on an engine-room fire near electrics and hot oil rather than a solid jet, and report in clear engine-room English."
+    ],
+    deliverable: "A note in English naming the fire-main parts (pump, emergency fire pump, hydrant, hose, nozzle), rigging a hose and choosing jet or spray, and the role of the emergency fire pump.",
+    assessmentCriteria: [
+      "The fire-main parts are correctly named, including the emergency fire pump.",
+      "Rigging a hose and the jet-versus-spray choice are correct.",
+      "The role of the emergency fire pump is correct.",
+      "The spray or fog choice near electrics and oil is sound, in clear engine-room English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Inspeccionar los servicios de los sistemas y equipos de detección y extinción de incendios",
+    topic: "Equipo portatil de extincion y su seleccion por clase de fuego",
+    week: 10,
+    taskId: "mn-c0038-w10-portable-extinguishers",
+    taskTitle: "Match Portable Extinguishers To Engine-Room Fire Classes",
+    scenario: "The engine room carries several types of portable extinguisher. The officer asks the cadet to match each to the class of fire and choose the right one for an oil fire and an electrical fire.",
+    instructions: [
+      "State the fire classes present in the engine room: Class A (solids), Class B (flammable liquids such as fuel and oil) and electrical fires.",
+      "Match the extinguishers: foam and dry powder for Class B oil fires, CO2 and dry powder for electrical fires, and water for Class A only (never on oil or live electrics).",
+      "Explain WHY water must not be used on an oil fire (it spreads the burning oil and can flash to steam) or on live electrics (shock risk).",
+      "Choose an extinguisher for an oil-tray fire and for a fire in a switchboard, justify each, and report in clear engine-room English."
+    ],
+    deliverable: "A note in English stating the engine-room fire classes, matching portable extinguishers to each (foam or powder for oil, CO2 or powder for electrical, water for Class A only), and justified choices for an oil and an electrical fire.",
+    assessmentCriteria: [
+      "The fire classes (A, B, electrical) are correctly stated.",
+      "The extinguisher-to-class matches are correct.",
+      "The reason water is banned on oil and on live electrics is correct.",
+      "The oil-fire and switchboard choices are justified, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Control de la Operaciones de Lucha Contra Incendio a bordo del Buque",
+    topic: "Empleo del agua contra incendios y su efecto sobre la estabilidad del buque",
+    week: 11,
+    taskId: "mn-c0038-w11-firefighting-water-stability",
+    taskTitle: "Manage Firefighting Water To Protect Ship Stability",
+    scenario: "A long firefighting effort is pumping water into the ship. As an advanced task, the officer asks the cadet to explain how accumulated firefighting water threatens stability and how it is managed.",
+    instructions: [
+      "Explain the danger: water pumped in to fight the fire collects on decks and in spaces, adding weight high up and forming free surfaces.",
+      "Explain the FREE SURFACE EFFECT: a partly filled space lets the water slosh, which reduces the ship's stability (the metacentric height) and can lead to a dangerous list or a loss of stability.",
+      "State the control measures: use spray rather than excess water, provide drainage and freeing ports, and pump or drain accumulated water out so it does not build up.",
+      "Explain the balance: enough water to fight the fire, but not so much that the ship is endangered. Report in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how accumulated firefighting water and the free surface effect threaten stability, and the control measures (limit water, drainage, pump out) to keep the ship safe.",
+    assessmentCriteria: [
+      "The danger of accumulated firefighting water (added top weight) is correct.",
+      "The free surface effect and its reduction of stability are correctly explained.",
+      "The control measures (limit water, drainage or freeing ports, pump out) are correct.",
+      "The balance between fighting the fire and protecting stability is sound, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Control de la Operaciones de Lucha Contra Incendio a bordo del Buque",
+    topic: "Coordinacion con los bomberos en tierra en puerto y reporte e investigacion del incendio",
+    week: 12,
+    taskId: "mn-c0038-w12-shore-brigade-handover-report",
+    taskTitle: "Hand Over An Engine-Room Fire To The Shore Brigade And Report It",
+    scenario: "The ship is alongside when the engine-room fire happens, so the port fire brigade will attend. As the closing task of the subject, the officer asks the cadet to coordinate the handover to the shore firefighters and then write the fire report.",
+    instructions: [
+      "Brief the shore fire brigade on arrival: the location and extent of the fire, what is burning (fuel, electrical), what has been isolated and done, the dangers (CO2 released, hazards), and whether all persons are accounted for.",
+      "Explain the coordination: the ship's team knows the layout and systems, the shore brigade brings resources, so a single chain of command and shared communications are agreed.",
+      "After the fire, write the fire report: what happened, the actions taken and the outcome, objectively, and note the lessons learned for the future.",
+      "Explain why an accurate handover and report matter (the safety of the shore team and improving future response) and report in clear engine-room English."
+    ],
+    deliverable: "A note in English covering the briefing handover to the shore fire brigade (location, fuel, isolations, dangers, persons), the agreed coordination and command, and an objective fire report with lessons learned.",
+    assessmentCriteria: [
+      "The handover briefing to the shore brigade is complete (location, extent, fuel, isolations, dangers, persons accounted for).",
+      "The coordination (the ship's layout knowledge, single command, shared communications) is sound.",
+      "The fire report is objective, with the actions, outcome and lessons learned.",
+      "The value of an accurate handover and report is explained, in clear engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "C0101",
     subjectName: "Redacción Avanzada",
     subjectId: "mn-s3-redaccion-avanzada",
@@ -2316,6 +3360,122 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
       "The essential facts are ordered by importance and drawn objectively from the fault record.",
       "The recommendations are clear, actionable and concrete.",
       "The report is brief and decision-focused, cutting non-essential detail, in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Legibilidad en la redacción",
+    topic: "Evitar palabras redundantes y la pesantez para lograr concision",
+    week: 9,
+    taskId: "mn-c0101-w09-concise-report",
+    taskTitle: "Tighten A Wordy Maintenance Report",
+    scenario: "A maintenance report is padded with wordy, redundant phrases that slow the reader. The officer asks the cadet to cut it down so it says the same thing in fewer, clearer words.",
+    instructions: [
+      "Take a wordy report sentence about an engine-room job (for example 'Due to the fact that the pump was in a condition of not working, we made the decision to carry out a replacement of it').",
+      "Identify the redundant and padded phrases ('due to the fact that', 'in a condition of', 'carry out a replacement of').",
+      "Rewrite it concisely with the same meaning (for example 'Because the pump had failed, we replaced it').",
+      "Explain in English why the concise version is clearer and faster to read, without losing information."
+    ],
+    deliverable: "A short exercise in English showing a wordy report sentence, the redundant phrases identified, and a concise rewrite with the same meaning, with a note on why it is clearer.",
+    assessmentCriteria: [
+      "The redundant and padded phrases are correctly identified.",
+      "The rewrite is concise and keeps the full meaning.",
+      "No information is lost in tightening it.",
+      "The explanation is sound and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Orden de Palabras e Ideas",
+    topic: "Colocacion de los modificadores para la claridad de la oracion",
+    week: 10,
+    taskId: "mn-c0101-w10-modifier-placement",
+    taskTitle: "Fix Misplaced Modifiers In A Fault Description",
+    scenario: "A misplaced modifier in a fault description can attach to the wrong thing and be dangerously misread. The officer asks the cadet to correct the placement so each modifier clearly describes what is meant.",
+    instructions: [
+      "Take a sentence with a misplaced modifier about a machinery fault (for example 'Leaking badly, the engineer found the fuel valve', which reads as if the engineer is leaking).",
+      "Explain what the modifier is meant to describe and why its current position misreads.",
+      "Rewrite it so the modifier sits next to the word it describes (for example 'The engineer found the fuel valve leaking badly').",
+      "Explain in English how correct modifier placement removes the misreading, distinct from the general ambiguity of week 2."
+    ],
+    deliverable: "A short exercise in English showing a misplaced-modifier sentence, why it misreads, and a corrected version with the modifier next to the word it describes.",
+    assessmentCriteria: [
+      "The misplaced modifier and its wrong attachment are correctly identified.",
+      "The intended meaning is correctly stated.",
+      "The rewrite places the modifier next to the word it describes.",
+      "The explanation is sound and distinct from week 2, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Atributos de los párrafos",
+    topic: "Cohesion del parrafo y conectores logicos en la narracion de una averia",
+    week: 11,
+    taskId: "mn-c0101-w11-cohesion-connectors",
+    taskTitle: "Connect A Breakdown Narrative With Logical Linkers",
+    scenario: "A breakdown narrative reads as a list of disconnected sentences. As an advanced task, the officer asks the cadet to link the events with logical connectors so the cause and effect flows for the reader.",
+    instructions: [
+      "Take a set of short, disconnected sentences about a breakdown (for example 'The lube oil pressure fell. The alarm sounded. We stopped the engine. We found a blocked filter.').",
+      "Add logical connectors to show the relations: sequence (then, subsequently), cause and effect (therefore, as a result, because), and contrast (however).",
+      "Rewrite the narrative as a cohesive paragraph where each sentence links to the next (for example 'The lube oil pressure fell, so the alarm sounded; we therefore stopped the engine and, on investigation, found a blocked filter').",
+      "Explain in English how the connectors make the cause and effect clear, building on the paragraph unity of week 3."
+    ],
+    deliverable: "A cohesive breakdown paragraph in English that links disconnected events with logical connectors (sequence, cause and effect, contrast), with a note on how they clarify the cause and effect.",
+    assessmentCriteria: [
+      "The disconnected events are correctly linked with appropriate connectors.",
+      "Sequence, cause-and-effect and contrast relations are used correctly.",
+      "The rewritten paragraph is cohesive and flows.",
+      "The explanation builds on week 3 paragraph unity, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Características básicas de la redacción",
+    topic: "Vocabulario preciso y registro adecuado al lector: adaptar un informe a dos destinatarios",
+    week: 12,
+    taskId: "mn-c0101-w12-audience-register",
+    taskTitle: "Adapt One Report For Two Different Readers",
+    scenario: "The same engine event must be reported to two readers: the engine crew and the company office. As the closing task of the subject, the officer asks the cadet to adapt the report to each audience, choosing precise vocabulary and the right register, integrating the subject.",
+    instructions: [
+      "Write a short, direct version for the ENGINE CREW: the technical vocabulary and shop terms they share, an informal but precise register, focused on the action to take.",
+      "Write a version for the COMPANY OFFICE: a formal register, terms explained where needed, focused on impact and decision, avoiding slang and barbarisms.",
+      "Keep the FACTS identical in both; only the vocabulary and register change to suit the reader, and vary the wording to avoid monotony without losing precision.",
+      "Explain in English why matching vocabulary and register to the reader makes each version effective, drawing on the clarity, conciseness and cohesion of the subject. Report in clear engine-room English."
+    ],
+    deliverable: "Two versions in English of the same engine-event report, one for the engine crew and one for the company office, with identical facts but vocabulary and register adapted to each reader, and a note on why.",
+    assessmentCriteria: [
+      "The engine-crew version uses shared technical vocabulary and an informal but precise register.",
+      "The company-office version uses a formal register with terms explained and a decision focus.",
+      "The facts are identical in both; only vocabulary and register change, without monotony.",
+      "The explanation of matching register to the reader is sound, in correct engine-room English."
     ],
     xp: 25,
     estimatedTime: "45 min",
