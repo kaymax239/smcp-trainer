@@ -3053,7 +3053,7 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
     subjectName: "Educación Física V",
     subjectId: "mn-s5-educacion-fisica-v",
     unit: "Desarrollo físico integral",
-    topic: "Deportes de equipo: futbol, basquetbol y voleibol como entrenamiento de coordinación",
+    topic: "Deportes de equipo: fútbol, básquetbol y voleibol como entrenamiento de coordinación",
     week: 10,
     taskId: "mn-c0011v-w10-team-sports",
     taskTitle: "Use Team Sport To Build Crew Coordination",
