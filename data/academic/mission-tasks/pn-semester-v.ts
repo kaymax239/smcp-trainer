@@ -236,6 +236,122 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Estado del tiempo",
+    topic: "El estado del tiempo asociado con las principales masas de aire",
+    week: 9,
+    taskId: "pn-met532-w09-air-masses",
+    taskTitle: "Identify Air Masses And Their Weather",
+    scenario: "The wind has backed and the air feels suddenly colder and clearer. The officer asks the cadet to identify the air mass now over the vessel and to forecast the weather it brings, since the fronts of week 1 are only the boundaries between these masses.",
+    instructions: [
+      "Define an air mass and how it takes the character of its source region: air that rests over a large uniform surface takes that surface's temperature and humidity, so it is classified as maritime or continental (moist or dry) and as tropical, polar or arctic (warm or cold).",
+      "Give the weather each brings: a maritime polar mass brings cool, moist, unstable air with showers and good visibility between them, a maritime tropical mass brings warm, moist, stable air with low cloud, drizzle and poor visibility, and a continental mass brings dry air, clear in summer and cold in winter.",
+      "Connect to week 1: a front is the boundary where two of these masses meet, so naming the mass behind a front tells you the weather that follows the frontal passage.",
+      "Report the air mass over the vessel and the weather you expect from it in clear maritime English."
+    ],
+    deliverable: "A note in English identifying air masses by source region (maritime/continental, tropical/polar/arctic), the weather each brings (maritime polar cool moist unstable; maritime tropical warm moist stable with poor visibility; continental dry), and the link to the week 1 fronts as the boundaries between masses.",
+    assessmentCriteria: [
+      "The air-mass concept is correct (air takes temperature and humidity from its source region).",
+      "The classification is correct (maritime/continental and tropical/polar/arctic) with the weather each brings.",
+      "The link to the week 1 fronts as boundaries between masses is sound.",
+      "The air mass over the vessel and its weather are identified, in clear maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Anticiclones y ciclones extratropicales",
+    topic: "Anticiclones y dorsales: el buen tiempo y sus riesgos",
+    week: 10,
+    taskId: "pn-met532-w10-anticyclones-ridges",
+    taskTitle: "Read Anticyclones And Ridges For A Weather Window",
+    scenario: "A ridge of high pressure is building over the vessel's route and the master wants to know whether it offers a fair-weather window for a deck operation. The officer asks the cadet to read the anticyclone and its ridge.",
+    instructions: [
+      "Describe the anticyclone: high pressure with descending, drying air, light winds and generally settled weather, the wind circulating clockwise around it in the northern hemisphere (the opposite of the depression of week 1).",
+      "Describe the ridge (dorsal) as the extension of high pressure between two lows, giving a brief spell of fair weather, the window between one depression and the next.",
+      "State the hidden risks of settled high pressure: fog can form under the light winds and clear nocturnal cooling (the radiation fog of week 7), and in winter a stagnant anticyclone traps cold and haze.",
+      "Report whether the ridge offers a usable weather window and its risks, in clear maritime English."
+    ],
+    deliverable: "A note in English reading an anticyclone (descending dry air, light winds, clockwise in the northern hemisphere, settled) and a ridge (a fair-weather window between two lows), with the hidden risks of fog under light winds and clear skies (linking to week 7), to judge a weather window.",
+    assessmentCriteria: [
+      "The anticyclone is correct (high pressure, descending dry air, light winds, clockwise circulation in the northern hemisphere, settled weather).",
+      "The ridge is correctly described as a fair-weather window between two depressions.",
+      "The hidden risks are correct (radiation fog under light winds and clear skies, linking to week 7).",
+      "The judgement of the weather window is sound, in clear maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Boletines meteorológicos",
+    topic: "Decodificacion de boletines meteorologicos y la clave MAFOR",
+    week: 11,
+    taskId: "pn-met532-w11-weather-bulletin-mafor",
+    taskTitle: "Decode A Received Weather Bulletin",
+    scenario: "The GMDSS receiver prints a coastal weather bulletin for the vessel's sea area. The officer asks the cadet to decode it and turn the coded forecast into a plain decision for the watch.",
+    instructions: [
+      "State the structure of a marine weather bulletin: the gale or storm warnings first, then the general synopsis (the position and movement of the pressure systems, as on the synoptic chart of week 3), then the area forecasts of wind, weather, visibility and sea state.",
+      "Explain the MAFOR forecast code as a concept: a group of figures that encodes the wind direction and force, the weather and the expected visibility for a period, so a compact coded group carries the whole forecast for an area.",
+      "Work the reading: a bulletin gives 'southwest gale force 8 imminent, veering west, decreasing 6', so interpret it as a force 8 gale from the southwest expected within six hours, the wind then shifting clockwise to the west and easing to force 6, and connect the force to the Beaufort scale of week 6.",
+      "Report the decoded forecast and the watch action it calls for (securing for heavy weather, adjusting the passage) in clear maritime English."
+    ],
+    deliverable: "A note in English decoding a weather bulletin: its structure (warnings, general synopsis, area forecasts), the MAFOR code as a concept, the worked reading of 'southwest gale force 8 imminent, veering west, decreasing 6' (a force 8 SW gale within six hours veering west and easing to 6, linked to the Beaufort scale of week 6), and the watch action it calls for.",
+    assessmentCriteria: [
+      "The bulletin structure is correct (warnings first, then general synopsis, then area forecasts).",
+      "The MAFOR code is correctly described as a compact coded forecast group.",
+      "The worked reading is correct (force 8 SW gale imminent = within six hours; veering = clockwise shift to west; decreasing 6) with the link to the Beaufort scale of week 6.",
+      "The watch action called for by the forecast is sound, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "El tiempo abordo",
+    topic: "El registro y el reporte del estado del tiempo abordo",
+    week: 12,
+    taskId: "pn-met532-w12-ship-weather-report",
+    taskTitle: "Compile And Send A Ship Weather Report",
+    scenario: "The vessel is a voluntary observing ship and it is time for the synoptic observation. As the closing task of the subject, the officer asks the cadet to compile the weather observation and encode it for transmission, so the ship both receives forecasts and feeds the global picture.",
+    instructions: [
+      "State what the observing officer measures and from which instruments: the barometric pressure and its three-hour tendency (week 5), the true wind direction and force (week 6), the air and sea temperature and the dew point (week 7), the visibility, and the cloud and present weather.",
+      "State how the sea is reported: the sea state (wind waves) and the swell (direction, and height by estimation) are logged, distinguishing the locally raised sea from the swell running in from a distant system.",
+      "Explain why the observation is encoded and transmitted: a standard code lets observations from ships worldwide be plotted onto the synoptic charts that everyone then uses, so the ship that reports also benefits from the forecasts built on those reports.",
+      "Report the compiled observation and its value to the forecast in clear maritime English."
+    ],
+    deliverable: "A note in English compiling a ship weather observation: the measured elements and their instruments (pressure and tendency from week 5, true wind from week 6, temperatures and dew point from week 7, visibility, cloud and present weather), the reporting of sea state versus swell, and the reason for encoding and transmitting it (feeding the synoptic charts the ship itself relies on), integrating the subject.",
+    assessmentCriteria: [
+      "The measured elements and their instruments are correct and draw together weeks 5, 6 and 7 (pressure/tendency, true wind, temperatures/dew point, visibility, cloud/weather).",
+      "The sea report correctly distinguishes the locally raised sea state from the swell.",
+      "The reason for encoding and transmitting the observation is correct (a common code lets ship reports be plotted onto the synoptic charts).",
+      "The observation is compiled coherently and its value to the forecast is explained, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "NAV530",
     subjectName: "Navegación III",
     subjectId: "pn-s5-navegacion-iii",
@@ -463,6 +579,122 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar",
+    topic: "Manejo del Radar Convencional: ganancia, sintonia y filtros de eco",
+    week: 9,
+    taskId: "pn-nav530-w09-tune-radar-picture",
+    taskTitle: "Tune The Radar For A Clear Picture",
+    scenario: "The radar picture is cluttered and a small target may be lost in it. The officer asks the cadet to tune the set correctly so that real targets stand out, building the operating skill under the theory of weeks 2 to 4.",
+    instructions: [
+      "Set the basic controls in order: brilliance so the display is comfortable, gain raised until a light background speckle just appears (so weak targets are not lost), and tuning for the sharpest echoes.",
+      "Use the sea clutter control (anti-clutter sea) to suppress the returns from waves close to the ship, warning that too much of it erases small targets near the vessel, so it is reduced to the minimum that clears the clutter.",
+      "Use the rain clutter control (anti-clutter rain / differentiator) to cut the haze of returns from rain or snow, again used sparingly because it also weakens genuine targets.",
+      "Report the tuned settings and why each was adjusted, in correct navigational English."
+    ],
+    deliverable: "A note in English tuning the radar: brilliance, gain (raised until a light speckle just shows so weak targets survive) and tuning, then the sea clutter control (minimum needed, over-use erases near targets) and the rain clutter control (used sparingly), with the reason for each setting.",
+    assessmentCriteria: [
+      "The basic controls are set correctly (brilliance, gain to a light background speckle, tuning for sharp echoes).",
+      "The sea clutter control is used correctly (minimum needed; over-use erases small near targets).",
+      "The rain clutter control is used correctly (cuts precipitation returns, used sparingly as it weakens real targets).",
+      "The tuned settings are reported with the reason for each, in correct navigational English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "Presentaciones y orientaciones: proa arriba, rumbo arriba, norte arriba",
+    week: 10,
+    taskId: "pn-nav530-w10-radar-orientation-modes",
+    taskTitle: "Select The Right Radar Orientation Mode",
+    scenario: "The same traffic looks different in each display orientation, and the wrong choice can mislead the watch. The officer asks the cadet to choose the orientation and motion mode that suits the situation, extending the relative and true motion of week 2.",
+    instructions: [
+      "Explain head-up: the ship's heading is always at the top, so the picture matches the view from the window, but it smears and unsettles when the ship yaws, and bearings read off it are relative, not true.",
+      "Explain north-up: true north is at the top (stabilised by the gyro), so the picture is steady and bearings read true and compare directly with the chart, at the cost of not matching the window view.",
+      "Explain course-up: the set course is at the top, giving a steady picture aligned with the intended track, useful for monitoring a passage.",
+      "Recommend an orientation and motion mode for a coastal passage in traffic and justify it, in correct navigational English."
+    ],
+    deliverable: "A note in English selecting a radar orientation: head-up (matches the window, relative bearings, smears on yaw), north-up (gyro-stabilised, true bearings comparable with the chart, steady), and course-up (steady, aligned with the track), with a justified recommendation for a coastal passage in traffic, building on the relative/true motion of week 2.",
+    assessmentCriteria: [
+      "Head-up is correctly explained (heading up, matches the view, relative bearings, unsteady on yaw).",
+      "North-up is correctly explained (gyro-stabilised, true bearings that compare with the chart, steady).",
+      "Course-up is correctly explained (track up, steady, useful for monitoring the passage).",
+      "The recommendation for a coastal passage in traffic is justified, in correct navigational English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "Uso del Parallel Index para el monitoreo de la derrota costera",
+    week: 11,
+    taskId: "pn-nav530-w11-parallel-indexing",
+    taskTitle: "Monitor A Coastal Passage By Parallel Index",
+    scenario: "The vessel is on the approach to Altamira, keeping a planned track past a charted headland. The officer asks the cadet to set up a parallel index to detect any set off the track early, turning the radar into a track-monitoring tool.",
+    instructions: [
+      "Explain the principle: a parallel index line is drawn on the radar parallel to the planned track at the planned passing distance from a fixed, identified radar-conspicuous object (a headland, an islet or a buoy).",
+      "Explain the monitoring: as the ship runs the leg the object's echo should track along the index line; if the echo drifts off the line, the ship is being set off track and the officer knows at once and by how much.",
+      "State the requirement and the caution: the reference object must be positively identified and fixed (a moored buoy can drag), and the technique must use a stabilised (north-up or course-up) presentation from week 10.",
+      "Report how you would set and monitor the index for the leg and the action if the echo leaves the line, in correct navigational English."
+    ],
+    deliverable: "A note in English setting up a parallel index on the Altamira approach: the index line parallel to the planned track at the planned passing distance off an identified fixed object, the monitoring (the echo runs along the line; drift off the line shows the ship is set off track), and the requirements (a positively identified fixed reference, a stabilised presentation from week 10).",
+    assessmentCriteria: [
+      "The parallel-index principle is correct (a line parallel to the track at the passing distance off a fixed identified object).",
+      "The monitoring logic is correct (echo drifting off the line means the ship is set off track, detected early).",
+      "The requirements and cautions are correct (positively identified fixed reference; stabilised presentation from week 10).",
+      "The set-up and the corrective action are reported, in correct navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "Pruebas operacionales y errores de interpretacion de la imagen radar",
+    week: 12,
+    taskId: "pn-nav530-w12-radar-tests-false-echoes",
+    taskTitle: "Test The Radar And Catch False Echoes",
+    scenario: "A target has appeared that the lookout cannot see and the officer suspects the radar itself. As the closing task of the subject, the officer asks the cadet to run the operational checks and to tell a real echo from a false one, so the set is trusted only as far as it deserves.",
+    instructions: [
+      "Run the operational performance check: use the performance monitor to confirm the set is radiating at full performance, and confirm the heading marker aligns with the ship's head and the range rings read true against a known range.",
+      "Name and explain the common false echoes: side-lobe echoes (a short arc of false targets each side of a strong close target), multiple echoes (equally spaced ghosts beyond a strong target from double reflection), indirect echoes (a target reflected off the ship's own funnel or mast appearing on a false bearing), and blind and shadow sectors behind the ship's structure.",
+      "State how to tell a false echo from a real one: a false echo does not behave consistently as the range changes and often has no AIS or visual counterpart, so it is cross-checked against AIS, the lookout and a change of range.",
+      "Report the checks run and the verdict on the doubtful echo, drawing on the over-reliance warning of week 3, in correct navigational English."
+    ],
+    deliverable: "A note in English testing the radar and judging a doubtful echo: the operational checks (performance monitor, heading marker alignment, range rings), the common false echoes (side-lobe, multiple, indirect, blind/shadow sectors), how a false echo is distinguished from a real one (inconsistent behaviour with range, no AIS or visual counterpart, cross-checked), and the verdict, applying the over-reliance warning of week 3.",
+    assessmentCriteria: [
+      "The operational checks are correct (performance monitor for full performance, heading marker alignment, range-ring accuracy).",
+      "The common false echoes are correctly named and explained (side-lobe, multiple, indirect, blind/shadow sectors).",
+      "The method to distinguish a false echo from a real one is sound (inconsistent with range, no AIS/visual counterpart, cross-checked).",
+      "The verdict on the doubtful echo applies the week 3 over-reliance warning, in correct navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -700,6 +932,122 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Timones",
+    topic: "Timon de emergencia y gobierno de emergencia",
+    week: 9,
+    taskId: "pn-man533-w09-emergency-steering",
+    taskTitle: "Rig And Operate Emergency Steering",
+    scenario: "The steering gear alarm sounds and the wheel no longer answers on the bridge. The officer asks the cadet to change to emergency steering and to run the vessel by it, drawing on the rudder principle of week 1.",
+    instructions: [
+      "State the immediate bridge actions on a steering failure: warn the engine room and the steering gear room, reduce speed, exhibit the not-under-command or restricted signals if unable to steer, and warn traffic.",
+      "Explain the change to emergency steering: the second (standby) steering pump or motor is started, or control is taken over locally in the steering gear room, where the rudder can be moved directly.",
+      "Explain steering from the steering gear compartment: the helm order can no longer be seen executed from the bridge, so orders pass by telephone and the helmsman there works the rudder by the rudder angle indicator, which makes clear, unambiguous helm orders essential.",
+      "Report the drill and the bridge-to-steering-gear-room orders you would give, in correct maritime English."
+    ],
+    deliverable: "A note in English on emergency steering: the immediate bridge actions on a steering failure (warn engine room and steering gear room, reduce speed, exhibit the correct signals, warn traffic), the change to the standby pump or local control, steering from the steering gear compartment by telephone and rudder angle indicator, and the clear helm orders it demands, building on the rudder principle of week 1.",
+    assessmentCriteria: [
+      "The immediate bridge actions on a steering failure are correct (warn engine room/steering gear room, reduce speed, exhibit signals, warn traffic).",
+      "The change to emergency steering is correct (standby pump/motor or local control in the steering gear room).",
+      "Steering from the compartment is correctly described (orders by telephone, rudder worked by the rudder angle indicator).",
+      "The bridge-to-steering-gear-room orders are clear and unambiguous, in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Efecto por bajo fondo",
+    topic: "Efecto de recodo e interaccion entre buques en aguas restringidas",
+    week: 10,
+    taskId: "pn-man533-w10-bank-effect-interaction",
+    taskTitle: "Handle Bank Effect And Interaction In The Channel",
+    scenario: "The vessel is transiting the narrow, shallow Tampico channel and must pass a moored ship and meet another under way. The officer asks the cadet to explain bank effect and ship-to-ship interaction and how to handle them, extending the shallow-water squat of week 3.",
+    instructions: [
+      "Explain bank effect (efecto de recodo): near a bank the water flows faster and its pressure drops between the ship's side and the bank, so the stern is drawn towards the near bank (bank suction) while the bow is pushed away (bank cushion), swinging the ship's head away from the bank.",
+      "Explain the counter and the caution: a touch of helm towards the bank holds the head, but a stern that gets too close and takes a strong sheer can override the rudder, so speed is kept moderate and the ship is kept off the bank.",
+      "Explain ship-to-ship interaction when passing or overtaking: the low-pressure fields around two close ships attract and then repel them, so passing is done at reduced speed with room, and the effect is stronger in shallow water where squat (week 3) already reduces control.",
+      "Report how you would handle the transit and the passing, in correct maritime English."
+    ],
+    deliverable: "A note in English on bank effect and interaction in the Tampico channel: bank effect (stern drawn to the near bank by suction, bow pushed off, head sheering away), the counter with helm and moderate speed, and ship-to-ship interaction when passing or overtaking (attraction then repulsion, reduced speed and room, worse in shallow water), extending the squat of week 3.",
+    assessmentCriteria: [
+      "Bank effect is correct (faster flow and lower pressure at the near bank; stern suction and bow cushion; head sheers away from the bank).",
+      "The counter and caution are sound (helm towards the bank, moderate speed, keep off the bank, sheer can override the rudder).",
+      "Ship-to-ship interaction is correct (attraction then repulsion; reduced speed and room; worse in shallow water with squat from week 3).",
+      "The handling of the transit and passing is reported, in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Equipo y maniobra de fondeo",
+    topic: "Maniobra de fondeo con un ancla desde el gobierno del buque",
+    week: 11,
+    taskId: "pn-man533-w11-anchoring-single-anchor",
+    taskTitle: "Anchor The Ship With A Single Anchor",
+    scenario: "The vessel is to anchor in the Tampico outer anchorage. The officer asks the cadet to plan the ship-handling of a single-anchor manoeuvre from the bridge, distinct from the deck work of Practicas Marineras and the officer's station duties of week 4.",
+    instructions: [
+      "Plan the approach: choose the final approach heading into the wind or current (whichever dominates), so the ship can be stopped over the ground with the least way and will lie back naturally on her cable.",
+      "Control the way over the ground: reduce speed early and stop the ship, or gather a slight sternway, at the letting-go position so the cable runs out ahead of the ship and does not pile on the anchor.",
+      "Give the letting-go decision and back the ship: let go when the ship is stopped or just making sternway, then use the astern engine and the transverse thrust (week 2) to lay the cable out along the bottom, keeping a strain that digs the anchor in until she is brought up.",
+      "Report the approach, the letting-go point and the astern control to the bridge team, in correct maritime English, leaving the deck execution to Practicas Marineras V."
+    ],
+    deliverable: "A note in English handling a single-anchor manoeuvre from the bridge in the Tampico anchorage: the approach into the dominant wind or current, controlling the way over the ground to stop or gather slight sternway at the letting-go position, and the letting-go decision and backing the ship to lay the cable and dig the anchor in using the transverse thrust of week 2, with the deck execution left to Practicas Marineras V.",
+    assessmentCriteria: [
+      "The approach is sound (heading into the dominant wind or current so the ship stops over the ground and lies back on her cable).",
+      "Controlling the way over the ground is correct (stop or slight sternway at letting-go so the cable runs out ahead, not piled on the anchor).",
+      "The letting-go and backing are correct (let go stopped/making sternway, astern engine and transverse thrust of week 2 to lay the cable and dig in until brought up).",
+      "The manoeuvre is reported to the bridge team and the Practicas Marineras V boundary is respected, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Equipo y maniobra de fondeo",
+    topic: "Maniobra de fondeo con dos anclas: amarre a la gira y amarre abierto",
+    week: 12,
+    taskId: "pn-man533-w12-anchoring-two-anchors",
+    taskTitle: "Moor The Ship With Two Anchors",
+    scenario: "A long stay in a crowded, tide-swept anchorage or a forecast of heavy weather calls for two anchors. As the closing task of the subject, the officer asks the cadet to plan a two-anchor mooring, integrating the ship-handling of the semester.",
+    instructions: [
+      "State why a second anchor is used: it increases holding power for heavy weather and, in a running or standing moor, greatly reduces the swinging circle so the ship can lie safely among close-anchored vessels or in a narrow, tide-swept berth.",
+      "Describe the running moor: the ship stands in with headway, lets go the first anchor, continues ahead paying out roughly double the intended cable, then lets go the second anchor and heaves back on the first until she rides equally to both, the two cables leading ahead and astern along the tide.",
+      "Contrast the standing (open) moor: the ship stops and drops back, letting go the second anchor as she goes astern, so the two anchors are laid on either bow, useful for lying to a beam wind.",
+      "Report the choice of moor, the sequence and the expected lie of the cables, integrating the anchoring handling of the semester, in correct maritime English."
+    ],
+    deliverable: "A note in English planning a two-anchor mooring: why the second anchor is used (holding power and a reduced swinging circle), the running moor (headway, let go the first, run ahead paying double cable, let go the second, heave back to ride equally with cables leading ahead and astern), the standing/open moor (drop back, second anchor as she goes astern, anchors on either bow), and the choice for the conditions, integrating the semester's anchoring handling.",
+    assessmentCriteria: [
+      "The reason for two anchors is correct (more holding power and a much reduced swinging circle for a crowded or tide-swept anchorage).",
+      "The running moor is correctly sequenced (headway, first anchor, run ahead paying double cable, second anchor, heave back to ride equally, cables ahead and astern).",
+      "The standing/open moor is correctly contrasted (drop back, second anchor going astern, anchors on either bow).",
+      "The choice, sequence and lie of the cables are reported and the semester's handling is integrated, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "QUH534",
     subjectName: "Química",
     subjectId: "pn-s5-quimica",
@@ -927,6 +1275,122 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Combustibles y lubricantes",
+    topic: "Viscosidad y temperatura de manejo de los combustibles marinos",
+    week: 9,
+    taskId: "pn-quh534-w09-fuel-viscosity",
+    taskTitle: "Set Fuel Oil Viscosity For Injection",
+    scenario: "The engine burns a heavy fuel oil that is almost solid when cold. The officer of the deck watch, understanding the chemistry, is asked to explain why the fuel is heated and how viscosity governs its handling, following on from the flash point of week 4.",
+    instructions: [
+      "Define viscosity as the resistance of the oil to flow, and state that a heavy fuel oil has a high viscosity that falls as it is heated, which is why heating makes it pumpable and lets it atomise finely at the injectors.",
+      "Explain the injection requirement: the fuel must reach the injectors at a specified viscosity so it sprays as a fine mist that burns cleanly; too viscous and it sprays coarsely and burns poorly, so the fuel is heated to hit the target viscosity.",
+      "State the safety boundary against week 4: the fuel is heated for viscosity but must be kept safely below its flash point in open handling, so the maximum handling temperature of a heavy fuel oil is limited by both the viscosity target and the flash-point safety margin.",
+      "Report the reason the fuel is heated and the viscosity and flash-point limits in clear maritime English."
+    ],
+    deliverable: "A note in English on fuel viscosity: viscosity as resistance to flow falling with heating, the injection requirement (heated to a target viscosity for fine atomisation and clean burning), and the safety boundary that handling temperature is limited by both the viscosity target and the flash-point margin of week 4.",
+    assessmentCriteria: [
+      "Viscosity is correctly defined and its fall with heating explained (why heavy fuel is heated to be pumpable and to atomise).",
+      "The injection requirement is correct (target viscosity for fine atomisation and clean combustion).",
+      "The flash-point safety boundary is correct (handling temperature limited by the flash-point margin of week 4 as well as viscosity).",
+      "The reason for heating and the limits are reported, in clear maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Combustibles y lubricantes",
+    topic: "Composicion de los combustibles marinos y sus consecuencias",
+    week: 10,
+    taskId: "pn-quh534-w10-fuel-composition",
+    taskTitle: "Read A Marine Fuel's Composition",
+    scenario: "A bunker delivery note lists the fuel's contents and the officer must understand what they mean. The cadet is asked to read the composition of a marine fuel and trace each component to a consequence on board, connecting to the flash point of week 4 and the pollution chemistry of week 8.",
+    instructions: [
+      "Name the main components of a marine fuel: carbon and hydrogen (which burn to give the energy), sulphur (an unwanted impurity), and ash and water (unwanted residues), and note that a lighter distillate (marine diesel) is cleaner than a heavy fuel oil (combustoleo), which carries more sulphur and ash.",
+      "Trace the sulphur: it burns to sulphur oxides that both corrode the cold parts of the exhaust and pollute the air (the SOx of week 8), which is why the sulphur content is regulated.",
+      "Trace the ash and water: ash leaves abrasive deposits and water impairs combustion and promotes corrosion, so both are limited and water is drained from settling tanks before use.",
+      "Report what the fuel's composition tells you about its quality and hazards in clear maritime English."
+    ],
+    deliverable: "A note in English reading a marine fuel's composition: the main components (carbon and hydrogen for energy; sulphur, ash and water as unwanted), distillate versus heavy fuel oil, the sulphur traced to SOx and corrosion (linking to week 8), and ash and water traced to deposits and corrosion, to judge the fuel's quality and hazards.",
+    assessmentCriteria: [
+      "The main components are correct (carbon and hydrogen burn for energy; sulphur, ash and water are unwanted) with distillate cleaner than heavy fuel oil.",
+      "The sulphur is correctly traced to SOx, corrosion and regulation (linking to week 8).",
+      "The ash and water are correctly traced to deposits, poor combustion and corrosion, and their control.",
+      "The judgement of the fuel's quality and hazards is reported, in clear maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Corrosión",
+    topic: "Formas de corrosion mas alla de la celda galvanica",
+    week: 11,
+    taskId: "pn-quh534-w11-corrosion-forms",
+    taskTitle: "Identify The Forms Of Corrosion Beyond The Galvanic Cell",
+    scenario: "An inspection of the ship's structure and seawater systems turns up damage that is not simple rusting. As an advanced task, the officer asks the cadet to identify the forms of corrosion at work, building on the galvanic cell of week 2.",
+    instructions: [
+      "Distinguish the forms by their mechanism: pitting corrosion (local breakdown of the protective film boring deep pits into an otherwise sound surface), stress-corrosion cracking (cracks growing where a tensile stress and a corrosive environment act together), and corrosion fatigue (cracking under repeated stress accelerated by corrosion).",
+      "Explain the flow-related forms: erosion-corrosion and impingement, where fast or turbulent seawater strips the protective film and speeds attack, which is why corrosion increases with the velocity of the seawater in a pipe.",
+      "Explain the selective forms: the graphitisation of cast iron and the dezincification of brass, where one constituent is leached out and leaves a weak, spongy metal that looks intact but has lost its strength.",
+      "Report which form is acting and how it would be prevented or controlled in clear maritime English."
+    ],
+    deliverable: "A note in English identifying the forms of corrosion beyond the galvanic cell: pitting, stress-corrosion cracking and corrosion fatigue by mechanism, the flow-related erosion-corrosion and impingement (corrosion rising with seawater velocity), and the selective graphitisation of cast iron and dezincification of brass (a weak metal that looks intact), building on week 2.",
+    assessmentCriteria: [
+      "Pitting, stress-corrosion cracking and corrosion fatigue are correctly distinguished by mechanism.",
+      "The flow-related forms are correct (erosion-corrosion/impingement; corrosion increases with seawater velocity).",
+      "The selective forms are correct (graphitisation of cast iron, dezincification of brass, leaving a weak metal that looks sound).",
+      "The acting form and its prevention or control are reported, building on week 2, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Análisis y tratamiento del agua",
+    topic: "Determinacion de sales disueltas y del contenido de agua en aceites",
+    week: 12,
+    taskId: "pn-quh534-w12-water-oil-analysis",
+    taskTitle: "Analyse A Water And Lube-Oil Sample",
+    scenario: "The routine samples are on the bench: a feed-water sample and a lube-oil sample. As the closing task of the subject, the officer asks the cadet to analyse them and read what the results mean, integrating the water treatment of week 5 and the hardness of week 3.",
+    instructions: [
+      "State how dissolved salts are measured and expressed: the total dissolved solids and the chloride content are determined by standard on-board tests and expressed in standard units (such as parts per million), so successive samples are compared on the same basis.",
+      "Read the feed-water result: a rising chloride reading is the signature of seawater ingress from a leaking condenser or cooler (as watched for in week 5), and a high total hardness is the scale-forming content of week 3, so the reading points to the fault and the treatment.",
+      "Test the lube oil for water: describe the crackle test as a concept (a drop of oil on a hot plate crackles if water is present) and explain that water in the lube oil destroys its film and must be removed by the purifier, with its source (a cooler leak or condensation) then found.",
+      "Report the sample results, what each indicates and the action, in clear maritime English."
+    ],
+    deliverable: "A note in English analysing the samples: dissolved salts measured as total dissolved solids and chlorides in standard units, the feed-water read (rising chloride = seawater ingress from week 5; high hardness = scale from week 3), and the lube-oil water test (the crackle test as a concept; water destroys the oil film and is removed by the purifier), with the action for each, integrating weeks 3 and 5.",
+    assessmentCriteria: [
+      "The measurement of dissolved salts is correct (total dissolved solids and chlorides by standard tests in standard units for comparison).",
+      "The feed-water result is read correctly (rising chloride = seawater ingress from week 5; high hardness = scale-forming from week 3).",
+      "The lube-oil water test is correct (crackle test as a concept; water destroys the film and is removed by the purifier, with its source found).",
+      "The results, their meaning and the action are reported, integrating weeks 3 and 5, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -1164,6 +1628,122 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Comunicación con Código Morse",
+    topic: "Identificacion de letras y numeros con Codigo Morse",
+    week: 9,
+    taskId: "pn-cov535-w09-morse-letters-numbers",
+    taskTitle: "Read Morse Letters And Numbers By Signal Lamp",
+    scenario: "A vessel is calling by signal lamp and the message is not the SOS of week 1 but a plain-language text. The officer asks the cadet to read the Morse alphabet and numerals by lamp and to work the exchange procedure.",
+    instructions: [
+      "State the building blocks: every letter and numeral is a set pattern of short flashes (dots) and long flashes (dashes), with the space between flashes, letters and words giving the rhythm that separates them.",
+      "Give the anchors a watchkeeper should know cold: E is a single dot and T a single dash, S is three dots and O three dashes (so SOS is unmistakable), and the numerals run as patterns of five elements; read a short group letter by letter.",
+      "Work the procedure from week 6: the calling ship sends the call AA AA, the answer is TTTT, each word or group is acknowledged with T, and a mistake is corrected by the error sign (a run of dots) and the group sent again.",
+      "Report a short received group and how you acknowledged it, in correct maritime English."
+    ],
+    deliverable: "A note in English reading Morse by lamp: letters and numerals as patterns of dots and dashes with the spacing that separates them, the anchors a watchkeeper knows cold (E, T, S, O, the five-element numerals), and the exchange procedure from week 6 (call AA AA, answer TTTT, acknowledge T, error sign and repeat), with a short received group read and acknowledged.",
+    assessmentCriteria: [
+      "The dot/dash structure and the spacing between flashes, letters and words are correct.",
+      "The anchor characters are correct (E dot, T dash, S three dots, O three dashes; numerals as five-element patterns).",
+      "The exchange procedure is correct (call AA AA, answer TTTT, acknowledge T, error sign then repeat), consistent with week 6.",
+      "A short group is read and its acknowledgement reported, in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Código Internacional de Señales",
+    topic: "Comunicacion de mensajes con grupos del Codigo Internacional de Senales",
+    week: 10,
+    taskId: "pn-cov535-w10-coded-flag-message",
+    taskTitle: "Send A Coded Message With Signal Flags",
+    scenario: "A message must pass to a vessel with no common language on the radio. The officer asks the cadet to use the International Code of Signals flag groups, going beyond the single-letter signals of weeks 2 and 5 to two- and three-letter groups.",
+    instructions: [
+      "Explain the principle: the International Code of Signals gives each standard message a code group, so a hoist of two or three flags carries a complete meaning that any ship can look up in its own language, overcoming the language barrier.",
+      "Explain the make-up: single-letter signals are the most urgent (weeks 2 and 5), two-letter groups cover general and distress/emergency messages, and three-letter groups beginning with M are the medical section; substitute (repeater) flags let a letter be repeated within a hoist without a second flag of that letter.",
+      "Explain the procedure: the hoist is read from the top down, the receiving ship answers by hoisting the answering pennant at the dip and closes it up when the signal is understood.",
+      "Report how you would make and acknowledge a two-letter hoist, in correct maritime English."
+    ],
+    deliverable: "A note in English on coded flag messages: the principle (a code group carries a complete message any ship can look up, overcoming language), the make-up (single-letter urgent from weeks 2 and 5, two-letter general/distress, three-letter medical, substitute flags for repeats), and the procedure (read top down, answering pennant at the dip then closed up when understood), with a two-letter hoist made and acknowledged.",
+    assessmentCriteria: [
+      "The principle is correct (a code group carries a complete standard message readable in any language, overcoming the language barrier).",
+      "The make-up is correct (single-letter most urgent from weeks 2/5, two-letter general/distress, three-letter medical, substitute flags for repeated letters).",
+      "The procedure is correct (read top down; answering pennant at the dip then closed up when understood).",
+      "A two-letter hoist and its acknowledgement are reported, in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Reglamento Internacional para prevenir abordajes en la mar",
+    topic: "Parte B. Reglas de rumbo y gobierno",
+    week: 11,
+    taskId: "pn-cov535-w11-colregs-steering-rules",
+    taskTitle: "Apply The COLREGS Steering And Sailing Rules",
+    scenario: "On the AIS traffic picture off Tampico two vessels are closing and the officer must decide who keeps clear. The officer asks the cadet to apply the COLREGS Part B steering and sailing rules, the conduct behind the lights of week 4 and the manoeuvring signals of week 6.",
+    instructions: [
+      "State the three encounters between power-driven vessels: head-on (both alter to starboard and pass port to port), crossing (the vessel that has the other on her own starboard side gives way), and overtaking (the overtaking vessel keeps clear of the vessel being overtaken).",
+      "State the give-way and stand-on duties: the give-way vessel takes early and substantial action to keep clear, while the stand-on vessel holds her course and speed but must act if the give-way vessel plainly is not.",
+      "Apply the good-seamanship rules: any action must be positive, made in good time, large enough to be readily apparent (preferably an alteration of course), and taken with due regard to a safe passing distance (CPA).",
+      "Report the encounter, who gives way and the action you would take, using the manoeuvring signals of week 6, in correct maritime English."
+    ],
+    deliverable: "A note in English applying the COLREGS steering and sailing rules to the Tampico traffic: the three encounters (head-on, crossing, overtaking) with who keeps clear, the give-way and stand-on duties (early substantial action versus hold course and speed but act if the other does not), the good-seamanship qualities of any action (positive, timely, readily apparent, safe passing distance), and the manoeuvring signals of week 6.",
+    assessmentCriteria: [
+      "The three encounters are correct (head-on both to starboard port-to-port; crossing the vessel with the other on her starboard gives way; overtaking vessel keeps clear).",
+      "The give-way and stand-on duties are correct (give-way takes early substantial action; stand-on holds course and speed but must act if the give-way vessel does not).",
+      "The action qualities are correct (positive, in good time, readily apparent, safe passing distance).",
+      "The encounter, the give-way vessel and the action are reported with the week 6 manoeuvring signals, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Reglamento Internacional para prevenir abordajes en la mar",
+    topic: "Parte D. Senales acusticas en visibilidad reducida",
+    week: 12,
+    taskId: "pn-cov535-w12-restricted-visibility-signals",
+    taskTitle: "Sound The Correct Signals In Restricted Visibility",
+    scenario: "Fog closes in on the approach and the vessels around can no longer see one another. As the closing task of the subject, the officer asks the cadet to sound the correct fog signals and read those of others, the sound complement to the visual code of the whole subject.",
+    instructions: [
+      "State the principal fog signals: one prolonged blast about every two minutes for a power-driven vessel making way, two prolonged blasts for one under way but stopped, and one prolonged followed by two short for a vessel not under command, restricted in her ability to manoeuvre, constrained by draught, sailing, fishing or towing.",
+      "Read a heard signal: identify from the pattern what kind of vessel is out there in the fog and what she is doing, so the sound builds the same situational picture the eye would in clear weather.",
+      "State the boundary with the in-sight signals of week 6: the manoeuvring signals of Rule 34 are for vessels in sight of one another, whereas these are the signals for restricted visibility when they cannot see each other, and the two must not be confused.",
+      "Report the signal your own vessel should make and your reading of a heard signal, in correct maritime English, leaving the meteorology of the fog to Meteorologia II and the radar to Navegacion III."
+    ],
+    deliverable: "A note in English on restricted-visibility sound signals: the principal fog signals (one prolonged making way; two prolonged under way but stopped; one prolonged plus two short for the hampered vessels), reading a heard signal to identify the vessel and what she is doing, and the boundary that these are for restricted visibility whereas the Rule 34 signals of week 6 are for vessels in sight, with the fog's meteorology and the radar left to their subjects.",
+    assessmentCriteria: [
+      "The principal fog signals are correct (one prolonged making way; two prolonged under way but stopped; one prolonged plus two short for NUC/RAM/CBD/sailing/fishing/towing).",
+      "A heard signal is correctly read to identify the type of vessel and her activity.",
+      "The boundary with week 6 is respected (restricted-visibility signals here versus in-sight Rule 34 manoeuvring signals there).",
+      "The own-ship signal and the reading of a heard signal are reported, with the meteorology and radar left to their subjects, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "ING531",
     subjectName: "Inglés Marítimo V",
     subjectId: "pn-s5-ingles-maritimo-v",
@@ -1388,6 +1968,122 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
       "The closed-loop check is used and referenced as established practice, not re-taught.",
       "The debrief compares plan with outcome, stays blame-free, and draws lessons.",
       "Concision and structure are demonstrated as the virtues of command English, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Tiempos simples y continuos",
+    topic: "Verbos con ing como gerundio e infinitivo",
+    week: 9,
+    taskId: "pn-ing531-w09-gerund-infinitive",
+    taskTitle: "Report Actions With Gerund And Infinitive",
+    scenario: "In a watch report the difference between 'stopped to check' and 'stopped checking' changes the meaning entirely. The officer asks the cadet to report shipboard actions using the gerund and the infinitive correctly, since the wrong form misstates what was done.",
+    instructions: [
+      "Set out the two patterns operationally: the infinitive (to + verb) states the PURPOSE of an action ('we reduced speed to ease the pounding'), while the gerund (verb + ing) names the activity itself ('we finished securing the deck').",
+      "Show the trap that changes the meaning: 'we stopped to sound the tanks' (we stopped in order to sound them) against 'we stopped sounding the tanks' (we ceased that activity), and use each correctly.",
+      "Use the forms after the verbs a watchkeeper needs: we avoided grounding, we managed to anchor, we recommend reducing speed, we agreed to wait for the tide.",
+      "Write four short operational sentences that each use the right form and report them in clear maritime English."
+    ],
+    deliverable: "A short set of operational sentences in English using the infinitive of purpose (to + verb) and the gerund of activity (verb + ing) correctly, including the 'stopped to do' versus 'stopped doing' contrast, in a watch-report context.",
+    assessmentCriteria: [
+      "The infinitive of purpose and the gerund of activity are used correctly.",
+      "The meaning-changing contrast (stopped to do versus stopped doing) is handled correctly.",
+      "The forms are used correctly after common watch verbs (avoid, manage, recommend, agree).",
+      "The sentences are operational and read professionally, not as a grammar exercise."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Expectativas y suposiciones",
+    topic: "Uso de supposed to y was going to para reportar desviaciones del plan",
+    week: 10,
+    taskId: "pn-ing531-w10-expectations-deviations",
+    taskTitle: "Report A Deviation From The Plan",
+    scenario: "The pilot was supposed to board at 0600 and did not, and the plan has slipped. The officer asks the cadet to report the gap between what was planned and what happened, using the structures that express expectation against reality.",
+    instructions: [
+      "Use 'supposed to' for the arrangement or expectation ('the pilot is supposed to board at 0600', 'cargo was supposed to finish by noon') to state what should happen or should have happened by rule or arrangement.",
+      "Use 'was/were going to' for a plan that then changed ('we were going to sail on the tide, but the berth was not clear'), to report an intention overtaken by events.",
+      "Keep the report factual and blame-free: state the expectation, then the actual event, then the effect on the plan, so the reader sees the gap and its consequence.",
+      "Write the deviation report and communicate it in clear maritime English."
+    ],
+    deliverable: "A short deviation report in English using 'supposed to' for the expectation or arrangement and 'was/were going to' for a changed plan, stating the expectation, the actual event and the effect on the plan, factually and blame-free.",
+    assessmentCriteria: [
+      "'Supposed to' is used correctly for an expectation or arrangement (present and past).",
+      "'Was/were going to' is used correctly for a plan overtaken by events.",
+      "The report structure is sound (expectation, actual event, effect on the plan) and blame-free.",
+      "The deviation is communicated clearly and professionally in maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Pasado perfecto",
+    topic: "Uso del pasado perfecto para la cronologia de un incidente",
+    week: 11,
+    taskId: "pn-ing531-w11-past-perfect-chronology",
+    taskTitle: "Write An Incident Chronology In The Past Perfect",
+    scenario: "A near-miss has to be written up and the sequence of events must be unmistakable. The officer asks the cadet to write the chronology using the past perfect, because in an incident report the order of events is the heart of the matter.",
+    instructions: [
+      "Use the past perfect to fix the order of two past events: 'by the time the alarm sounded, the vessel had already closed to two miles', so the reader sees plainly which event came first.",
+      "Combine it with the simple past for the main narrative line and with time markers (by then, already, before, after, when) so the timeline is clear from start to finish.",
+      "Use 'so' and 'neither' to add corroboration economically ('the radar had lost the target, and so had the lookout'), keeping the account tight.",
+      "Write a short incident chronology and report it in clear maritime English."
+    ],
+    deliverable: "A short incident chronology in English using the past perfect to order the events (the earlier event in the past perfect, the main line in the simple past) with clear time markers, and 'so'/'neither' for economical corroboration, so the sequence is unmistakable.",
+    assessmentCriteria: [
+      "The past perfect is used correctly to place the earlier of two past events.",
+      "It is combined with the simple past and clear time markers for an unambiguous timeline.",
+      "'So' and 'neither' are used correctly for corroboration.",
+      "The chronology reads as a professional incident report, unmistakable in its sequence, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Pasivo con modal verbs y verbo to get",
+    topic: "Voz pasiva con modales y to get para consignas y procedimientos",
+    week: 12,
+    taskId: "pn-ing531-w12-passive-modals-orders",
+    taskTitle: "Draft Standing Orders In The Passive With Modals",
+    scenario: "As the closing task of the subject, the officer must write standing orders that say what has to be done aboard without naming who does it. The cadet is asked to draft them using the passive with modal verbs, drawing together the passive of week 1 and the modals of week 5.",
+    instructions: [
+      "Form the passive with modals to state a duty impersonally: 'the master is to be called if visibility falls below two miles', 'the anchor must be kept ready', 'the log is to be completed each hour', so the order is on the action and the standard, not the person.",
+      "Choose the modal that states the real force, as in week 5: 'must' and 'is to be' for obligation, 'must not be' for prohibition, 'should be' for recommendation, keeping the passive throughout.",
+      "Use the 'get' passive for the informal spoken register where it fits ('if a line gets parted, report it at once'), and note when the plainer form is clearer for a mixed-nationality crew (week 6).",
+      "Draft a short set of standing orders and communicate them in clear maritime English."
+    ],
+    deliverable: "A short set of standing orders in English written in the passive with modal verbs (is to be called, must be kept ready, is to be completed), choosing the modal for the real force as in week 5 and using the 'get' passive where the register fits, drawing together the passive of week 1 and the modals of week 5.",
+    assessmentCriteria: [
+      "The passive with modals is formed correctly to state duties impersonally (focus on the action and the standard, not the person).",
+      "The modal chosen states the real force (obligation, prohibition, recommendation), consistent with week 5.",
+      "The 'get' passive is used appropriately and the mixed-nationality clarity point of week 6 is respected.",
+      "The standing orders are drafted coherently and read professionally, in clear maritime English."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -1628,6 +2324,122 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Maniobras a son de mar",
+    topic: "Procedimientos de trincado y aseguramiento a son de mar",
+    week: 9,
+    taskId: "pn-pmr536-w09-securing-for-sea",
+    taskTitle: "Secure The Deck For Sea",
+    scenario: "A heavy-weather passage lies ahead and the deck must be made ready to take the sea. The officer asks the cadet to secure the deck gear and openings for sea, the seamanship of preparing before the weather arrives.",
+    instructions: [
+      "State the principle: everything on deck that can move must be lashed so it cannot break loose when the ship rolls and pitches, because gear adrift in a seaway is a danger to the crew and to the ship.",
+      "Secure the movable gear: derricks and cranes lowered and lashed in their cradles, the anchors secured with the additional lashings and the spurling pipe covered, and stores, drums and portable equipment lashed down.",
+      "Close the openings: weathertight doors, hatches, vents and ports secured, so that green water on deck cannot find its way below.",
+      "Report the deck secured for sea to the bridge, in clear maritime English, with the heavy-weather deck actions left to the bridge and the meteorology to Meteorologia II."
+    ],
+    deliverable: "A note in English securing the deck for sea: the principle (everything that can move is lashed so nothing breaks loose in a seaway), the movable gear (derricks/cranes lashed in cradles, anchors additionally secured and the spurling pipe covered, stores and drums lashed), and the openings closed weathertight, with the secured-for-sea report to the bridge.",
+    assessmentCriteria: [
+      "The principle is correct (loose gear in a seaway endangers the crew and the ship, so all is lashed).",
+      "The movable gear is correctly secured (derricks/cranes in cradles, anchors additionally lashed and spurling pipe covered, stores and drums lashed).",
+      "The weathertight openings are correctly closed (doors, hatches, vents, ports).",
+      "The deck-secured-for-sea report is made to the bridge, in clear maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Pinturas y solventes",
+    topic: "Preparacion de superficies y aplicacion de minio y esmalte",
+    week: 10,
+    taskId: "pn-pmr536-w10-surface-preparation-painting",
+    taskTitle: "Prepare And Paint A Steel Surface",
+    scenario: "A patch of the deck is rusting and must be treated before it spreads. The officer asks the cadet to prepare the steel and paint it correctly, the everyday defence against the corrosion the ship never stops fighting.",
+    instructions: [
+      "Prepare the surface: chip and scrape (piquetas y rasquetas) or wire-brush the rust and loose scale back to sound metal, then clean and dry it, because paint over rust or damp simply lifts and the corrosion goes on underneath.",
+      "Prime the bare steel: apply the primer (red lead / minio) that keys to the metal and inhibits corrosion, giving the finish coats something to hold and the steel its first protection.",
+      "Apply the finish: build up the enamel (esmalte) over the cured primer in the right conditions (not in rain, spray or high humidity), so the coating cures properly and seals the surface.",
+      "Report the preparation and coating sequence you followed, in clear maritime English, referencing the galvanic corrosion of Quimica week 2 without re-teaching it."
+    ],
+    deliverable: "A note in English preparing and painting a steel surface: surface preparation (chip/scrape or wire-brush to sound metal, clean and dry, because paint over rust or damp lifts), priming the bare steel with red lead, and building the enamel finish over the cured primer in the right conditions, referencing the galvanic corrosion of Quimica week 2.",
+    assessmentCriteria: [
+      "The surface preparation is correct (rust and loose scale removed to sound metal, cleaned and dried, because paint over rust or damp fails).",
+      "Priming is correct (red lead/primer keys to the metal and inhibits corrosion before the finish coats).",
+      "The finish is applied correctly (enamel over cured primer, avoiding rain, spray and high humidity so it cures).",
+      "The sequence is reported, referencing Quimica week 2, in clear maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Tapa escotillas",
+    topic: "Apertura, cierre y estanqueidad de las tapas de escotilla",
+    week: 11,
+    taskId: "pn-pmr536-w11-hatch-covers",
+    taskTitle: "Open And Close Weathertight Hatch Covers",
+    scenario: "Before sailing, the cargo hold hatches must be closed and made weathertight, and the cadet must know that the hatch cover is what keeps the sea out of the hold. The officer asks the cadet to operate and secure the hatch covers safely.",
+    instructions: [
+      "Describe the safe operation: check the operating area is clear of people and obstructions and that the cover ways and wheels are clear, and open or close the covers under control, since a hatch cover is a heavy powered structure that can crush.",
+      "Secure for weathertightness: the cover is closed home, the cleats and dogs set up all round, and the rubber gaskets bear evenly on the coaming compression bar so that no water can enter under a boarding sea.",
+      "Check the sealing: inspect the gaskets and drainage channels, because a perished gasket or a blocked drain lets water into the hold and damages the cargo, and this is the point of the whole operation.",
+      "Report the hatches closed and weathertight to the bridge, in clear maritime English, with the ship's structural stresses left to Teoria del Buque."
+    ],
+    deliverable: "A note in English operating hatch covers: safe operation (area and ways clear, the cover a heavy powered structure that can crush), securing for weathertightness (closed home, cleats and dogs set up, gaskets bearing evenly on the compression bar), and checking the sealing (gaskets and drains, because a perished gasket or blocked drain floods the hold), with the hatches-secured report to the bridge.",
+    assessmentCriteria: [
+      "The safe operation is correct (area and ways clear, the cover a heavy powered structure handled under control).",
+      "Securing for weathertightness is correct (closed home, cleats/dogs set up, gaskets bearing evenly on the compression bar).",
+      "The sealing check is correct (gaskets and drainage channels; a perished gasket or blocked drain floods the hold).",
+      "The hatches-secured-and-weathertight report is made to the bridge, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Anclas y cadenas",
+    topic: "Amarre a boya y desentanglado del ancla",
+    week: 12,
+    taskId: "pn-pmr536-w12-buoy-mooring-foul-anchor",
+    taskTitle: "Moor To A Buoy And Clear A Foul Anchor",
+    scenario: "The vessel is to secure to a mooring buoy in the river, and there is a risk the anchor comes up foul. As the closing task of the subject, the officer asks the cadet to run the buoy-mooring operation on deck and to clear a foul anchor, drawing the anchor and cable work of the subject together.",
+    instructions: [
+      "Prepare the buoy mooring: send a boat or the shackling party to the buoy, pass the ship's cable or a mooring wire through the ring of the buoy, and shackle on, so the ship rides to the buoy on the ground chain of the mooring instead of her own anchor.",
+      "State the deck coordination: the forecastle works with the bridge and the boat, passing the heaving line and messenger to the buoy first, then the heavy cable, all under clear station-to-bridge communication (building on week 8).",
+      "Clear a foul anchor: when the anchor comes up with a turn of its own cable, a wire or a ground chain around it, take the weight off with a rope's-end or a wire passed under the fouling, then work the anchor clear, never letting the fouled anchor hang on the crown where it can drop.",
+      "Report the buoy secured or the anchor cleared to the bridge, in clear maritime English, integrating the anchor and cable work of the subject."
+    ],
+    deliverable: "A note in English mooring to a buoy and clearing a foul anchor: preparing the buoy mooring (cable or wire through the ring and shackled on so the ship rides to the buoy), the deck coordination (messenger then heavy cable under station-to-bridge communication from week 8), and clearing a foul anchor (take the weight with a rope or wire under the fouling and work it clear), integrating the subject's anchor and cable work.",
+    assessmentCriteria: [
+      "The buoy mooring is correct (cable or mooring wire through the buoy ring and shackled on so the ship rides to the buoy).",
+      "The deck coordination is sound (messenger/heaving line then heavy cable, clear station-to-bridge communication from week 8).",
+      "Clearing a foul anchor is correct (take the weight with a rope or wire under the fouling and work the anchor clear, not letting it hang).",
+      "The buoy-secured or anchor-cleared report is made to the bridge, integrating the subject, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "C0011",
     subjectName: "Educación Física V",
     subjectId: "pn-s5-educacion-fisica-v",
@@ -1852,6 +2664,122 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
       "The Semester V capacities are integrated and balanced (strength, flexibility, perceived-effort cardio, injury prevention).",
       "Sustainability is used as the test of the plan (a little done consistently over a lot abandoned).",
       "The purpose is kept to capacity for the work and wellbeing, with no performance, body-weight or diet targets and no extreme goals, and the Semester I / Semester III boundary is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Percepción y coordinación motriz",
+    topic: "Equilibrio y ubicacion espacial en cubierta con movimiento",
+    week: 9,
+    taskId: "pn-c0011v-w09-balance-moving-deck",
+    taskTitle: "Keep Your Balance On A Moving Deck",
+    scenario: "The ship is rolling in a seaway and the deck will not stay still under the cadet's feet. The training officer asks the cadet to explain how to keep balance and move safely on a moving deck, since a fall at sea is one of the commonest injuries.",
+    instructions: [
+      "Explain how balance works and how the ship defeats it: balance relies on the inner ear, the eyes and the feel of the feet, and a rolling deck feeds them conflicting signals, so the body must be trained to expect the movement.",
+      "State the practical rules of moving on a live deck: keep a low centre of gravity and a wide base, one hand for the ship and one for yourself, and move with the roll rather than against it, timing steps to the ship's rhythm.",
+      "Explain anticipation as a trainable skill: reading the sea and the ship's motion so the body braces before the roll, not after, which is what keeps the experienced seafarer on their feet.",
+      "Report the balance rules in clear English using correct terminology, with heavy-weather deck actions left to the deck subjects."
+    ],
+    deliverable: "A note in English on balance on a moving deck: how balance works (inner ear, eyes, feet) and how a rolling deck defeats it, the practical rules (low centre of gravity, wide base, one hand for the ship, move with the roll), and anticipation as a trainable skill (bracing before the roll), for moving safely at sea.",
+    assessmentCriteria: [
+      "How balance works and how the moving deck defeats it are correctly explained (conflicting signals from inner ear, eyes and feet).",
+      "The practical rules are sound (low centre of gravity, wide base, one hand for the ship, moving with the roll).",
+      "Anticipation is correctly presented as a trainable skill (bracing before the roll, not after).",
+      "The rules are reported clearly with correct terminology, the deck actions left to the deck subjects."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Percepción y coordinación motriz",
+    topic: "Coordinacion motriz y lateralidad en las tareas de cubierta",
+    week: 10,
+    taskId: "pn-c0011v-w10-coordination-laterality",
+    taskTitle: "Train Coordination And Laterality For Deck Work",
+    scenario: "Many deck tasks demand two hands doing different things and the ability to work equally to either side. The training officer asks the cadet to explain how coordination and laterality are trained and why they matter for the work on deck.",
+    instructions: [
+      "Define hand-eye coordination and why deck work needs it: heaving a line to a bollard, working a winch while watching the line, and handling tools aloft all demand the eye and the hands acting together accurately.",
+      "Explain laterality and its value: being able to work to both the left and the right, and with either hand, matters because a task cannot always be approached from the convenient side, and a two-sided seafarer is safer and more useful.",
+      "Describe how both are trained: repeated practice of the movement, drills that use both sides, and ball or coordination games that sharpen timing and reaction.",
+      "Report how you would train coordination and laterality for deck work, in clear English using correct terminology."
+    ],
+    deliverable: "A note in English on coordination and laterality for deck work: hand-eye coordination and the deck tasks that need it (heaving lines, working winches, tools aloft), laterality and its value (working to both sides and with either hand), and how both are trained (repetition, two-sided drills, coordination games).",
+    assessmentCriteria: [
+      "Hand-eye coordination is correctly defined with relevant deck tasks.",
+      "Laterality is correctly explained and its safety and utility value stated.",
+      "The training methods are practical (repetition, two-sided drills, coordination games).",
+      "The account is reported clearly with correct terminology."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Desarrollo físico integral",
+    topic: "Los deportes de equipo como entrenamiento de la coordinacion de la tripulacion",
+    week: 11,
+    taskId: "pn-c0011v-w11-team-sport-crew-coordination",
+    taskTitle: "Use Team Sport To Build Crew Coordination",
+    scenario: "The ship organises deck games in port, and they are more than recreation. The training officer asks the cadet to explain how a team sport trains the very qualities a crew needs, treating the game as training rather than pastime.",
+    instructions: [
+      "Name the physical qualities a team sport (football, volleyball, basketball) develops: cardiovascular fitness, agility, coordination and spatial awareness, all trained at once and enjoyably.",
+      "Explain the transferable teamwork it trains: communication under pressure, reading the movement of others, playing a position within a whole, and accepting a captain's call, which are the same qualities a watch or a mooring party needs.",
+      "Explain the value for crew cohesion: shared sport builds the trust and the easy communication between crew members that carry over into the working teams and into morale on a long voyage.",
+      "Report how a team sport serves as training for the crew, in clear English using correct terminology, referencing the teamwork of Liderazgo without re-teaching it."
+    ],
+    deliverable: "A note in English on team sport as training: the physical qualities it develops (cardiovascular fitness, agility, coordination, spatial awareness), the transferable teamwork (communication under pressure, reading others, playing a position, accepting the captain's call), and the value for crew cohesion and morale, referencing the teamwork of Liderazgo.",
+    assessmentCriteria: [
+      "The physical qualities developed by team sport are correctly named.",
+      "The transferable teamwork qualities are sound and tied to the watch or mooring party.",
+      "The value for crew cohesion and morale is explained.",
+      "The account is reported clearly with correct terminology, referencing Liderazgo teamwork."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Condición física",
+    topic: "Vigor y potencia para las tareas fisicas de emergencia",
+    week: 12,
+    taskId: "pn-c0011v-w12-power-emergency-tasks",
+    taskTitle: "Build The Power For Emergency Physical Tasks",
+    scenario: "An emergency can demand a sudden, hard physical effort with no warning: dragging an injured shipmate clear, closing a heavy watertight door against a list, or launching survival gear. As the closing task of the subject, the training officer asks the cadet to explain the power such tasks demand and how to build it safely.",
+    instructions: [
+      "Distinguish power (vigor) from endurance: power is the ability to produce a large force quickly for a short, decisive effort, which is exactly what an emergency physical task demands, as opposed to the sustained effort of week 5.",
+      "Name the emergency tasks that demand it and integrate the semester: dragging a casualty (the rescue of week 7), closing a watertight door or freeing jammed gear (the strength of week 1), and doing it with the balance of a moving deck (week 9).",
+      "Explain how power is built safely: functional strength work with correct technique and the injury-prevention discipline of week 6 (warm-up, progression, rest), so the training itself does not cause the injury.",
+      "Report how you would build and apply this power, and the safe-technique limits, in clear maritime English."
+    ],
+    deliverable: "A note in English on power for emergency tasks: power (vigor) distinguished from endurance (a large force produced quickly, versus the sustained effort of week 5), the emergency tasks that demand it drawing together the rescue of week 7, the strength of week 1 and the balance of week 9, and building it safely under the injury-prevention discipline of week 6.",
+    assessmentCriteria: [
+      "Power is correctly distinguished from endurance (a quick, large, decisive force versus sustained effort from week 5).",
+      "The emergency tasks are relevant and integrate the semester (rescue from week 7, strength from week 1, balance from week 9).",
+      "Building power safely is sound (functional strength, correct technique, injury-prevention discipline of week 6).",
+      "The application and the safe-technique limits are reported, in clear maritime English."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -2092,6 +3020,122 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y Moral",
+    topic: "Diferencia entre Etica y Moral en la tripulacion multinacional",
+    week: 9,
+    taskId: "pn-c0104-w09-ethics-versus-morals",
+    taskTitle: "Distinguish Ethics From Morals On A Multinational Ship",
+    scenario: "A ship's company gathers seafarers from many countries, each raised on different moral customs. The officer asks the cadet to distinguish ethics from morals and to explain why a shared professional ethic is what holds such a crew together.",
+    instructions: [
+      "Draw the distinction cleanly: morals are the inherited rules of conduct a person receives from their culture, religion and upbringing, while ethics is the reasoned reflection that examines those rules and asks what is right when they are tested or when they conflict.",
+      "Show why it matters at sea: on a multinational ship the crew arrive with different moral customs, so the ship cannot run on any one crew member's morals; it runs on a shared professional ethic that all accept.",
+      "Give a worked case: a practice that is customary and accepted in one seafarer's home culture but wrong by the profession's ethic (for example a small facilitation payment, or a differing view of timekeeping or of speaking up to a senior), and reason it through by the professional ethic.",
+      "Report the distinction and the case in clear maritime English."
+    ],
+    deliverable: "A note in English distinguishing ethics from morals: morals as the inherited cultural rules and ethics as the reasoned reflection on them, why a multinational crew runs on a shared professional ethic rather than any one crew's morals, and a worked case where a customary practice is tested against the profession's ethic.",
+    assessmentCriteria: [
+      "The distinction is clean and correct (morals as inherited cultural rules, ethics as reasoned reflection on them).",
+      "The reason it matters at sea is sound (a multinational crew needs a shared professional ethic, not one crew's morals).",
+      "The worked case genuinely tests a customary moral practice against the professional ethic.",
+      "The distinction and case are reported clearly, in clear maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "El juicio",
+    topic: "Tipos de juicio y de razonamiento: el hecho y el juicio de valor",
+    week: 10,
+    taskId: "pn-c0104-w10-fact-versus-value-judgement",
+    taskTitle: "Separate Fact From Value Judgement In A Report",
+    scenario: "A report that mixes what happened with what the writer felt about it is worth little to the next reader. The officer asks the cadet to separate statements of fact from value judgements and to reason soundly, the discipline of judgement behind the ethical method of week 5.",
+    instructions: [
+      "Distinguish the two: a statement of FACT can in principle be checked and verified ('the CPA was 0.3 miles'), while a value JUDGEMENT expresses an evaluation ('the approach was reckless'), and both belong in a report but must not be disguised as each other.",
+      "Distinguish the kinds of reasoning: deductive reasoning draws a certain conclusion from given rules ('the rule requires this, this case is that, therefore it applies'), while inductive reasoning infers a probable conclusion from evidence ('the readings all point to a leak'), and each is used for its proper purpose.",
+      "Apply it: take an incident account, separate its verifiable facts from its value judgements, and state which reasoning supports the conclusion, so the judgement rests on evidence rather than impression.",
+      "Report the cleaned-up account in clear maritime English."
+    ],
+    deliverable: "A note in English separating fact from value judgement in an incident account (verifiable fact versus evaluation, both present but not disguised as each other), distinguishing deductive from inductive reasoning, and showing the judgement resting on evidence, as the discipline behind the ethical method of week 5.",
+    assessmentCriteria: [
+      "Fact and value judgement are correctly distinguished (verifiable statement versus evaluation) and both kept without disguising one as the other.",
+      "Deductive and inductive reasoning are correctly distinguished and each used for its purpose.",
+      "The account is worked so the judgement rests on evidence rather than impression.",
+      "The cleaned-up account is reported clearly, linked to the week 5 method, in clear maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "El contexto laboral y la dignidad de la Gente de Mar",
+    week: 11,
+    taskId: "pn-c0104-w11-seafarer-labour-context",
+    taskTitle: "Weigh The Seafarer's Labour Rights And Dignity",
+    scenario: "Behind the duties a seafarer owes lies the question of what a seafarer is owed. As an advanced task, the officer asks the cadet to explain the labour context of the Gente de Mar and the ethics of how seafarers are treated.",
+    instructions: [
+      "State the seafarer's basic labour rights as an ethical floor: a safe workplace, decent living conditions, fair terms and regular payment of wages, adequate rest, and repatriation, the conditions that the Maritime Labour Convention sets as a right and not a favour.",
+      "Explain the vulnerability that makes this an ethical matter: a seafarer far from home, isolated aboard and dependent on the company, can be exploited or abandoned, so fair treatment is a duty owed to a person who cannot easily defend it.",
+      "Turn it to the officer's own responsibility: a future officer sits on both sides, owing duties to the ship and owing fair treatment to the ratings under them, so the ethic of dignity runs downward as well as upward.",
+      "Report the labour context and the officer's responsibility in clear maritime English, treating the fatigue question of week 7 as a reference, not re-teaching it."
+    ],
+    deliverable: "A note in English on the seafarer's labour context: the basic labour rights as an ethical floor (safe workplace, decent living conditions, fair and regular wages, adequate rest, repatriation, per the Maritime Labour Convention), the vulnerability that makes fair treatment a duty (isolation, dependence, risk of abandonment), and the officer's own responsibility to those under them, referencing the fatigue ethics of week 7.",
+    assessmentCriteria: [
+      "The basic labour rights are correct and framed as an ethical floor (decent conditions, fair and regular wages, rest, repatriation, per the MLC).",
+      "The vulnerability that makes it an ethical matter is sound (isolation, dependence, risk of exploitation or abandonment).",
+      "The officer's own responsibility to the ratings under them is drawn (dignity runs downward as well as upward).",
+      "The labour context and responsibility are reported, referencing week 7, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Resolucion de un caso etico bajo presion comercial",
+    week: 12,
+    taskId: "pn-c0104-w12-ethics-case-commercial-pressure",
+    taskTitle: "Resolve An Ethics Case Under Commercial Pressure",
+    scenario: "A superior asks the cadet to sign off records that are not quite true, to keep the schedule and avoid trouble. As the closing task of the subject, the officer asks the cadet to resolve the case in full, bringing the whole subject to bear on a real decision.",
+    instructions: [
+      "State the case and the pressure: being asked to enter a discharge in the oil record book that did not happen as recorded, or to sign rest-hour records that do not match reality, so a false entry would smooth the schedule and please a superior.",
+      "Work it through the tools of the subject: separate the fact from the value judgement (week 10), name the values in conflict and the parties affected (week 5), and recognise that the request crosses from an honest error into a deliberate falsification (the just-culture triad of week 6).",
+      "State the decision and its ground: the record must be truthful, because a falsified statutory record is a deliberate violation with legal and environmental weight (the MARPOL concern of week 4), and refusing it is the professional ethic (week 9) overriding the pressure of the moment.",
+      "State how to voice the refusal professionally and report the resolved case in clear maritime English, pointing to how it would be raised, which is the ground of Leadership."
+    ],
+    deliverable: "A note in English resolving an ethics case under commercial pressure (a false oil-record-book or rest-hour entry): stating the case and pressure, working it through the subject's tools (fact versus value from week 10, values and parties from week 5, the honest-error-to-violation line from week 6), the decision that a statutory record must be truthful (the MARPOL weight of week 4, the professional ethic of week 9 over the moment's pressure), and voicing the refusal professionally.",
+    assessmentCriteria: [
+      "The case and the commercial pressure are stated clearly and realistically.",
+      "The subject's tools are applied (fact versus value from week 10, values and affected parties from week 5, the honest-error-to-deliberate-violation line from week 6).",
+      "The decision is correct and well grounded (a statutory record must be truthful; the MARPOL weight of week 4; the professional ethic of week 9 over the pressure).",
+      "The refusal is voiced professionally and the case reported, integrating the subject, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "C0105",
     subjectName: "Liderazgo",
     subjectId: "pn-s5-liderazgo",
@@ -2319,6 +3363,122 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "Elementos del liderazgo",
+    topic: "Motivacion intrinseca y extrinseca de la tripulacion",
+    week: 9,
+    taskId: "pn-c0105-w09-motivation",
+    taskTitle: "Motivate The Crew On A Long Voyage",
+    scenario: "Halfway through a long voyage the crew is tired and morale is slipping. The officer asks the cadet to explain what actually motivates seafarers and how a leader sustains it, beyond pay and orders.",
+    instructions: [
+      "Distinguish the two kinds of motivation: extrinsic motivation comes from outside (wages, leave, the avoidance of punishment), while intrinsic motivation comes from within (pride in the work, mastery of the craft, belonging to a good team), and explain that the intrinsic kind is what sustains effort when no one is watching.",
+      "State the limit of extrinsic motivation: pay and discipline get compliance but not commitment, and a leader who relies only on them gets the minimum, so the deeper motivation must be built.",
+      "Give the leader's practical levers: meaningful work with its purpose explained, genuine recognition of good work, fair treatment, and a decent team climate, which together build the intrinsic motivation.",
+      "Report how you would sustain the crew's motivation on the long voyage, in clear maritime English."
+    ],
+    deliverable: "A note in English on motivating the crew: extrinsic motivation (wages, leave, avoiding punishment) versus intrinsic motivation (pride, mastery, belonging) and why the intrinsic kind sustains effort unwatched, the limit of extrinsic motivation (compliance not commitment), and the leader's practical levers (meaningful work with its purpose, recognition, fair treatment, a decent team climate).",
+    assessmentCriteria: [
+      "Extrinsic and intrinsic motivation are correctly distinguished, with the intrinsic kind identified as what sustains unwatched effort.",
+      "The limit of extrinsic motivation is sound (compliance, not commitment).",
+      "The leader's practical levers are relevant (purpose, recognition, fairness, team climate).",
+      "The account of sustaining motivation on a long voyage is reported, in clear maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "Autoconciencia",
+    topic: "Actitud proactiva y habitos del oficial",
+    week: 10,
+    taskId: "pn-c0105-w10-proactivity-habits",
+    taskTitle: "Lead With A Proactive Attitude",
+    scenario: "Two officers meet the same problem: one waits for it to become an order, the other has already acted. The officer asks the cadet to explain the proactive attitude and the habits that build it, the self-leadership beneath leading others.",
+    instructions: [
+      "Define proactivity: the proactive officer acts on what they can influence instead of waiting to be told or complaining about what they cannot change, taking responsibility for the response rather than being driven by events.",
+      "Explain the circle of influence: energy spent on what one can actually affect widens that influence over time, while energy spent only worrying about what one cannot change shrinks it, so the proactive officer works on the first.",
+      "Explain habits as the foundation: leadership is built from consistent daily habits (preparation, follow-through, keeping one's word) rather than from occasional grand gestures, because a crew trusts the officer who is reliable every day.",
+      "Report how a proactive attitude and sound habits make a better officer, in clear maritime English."
+    ],
+    deliverable: "A note in English on proactivity and habits: proactivity (acting on what one can influence and owning the response, not waiting to be told), the circle of influence (working on what one can affect widens it; worrying about what one cannot shrinks it), and habits as the foundation of leadership (consistent daily reliability over grand gestures).",
+    assessmentCriteria: [
+      "Proactivity is correctly defined (acting on what one can influence and owning the response).",
+      "The circle of influence is correctly explained (working on what one can affect widens it).",
+      "Habits are correctly presented as the foundation of trusted leadership (daily reliability over occasional gestures).",
+      "The account of how proactivity and habits make a better officer is reported, in clear maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "Estrategias de planeación y operación",
+    topic: "Estrategias para identificar y resolver problemas y la toma de decisiones",
+    week: 11,
+    taskId: "pn-c0105-w11-problem-solving-decisions",
+    taskTitle: "Solve A Problem And Decide Under Pressure",
+    scenario: "An operational problem lands on the officer with incomplete information and no time to waste. As an advanced task, the officer asks the cadet to work a structured problem-solving and decision-making method, so the decision is reasoned rather than snatched.",
+    instructions: [
+      "Identify the real problem first: distinguish the symptom from the underlying cause, because acting on the symptom leaves the cause to strike again, and state the problem clearly before reaching for a solution.",
+      "Generate and weigh the options: lay out the realistic courses of action, weigh each for safety, feasibility and consequences, and resist the trap of seizing the first option that comes to mind.",
+      "Decide, act and review: choose, commit, act, and then check the result against what was expected, adjusting if the situation has moved, because a decision is not finished when it is made.",
+      "Apply the method to an operational problem and report the decision and its reasoning in clear maritime English, using the win-win approach of week 4 where people are in conflict, not re-teaching it."
+    ],
+    deliverable: "A note in English working a structured problem-solving and decision method: identifying the real problem (symptom versus underlying cause), generating and weighing the options (safety, feasibility, consequences; resisting the first-option trap), and deciding, acting and reviewing (checking the result and adjusting), applied to an operational problem, using the week 4 win-win approach where people conflict.",
+    assessmentCriteria: [
+      "The real problem is identified (symptom distinguished from underlying cause) before a solution is sought.",
+      "The options are generated and weighed soundly (safety, feasibility, consequences; the first-option trap resisted).",
+      "The decide-act-review step is correct (commit, then check the result against expectation and adjust).",
+      "The method is applied to an operational problem and the decision reported, using the week 4 win-win where relevant, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "Estrategias de planeación y operación",
+    topic: "Autocritica, renovacion y la mejora continua del equipo",
+    week: 12,
+    taskId: "pn-c0105-w12-self-critique-renewal",
+    taskTitle: "Lead Renewal Through Honest Self-Critique",
+    scenario: "The best officers are the ones who never stop examining their own performance and improving the team's. As the closing task of the subject, the officer asks the cadet to explain self-critique and renewal and to turn them into continuous improvement, integrating the leadership of the semester.",
+    instructions: [
+      "Explain honest self-critique: the leader examines their own decisions and conduct without excuse, because the officer who cannot see their own mistakes cannot correct them and loses the crew's respect, and this self-awareness is the emotional intelligence of week 2 turned on oneself.",
+      "Turn the debrief into learning: run the blame-free debrief on the team's performance (the error handling of week 7 as an established practice), draw the lessons, and feed them back so the next operation is better, which is what continuous improvement means.",
+      "Explain renewal: a leader must renew themselves and the team (rest, learning, morale) to keep performing over a long voyage, because a leader running on empty leads badly.",
+      "Report how self-critique and renewal drive continuous improvement, drawing together the communication of week 5, the assertiveness of week 6 and the error handling of week 7, in clear maritime English."
+    ],
+    deliverable: "A note in English on self-critique and renewal: honest self-critique (examining one's own decisions without excuse, the emotional intelligence of week 2 turned on oneself), turning the blame-free debrief into learning and continuous improvement (the error handling of week 7 as established practice), and renewal of self and team to sustain performance, integrating the communication of week 5, the assertiveness of week 6 and the error handling of week 7.",
+    assessmentCriteria: [
+      "Honest self-critique is correctly explained (examining one's own conduct without excuse; the week 2 emotional intelligence turned on oneself).",
+      "The debrief is turned into learning and continuous improvement (the week 7 error handling as established practice, lessons fed forward).",
+      "Renewal of self and team is correctly explained as sustaining performance over a long voyage.",
+      "The account integrates weeks 5, 6 and 7 and is reported, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
 ];
