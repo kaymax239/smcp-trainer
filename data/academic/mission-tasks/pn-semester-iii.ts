@@ -236,6 +236,122 @@ export const pnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Compas giroscopico",
+    topic: "El girocompas: ventajas, limitaciones y error de giro (gyro error)",
+    week: 9,
+    taskId: "pn-nav316-w09-gyrocompass-error",
+    taskTitle: "Find And Apply The Gyrocompass Error",
+    scenario: "On the bridge the officer of the watch wants the gyro heading reference checked before pilotage. Passing a charted transit (a pair of leading marks) off Tampico, the cadet is told to find the gyro error and use it to correct a bearing.",
+    instructions: [
+      "State the advantages of the gyrocompass (it seeks true north, is unaffected by variation and deviation, and gives a steady reference) and its limitations (a settling time from start-up, a speed and latitude error, and a dependence on electrical power).",
+      "Find the gyro error on the transit: the leading line has a charted true bearing of 315 T, and the gyro repeater reads it as 316.5 G, so the gyro reads more than true and the error is 1.5 degrees HIGH.",
+      "Apply the error to a gyro bearing of a light that bears 042.0 G: because a High gyro reads too much, true bearing = gyro bearing minus the error = 042.0 - 1.5 = 040.5 T.",
+      "Report the gyro error, named High or Low, and the corrected true bearing as three figures, in clear navigational English."
+    ],
+    deliverable: "A gyro-check note in English giving the gyro error found on the transit (1.5 degrees High), the rule for naming and applying it, and a gyro bearing corrected to true (042.0 G to 040.5 T), with the working shown.",
+    assessmentCriteria: [
+      "The advantages and limitations of the gyrocompass are correctly stated.",
+      "The gyro error is correctly found and named (315 T vs 316.5 G gives 1.5 degrees High).",
+      "The error is correctly applied to the bearing (042.0 G minus 1.5 = 040.5 T).",
+      "Bearings are given as three figures in 000-360 degrees, in clear navigational English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Navegacion costera",
+    topic: "Marcaciones peligrosas (danger bearing) para librar un peligro cartografiado",
+    week: 10,
+    taskId: "pn-nav316-w10-danger-bearing",
+    taskTitle: "Set A Danger Bearing To Clear A Charted Shoal",
+    scenario: "Inbound to Tampico the track runs close past a charted shoal off the fairway. The officer asks the cadet to set a danger bearing on a charted light so the watch can keep the ship in safe water without a running fix at every moment.",
+    instructions: [
+      "Explain a danger bearing: a single limiting position line drawn from a charted object tangent to the danger, so the ship stays in safe water as long as the object's bearing stays on the safe side, stated as Not More Than (NMT) or Not Less Than (NLT).",
+      "From the chart the light is used, and the bearing that just clears the shoal is 048 T; safe water lies where the light bears less than that, so the rule is keep the light bearing NMT 048 T.",
+      "Convert the limiting true bearing to a gyro bearing for the watch to monitor: with a gyro error of 1.0 degrees High, gyro bearing = true plus the High error = 048 + 1.0 = 049 G.",
+      "Report the danger bearing and the monitoring instruction as three figures, in clear navigational English (for example, keep the light bearing not more than 049 by gyro)."
+    ],
+    deliverable: "A danger-bearing note in English giving the limiting true bearing (048 T), the NMT rule and its safety reasoning, and the gyro bearing to monitor (049 G), all bearings in three figures.",
+    assessmentCriteria: [
+      "The danger bearing is correctly explained as a limiting position line with the NMT / NLT rule.",
+      "The safe side is correctly reasoned (keep the light NMT 048 T to stay clear of the shoal).",
+      "The conversion to a gyro bearing is correct (048 T plus 1.0 High = 049 G).",
+      "Bearings are given as three figures in 000-360 degrees, in clear navigational English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Navegacion costera",
+    topic: "Metodos para obtener una posicion por marcaciones a la costa: situacion por marcaciones sucesivas (running fix)",
+    week: 11,
+    taskId: "pn-nav316-w11-running-fix",
+    taskTitle: "Fix The Ship By A Running Fix On One Object",
+    scenario: "Along the coast only one charted light is in sight, so a single cross fix is impossible. The officer asks the cadet to fix the ship by a running fix, using the special case of the bow-and-beam bearing to get the distance off.",
+    instructions: [
+      "Explain the running fix: take a bearing of the object, run a known course and distance, take a second bearing, transfer the first position line forward by the run, and the fix is where the transferred first line crosses the second.",
+      "Use the bow-and-beam special case: note the time when the light is 45 degrees on the bow (relative 045) at 1000, keep a steady course and speed of 12 knots, and note the time when the light is abeam (relative 090) at 1020.",
+      "Work out the run between the two bearings: distance = speed x time = 12 knots x (20 / 60) hour = 4.0 NM.",
+      "Apply the bow-and-beam rule: the 45-and-90 triangle is isosceles, so the distance off the light when abeam equals the run = 4.0 NM, and report the fix (position line abeam and distance off 4.0 NM) in clear navigational English."
+    ],
+    deliverable: "A running-fix note in English explaining the method, the bow-and-beam calculation (run = 12 x 20/60 = 4.0 NM) and why that equals the distance off abeam, giving the ship's distance off the light.",
+    assessmentCriteria: [
+      "The running-fix method (transfer the first position line by the run) is correctly explained.",
+      "The run is correctly calculated (12 knots x 20/60 h = 4.0 NM).",
+      "The bow-and-beam rule is correctly applied (distance off abeam = run = 4.0 NM) with the isosceles reasoning.",
+      "The fix and distance off are reported clearly as three figures / nautical miles, in correct navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "NAV316",
+    subjectName: "Navegación I",
+    subjectId: "pn-s3-navegacion-i",
+    unit: "Navegacion costera",
+    topic: "Precauciones en la navegacion costera: seleccion de objetos, lineas de posicion y marcacion para cambio de rumbo (wheel-over)",
+    week: 12,
+    taskId: "pn-nav316-w12-coastal-passage-monitoring",
+    taskTitle: "Monitor A Coastal Passage And Time The Wheel-Over",
+    scenario: "As the closing task of the subject the cadet cons the approach to Altamira, watching the AIS traffic picture and the coastline. The officer asks the cadet to monitor the passage by fixing, keep clear of the charted danger, and time the alteration onto the next leg, integrating the whole subject.",
+    instructions: [
+      "Select suitable charted objects for fixing on this approach (well-spaced, positively identified, giving a good angle of cut near 90 degrees) and state why a poor angle of cut gives an unreliable fix.",
+      "Monitor the position by cross bearings and radar ranges while keeping the danger bearing on the shoal (from week 10) as a continuous safety check against being set toward the danger by the current.",
+      "Time the wheel-over for the alteration onto the next leg: set a wheel-over bearing on a charted mark (for example, alter when the light bears 350 T) so the helm goes over before the track intersection to allow for the ship's turning circle.",
+      "Report the passage-monitoring plan and give the wheel-over helm order to the helmsman in correct SMCP-style English, and log the fix and the alteration."
+    ],
+    deliverable: "A coastal-passage monitoring brief in English integrating object selection and angle of cut, cross-bearing fixing, the danger bearing as a safety check, and the timed wheel-over onto the next leg with the helm order in SMCP-style English.",
+    assessmentCriteria: [
+      "Objects are selected soundly (well-spaced, identified, good angle of cut) with the reason a poor cut is unreliable.",
+      "Position monitoring correctly combines fixing with the danger bearing as a continuous safety check.",
+      "The wheel-over is correctly timed by a bearing on a charted mark to allow for the turning circle.",
+      "The plan and the wheel-over helm order are reported in correct SMCP-style navigational English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "HID318",
     subjectName: "Hidrografía",
     subjectId: "pn-s3-hidrografia",
@@ -460,6 +576,122 @@ export const pnSemesterIiiTasks: AcademicMissionTask[] = [
       "The chart correction process is correctly described (applied and recorded to keep the chart up to date).",
       "The survey to hydrographic office to updated chart flow is correct and in the right order.",
       "The focus stays on the flow and management of the information and its link to safety, in clear hydrographic English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Organizacion y equipos hidrograficos",
+    topic: "Organismos hidrograficos: la OHI (IHO) y las oficinas hidrograficas nacionales",
+    week: 9,
+    taskId: "pn-hid318-w09-hydrographic-organisations",
+    taskTitle: "Trace The Charts To The IHO And National Offices",
+    scenario: "A new set of charts and publications arrives on board. The officer asks the cadet to explain where they come from and who guarantees their standard, so the crew trusts the source of the information they navigate by.",
+    instructions: [
+      "Explain the role of the International Hydrographic Organization (IHO): it coordinates the national hydrographic offices and sets the standards for charts and publications (such as the specifications for symbology and electronic charts and the INT chart series) so charts are consistent between nations.",
+      "Explain the role of a national hydrographic office (for example the Mexican naval hydrographic service): it surveys national waters and produces and updates the official charts and publications for its area.",
+      "Explain how this international standardisation lets a ship use official charts from any member state with confidence, through common symbology and the INT chart series.",
+      "Report the origin and standardisation of the charts in clear hydrographic English."
+    ],
+    deliverable: "A note in English explaining the role of the IHO and of a national hydrographic office, and why international standardisation lets a ship rely on charts from any member state.",
+    assessmentCriteria: [
+      "The role of the IHO (coordination and standards) is correctly explained.",
+      "The role of a national hydrographic office (survey, production and update) is correct.",
+      "The value of international standardisation for the mariner is soundly explained.",
+      "The note is clear and in correct hydrographic English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Batimetria",
+    topic: "Naturaleza de los fondos marinos y su relacion con el tenedero (holding ground)",
+    week: 10,
+    taskId: "pn-hid318-w10-seabed-nature-holding-ground",
+    taskTitle: "Assess Seabed Nature For Good Holding Ground",
+    scenario: "The vessel must anchor in the outer anchorage off Tampico to wait for a berth. The officer asks the cadet to use the charted nature of the seabed, a product of hydrographic survey, to judge where the anchor will hold well.",
+    instructions: [
+      "Explain how hydrographic survey records the nature of the seabed (bottom samples, arming the lead, and the backscatter of single-beam or multibeam systems) and how it is shown on the chart by the standard abbreviations (M for mud, S for sand, Cy for clay, R for rock, Co for coral).",
+      "Rank the common bottoms for anchor holding: mud, clay and firm sand give good holding, while rock, shingle and weed give poor or uncertain holding and risk the anchor dragging or fouling.",
+      "Choose an anchoring berth from the charted seabed nature and depth, and state why (for example, prefer a patch of mud over a rocky bottom).",
+      "Report the anchorage assessment in clear hydrographic English."
+    ],
+    deliverable: "A note in English explaining how the seabed nature is surveyed and charted, ranking common bottoms for holding, and choosing an anchoring berth from the charted nature and depth with the reason.",
+    assessmentCriteria: [
+      "How seabed nature is surveyed and shown on the chart by abbreviation is correct.",
+      "The ranking of bottoms for holding (mud/clay/firm sand good; rock/shingle/weed poor) is correct.",
+      "The berth choice is soundly justified from seabed nature and depth.",
+      "The assessment is clear and in correct hydrographic English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Corrientes marinas",
+    topic: "Tipos de corrientes marinas: oceanicas, de marea (tidal streams) y por viento; lectura del rombo de corriente",
+    week: 11,
+    taskId: "pn-hid318-w11-current-types-tidal-streams",
+    taskTitle: "Distinguish Current Types And Read A Tidal Stream",
+    scenario: "The planned passage crosses both a steady offshore current and reversing tidal streams near the coast. The officer asks the cadet to distinguish the types of current and to read the tidal stream so its effect can be allowed for.",
+    instructions: [
+      "Distinguish the types of current: ocean currents (large-scale and quasi-steady, such as the Gulf loop current), tidal streams (reversing, driven by the tide and strongest at springs), and wind-driven surface currents (temporary, following recent wind).",
+      "Read a tidal stream from a tidal diamond or stream table: give the set (direction the stream runs toward) and the drift (rate in knots) at a stated hour, for example at 3 hours before high water the diamond gives set 070 T and rate 1.8 knots at springs.",
+      "Explain how the stream changes over the tidal cycle: slack near high and low water and greatest around mid-tide, and stronger at springs than at neaps.",
+      "Explain how the ocean current and the tidal stream are combined into one total set and drift for correcting the course and estimated position, and report the current assessment in clear hydrographic English."
+    ],
+    deliverable: "A note in English distinguishing ocean, tidal and wind-driven currents, giving a tidal-stream read (set 070 T, drift 1.8 knots at springs) with how it changes over the cycle, and how the currents combine into one set and drift.",
+    assessmentCriteria: [
+      "The three current types are correctly distinguished with an example of each.",
+      "The tidal stream is correctly read as a set and a drift from the diamond / table.",
+      "The variation over the tidal cycle (slack at HW/LW, maximum mid-tide, springs vs neaps) is correct.",
+      "The combination into one total set and drift is sound, in correct hydrographic English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "HID318",
+    subjectName: "Hidrografía",
+    subjectId: "pn-s3-hidrografia",
+    unit: "Batimetria",
+    topic: "Operaciones de levantamiento batimetrico: lineas de sonda, espaciamiento e interlineas para la cobertura",
+    week: 12,
+    taskId: "pn-hid318-w12-bathymetric-survey-lines",
+    taskTitle: "Plan Sounding Lines For A Bathymetric Survey",
+    scenario: "As the closing task of the subject a berth pocket in the approach to Altamira is suspected to be shoaling, and a small-craft bathymetric survey is ordered to update the charted depths. The officer asks the cadet to plan the survey lines, integrating the echo sounder and tide work from earlier weeks.",
+    instructions: [
+      "Explain the aim: run planned sounding lines with a single-beam echo sounder, or a multibeam swath, to map the depths, which will be reduced to chart datum (integrating weeks 6 and 7).",
+      "Plan the line spacing and interlines for adequate coverage: run the main lines parallel to the depth contours at a regular spacing, add cross-check lines perpendicular to them, and close the spacing where the depth changes fast, stating the trade-off that closer lines give better coverage but take more time.",
+      "State the corrections applied to the raw soundings before charting: the transducer draught, the sound speed in the water, and the reduction to chart datum using the height of tide at the moment of sounding.",
+      "Report the survey-line plan and how the results will update the chart, in clear hydrographic English."
+    ],
+    deliverable: "A sounding-line survey plan in English covering the line spacing and cross-check lines for coverage, the closer spacing where depth changes fast, the corrections to raw soundings, and the reduction to chart datum, ending in an updated chart.",
+    assessmentCriteria: [
+      "The survey aim and instruments (single-beam / multibeam) are correctly stated.",
+      "The line spacing, cross-check lines and closer spacing over fast-changing depth are soundly planned with the coverage-versus-time trade-off.",
+      "The corrections (transducer draught, sound speed, reduction to chart datum) are correct.",
+      "The plan and its link to updating the chart are clear, in correct hydrographic English."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -700,6 +932,122 @@ export const pnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Proyecciones",
+    topic: "Proyeccion gnomonica y la derrota ortodromica (great circle)",
+    week: 9,
+    taskId: "pn-car319-w09-gnomonic-great-circle",
+    taskTitle: "Use A Gnomonic Chart For Great-Circle Sailing",
+    scenario: "The vessel is to make a long ocean passage where following the great circle saves distance over the rhumb line. The officer asks the cadet to explain how the gnomonic chart is used to plan it and transfer it to the working Mercator chart.",
+    instructions: [
+      "Explain the key property of the gnomonic projection: a great circle plots as a STRAIGHT line, unlike the Mercator chart where the rhumb line is straight and the great circle appears curved.",
+      "Describe the planning method: draw the straight great-circle track on the gnomonic chart between departure and destination, then take off the latitude and longitude of several positions along it.",
+      "Transfer those intermediate positions to the Mercator chart and join them by rhumb lines, so the great circle is followed as a series of short rhumb-line legs with a slightly changing course on each.",
+      "State one limitation of the gnomonic chart (courses and distances cannot be measured directly on it because it is not conformal) and report the plan in clear cartographic English."
+    ],
+    deliverable: "A note in English explaining why a great circle is a straight line on a gnomonic chart, the method of taking off intermediate positions and transferring them to the Mercator chart as rhumb-line legs, and one limitation of the gnomonic chart.",
+    assessmentCriteria: [
+      "The straight-line great-circle property of the gnomonic projection is correctly explained and contrasted with Mercator.",
+      "The method of taking off positions and transferring them to the Mercator chart is correct.",
+      "The great circle is correctly followed as a series of rhumb-line legs with changing course.",
+      "A valid limitation of the gnomonic chart is given, in clear cartographic English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Sistema de Coordenadas Terrestres",
+    topic: "Coordenadas UTM: husos, zonas y lectura de una posicion",
+    week: 10,
+    taskId: "pn-car319-w10-utm-coordinates",
+    taskTitle: "Read A Position In UTM Coordinates",
+    scenario: "A port plan and a survey drawing for the Altamira terminal give positions in UTM eastings and northings rather than latitude and longitude. The officer asks the cadet to read a UTM position and explain when the grid is used.",
+    instructions: [
+      "Explain the UTM grid: the world is divided into 6-degree-wide zones, each with a central meridian, and a position is given as the zone plus an easting and a northing in metres.",
+      "State how the coordinates are measured: the easting from a false origin (the central meridian is set at 500 000 m E) so eastings stay positive, and the northing from the equator (with a false northing added in the southern hemisphere).",
+      "Read the given UTM position, zone 14N, easting 512 000 m E, northing 2 480 000 m N, and say roughly where it lies relative to the central meridian (east of it, since the easting is greater than 500 000).",
+      "Explain when UTM is used (port plans, surveys and small areas) versus geographic latitude and longitude for chart navigation, and report the position in clear cartographic English."
+    ],
+    deliverable: "A note in English reading a UTM position (zone 14N, E 512 000, N 2 480 000), explaining the zones and the false easting and northing, and when UTM is used instead of latitude and longitude.",
+    assessmentCriteria: [
+      "The UTM grid of 6-degree zones with a central meridian is correctly explained.",
+      "The false easting (500 000 m at the central meridian) and the northing from the equator are correct.",
+      "The given position is read correctly and placed east of the central meridian.",
+      "The use of UTM versus geographic coordinates is correctly explained, in clear cartographic English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Proyecciones",
+    topic: "Partes meridionales y la derrota loxodromica en Mercator (latitudes crecientes)",
+    week: 11,
+    taskId: "pn-car319-w11-meridional-parts-mercator-sailing",
+    taskTitle: "Find A Course By Mercator Sailing Using Meridional Parts",
+    scenario: "The officer asks the cadet to find the rhumb-line course between two well-separated positions by Mercator sailing, using meridional parts, the analytic method that lies behind reading a course off the chart.",
+    instructions: [
+      "Explain meridional parts: because the Mercator latitude scale stretches toward the poles, the meridional parts (MP) of a latitude give its distance from the equator measured in units of longitude minutes.",
+      "Compute the difference of meridional parts and the difference of longitude from A 20 degrees N to B 30 degrees N with a longitude change of 10 degrees E: using MP(30) = 1876.9 and MP(20) = 1217.4, DMP = 1876.9 - 1217.4 = 659.5, and DLo = 10 degrees = 600 minutes.",
+      "Find the rhumb-line course from tangent(course) = DLo / DMP = 600 / 659.5 = 0.9098, so the course angle = arctangent(0.9098) = 42.3 degrees, giving 042 T in the NE quadrant.",
+      "Find the distance from distance = difference of latitude / cosine(course) = 600 / cos 42.3 = 600 / 0.7396 = 811 NM, and report the course as three figures and the distance in nautical miles, in clear cartographic English."
+    ],
+    deliverable: "A Mercator-sailing note in English giving the difference of meridional parts (659.5), the course from tangent(course) = DLo / DMP (042 T) and the distance from difference of latitude / cosine(course) (811 NM), with the working shown.",
+    assessmentCriteria: [
+      "Meridional parts are correctly explained and DMP is correct (1876.9 - 1217.4 = 659.5).",
+      "The course is correct (arctangent(600/659.5) = 42.3 degrees, i.e. 042 T) in the correct quadrant.",
+      "The distance is correct (600 / cos 42.3 = 811 NM).",
+      "The course is given as three figures and the distance in NM, in clear cartographic English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "CAR319",
+    subjectName: "Cartografía",
+    subjectId: "pn-s3-cartografia",
+    unit: "Cartas Náuticas",
+    topic: "Calculo y trazado de la proyeccion Mercator: construccion de la reticula y medicion de distancias en la escala de latitudes",
+    week: 12,
+    taskId: "pn-car319-w12-mercator-graticule-construction",
+    taskTitle: "Construct And Verify A Mercator Graticule",
+    scenario: "As the closing task of the subject the cadet must lay off a blank Mercator plotting sheet for a passage. The officer asks the cadet to construct the graticule correctly and prove why distance is measured on the latitude scale, integrating scale and projection.",
+    instructions: [
+      "Explain that on a Mercator sheet the meridians are drawn as equally spaced parallel lines, but the parallels of latitude are spaced INCREASINGLY farther apart toward the poles, in proportion to the meridional parts.",
+      "Lay off the latitude spacing using meridional parts: the height on the sheet between two parallels is proportional to their difference of meridional parts, so the degree between 40 and 41 N is taller than the degree between 20 and 21 N (DMP is larger at higher latitude).",
+      "Explain why distance must therefore be measured on the LATITUDE (side) scale at the level of the measurement, never on the longitude scale (integrating week 6), because there 1 minute of latitude equals 1 nautical mile.",
+      "Report the construction of the graticule and the distance-measuring rule, integrating scale and projection, in clear cartographic English."
+    ],
+    deliverable: "A note in English constructing a Mercator graticule with meridians equally spaced and parallels spaced by meridional parts (taller degrees at higher latitude), and explaining why distance is measured on the latitude scale at the level of the measurement.",
+    assessmentCriteria: [
+      "The equally spaced meridians and the increasingly spaced parallels are correctly explained.",
+      "The latitude spacing is correctly tied to meridional parts (taller degree at higher latitude).",
+      "The rule to measure distance on the latitude scale at the level of the measurement is correct and justified (1 minute of latitude = 1 NM).",
+      "The construction integrates scale and projection, in clear cartographic English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "GEA320",
     subjectName: "Geometría Analítica",
     subjectId: "pn-s3-geometria-analitica",
@@ -927,6 +1275,122 @@ export const pnSemesterIiiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Linea recta",
+    topic: "Angulo entre dos rectas",
+    week: 9,
+    taskId: "pn-gea320-w09-angle-between-lines",
+    taskTitle: "Find The Angle At Which Two Track Lines Cross",
+    scenario: "Two track lines cross on a plotting sheet, and the angle at which they cut matters for the reliability of a fix. The officer asks the cadet to find the crossing angle from the slopes of the two lines using coordinate geometry.",
+    instructions: [
+      "State the formula for the angle between two lines from their slopes: tangent(theta) = absolute value of ((m2 - m1) / (1 + m1 x m2)).",
+      "For line 1 with slope m1 = 1/2 and line 2 with slope m2 = 3, substitute: tangent(theta) = absolute value of ((3 - 0.5) / (1 + 0.5 x 3)) = absolute value of (2.5 / 2.5) = 1.",
+      "Find the angle: theta = arctangent(1) = 45 degrees.",
+      "Relate the result to navigation: a good angle of cut between two position lines is near 90 degrees, and a shallow crossing gives an uncertain fix, and report the angle in clear English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the angle between the two lines from tangent(theta) = absolute value of ((m2 - m1)/(1 + m1 m2)) = 1, so theta = 45 degrees, with the working and the navigational meaning of the angle of cut.",
+    assessmentCriteria: [
+      "The angle-between-lines formula is stated correctly.",
+      "The substitution is correct (tangent(theta) = 2.5 / 2.5 = 1).",
+      "The angle is correct (theta = 45 degrees).",
+      "The link to the angle of cut is sound, in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Parabola, elipse e hiperbola",
+    topic: "Parabola con vertice en el origen: ecuacion y foco",
+    week: 10,
+    taskId: "pn-gea320-w10-parabola-reflector",
+    taskTitle: "Model A Parabolic Reflector With A Parabola",
+    scenario: "A parabolic reflector behind a signal lamp or a radar antenna focuses at its focus. The officer asks the cadet to model the reflector with the equation of a parabola with vertex at the origin and locate the focus.",
+    instructions: [
+      "Write the equation of a parabola with vertex at the origin opening along its axis: y squared = 4 p x, where p is the focal distance from the vertex to the focus.",
+      "For a reflector with p = 0.5 m, write y squared = 4 x 0.5 x x = 2 x, and state that the focus lies at (0.5, 0), where the lamp or feed is placed.",
+      "Explain the operational point of the shape: rays coming from the focus reflect off the parabola into a parallel beam (and parallel rays coming in reflect to the focus), which is why the source sits at the focus.",
+      "Report the equation, the focus and the reasoning in clear English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the parabola y squared = 2 x for a focal distance p = 0.5 m, the focus at (0.5, 0), and why the source is placed at the focus to give a parallel beam.",
+    assessmentCriteria: [
+      "The parabola with vertex at the origin is written correctly (y squared = 4 p x).",
+      "The equation and focus are correct for p = 0.5 m (y squared = 2 x, focus (0.5, 0)).",
+      "The focus-to-parallel-beam property is correctly explained.",
+      "The result is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Parabola, elipse e hiperbola",
+    topic: "Hiperbola con centro en el origen: definicion por diferencia de distancias y linea de posicion hiperbolica",
+    week: 11,
+    taskId: "pn-gea320-w11-hyperbola-position-line",
+    taskTitle: "Model A Hyperbolic Line Of Position",
+    scenario: "In hyperbolic radio navigation (the Loran-C principle) a constant difference in distance from two transmitters defines a hyperbolic position line. The officer asks the cadet to model that line with the equation of a hyperbola centred at the origin.",
+    instructions: [
+      "State the hyperbola definition: it is the locus of points whose difference of distances to two fixed foci (the two transmitters) is constant and equal to 2a, and write it as x squared / a squared - y squared / b squared = 1, with the foci at (plus or minus c, 0) and c squared = a squared + b squared.",
+      "For foci at (plus or minus 5, 0), so c = 5, and a constant distance-difference of 2a = 6, so a = 3, find b squared = c squared - a squared = 25 - 9 = 16.",
+      "Write the resulting equation: x squared / 9 - y squared / 16 = 1.",
+      "Explain the navigation meaning: each measured time-difference from the transmitter pair puts the ship on one such hyperbola, and crossing two hyperbolas from two pairs gives the fix, and report the equation and interpretation in clear English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the hyperbola x squared / 9 - y squared / 16 = 1 from foci at (plus or minus 5, 0) and 2a = 6, with the difference-of-distances definition and the hyperbolic-position-line interpretation.",
+    assessmentCriteria: [
+      "The difference-of-distances definition and the standard form with c squared = a squared + b squared are correct.",
+      "The values are correct (c = 5, a = 3, b squared = 25 - 9 = 16).",
+      "The equation is correct (x squared / 9 - y squared / 16 = 1).",
+      "The hyperbolic-position-line interpretation is sound, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "GEA320",
+    subjectName: "Geometría Analítica",
+    subjectId: "pn-s3-geometria-analitica",
+    unit: "Geometría Analítica del Espacio",
+    topic: "Ecuacion de la superficie esferica con centro fuera del origen: esferas de distancia y la situacion GNSS",
+    week: 12,
+    taskId: "pn-gea320-w12-sphere-off-origin-gnss",
+    taskTitle: "Use Range Spheres To Model A GNSS Fix",
+    scenario: "As the closing task of the subject the cadet models how GNSS fixes the ship at the intersection of range spheres centred on the satellites, using the equation of a sphere with its centre away from the origin and integrating the sphere and circle work of earlier weeks.",
+    instructions: [
+      "Write the equation of a sphere with centre (h, k, l) and radius r: (x - h) squared + (y - k) squared + (z - l) squared = r squared, where the centre is a satellite position and r is the measured range (pseudorange).",
+      "For a satellite at (2, 3, 6) with a measured range r = 7, write (x - 2) squared + (y - 3) squared + (z - 6) squared = 49.",
+      "Test the candidate point (2, 3, 13): (0) squared + (0) squared + (7) squared = 49, so the point lies ON the sphere, confirming it is one possible position at that range.",
+      "Explain that each satellite gives one range sphere and the intersection of three spheres fixes the position (a fourth resolves the receiver clock error), tying back to the inside/on/outside test of week 8, and report the equation and reasoning in clear English."
+    ],
+    deliverable: "A coordinate-geometry note in English giving the range sphere (x - 2) squared + (y - 3) squared + (z - 6) squared = 49 for a satellite at (2, 3, 6) and range 7, an on-sphere test, and the intersection-of-spheres model of a GNSS fix.",
+    assessmentCriteria: [
+      "The sphere with centre away from the origin is written correctly.",
+      "The equation is correct for the satellite at (2, 3, 6) and range 7.",
+      "The on-sphere test is correct (7 squared = 49, point on the sphere).",
+      "The intersection-of-spheres GNSS model is soundly explained and linked to earlier weeks, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -1164,6 +1628,122 @@ export const pnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinematica de Particulas y Cuerpos Rigidos",
+    topic: "Traslacion de cuerpos rigidos",
+    week: 9,
+    taskId: "pn-din321-w09-rigid-body-translation",
+    taskTitle: "Describe A Vessel In Pure Translation",
+    scenario: "The vessel is steaming ahead on a steady straight course without turning. The officer asks the cadet to describe this motion as the translation of a rigid body and to distinguish it from rotation.",
+    instructions: [
+      "Define the translation of a rigid body: every point of the body has the same velocity and the same acceleration at any instant, and any line drawn in the body stays parallel to itself (there is no rotation).",
+      "Distinguish rectilinear translation (a straight path, such as steaming steadily ahead) from curvilinear translation (a curved path with the body not rotating), giving a shipboard example of each.",
+      "State that because every point moves alike, the whole ship can be treated as a single particle at its centre of gravity for this motion, linking back to the particle dynamics of weeks 1 and 2.",
+      "Report the description in clear English."
+    ],
+    deliverable: "A note in English defining translation of a rigid body (all points move alike, no rotation), distinguishing rectilinear from curvilinear translation with examples, and treating the ship as a particle at its centre of gravity.",
+    assessmentCriteria: [
+      "Translation is correctly defined (all points share velocity and acceleration, no rotation).",
+      "Rectilinear and curvilinear translation are correctly distinguished with examples.",
+      "The link to treating the ship as a particle at its centre of gravity is sound.",
+      "The description is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinematica de Particulas y Cuerpos Rigidos",
+    topic: "Rotacion de un cuerpo rigido respecto a un eje fijo: velocidad y aceleracion angular",
+    week: 10,
+    taskId: "pn-din321-w10-fixed-axis-rotation",
+    taskTitle: "Analyse A Winch Drum Rotating About A Fixed Axis",
+    scenario: "A mooring winch drum spins up about its fixed shaft as it heaves in a line. The officer asks the cadet to relate the drum's angular motion to the linear motion of a point on its rim.",
+    instructions: [
+      "State the fixed-axis relations for a point at radius r: linear speed v = omega r, tangential acceleration a_t = alpha r, and centripetal acceleration a_n = omega squared r.",
+      "The drum accelerates from rest to omega = 10 rad/s in t = 5 s, so the angular acceleration alpha = (omega - omega0) / t = (10 - 0) / 5 = 2 rad/s squared.",
+      "For a point on the drum rim at r = 0.4 m, find the rim speed at 5 s: v = omega r = 10 x 0.4 = 4 m/s, and the tangential acceleration a_t = alpha r = 2 x 0.4 = 0.8 m/s squared.",
+      "Report the angular acceleration and the rim speed and tangential acceleration with units, in clear English."
+    ],
+    deliverable: "A rotation note in English giving the angular acceleration (alpha = 2 rad/s squared), the rim speed (v = 4 m/s) and the tangential acceleration (a_t = 0.8 m/s squared) for the drum, with the working shown.",
+    assessmentCriteria: [
+      "The fixed-axis relations (v = omega r, a_t = alpha r, a_n = omega squared r) are stated correctly.",
+      "The angular acceleration is correct (alpha = 10 / 5 = 2 rad/s squared).",
+      "The rim speed and tangential acceleration are correct (v = 4 m/s, a_t = 0.8 m/s squared).",
+      "The results carry correct units, in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Cinetica de cuerpos rigidos: momento de inercia y M = I alpha",
+    week: 11,
+    taskId: "pn-din321-w11-rigid-body-kinetics",
+    taskTitle: "Find The Torque To Spin Up A Winch Drum",
+    scenario: "Continuing from the winch drum, the officer asks the cadet to apply rotational kinetics to find the torque the motor must supply to give the drum its angular acceleration.",
+    instructions: [
+      "State the rotational form of Newton's second law: the net torque M = I alpha, where I is the moment of inertia of the body about its axis, and for a solid cylinder I = (1/2) m R squared.",
+      "For a drum of mass m = 200 kg and radius R = 0.4 m, compute the moment of inertia: I = 0.5 x 200 x 0.4 squared = 0.5 x 200 x 0.16 = 16 kg m squared.",
+      "To give the angular acceleration alpha = 2 rad/s squared found in week 10, compute the required torque: M = I alpha = 16 x 2 = 32 N m, noting that friction in the bearings adds to this in practice.",
+      "Report the moment of inertia and the required torque with units, in clear English."
+    ],
+    deliverable: "A kinetics note in English giving the moment of inertia of the drum (I = 16 kg m squared) and the torque required for alpha = 2 rad/s squared (M = I alpha = 32 N m), with the working and a note that friction adds to it.",
+    assessmentCriteria: [
+      "The rotational second law (M = I alpha) and the cylinder inertia (I = (1/2) m R squared) are stated correctly.",
+      "The moment of inertia is correct (0.5 x 200 x 0.16 = 16 kg m squared).",
+      "The required torque is correct (16 x 2 = 32 N m) with friction noted.",
+      "The results carry correct units, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "DIN321",
+    subjectName: "Dinámica",
+    subjectId: "pn-s3-dinamica",
+    unit: "Cinematica de Particulas y Cuerpos Rigidos",
+    topic: "Movimiento general en el plano: traslacion mas rotacion y centro instantaneo (buque en la curva de evolucion)",
+    week: 12,
+    taskId: "pn-din321-w12-general-plane-motion",
+    taskTitle: "Analyse A Vessel's Turn As General Plane Motion",
+    scenario: "As the closing task of the subject the vessel is in a turning circle, advancing while it yaws, which is general plane motion. The officer asks the cadet to analyse it as translation plus rotation and to explain the pivot point, integrating the earlier rigid-body weeks.",
+    instructions: [
+      "State that general plane motion is the translation of the centre of gravity plus a rotation about the centre of gravity, so the velocity of any point equals the velocity of the centre of gravity plus omega times its distance from the centre of gravity.",
+      "For a ship advancing at v_G = 6 m/s and yawing at omega = 0.05 rad/s (the rate of turn), find the extra tangential speed of a point at the bow r = 60 m forward of the centre of gravity: omega r = 0.05 x 60 = 3 m/s.",
+      "Explain the instantaneous centre of rotation (the pivot point of the turn) and why, with the pivot lying forward, the stern swings out with a large transverse velocity, which is the practical danger in a turn.",
+      "Report the analysis and the pivot-point consequence in clear English, integrating translation (week 9), rotation (week 10) and kinetics (week 11)."
+    ],
+    deliverable: "A general-plane-motion note in English decomposing the turn into translation of the centre of gravity plus rotation, giving the bow's extra speed (omega r = 3 m/s), and explaining the pivot point and why the stern swings out.",
+    assessmentCriteria: [
+      "General plane motion is correctly decomposed into translation plus rotation about the centre of gravity.",
+      "The extra tangential speed at the bow is correct (0.05 x 60 = 3 m/s).",
+      "The pivot point and the stern swinging out are correctly explained as the practical danger.",
+      "The analysis integrates the earlier rigid-body weeks, in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "ING317",
     subjectName: "Inglés Marítimo III",
     subjectId: "pn-s3-ingles-maritimo-iii",
@@ -1391,6 +1971,122 @@ export const pnSemesterIiiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Introduccion: Ingles Maritimo",
+    topic: "Comando del timonel: ordenes al timonel (helm orders SMCP) y su repeticion",
+    week: 9,
+    taskId: "pn-ing317-w09-helm-orders",
+    taskTitle: "Give And Acknowledge Standard Helm Orders",
+    scenario: "The vessel is conned through the channel and the officer gives helm orders to the helmsman, who must repeat each one back exactly. The officer asks the cadet to give a set of standard SMCP helm orders and show the correct read-back.",
+    instructions: [
+      "Give a set of standard SMCP helm orders in English, for example 'Starboard ten', 'Midships', 'Steady', 'Steady as she goes', 'Hard-a-port' and 'Ease to five'.",
+      "Show the helmsman's correct read-back for each, since every order is repeated back word for word and its completion reported, for example 'Starboard ten, wheel is ten to starboard'.",
+      "Explain why every helm order is acknowledged and repeated (to confirm the correct rudder is applied) and how the wheel being over and then steady is reported.",
+      "Report a short conning exchange of orders and read-backs in correct SMCP English."
+    ],
+    deliverable: "A short conning exchange in English giving standard SMCP helm orders with the helmsman's exact read-back and completion report, and a note on why orders are repeated back.",
+    assessmentCriteria: [
+      "The helm orders are standard and correctly worded (SMCP style).",
+      "The read-back is exact and the completion is reported for each order.",
+      "The reason for repeating orders back is correctly explained.",
+      "The exchange reads as a real conning exchange, in correct SMCP English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Introduccion: Ingles Maritimo",
+    topic: "Rutinas de operacion a bordo: ordenes estandarizadas de maquinas (engine / telegraph orders)",
+    week: 10,
+    taskId: "pn-ing317-w10-engine-orders",
+    taskTitle: "Pass Standard Engine Orders Bridge To Engine Room",
+    scenario: "The vessel is manoeuvring alongside and the bridge passes engine (telegraph) orders to the engine room. The officer asks the cadet to give the standard engine order sequence in English with its acknowledgement.",
+    instructions: [
+      "Give the standard engine order sequence in English, for example 'Stand by engines', 'Dead slow ahead', 'Slow ahead', 'Half ahead', 'Full ahead', 'Stop engines', 'Slow astern' and 'Finished with engines'.",
+      "Show the engine room's acknowledgement or read-back and how the movement made is confirmed back to the bridge.",
+      "Explain 'stand by engines' and 'finished with engines' and when each is used in a manoeuvre.",
+      "Report a short manoeuvring exchange of engine orders and acknowledgements in correct maritime English."
+    ],
+    deliverable: "A short manoeuvring exchange in English giving the standard engine order sequence with the engine room's acknowledgement, and an explanation of 'stand by engines' and 'finished with engines'.",
+    assessmentCriteria: [
+      "The engine orders are standard and correctly worded and sequenced.",
+      "The engine room's acknowledgement and confirmation are correct.",
+      "'Stand by engines' and 'finished with engines' are correctly explained.",
+      "The exchange reads professionally, in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Introduccion: Ingles Maritimo",
+    topic: "Chequeo de abastecimientos y procedimientos de manejo de carga: cantidad, peso y secuencia",
+    week: 11,
+    taskId: "pn-ing317-w11-stores-cargo-handling",
+    taskTitle: "Check Stores And Brief A Cargo Operation In English",
+    scenario: "Stores are being received and a cargo operation is about to start. The officer asks the cadet to check the delivery against the order and brief the cargo-handling procedure step by step in English.",
+    instructions: [
+      "Check a delivery of stores against the order, stating the quantities, units and weights and querying any discrepancy, for example 'we ordered twenty drums but only eighteen have been delivered'.",
+      "Brief a cargo-handling procedure step by step using sequencing language (first, then, before, after) and the imperative or passive, for example 'first the hatch will be opened, then the lashings are removed'.",
+      "Include one clear safety instruction and one measurement or quantity in the brief, for example 'do not exceed the safe working load of five tonnes'.",
+      "Report the stores check and the cargo brief in clear maritime English."
+    ],
+    deliverable: "A stores check and cargo-operation brief in English, stating quantities, units and weights with a discrepancy query, a step-by-step procedure with sequencing language, and one safety instruction with a measurement.",
+    assessmentCriteria: [
+      "The stores check states quantities, units and weights and queries a discrepancy correctly.",
+      "The cargo brief is a clear step-by-step procedure with correct sequencing language.",
+      "One safety instruction and one measurement or quantity are correctly included.",
+      "The report is clear and professional, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "ING317",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "pn-s3-ingles-maritimo-iii",
+    unit: "Introduccion: Ingles Maritimo",
+    topic: "Puestos a bordo y dar y recibir direcciones a bordo y en puerto: maniobra de atraque",
+    week: 12,
+    taskId: "pn-ing317-w12-mooring-directions",
+    taskTitle: "Direct A Mooring Operation And Report To The Bridge",
+    scenario: "As the closing task of the subject the vessel is berthing at Altamira, and the cadet at a mooring station must direct the line handlers and report to the bridge, integrating helm orders, engine orders and line-handling directions in real maritime English following SMCP.",
+    instructions: [
+      "Give and receive directions between stations using SMCP line-handling English, for example 'Send out the head line', 'Make fast fore and aft', 'Slack away the spring', 'Heave in the stern line' and 'Hold on'.",
+      "Report distances and readiness to the bridge, for example 'ten metres to the berth', 'forward is all fast' and 'let go the tug'.",
+      "Integrate the manoeuvre picture by relaying and acknowledging one helm order and one engine order from the bridge during the berthing.",
+      "Report the whole berthing exchange as a short multi-turn script in correct SMCP-style English."
+    ],
+    deliverable: "A short multi-turn berthing script in English directing the mooring parties with SMCP line-handling orders, reporting distances and readiness to the bridge, and integrating one helm order and one engine order.",
+    assessmentCriteria: [
+      "The line-handling orders are standard SMCP and used correctly at the stations.",
+      "Distances and readiness are reported clearly to the bridge.",
+      "One helm order and one engine order are correctly integrated into the manoeuvre.",
+      "The exchange is a coherent multi-turn berthing script, in correct SMCP-style English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -1628,6 +2324,122 @@ export const pnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Manejo de Botes y Embarcaciones menores",
+    topic: "Manejo del bote con motor: aproximacion a una persona en el agua y atraque",
+    week: 9,
+    taskId: "pn-pmr322-w09-powered-boat-handling",
+    taskTitle: "Handle A Powered Rescue Boat In A Recovery",
+    scenario: "Following on from the man-overboard drill, the cadet is coxswain of the powered rescue boat and must recover a person from the water. The bosun asks the cadet to set out how the boat is handled during the approach and recovery, from the boat-handling side.",
+    instructions: [
+      "Describe getting the powered boat under way and manoeuvring toward the casualty: approach from downwind or down-current so the boat is set toward the person, and keep the propeller clear of the casualty by going to neutral or stopping the engine when close.",
+      "Describe coming alongside the casualty and recovering them on the lee side, keeping the boat steady and under control.",
+      "State how wind and current affect a small boat's handling and how the coxswain allows for them during the approach.",
+      "Report the boat-handling plan in clear maritime English."
+    ],
+    deliverable: "A note in English setting out the powered-boat handling for a recovery: the approach from downwind or down-current, keeping the propeller clear, the lee-side recovery, and allowing for wind and current.",
+    assessmentCriteria: [
+      "The approach direction (downwind / down-current) and propeller safety are correct.",
+      "The lee-side recovery keeping the boat steady is correctly described.",
+      "The effect of wind and current on handling is soundly explained.",
+      "The plan is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Uso de anticorrosivos, pinturas y solventes",
+    topic: "Tipos de pintura y anticorrosivos y su uso; preparacion de superficie",
+    week: 10,
+    taskId: "pn-pmr322-w10-paint-anticorrosive-systems",
+    taskTitle: "Prepare And Paint A Corroded Deck Fitting",
+    scenario: "A rusted bulwark fitting on deck must be treated against corrosion before it wastes further. The bosun asks the cadet to plan the surface preparation and the paint system, and to state the solvent and paint safety.",
+    instructions: [
+      "Describe the surface preparation: remove rust and scale by chipping, wire-brushing or sanding down to sound metal, then clean and degrease the surface, because paint fails on a poor surface.",
+      "Describe the paint system in order and the purpose of each coat: the primer or anticorrosive coat to bond and protect the metal, the intermediate or undercoat to build the film, and the topcoat or finish for durability and appearance.",
+      "State the solvent and paint safety: good ventilation, personal protective equipment, flammable-store precautions, and no painting or spraying near hot work or ignition sources.",
+      "Report the preparation and painting plan in clear maritime English."
+    ],
+    deliverable: "A note in English giving the surface preparation (down to sound metal, cleaned and degreased), the paint system in order (primer or anticorrosive, undercoat, topcoat) with the purpose of each, and the solvent and paint safety.",
+    assessmentCriteria: [
+      "The surface preparation is correct and its importance explained.",
+      "The paint system is in the right order with the purpose of each coat.",
+      "The solvent and paint safety measures are sound.",
+      "The plan is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Pintura de ductos",
+    topic: "Identificacion y codigo de colores de tuberias: agua, combustible, lineas de aire y ductos de altas temperaturas",
+    week: 11,
+    taskId: "pn-pmr322-w11-pipe-colour-coding",
+    taskTitle: "Identify And Mark Shipboard Pipe Systems",
+    scenario: "The pipes running through a space must be identified and colour-marked so any crew member recognises the service and operates the right line in an emergency. The officer asks the cadet to set out the identification scheme.",
+    instructions: [
+      "Explain why pipe identification and colour-coding matter (finding the right valve fast in an emergency and avoiding a dangerous mistake) and that the colours and marking bands follow a recognised standard.",
+      "Assign identification to the main services, stating a distinguishing colour or marking for each: fresh and sea water lines, fuel and oil lines, compressed-air lines, and high-temperature ducts such as exhaust and steam, with the extra precaution that hot ducts are lagged or insulated.",
+      "Describe how directional flow arrows and content labels are added so the flow direction and the contents are clear at a glance.",
+      "Report the pipe-identification scheme in clear maritime English."
+    ],
+    deliverable: "A note in English giving the pipe-identification scheme: why it matters, a distinguishing colour or marking for water, fuel, air and high-temperature ducts (with lagging for hot ducts), and the flow arrows and content labels.",
+    assessmentCriteria: [
+      "The reason for pipe identification and colour-coding is correctly explained.",
+      "The main services are each given a distinguishing marking, with hot ducts lagged.",
+      "The flow arrows and content labels are correctly described.",
+      "The scheme is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "PMR322",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "pn-s3-practicas-marineras-iii",
+    unit: "Procedimientos para controlar vias de agua",
+    topic: "Materiales para control de vias de agua: apuntalamiento, cunas, cajon de cemento y estopar una via",
+    week: 12,
+    taskId: "pn-pmr322-w12-damage-control-leak",
+    taskTitle: "Shore Up And Plug A Hull Leak",
+    scenario: "As the closing task of the subject water is entering through a cracked plate below the waterline and the flooding must be contained. The officer asks the cadet to set out the damage-control actions, building on the types of water ingress from week 2.",
+    instructions: [
+      "Identify the leak and choose the control materials: wooden wedges and plugs, shoring props and pads, a collision mat over the hole from outside, and a cement box for a lasting repair.",
+      "Describe shoring up the weakened area and plugging or wedging the leak, working from the source, and reducing the head of water on the hole where a list or trim can be used to lift it nearer the surface.",
+      "State the safety and reporting actions: sound the bilges, start the pumps, muster the damage-control party, and keep the bridge informed of the rate of ingress.",
+      "Report the damage-control actions and the status in clear maritime English."
+    ],
+    deliverable: "A note in English giving the damage-control response to a hull leak: the control materials chosen, shoring and plugging the leak, reducing the head of water, and the safety and reporting actions with a status to the bridge.",
+    assessmentCriteria: [
+      "The leak is identified and appropriate control materials are chosen.",
+      "Shoring and plugging the leak and reducing the head of water are correctly described.",
+      "The safety and reporting actions (sound bilges, pumps, muster party, inform bridge) are complete.",
+      "The actions and status are reported clearly, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "C0011",
     subjectName: "Educación Física III",
     subjectId: "pn-s3-educacion-fisica-iii",
@@ -1852,6 +2664,122 @@ export const pnSemesterIiiTasks: AcademicMissionTask[] = [
       "The results are interpreted by capacity for shipboard work, not appearance, weight or records.",
       "The personal plan is simple, sustainable and integrates earlier weeks.",
       "The plan explicitly sets no extreme targets, only steady safe improvement, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Condicion fisica",
+    topic: "Fuerza muscular funcional para faenas de cubierta (sin metas de peso ni de carga maxima)",
+    week: 9,
+    taskId: "pn-c0011iii-w09-functional-strength",
+    taskTitle: "Build Functional Strength For Deck Work",
+    scenario: "Deck work such as hauling lines, carrying stores and closing heavy watertight doors demands usable strength. The training officer asks the cadet to explain functional muscular strength for shipboard tasks and how it is built safely.",
+    instructions: [
+      "Explain functional (usable) muscular strength for shipboard tasks: the legs and core working with the back and grip together, rather than isolated maximum lifts.",
+      "Give two deck tasks that need strength and how the body should be used for them (lift with the legs not the back, keep the load close to the body).",
+      "Describe one safe way to build and maintain functional strength on board, using bodyweight and practical work, framed as a general habit.",
+      "Keep all advice as safe general habits, with NO maximum-lift testing, no body-weight or muscle-size targets and no extreme programmes, and report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining functional muscular strength for deck work, two tasks that need it with correct body use, and a safe general way to build it, with no maximum-lift testing, weight targets or extreme programmes.",
+    assessmentCriteria: [
+      "Functional strength for shipboard tasks is correctly explained (legs, core, back and grip together).",
+      "The two deck tasks and the correct body use (legs not back, load close) are sound.",
+      "A safe general way to build functional strength is given.",
+      "The advice stays as safe general habits with no maximum-lift testing, weight targets or extreme programmes, in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Percepcion y coordinacion motriz",
+    topic: "Equilibrio en cubierta con el buque en movimiento; estabilidad del tronco",
+    week: 10,
+    taskId: "pn-c0011iii-w10-balance-moving-deck",
+    taskTitle: "Keep Balance On A Moving Deck",
+    scenario: "Moving safely about a rolling and pitching deck demands good balance. The training officer asks the cadet to explain dynamic balance on a moving deck and how it is trained.",
+    instructions: [
+      "Explain dynamic balance on a moving deck: keep a low centre of gravity, feet apart, knees soft, move with the roll, and keep one hand for the ship.",
+      "Explain the role of trunk and core stability in staying upright and in controlled lifting on a moving deck.",
+      "Describe one simple way balance and core stability are trained, framed as a general habit.",
+      "State the safety point that a fall on deck or on a ladder in a seaway is a real injury risk, and report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining dynamic balance on a moving deck (low centre of gravity, feet apart, move with the roll, one hand for the ship), the role of core stability, a simple way to train it, and the fall-risk safety point.",
+    assessmentCriteria: [
+      "Dynamic balance on a moving deck is correctly explained.",
+      "The role of trunk and core stability is correct.",
+      "A simple, sound way to train balance is given as a general habit.",
+      "The fall-risk safety point is made, in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Desarrollo fisico integral",
+    topic: "Flexibilidad y movilidad articular para trabajar en espacios confinados y prevenir lesiones",
+    week: 11,
+    taskId: "pn-c0011iii-w11-flexibility-mobility",
+    taskTitle: "Use Flexibility To Work Safely In Tight Spaces",
+    scenario: "Much shipboard work is done in confined spaces and awkward postures, in tank tops, bilges and machinery spaces. The training officer asks the cadet to explain how flexibility and mobility let the cadet work there safely and prevent strains.",
+    instructions: [
+      "Explain joint mobility and muscle flexibility and why they let the cadet reach and work in cramped, awkward positions without straining.",
+      "Give two shipboard situations where limited flexibility risks a strain or injury and how mobility helps.",
+      "Describe simple mobility and stretching as a general habit (warm up before heavy work, gentle range-of-motion movements), integrating the working posture of week 7 and the strength of week 9.",
+      "Keep it as a safe general habit, with no extreme stretching and no performance targets, and report your answer in clear maritime English."
+    ],
+    deliverable: "A note in English explaining joint mobility and flexibility for safe work in confined spaces, two situations where limited flexibility risks injury, and simple mobility work as a general habit that integrates posture and strength, with no extreme stretching or targets.",
+    assessmentCriteria: [
+      "Joint mobility and flexibility for safe work in awkward positions are correctly explained.",
+      "The two situations where limited flexibility risks injury are relevant.",
+      "Simple mobility work is given as a general habit and integrates posture and strength.",
+      "The advice stays safe and general with no extreme stretching or targets, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "pn-s3-educacion-fisica-iii",
+    unit: "Natacion",
+    topic: "Nado en grupo y flotacion para supervivencia: posicion HELP y de grupo (huddle) hacia la embarcacion de salvamento",
+    week: 12,
+    taskId: "pn-c0011iii-w12-group-survival-swim",
+    taskTitle: "Survive As A Group In The Water",
+    scenario: "As the closing task of the subject several people are in the water after abandoning ship and must conserve heat and reach a liferaft together. The instructor asks the cadet to set out group survival in the water, building on the survival swimming of week 3.",
+    instructions: [
+      "Describe flotation and heat conservation with a lifejacket: the HELP (heat escape lessening posture) for one person and the huddle for a group, and why they reduce heat loss.",
+      "Describe moving as a group toward a liferaft or survival craft, staying together and helping the weakest.",
+      "Explain how the earlier fitness weeks (endurance in week 1, survival swimming in week 3, and balance and strength) support survival, framed as the capacity to endure rather than performance.",
+      "Keep the advice safe and general, with no breath-hold or endurance targets, and report the group-survival brief in clear maritime English."
+    ],
+    deliverable: "A group-survival brief in English covering flotation and heat conservation (HELP and the huddle), moving as a group to a survival craft, and how earlier fitness supports the capacity to endure, with no breath-hold or endurance targets.",
+    assessmentCriteria: [
+      "Flotation and heat conservation (HELP and huddle) are correctly described.",
+      "Moving as a group to a survival craft and helping the weakest is correct.",
+      "The link to earlier fitness is framed as capacity to endure, integrating earlier weeks.",
+      "The advice stays safe and general with no breath-hold or endurance targets, in correct maritime English."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -2092,6 +3020,122 @@ export const pnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Empleo del agua en la extincion de incendios",
+    topic: "Efecto del agua de extincion sobre la estabilidad del buque: superficie libre, achique y precauciones",
+    week: 9,
+    taskId: "pn-c0038-w09-firefighting-water-stability",
+    taskTitle: "Control The Stability Risk From Firefighting Water",
+    scenario: "A fire in the accommodation is being fought with large volumes of water, and the water is accumulating in the upper spaces. The officer asks the cadet to manage the danger this creates to the ship's stability.",
+    instructions: [
+      "Explain the danger: water accumulating in spaces, especially high up, adds weight and a free-surface effect, which raises the centre of gravity and reduces stability, risking a dangerous list or even capsize.",
+      "State the precautions during firefighting: use only as much water as is needed, provide drainage through scuppers and freeing ports, and dewater the accumulated water promptly by pumping or draining.",
+      "Explain the warning signs, a developing list and a sluggish, slow roll, and the corrective actions of stopping the inflow of water, dewatering, and correcting the list.",
+      "Report the water-stability control measures in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the free-surface and added-weight danger of accumulated firefighting water, the precautions (minimum water, drainage, prompt dewatering), the warning signs, and the corrective actions.",
+    assessmentCriteria: [
+      "The free-surface and added top-weight danger to stability is correctly explained.",
+      "The precautions (minimum water, drainage, prompt dewatering) are correct.",
+      "The warning signs (developing list, sluggish roll) and corrective actions are correct.",
+      "The measures are reported clearly, in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Planes de control de incendios",
+    topic: "Plan de control de incendios (fire control plan): simbolos SOLAS, ubicacion de equipos y limites contra incendio",
+    week: 10,
+    taskId: "pn-c0038-w10-fire-control-plan",
+    taskTitle: "Use The Ship's Fire Control Plan",
+    scenario: "On joining the ship the cadet must be able to read the fire control plan posted on board. The officer asks the cadet to explain the plan and how it is used to plan an attack and brief the shore brigade.",
+    instructions: [
+      "Explain what the fire control plan is and where it is kept: posted on board and stowed in a marked container outside the accommodation for the shore fire brigade.",
+      "Read the plan using the standard SOLAS symbols: locate the fire stations, the fixed systems and their controls, the fire pumps, the extinguishers, the detection zones, and the fire boundaries (the A and B class divisions) and dampers.",
+      "Explain how the plan is used to plan an attack and to brief the shore brigade, linking to the shore coordination of week 4.",
+      "Report how you would use the plan for a fire in a stated space, in clear maritime English."
+    ],
+    deliverable: "A note in English explaining the fire control plan and where it is kept, reading it for stations, fixed systems, pumps, detection zones and fire boundaries via SOLAS symbols, and using it to plan an attack for a stated space.",
+    assessmentCriteria: [
+      "What the fire control plan is and where it is kept are correct.",
+      "The plan is read correctly for stations, systems, pumps, detection zones and fire boundaries.",
+      "The use of the plan to plan an attack and brief the shore brigade is sound.",
+      "The application to a stated space is clear, in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Tacticas y procedimientos de lucha contra incendio",
+    topic: "Tacticas para incendio con mercancias peligrosas y en buque tanque: consulta IMDG, espuma, enfriamiento y zona de exclusion",
+    week: 11,
+    taskId: "pn-c0038-w11-dangerous-goods-tanker-fire",
+    taskTitle: "Plan Tactics For A Dangerous-Goods Or Tanker Fire",
+    scenario: "A fire involves dangerous goods on deck, or the cargo of a tanker, and needs special tactics. The officer asks the cadet to plan the tactics for such a fire, where the cargo itself is the main hazard.",
+    instructions: [
+      "Explain why these fires are special: reactive or toxic cargoes and the risk of explosion from flammable vapour, so the cargo information must be consulted first (the IMDG Code, the dangerous goods declaration, and the safety data sheet).",
+      "State the tactics: identify the cargo and its hazards, cool the adjacent tanks, containers and boundaries, apply the correct medium (foam for flammable liquids, and avoid water on cargoes that react with it), and control ventilation.",
+      "State the safety measures: keep upwind, set a wide exclusion zone, consider withdrawal for an uncontrollable tanker or dangerous-goods fire, and coordinate with the shore and port.",
+      "Report the tactical plan in clear maritime English."
+    ],
+    deliverable: "A note in English planning tactics for a dangerous-goods or tanker fire: consulting the cargo information first, cooling and the correct extinguishing medium, ventilation control, and the safety measures (upwind, exclusion zone, possible withdrawal, coordination).",
+    assessmentCriteria: [
+      "Why the fire is special and the need to consult IMDG / declaration / safety data sheet first are correct.",
+      "The tactics (identify cargo, cool boundaries, correct medium, control ventilation) are sound.",
+      "The safety measures (upwind, exclusion zone, possible withdrawal, coordination) are correct.",
+      "The plan is reported clearly, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "pn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Reportes e investigaciones de incendios",
+    topic: "Investigacion del incendio, reporte y lecciones aprendidas",
+    week: 12,
+    taskId: "pn-c0038-w12-fire-investigation-lessons",
+    taskTitle: "Investigate A Fire And Report The Lessons Learned",
+    scenario: "As the closing task of the subject a fire has been put out and must now be investigated. The officer asks the cadet to investigate the cause and write the report with the lessons learned, drawing on the whole subject.",
+    instructions: [
+      "Preserve the scene and gather the facts: where the fire started (its seat), the likely source of ignition and the fuel, how it was detected and fought, and what worked or failed, drawing on the command, SCBA and fixed-system work of the earlier weeks.",
+      "Determine the probable cause and the contributing factors objectively (for example a missed hot-work precaution, a blocked detector, or a valve left shut).",
+      "State the lessons learned and the corrective actions to prevent a recurrence, covering procedure, training and maintenance.",
+      "Report the fire investigation and the lessons learned as a written report in clear maritime English."
+    ],
+    deliverable: "A written fire-investigation report in English giving the seat and development of the fire, the probable cause and contributing factors, and the lessons learned with corrective actions, integrating the whole subject.",
+    assessmentCriteria: [
+      "The scene is preserved and the facts (seat, ignition, fuel, detection, response) are gathered soundly.",
+      "The probable cause and contributing factors are determined objectively.",
+      "The lessons learned and corrective actions (procedure, training, maintenance) are sound.",
+      "The investigation is reported as a clear written report, in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
     subjectCode: "C0101",
     subjectName: "Redacción Avanzada",
     subjectId: "pn-s3-redaccion-avanzada",
@@ -2319,6 +3363,122 @@ export const pnSemesterIiiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "Legibilidad en la redaccion",
+    topic: "Evitar redundancias y palabras superfluas: concision en el mensaje operativo",
+    week: 9,
+    taskId: "pn-c0101-w09-concise-message",
+    taskTitle: "Cut A Wordy Message Down To A Concise One",
+    scenario: "A wordy, padded message wastes radio time and can bury its own point. The officer asks the cadet to cut it down to a concise, unambiguous message without losing any essential fact.",
+    instructions: [
+      "Take a wordy operational message and identify the redundant words and padding, for example 'at this present moment in time', 'in the event that', and pairs of synonyms that say the same thing twice.",
+      "Rewrite it concisely, keeping every essential fact (who, what, when and where) and cutting the rest.",
+      "Explain why concision matters operationally (clarity, less radio time, and less chance of a misreading) while keeping the full meaning.",
+      "Report the wordy original and the concise rewrite in clear written English."
+    ],
+    deliverable: "A before-and-after in English showing a wordy operational message, the redundant words and padding identified, and a concise rewrite that keeps every essential fact.",
+    assessmentCriteria: [
+      "The redundant words and padding are correctly identified.",
+      "The rewrite is concise and keeps every essential fact (who, what, when, where).",
+      "The operational reason for concision is soundly explained.",
+      "The before-and-after is clear, in correct written English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "Atributos de los parrafos",
+    topic: "Cohesion en el parrafo: conectores y oraciones enlazadas en una narrativa de sucesos",
+    week: 10,
+    taskId: "pn-c0101-w10-paragraph-cohesion",
+    taskTitle: "Link Events Into A Cohesive Narrative",
+    scenario: "An incident narrative reads as a string of disconnected sentences, so the reader cannot follow the flow. The officer asks the cadet to link the events into a cohesive paragraph.",
+    instructions: [
+      "Explain cohesion as distinct from unity: unity (week 3) is keeping to one main idea, while cohesion is connecting the sentences so the reader follows the flow, using linking words such as then, because, as a result, however and meanwhile.",
+      "Take a set of disconnected event sentences and join them into a cohesive paragraph with appropriate connectors and a clear time order.",
+      "Ensure no sentence is left unconnected and that the sequence and the cause-and-effect are clear.",
+      "Report the cohesive narrative in clear written English."
+    ],
+    deliverable: "A cohesive narrative paragraph in English built from disconnected event sentences, joined with appropriate connectors in clear time order, with a note on cohesion versus unity.",
+    assessmentCriteria: [
+      "Cohesion is correctly distinguished from unity.",
+      "The events are joined into a cohesive paragraph with appropriate connectors.",
+      "No sentence is left unconnected and the sequence and cause-and-effect are clear.",
+      "The narrative is clear, in correct written English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "Claridad en la oracion",
+    topic: "Colocacion de los modificadores y claridad: eliminar modificadores mal colocados en una instruccion operativa",
+    week: 11,
+    taskId: "pn-c0101-w11-modifier-placement",
+    taskTitle: "Fix Misplaced Modifiers In An Operational Order",
+    scenario: "A misplaced modifier makes an operational order read two different ways, which is dangerous when the order must be obeyed exactly. The officer asks the cadet to correct the placement so only one meaning remains.",
+    instructions: [
+      "Explain how a modifier placed in the wrong position attaches to the wrong word and changes the meaning (a misplaced or dangling modifier), and why that is dangerous in an instruction.",
+      "Take an ambiguous operational sentence caused by modifier placement, for example 'Report the container leaking oil to the chief officer', and identify the two possible readings (is the container leaking, or is the report made to the officer who is leaking?).",
+      "Rewrite the sentence so the modifier clearly attaches to the intended word and only one reading remains.",
+      "Report the corrected order and explain the fix in clear written English."
+    ],
+    deliverable: "A short exercise in English showing an order made ambiguous by a misplaced modifier, its two readings, a rewrite with only one clear meaning, and an explanation of the fix.",
+    assessmentCriteria: [
+      "How a misplaced modifier changes the meaning and why it is dangerous are correctly explained.",
+      "The two readings of the ambiguous order are correctly identified.",
+      "The rewrite leaves only one clear meaning with the modifier correctly placed.",
+      "The corrected order and the explanation are clear, in correct written English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "pn-s3-redaccion-avanzada",
+    unit: "Legibilidad en la redaccion",
+    topic: "Enriquecer el vocabulario y adecuar el registro: adaptar un mensaje a un destinatario formal y a uno operativo",
+    week: 12,
+    taskId: "pn-c0101-w12-register-vocabulary",
+    taskTitle: "Adapt One Message To Two Registers",
+    scenario: "As the closing task of the subject the same information must go to two very different readers: a formal letter to the charterer or company, and a concise operational message to the bridge or VTS. The officer asks the cadet to write both, choosing the right register and precise vocabulary.",
+    instructions: [
+      "Take one set of facts, for example a berthing delay caused by heavy weather, and identify the two audiences and what each needs: a formal written letter to the charterer or company, and a concise operational message to the bridge or VTS.",
+      "Write the formal version in full, courteous, formal register with precise professional vocabulary, drawing on the protest and executive-report style of weeks 6 and 8.",
+      "Write the operational version concise and unambiguous, keeping the essential facts, drawing on the concision of week 9.",
+      "Explain how the register and the word choice changed between the two versions, and report both in clear written English."
+    ],
+    deliverable: "Two versions of one message in English, a formal letter to the charterer or company and a concise operational message to the bridge or VTS, each in the right register and vocabulary, with a note on how register and word choice changed.",
+    assessmentCriteria: [
+      "The two audiences and their needs are correctly identified.",
+      "The formal version uses full, courteous, formal register with precise vocabulary.",
+      "The operational version is concise, unambiguous and keeps the essential facts.",
+      "The difference in register and word choice is correctly explained, in correct written English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
 ];
