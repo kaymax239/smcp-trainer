@@ -3133,4 +3133,700 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
     estimatedTime: "40 min",
     difficulty: "Advanced"
   },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Controles del ciclo básico de refrigeración",
+    topic: "Controles de operación y de seguridad del ciclo de refrigeración",
+    week: 1,
+    taskId: "mn-ref746-w01-identify-cycle-controls",
+    taskTitle: "Identify The Controls Of The Refrigeration Cycle",
+    scenario: "During familiarization with the provision refrigeration plant, the engineer asks the cadet to point out the operation and safety controls of the basic refrigeration cycle.",
+    instructions: [
+      "Name the main operation controls of the refrigeration cycle (e.g. thermostat, pressure controls).",
+      "Name the main safety controls (e.g. high-pressure cut-out, low-pressure cut-out).",
+      "State the difference between an operation control and a safety control.",
+      "Report your answer in clear engine-room English."
+    ],
+    deliverable: "A note in English listing the operation and safety controls of the refrigeration cycle and the difference between them.",
+    assessmentCriteria: [
+      "Operation controls are named correctly.",
+      "Safety controls are named correctly.",
+      "The operation/safety distinction is clear.",
+      "The note is clear and in correct engine-room English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Controles del ciclo básico de refrigeración",
+    topic: "Tipos de controles y sus principios de funcionamiento",
+    week: 2,
+    taskId: "mn-ref746-w02-explain-control-operation",
+    taskTitle: "Explain How A Refrigeration Control Works",
+    scenario: "The provision room temperature is drifting. The engineer asks the cadet to explain how the thermostatic and pressure controls act to keep the cycle within limits.",
+    instructions: [
+      "Explain the working principle of the thermostatic control.",
+      "Explain the working principle of a pressure control (high or low side).",
+      "State what the control does when its set point is reached.",
+      "Report the explanation in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how a thermostatic control and a pressure control work and what they do at their set point.",
+    assessmentCriteria: [
+      "The thermostatic principle is correct.",
+      "The pressure control principle is correct.",
+      "The set-point action is explained correctly.",
+      "The explanation is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Tuberías y accesorios de refrigeración",
+    topic: "Materiales de tuberías y accesorios según el refrigerante",
+    week: 3,
+    taskId: "mn-ref746-w03-match-pipe-materials",
+    taskTitle: "Match Pipe And Fitting Materials To The Refrigerant",
+    scenario: "A section of refrigeration pipework must be renewed. The engineer asks the cadet to confirm the pipe and fitting materials are compatible with the refrigerant in use.",
+    instructions: [
+      "State which pipe materials are commonly used in refrigeration systems.",
+      "Explain why the refrigerant type affects the choice of material (e.g. ammonia vs. halocarbon).",
+      "Identify one material that must NOT be used with a given refrigerant and why.",
+      "Report the material check in clear engine-room English."
+    ],
+    deliverable: "A note in English matching pipe and fitting materials to the refrigerant, including one incompatible material to avoid.",
+    assessmentCriteria: [
+      "Pipe materials are named correctly.",
+      "The refrigerant/material link is explained correctly.",
+      "The incompatible material is identified with a valid reason.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Tuberías y accesorios de refrigeración",
+    topic: "Selección del refrigerante adecuado",
+    week: 4,
+    taskId: "mn-ref746-w04-select-refrigerant",
+    taskTitle: "Select The Correct Refrigerant For The Plant",
+    scenario: "A refrigeration plant is being recharged. The engineer asks the cadet to confirm the correct refrigerant and explain why it suits this system.",
+    instructions: [
+      "State how the correct refrigerant for a plant is identified (nameplate, manuals).",
+      "Give two properties that make a refrigerant suitable for a given application.",
+      "State one environmental or safety consideration in refrigerant selection.",
+      "Report the selection in clear engine-room English."
+    ],
+    deliverable: "A note in English confirming the correct refrigerant for the plant, its suitable properties, and one environmental/safety consideration.",
+    assessmentCriteria: [
+      "The identification method is correct.",
+      "The refrigerant properties are relevant and correct.",
+      "A valid environmental/safety consideration is given.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Accesorios del sistema",
+    topic: "Separador de aceite, filtros y secador",
+    week: 5,
+    taskId: "mn-ref746-w05-trace-accessories",
+    taskTitle: "Trace The Oil Separator, Filters And Drier",
+    scenario: "Using the plant diagram, the engineer asks the cadet to locate the oil separator, filters and drier and explain what each one does.",
+    instructions: [
+      "Locate the oil separator and state its function.",
+      "Locate the filters and the drier and state the function of each.",
+      "Explain why removing moisture and dirt protects the system.",
+      "Report the trace in clear engine-room English."
+    ],
+    deliverable: "A note in English locating the oil separator, filters and drier with the function of each and why they protect the system.",
+    assessmentCriteria: [
+      "Each accessory is located correctly.",
+      "The function of each is stated correctly.",
+      "The protection reasoning is sound.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Accesorios del sistema",
+    topic: "Visores y válvulas de servicio y seguridad",
+    week: 6,
+    taskId: "mn-ref746-w06-check-sight-glass-valves",
+    taskTitle: "Check The Sight Glass And Service Valves",
+    scenario: "Before a watch check, the engineer asks the cadet to read the sight glass and identify the service and safety valves on the plant.",
+    instructions: [
+      "Explain what the sight glass shows and how to read it (e.g. bubbles, moisture indicator).",
+      "Identify the service valves and their purpose during maintenance.",
+      "Identify the safety valve and what it protects against.",
+      "Report the check in clear engine-room English."
+    ],
+    deliverable: "A note in English reporting the sight glass reading and identifying the service and safety valves with their purpose.",
+    assessmentCriteria: [
+      "The sight glass reading is explained correctly.",
+      "Service valves and their purpose are correct.",
+      "The safety valve function is correct.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Procedimiento para carga de gas refrigerante en el sistema",
+    topic: "Carga de gas refrigerante por lado de alta y de baja",
+    week: 7,
+    taskId: "mn-ref746-w07-charge-refrigerant",
+    taskTitle: "Charge Refrigerant Gas Into The System",
+    scenario: "The plant is low on charge. The engineer asks the cadet to describe how to charge refrigerant by the high side and by the low side, safely.",
+    instructions: [
+      "Describe charging by the high side and when it is used.",
+      "Describe charging by the low side and when it is used.",
+      "State two safety precautions when handling refrigerant under pressure.",
+      "Report the charging procedure in clear engine-room English."
+    ],
+    deliverable: "A note in English describing high-side and low-side charging with two safety precautions.",
+    assessmentCriteria: [
+      "High-side charging is described correctly.",
+      "Low-side charging is described correctly.",
+      "The safety precautions are valid.",
+      "The procedure is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Procedimiento para carga de gas refrigerante en el sistema",
+    topic: "Procedimiento de vacío al sistema",
+    week: 8,
+    taskId: "mn-ref746-w08-pull-vacuum",
+    taskTitle: "Pull A Vacuum On The Refrigeration System",
+    scenario: "After a repair, the system must be evacuated before charging. The engineer asks the cadet to explain why and how a vacuum is pulled on the system.",
+    instructions: [
+      "Explain why the system must be evacuated before charging.",
+      "Describe the procedure to pull a vacuum with a vacuum pump.",
+      "State how to confirm the vacuum is holding before charging.",
+      "Report the procedure in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining why and how the system is evacuated, and how to confirm the vacuum holds.",
+    assessmentCriteria: [
+      "The reason for evacuation is correct (removes moisture/air).",
+      "The vacuum procedure is correct.",
+      "The vacuum-holding check is valid.",
+      "The procedure is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Operación y funcionamiento de un sistema de refrigeración y aire acondicionado",
+    topic: "Puesta en servicio y fuera de servicio del sistema",
+    week: 9,
+    taskId: "mn-ref746-w09-commission-plant",
+    taskTitle: "Put The Refrigeration Plant Into And Out Of Service",
+    scenario: "The provision refrigeration plant must be started for a loaded voyage. The engineer asks the cadet to give the sequence to put it into service and to stop it safely.",
+    instructions: [
+      "Give the sequence of steps to put the plant into service.",
+      "State the parameters to check once the plant is running (pressures, temperatures).",
+      "Give the sequence to take the plant out of service safely.",
+      "Report the procedure in clear engine-room English."
+    ],
+    deliverable: "A note in English with the start-up sequence, running parameters to check, and the safe shutdown sequence.",
+    assessmentCriteria: [
+      "The start-up sequence is correct and ordered.",
+      "The running parameters are valid.",
+      "The shutdown sequence is safe and correct.",
+      "The procedure is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Operación y funcionamiento de un sistema de refrigeración y aire acondicionado",
+    topic: "Mantenimiento preventivo de un sistema de refrigeración",
+    week: 10,
+    taskId: "mn-ref746-w10-plan-preventive-maintenance",
+    taskTitle: "Plan Preventive Maintenance For The Plant",
+    scenario: "The chief engineer asks the cadet to draft a short preventive maintenance plan for the refrigeration plant for the coming voyage.",
+    instructions: [
+      "List three preventive maintenance tasks and their purpose.",
+      "State how often each task should be carried out.",
+      "Explain how preventive maintenance reduces breakdowns and downtime.",
+      "Report the plan in clear engine-room English."
+    ],
+    deliverable: "A short preventive maintenance plan in English: three tasks with frequency and purpose, and why PMS reduces breakdowns.",
+    assessmentCriteria: [
+      "The maintenance tasks are relevant and correct.",
+      "The frequencies are reasonable.",
+      "The breakdown-reduction reasoning is sound.",
+      "The plan is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Operación y funcionamiento de un sistema de refrigeración y aire acondicionado",
+    topic: "Mantenimiento correctivo de un sistema de refrigeración",
+    week: 11,
+    taskId: "mn-ref746-w11-troubleshoot-fault",
+    taskTitle: "Troubleshoot A Refrigeration Fault",
+    scenario: "The provision room is not holding temperature and the sight glass is showing bubbles. The engineer asks the cadet to diagnose the likely fault and propose corrective action.",
+    instructions: [
+      "State what bubbles in the sight glass together with high temperature may indicate.",
+      "List two possible causes and how to confirm each.",
+      "Propose the corrective action for the most likely cause.",
+      "Report the diagnosis and action in clear engine-room English."
+    ],
+    deliverable: "A fault report in English: the likely fault, two possible causes with checks, and the proposed corrective action.",
+    assessmentCriteria: [
+      "The symptom interpretation is correct (e.g. undercharge).",
+      "The possible causes and checks are valid.",
+      "The corrective action matches the likely cause.",
+      "The report is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Operación y funcionamiento de un sistema de refrigeración y aire acondicionado",
+    topic: "Operación segura del sistema de aire acondicionado y restablecimiento tras una pérdida de enfriamiento",
+    week: 12,
+    taskId: "mn-ref746-w12-restore-reefer-after-loss",
+    taskTitle: "Restore The Provision Reefer After A Loss Of Cooling",
+    scenario: "As the closing task of the subject, a provision reefer has lost cooling after maintenance and the cargo is at risk. The chief engineer asks the cadet to bring the plant back into safe service, integrating everything learned this semester.",
+    instructions: [
+      "State the first checks to confirm whether the loss is due to charge, controls, or a mechanical fault.",
+      "If a recharge is needed, outline evacuate-then-charge in the correct order with safety precautions.",
+      "Give the sequence to bring the plant back into service and confirm it is holding temperature.",
+      "Report the full restoration to the chief engineer in clear engine-room English."
+    ],
+    deliverable: "A restoration report in English integrating fault diagnosis, evacuate/charge if needed, recommissioning, and confirmation the plant holds temperature.",
+    assessmentCriteria: [
+      "The initial diagnosis logic is sound.",
+      "The evacuate-then-charge order and precautions are correct.",
+      "The recommissioning sequence and confirmation are correct.",
+      "The report is clear, professional, and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Funciones booleanas",
+    topic: "Términos mínimos y máximos y formas canónicas",
+    week: 1,
+    taskId: "mn-aut747-w01-read-alarm-logic",
+    taskTitle: "Read An Engine Alarm As A Boolean Function",
+    scenario: "The engine control panel triggers an alarm from a combination of sensor inputs. The engineer asks the cadet to express the alarm condition as a Boolean function.",
+    instructions: [
+      "Define a Boolean variable for each sensor input in the alarm.",
+      "Write the alarm condition as a Boolean function using minterms.",
+      "State what combination of inputs makes the alarm true.",
+      "Report the result in clear engine-room English."
+    ],
+    deliverable: "A note in English giving the Boolean function of the alarm and the input combination that triggers it.",
+    assessmentCriteria: [
+      "The variables are defined clearly.",
+      "The Boolean function is written correctly.",
+      "The triggering combination is identified correctly.",
+      "The note is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Funciones booleanas",
+    topic: "Formas normalizadas y cantidad de funciones booleanas",
+    week: 2,
+    taskId: "mn-aut747-w02-normalized-form",
+    taskTitle: "Express A Control Condition In Normalized Form",
+    scenario: "A control condition for a pump must be documented. The engineer asks the cadet to write it in a normalized Boolean form so it is unambiguous.",
+    instructions: [
+      "Write the control condition in sum-of-products (or product-of-sums) form.",
+      "Explain why a normalized form removes ambiguity.",
+      "State how the number of inputs limits the possible functions.",
+      "Report the result in clear engine-room English."
+    ],
+    deliverable: "A note in English giving the control condition in a normalized form and why that form is unambiguous.",
+    assessmentCriteria: [
+      "The normalized form is written correctly.",
+      "The ambiguity explanation is sound.",
+      "The inputs/possible-functions relationship is correct.",
+      "The note is clear and in correct English."
+    ],
+    xp: 15,
+    estimatedTime: "25 min",
+    difficulty: "Foundation"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Funciones booleanas",
+    topic: "Simbología de compuertas lógicas",
+    week: 3,
+    taskId: "mn-aut747-w03-identify-gates",
+    taskTitle: "Identify The Logic Gates In A Control Circuit",
+    scenario: "The engineer shows the cadet the logic diagram of an interlock and asks them to identify the gates and what the circuit does.",
+    instructions: [
+      "Identify the logic gates in the diagram (AND, OR, NOT, etc.) by their symbols.",
+      "State the function each gate performs in the interlock.",
+      "Explain in words what condition allows the output to go true.",
+      "Report your reading in clear engine-room English."
+    ],
+    deliverable: "A note in English identifying the gates in the interlock and the condition that makes the output true.",
+    assessmentCriteria: [
+      "The gates are identified correctly from their symbols.",
+      "Each gate's function is stated correctly.",
+      "The output condition is explained correctly.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Simplificación de funciones de Boole",
+    topic: "Principio de simplificación y mapa de Karnaugh",
+    week: 4,
+    taskId: "mn-aut747-w04-simplify-karnaugh",
+    taskTitle: "Simplify An Alarm Logic With A Karnaugh Map",
+    scenario: "An alarm circuit uses more gates than needed. The engineer asks the cadet to simplify the logic with a Karnaugh map to reduce the component count.",
+    instructions: [
+      "Place the alarm function on a Karnaugh map.",
+      "Group the terms to obtain the simplified expression.",
+      "State how many terms/gates were saved by the simplification.",
+      "Report the simplified logic in clear engine-room English."
+    ],
+    deliverable: "A note in English with the Karnaugh map, the simplified expression, and the number of gates saved.",
+    assessmentCriteria: [
+      "The map is filled correctly.",
+      "The grouping and simplified expression are correct.",
+      "The gate saving is stated correctly.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Simplificación de funciones de Boole",
+    topic: "Mapa de Karnaugh con cuatro a seis variables y condiciones no importa",
+    week: 5,
+    taskId: "mn-aut747-w05-reduce-interlock-dontcares",
+    taskTitle: "Reduce A Multi-Input Interlock Using Don't-Care Conditions",
+    scenario: "A start interlock has several inputs, some of which never occur together. The engineer asks the cadet to reduce it using don't-care conditions.",
+    instructions: [
+      "Set out the interlock function with four or more input variables on a Karnaugh map.",
+      "Mark the input combinations that never occur as don't-care.",
+      "Use the don't-cares to obtain a simpler expression.",
+      "Report the reduced interlock in clear engine-room English."
+    ],
+    deliverable: "A note in English showing the reduced interlock expression and how the don't-care conditions helped simplify it.",
+    assessmentCriteria: [
+      "The map with four or more variables is set out correctly.",
+      "The don't-care conditions are marked correctly.",
+      "The simplified expression is valid.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Ejecución de una función de Boole",
+    topic: "Compuertas universales NAND y NOR",
+    week: 6,
+    taskId: "mn-aut747-w06-build-with-nand-nor",
+    taskTitle: "Build A Control Function With NAND Or NOR Gates",
+    scenario: "Only NAND gates are available in a spare logic module. The engineer asks the cadet to implement a required control function using universal gates.",
+    instructions: [
+      "Explain why NAND and NOR are called universal gates.",
+      "Show how the required function can be built using only NAND (or only NOR) gates.",
+      "State one practical advantage of using a single gate type.",
+      "Report the implementation in clear engine-room English."
+    ],
+    deliverable: "A note in English showing the control function implemented with universal gates and one advantage of a single gate type.",
+    assessmentCriteria: [
+      "The universal-gate concept is explained correctly.",
+      "The implementation with NAND/NOR is correct.",
+      "The stated advantage is valid.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Lógica combinacional",
+    topic: "Sumadores, substractores y códigos",
+    week: 7,
+    taskId: "mn-aut747-w07-adders-and-codes",
+    taskTitle: "Explain The Adders And Codes In A Digital Instrument",
+    scenario: "A digital engine instrument adds and converts values. The engineer asks the cadet to explain the adder and code conversion behind the reading.",
+    instructions: [
+      "Explain what a half adder and a full adder do.",
+      "Explain why codes (e.g. binary, BCD) are converted from one to another in an instrument.",
+      "Give one example of an engine value that is processed this way.",
+      "Report the explanation in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the adder and code conversion in the instrument with one engine example.",
+    assessmentCriteria: [
+      "The adder function is explained correctly.",
+      "The code conversion reason is correct.",
+      "The engine example is relevant.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Lógica combinacional",
+    topic: "Decodificadores, codificadores, multiplexor y demultiplexor",
+    week: 8,
+    taskId: "mn-aut747-w08-route-signals-multiplexer",
+    taskTitle: "Route Engine Signals With A Multiplexer",
+    scenario: "Many engine sensors share one display channel. The engineer asks the cadet to explain how a multiplexer routes the signals and how they are separated again.",
+    instructions: [
+      "Explain what a multiplexer does with several input signals.",
+      "Explain how a demultiplexer separates the signals at the other end.",
+      "State why multiplexing is useful for many engine sensors on one channel.",
+      "Report the explanation in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how a multiplexer and demultiplexer route and separate engine sensor signals.",
+    assessmentCriteria: [
+      "The multiplexer function is explained correctly.",
+      "The demultiplexer function is explained correctly.",
+      "The usefulness for many sensors is stated correctly.",
+      "The note is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "35 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Lógica combinacional",
+    topic: "Memoria de solo lectura ROM y PROM",
+    week: 9,
+    taskId: "mn-aut747-w09-explain-rom-prom",
+    taskTitle: "Explain The ROM/PROM In An Engine Control Unit",
+    scenario: "An engine control unit stores fixed settings in memory. The engineer asks the cadet to explain the role of ROM and PROM in the unit.",
+    instructions: [
+      "Explain what a ROM stores and why it is non-volatile.",
+      "Explain the difference between ROM and PROM.",
+      "State why fixed control settings are held in this type of memory.",
+      "Report the explanation in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the role of ROM and PROM in the control unit and why fixed settings are stored there.",
+    assessmentCriteria: [
+      "The ROM function and non-volatility are correct.",
+      "The ROM/PROM difference is correct.",
+      "The reason for storing fixed settings is sound.",
+      "The note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Lógica secuencial",
+    topic: "Elementos de memoria: flip-flops",
+    week: 10,
+    taskId: "mn-aut747-w10-flip-flop-latching-alarm",
+    taskTitle: "Use A Flip-Flop As A Latching Alarm Memory",
+    scenario: "An alarm must stay on after a brief fault until an engineer acknowledges it. The engineer asks the cadet to explain how a flip-flop latches the alarm.",
+    instructions: [
+      "Explain what a flip-flop is and that it stores one bit.",
+      "Explain how a set-reset flip-flop latches an alarm that appeared only briefly.",
+      "State how the acknowledge (reset) input clears the latched alarm.",
+      "Report the explanation in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how a flip-flop latches a brief alarm and how the reset clears it.",
+    assessmentCriteria: [
+      "The flip-flop storage concept is correct.",
+      "The latching behaviour is explained correctly.",
+      "The reset/acknowledge action is correct.",
+      "The note is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Lógica secuencial",
+    topic: "Diseño de contadores y registros",
+    week: 11,
+    taskId: "mn-aut747-w11-design-running-hours-counter",
+    taskTitle: "Design A Counter For A Running-Hours Meter",
+    scenario: "A pump needs a running-hours meter for maintenance planning. The engineer asks the cadet to explain how a digital counter counts and holds the hours.",
+    instructions: [
+      "Explain how a counter increments on each clock pulse.",
+      "Explain how a register holds the count so it can be read.",
+      "State how the running hours support preventive maintenance planning.",
+      "Report the design idea in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining how a counter and register track running hours and how that supports maintenance planning.",
+    assessmentCriteria: [
+      "The counting operation is explained correctly.",
+      "The register/hold function is correct.",
+      "The link to maintenance planning is sound.",
+      "The note is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Lógica secuencial",
+    topic: "Análisis de la lógica secuencial en el control automático de equipos",
+    week: 12,
+    taskId: "mn-aut747-w12-analyze-auto-start-sequence",
+    taskTitle: "Analyze The Sequential Logic Of An Automatic Start Sequence",
+    scenario: "As the closing task of the subject, a standby pump starts automatically through a timed sequence of logic steps. The engineer asks the cadet to analyze the sequential logic that controls it, integrating the whole subject.",
+    instructions: [
+      "Describe the ordered steps of the automatic start sequence.",
+      "Explain how memory elements (flip-flops) and timing hold each step until the next condition is met.",
+      "Identify one interlock that must be satisfied before the sequence can complete.",
+      "Report the full analysis to the engineer in clear engine-room English."
+    ],
+    deliverable: "An analysis in English of the automatic start sequence: the ordered steps, how sequential logic holds each step, and one required interlock.",
+    assessmentCriteria: [
+      "The sequence steps are described correctly and in order.",
+      "The role of memory/timing in holding steps is explained correctly.",
+      "A valid interlock condition is identified.",
+      "The analysis is clear, professional, and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
 ];
