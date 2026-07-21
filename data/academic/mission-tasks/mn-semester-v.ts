@@ -1396,6 +1396,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Componentes de un motor",
+    topic: "Partes fijas, partes moviles y motores de cruceta y tronco",
+    week: 9,
+    taskId: "mn-mot529-w09-fixed-moving-parts",
+    taskTitle: "Identify The Fixed And Moving Parts Of The Engine",
+    scenario: "The chief engineer opens a main-engine drawing set and asks the cadet to identify the fixed and moving parts and to say whether the engine is a crosshead or a trunk-piston type.",
+    instructions: [
+      "Name the main FIXED parts (bedplate, frame or columns, cylinder block and liner, cylinder head) and what each does.",
+      "Name the main MOVING parts (piston, connecting rod, crankshaft, and on a crosshead engine the piston rod and crosshead) and how they turn combustion into rotation.",
+      "Distinguish a crosshead engine from a trunk-piston engine: the crosshead separates the piston rod from the connecting rod so the side thrust is taken by the crosshead guides, keeping the cylinder lubrication separate from the crankcase (the slow-speed two-stroke of week 5), while the trunk-piston engine has the connecting rod acting through the piston (the medium-speed four-stroke of week 2).",
+      "Report which parts you would inspect for wear, in clear engine-room English."
+    ],
+    deliverable: "A note in English identifying the engine's fixed and moving parts with their functions, and distinguishing the crosshead from the trunk-piston engine, referring to the two-stroke and four-stroke engines of weeks 5 and 2.",
+    assessmentCriteria: [
+      "The fixed parts are correctly named with their functions (bedplate, frame, liner, head).",
+      "The moving parts are correctly named (piston, connecting rod, crankshaft, and piston rod and crosshead where fitted).",
+      "The crosshead-versus-trunk distinction is correct (the crosshead guides take the side thrust, separating cylinder and crankcase).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Calculo de motores de dos y cuatro tiempos",
+    topic: "Cilindrada, espacio muerto y relacion de compresion",
+    week: 10,
+    taskId: "mn-mot529-w10-compression-ratio-displacement",
+    taskTitle: "Calculate Swept Volume And Compression Ratio",
+    scenario: "During a performance check the second engineer gives the cadet a cylinder's bore, stroke and clearance volume and asks for the swept volume and the compression ratio.",
+    instructions: [
+      "Calculate the swept volume (cilindrada) of one cylinder from the bore and stroke: Vs = (pi / 4) x bore^2 x stroke, and state the result with units.",
+      "Explain the clearance volume (espacio muerto) as the space left above the piston at top dead centre.",
+      "Calculate the compression ratio r = (swept volume + clearance volume) / clearance volume, and explain why a higher compression ratio raises the temperature at the end of compression enough to ignite the fuel of a diesel.",
+      "Report the swept volume, the compression ratio and their meaning, in clear engine-room English."
+    ],
+    deliverable: "A calculation note in English giving the swept volume, the compression ratio, and why the compression ratio matters for diesel ignition.",
+    assessmentCriteria: [
+      "The swept volume is calculated correctly with units.",
+      "The clearance volume is correctly understood and the compression ratio is calculated correctly.",
+      "The link between compression ratio, compression temperature and diesel ignition is sound.",
+      "The calculation note is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Calculo de motores de dos y cuatro tiempos",
+    topic: "Angulo de calaje y diagrama de distribucion",
+    week: 11,
+    taskId: "mn-mot529-w11-timing-angle",
+    taskTitle: "Explain Valve And Injection Timing",
+    scenario: "The engine's valves and fuel injection do not open exactly at dead centre. The second engineer asks the cadet to explain the timing angles (angulo de calaje) shown on the engine's timing diagram.",
+    instructions: [
+      "Explain that the inlet and exhaust valves and the fuel injection are timed by crank angle, not exactly at top or bottom dead centre, and that these advance and retard angles are the angulo de calaje.",
+      "Explain valve overlap (both valves briefly open around top dead centre) and why it improves the scavenging and charging of the cylinder, referring to the four-stroke cycle of week 2 rather than re-teaching it.",
+      "Explain injection timing: why injection begins a few degrees before top dead centre so the fuel burns around the point of best expansion, and what happens to the engine if injection is too early or too late.",
+      "Report how correct timing affects power and exhaust temperature, in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the timing angles (angulo de calaje), valve overlap, injection advance, and the effect of incorrect timing, building on the four-stroke cycle of week 2.",
+    assessmentCriteria: [
+      "The concept of timing by crank angle (angulo de calaje) is correct.",
+      "Valve overlap and its benefit to scavenging and charging are correctly explained.",
+      "Injection advance and the effect of early or late injection are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sistemas principales de la maquina principal",
+    topic: "Mantenimiento y vigilancia del funcionamiento del motor",
+    week: 12,
+    taskId: "mn-mot529-w12-engine-maintenance-monitoring",
+    taskTitle: "Plan Main-Engine Maintenance And Performance Monitoring",
+    scenario: "As the closing task of the subject, the chief engineer asks the cadet to bring the whole engine together: to monitor the running engine on the engine-room simulator and plan its routine maintenance so faults are caught before they become failures.",
+    instructions: [
+      "State the running parameters watched on the engine-room control panel and why each matters: exhaust temperature per cylinder (uneven means an injection or valve fault), lube-oil pressure and temperature (week 3), cooling-water temperature (week 6) and scavenge or charge-air pressure (week 4).",
+      "Explain how the engineer uses these readings to detect a developing fault (for example one cylinder running hot, or a falling lube-oil pressure) before it causes damage.",
+      "Outline the routine maintenance that keeps the engine reliable (planned overhaul of units, checking clearances, cleaning the turbocharger and coolers, renewing filters and fuel-injection parts).",
+      "Report an engine-condition summary to the chief engineer, integrating the systems of weeks 3 to 8, in clear engine-room English."
+    ],
+    deliverable: "An engine-condition report in English drawing together the monitored parameters (exhaust temperatures, lube oil, cooling, scavenge air), the early detection of a developing fault, and the routine maintenance plan, integrating weeks 3 to 8 as the subject capstone.",
+    assessmentCriteria: [
+      "The monitored parameters are correct and correctly linked to their systems (lube oil, cooling, scavenge air, exhaust temperature).",
+      "The use of readings to detect a developing fault before failure is sound.",
+      "The routine maintenance plan is realistic and relevant.",
+      "The report integrates the earlier weeks and is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "MEF532",
     subjectName: "Mecánica de fluidos",
     subjectId: "mn-s5-mecanica-fluidos",
@@ -1504,6 +1620,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
       "The rotameter float principle is correct.",
       "The advantages/uses are valid.",
       "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Liquidos en reposo",
+    topic: "Presion hidrostatica, empuje y flotacion",
+    week: 9,
+    taskId: "mn-mef532-w09-hydrostatic-pressure-buoyancy",
+    taskTitle: "Calculate Hydrostatic Pressure And Buoyancy",
+    scenario: "The pressure at the bottom of a full fuel tank and the upthrust on a submerged cooler depend on the depth of liquid. The engineer asks the cadet to work out the hydrostatic pressure and the buoyancy.",
+    instructions: [
+      "State the hydrostatic pressure law p = rho x g x h and explain that the pressure depends only on the depth and the fluid density, not on the shape of the tank.",
+      "Calculate the gauge pressure at the bottom of a tank of a given depth and fluid (for example water 3 m deep), stating the result with units.",
+      "Explain buoyancy (Archimedes): a submerged or floating body is pushed up by a force equal to the weight of the fluid it displaces, and connect this to why a tank sounding relates to the liquid the tank holds.",
+      "Report the pressure and the buoyancy reasoning, in clear engine-room English."
+    ],
+    deliverable: "A calculation note in English giving the hydrostatic pressure at a stated depth and explaining buoyancy as the weight of the displaced fluid.",
+    assessmentCriteria: [
+      "The hydrostatic pressure law is correct (depends on depth and density, not on shape).",
+      "The pressure is calculated correctly with units.",
+      "Buoyancy is correctly explained (the upthrust equals the weight of fluid displaced).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Equipos que manejan liquidos",
+    topic: "Bombas de desplazamiento positivo",
+    week: 10,
+    taskId: "mn-mef532-w10-positive-displacement-pumps",
+    taskTitle: "Compare Positive Displacement And Centrifugal Pumps",
+    scenario: "The fuel and lube-oil systems use positive displacement pumps, not centrifugal ones. Building on the centrifugal pump of week 6, the engineer asks the cadet to explain positive displacement pumps and when each type is used.",
+    instructions: [
+      "Explain how a positive displacement pump (gear, screw or piston type) traps a fixed volume of fluid and forces it out, so it delivers an almost constant flow whatever the discharge pressure.",
+      "Contrast this with the centrifugal pump of week 6, whose flow falls as the head rises, referring to the pump curve rather than re-explaining it.",
+      "State why a positive displacement pump MUST have a relief valve, since a closed discharge would build up pressure until something bursts, and give a typical engine-room use (viscous fuel or lube oil).",
+      "Report the comparison and the relief-valve rule, in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining positive displacement pumps (a fixed trapped volume, near-constant flow), the contrast with the centrifugal pump of week 6, the mandatory relief valve, and a typical use.",
+    assessmentCriteria: [
+      "The positive displacement principle is correct (a fixed trapped volume, near-constant flow independent of pressure).",
+      "The contrast with the centrifugal pump of week 6 is correct.",
+      "The relief-valve requirement and a valid use are correctly stated.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Sistemas de control hidraulico",
+    topic: "Cilindros y motores hidraulicos y el principio de Pascal",
+    week: 11,
+    taskId: "mn-mef532-w11-hydraulic-power",
+    taskTitle: "Explain Hydraulic Power And Force Multiplication",
+    scenario: "Deck and engine-room machinery is driven by hydraulics. The engineer asks the cadet to explain how a hydraulic system multiplies force and drives cylinders and motors.",
+    instructions: [
+      "State Pascal's principle: a pressure applied to a confined fluid is transmitted equally throughout, so the same pressure acts on every actuator on the line.",
+      "Explain force multiplication: since force = pressure x area, a small piston can lift a large load on a bigger piston (F = p x A), and calculate the output force for a given pressure and ram area.",
+      "Explain how a hydraulic cylinder gives a linear movement and a hydraulic motor gives rotation, and give an engine-room or deck example (a steering-gear ram, a deck crane, a windlass).",
+      "Report the force calculation and the cylinder-versus-motor difference, in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining Pascal's principle, the F = p x A force multiplication with a worked figure, and the difference between a hydraulic cylinder and a hydraulic motor, with an example.",
+    assessmentCriteria: [
+      "Pascal's principle is correctly stated (pressure transmitted equally through a confined fluid).",
+      "The force multiplication F = p x A is calculated correctly with units.",
+      "The cylinder (linear) versus motor (rotary) distinction is correct with a valid example.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Sistemas de control hidraulico",
+    topic: "Sistema de control de aceite y control con acciones",
+    week: 12,
+    taskId: "mn-mef532-w12-hydraulic-control-system",
+    taskTitle: "Trace The Hydraulic Control System On The Steering Gear",
+    scenario: "As the closing task of the subject, the engineer asks the cadet to trace a complete hydraulic control system on the ship's steering gear, drawing together the fluid principles of the semester.",
+    instructions: [
+      "Trace the system from the pump (the positive displacement power source of week 10) through the control valve to the actuator (the ram or cylinder of week 11) that moves the rudder, and back to the tank.",
+      "Explain the control action: how a demand signal from the bridge positions the control valve so oil is sent to the correct side of the ram until the rudder reaches the ordered angle, then the valve returns to neutral (a follow-up or feedback action).",
+      "State two essential requirements and why: the relief valve (protects against overpressure, week 10) and the oil condition (clean, correct level and viscosity, the viscosity of week 1) on which the system depends.",
+      "Report how the hydraulic system converts a bridge order into rudder movement, integrating the semester, in clear engine-room English."
+    ],
+    deliverable: "A note in English tracing the steering-gear hydraulic system (pump, control valve, ram, return), the feedback control action that stops at the ordered angle, and the essential requirements (relief valve, oil condition), integrating weeks 1, 10 and 11 as the subject capstone.",
+    assessmentCriteria: [
+      "The hydraulic circuit is traced correctly (pump, control valve, actuator or ram, return to tank).",
+      "The control and feedback action is correctly explained (the valve directs oil until the ordered angle is reached, then goes to neutral).",
+      "The essential requirements are correct (relief valve for overpressure, oil condition and viscosity) and linked to earlier weeks.",
+      "The report integrates the semester and is clear and in correct English."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -1628,6 +1860,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Sistema de gobierno y propulsion",
+    topic: "Maquinilla del timon",
+    week: 9,
+    taskId: "mn-mma533-w09-steering-gear",
+    taskTitle: "Explain The Steering Gear",
+    scenario: "The steering gear turns the rudder on command from the bridge. The engineer asks the cadet to explain how the ship's steering gear works and why it is a critical, duplicated system.",
+    instructions: [
+      "Explain that the steering gear moves the rudder to the angle ordered from the bridge, usually by a hydraulic power unit driving a ram or rotary vane on the rudder stock.",
+      "Explain why the steering gear is duplicated (two power units, control from more than one source) so that steering is not lost by a single failure, as required for safety.",
+      "State what the engineer checks before departure (both power units, the changeover, the rudder-angle response and the emergency steering position).",
+      "Report the steering-gear check to the bridge, in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the steering gear (a hydraulic power unit turning the rudder stock), its duplication for safety, and the pre-departure checks, with the check reported to the bridge.",
+    assessmentCriteria: [
+      "The steering-gear operation is correct (a hydraulic power unit turning the rudder to the ordered angle).",
+      "The duplication and redundancy reasoning is sound.",
+      "The pre-departure checks are relevant and correct.",
+      "The report is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Sistemas de bombas",
+    topic: "Sistema de sentinas, servicios generales e hidroforo",
+    week: 10,
+    taskId: "mn-mma533-w10-bilge-general-service",
+    taskTitle: "Explain The Bilge And Fresh-Water Service Systems",
+    scenario: "The engine room must keep its bilges clear and supply fresh water to the accommodation. The engineer asks the cadet to explain the bilge system and the hydrophore (fresh-water pressure set).",
+    instructions: [
+      "Explain the bilge system: how the bilge wells are drained by the bilge pump through a suction line, and why bilge water from machinery spaces must pass the oily water separator (week 1) before any discharge.",
+      "Explain the general-service or fire-and-bilge pump role and why some pumps serve more than one duty.",
+      "Explain the hydrophore: a pressure tank with an air cushion that keeps the domestic fresh water under pressure so the pump need not run every time a tap is opened.",
+      "Report the purpose of each system, in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the bilge system (wells, bilge pump, discharge via the oily water separator of week 1), the general-service pumping duties, and the hydrophore pressure set.",
+    assessmentCriteria: [
+      "The bilge system is correctly explained and linked to the oily water separator of week 1 before any discharge.",
+      "The general-service and multi-duty pump role is correct.",
+      "The hydrophore (air-cushion pressure tank) is correctly explained.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Sistema de gobierno y propulsion",
+    topic: "Sistema de paso variable y bow thruster",
+    week: 11,
+    taskId: "mn-mma533-w11-cpp-thrusters",
+    taskTitle: "Explain Controllable Pitch Propeller And Thrusters",
+    scenario: "Manoeuvring in port, the ship uses a controllable pitch propeller and a bow thruster. The engineer asks the cadet to explain how these give fine control of thrust.",
+    instructions: [
+      "Explain the controllable pitch propeller (CPP): the blades rotate on the hub to change the pitch, so the thrust and its direction (ahead or astern) are varied while the shaft keeps turning one way at constant speed.",
+      "State one advantage of a CPP for manoeuvring (fast, fine thrust control without reversing the engine, in contrast with the direct-reversing engine of Motores I).",
+      "Explain the bow thruster: a transverse propeller in a tunnel near the bow that pushes the bow to port or starboard, giving low-speed steering when the rudder is ineffective.",
+      "Report how the CPP and the thruster together improve port manoeuvring, in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining the controllable pitch propeller (variable-pitch blades, constant shaft direction), its manoeuvring advantage, and the bow thruster for low-speed steering.",
+    assessmentCriteria: [
+      "The CPP principle is correct (the blades change pitch to vary thrust and direction at constant shaft rotation).",
+      "The manoeuvring advantage is sound (fine thrust control without reversing the engine).",
+      "The bow thruster is correctly explained (transverse tunnel thrust for low-speed steering).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Sistema de gobierno y propulsion",
+    topic: "Sistemas de propulsion especiales: Z-drive, Voith y jet",
+    week: 12,
+    taskId: "mn-mma533-w12-special-propulsion",
+    taskTitle: "Compare Special Propulsion Systems",
+    scenario: "As the closing task of the subject, the engineer asks the cadet to compare the special propulsion systems fitted to tugs, ferries and fast craft, drawing together the propulsion machinery of the subject.",
+    instructions: [
+      "Explain the azimuth (Z-drive) thruster: a propeller unit that rotates through 360 degrees to direct the thrust any way, giving a tug or ferry full manoeuvrability without a conventional rudder.",
+      "Explain the Voith Schneider (cycloidal) propeller: vertical blades on a rotating disc whose pitch is varied to give instant thrust in any direction, prized for precise station-keeping.",
+      "Explain the water jet: an impeller draws in water and expels it astern through a steerable nozzle, well suited to fast, shallow-draught craft, and reversed by a deflector bucket.",
+      "Report which system suits a tug, a double-ended ferry and a fast craft and why, integrating the subject, in clear engine-room English."
+    ],
+    deliverable: "A note in English comparing the azimuth (Z-drive) thruster, the Voith Schneider propeller and the water jet, and matching each to a suitable vessel, as the subject capstone.",
+    assessmentCriteria: [
+      "The azimuth or Z-drive is correctly explained (360-degree steerable thrust).",
+      "The Voith Schneider is correctly explained (variable-pitch vertical blades, thrust in any direction).",
+      "The water jet is correctly explained (an impeller and a steerable nozzle, reversed by a bucket).",
+      "The vessel matching is sound and the report is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "EIA531",
     subjectName: "Electrotecnia",
     subjectId: "mn-s5-electrotecnia",
@@ -1736,6 +2084,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
       "Preferential trip / load shedding is correctly explained.",
       "The emergency generator's automatic start and supply are correct.",
       "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Arranque de motores de Corriente Alterna de potencias grandes",
+    topic: "Arranque por resistencias primarias y por autotransformador",
+    week: 9,
+    taskId: "mn-eia531-w09-reduced-voltage-starting",
+    taskTitle: "Compare Reduced-Voltage Motor Starters",
+    scenario: "Besides the star-delta starter of week 4, large motors can be started by a primary-resistance or an autotransformer starter. The engineer asks the cadet to compare these reduced-voltage starting methods.",
+    instructions: [
+      "Explain primary-resistance starting: resistors in series with the stator drop the voltage at start and are cut out as the motor runs up, reducing the starting current.",
+      "Explain autotransformer starting: an autotransformer feeds a reduced voltage at start, then connects the motor to full line voltage, giving a lower starting current for a given starting torque.",
+      "Compare all three (the star-delta of week 4, primary resistance and autotransformer) on starting current and torque, and say when a reduced-voltage start is needed at all.",
+      "Report which method suits a large pump motor and why, in clear engine-room English."
+    ],
+    deliverable: "A note in English comparing primary-resistance and autotransformer starting with the star-delta method of week 4, on starting current and torque, and selecting a method for a large motor.",
+    assessmentCriteria: [
+      "Primary-resistance starting is correctly explained (series resistance reduces the start voltage and current, cut out on run-up).",
+      "Autotransformer starting is correctly explained (a reduced voltage at start, then full voltage).",
+      "The comparison of the three methods on current and torque is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Simbolos electricos de control",
+    topic: "Simbolos electricos mas comunes",
+    week: 10,
+    taskId: "mn-eia531-w10-control-symbols-diagram",
+    taskTitle: "Read An Electrical Motor-Starter Diagram",
+    scenario: "A fault on a motor starter can only be traced with the wiring diagram. The engineer asks the cadet to read the common control symbols and follow a start-stop starter diagram.",
+    instructions: [
+      "Identify the common control symbols: the contactor coil, normally-open and normally-closed contacts, the overload relay, the push-buttons (start and stop), the fuse and the isolator.",
+      "Follow the control (holding) circuit of a start-stop starter: pressing start energises the contactor coil, an auxiliary contact holds it in (the seal-in), and pressing stop or an overload trip drops it out.",
+      "Explain what the overload relay protects against and what happens to the motor when it trips.",
+      "Report how you would use the diagram to find why the motor will not start, in clear engine-room English."
+    ],
+    deliverable: "A note in English identifying the common control symbols and explaining the start-stop holding circuit (coil, seal-in auxiliary contact, stop and overload drop-out) and the overload protection, used to trace a no-start fault.",
+    assessmentCriteria: [
+      "The common control symbols are correctly identified.",
+      "The holding and seal-in circuit is correctly explained (start energises the coil, the auxiliary contact holds, stop or overload drops it out).",
+      "The overload relay's purpose and trip effect are correct.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Circuitos secuenciales",
+    topic: "Relevadores y elementos de los circuitos secuenciales",
+    week: 11,
+    taskId: "mn-eia531-w11-relays-sequential-control",
+    taskTitle: "Explain Relay Sequential Control",
+    scenario: "Auxiliary machinery starts and stops in a set sequence run by relays. The engineer asks the cadet to explain how relays build a sequential control circuit.",
+    instructions: [
+      "Explain what a relay is and does: a small control current energises a coil that switches larger or several contacts, so one signal controls many circuits and gives isolation between the control and the power side.",
+      "Explain interlocking: how the normally-closed contacts of one relay prevent another from operating (for example two pumps that must not both start, or a sequence that must run in order).",
+      "Explain a simple sequence: how relays with contacts and a timer start machinery in the correct order (for example proving the lube-oil pump is running before the main machine is allowed to start).",
+      "Report how the relay logic enforces a safe starting sequence, in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining relays (a coil switching contacts, isolation of control from power), interlocking with normally-closed contacts, and a simple timed starting sequence that proves one condition before allowing the next.",
+    assessmentCriteria: [
+      "The relay function is correct (the coil switches contacts, isolating control from power).",
+      "Interlocking with normally-closed contacts is correctly explained.",
+      "The sequential and interlocked start (one condition proven before the next) is sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Generadores de corriente alterna y directa",
+    topic: "Caracteristicas de funcionamiento del alternador y control de tension",
+    week: 12,
+    taskId: "mn-eia531-w12-generator-characteristics",
+    taskTitle: "Explain Generator Characteristics And Voltage Control",
+    scenario: "As the closing task of the subject, the engineer asks the cadet to explain how the ship's alternator generates and holds a steady voltage, drawing the semester's three-phase and synchronising work together.",
+    instructions: [
+      "Explain how the AC alternator generates: a rotating magnetic field (the excited rotor) induces a three-phase EMF in the stator windings (the three-phase system of week 1), and contrast it briefly with a DC generator, where a commutator rectifies the output.",
+      "Explain the running characteristic: as the electrical load increases the terminal voltage tends to fall (and depends on the power factor), so a voltage regulator is needed.",
+      "Explain the automatic voltage regulator (AVR): it adjusts the field excitation to hold the terminal voltage steady as the load changes, which is also how the reactive load is shared between paralleled generators (week 6).",
+      "Report how the alternator holds a steady voltage under changing load, integrating the semester, in clear engine-room English."
+    ],
+    deliverable: "A note in English explaining AC alternator generation (an excited rotor inducing a three-phase stator EMF) versus the DC generator's commutator, the fall of voltage with load, and the AVR holding the voltage by adjusting excitation, integrating weeks 1 and 6 as the subject capstone.",
+    assessmentCriteria: [
+      "The alternator generation is correct (a rotating field induces a three-phase stator EMF) and the DC-generator contrast (commutator) is valid.",
+      "The load characteristic is correct (the terminal voltage tends to fall with load and power factor).",
+      "The AVR's action is correct (it adjusts excitation to hold voltage, and ties to the reactive-load sharing of week 6).",
+      "The report integrates the semester and is clear and in correct English."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -1860,6 +2324,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Herramientas manuales",
+    topic: "Sierra de corte, hojas y limas",
+    week: 9,
+    taskId: "mn-tal534-w09-hacksaw-files",
+    taskTitle: "Cut And File A Part By Hand",
+    scenario: "A repair needs a piece cut to length and filed to size by hand. The instructor asks the cadet to explain the correct use of the hacksaw and files for the job.",
+    instructions: [
+      "Explain selecting and fitting the hacksaw blade: the teeth pointing forward, the correct tension, and a finer-pitch blade for thin or hard metal so at least two teeth are always in contact.",
+      "Explain the sawing technique: cut on the forward stroke, use the full length of the blade, and let the saw do the work without forcing it.",
+      "Explain filing: the difference between a rough (bastard) and a smooth file, cross-filing to remove metal and draw-filing to finish, and keeping the file clean so it does not clog and score the work.",
+      "Report the steps to cut and file the part to size, in clear engine-room English."
+    ],
+    deliverable: "A note in English on cutting and filing by hand: hacksaw blade selection and technique, and the choice and use of files for roughing and finishing.",
+    assessmentCriteria: [
+      "The hacksaw blade selection and fitting are correct (teeth forward, tension, pitch for the material).",
+      "The sawing technique is correct (cut on the forward stroke, full blade length, no forcing).",
+      "The filing method is correct (rough versus smooth file, cross-filing and draw-filing, keeping the file clean).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Medicion",
+    topic: "Calibradores, escuadras y chequeo por comparacion",
+    week: 10,
+    taskId: "mn-tal534-w10-measuring-instruments",
+    taskTitle: "Measure And Check A Part With Precision Instruments",
+    scenario: "A machined part must be verified against its drawing. Building on the dimensional control of week 2, the instructor asks the cadet to use the workshop measuring instruments correctly.",
+    instructions: [
+      "Explain measuring an outside and an inside diameter with a vernier or dial caliper, and reading a micrometer for a finer measurement, stating the resolution of each.",
+      "Explain checking squareness with a 90-degree square and an angle with a protractor, and checking a flat surface against a surface plate.",
+      "Explain checking by comparison (feeler gauges for a clearance, go and no-go gauges against the tolerance of week 2) and why comparison is faster for a batch of parts.",
+      "Report the measurements and whether the part is within tolerance, in clear engine-room English."
+    ],
+    deliverable: "A note in English on using the measuring instruments (caliper, micrometer, square, protractor, surface plate, feeler and go/no-go gauges) and reporting whether the part meets the tolerance of week 2.",
+    assessmentCriteria: [
+      "The caliper and micrometer use and their resolutions are correct.",
+      "The squareness, angle and flatness checks are correct (square, protractor, surface plate).",
+      "The comparison checks are correct (feeler and go/no-go gauges against the tolerance).",
+      "The measurement report is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Marcado",
+    topic: "Marcado de la pieza: trazadores, compas y superficie de trabajo",
+    week: 11,
+    taskId: "mn-tal534-w11-marking-out",
+    taskTitle: "Mark Out A Workpiece For Machining",
+    scenario: "Before drilling and cutting, a part must be marked out accurately. The instructor asks the cadet to mark out a workpiece so the holes and edges come out in the right place.",
+    instructions: [
+      "Explain preparing the surface: cleaning it and applying marking blue (engineer's dye) so the scribed lines show clearly, working from a datum edge or face.",
+      "Explain using the scriber, the try square, the rule and the surface plate to draw straight lines square to the datum, and the odd-leg caliper or dividers to mark parallel lines and step off distances.",
+      "Explain marking the hole centres with dividers and centre-punching them, and why a witness or check circle is scribed around a hole so it can be seen if the drill wanders (link to the drilling of week 3).",
+      "Report the marking-out plan for the part, in clear engine-room English."
+    ],
+    deliverable: "A note in English on marking out a workpiece: preparing the surface with dye and a datum, scribing lines square to the datum, and marking and centre-punching the hole centres with a check circle, feeding the drilling of week 3.",
+    assessmentCriteria: [
+      "Surface preparation and working from a datum are correct.",
+      "The use of the scriber, square, rule, surface plate and dividers is correct.",
+      "Marking and centre-punching the hole centres with a witness circle is correct and linked to drilling.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Elaboracion de piezas",
+    topic: "Elaboracion de una pieza integrando marcado, corte, taladrado, roscado y medicion",
+    week: 12,
+    taskId: "mn-tal534-w12-make-finished-part",
+    taskTitle: "Make A Finished Part From A Drawing",
+    scenario: "As the closing task of the subject, the instructor gives the cadet a drawing of a simple bracket or gauge and asks for the full plan to make it, drawing together every workshop skill of the subject.",
+    instructions: [
+      "Read the drawing and plan the order of operations: mark out (week 11), saw and file to shape (week 9), drill the holes (week 3) and cut any thread (week 1).",
+      "Explain why the order matters (for example marking out before cutting, and drilling before final filing) and where each dimension is checked with the instruments of week 10.",
+      "State the tolerances that matter and how you keep the part within them (week 2), and the safety points for each machine used (week 4).",
+      "Report the finished-part plan with its operation sequence and inspection points, integrating the subject, in clear engine-room English."
+    ],
+    deliverable: "A workshop job plan in English to make a part from a drawing: the operation sequence (marking out, sawing and filing, drilling, threading), the inspection points and tolerances, and the safety points, integrating weeks 1 to 11 as the subject capstone.",
+    assessmentCriteria: [
+      "The operation sequence is correct and logically ordered (mark out, cut and file, drill, thread).",
+      "The reasoning for the order and the inspection points is sound.",
+      "The tolerances and machine safety points are correctly included.",
+      "The plan integrates the subject and is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "PMR536",
     subjectName: "Prácticas Marineras V",
     subjectId: "mn-s5-practicas-marineras-v",
@@ -1971,6 +2551,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "mn-s5-practicas-marineras-v",
+    unit: "Maniobras a son de mar",
+    topic: "Procedimientos de trincado a son de mar",
+    week: 9,
+    taskId: "mn-pmr536-w09-securing-for-sea",
+    taskTitle: "Secure The Deck For Sea",
+    scenario: "Before sailing into open water, everything on deck must be secured against the ship's motion. The officer asks the cadet to explain how the deck is put a son de mar (secured for sea). Engine cadets stand deck stations too.",
+    instructions: [
+      "Explain what securing for sea means and why loose gear, stores, drums and the ship's cranes or derricks must be lashed before heavy weather.",
+      "Describe the lashing gear and technique: the right lashings, bottlescrews or turnbuckles set up tight, and chafe protection, so nothing works loose as the ship rolls and pitches.",
+      "State how the securing is checked and re-tightened after the first hours at sea, because lashings settle and slacken.",
+      "Report the deck as secured for sea, in clear maritime English."
+    ],
+    deliverable: "A note in English on securing the deck for sea: what must be lashed, the lashing gear and technique (tight turnbuckles, chafe protection), and the re-check after the ship starts working in a seaway.",
+    assessmentCriteria: [
+      "The meaning and need of securing for sea are correct.",
+      "The lashing gear and technique are correct (correct lashings, tight turnbuckles, chafe protection).",
+      "The re-check and re-tighten after settling is included.",
+      "The report is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "mn-s5-practicas-marineras-v",
+    unit: "Pinturas y solventes",
+    topic: "Piqueteo, rasqueteo y aplicacion de minio y esmalte",
+    week: 10,
+    taskId: "mn-pmr536-w10-chipping-painting",
+    taskTitle: "Prepare And Paint A Corroded Surface",
+    scenario: "Rust never stops, so deck maintenance is constant. The officer asks the cadet to explain how a corroded surface is prepared and painted so the coating actually lasts.",
+    instructions: [
+      "Explain the surface preparation: chipping and scraping (piqueta and rasqueta) or power-tooling to remove rust and loose scale back to sound metal, because paint over rust simply lifts off.",
+      "Explain priming: applying red lead or anti-corrosive primer (minio) to the bare metal first to stop the corrosion, then the enamel finish coats over the primer.",
+      "State the conditions for painting (a dry, clean surface, not in rain or heavy dew) and the safety and MARPOL care with paints and solvents (ventilation, no pollution over the side).",
+      "Report the surface-preparation and painting plan, in clear maritime English."
+    ],
+    deliverable: "A note in English on preparing and painting a corroded surface: chipping and scraping to sound metal, priming with red lead before the enamel finish, and the conditions and safety and MARPOL care for paints and solvents.",
+    assessmentCriteria: [
+      "Surface preparation is correct (remove rust and loose scale to sound metal, since paint over rust fails).",
+      "The priming-then-finish sequence is correct (anti-corrosive primer before enamel).",
+      "The painting conditions and the solvent safety and MARPOL care are correct.",
+      "The report is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "mn-s5-practicas-marineras-v",
+    unit: "Tapa escotillas",
+    topic: "Operacion y seguridad de las tapas de escotilla",
+    week: 11,
+    taskId: "mn-pmr536-w11-hatch-covers",
+    taskTitle: "Operate And Seal Hatch Covers Safely",
+    scenario: "The weathertight hatch covers keep the sea out of the holds. The officer asks the cadet to explain operating them and why their weathertight seal is a safety-critical duty.",
+    instructions: [
+      "Explain opening and closing the covers (for example hydraulic folding or side-rolling steel covers) and the safety rules: clear the area, follow the sequence, and never work under a partly supported cover.",
+      "Explain the weathertight seal: the rubber gasket bearing on its coaming bar, the cleats or dogs that hold the cover down, and the drainage channels that carry off any water that gets past.",
+      "Explain how the seal is tested (for example a hose test or a chalk test) and why a poor seal floods the hold and endangers the ship in heavy weather.",
+      "Report the hatch-cover operation and seal check, in clear maritime English."
+    ],
+    deliverable: "A note in English on hatch covers: safe opening and closing, the weathertight seal (gasket, cleats, drainage), and how the seal is tested, with the danger of a poor seal in heavy weather.",
+    assessmentCriteria: [
+      "The safe operation of the covers is correct (sequence, area cleared, never under an unsupported cover).",
+      "The weathertight seal is correctly explained (gasket on the coaming, cleats, drainage).",
+      "The seal test and the flooding danger of a poor seal are correct.",
+      "The report is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "mn-s5-practicas-marineras-v",
+    unit: "Anclas y cadenas",
+    topic: "Cambio de ancla, desenredo del ancla y amarre a boya",
+    week: 12,
+    taskId: "mn-pmr536-w12-foul-anchor-buoy-mooring",
+    taskTitle: "Clear A Fouled Anchor And Moor To A Buoy",
+    scenario: "As the closing task of the subject, the anchor comes up fouled and the ship must then moor to a buoy. The officer asks the cadet to handle both, drawing the semester's anchor and cable work together.",
+    instructions: [
+      "Explain a fouled anchor: how the cable or anchor can foul on its own turns, on another cable or on an obstruction on the bottom, and how it is cleared (heaving to break the turn, passing a wire rope under the fouling, or walking back to re-lay).",
+      "Explain reading the situation from the forecastle and reporting it clearly to the bridge, using the cable markings and the up-and-down and aweigh terms of weeks 4 and 5 so the bridge knows what the anchor party sees.",
+      "Explain mooring to a buoy: passing and securing the chain or a wire to the buoy ring with the boat's or party's help, and the safety of the party working at the buoy.",
+      "Report the clearing of the fouled anchor and the buoy mooring, integrating the subject, in clear maritime English."
+    ],
+    deliverable: "A note in English on clearing a fouled anchor (causes and methods) and mooring to a buoy, reported from the forecastle to the bridge with the cable terms of weeks 4 and 5, integrating the subject as its capstone.",
+    assessmentCriteria: [
+      "The causes of a fouled anchor and the clearing methods are correct.",
+      "The forecastle-to-bridge reporting uses the correct cable markings and terms (weeks 4 and 5).",
+      "The buoy-mooring method and the party's safety are correct.",
+      "The report integrates the subject and is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
     difficulty: "Advanced"
   },
   {
@@ -2092,6 +2788,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "mn-s5-liderazgo",
+    unit: "Autoconciencia",
+    topic: "Motivacion extrinseca e intrinseca",
+    week: 9,
+    taskId: "mn-c0105-w09-motivation",
+    taskTitle: "Motivate The Engine-Room Team",
+    scenario: "An officer gets willing work from a team that is motivated, not merely ordered. Building on the emotional intelligence of week 2, the officer asks the cadet to explain how to motivate a crew.",
+    instructions: [
+      "Distinguish extrinsic motivation (pay, rank, reward, avoiding punishment) from intrinsic motivation (pride in the work, mastery, belonging and purpose), and explain why intrinsic motivation lasts when the officer is not watching.",
+      "Explain how an officer builds intrinsic motivation: meaningful tasks, recognition of good work, trust, and a share in the purpose of the operation.",
+      "Explain the limit of extrinsic motivation alone (fear and reward drive compliance but not commitment, and can kill initiative).",
+      "Report how you would motivate an engine-room team for a demanding job, in clear maritime English."
+    ],
+    deliverable: "A note in English on motivation: extrinsic versus intrinsic, why intrinsic motivation lasts, how an officer builds it (meaning, recognition, trust, purpose), and the limit of reward and fear alone.",
+    assessmentCriteria: [
+      "Extrinsic and intrinsic motivation are correctly distinguished.",
+      "The ways an officer builds intrinsic motivation are sound.",
+      "The limit of extrinsic motivation alone is correctly explained.",
+      "The answer is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "mn-s5-liderazgo",
+    unit: "Elementos del liderazgo",
+    topic: "Actitud proactiva y habitos efectivos",
+    week: 10,
+    taskId: "mn-c0105-w10-proactive-habits",
+    taskTitle: "Lead With A Proactive Attitude",
+    scenario: "A reactive officer waits for problems; a proactive one prevents them. The officer asks the cadet to explain the proactive attitude and the habits that make an effective leader.",
+    instructions: [
+      "Explain the proactive attitude: acting within your circle of influence on what you can control (anticipating a fault, preparing the team) rather than only reacting or blaming circumstances.",
+      "Explain the value of good habits for a leader: consistency the team can rely on, putting first things first (priorities before urgencies), and beginning with the end in mind.",
+      "Explain how a proactive officer prevents engine-room problems (a planned-maintenance mindset, briefing before a job, anticipating what could go wrong) rather than fire-fighting.",
+      "Report how a proactive attitude and good habits improve the watch, in clear maritime English."
+    ],
+    deliverable: "A note in English on proactive leadership: acting within your circle of influence, the habits of an effective leader (consistency, priorities, ending in mind), and how proactivity prevents engine-room problems rather than reacting to them.",
+    assessmentCriteria: [
+      "The proactive attitude is correctly explained (act on what you control, within your influence).",
+      "The effective-leader habits are sound (consistency, priorities, end in mind).",
+      "The prevention-over-reaction application to the engine room is sound.",
+      "The answer is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "mn-s5-liderazgo",
+    unit: "Estrategias de planeacion y operacion",
+    topic: "Estrategias para identificar problemas y planear la operacion",
+    week: 11,
+    taskId: "mn-c0105-w11-problem-solving-planning",
+    taskTitle: "Identify A Problem And Plan The Operation",
+    scenario: "An officer must turn a vague sense that something is wrong into a defined problem and a plan of action. The officer asks the cadet to apply a structured method to an engine-room problem.",
+    instructions: [
+      "Explain identifying the real problem: separating the symptom from the root cause and defining the problem clearly before jumping to a solution, since a wrong definition wastes the whole effort.",
+      "Explain planning the operation: setting the objective, listing the options, weighing resources, time and risk, and choosing a course with a fallback.",
+      "Explain assigning and sequencing the tasks and setting check points, so the plan is monitored and adjusted as it runs (link to the teamwork and win-win of weeks 3 and 4).",
+      "Report the problem definition and the operating plan, in clear maritime English."
+    ],
+    deliverable: "A note in English applying a structured method to an engine-room problem: defining the real problem (symptom versus root cause), planning the operation (objective, options, resources, risk, fallback), and sequencing tasks with check points.",
+    assessmentCriteria: [
+      "The problem is correctly defined by separating the symptom from the root cause.",
+      "The operational plan is sound (objective, options, resources and time and risk, fallback).",
+      "The task sequencing and check points are sound.",
+      "The answer is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "mn-s5-liderazgo",
+    unit: "Elementos del liderazgo",
+    topic: "Comunicacion efectiva, autocritica y renovacion del lider",
+    week: 12,
+    taskId: "mn-c0105-w12-self-critique-renewal",
+    taskTitle: "Grow As A Leader Through Self-Critique And Renewal",
+    scenario: "As the closing task of the subject, the officer asks the cadet to look at the leader's own development: the honest self-critique and continual renewal that keep a leader worth following over a career.",
+    instructions: [
+      "Explain honest self-critique: seeking feedback, admitting one's own mistakes openly (which gives the team permission to be honest), and separating self-critique from self-punishment.",
+      "Explain renewal: keeping one's knowledge, skills, health and motivation current so the leader does not stagnate, and why a leader who stops learning falls behind the ship and the crew.",
+      "Draw the semester together: the styles and emotional intelligence (weeks 1 and 2), teamwork and communication (weeks 3 to 5), assertiveness and conflict (weeks 6 and 7), and motivation and proactivity (weeks 9 and 10) all rest on a leader who keeps growing.",
+      "Report a personal leadership-development plan, integrating the subject, in clear maritime English."
+    ],
+    deliverable: "A note in English on the leader's growth: honest self-critique (feedback, admitting mistakes, not self-punishment) and continual renewal (skills, health, motivation), with a personal development plan integrating the subject as its capstone.",
+    assessmentCriteria: [
+      "Honest self-critique is correctly explained (feedback, admitting mistakes, distinct from self-punishment).",
+      "Renewal is correctly explained (keeping skills, health and motivation current).",
+      "The plan draws the semester's leadership themes together.",
+      "The plan is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "C0011",
     subjectName: "Educación Física V",
     subjectId: "mn-s5-educacion-fisica-v",
@@ -2200,6 +3012,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
       "The Semester V capacities are woven together (strength, suppleness, feel-judged cardio, injury prevention).",
       "Lasting power is used as the test of the plan (a modest amount sustained over an ambitious scheme abandoned).",
       "The aim stays capacity for the work and wellbeing, with no performance, body-weight, diet or extreme target, and the earlier-semester boundary is respected, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "mn-s5-educacion-fisica-v",
+    unit: "Percepcion y coordinacion motriz",
+    topic: "Equilibrio, coordinacion y lateralidad en un buque en movimiento",
+    week: 9,
+    taskId: "mn-c0011v-w09-balance-coordination",
+    taskTitle: "Keep Your Balance On A Moving Ship",
+    scenario: "An engineer works and climbs in a space that rolls and pitches. The training officer asks the cadet to explain how balance and coordination keep them safe and effective as the ship moves.",
+    instructions: [
+      "Explain how the body keeps its balance (the inner ear, the eyes and the feel of the feet working together) and why a moving deck constantly challenges it.",
+      "Explain one hand for the ship and one for yourself, and moving with the roll: timing a move to the ship's motion, keeping three points of contact on ladders, and a low, stable stance when carrying tools.",
+      "Explain how balance and coordination can be trained (balance and coordination drills) and why fatigue (the concentration of week 4) degrades them.",
+      "Report the balance and coordination points for safe engine-room movement, in clear English using correct fitness terms."
+    ],
+    deliverable: "A note in English on balance and coordination aboard: how the body balances, moving safely with the ship (three points of contact, a low stance, timing the roll), and how these are trained and degraded by fatigue.",
+    assessmentCriteria: [
+      "The basis of balance is correctly explained (inner ear, vision, the feel of the feet) and why a moving deck challenges it.",
+      "The safe-movement techniques are correct (three points of contact, low stance, timing the motion).",
+      "The training of balance and coordination and the effect of fatigue are sound.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "mn-s5-educacion-fisica-v",
+    unit: "Desarrollo fisico integral",
+    topic: "Deportes de equipo: futbol, basquetbol y voleibol como entrenamiento de coordinacion",
+    week: 10,
+    taskId: "mn-c0011v-w10-team-sports",
+    taskTitle: "Use Team Sport To Build Crew Coordination",
+    scenario: "The training officer runs team sport aboard and ashore not just for fitness but to build the crew. The cadet is asked to explain what team sports train that transfers to working as a crew.",
+    instructions: [
+      "Explain the physical benefit of team sports (football, basketball, volleyball): all-round fitness, agility and coordination that a single repetitive exercise does not give.",
+      "Explain the crew benefit: communication, reading team-mates, taking a role and covering for others under pressure, the same habits an engine-room watch needs (link to the teamwork of the Leadership subject).",
+      "Explain fair play and handling winning and losing as training for composure and respect within a crew.",
+      "Report how a team sport builds both fitness and crew coordination, in clear English using correct fitness terms."
+    ],
+    deliverable: "A note in English on team sport as training: the all-round physical benefit (agility, coordination) and the crew benefit (communication, roles, composure) that transfers to working as an engine-room team.",
+    assessmentCriteria: [
+      "The physical benefit of team sport is correct (all-round fitness, agility, coordination).",
+      "The crew and teamwork transfer is sound (communication, roles, covering for others).",
+      "Fair play as training for composure and respect is included.",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "mn-s5-educacion-fisica-v",
+    unit: "Natación",
+    topic: "Tecnica de nado y flotacion eficiente para supervivencia",
+    week: 11,
+    taskId: "mn-c0011v-w11-swimming-technique",
+    taskTitle: "Swim And Float Efficiently To Survive",
+    scenario: "In the water after abandoning ship, the swimmer who wastes energy tires and cools fastest. Completing the swimming work of the subject, the instructor asks the cadet to explain efficient technique for survival.",
+    instructions: [
+      "Explain efficient stroke technique: a long, relaxed stroke and steady breathing that move the swimmer with the least effort, rather than fast thrashing that exhausts and chills.",
+      "Explain floating and resting: how to float on the back or use a survival float to rest and conserve energy and heat while waiting for rescue (building on the survival swimming of week 3 and the rescue of week 7).",
+      "Explain how a lifejacket changes the technique (keeping the airway clear, conserving heat with the HELP position) and why energy conservation matters more than speed.",
+      "Report the efficient-swimming and floating points for survival, in clear English suitable for a safety briefing."
+    ],
+    deliverable: "A brief in English on efficient survival swimming: a relaxed, energy-saving stroke, floating and resting to conserve energy and heat, and swimming with a lifejacket, building on weeks 3 and 7.",
+    assessmentCriteria: [
+      "The efficient stroke technique is correct (a long relaxed stroke, steady breathing, not thrashing).",
+      "Floating and resting to conserve energy and heat are correctly explained.",
+      "Swimming with a lifejacket and the priority of energy conservation are correct.",
+      "The brief is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "mn-s5-educacion-fisica-v",
+    unit: "Desarrollo fisico integral",
+    topic: "Integracion de la aptitud fisica: fuerza, resistencia, coordinacion y competencia acuatica",
+    week: 12,
+    taskId: "mn-c0011v-w12-integrated-readiness",
+    taskTitle: "Demonstrate All-Round Physical Readiness",
+    scenario: "As the closing task of the subject, the training officer asks the cadet to show balanced, all-round physical readiness for the engine department, drawing together everything the semester built.",
+    instructions: [
+      "Set out the four capacities the engineer's work demands and why: strength for heavy work (week 1), endurance judged by feel (week 5), coordination and balance for a moving ship (week 9), and water competence for survival (weeks 3, 7 and 11).",
+      "Explain why all-round balance beats one over-developed capacity: a very strong engineer who cannot last a watch, or a fit swimmer with no strength, is not ready for the range of the work.",
+      "Explain keeping this readiness across a career, safely and without injury (the injury prevention of week 6), as an ongoing habit rather than a one-off test.",
+      "Report a personal all-round readiness summary, integrating the subject, in clear English using correct fitness terms."
+    ],
+    deliverable: "A note in English on all-round physical readiness: the four capacities (strength, endurance, coordination and balance, water competence) and why balance among them matters, kept up safely across a career, integrating the subject as its capstone.",
+    assessmentCriteria: [
+      "The four capacities are correctly linked to the work and the earlier weeks.",
+      "The case for balanced all-round readiness over one over-developed capacity is sound.",
+      "Maintaining readiness safely across a career (injury prevention) is included.",
+      "The summary integrates the subject and is clear and in correct English."
     ],
     xp: 25,
     estimatedTime: "40 min",
@@ -2324,6 +3252,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "mn-s5-etica-profesional",
+    unit: "Etica y Moral",
+    topic: "Diferencia entre etica y moral y sus implicaciones",
+    week: 9,
+    taskId: "mn-c0104-w09-ethics-versus-morality",
+    taskTitle: "Distinguish Ethics From Morality",
+    scenario: "The second engineer asks the cadet to sort out two words that are often confused but that decide how a professional thinks: ethics and morality, and what each demands of a seafarer.",
+    instructions: [
+      "Define morality as the set of accepted values and customs a person is brought up with, and ethics as the reasoned reflection that examines and justifies those values.",
+      "Explain the implication: a professional cannot simply rely on inherited custom but must be able to reason about why an action is right, especially when customs differ across a multinational crew.",
+      "Give an engine-room example where reasoned ethics is needed because habit or local custom is not enough (for example a practice that is how it has always been done but is unsafe).",
+      "Report the distinction and its meaning for a seafarer, in clear maritime English."
+    ],
+    deliverable: "A note in English distinguishing morality (inherited values and customs) from ethics (the reasoned reflection on them), with why a professional must reason and not only follow custom, and an engine-room example.",
+    assessmentCriteria: [
+      "Morality and ethics are correctly distinguished (inherited values versus reasoned reflection).",
+      "The implication for a professional (reasoning beyond custom) is sound.",
+      "The engine-room example genuinely needs reasoned ethics, not just habit.",
+      "The answer is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "mn-s5-etica-profesional",
+    unit: "El juicio",
+    topic: "El juicio y los tipos de razonamiento en la decision etica",
+    week: 10,
+    taskId: "mn-c0104-w10-judgment-reasoning",
+    taskTitle: "Reason Soundly Toward A Judgment",
+    scenario: "A sound decision rests on sound reasoning. The second engineer asks the cadet to explain how a judgment is formed and how good reasoning differs from a hasty or fallacious one.",
+    instructions: [
+      "Explain what a judgment is (affirming or denying something about a case) and how a professional judgment should rest on evidence, not on impression alone.",
+      "Explain deductive reasoning (from a general rule to the case: all pressure vessels must be tested, this is a pressure vessel, so it must be tested) and inductive reasoning (from cases to a general pattern: repeated failures point to a common cause).",
+      "Warn against common faults in reasoning (jumping to a conclusion, mistaking correlation for cause, deciding from one loud voice) and how they lead to a wrong judgment.",
+      "Report how a sound judgment is reasoned, using an engine-room decision as the example, in clear maritime English."
+    ],
+    deliverable: "A note in English on forming a judgment: judgment resting on evidence, deductive versus inductive reasoning with an engine-room example of each, and the common reasoning faults to avoid.",
+    assessmentCriteria: [
+      "Judgment resting on evidence rather than impression is correctly explained.",
+      "Deductive and inductive reasoning are correctly distinguished with valid examples.",
+      "The common reasoning faults are correctly identified.",
+      "The answer is clear and in correct maritime English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "mn-s5-etica-profesional",
+    unit: "Etica y profesion",
+    topic: "El contexto laboral de la gente de mar y sus exigencias eticas",
+    week: 11,
+    taskId: "mn-c0104-w11-seafarer-labor-context",
+    taskTitle: "Face The Ethics Of The Seafarer's Working Life",
+    scenario: "The second engineer asks the cadet to look honestly at the working life of a seafarer, its long contracts, isolation, multinational crew, fatigue and authority, and the ethical demands it places on the professional.",
+    instructions: [
+      "Describe the real working context of the gente de mar: months away from home, life and work in the same confined place, a crew of mixed nationalities and cultures, and a clear chain of command.",
+      "Explain the ethical demands this context creates: respect across cultures and beliefs, fairness and no abuse of rank, honesty in reporting, and care for shipmates' welfare and one's own limits (the fatigue ethics of week 7).",
+      "Explain the professional's own rights and duties: the duty to competent, sober, rested work set against the right to fair treatment, rest and dignity, and why the two support each other.",
+      "Report the ethical demands of the seafarer's working life, in clear maritime English."
+    ],
+    deliverable: "A note in English on the seafarer's labour context (long contracts, isolation, multinational crew, chain of command) and its ethical demands (cross-cultural respect, fairness, honesty, welfare), with the professional's paired rights and duties, building on the fatigue ethics of week 7.",
+    assessmentCriteria: [
+      "The seafarer's working context is described realistically.",
+      "The ethical demands it creates are sound (respect, fairness, honesty, welfare).",
+      "The paired rights and duties of the professional are correctly explained.",
+      "The answer is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "mn-s5-etica-profesional",
+    unit: "Etica y profesion",
+    topic: "Juicio etico integrado en un caso profesional complejo",
+    week: 12,
+    taskId: "mn-c0104-w12-integrated-ethical-judgment",
+    taskTitle: "Judge A Hard Professional Case",
+    scenario: "As the closing task of the subject, the second engineer puts a hard case to the cadet and asks for a full ethical judgment, drawing together the reasoning, the ethics-and-morality distinction and the working context of the semester.",
+    instructions: [
+      "Take a layered case: an engineer is pressed by a superior to sign that maintenance was done in order to hold the schedule, the crew is tired near the end of a long contract, and the crew is multinational with different assumptions about speaking up.",
+      "Work it with the method of week 5 (values in conflict, who is affected, real options, consequences, decide with reasons), reasoning soundly (week 10) and not merely following custom (week 9).",
+      "Weigh the working-context pressures honestly (week 11) without letting them excuse a false record, and locate the responsibility of both the one who orders and the one who signs.",
+      "Report the reasoned judgment and the chosen action, integrating the subject, in clear maritime English."
+    ],
+    deliverable: "A note in English giving a reasoned ethical judgment on a layered professional case (schedule pressure to falsify a record, fatigue, a multinational crew), worked with the method and reasoning of the semester and honest about the working-context pressures, integrating weeks 5, 9, 10 and 11 as the subject capstone.",
+    assessmentCriteria: [
+      "The case is worked through the ethical method with sound reasoning, not mere custom.",
+      "The conflicting values and affected parties are correctly identified and weighed.",
+      "The working-context pressures are weighed honestly without excusing a false record, and responsibility is correctly located.",
+      "The judgment integrates the subject and is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "QUH535",
     subjectName: "Química",
     subjectId: "mn-s5-quimica",
@@ -2440,6 +3484,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Corrosión",
+    topic: "Picadura, corrosion por esfuerzo, fatiga y erosion-corrosion",
+    week: 9,
+    taskId: "mn-quh535-w09-corrosion-types",
+    taskTitle: "Identify The Types Of Corrosion On Board",
+    scenario: "Corrosion attacks the ship in more ways than the galvanic cell of week 2. The engineer asks the cadet to identify the main forms of corrosion found in the machinery spaces and where each occurs.",
+    instructions: [
+      "Explain pitting corrosion: a localised attack that bores deep pits (for example in stainless steel where the protective film breaks down), dangerous because a small area hides deep penetration.",
+      "Explain stress corrosion and corrosion fatigue: how a metal under tensile stress or repeated loading cracks far sooner in a corrosive environment than in dry air.",
+      "Explain erosion-corrosion: why corrosion increases where fast or turbulent seawater strips the protective film (for example at pipe bends and pump impellers), building on the galvanic corrosion of week 2 rather than re-teaching it.",
+      "Report where each type would be looked for on board, in clear engine-room English."
+    ],
+    deliverable: "A note in English identifying pitting, stress corrosion and corrosion fatigue, and erosion-corrosion, with where each occurs on board, building on the galvanic corrosion of week 2.",
+    assessmentCriteria: [
+      "Pitting corrosion is correctly explained (a localised deep attack where the film breaks down).",
+      "Stress corrosion and corrosion fatigue are correct (cracking under stress or cyclic load in a corrosive environment).",
+      "Erosion-corrosion is correct (fast or turbulent seawater strips the protective film).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Corrosión",
+    topic: "Recubrimientos protectores y dezincado",
+    week: 10,
+    taskId: "mn-quh535-w10-corrosion-prevention",
+    taskTitle: "Protect Metals Against Corrosion",
+    scenario: "Once the forms of corrosion are known, they must be prevented. The engineer asks the cadet to explain how protective coatings and the right material choice keep corrosion under control.",
+    instructions: [
+      "Explain how a coating protects: a paint or a metallic coating (for example galvanising) keeps oxygen and water off the steel, and how a self-protecting oxide film forms on metals such as aluminium and stainless steel.",
+      "Explain how sacrificial anodes (week 2) and coatings work together on the hull and in seawater systems, and why a coating breakdown concentrates the attack on the bare spot.",
+      "Explain dezincification: how zinc is leached out of brass in seawater leaving a weak, porous metal, and how choosing the right alloy (for example inhibited brass or gunmetal) prevents it.",
+      "Report a corrosion-protection recommendation for a seawater cooling line, in clear engine-room English."
+    ],
+    deliverable: "A note in English on corrosion protection: how coatings and oxide films exclude oxygen and water, how coatings and sacrificial anodes (week 2) work together, and how dezincification is prevented by alloy choice.",
+    assessmentCriteria: [
+      "The coating and oxide-film mechanism is correct (excludes oxygen and water).",
+      "The coating-plus-anode combination and the danger of a coating breakdown are correct.",
+      "Dezincification and its prevention by alloy choice are correct.",
+      "The recommendation is clear and in correct English."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Combustibles y lubricantes",
+    topic: "Composicion de los combustibles marinos y temperatura de operacion del combustoleo",
+    week: 11,
+    taskId: "mn-quh535-w11-fuel-composition",
+    taskTitle: "Explain The Chemistry Of Marine Fuels",
+    scenario: "The behaviour of a fuel comes from its chemistry. Building on the flash point of week 4 and the fire chemistry of week 6, the engineer asks the cadet to explain the composition of the marine fuels and its consequences.",
+    instructions: [
+      "State that marine fuels are mainly carbon and hydrogen, with sulphur, water and ash as the important impurities, and that the heavier the fuel the more impurities and the higher its viscosity (week 1).",
+      "Explain the consequences of each: sulphur burns to SOx and forms acids that corrode (weeks 8 and 9), ash and solids cause wear, and water must be removed by the purifier before injection.",
+      "Explain the maximum operating temperature of heavy fuel oil: it is heated to reach injection viscosity (week 1) but must stay safely below its flash point (week 4) to avoid an ignition risk.",
+      "Report why the fuel's chemistry sets how it is treated and burned, in clear engine-room English."
+    ],
+    deliverable: "A note in English on marine-fuel chemistry: the carbon and hydrogen base with sulphur, water and ash impurities, their consequences (SOx and acid corrosion, wear, water removal), and the heavy-fuel operating-temperature limit between injection viscosity and flash point, tying weeks 1, 4, 6, 8 and 9 together.",
+    assessmentCriteria: [
+      "The fuel composition is correct (carbon and hydrogen with sulphur, water and ash impurities, heavier meaning more impurities and viscosity).",
+      "The consequences are correct (sulphur to SOx and acid corrosion, ash wear, water removed by the purifier).",
+      "The heavy-fuel operating-temperature reasoning is correct (heated for injection viscosity, kept below the flash point).",
+      "The answer is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Combustibles y lubricantes",
+    topic: "Analisis de aceites: contenido de agua, punto de inflamacion y viscosidad",
+    week: 12,
+    taskId: "mn-quh535-w12-oil-analysis",
+    taskTitle: "Analyse A Lubricating Oil Sample",
+    scenario: "As the closing task of the subject, the engineer asks the cadet to analyse a used lubricating-oil sample, drawing the semester's chemistry together to judge whether the oil is still fit for service.",
+    instructions: [
+      "State what is tested and why: the water content (water ruins the oil film and promotes corrosion), the viscosity (week 1, has it thinned or thickened?), the flash point (week 4, has fuel diluted the oil and lowered it?) and the acidity (week 5, is the oil going acid?).",
+      "Explain how water gets into the oil (a cooler leak or condensation) and how a rising water content is detected, linking to the purifier that removes it.",
+      "Interpret a set of results: a sample with water present, a lowered flash point and a rising acidity, and decide whether the oil should be renewed and the cause investigated.",
+      "Report the oil-analysis verdict and the recommended action, integrating the semester, in clear engine-room English."
+    ],
+    deliverable: "A note in English analysing a lube-oil sample: the tests (water content, viscosity of week 1, flash point of week 4, acidity of week 5), the interpretation of a degraded sample, and a renew-or-investigate verdict, integrating the subject as its capstone.",
+    assessmentCriteria: [
+      "The tests and their reasons are correct (water, viscosity, flash point, acidity) and linked to the earlier weeks.",
+      "The routes for water ingress and its detection are correct.",
+      "The interpretation and the renew-or-investigate decision are sound.",
+      "The report integrates the semester and is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "ING530",
     subjectName: "Inglés Marítimo V",
     subjectId: "mn-s5-ingles-maritimo-v",
@@ -2548,6 +3708,122 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
       "The closed-loop check is used and referenced as established practice, not re-taught.",
       "The debrief compares plan with outcome, stays blame-free, and draws lessons.",
       "Concision and structure are demonstrated as the virtues of command English, in clear maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "ING530",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "mn-s5-ingles-maritimo-v",
+    unit: "Pasado perfecto",
+    topic: "Uso del pasado perfecto para secuenciar un incidente",
+    week: 9,
+    taskId: "mn-ing530-w09-past-perfect-incident",
+    taskTitle: "Report The Sequence Of An Incident",
+    scenario: "When a fault is investigated, the order of events decides the cause. The engineer asks the cadet to report an engine-room incident using the past perfect to make the sequence unmistakable.",
+    instructions: [
+      "Explain the past perfect (had plus the past participle) as the tense for the earlier of two past actions: the alarm sounded because the pressure had already fallen.",
+      "Describe a short engine-room incident with at least three events that happened in a definite order (for example a filter had clogged, so the pressure fell, so the engine tripped).",
+      "Write the account using the past simple for the main events and the past perfect for what had happened before them, so the reader cannot mistake the order.",
+      "Report the incident account in clear maritime English."
+    ],
+    deliverable: "A short incident report in English using the past simple and the past perfect to fix the order of events of an engine-room fault, so cause and effect are unmistakable.",
+    assessmentCriteria: [
+      "The past perfect is formed and used correctly for the earlier past action.",
+      "The incident has a clear ordered sequence of at least three events.",
+      "The past simple and past perfect are combined so the order is unambiguous.",
+      "The report is clear and professional in English."
+    ],
+    xp: 20,
+    estimatedTime: "30 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "ING530",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "mn-s5-ingles-maritimo-v",
+    unit: "Pasivo con modal verbs y verbo to get",
+    topic: "La voz pasiva con verbos modales en avisos y procedimientos",
+    week: 10,
+    taskId: "mn-ing530-w10-modal-passive-notices",
+    taskTitle: "Write Safety Notices With The Modal Passive",
+    scenario: "Safety notices and procedure steps are written in the modal passive (the valve must be closed, the guard should be replaced). Building on the passive of week 1 and the modals of week 5, the engineer asks the cadet to write them correctly.",
+    instructions: [
+      "Form the modal passive (modal plus be plus the past participle) and show how it states a requirement without naming who does it: the machine must be isolated before work begins.",
+      "Combine it with the regulatory modals of week 5 (must, must not, should, may) to set the strength of each instruction (the space must be ventilated, the guard must not be removed while running).",
+      "Write a short safety notice for an engine-room task as three or four modal-passive steps in the right order.",
+      "Report the notice in clear maritime English."
+    ],
+    deliverable: "A short engine-room safety notice in English written in the modal passive (modal plus be plus past participle), using the regulatory modals of week 5 to set the strength of each step, building on the passive of week 1.",
+    assessmentCriteria: [
+      "The modal passive is formed correctly (modal plus be plus past participle).",
+      "The regulatory modals set the correct strength for each instruction (must, must not, should, may).",
+      "The notice is a clear, correctly ordered set of steps.",
+      "The notice reads professionally, not as a grammar exercise."
+    ],
+    xp: 20,
+    estimatedTime: "35 min",
+    difficulty: "Standard"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "ING530",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "mn-s5-ingles-maritimo-v",
+    unit: "Expectativas y suposiciones",
+    topic: "Uso de supposed to y was going to para contrastar lo previsto y lo ocurrido",
+    week: 11,
+    taskId: "mn-ing530-w11-expectation-vs-reality",
+    taskTitle: "Contrast Expectation And Reality In A Fault Analysis",
+    scenario: "Analysing a fault means comparing what should have happened with what did. The engineer asks the cadet to use supposed to and was going to to set the plan against the reality.",
+    instructions: [
+      "Explain is and are supposed to for what is expected or required (the pump is supposed to keep the pressure at 4 bar) and was and were supposed to for an expectation that was not met (the alarm was supposed to sound, but it did not).",
+      "Explain was and were going to for a planned action overtaken by events (we were going to change the filter at the next port, but it clogged first).",
+      "Write a short fault analysis that contrasts the intended or expected behaviour with what actually happened, so the gap points to the cause.",
+      "Report the analysis in clear maritime English."
+    ],
+    deliverable: "A short fault analysis in English using supposed to (expected or required, and expectation unmet) and was going to (a plan overtaken by events) to contrast the intended behaviour with the reality and point to the cause.",
+    assessmentCriteria: [
+      "Supposed to is used correctly for both the requirement and the unmet expectation.",
+      "Was going to is used correctly for a plan overtaken by events.",
+      "The contrast between expectation and reality genuinely points to the fault's cause.",
+      "The analysis is clear and professional in English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "ING530",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "mn-s5-ingles-maritimo-v",
+    unit: "Tiempos simples y continuos",
+    topic: "Tiempos simples, continuos y perfectos y el gerundio en el relevo de guardia",
+    week: 12,
+    taskId: "mn-ing530-w12-watch-handover-report",
+    taskTitle: "Write The Engine-Room Watch Handover",
+    scenario: "As the closing task of the subject, the engineer must hand over the watch in writing, choosing the right tense for each fact. The engineer asks the cadet to write an engine-room watch handover that a relief can act on.",
+    instructions: [
+      "Use the present simple for standing states (the main engine runs at 85 rpm), the present continuous for what is happening now (number two purifier is running), and the present perfect for what has been done this watch (I have topped up the stern-tube tank).",
+      "Use the past simple and past perfect (week 9) for any event during the watch, and gerunds and infinitives correctly (we stopped to change the filter, the pump keeps tripping).",
+      "Include the standing orders and what the relief must watch (a modal-passive instruction from week 10), so nothing in progress is lost at the handover.",
+      "Report the complete watch handover, integrating the subject, in clear maritime English."
+    ],
+    deliverable: "A written engine-room watch handover in English using the simple, continuous and perfect tenses for the right facts, past tenses for events, gerunds and infinitives, and a modal-passive instruction, integrating weeks 1, 9 and 10 as the subject capstone.",
+    assessmentCriteria: [
+      "The present simple, continuous and perfect are each used for the correct kind of fact.",
+      "The past tenses and the gerund and infinitive forms are used correctly for events and actions.",
+      "The handover is complete and a relief could act on it (states in progress and standing orders included).",
+      "The handover integrates the subject and is clear and professional in English."
     ],
     xp: 25,
     estimatedTime: "40 min",
