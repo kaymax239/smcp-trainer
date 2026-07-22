@@ -1280,6 +1280,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Operación integrada de la planta",
+    topic: "Puesta en servicio integrada de la máquina principal, generadores y standby",
+    week: 13,
+    taskId: "mn-lma745-w13-cold-ship-to-sea",
+    taskTitle: "Bring The Engine Room From Cold Ship To Sea-Going",
+    scenario: "The vessel is alongside in cold-ship condition and sails in three hours. As duty engineer you must bring the whole plant to sea-going in the engine-room simulator: start and parallel the diesel generators, warm through and put the main engine into service, and hand the standby watch ready for manoeuvre.",
+    instructions: [
+      "Start and parallel the main diesel generators, transfer the load from shore supply and confirm a stable board.",
+      "Warm through, turn and put the main engine into service, checking lube oil, cooling and starting-air parameters against limits.",
+      "Complete the standby checklist so the plant is ready to answer the telegraph for manoeuvre.",
+      "Report the engine room ready for sea to the bridge and the Chief Engineer in standard engine-room English."
+    ],
+    deliverable: "A completed cold-ship-to-sea start-up sequence with a signed standby readiness checklist.",
+    assessmentCriteria: [
+      "The generators are paralleled and the main engine put into service in the correct, safe order.",
+      "All critical parameters are checked against limits before answering standby.",
+      "The standby readiness checklist is complete and accurate.",
+      "The ready-for-sea report is delivered clearly in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Operación integrada de la planta",
+    topic: "Cruce de la frontera ECA: cambio de combustible y control de parámetros",
+    week: 14,
+    taskId: "mn-lma745-w14-eca-boundary-crossing",
+    taskTitle: "Take The Engine Room Through An ECA Boundary",
+    scenario: "The ship is approaching the ECA boundary at sea speed. In the engine-room simulator you must change over the main engine fuel from HFO to MGO within the sulphur regulation, keep the engine parameters stable through the change, and log the operation correctly.",
+    instructions: [
+      "Prepare and carry out the fuel changeover from HFO to MGO at a controlled rate, watching viscosity and temperature.",
+      "Monitor main-engine parameters through the changeover and correct any drift in temperatures or pressures.",
+      "Record the changeover time, position and fuel figures in the Oil Record Book and fuel changeover log.",
+      "Report the completed changeover and confirmed compliant fuel to the officer of the watch in engine-room English."
+    ],
+    deliverable: "A completed fuel-changeover log with the ECA crossing time and compliant parameter record.",
+    assessmentCriteria: [
+      "The changeover is carried out at a safe rate without loss of engine performance.",
+      "Parameters are held within limits throughout the transition.",
+      "The changeover is logged accurately with time and position.",
+      "The compliance report is communicated correctly in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Operación integrada de la planta",
+    topic: "Condición de puerto, generador de eje y conexión de suministro de tierra",
+    week: 15,
+    taskId: "mn-lma745-w15-harbour-condition-shore-power",
+    taskTitle: "Bring The Plant To Harbour Condition And Connect Shore Power",
+    scenario: "The vessel has finished manoeuvre and is all-fast in Tampico. In the engine-room simulator you must take the plant from sea-going to harbour condition, transition off the shaft generator, take a running generator on the board and connect shore supply before handing over the watch.",
+    instructions: [
+      "Take the main engine out of service after finished-with-engines and secure the standby systems.",
+      "Manage the ship's power sources: transfer off the shaft generator to a diesel generator, then prepare and connect shore supply.",
+      "Complete the harbour-condition checklist and prepare the plant for the port maintenance stay.",
+      "Hand over the harbour watch to the relieving engineer with a clear status report in engine-room English."
+    ],
+    deliverable: "A harbour-condition changeover record with the shore-connection log and watch handover.",
+    assessmentCriteria: [
+      "The transition from sea-going to harbour condition follows the correct sequence.",
+      "The power source is transferred and shore supply connected without a break in supply.",
+      "The harbour-condition checklist is complete.",
+      "The handover status is reported clearly in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Respuesta a emergencias de la planta",
+    topic: "Recuperación de un apagón con fallo del sistema de gobierno durante la maniobra",
+    week: 16,
+    taskId: "mn-lma745-w16-blackout-during-manoeuvre",
+    taskTitle: "Recover From A Blackout During Manoeuvre",
+    scenario: "During harbour manoeuvre the main board trips and the ship suffers a total blackout with a simultaneous loss of steering. In the engine-room simulator you must restore power fast and safely and bring the steering gear back before the vessel is set down.",
+    instructions: [
+      "Carry out the blackout recovery sequence: start the emergency generator, restore the main board and reconnect essential services.",
+      "Restore the steering gear and answer the loss of steering, confirming the rudder responds to the bridge.",
+      "Restart and reload the main engine auxiliaries and confirm the plant is stable.",
+      "Send the emergency status and restored-services report to the bridge in standard engine-room English."
+    ],
+    deliverable: "A blackout and steering-failure recovery report with the restored-services timeline.",
+    assessmentCriteria: [
+      "Power is restored in the correct priority order under time pressure.",
+      "Steering is recovered and confirmed to the bridge promptly.",
+      "The plant is stabilised and essential services confirmed.",
+      "The emergency report to the bridge is clear and correct in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Cumplimiento y auditoría de máquinas",
+    topic: "Auditoría ambiental y de seguridad: separador de sentinas, ORB y sistemas fijos",
+    week: 17,
+    taskId: "mn-lma745-w17-environmental-safety-audit",
+    taskTitle: "Audit The Engine Room For Environmental And Safety Compliance",
+    scenario: "A vetting inspection is due. As duty engineer you must audit the engine room's pollution-prevention and fire-safety readiness: verify the 15 ppm separator and Oil Record Book, confirm the fixed fire systems and CO2 station, and close out any deficiency.",
+    instructions: [
+      "Operate and verify the 15 ppm separator and confirm the Oil Record Book entries are correct and up to date.",
+      "Inspect the fixed fire-fighting systems and CO2 station and confirm they are ready for use.",
+      "List any deficiencies found and assign the corrective action and responsible person.",
+      "Write the compliance statement summarising the audit result in maritime English."
+    ],
+    deliverable: "An engine-room compliance statement covering pollution prevention and fire safety with a deficiency list.",
+    assessmentCriteria: [
+      "The separator and Oil Record Book are checked correctly against MARPOL requirements.",
+      "The fixed fire systems and CO2 station are verified as ready for use.",
+      "Deficiencies are identified with clear corrective actions.",
+      "The compliance statement is written correctly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "LMA745",
+    subjectName: "Laboratorio de Máquinas",
+    subjectId: "mn-s7-laboratorio-maquinas",
+    unit: "Integración de fin de semestre",
+    topic: "Relevo integral de la guardia de máquinas al Jefe de Máquinas",
+    week: 18,
+    taskId: "mn-lma745-w18-machinery-handover-brief",
+    taskTitle: "Deliver The End-Of-Watch Machinery Handover To The Chief Engineer",
+    scenario: "At the end of a demanding sea watch you must hand over the whole machinery plant to the Chief Engineer, pulling together the state of the main engine, generators, auxiliaries and any outstanding defects from the voyage.",
+    instructions: [
+      "Summarise the current status of the main engine, generation plant and auxiliary machinery.",
+      "List the operations carried out this watch and any parameters trending out of normal.",
+      "Note outstanding defects, standing orders and the actions required on the next watch.",
+      "Deliver the complete machinery handover brief to the Chief Engineer in professional engine-room English."
+    ],
+    deliverable: "A written and spoken machinery watch handover brief covering the whole plant.",
+    assessmentCriteria: [
+      "The status of all main systems is captured accurately and completely.",
+      "Trends and outstanding defects are correctly prioritised.",
+      "Required next-watch actions are clear and actionable.",
+      "The handover brief is delivered fluently in professional engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "EST748",
     subjectName: "Estabilidad del Buque",
     subjectId: "mn-s7-estabilidad-buque",
@@ -1507,6 +1681,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Condición de estabilidad integrada",
+    topic: "Evaluación de la condición de salida: hidrostáticas, TPC, asiento y curva GZ",
+    week: 13,
+    taskId: "mn-est748-w13-departure-stability-assessment",
+    taskTitle: "Prepare The Full Departure Stability Assessment",
+    scenario: "The ship is loaded for departure and the Master needs the full stability condition. You must read the hydrostatics for the sailing draft, work the final drafts and trim, build the GZ curve and confirm the ship is safe to sail.",
+    instructions: [
+      "Read the hydrostatic data and use TPC to confirm the displacement at the sailing draft.",
+      "Calculate the change of trim and the final forward and after drafts.",
+      "Build the GZ curve for the departure condition and identify GM and the range of stability.",
+      "Report the departure stability condition and confirm it is safe to sail in maritime English."
+    ],
+    deliverable: "A departure stability assessment with final drafts, trim and GZ curve.",
+    assessmentCriteria: [
+      "Hydrostatics and TPC are read and applied correctly to find displacement.",
+      "Trim and final drafts are calculated accurately.",
+      "The GZ curve and GM correctly describe the departure condition.",
+      "The stability condition is reported correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Condición de estabilidad integrada",
+    topic: "Estabilidad para mar gruesa: superficie libre, estabilidad dinámica y curva GZ",
+    week: 14,
+    taskId: "mn-est748-w14-heavy-weather-stability",
+    taskTitle: "Assess The Ship's Stability For A Heavy-Weather Passage",
+    scenario: "A heavy-weather passage is forecast with a large beam sea. You must assess whether the ship's stability is adequate, accounting for the free surface in the slack tanks and the dynamic stability available to absorb the rolling energy.",
+    instructions: [
+      "Calculate the free surface effect of the slack tanks and correct the effective GM.",
+      "Build the corrected GZ curve and evaluate the dynamic stability as the area under the curve.",
+      "Recommend ballast or tank actions to improve the reserve of dynamic stability for the passage.",
+      "Report the heavy-weather stability assessment and recommendations in maritime English."
+    ],
+    deliverable: "A heavy-weather stability assessment with corrected GM, GZ curve and recommendations.",
+    assessmentCriteria: [
+      "The free surface correction is applied correctly to GM.",
+      "Dynamic stability is evaluated correctly from the corrected GZ curve.",
+      "The recommendations sensibly improve the reserve of stability.",
+      "The assessment is reported correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Cálculo integrado de carena",
+    topic: "Cálculo de volúmenes y capacidades por regla de Simpson y coeficientes de formas",
+    week: 15,
+    taskId: "mn-est748-w15-compartment-volumes",
+    taskTitle: "Compute Compartment Volumes And Capacities",
+    scenario: "The loading plan needs accurate tank capacities. Using the ship's lines you must compute a waterplane area and a compartment volume by Simpson's Rule and relate them to the ship's form coefficients and TPC.",
+    instructions: [
+      "Apply Simpson's Rule to compute the waterplane area from the ordinate offsets.",
+      "Extend the calculation to obtain the compartment volume and its capacity.",
+      "Determine the relevant form coefficients and check the result against the ship's TPC.",
+      "Report the computed volumes and capacities with their method in maritime English."
+    ],
+    deliverable: "A capacity calculation sheet with waterplane area, compartment volume and form coefficients.",
+    assessmentCriteria: [
+      "Simpson's Rule is applied correctly to the offsets.",
+      "The volume and capacity are derived and stated correctly.",
+      "Form coefficients and TPC are consistent with the result.",
+      "The calculation is reported correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Respuesta a emergencias de estabilidad",
+    topic: "Corrección de una escora peligrosa con efecto de superficie libre por trasiego de lastre",
+    week: 16,
+    taskId: "mn-est748-w16-dangerous-list-recovery",
+    taskTitle: "Correct A Dangerous List And Free Surface Effect",
+    scenario: "The ship takes on a growing list during a ballast operation and a slack tank is making it worse. You must diagnose the cause, quantify the free surface effect and correct the list safely by ballast transfer without losing more stability.",
+    instructions: [
+      "Diagnose the cause of the list and calculate the free surface effect of the slack tank.",
+      "Determine the ballast transfer required to bring the ship upright, minimising slack tanks.",
+      "Carry out the correction step by step and confirm the recovered GM is safe.",
+      "Report the emergency, the correction and the final condition in maritime English."
+    ],
+    deliverable: "A list-correction report with free surface calculation, ballast plan and recovered condition.",
+    assessmentCriteria: [
+      "The cause and free surface effect are correctly diagnosed and quantified.",
+      "The ballast transfer corrects the list without reducing stability.",
+      "The recovered GM is confirmed as safe.",
+      "The emergency report is communicated correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Cumplimiento de estabilidad",
+    topic: "Verificación de la condición contra los criterios del Código IS y el cuadernillo de estabilidad",
+    week: 17,
+    taskId: "mn-est748-w17-is-code-compliance",
+    taskTitle: "Verify Compliance With The IS Code Stability Criteria",
+    scenario: "Before sailing the loaded condition must be shown to meet the IMO Intact Stability Code. Using the stability booklet and the KG derived from the inclining experiment, you must check the condition against each IS Code criterion.",
+    instructions: [
+      "Establish the loaded KG using the light-ship data from the inclining experiment.",
+      "Build the GZ curve and extract the criteria values: GM, GZ at 30 degrees, area under the curve and angle of maximum GZ.",
+      "Check each value against the IS Code criteria in the stability booklet and mark pass or fail.",
+      "Write the compliance statement confirming the condition meets the IS Code in maritime English."
+    ],
+    deliverable: "An IS Code compliance statement checking the loaded condition against each criterion.",
+    assessmentCriteria: [
+      "The loaded KG and GZ curve are derived correctly.",
+      "Every IS Code criterion is checked against the correct value.",
+      "The pass or fail conclusion is justified by the numbers.",
+      "The compliance statement is written correctly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "EST748",
+    subjectName: "Estabilidad del Buque",
+    subjectId: "mn-s7-estabilidad-buque",
+    unit: "Integración de fin de semestre",
+    topic: "Informe de la condición de estabilidad al Capitán para el viaje",
+    week: 18,
+    taskId: "mn-est748-w18-stability-brief-master",
+    taskTitle: "Deliver The Stability Condition Brief To The Master",
+    scenario: "As the closing task of the semester you must present the ship's complete stability condition for the voyage to the Master, integrating the departure condition, the heavy-weather margin and the IS Code compliance into one clear brief.",
+    instructions: [
+      "Summarise the departure drafts, trim, GM and GZ curve for the loaded condition.",
+      "State the free surface and heavy-weather margin available for the forecast passage.",
+      "Confirm the condition meets the IS Code criteria and note any operational limits.",
+      "Deliver the stability condition brief to the Master in professional maritime English."
+    ],
+    deliverable: "A voyage stability brief integrating condition, margins and compliance for the Master.",
+    assessmentCriteria: [
+      "The departure condition is summarised accurately and completely.",
+      "The heavy-weather margin and any limits are clearly stated.",
+      "IS Code compliance is confirmed correctly.",
+      "The brief is delivered fluently in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -1744,6 +2092,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Trabajo integrado de taller",
+    topic: "Reacondicionamiento y alineación de un conjunto de bomba con cojinetes y aseguramiento",
+    week: 13,
+    taskId: "mn-tal750-w13-overhaul-and-realign-pump",
+    taskTitle: "Overhaul And Realign A Pump Set",
+    scenario: "A pump-and-motor set has been stripped for overhaul. In the machine shop you must fit new bearings to tolerance, align the shafts with a dial indicator, and secure the fasteners against vibration before returning it to service.",
+    instructions: [
+      "Install the new bearings using the correct method and confirm the housing fit is within tolerance.",
+      "Align the pump and motor shafts with a dial indicator to the allowed limits.",
+      "Secure all fasteners against vibration with the correct locking devices.",
+      "Write the completed job report with the alignment readings in maritime English."
+    ],
+    deliverable: "A completed overhaul job with alignment readings and a signed job report.",
+    assessmentCriteria: [
+      "The bearings are installed correctly and the fit checked against tolerance.",
+      "The shaft alignment is brought within the allowed limits.",
+      "Fasteners are secured with the correct locking devices.",
+      "The job report is written correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Trabajo integrado de taller",
+    topic: "Fabricación e inspección de un engrane de repuesto en la fresadora",
+    week: 14,
+    taskId: "mn-tal750-w14-manufacture-replacement-gear",
+    taskTitle: "Manufacture And Inspect A Replacement Gear",
+    scenario: "A worn gear must be replaced from stock. Using the milling machine and dividing head you must cut a spur or helical gear to the drawing, working safely, and then inspect it against the tooth and tolerance requirements.",
+    instructions: [
+      "Set up the milling machine safely and index the blank with the dividing head.",
+      "Cut the gear teeth to the drawing, following spur or helical practice as required.",
+      "Inspect the finished gear for tooth form, backlash and dimensional tolerance.",
+      "Report the manufactured gear and its inspection result in maritime English."
+    ],
+    deliverable: "A finished gear with an inspection sheet against the drawing tolerances.",
+    assessmentCriteria: [
+      "The milling machine is set up and operated safely.",
+      "The gear is cut correctly to the drawing.",
+      "The inspection checks tooth form and tolerance properly.",
+      "The result is reported correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Trabajo integrado de taller",
+    topic: "Reacondicionamiento del enfriador y esmerilado de sus válvulas",
+    week: 15,
+    taskId: "mn-tal750-w15-overhaul-cooler-and-valves",
+    taskTitle: "Overhaul The Cooler And Its Valves",
+    scenario: "A heat exchanger is due for overhaul and its service valves are passing. In the machine shop you must clean and pressure-test the cooler, plug any leaking tubes, and lap the valves and seats back to a good sealing face.",
+    instructions: [
+      "Clean the heat exchanger, pressure-test it for leaks and plug any leaking tubes.",
+      "Dismantle the service valves and lap each valve and its seat to a good face.",
+      "Measure the sealing faces and confirm they are within tolerance before reassembly.",
+      "Write the maintenance report with the test results in maritime English."
+    ],
+    deliverable: "A heat-exchanger and valve overhaul report with leak-test and lapping results.",
+    assessmentCriteria: [
+      "The heat exchanger is cleaned, tested and plugged correctly.",
+      "The valves and seats are lapped to a proper sealing face.",
+      "The sealing faces are measured and confirmed within tolerance.",
+      "The maintenance report is written correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Diagnóstico y reparación en taller",
+    topic: "Diagnóstico de un cojinete recalentado por lubricación, desgaste y desalineación",
+    week: 16,
+    taskId: "mn-tal750-w16-running-hot-bearing",
+    taskTitle: "Diagnose And Repair A Running-Hot Bearing",
+    scenario: "A gearbox bearing is running hot and the gear shows uneven wear. You must diagnose whether the fault is lubrication, misalignment or wear, then repair it and prove the fix.",
+    instructions: [
+      "Inspect the gear contact pattern, backlash and wear to read the symptoms.",
+      "Check the lubrication and the shaft alignment with a dial indicator to find the root cause.",
+      "Carry out the repair, renew the bearing and correct the alignment, then confirm it runs cool.",
+      "Write the fault-finding and repair report with the root cause in maritime English."
+    ],
+    deliverable: "A fault-finding and repair report identifying the root cause of the hot bearing.",
+    assessmentCriteria: [
+      "The gear and bearing symptoms are inspected and read correctly.",
+      "The root cause among lubrication, alignment and wear is correctly identified.",
+      "The repair corrects the fault and is proven by running condition.",
+      "The report is written correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Control de calidad del taller",
+    topic: "Inspección de la reparación terminada contra tolerancias, ajustes y aseguramiento",
+    week: 17,
+    taskId: "mn-tal750-w17-quality-inspection",
+    taskTitle: "Inspect A Completed Repair Against Workshop Tolerances",
+    scenario: "Before a repaired assembly returns to service it must pass a quality inspection. You must verify the measured parts against their tolerances and fits, confirm the alignment record and check that every fastener is properly locked.",
+    instructions: [
+      "Measure the key parts and confirm each is within its tolerance and the correct fit.",
+      "Check the alignment record against the allowed limits and sign it off.",
+      "Verify every fastener has the correct locking device fitted and secured.",
+      "Write the quality inspection statement passing or rejecting the repair in maritime English."
+    ],
+    deliverable: "A quality inspection statement covering tolerances, fits, alignment and locking.",
+    assessmentCriteria: [
+      "Parts are measured and correctly judged against tolerance and fit.",
+      "The alignment record is verified against the limits.",
+      "Every fastener locking device is confirmed correct.",
+      "The inspection statement is written correctly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "TAL750",
+    subjectName: "Taller VI",
+    subjectId: "mn-s7-taller-vi",
+    unit: "Integración de fin de semestre",
+    topic: "Entrega del informe del trabajo de taller al Segundo Oficial de Máquinas",
+    week: 18,
+    taskId: "mn-tal750-w18-machine-shop-job-report",
+    taskTitle: "Deliver The Machine-Shop Job Report To The Second Engineer",
+    scenario: "As the closing task you must hand over the completed machine-shop work of the docking period to the Second Engineer, pulling together the bearing, gear, cooler and valve jobs into one clear job-completion brief.",
+    instructions: [
+      "Summarise each completed job with the key measurements and test results.",
+      "List the parts consumed and any tolerances or clearances outside nominal that were accepted.",
+      "Note the outstanding work and the spares to be reordered.",
+      "Deliver the machine-shop job report to the Second Engineer in professional maritime English."
+    ],
+    deliverable: "A machine-shop job-completion brief covering all workshop jobs of the period.",
+    assessmentCriteria: [
+      "Every completed job is summarised with correct results.",
+      "Consumables and accepted deviations are recorded accurately.",
+      "Outstanding work and spares are clearly identified.",
+      "The brief is delivered fluently in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "PMR751",
     subjectName: "Prácticas Marineras VII",
     subjectId: "mn-s7-practicas-marineras-vii",
@@ -1971,6 +2493,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Faena integrada de cubierta",
+    topic: "Faena de zarpe integrando estación de amarre, faena de anclas y molinete",
+    week: 13,
+    taskId: "mn-pmr751-w13-full-departure-operation",
+    taskTitle: "Run The Full Deck Departure Operation",
+    scenario: "The vessel is sailing from the berth. As deck leader you must run the full departure operation, integrating the mooring station work, the anchor party standing by and the windlass, coordinating with the bridge throughout.",
+    instructions: [
+      "Prepare the mooring stations and the anchor party for departure and check the windlass is ready.",
+      "Run the let-go sequence of the mooring lines in coordination with the bridge orders.",
+      "Keep the anchor ready for immediate use and stow the deck for sea once clear.",
+      "Report the deck ready and each stage of the operation to the bridge in standard maritime English."
+    ],
+    deliverable: "A completed departure deck operation with the mooring and anchor party log.",
+    assessmentCriteria: [
+      "The mooring and anchor parties are prepared and run in the correct order.",
+      "The let-go sequence is coordinated correctly with the bridge.",
+      "The anchor readiness and sea stowage are handled properly.",
+      "Each report to the bridge is clear and correct in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Faena integrada de cubierta",
+    topic: "Faena de fondeo integrando chicoteo del ancla, molinete y señales de banderas",
+    week: 14,
+    taskId: "mn-pmr751-w14-anchoring-operation",
+    taskTitle: "Direct The Anchoring Operation At Tampico",
+    scenario: "The ship is to anchor in the Tampico anchorage. As deck leader you must direct the anchoring operation, walking back the anchor, controlling the windlass and the cable, and displaying the correct signals.",
+    instructions: [
+      "Prepare the anchor and windlass and confirm the depth and scope of cable to use.",
+      "Walk back and let go the anchor, controlling the brake and reading the cable and its lead.",
+      "Display the correct flag and shape signals for a vessel at anchor.",
+      "Report the anchor holding and the cable status to the bridge in standard maritime English."
+    ],
+    deliverable: "A completed anchoring operation record with cable scope and signals displayed.",
+    assessmentCriteria: [
+      "The anchor and windlass are prepared and operated correctly.",
+      "The cable is veered and controlled to the right scope.",
+      "The correct signals for a vessel at anchor are displayed.",
+      "The anchor status is reported clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Faena integrada de cubierta",
+    topic: "Programa de mantenimiento de cubierta: anticorrosivos, acabados, equipos y pañol",
+    week: 15,
+    taskId: "mn-pmr751-w15-deck-maintenance-program",
+    taskTitle: "Plan And Run The Deck Maintenance Program",
+    scenario: "During the sea passage you must plan and run the deck maintenance program, integrating the corrosion treatment and finish coats, the windlass and capstan maintenance and the control of stores from the bosun's store.",
+    instructions: [
+      "Plan the deck maintenance jobs and draw the materials from the bosun's store, updating the inventory.",
+      "Treat the corroded areas with the correct anticorrosive and apply the matched finish coat.",
+      "Carry out the planned maintenance on the windlass and capstan.",
+      "Report the maintenance completed and the stores consumed in maritime English."
+    ],
+    deliverable: "A deck maintenance report with the jobs done and the stores consumed.",
+    assessmentCriteria: [
+      "The maintenance is planned and the stores drawn and logged correctly.",
+      "The corrosion treatment and finish coat are applied correctly.",
+      "The windlass and capstan maintenance is carried out properly.",
+      "The report is written correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Respuesta a emergencias en cubierta",
+    topic: "Recuperación de hombre al agua integrando acercamiento a la víctima y señales",
+    week: 16,
+    taskId: "mn-pmr751-w16-man-overboard-recovery",
+    taskTitle: "Run The Man-Overboard Recovery",
+    scenario: "A crew member falls overboard during deck work. As deck leader you must run the man-overboard recovery: raise the alarm, mark the position, launch the rescue boat and recover the person, approaching the victim safely.",
+    instructions: [
+      "Raise the man-overboard alarm, mark the position and keep the person in sight.",
+      "Launch and crew the rescue boat and approach the person in the water safely.",
+      "Recover the person on board and start first aid.",
+      "Report the recovery operation and the casualty status to the bridge in standard maritime English."
+    ],
+    deliverable: "A man-overboard recovery report with the timeline and casualty status.",
+    assessmentCriteria: [
+      "The alarm, marking and lookout are handled promptly and correctly.",
+      "The rescue boat is launched and the approach to the victim is safe.",
+      "The recovery and initial first aid are carried out properly.",
+      "The recovery report is communicated clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Auditoría de cubierta",
+    topic: "Auditoría de pertrechos y señales: control del pañol, partes de respeto y banderas",
+    week: 17,
+    taskId: "mn-pmr751-w17-stores-signals-audit",
+    taskTitle: "Audit The Deck Stores And Signalling Readiness",
+    scenario: "Before the next voyage you must audit the deck department's readiness: verify the bosun's store inventory and the spares report, and confirm the crew can recognise and send the international code flag signals.",
+    instructions: [
+      "Verify the bosun's store inventory against the records and reconcile the consumables.",
+      "Compile the spares report and flag the items to be reordered.",
+      "Confirm the crew can recognise the international code flags and send a flag signal.",
+      "Write the deck readiness audit statement in maritime English."
+    ],
+    deliverable: "A deck readiness audit with the store inventory, spares report and signalling check.",
+    assessmentCriteria: [
+      "The store inventory is verified and reconciled correctly.",
+      "The spares report is complete and prioritised.",
+      "The flag recognition and signalling are confirmed correct.",
+      "The audit statement is written correctly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "PMR751",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "mn-s7-practicas-marineras-vii",
+    unit: "Integración de fin de semestre",
+    topic: "Relevo integral del departamento de cubierta",
+    week: 18,
+    taskId: "mn-pmr751-w18-deck-handover-brief",
+    taskTitle: "Deliver The Deck Department Handover Brief",
+    scenario: "As the closing task you must hand over the deck department, pulling together the state of the mooring and anchor gear, the deck maintenance, the stores and the safety equipment into one clear handover brief.",
+    instructions: [
+      "Summarise the condition of the mooring, anchor and deck machinery.",
+      "State the maintenance completed and outstanding and the stores position.",
+      "Note the safety equipment status and any standing orders for the deck watch.",
+      "Deliver the deck department handover brief in professional maritime English."
+    ],
+    deliverable: "A deck department handover brief covering gear, maintenance, stores and safety.",
+    assessmentCriteria: [
+      "The condition of the deck gear and machinery is summarised accurately.",
+      "Maintenance and stores status are stated correctly.",
+      "Safety equipment status and standing orders are clear.",
+      "The brief is delivered fluently in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -2208,6 +2904,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "mn-s7-educacion-fisica-vii",
+    unit: "Preparación física integrada",
+    topic: "Programa de acondicionamiento integrando resistencia, fuerza, flexibilidad y circuito",
+    week: 13,
+    taskId: "mn-c0011vii-w13-fitness-program",
+    taskTitle: "Build The Senior Engineer's Fitness Program",
+    scenario: "As a senior engineer cadet you must build an integrated fitness program that keeps you ready for demanding engine duties, combining cardiorespiratory endurance, muscular strength, flexibility and the onboard station circuit.",
+    instructions: [
+      "Set the weekly targets for cardiorespiratory endurance and muscular strength.",
+      "Add the flexibility routine and the onboard station circuit into the plan.",
+      "Balance the sessions across the week to allow recovery between watches.",
+      "Present the fitness program and its targets in maritime English."
+    ],
+    deliverable: "An integrated weekly fitness program with endurance, strength, flexibility and circuit targets.",
+    assessmentCriteria: [
+      "The endurance and strength targets are set appropriately for engine duties.",
+      "The flexibility and circuit work are integrated sensibly.",
+      "The weekly balance allows recovery around watches.",
+      "The program is presented correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "mn-s7-educacion-fisica-vii",
+    unit: "Preparación física integrada",
+    topic: "Aptitud para la guardia larga integrando movilidad, postura, flexibilidad y concentración",
+    week: 14,
+    taskId: "mn-c0011vii-w14-watch-fitness-focus",
+    taskTitle: "Sustain Fitness And Focus Across A Long Watch",
+    scenario: "Long engine watches strain both body and mind. You must build a routine that sustains mobility, posture and focus across a long watch, integrating the movement breaks, the flexibility work and the concentration training.",
+    instructions: [
+      "Set the mobility and posture breaks to use during the watch.",
+      "Add the flexibility movements that counter long periods of standing and confined work.",
+      "Include the concentration exercises that keep focus through a prolonged watch.",
+      "Present the watch-readiness routine in maritime English."
+    ],
+    deliverable: "A long-watch readiness routine integrating mobility, posture, flexibility and focus.",
+    assessmentCriteria: [
+      "The mobility and posture breaks are practical for the watch.",
+      "The flexibility work counters the real strains of the watch.",
+      "The concentration exercises are appropriate to a long watch.",
+      "The routine is presented correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "mn-s7-educacion-fisica-vii",
+    unit: "Liderazgo en la actividad física",
+    topic: "Dirección de la sesión integrada de la dotación: calentamiento, circuito y deporte de equipo",
+    week: 15,
+    taskId: "mn-c0011vii-w15-lead-crew-session",
+    taskTitle: "Lead The Crew's Integrated Training Session",
+    scenario: "As session leader you must lead the crew's integrated training, running the warm-up, the station circuit and a team sport to build teamwork, then closing the session down safely.",
+    instructions: [
+      "Lead the warm-up and prepare the group safely for effort.",
+      "Run the onboard station circuit, controlling the work and rest at each station.",
+      "Lead a team sport that builds crew teamwork, then run the cool-down and close.",
+      "Give the session instructions and debrief to the group in maritime English."
+    ],
+    deliverable: "A led crew training session plan with warm-up, circuit, team sport and close.",
+    assessmentCriteria: [
+      "The warm-up prepares the group safely.",
+      "The circuit is run with correct work and rest control.",
+      "The team sport and close-down build cohesion and end safely.",
+      "The session is led correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "mn-s7-educacion-fisica-vii",
+    unit: "Respuesta física en emergencia",
+    topic: "Dirigir la sobrevivencia en el agua integrando abandono simulado, liderazgo y nado en grupo",
+    week: 16,
+    taskId: "mn-c0011vii-w16-survival-swim-leadership",
+    taskTitle: "Lead The Crew Through A Survival Swim",
+    scenario: "In a simulated abandonment you must lead the crew through the survival swim, running the jump, the grouped swim and heat conservation, and keeping the weaker survivors together in the water.",
+    instructions: [
+      "Lead the controlled abandonment jump and gather the group in the water.",
+      "Organise the grouped swim and the huddle for heat conservation.",
+      "Keep the weaker survivors supported and moving toward safety.",
+      "Give the survival commands and the situation report in maritime English."
+    ],
+    deliverable: "A led survival-swim operation with the group organisation and heat-conservation plan.",
+    assessmentCriteria: [
+      "The abandonment and grouping in the water are led safely.",
+      "The grouped swim and heat conservation are organised correctly.",
+      "The weaker survivors are supported effectively.",
+      "The commands and report are given clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "mn-s7-educacion-fisica-vii",
+    unit: "Evaluación de la aptitud física",
+    topic: "Evaluación de la aptitud de la dotación contra los estándares de resistencia, fuerza y nado",
+    week: 17,
+    taskId: "mn-c0011vii-w17-readiness-assessment",
+    taskTitle: "Assess The Crew's Physical Readiness Standard",
+    scenario: "Before the voyage you must assess the crew's physical readiness, testing them against the endurance, strength and swimming standards and identifying who needs a targeted program.",
+    instructions: [
+      "Run the endurance and strength tests and record each result against the standard.",
+      "Run the swimming and survival test and record the results.",
+      "Identify the crew members below standard and set a targeted improvement plan.",
+      "Write the physical readiness assessment in maritime English."
+    ],
+    deliverable: "A crew physical readiness assessment against the endurance, strength and swim standards.",
+    assessmentCriteria: [
+      "The endurance and strength tests are run and recorded correctly.",
+      "The swimming and survival test is assessed against the standard.",
+      "Under-standard crew are identified with a targeted plan.",
+      "The assessment is written correctly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "mn-s7-educacion-fisica-vii",
+    unit: "Integración de fin de semestre",
+    topic: "Informe de aptitud física de la dotación",
+    week: 18,
+    taskId: "mn-c0011vii-w18-fitness-readiness-report",
+    taskTitle: "Deliver The Crew Fitness Readiness Report",
+    scenario: "As the closing task you must report the crew's overall physical readiness for the voyage, pulling together the fitness program, the assessment results and the survival capability into one clear brief.",
+    instructions: [
+      "Summarise the crew's fitness program and the progress made over the semester.",
+      "State the readiness assessment results against the standards.",
+      "Note the survival-swim capability and any crew still needing improvement.",
+      "Deliver the crew fitness readiness report in professional maritime English."
+    ],
+    deliverable: "A crew fitness readiness report integrating program, assessment and survival capability.",
+    assessmentCriteria: [
+      "The fitness program and progress are summarised accurately.",
+      "The assessment results are stated correctly against the standards.",
+      "The survival capability and remaining gaps are clear.",
+      "The report is delivered fluently in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "OMI749",
     subjectName: "Convenios Organización Marítima Internacional I",
     subjectId: "mn-s7-convenios-omi-i",
@@ -2435,6 +3305,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Cumplimiento integrado de convenios",
+    topic: "Expediente de cumplimiento previo a la salida: SOLAS, MARPOL y líneas de carga",
+    week: 13,
+    taskId: "mn-omi749-w13-pre-departure-dossier",
+    taskTitle: "Compile The Pre-Departure Convention Compliance Dossier",
+    scenario: "Before sailing you must show the ship meets its core IMO conventions. You must compile the pre-departure compliance dossier covering the SOLAS certificates, the MARPOL requirements and the Load Line Convention.",
+    instructions: [
+      "List the SOLAS certificates required and confirm they are valid and on board.",
+      "Confirm the MARPOL requirements are met against the relevant annexes.",
+      "Check the load line marks, freeboard and assigned zone against the Load Line Convention.",
+      "Write the pre-departure compliance statement in maritime English."
+    ],
+    deliverable: "A pre-departure compliance dossier covering SOLAS, MARPOL and load lines.",
+    assessmentCriteria: [
+      "The required SOLAS certificates are correctly identified and verified.",
+      "MARPOL compliance is confirmed against the correct annexes.",
+      "The load line, freeboard and zone are checked correctly.",
+      "The compliance statement is written correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Cumplimiento integrado de convenios",
+    topic: "Expediente ambiental: MARPOL, gestión del agua de lastre y sistemas antiincrustantes",
+    week: 14,
+    taskId: "mn-omi749-w14-environmental-file",
+    taskTitle: "Prepare The Vessel's Environmental Compliance File",
+    scenario: "An environmental audit is due. You must prepare the ship's environmental compliance file, bringing together the MARPOL annex requirements, ballast water management and the anti-fouling system control.",
+    instructions: [
+      "Confirm the MARPOL annex requirements and record books are in order.",
+      "Verify the ballast water management plan and the ballast water record book entries.",
+      "Confirm the anti-fouling system certificate and compliance with the AFS Convention.",
+      "Write the environmental compliance summary in maritime English."
+    ],
+    deliverable: "An environmental compliance file covering MARPOL, ballast water and anti-fouling.",
+    assessmentCriteria: [
+      "MARPOL requirements and record books are verified correctly.",
+      "Ballast water management and records are checked correctly.",
+      "The anti-fouling certificate and compliance are confirmed.",
+      "The summary is written correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Cumplimiento integrado de convenios",
+    topic: "Cumplimiento de seguridad y dotación: ISPS, STCW y MLC 2006",
+    week: 15,
+    taskId: "mn-omi749-w15-security-crewing-compliance",
+    taskTitle: "Prepare The Ship's Security And Crewing Compliance",
+    scenario: "Sailing into a higher-security area, you must prepare the ship's security and crewing compliance, integrating the maritime security framework, the STCW certification of the crew and the MLC working conditions.",
+    instructions: [
+      "Set the ship's security level under the maritime security framework and confirm the anti-piracy measures.",
+      "Verify the crew's STCW certificates and watchkeeping arrangements are valid.",
+      "Confirm the MLC 2006 hours of rest and living conditions are met.",
+      "Write the security and crewing compliance report in maritime English."
+    ],
+    deliverable: "A security and crewing compliance report covering ISPS, STCW and MLC.",
+    assessmentCriteria: [
+      "The security level and anti-piracy measures are correctly set.",
+      "The crew STCW certification is verified correctly.",
+      "MLC hours of rest and conditions are confirmed.",
+      "The report is written correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Respuesta a inspección",
+    topic: "Respuesta a una inspección de Estado rector del puerto sobre SOLAS, MARPOL, líneas de carga y MLC",
+    week: 16,
+    taskId: "mn-omi749-w16-psc-inspection-response",
+    taskTitle: "Respond To A Port State Control Inspection",
+    scenario: "A Port State Control officer boards and raises deficiencies across several conventions. You must respond, identify which convention each deficiency falls under, and set out the corrective action to avoid detention.",
+    instructions: [
+      "Receive the list of findings and map each one to the SOLAS, MARPOL, Load Line or MLC requirement it breaches.",
+      "Judge which findings are detainable and prioritise them.",
+      "Set out the corrective action and time for each deficiency.",
+      "Present the corrective action response to the PSC officer in maritime English."
+    ],
+    deliverable: "A PSC deficiency response mapping each finding to its convention and corrective action.",
+    assessmentCriteria: [
+      "Each deficiency is correctly mapped to its convention.",
+      "Detainable items are correctly identified and prioritised.",
+      "The corrective actions are appropriate and timed.",
+      "The response is presented correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Auditoría de convenios",
+    topic: "Auditoría de los certificados del buque incluyendo reciclaje e inventario de materiales peligrosos",
+    week: 17,
+    taskId: "mn-omi749-w17-certificate-audit",
+    taskTitle: "Audit The Ship's Convention Certificates For The Voyage",
+    scenario: "As officer responsible for compliance you must audit the full set of the ship's convention certificates for the voyage, including the ship recycling requirements and the Inventory of Hazardous Materials, and flag anything expiring.",
+    instructions: [
+      "List the ship's statutory certificates and check the validity date of each.",
+      "Verify the Inventory of Hazardous Materials is maintained under the Ship Recycling Convention.",
+      "Flag any certificate or survey due and note the action to keep it valid for the voyage.",
+      "Write the certificate audit statement in maritime English."
+    ],
+    deliverable: "A convention certificate audit listing validity and the IHM status.",
+    assessmentCriteria: [
+      "All statutory certificates are listed and their validity checked.",
+      "The IHM and recycling requirement are verified correctly.",
+      "Expiring items are flagged with the correct action.",
+      "The audit statement is written correctly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "OMI749",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "mn-s7-convenios-omi-i",
+    unit: "Integración de fin de semestre",
+    topic: "Informe al Capitán sobre el estado de cumplimiento de convenios del buque",
+    week: 18,
+    taskId: "mn-omi749-w18-convention-status-brief",
+    taskTitle: "Brief The Master On The Ship's Convention Status",
+    scenario: "As the closing task you must brief the Master on the ship's overall convention compliance status for the voyage, pulling together the safety, environmental, security and certification picture into one clear brief.",
+    instructions: [
+      "Summarise the SOLAS, MARPOL and load line compliance status.",
+      "State the security, STCW and MLC position for the voyage.",
+      "Note any outstanding certificate, survey or deficiency and its target date.",
+      "Deliver the convention status brief to the Master in professional maritime English."
+    ],
+    deliverable: "A voyage convention-status brief integrating safety, environment, security and certificates.",
+    assessmentCriteria: [
+      "The safety and environmental status is summarised accurately.",
+      "The security and crewing position is stated correctly.",
+      "Outstanding items and target dates are clear.",
+      "The brief is delivered fluently in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -2672,6 +3716,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Comunicación técnica integrada",
+    topic: "Reporte completo de incidente: voz pasiva, conectores y tiempos perfectos",
+    week: 13,
+    taskId: "mn-ing744-w13-full-incident-report",
+    taskTitle: "Write The Full Engine Incident Report",
+    scenario: "A lube-oil low-pressure trip stopped the main engine during your watch. You must write the full incident report for the Chief Engineer, using the passive voice for the actions taken, connectors to link the sequence and the perfect tenses to state what has been done.",
+    instructions: [
+      "Set out the sequence of events using connectors to keep the report cohesive.",
+      "Describe the actions taken in the passive voice, keeping the focus on the equipment.",
+      "State the present status of the machinery in the perfect tenses.",
+      "Deliver the full written incident report in correct maritime English."
+    ],
+    deliverable: "A complete engine incident report using the passive, connectors and perfect tenses.",
+    assessmentCriteria: [
+      "The event sequence is clear and logically ordered.",
+      "The passive voice and perfect tenses are used correctly and appropriately.",
+      "Connectors give the report genuine cohesion.",
+      "The report reads as correct professional maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Comunicación técnica integrada",
+    topic: "Relevo completo de guardia: work collocations, phrasal verbs y verbos modales",
+    week: 14,
+    taskId: "mn-ing744-w14-complete-watch-handover",
+    taskTitle: "Deliver The Complete Engine Watch Handover",
+    scenario: "You are handing over the engine watch. You must give the complete handover, using the correct work collocations and phrasal verbs to describe the operations and modal verbs to pass on the standing instructions.",
+    instructions: [
+      "State the plant status and operations of the watch using correct work collocations.",
+      "Describe the running and switching operations with the right phrasal verbs.",
+      "Pass on the standing instructions and cautions using modal verbs of obligation and advice.",
+      "Deliver the complete spoken and written watch handover in correct maritime English."
+    ],
+    deliverable: "A complete engine watch handover using collocations, phrasal verbs and modals.",
+    assessmentCriteria: [
+      "The plant status and operations are described accurately.",
+      "Work collocations and phrasal verbs are used correctly.",
+      "Modal verbs convey the instructions with the right force.",
+      "The handover reads and sounds as correct professional maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Discurso profesional",
+    topic: "Presentación técnica completa: cláusulas relativas, señalización discursiva y conectores",
+    week: 15,
+    taskId: "mn-ing744-w15-full-technical-presentation",
+    taskTitle: "Give The Full Technical Presentation On A Machinery System",
+    scenario: "You must give a full technical presentation to junior engineers on a machinery system, describing its components with relative clauses, signposting the talk with discourse markers and linking the parts with connectors.",
+    instructions: [
+      "Structure the presentation with clear discourse markers to signpost each section.",
+      "Describe the machinery and its components using relative clauses.",
+      "Link the explanation of how the system works with cohesive connectors.",
+      "Deliver the full technical presentation in correct maritime English."
+    ],
+    deliverable: "A complete technical presentation on a machinery system with signposting and relative clauses.",
+    assessmentCriteria: [
+      "The presentation is well structured and correctly signposted.",
+      "Relative clauses describe the machinery accurately.",
+      "Connectors and discourse markers give the talk cohesion.",
+      "The presentation is delivered in fluent professional maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Análisis de incidentes",
+    topic: "Análisis de una avería: tercer condicional, verbos modales y condicionales de procedimiento",
+    week: 16,
+    taskId: "mn-ing744-w16-failure-analysis",
+    taskTitle: "Analyse A Machinery Failure And Its Lessons",
+    scenario: "A machinery failure has been investigated. You must write the analysis, using the third conditional to explain what would have happened if actions had differed, modal verbs for the recommendations and conditionals for the revised procedure.",
+    instructions: [
+      "Explain the root cause and what would have prevented it using the third conditional.",
+      "State the recommendations using modal verbs of obligation and advice.",
+      "Write the revised procedure and its contingencies using conditional sentences.",
+      "Deliver the full failure analysis in correct maritime English."
+    ],
+    deliverable: "A machinery failure analysis using the third conditional, modals and conditionals.",
+    assessmentCriteria: [
+      "The root cause and counterfactual analysis are sound.",
+      "The third conditional and modals are used correctly.",
+      "The revised procedure uses conditionals accurately.",
+      "The analysis reads as correct professional maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "El ámbito laboral",
+    topic: "Solicitud de empleo de oficial: CV marítimo, entrevista y presentación profesional",
+    week: 17,
+    taskId: "mn-ing744-w17-officer-job-application",
+    taskTitle: "Complete The Officer Job Application And Interview",
+    scenario: "You are applying for an engine officer position. You must complete the full application: write a maritime CV, present your experience using the perfect tenses, and face the interview questions in a professional register.",
+    instructions: [
+      "Write a maritime CV tailored to the engine officer position.",
+      "Describe your sea experience and completed training using the perfect tenses.",
+      "Answer the interview questions in a professional register with clear structure.",
+      "Deliver the CV and interview responses in correct maritime English."
+    ],
+    deliverable: "A complete officer job application package: maritime CV and interview responses.",
+    assessmentCriteria: [
+      "The CV is well structured and relevant to the position.",
+      "The perfect tenses describe the experience accurately.",
+      "The interview answers are professional and well organised.",
+      "The whole package is in correct professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "ING744",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "mn-s7-ingles-maritimo-vii",
+    unit: "Integración de fin de semestre",
+    topic: "Informe de ingeniería de fin de viaje integrando todos los recursos del idioma",
+    week: 18,
+    taskId: "mn-ing744-w18-end-of-voyage-report",
+    taskTitle: "Deliver The End-Of-Voyage Engineering Report",
+    scenario: "As the closing task you must write and present the end-of-voyage engineering report, integrating the whole semester's language: passive and perfect tenses for the work done, connectors for cohesion, modals for recommendations and relative clauses for the technical detail.",
+    instructions: [
+      "Summarise the machinery operations and maintenance of the voyage using the passive and perfect tenses.",
+      "Describe the key equipment and events with relative clauses and connect the report cohesively.",
+      "State the recommendations for the next voyage using modal verbs.",
+      "Deliver the end-of-voyage engineering report in professional maritime English."
+    ],
+    deliverable: "A complete end-of-voyage engineering report integrating the semester's language skills.",
+    assessmentCriteria: [
+      "The operations and maintenance are reported accurately and completely.",
+      "Passive, perfect tenses and relative clauses are used correctly.",
+      "The recommendations are clear and well justified.",
+      "The report is delivered in fluent professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "C0129",
     subjectName: "Familiarización con buques tanque",
     subjectId: "mn-s7-familiarizacion-buques-tanque",
@@ -2904,6 +4122,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "mn-s7-familiarizacion-buques-tanque",
+    unit: "Operación integrada de la carga",
+    topic: "Operación de carga integrando transferencia buque-terminal, gas inerte y medición de atmósferas",
+    week: 13,
+    taskId: "mn-c0129-w13-full-loading-operation",
+    taskTitle: "Run The Full Tanker Loading Operation",
+    scenario: "The tanker is alongside to load crude. You must run the full loading operation, integrating the ship-shore safety checklist, the inert gas plant keeping the tanks safe, and the atmosphere monitoring throughout.",
+    instructions: [
+      "Complete the ship-shore safety checklist and agree the transfer plan with the terminal.",
+      "Operate the inert gas plant to keep the cargo tanks inerted through loading.",
+      "Monitor the tank atmosphere and the cargo data sheet limits during the transfer.",
+      "Report the loading progress and any deviation to the terminal and duty officer in maritime English."
+    ],
+    deliverable: "A completed loading operation record with the ship-shore checklist and IGS log.",
+    assessmentCriteria: [
+      "The ship-shore checklist and transfer plan are completed correctly.",
+      "The inert gas plant keeps the tanks safely inerted.",
+      "The atmosphere and SDS limits are monitored throughout.",
+      "The loading reports are communicated correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "mn-s7-familiarizacion-buques-tanque",
+    unit: "Operación integrada de la carga",
+    topic: "Descarga y lavado con crudo integrando gas inerte, electricidad estática y atmósferas",
+    week: 14,
+    taskId: "mn-c0129-w14-discharge-and-cow",
+    taskTitle: "Discharge The Cargo And Carry Out Crude Oil Washing",
+    scenario: "The tanker is discharging and crude oil washing is planned. You must run the discharge with crude oil washing, keeping the tanks inerted, controlling the static electricity risk and monitoring the atmosphere.",
+    instructions: [
+      "Run the cargo discharge and start crude oil washing under the correct conditions.",
+      "Keep the tanks inerted and control the static electricity precautions during washing.",
+      "Monitor the tank atmosphere and confirm the oxygen stays within the safe limit.",
+      "Report the discharge and washing progress to the terminal and duty officer in maritime English."
+    ],
+    deliverable: "A discharge and crude-oil-washing record with the inerting and atmosphere log.",
+    assessmentCriteria: [
+      "The discharge and washing are run under the correct safe conditions.",
+      "The inerting and static precautions are maintained.",
+      "The atmosphere is monitored and kept within limits.",
+      "The progress is reported correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "mn-s7-familiarizacion-buques-tanque",
+    unit: "Entrada segura a tanques",
+    topic: "Preparación de entrada a tanque integrando medición de atmósferas, respiración autónoma y toxicidad",
+    week: 15,
+    taskId: "mn-c0129-w15-safe-tank-entry",
+    taskTitle: "Prepare A Safe Tank Entry",
+    scenario: "A cargo tank must be entered for inspection. You must prepare a safe tank entry, measuring the atmosphere, controlling the toxicity and oxygen hazards, and rigging the breathing apparatus and rescue equipment.",
+    instructions: [
+      "Measure the tank atmosphere for oxygen, hydrocarbons and toxic gas against the entry limits.",
+      "Assess the toxicity and health hazards from the cargo safety data sheet.",
+      "Rig the breathing apparatus, escape sets and rescue equipment and brief the standby party.",
+      "Issue the enclosed-space entry permit and brief the entry team in maritime English."
+    ],
+    deliverable: "An enclosed-space entry permit with the atmosphere readings and equipment set-up.",
+    assessmentCriteria: [
+      "The atmosphere is measured and judged against the entry limits.",
+      "The toxicity and health hazards are correctly assessed from the SDS.",
+      "The breathing apparatus and rescue equipment are correctly rigged.",
+      "The entry permit and briefing are given correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "mn-s7-familiarizacion-buques-tanque",
+    unit: "Respuesta a emergencias en petroleros",
+    topic: "Respuesta a derrame e incendio en cubierta integrando SOPEP, peligro de incendio y respiración autónoma",
+    week: 16,
+    taskId: "mn-c0129-w16-spill-and-fire-response",
+    taskTitle: "Respond To A Cargo Spill And Fire On Deck",
+    scenario: "During cargo transfer a spill on deck ignites. You must lead the emergency response, stopping the transfer, activating the SOPEP, fighting the fire and using breathing apparatus to protect the team.",
+    instructions: [
+      "Raise the alarm, stop the cargo transfer and activate the emergency organisation.",
+      "Put the SOPEP into action to contain the spill and prevent it reaching the sea.",
+      "Fight the deck fire and protect the team with breathing apparatus and protective equipment.",
+      "Report the emergency, the actions taken and the status to the terminal and Master in maritime English."
+    ],
+    deliverable: "A cargo spill and fire response report with the SOPEP actions and timeline.",
+    assessmentCriteria: [
+      "The transfer is stopped and the emergency organisation activated promptly.",
+      "The SOPEP is put into action correctly to contain the spill.",
+      "The fire is fought and the team protected correctly.",
+      "The emergency report is communicated clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "mn-s7-familiarizacion-buques-tanque",
+    unit: "Auditoría de operaciones de tanque",
+    topic: "Auditoría de la transferencia segura integrando checklist buque-terminal, SOPEP, hoja de datos y gas inerte",
+    week: 17,
+    taskId: "mn-c0129-w17-transfer-safety-audit",
+    taskTitle: "Audit The Tanker For Safe Cargo Transfer Compliance",
+    scenario: "Before a vetting inspection you must audit the tanker's readiness for a safe cargo transfer, checking the ship-shore checklist, the SOPEP, the cargo safety data sheets and the inert gas system records.",
+    instructions: [
+      "Verify the ship-shore safety checklist and the transfer procedures are complete.",
+      "Confirm the SOPEP and its equipment are in place and the cargo safety data sheets are on board.",
+      "Check the inert gas system records and the oxygen readings against the requirements.",
+      "Write the cargo transfer compliance statement in maritime English."
+    ],
+    deliverable: "A cargo transfer compliance audit covering checklist, SOPEP, SDS and IGS.",
+    assessmentCriteria: [
+      "The ship-shore checklist and procedures are verified correctly.",
+      "The SOPEP and safety data sheets are confirmed in place.",
+      "The IGS records and oxygen readings meet the requirements.",
+      "The compliance statement is written correctly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "mn-s7-familiarizacion-buques-tanque",
+    unit: "Integración de fin de semestre",
+    topic: "Relevo de la operación de carga en el petrolero",
+    week: 18,
+    taskId: "mn-c0129-w18-cargo-operation-handover",
+    taskTitle: "Deliver The Cargo Operation Handover On The Tanker",
+    scenario: "As the closing task you must hand over the tanker cargo operation, pulling together the transfer status, the inerting and atmosphere condition, and the safety and emergency readiness into one clear handover brief.",
+    instructions: [
+      "Summarise the cargo transfer status and the quantities loaded or discharged.",
+      "State the inert gas and tank atmosphere condition.",
+      "Note the safety, SOPEP and emergency readiness and any standing orders.",
+      "Deliver the cargo operation handover brief in professional maritime English."
+    ],
+    deliverable: "A tanker cargo operation handover brief covering transfer, atmosphere and safety.",
+    assessmentCriteria: [
+      "The transfer status and quantities are summarised accurately.",
+      "The inerting and atmosphere condition are stated correctly.",
+      "The safety and emergency readiness are clear.",
+      "The brief is delivered fluently in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "C0131",
     subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
     subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
@@ -3131,6 +4523,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Operación integrada de carga rodada",
+    topic: "Operación de carga integrando rampa, trincado de vehículos, estabilidad y puertas",
+    week: 13,
+    taskId: "mn-c0131-w13-full-loading-operation",
+    taskTitle: "Run The Full Ro-Ro Loading Operation",
+    scenario: "The ro-ro ferry is loading vehicles for departure. You must run the full loading operation, integrating the ramp operations, the lashing of the vehicles, the effect on stability and the bow and stern doors.",
+    instructions: [
+      "Run the ramp operations and load the vehicles in the planned sequence.",
+      "Lash the vehicles on the deck against the ship's motion.",
+      "Check the loading against the stability and trim limits as the deck fills.",
+      "Report the loading progress and the deck secured to the officer in charge in maritime English."
+    ],
+    deliverable: "A completed ro-ro loading operation record with the lashing and stability check.",
+    assessmentCriteria: [
+      "The ramp operations and loading sequence are run safely.",
+      "The vehicles are lashed correctly against the ship's motion.",
+      "The stability and trim limits are respected as the deck fills.",
+      "The loading is reported correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Integridad para la mar",
+    topic: "Aseguramiento para la mar integrando aberturas del casco, puertas, estanqueidad y estabilidad",
+    week: 14,
+    taskId: "mn-c0131-w14-secure-for-sea",
+    taskTitle: "Secure The Ship For Sea And Verify Watertight Integrity",
+    scenario: "Loading is complete and the ferry is about to sail. You must secure the ship for sea, closing and securing the hull openings and doors, confirming the watertight integrity and checking the departure stability condition.",
+    instructions: [
+      "Close and secure the bow and stern doors and the other hull openings.",
+      "Verify the watertight integrity and confirm the indicator lights and seals.",
+      "Check the departure stability and trim condition of the loaded ferry.",
+      "Report the ship secured for sea and watertight to the bridge in maritime English."
+    ],
+    deliverable: "A secure-for-sea record with the hull-opening and watertight integrity check.",
+    assessmentCriteria: [
+      "The doors and hull openings are closed and secured correctly.",
+      "The watertight integrity is verified against the indicators.",
+      "The departure stability condition is confirmed within limits.",
+      "The secured-for-sea report is delivered correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Operación integrada de carga rodada",
+    topic: "Carga de mercancías peligrosas integrando trincado, atmósfera de cubierta y rampa",
+    week: 15,
+    taskId: "mn-c0131-w15-dangerous-goods-loading",
+    taskTitle: "Load And Segregate Dangerous Goods On The Vehicle Deck",
+    scenario: "A consignment of dangerous goods must be carried on the vehicle deck. You must load and segregate the dangerous goods, lashing them securely, controlling the vehicle-deck atmosphere and managing the ramp movement.",
+    instructions: [
+      "Plan the stow and segregation of the dangerous goods on the vehicle deck.",
+      "Load them by ramp and lash them securely against the ship's motion.",
+      "Control the vehicle-deck ventilation and atmosphere for the dangerous goods carried.",
+      "Report the dangerous goods stow and precautions to the officer in charge in maritime English."
+    ],
+    deliverable: "A dangerous goods stowage plan with segregation, lashing and ventilation.",
+    assessmentCriteria: [
+      "The dangerous goods are stowed and segregated correctly.",
+      "The lashing secures them against the ship's motion.",
+      "The vehicle-deck atmosphere is controlled correctly.",
+      "The stow and precautions are reported correctly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Respuesta a emergencias en RoRo",
+    topic: "Respuesta a incendio e inundación en la cubierta de vehículos integrando pasajeros y reunión",
+    week: 16,
+    taskId: "mn-c0131-w16-fire-and-flooding-response",
+    taskTitle: "Respond To A Fire And Flooding On The Vehicle Deck",
+    scenario: "A fire breaks out on the vehicle deck and the fire-fighting water threatens the deck's free surface stability. You must lead the emergency response, fighting the fire, managing the flooding and directing the passengers to the muster stations.",
+    instructions: [
+      "Raise the alarm and fight the fire on the vehicle deck with the fixed and portable systems.",
+      "Manage the accumulating water and the free surface threat to the ship's stability.",
+      "Communicate with and direct the passengers to the muster stations.",
+      "Report the emergency, the actions and the status to the bridge in maritime English."
+    ],
+    deliverable: "A vehicle-deck fire and flooding response report with the passenger management actions.",
+    assessmentCriteria: [
+      "The fire is fought correctly with the right systems.",
+      "The flooding and free surface threat are managed to protect stability.",
+      "The passengers are communicated with and directed to muster correctly.",
+      "The emergency report is communicated clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Seguridad de los pasajeros",
+    topic: "Simulacro de seguridad de pasajeros integrando control de multitudes, reunión y chalecos salvavidas",
+    week: 17,
+    taskId: "mn-c0131-w17-passenger-safety-drill",
+    taskTitle: "Run The Passenger Safety Drill And Audit",
+    scenario: "You must run and audit the passenger safety drill on the ferry, directing the crowd management to the muster stations, demonstrating the lifejackets and confirming the passenger emergency communication works.",
+    instructions: [
+      "Run the crowd management and guide the passengers to the muster stations.",
+      "Demonstrate the correct use of the lifejackets to the passengers.",
+      "Confirm the passenger emergency communication and count reaches every muster station.",
+      "Write the passenger safety drill audit in maritime English."
+    ],
+    deliverable: "A passenger safety drill audit covering muster, lifejackets and communication.",
+    assessmentCriteria: [
+      "The crowd management guides passengers to muster correctly.",
+      "The lifejacket demonstration is clear and correct.",
+      "The emergency communication and count are confirmed effective.",
+      "The drill audit is written correctly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "mn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Integración de fin de semestre",
+    topic: "Informe de disposición para el viaje del buque RoRo de pasaje",
+    week: 18,
+    taskId: "mn-c0131-w18-voyage-readiness-brief",
+    taskTitle: "Deliver The Ro-Ro Voyage Readiness Brief",
+    scenario: "As the closing task you must brief the Master on the ro-ro ferry's readiness for the voyage, pulling together the cargo securing, the watertight integrity, the passenger safety and the emergency readiness into one clear brief.",
+    instructions: [
+      "Summarise the vehicle stow, lashing and stability condition for departure.",
+      "State the watertight integrity and the hull-opening status.",
+      "Note the passenger safety and emergency readiness and any standing orders.",
+      "Deliver the ro-ro voyage readiness brief to the Master in professional maritime English."
+    ],
+    deliverable: "A ro-ro voyage readiness brief integrating cargo, integrity, passengers and emergency.",
+    assessmentCriteria: [
+      "The cargo stow and stability condition are summarised accurately.",
+      "The watertight integrity and hull openings are stated correctly.",
+      "The passenger safety and emergency readiness are clear.",
+      "The brief is delivered fluently in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -3484,6 +5050,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Operación integrada de refrigeración",
+    topic: "Puesta en servicio integrando vacío, carga de refrigerante, controles y visor",
+    week: 13,
+    taskId: "mn-ref746-w13-commission-from-empty",
+    taskTitle: "Commission The Refrigeration Plant From Empty",
+    scenario: "A refrigeration plant has been overhauled and is empty. In the engine-room simulator you must commission it from empty: pull a vacuum, charge the refrigerant, set the controls and confirm a clear sight glass before putting it into service.",
+    instructions: [
+      "Pull a vacuum on the system and confirm it holds, proving there are no leaks.",
+      "Charge the refrigerant gas by the correct side and confirm the charge with the sight glass.",
+      "Set and check the operating and safety controls, then put the plant into service.",
+      "Report the plant commissioned and running to the engineer on watch in engine-room English."
+    ],
+    deliverable: "A commissioning record with the vacuum, charge and control settings.",
+    assessmentCriteria: [
+      "The vacuum is pulled and proven leak-tight correctly.",
+      "The refrigerant is charged correctly and confirmed by sight glass.",
+      "The operating and safety controls are set correctly.",
+      "The commissioning is reported correctly in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Operación integrada de refrigeración",
+    topic: "Operación del aire acondicionado integrando puesta en servicio, controles, visor y válvulas",
+    week: 14,
+    taskId: "mn-ref746-w14-air-conditioning-duty-cycle",
+    taskTitle: "Operate The Air-Conditioning Plant Through A Duty Cycle",
+    scenario: "The accommodation air-conditioning plant must run through a full duty cycle. In the engine-room simulator you must put it into service, control it through the cycle watching the controls, sight glass and service valves, and hold the condition space temperature.",
+    instructions: [
+      "Put the air-conditioning plant into service and confirm the operating controls respond.",
+      "Watch the sight glass and the service and safety valves through the duty cycle.",
+      "Adjust the plant to hold the condition space temperature within limits.",
+      "Report the plant running condition and parameters to the engineer on watch in engine-room English."
+    ],
+    deliverable: "An air-conditioning duty-cycle log with the control and parameter record.",
+    assessmentCriteria: [
+      "The plant is put into service and controlled correctly.",
+      "The sight glass and valves are watched and interpreted correctly.",
+      "The condition temperature is held within limits.",
+      "The running condition is reported correctly in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Mantenimiento integrado de refrigeración",
+    topic: "Mantenimiento preventivo integrando separador de aceite, filtros, secador y visor",
+    week: 15,
+    taskId: "mn-ref746-w15-planned-maintenance",
+    taskTitle: "Run The Planned Maintenance On The Refrigeration Plant",
+    scenario: "The refrigeration plant is due for planned maintenance. You must run the preventive maintenance, servicing the oil separator, filters and drier, checking the sight glass condition and confirming the plant returns to good running condition.",
+    instructions: [
+      "Carry out the preventive maintenance on the oil separator, filters and drier.",
+      "Check the sight glass for moisture and gas condition and record the reading.",
+      "Return the plant to service and confirm it runs within its normal parameters.",
+      "Write the planned maintenance report in engine-room English."
+    ],
+    deliverable: "A planned maintenance report covering the separator, filters, drier and sight glass.",
+    assessmentCriteria: [
+      "The preventive maintenance is carried out correctly on each accessory.",
+      "The sight glass condition is checked and recorded correctly.",
+      "The plant is returned to normal running condition.",
+      "The maintenance report is written correctly in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Respuesta a fallas de refrigeración",
+    topic: "Diagnóstico y restablecimiento tras pérdida de enfriamiento integrando mantenimiento correctivo y controles",
+    week: 16,
+    taskId: "mn-ref746-w16-restore-after-loss",
+    taskTitle: "Diagnose And Restore The Reefer After A Loss Of Cooling",
+    scenario: "The provision reefer has lost cooling and the temperature is rising. In the engine-room simulator you must diagnose the fault, carry out the corrective maintenance and restore the reefer before the provisions are lost.",
+    instructions: [
+      "Diagnose the loss of cooling from the controls, pressures and sight glass.",
+      "Carry out the corrective maintenance to clear the fault.",
+      "Restore the reefer to service and confirm the temperature is coming back down.",
+      "Report the fault, the repair and the restored condition to the engineer on watch in engine-room English."
+    ],
+    deliverable: "A fault-and-restore report with the diagnosis and corrective action for the reefer.",
+    assessmentCriteria: [
+      "The loss of cooling is correctly diagnosed from the symptoms.",
+      "The corrective maintenance clears the fault.",
+      "The reefer is restored and the recovery confirmed.",
+      "The report is communicated correctly in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Auditoría de refrigeración",
+    topic: "Auditoría de seguridad y refrigerante integrando controles de seguridad, selección de gas, carga y vacío",
+    week: 17,
+    taskId: "mn-ref746-w17-safety-refrigerant-audit",
+    taskTitle: "Audit The Refrigeration Plant For Safety And Refrigerant Compliance",
+    scenario: "Before an inspection you must audit the refrigeration plant, verifying the safety controls and valves, confirming the correct refrigerant is used, and checking the charging and vacuum records against the refrigerant handling requirements.",
+    instructions: [
+      "Verify the safety controls, safety valves and cut-outs are set and working.",
+      "Confirm the refrigerant in use is the correct type for the plant and its pipework.",
+      "Check the charging and vacuum records against the refrigerant handling requirements.",
+      "Write the refrigeration compliance statement in engine-room English."
+    ],
+    deliverable: "A refrigeration compliance audit covering safety controls, refrigerant and records.",
+    assessmentCriteria: [
+      "The safety controls and valves are verified as correctly set.",
+      "The correct refrigerant and pipework are confirmed.",
+      "The charging and vacuum records meet the requirements.",
+      "The compliance statement is written correctly in engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "REF746",
+    subjectName: "Refrigeración II",
+    subjectId: "mn-s7-refrigeracion-ii",
+    unit: "Integración de fin de semestre",
+    topic: "Relevo de la planta de refrigeración al ingeniero de guardia",
+    week: 18,
+    taskId: "mn-ref746-w18-refrigeration-handover",
+    taskTitle: "Deliver The Refrigeration Plant Handover To The Engineer On Watch",
+    scenario: "As the closing task you must hand over the refrigeration and air-conditioning plant, pulling together the running condition, the maintenance status and any outstanding defects into one clear handover brief.",
+    instructions: [
+      "Summarise the running condition of the refrigeration and air-conditioning plant.",
+      "State the maintenance completed and outstanding and the refrigerant charge status.",
+      "Note any defect, alarm or parameter trending out of normal and the action required.",
+      "Deliver the refrigeration plant handover brief in professional engine-room English."
+    ],
+    deliverable: "A refrigeration plant handover brief covering running condition, maintenance and defects.",
+    assessmentCriteria: [
+      "The running condition of the plant is summarised accurately.",
+      "The maintenance and charge status are stated correctly.",
+      "Outstanding defects and required actions are clear.",
+      "The brief is delivered fluently in professional engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
     subjectCode: "AUT747",
     subjectName: "Automática",
     subjectId: "mn-s7-automatica",
@@ -3827,6 +5567,180 @@ export const mnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Diseño integrado de control automático",
+    topic: "Lógica de arranque automático integrando lógica secuencial, flip-flops y compuertas",
+    week: 13,
+    taskId: "mn-aut747-w13-generator-start-logic",
+    taskTitle: "Design The Automatic Start Logic For A Generator",
+    scenario: "A standby generator must start automatically on a blackout. You must design the automatic start logic, using the sequential logic for the start steps, flip-flops to hold the states and the logic gates to combine the start conditions.",
+    instructions: [
+      "Define the start conditions and express them with the logic gates.",
+      "Design the sequential logic for the start steps and use flip-flops to hold each state.",
+      "Verify the sequence starts, confirms and stops on the correct signals.",
+      "Report the automatic start logic design in engine-room English."
+    ],
+    deliverable: "An automatic start logic design with the gate and sequential diagram.",
+    assessmentCriteria: [
+      "The start conditions are expressed correctly with logic gates.",
+      "The sequential logic and flip-flop states are designed correctly.",
+      "The sequence responds correctly to the start and stop signals.",
+      "The design is reported correctly in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Diseño integrado de control automático",
+    topic: "Enclavamiento y alarma integrando función booleana, mapa de Karnaugh, no-importa y NAND/NOR",
+    week: 14,
+    taskId: "mn-aut747-w14-interlock-alarm-logic",
+    taskTitle: "Build The Engine Safety Interlock And Alarm Logic",
+    scenario: "The engine needs a safety interlock and alarm. You must build the interlock and alarm logic, writing the boolean function from the alarm conditions, simplifying it with a Karnaugh map using don't-care conditions and implementing it with universal gates.",
+    instructions: [
+      "Write the boolean function for the alarm and interlock conditions.",
+      "Simplify it with a Karnaugh map, using the don't-care conditions to reduce the logic.",
+      "Implement the simplified function with NAND or NOR universal gates.",
+      "Report the interlock and alarm logic design in engine-room English."
+    ],
+    deliverable: "An interlock and alarm logic design with the Karnaugh map and gate implementation.",
+    assessmentCriteria: [
+      "The boolean function correctly captures the alarm and interlock conditions.",
+      "The Karnaugh map simplification with don't-cares is correct.",
+      "The NAND or NOR implementation matches the simplified function.",
+      "The design is reported correctly in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Monitoreo integrado del motor",
+    topic: "Enrutamiento y despliegue de señales integrando multiplexor, ROM/PROM, sumadores y contadores",
+    week: 15,
+    taskId: "mn-aut747-w15-monitoring-signals",
+    taskTitle: "Route And Display The Engine Monitoring Signals",
+    scenario: "The engine monitoring system must route many sensor signals to one display. You must design the signal routing and display, using a multiplexer to select the channels, the ROM/PROM to hold the display data and the adders and codes to process the readings.",
+    instructions: [
+      "Route the sensor channels to the display with a multiplexer and demultiplexer.",
+      "Use the ROM or PROM to hold the display mapping and the adders to process the readings.",
+      "Add a counter to log the running hours and verify the display selects the correct channel.",
+      "Report the monitoring signal design in engine-room English."
+    ],
+    deliverable: "A monitoring system design with the multiplexer, memory and counter arrangement.",
+    assessmentCriteria: [
+      "The multiplexer routing selects the channels correctly.",
+      "The ROM/PROM and adders process the readings correctly.",
+      "The running-hours counter is designed correctly.",
+      "The design is reported correctly in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Diagnóstico de control automático",
+    topic: "Diagnóstico de un arranque automático fallido integrando lógica secuencial, flip-flops y enclavamiento",
+    week: 16,
+    taskId: "mn-aut747-w16-failed-start-troubleshoot",
+    taskTitle: "Troubleshoot A Failed Automatic Start Sequence",
+    scenario: "The standby generator failed to start automatically on a blackout. You must troubleshoot the failed automatic start, analysing the sequential logic, checking the flip-flop states and the interlock that blocked the start.",
+    instructions: [
+      "Analyse the sequential logic of the automatic start to find where it stopped.",
+      "Check the flip-flop states and the interlock condition that blocked the start.",
+      "Identify the faulty signal or logic and state the correction.",
+      "Report the fault diagnosis and the correction in engine-room English."
+    ],
+    deliverable: "A fault diagnosis report identifying why the automatic start failed and its fix.",
+    assessmentCriteria: [
+      "The sequential logic is analysed correctly to locate the stop point.",
+      "The flip-flop and interlock states are checked correctly.",
+      "The faulty signal or logic is correctly identified with a fix.",
+      "The diagnosis is reported correctly in engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Verificación del control automático",
+    topic: "Verificación de la lógica de seguridad integrando simplificación de Karnaugh, no-importa y NAND/NOR",
+    week: 17,
+    taskId: "mn-aut747-w17-verify-control-logic",
+    taskTitle: "Verify The Control Logic Against The Safety Requirements",
+    scenario: "Before commissioning you must verify the engine control logic against the safety requirements, confirming the simplified interlock and alarm logic still covers every safety condition and implements them correctly with the universal gates.",
+    instructions: [
+      "List the safety conditions the control logic must satisfy.",
+      "Verify the simplified Karnaugh logic, including the don't-care conditions, still covers every safety case.",
+      "Confirm the NAND or NOR implementation matches the verified logic and no condition is lost.",
+      "Write the logic verification statement in engine-room English."
+    ],
+    deliverable: "A control logic verification statement checking the logic against the safety requirements.",
+    assessmentCriteria: [
+      "The safety conditions are listed completely.",
+      "The simplified logic is verified to cover every safety case.",
+      "The gate implementation is confirmed to match the verified logic.",
+      "The verification statement is written correctly in engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester VII",
+    subjectCode: "AUT747",
+    subjectName: "Automática",
+    subjectId: "mn-s7-automatica",
+    unit: "Integración de fin de semestre",
+    topic: "Informe de relevo del sistema de automatización",
+    week: 18,
+    taskId: "mn-aut747-w18-automation-handover-brief",
+    taskTitle: "Deliver The Automation System Handover Brief",
+    scenario: "As the closing task you must hand over the engine automation system, pulling together the automatic start logic, the interlock and alarm system and the monitoring arrangement into one clear handover brief.",
+    instructions: [
+      "Summarise the automatic start and sequential control logic status.",
+      "State the interlock and alarm logic condition and any bypassed or overridden signals.",
+      "Note the monitoring and counter status and any outstanding logic defects.",
+      "Deliver the automation system handover brief in professional engine-room English."
+    ],
+    deliverable: "An automation system handover brief covering start logic, interlocks and monitoring.",
+    assessmentCriteria: [
+      "The automatic start and control logic status is summarised accurately.",
+      "The interlock and alarm condition and any overrides are stated correctly.",
+      "The monitoring status and outstanding defects are clear.",
+      "The brief is delivered fluently in professional engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
 ];
