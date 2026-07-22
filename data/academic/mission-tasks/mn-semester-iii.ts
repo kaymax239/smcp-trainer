@@ -352,6 +352,180 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Potencia en corriente alterna",
+    topic: "Análisis integrado de la planta eléctrica: triángulo de potencia, factor de potencia y transformadores de a bordo",
+    week: 13,
+    taskId: "mn-ele316-w13-run-the-ships-electrical-plant",
+    taskTitle: "Run The Ship's Electrical Plant For A Full Sea Load",
+    scenario: "The vessel is departing Tampico and the electrical load is climbing as pumps, the steering gear and the galley come on line. From the engine-room simulator's switchboard you must bring the plant up to a full sea load, keep the power factor healthy and confirm the 440/230 V transformer feeders are correctly loaded before the main engine goes to full away.",
+    instructions: [
+      "Read the switchboard and build the power triangle for the plant, resolving active, reactive and apparent power and the resulting power factor at the present load.",
+      "Balance the load across the running generators and apply the transformer ratio to verify the 230 V lighting and services feeders stay within rating.",
+      "Decide whether to start a second generator or trim reactive load to hold the power factor above the plant limit, and record the loading decision.",
+      "Report the plant status and your power-factor decision to the duty engineer in standard engine-room English."
+    ],
+    deliverable: "An electrical plant loading sheet with the power triangle, power factor, transformer feeder loads and the parallel/trim decision.",
+    assessmentCriteria: [
+      "Power triangle and power factor are resolved correctly for the stated load.",
+      "Transformer ratio is applied so the secondary feeders are shown within rating.",
+      "The generator-start or load-trim decision is justified against the plant power-factor limit.",
+      "The plant status report is delivered in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Motores de corriente continua",
+    topic: "Puesta en servicio y comportamiento par-velocidad de motores CD serie, shunt y compound alimentados por el generador de a bordo",
+    week: 14,
+    taskId: "mn-ele316-w14-commission-the-dc-winch-drive",
+    taskTitle: "Commission The DC Winch Drive From Its Generator",
+    scenario: "The mooring winch runs from a shipboard DC generator and motor set. After maintenance you must bring the self-excited generator up to voltage, put the DC motor into service safely and confirm its torque-speed behaviour suits the winch duty before mooring stations.",
+    instructions: [
+      "Bring the self-excited DC generator up to voltage, confirming residual magnetism and field connection so it builds up correctly.",
+      "Put the DC motor into service following the safe starting sequence, watching starting current and field before applying load.",
+      "Match the series/shunt/compound torque-speed behaviour to the winch duty and confirm the drive holds speed under a hauling load.",
+      "Report the commissioning result and the drive's readiness for mooring stations in standard engine-room English."
+    ],
+    deliverable: "A drive commissioning record covering generator build-up, motor start sequence and the torque-speed suitability finding.",
+    assessmentCriteria: [
+      "Generator build-up is verified through residual magnetism and correct field connection.",
+      "The DC motor starting sequence is safe and controls starting current.",
+      "Torque-speed behaviour is correctly matched to the winch hauling duty.",
+      "The commissioning report is delivered in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Reactancia e impedancia",
+    topic: "Reactancia, impedancia en serie y relación de transformación en la distribución de un consumidor de corriente alterna",
+    week: 15,
+    taskId: "mn-ele316-w15-feed-an-ac-consumer",
+    taskTitle: "Set Up The AC Feed To A Large Consumer",
+    scenario: "A large AC seawater cooling pump motor must be fed from the 440 V switchboard through its feeder and step-down transformer. You must work out the sinusoidal supply values, the series impedance of the feeder-plus-load and the transformer currents so the protection and cabling are correctly sized before energising.",
+    instructions: [
+      "Work out the supply frequency, period and RMS values of the 440 V AC feed to the consumer.",
+      "Calculate the inductive reactance and the series impedance of the feeder and motor branch.",
+      "Apply the transformer ratio to find primary and secondary currents and confirm the feeder and protection ratings are adequate.",
+      "Report the feed calculation and the go/no-go to energise to the duty engineer in standard engine-room English."
+    ],
+    deliverable: "A consumer feed calculation sheet with supply values, series impedance, transformer currents and the energise decision.",
+    assessmentCriteria: [
+      "Frequency, period and RMS values are correctly derived from the AC supply.",
+      "Reactance and series impedance are calculated correctly for the branch.",
+      "Transformer primary/secondary currents justify the feeder and protection rating.",
+      "The feed report and energise decision are given in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Producción de corriente continua",
+    topic: "Diagnóstico de fallas: magnetismo remanente, autoexcitación y pérdidas en el núcleo de una máquina que se sobrecalienta",
+    week: 16,
+    taskId: "mn-ele316-w16-diagnose-generator-failure",
+    taskTitle: "Diagnose A Generator That Will Not Build And Runs Hot",
+    scenario: "During an engine-room watch the emergency DC generator fails to build up voltage on start, and once forced on line it runs abnormally hot. You must diagnose whether the fault is loss of residual magnetism, a self-excitation problem or excessive core losses, and decide the safe recovery.",
+    instructions: [
+      "Confirm the symptom set and rule the fault toward remanent magnetism / self-excitation versus core-loss overheating.",
+      "Carry out the flashing-the-field recovery to restore build-up and re-check the voltage rise.",
+      "Assess hysteresis and core losses against machine efficiency to decide whether continued running is safe or the machine must be taken off line.",
+      "Report the diagnosis, the recovery action and the load recommendation to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A fault diagnosis report with the failure cause, the field-flash recovery result and the safe-running recommendation.",
+    assessmentCriteria: [
+      "The failure-to-build symptom is correctly attributed to residual magnetism / self-excitation.",
+      "The field-flash recovery is carried out and verified.",
+      "Core losses and efficiency are used to justify the continue/stop decision.",
+      "The diagnosis and recommendation are reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Prácticas complementarias",
+    topic: "Auditoría integrada de eficiencia de la planta: efecto Joule, pérdidas en cobre e hierro, factor de potencia e histéresis",
+    week: 17,
+    taskId: "mn-ele316-w17-audit-plant-efficiency",
+    taskTitle: "Audit The Efficiency Of The Ship's Electrical Plant",
+    scenario: "The technical superintendent wants an end-of-semester efficiency audit of the ship's electrical machines. You must combine copper (Joule) losses, iron/core losses, power-factor performance and the machines' magnetic behaviour into one efficiency statement that flags the worst offender for maintenance.",
+    instructions: [
+      "Compute copper (Joule) losses and iron/core losses for each machine and derive its efficiency.",
+      "Cross-check each machine's power factor and hysteresis behaviour against its rated performance.",
+      "Rank the machines by loss and identify the poorest performer with a maintenance recommendation.",
+      "Present the efficiency audit and recommendation to the technical superintendent in standard engine-room English."
+    ],
+    deliverable: "An electrical plant efficiency audit ranking each machine by loss with a prioritised maintenance recommendation.",
+    assessmentCriteria: [
+      "Copper and iron losses and efficiency are computed correctly for each machine.",
+      "Power factor and hysteresis behaviour are correctly integrated into the assessment.",
+      "The loss ranking and maintenance priority are soundly justified.",
+      "The audit is presented in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ELE316",
+    subjectName: "Electricidad III",
+    subjectId: "mn-s3-electricidad-iii",
+    unit: "Potencia en corriente alterna",
+    topic: "Integración de fin de semestre: estado de la planta eléctrica para el zarpe, del magnetismo a la eficiencia",
+    week: 18,
+    taskId: "mn-ele316-w18-brief-electrical-readiness",
+    taskTitle: "Deliver The Electrical Readiness Brief To The Chief Engineer",
+    scenario: "Before departure the chief engineer wants a single readiness brief on the whole electrical plant. You must pull the semester together: generators built up and paralleled, transformers loaded, AC/DC consumers fed, power factor and losses in hand, and any diagnosed fault resolved.",
+    instructions: [
+      "Summarise generator build-up, paralleling and transformer loading into a plant-status line.",
+      "State the power-factor, impedance and efficiency headroom of the plant at the expected sea load.",
+      "Close out any outstanding machine fault and confirm the emergency generator's readiness.",
+      "Deliver the full electrical readiness brief to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A one-page electrical readiness brief covering plant status, power-factor/efficiency headroom and outstanding-fault closeout.",
+    assessmentCriteria: [
+      "The brief integrates generator, transformer and consumer status coherently.",
+      "Power-factor and efficiency headroom are stated against the sea load.",
+      "Outstanding faults and emergency-generator readiness are correctly closed out.",
+      "The readiness brief is delivered in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "TEM319",
     subjectName: "Tecnología de Materiales",
     subjectId: "mn-s3-tecnologia-materiales",
@@ -695,6 +869,180 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Selección de materiales",
+    topic: "Selección integrada de materiales: propiedades, clase de acero y resistencia a la corrosión para componentes de a bordo",
+    week: 13,
+    taskId: "mn-tem319-w13-specify-materials-for-a-refit",
+    taskTitle: "Specify Materials For A Machinery Refit Package",
+    scenario: "A refit calls for renewing three engine-room components: a highly stressed shaft, a seawater pipe run and a heat-exchanger part. You must specify a material for each, matching mechanical properties, steel grade and corrosion resistance to the service, and justify the choice on cost.",
+    instructions: [
+      "Match the required properties and, where steel, the carbon-content class to the duty of each of the three components.",
+      "Screen each choice for corrosion behaviour, including galvanic risk where dissimilar metals meet.",
+      "Apply the integrated selection criterion of strength, corrosion resistance, compatibility and cost to fix the final material for each part.",
+      "Report the three material specifications with their justification to the technical office in standard engine-room English."
+    ],
+    deliverable: "A material specification sheet for the three components with grade, corrosion rationale and cost justification.",
+    assessmentCriteria: [
+      "Properties and steel class are correctly matched to each component's duty.",
+      "Corrosion and galvanic compatibility are correctly screened.",
+      "The strength/corrosion/compatibility/cost criterion is applied consistently.",
+      "The specification report is delivered in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Protección contra la corrosión",
+    topic: "Sistema integrado de protección contra la corrosión: recubrimientos, ánodos de sacrificio, corriente impresa y compatibilidad galvánica",
+    week: 14,
+    taskId: "mn-tem319-w14-design-corrosion-protection",
+    taskTitle: "Design The Corrosion Protection For A Seawater System",
+    scenario: "A seawater cooling system with mixed steel, bronze and aluminium fittings suffers accelerated corrosion at the dissimilar-metal joints. You must design a complete protection scheme combining coatings, sacrificial anodes and impressed-current protection to stop the attack.",
+    instructions: [
+      "Map the galvanic couples in the system and rank the joints most at risk.",
+      "Select coatings and non-ferrous fittings that reduce the galvanic driving force where metals meet.",
+      "Size and place sacrificial anodes and/or impressed-current protection to protect the vulnerable steel.",
+      "Report the corrosion protection scheme and its expected effect to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A corrosion protection scheme covering galvanic mapping, coatings, anode placement and impressed-current design.",
+    assessmentCriteria: [
+      "Galvanic couples and at-risk joints are correctly identified.",
+      "Coating and material choices reduce the galvanic driving force.",
+      "Sacrificial and impressed-current protection are correctly sized and placed.",
+      "The protection scheme is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Metales no-ferrosos y metales antifricción",
+    topic: "Integración de aleaciones antifricción, metales no-ferrosos y tratamiento térmico para un conjunto de cojinete",
+    week: 15,
+    taskId: "mn-tem319-w15-select-bearing-assembly-materials",
+    taskTitle: "Select The Materials For A Bearing Assembly Rebuild",
+    scenario: "A main-engine bearing assembly is being rebuilt. You must choose the white-metal antifriction alloy for the bearing surface, the non-ferrous housing components and the correct heat treatment for the steel journal so the assembly runs cool and lasts.",
+    instructions: [
+      "Choose the white-metal antifriction alloy for the bearing surface against the load and speed duty.",
+      "Match the non-ferrous housing and bush metals to their function and to galvanic compatibility with the journal.",
+      "Specify the heat treatment (annealing/quenching/tempering) for the steel journal to give the right hardness and toughness.",
+      "Report the bearing material and heat-treatment specification to the workshop in standard engine-room English."
+    ],
+    deliverable: "A bearing assembly material specification covering antifriction alloy, non-ferrous parts and journal heat treatment.",
+    assessmentCriteria: [
+      "The antifriction alloy is correctly matched to the bearing duty.",
+      "Non-ferrous materials are correctly matched to function and compatibility.",
+      "The heat treatment gives the intended hardness and toughness for the journal.",
+      "The specification is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Pruebas no-destructivas de los metales",
+    topic: "Investigación de falla de material: ensayo, curva esfuerzo-deformación y prueba no-destructiva de una pieza sospechosa",
+    week: 16,
+    taskId: "mn-tem319-w16-investigate-a-cracked-part",
+    taskTitle: "Investigate A Cracked Engine Part And Rule On It",
+    scenario: "A structural bracket in the machinery space has failed and a similar part is suspect. You must investigate the material: read the tensile certificate, work out the stress the part was carrying, and select and apply the right non-destructive test to decide whether the suspect part is fit to remain in service.",
+    instructions: [
+      "Read the material certificate and work out the working stress against the stress-strain curve and hardness data.",
+      "Select the appropriate non-destructive test (magnetic particle, dye penetrant, radiographic or ultrasonic) for the suspect defect.",
+      "Interpret the test result and rule the suspect part accept, reject or repair.",
+      "Report the failure investigation and the fitness ruling to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A material failure investigation report with the stress finding, NDT method, result and accept/reject/repair ruling.",
+    assessmentCriteria: [
+      "Working stress is correctly derived and read against the material data.",
+      "The NDT method is correctly selected for the suspected defect.",
+      "The accept/reject/repair ruling follows logically from the evidence.",
+      "The investigation is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Recubrimientos metálicos",
+    topic: "Recuperación integrada de una pieza desgastada: metalización, cromado duro, tratamiento térmico y verificación por END",
+    week: 17,
+    taskId: "mn-tem319-w17-reclaim-a-worn-shaft",
+    taskTitle: "Plan And Verify The Reclaim Of A Worn Shaft",
+    scenario: "A worn pump shaft is to be reclaimed rather than renewed. You must plan the full reclaim: metallizing and hard-chrome build-up to size, the heat-treatment considerations for the base steel, and the non-destructive verification that the reclaimed shaft is sound before it goes back into service.",
+    instructions: [
+      "Specify the metallizing and hard-chrome build-up to restore the shaft to its running dimension.",
+      "Address the heat-treatment and base-metal properties so the coating adheres and the shaft keeps its strength.",
+      "Define the non-destructive verification that confirms coating integrity and no sub-surface defect before acceptance.",
+      "Report the reclaim procedure and the acceptance criteria to the workshop and superintendent in standard engine-room English."
+    ],
+    deliverable: "A shaft reclaim procedure with coating build-up, heat-treatment notes and the NDT acceptance criteria.",
+    assessmentCriteria: [
+      "The metallizing and hard-chrome build-up correctly restore the running dimension.",
+      "Heat-treatment and base-metal considerations protect strength and adhesion.",
+      "The NDT verification is appropriate to confirm the reclaimed part is sound.",
+      "The reclaim procedure is reported in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TEM319",
+    subjectName: "Tecnología de Materiales",
+    subjectId: "mn-s3-tecnologia-materiales",
+    unit: "Selección de materiales",
+    topic: "Integración de fin de semestre: dossier de materiales del buque, de las propiedades a la protección y la verificación",
+    week: 18,
+    taskId: "mn-tem319-w18-brief-materials-dossier",
+    taskTitle: "Deliver The Ship's Materials Dossier To The Superintendent",
+    scenario: "At the end of the semester the superintendent wants a consolidated materials dossier for the machinery plant: which materials are used where, how they are protected from corrosion, which insulating and refractory materials serve the hot and electrical duties, and how suspect parts are verified.",
+    instructions: [
+      "Consolidate the material selections for the key machinery components with their grades and properties.",
+      "Summarise the corrosion protection and the insulating/refractory materials serving the hot and electrical duties.",
+      "State the inspection and NDT regime that keeps the materials fit for service.",
+      "Deliver the consolidated materials dossier to the superintendent in standard engine-room English."
+    ],
+    deliverable: "A consolidated ship's materials dossier covering selection, protection, insulation and verification.",
+    assessmentCriteria: [
+      "Material selections are consolidated coherently against their duties.",
+      "Corrosion protection and insulating/refractory materials are correctly summarised.",
+      "The inspection and NDT regime is complete and appropriate.",
+      "The dossier is delivered in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -1048,6 +1396,180 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Trabajo en caliente a bordo",
+    topic: "Trabajo en caliente integrado: permiso, selección de electrodo, amperaje y preparación de junta para una reparación estructural",
+    week: 13,
+    taskId: "mn-tal320-w13-plan-a-structural-weld-repair",
+    taskTitle: "Plan A Structural Weld Repair In The Engine Room",
+    scenario: "A cracked support bracket in the machinery space must be welded in place. You must plan the whole job: raise the hot-work permit and set the fire watch, prepare the joint, select the electrode and set the amperage, and choose the welding position for a sound repair.",
+    instructions: [
+      "Raise the hot-work permit, prepare the area and set the fire watch for before, during and after the job.",
+      "Prepare the joint edge (bevel, root gap, root face) and choose the welding position for the location.",
+      "Select the electrode for the material and set the correct amperage for that electrode.",
+      "Report the hot-work plan and readiness to the duty engineer in standard engine-room English."
+    ],
+    deliverable: "A weld-repair job plan with the hot-work permit, joint preparation, electrode/amperage and position.",
+    assessmentCriteria: [
+      "The hot-work permit and fire-watch arrangement are complete and correct.",
+      "Joint preparation and welding position suit the repair location.",
+      "Electrode and amperage are correctly matched to the work.",
+      "The job plan is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Corte con oxiacetileno",
+    topic: "Operación integrada de oxicorte y esmerilado: ajuste de llama, seguridad del equipo de gas y acabado de la pieza",
+    week: 14,
+    taskId: "mn-tal320-w14-cut-and-dress-a-plate",
+    taskTitle: "Cut And Dress A Steel Plate For A New Part",
+    scenario: "A replacement doubler plate must be cut from steel stock and dressed to shape. You must set up the oxy-acetylene cutting torch safely, make the cut, then grind and finish the edges to size for fitting.",
+    instructions: [
+      "Set up the gas equipment safely and adjust the oxy-acetylene flame for cutting the plate thickness.",
+      "Make the cut following the line and controlling dross and heat distortion.",
+      "Select the grinding wheel and grind the cut edges to size, observing grinding safety.",
+      "Report the finished blank and its readiness for fitting to the workshop supervisor in standard engine-room English."
+    ],
+    deliverable: "A finished cut-and-dressed plate blank with a job record of the cutting and grinding steps.",
+    assessmentCriteria: [
+      "The gas equipment is set up safely and the flame is correctly adjusted.",
+      "The cut follows the line with controlled dross and distortion.",
+      "Grinding wheel selection and edge finishing observe grinding safety.",
+      "The job record is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Tipos de soldadura y su uso",
+    topic: "Reparación integrada de tubería: soldadura fuerte y blanda, fundentes y precauciones sobre líneas de a bordo",
+    week: 15,
+    taskId: "mn-tal320-w15-repair-a-seawater-pipe",
+    taskTitle: "Braze And Solder A Seawater Pipe Repair",
+    scenario: "A small-bore seawater and a copper instrument line both need repair. You must braze the seawater pipe joint and soft-solder the small copper joint, choosing the right filler and flux for each and observing the risks and precautions of both processes.",
+    instructions: [
+      "Prepare and braze the seawater pipe joint with the correct silver/brass/bronze filler and flux.",
+      "Prepare and soft-solder the small copper joint with the correct tin filler and flux.",
+      "Apply the risk precautions for each process and check both joints for a sound, leak-tight result.",
+      "Report the completed pipe repairs and their test result to the duty engineer in standard engine-room English."
+    ],
+    deliverable: "A pipe-repair record covering the brazed and soldered joints, fillers/fluxes and the leak test.",
+    assessmentCriteria: [
+      "The brazed joint uses correct filler, flux and technique for the seawater duty.",
+      "The soldered joint uses correct filler, flux and technique for the copper line.",
+      "Process risks are controlled and both joints test leak-tight.",
+      "The repair record is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Seguridad durante el proceso de soldadura",
+    topic: "Respuesta a trabajo en caliente sobre un tanque: gas-free, permiso, fire watch y control del área ante peligro de combustible",
+    week: 16,
+    taskId: "mn-tal320-w16-make-a-fuel-tank-safe",
+    taskTitle: "Make A Fuel Tank Safe For Emergency Hot Work",
+    scenario: "A leaking fuel tank boundary needs urgent welding, but the tank has held fuel and the risk of explosion is real. You must make the tank safe before any hot work: gas-free it, confirm the atmosphere, control the area and only then authorise the weld under a strict permit and fire watch.",
+    instructions: [
+      "Carry out and verify the gas-free procedure and confirm the atmosphere is safe for hot work.",
+      "Raise the hot-work permit, prepare the area and post the fire watch for a fuel-adjacent job.",
+      "Set the electrode, amperage and joint so the weld can be made quickly with minimum heat input, then stop if any condition changes.",
+      "Report the gas-free result, the permit status and the go/no-go decision to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A tank hot-work safety case with the gas-free verification, permit, fire watch and the go/no-go decision.",
+    assessmentCriteria: [
+      "The gas-free procedure and atmosphere check are correct and verified.",
+      "The permit and fire watch match the fuel-adjacent hazard.",
+      "The welding set-up minimises heat input and the stop conditions are defined.",
+      "The safety case and decision are reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Inspección de la soldadura terminada",
+    topic: "Auditoría integrada de una soldadura: fallas comunes, inspección visual y END, y criterio aceptar/rechazar/reparar",
+    week: 17,
+    taskId: "mn-tal320-w17-inspect-and-rule-on-a-weld",
+    taskTitle: "Inspect A Finished Weld And Certify The Repair",
+    scenario: "A completed structural weld must be signed off before the space is returned to service. You must inspect it for the common weld defects, apply visual and dye-penetrant examination, and rule the weld accept, reject or repair against the criteria.",
+    instructions: [
+      "Examine the finished weld visually for the common defects (undercut, porosity, lack of fusion, cracks).",
+      "Apply dye-penetrant NDT to reveal surface-breaking defects the eye may miss.",
+      "Rule the weld accept, reject or repair against the acceptance criteria and specify any rework.",
+      "Report the inspection result and the ruling to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A weld inspection report with the defect findings, NDT result and the accept/reject/repair ruling.",
+    assessmentCriteria: [
+      "Common weld defects are correctly identified in the visual examination.",
+      "The dye-penetrant NDT is correctly applied and interpreted.",
+      "The accept/reject/repair ruling follows the acceptance criteria.",
+      "The inspection report is delivered in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "TAL320",
+    subjectName: "Taller II",
+    subjectId: "mn-s3-taller-ii",
+    unit: "Trabajo en caliente a bordo",
+    topic: "Integración de fin de semestre: expediente de un trabajo en caliente, del permiso a la soldadura inspeccionada",
+    week: 18,
+    taskId: "mn-tal320-w18-brief-hot-work-package",
+    taskTitle: "Hand Over The Completed Hot-Work Package",
+    scenario: "A machinery-space repair job is finished and the space is to be returned to service. You must hand over the complete hot-work package: permit closed, welding done and inspected, gas-free and fire-watch records complete, and the area confirmed safe.",
+    instructions: [
+      "Assemble the permit, gas-free and fire-watch records into a closed hot-work package.",
+      "Summarise the welding, cutting and grinding work done and its inspection result.",
+      "Confirm the area is made safe, tools accounted for and the space ready to return to service.",
+      "Deliver the hot-work handover to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A closed hot-work handover package with permit closeout, work summary, inspection result and area-safe confirmation.",
+    assessmentCriteria: [
+      "The permit, gas-free and fire-watch records are complete and correctly closed.",
+      "The work summary and inspection result are accurate.",
+      "The make-safe and return-to-service confirmation is thorough.",
+      "The handover is delivered in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "GEA317",
     subjectName: "Geometría Analítica",
     subjectId: "mn-s3-geometria-analitica",
@@ -1391,6 +1913,180 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Trazado integrado de una tubería en el taller: distancia, pendiente, intersección y ángulo entre recorridos",
+    week: 13,
+    taskId: "mn-gea317-w13-lay-out-a-pipe-run",
+    taskTitle: "Lay Out A New Pipe Run In The Machinery Space",
+    scenario: "A new pipe run must be routed between two machines on the engine-room drawing. Working in coordinates you must fix the run's length and slope, find where it would cross an existing line, and check the angle it makes with a reference run so it can be fabricated.",
+    instructions: [
+      "Compute the distance between the two connection points and the slope of the proposed run.",
+      "Find the intersection point of the new run with the existing pipe line it must avoid or tie into.",
+      "Calculate the angle between the new run and the reference run and confirm it meets the layout limit.",
+      "Report the pipe-run geometry and the fabrication figures to the workshop in standard engine-room English."
+    ],
+    deliverable: "A pipe-run layout sheet with length, slope, intersection point and the angle to the reference run.",
+    assessmentCriteria: [
+      "Distance and slope of the run are correctly computed.",
+      "The intersection point with the existing line is correctly found.",
+      "The angle between runs is correct and checked against the limit.",
+      "The layout figures are reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Verificación integrada de holguras: rectas paralelas y perpendiculares, distancia de un equipo a una recta de referencia y punto medio",
+    week: 14,
+    taskId: "mn-gea317-w14-check-equipment-clearances",
+    taskTitle: "Check Equipment Clearances Against The Reference Line",
+    scenario: "New equipment is being sited in the machinery space and must keep minimum clearance from a reference line and from adjacent runs. Working in coordinates you must verify the clearances, confirm parallel/perpendicular alignment and locate the mounting midpoint on the bedplate.",
+    instructions: [
+      "Measure the perpendicular distance from the equipment to the reference line and check it against the minimum clearance.",
+      "Confirm which runs are parallel and which are perpendicular to the reference line.",
+      "Find the bedplate mounting midpoint and divide the support span for the fixing points.",
+      "Report the clearance and mounting figures to the workshop in standard engine-room English."
+    ],
+    deliverable: "A clearance and mounting verification sheet with distances, alignment checks and the midpoint/span division.",
+    assessmentCriteria: [
+      "The perpendicular clearance is correctly computed and checked against the minimum.",
+      "Parallel and perpendicular alignments are correctly identified.",
+      "The mounting midpoint and span division are correct.",
+      "The verification is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Circunferencia",
+    topic: "Modelado integrado de una pieza rotativa: sección circular del eje, círculo de barrido y posición de un punto",
+    week: 15,
+    taskId: "mn-gea317-w15-model-a-rotating-guard",
+    taskTitle: "Model A Rotating Part And Set Its Guard Clearance",
+    scenario: "A rotating coupling must be fitted with a guard. Working in coordinates you must model the shaft cross-section as a circle, define the swept circle of the rotating part, and test whether nearby fixed points fall inside the sweep so the guard clearance is safe.",
+    instructions: [
+      "Write the circle equation for the shaft cross-section from its centre and radius.",
+      "Define the swept circle of the rotating part at its outermost point.",
+      "Test the nearby fixed points against the sweep circle to see which fall inside, on or outside it.",
+      "Report the guard clearance finding and any fouling points to the workshop in standard engine-room English."
+    ],
+    deliverable: "A rotating-part geometry sheet with the circle equations, sweep circle and the point-position results.",
+    assessmentCriteria: [
+      "The shaft-section circle equation is correctly formed.",
+      "The swept circle is correctly defined at the outermost radius.",
+      "Each test point is correctly placed inside, on or outside the sweep.",
+      "The clearance finding is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Geometría Analítica del Espacio",
+    topic: "Verificación integrada de una superficie de montaje: ecuación del plano y de la superficie esférica y prueba de puntos",
+    week: 16,
+    taskId: "mn-gea317-w16-verify-a-tank-fit",
+    taskTitle: "Verify A Spherical Tank Fits Its Mounting Surface",
+    scenario: "A spherical service tank must sit on a flat mounting surface without fouling surrounding structure. Working in coordinates you must describe the mounting surface with a plane equation, model the tank as a spherical surface and test whether structure points clear the sphere.",
+    instructions: [
+      "Write the plane equation describing the mounting surface from its reference points.",
+      "Write the equation of the spherical tank surface with its centre off the origin.",
+      "Test the surrounding structure points against the sphere and plane to confirm clearance or find fouling.",
+      "Report the fit verification and any interference to the technical office in standard engine-room English."
+    ],
+    deliverable: "A tank-fit verification sheet with the plane and sphere equations and the clearance/fouling results.",
+    assessmentCriteria: [
+      "The plane equation correctly describes the mounting surface.",
+      "The spherical surface equation is correctly formed with an off-origin centre.",
+      "Structure points are correctly tested for clearance against the sphere.",
+      "The fit verification is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Parábola, elipse e hipérbola",
+    topic: "Modelado integrado de secciones cónicas de a bordo: parábola de un reflector y elipse de un registro con verificación de puntos",
+    week: 17,
+    taskId: "mn-gea317-w17-model-conic-fittings",
+    taskTitle: "Model The Conic Fittings Of Two Shipboard Parts",
+    scenario: "Two shipboard fittings are defined by conic curves: a parabolic reflector and an elliptical manhole cover. You must model each with its equation, derive the key dimensions the workshop needs and verify test points lie on the required curves before manufacture.",
+    instructions: [
+      "Write the parabola equation for the reflector with its vertex at the origin and derive its focus and opening.",
+      "Write the ellipse equation for the manhole with its centre at the origin and derive its semi-axes.",
+      "Verify that the specified rim points satisfy each equation and flag any that do not.",
+      "Report the conic dimensions and the verification to the workshop in standard engine-room English."
+    ],
+    deliverable: "A conic-fitting sheet with the parabola and ellipse equations, key dimensions and the point verification.",
+    assessmentCriteria: [
+      "The parabola equation and derived focus/opening are correct.",
+      "The ellipse equation and semi-axes are correct.",
+      "Rim points are correctly verified against each curve.",
+      "The dimensions and verification are reported in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "GEA317",
+    subjectName: "Geometría Analítica",
+    subjectId: "mn-s3-geometria-analitica",
+    unit: "Línea recta",
+    topic: "Integración de fin de semestre: dossier geométrico del taller, de la recta a las superficies del espacio",
+    week: 18,
+    taskId: "mn-gea317-w18-brief-workshop-geometry",
+    taskTitle: "Deliver The Workshop Geometry Dossier For The Job",
+    scenario: "A fabrication package pulls together the semester's geometry: pipe runs and clearances by straight lines, a rotating guard by circles, a tank fit by a plane and sphere and conic fittings by parabola and ellipse. You must consolidate the figures into one dossier the workshop can build from.",
+    instructions: [
+      "Consolidate the straight-line layout figures (distances, slopes, angles, clearances) for the runs and equipment.",
+      "Summarise the circular, spherical and plane results for the rotating guard and tank fit.",
+      "Add the conic-fitting dimensions and confirm all point verifications pass.",
+      "Deliver the consolidated geometry dossier to the workshop in standard engine-room English."
+    ],
+    deliverable: "A consolidated workshop geometry dossier covering lines, circles, plane/sphere and conics for the job.",
+    assessmentCriteria: [
+      "Straight-line layout figures are consolidated correctly.",
+      "Circular, spherical and plane results are summarised accurately.",
+      "Conic dimensions and all point verifications are consistent.",
+      "The dossier is delivered in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -1744,6 +2440,180 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Análisis dinámico integrado del volante: energía cinética de rotación, par, momento de inercia y potencia en el eje",
+    week: 13,
+    taskId: "mn-din318-w13-analyse-the-flywheel-drive",
+    taskTitle: "Analyse The Flywheel Drive Under Load",
+    scenario: "The main engine's flywheel drives an auxiliary load and must be analysed for a duty change. You must combine its rotational kinetic energy, the torque and moment of inertia that spin it up, and the shaft power it delivers so the drive is shown fit for the new duty.",
+    instructions: [
+      "Compute the flywheel's rotational kinetic energy and its moment of inertia at running speed.",
+      "Apply the torque and moment of inertia to find the angular acceleration during spin-up.",
+      "Derive the shaft power delivered at running speed and check it against the auxiliary load.",
+      "Report the flywheel drive analysis and its fitness for the duty to the duty engineer in standard engine-room English."
+    ],
+    deliverable: "A flywheel drive analysis with rotational energy, moment of inertia, spin-up acceleration and shaft power.",
+    assessmentCriteria: [
+      "Rotational kinetic energy and moment of inertia are correctly computed.",
+      "Torque and inertia correctly yield the spin-up angular acceleration.",
+      "Shaft power is correctly derived and checked against the load.",
+      "The analysis is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinemática de Partículas y Cuerpos Rígidos",
+    topic: "Estudio cinemático integrado de la línea de propulsión: movimiento rectilíneo del pistón, rotación del eje y coast-down uniformemente acelerado",
+    week: 14,
+    taskId: "mn-din318-w14-study-the-drive-line-coast-down",
+    taskTitle: "Study The Drive-Line Motion During A Coast-Down",
+    scenario: "After a stop order the propulsion drive-line coasts down. You must study its motion: the piston's rectilinear travel, the shaft's rotation about its axis and the uniformly decelerated coast-down, to predict when the line comes to rest for the turning-gear.",
+    instructions: [
+      "Describe the piston's rectilinear motion and relate it to the shaft's rotation about its axis.",
+      "Apply the kinematic equations to the uniformly decelerated coast-down of the drive-line.",
+      "Predict the time and revolutions to rest and confirm when turning-gear can be engaged.",
+      "Report the coast-down prediction to the duty engineer in standard engine-room English."
+    ],
+    deliverable: "A drive-line coast-down study with the motion relations, kinematic solution and time/revolutions to rest.",
+    assessmentCriteria: [
+      "Piston motion is correctly related to shaft rotation.",
+      "The kinematic equations are correctly applied to the deceleration.",
+      "Time and revolutions to rest are correctly predicted.",
+      "The prediction is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Operación integrada del polipasto del taller: conservación de la energía, segunda ley de Newton e impulso al enganchar la carga",
+    week: 15,
+    taskId: "mn-din318-w15-operate-the-workshop-hoist",
+    taskTitle: "Operate The Workshop Hoist To Move An Engine Part",
+    scenario: "A heavy engine part must be lifted and traversed with the workshop hoist. You must analyse the operation: the fall speed a load would reach by conservation of energy, the force needed to accelerate the load, and the momentum at the moment the trolley couples to it.",
+    instructions: [
+      "Use conservation of mechanical energy to find the fall speed the load would reach through a given drop.",
+      "Apply Newton's second law to find the force needed to accelerate the load safely on the hoist.",
+      "Apply momentum to the coupling of the trolley to the load and check the shock is within limits.",
+      "Report the safe lift and traverse figures to the workshop supervisor in standard engine-room English."
+    ],
+    deliverable: "A hoist operation analysis with the energy fall speed, the accelerating force and the coupling momentum.",
+    assessmentCriteria: [
+      "The fall speed is correctly found by conservation of energy.",
+      "The accelerating force follows correctly from Newton's second law.",
+      "The coupling momentum is correctly computed and checked.",
+      "The operation figures are reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Leyes del Movimiento de Newton",
+    topic: "Respuesta dinámica integrada: mover una carga sobre un plano inclinado con fricción aplicando la segunda ley y trabajo-energía",
+    week: 16,
+    taskId: "mn-din318-w16-recover-a-load-on-a-skid",
+    taskTitle: "Recover A Stalled Load On An Inclined Skid",
+    scenario: "A load being moved up an inclined skid in the machinery space has stalled and is at risk of running back. You must analyse the dynamics: the force needed to overcome gravity and friction on the incline, the work and energy to restart the move, and confirm a controlled recovery.",
+    instructions: [
+      "Apply Newton's second law on the inclined plane with friction to find the force needed to restart the load upward.",
+      "Use work and energy to check the winch or tackle can deliver the required energy over the incline.",
+      "Confirm the load cannot run back and specify the holding force to keep it controlled.",
+      "Report the recovery analysis and the safe method to the duty engineer in standard engine-room English."
+    ],
+    deliverable: "An inclined-load recovery analysis with the required force, work/energy check and the holding force.",
+    assessmentCriteria: [
+      "The force on the inclined plane with friction is correctly derived.",
+      "The work/energy check correctly confirms the pulling capacity.",
+      "The run-back holding force is correctly specified.",
+      "The recovery analysis is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Verificación integrada de la maquinaria rotativa: energía, impulso, momento y potencia en el eje frente a los límites de diseño",
+    week: 17,
+    taskId: "mn-din318-w17-verify-rotating-machinery-limits",
+    taskTitle: "Verify The Rotating Machinery Against Its Dynamic Limits",
+    scenario: "Before a duty increase, the rotating machinery train must be verified against its dynamic limits. You must combine the moving machinery's momentum, the flywheel's rotational energy and shaft power, and the torque/inertia spin-up into one check that the train stays within its design envelope.",
+    instructions: [
+      "Apply momentum to the moving machinery to check the loads at speed changes.",
+      "Combine rotational kinetic energy and shaft power with the torque/inertia spin-up for the train.",
+      "Compare the results against the machinery's dynamic design limits and flag any exceedance.",
+      "Report the verification and any limit exceedance to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A rotating-machinery dynamic verification with momentum, energy, power and spin-up checked against limits.",
+    assessmentCriteria: [
+      "Momentum of the moving machinery is correctly applied.",
+      "Rotational energy, shaft power and spin-up are correctly combined.",
+      "Results are correctly compared against the design limits.",
+      "The verification is reported in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "DIN318",
+    subjectName: "Dinámica",
+    subjectId: "mn-s3-dinamica",
+    unit: "Cinética de Sistemas de Partículas",
+    topic: "Integración de fin de semestre: dossier dinámico de la línea de propulsión, de la cinemática a la potencia en el eje",
+    week: 18,
+    taskId: "mn-din318-w18-brief-drive-line-dynamics",
+    taskTitle: "Deliver The Drive-Line Dynamics Brief",
+    scenario: "At the end of the semester the chief engineer wants a consolidated dynamics brief on the propulsion and workshop machinery: how the drive-line accelerates and coasts, how the flywheel stores and delivers energy, and how loads are safely moved and lifted.",
+    instructions: [
+      "Summarise the drive-line kinematics: piston motion, shaft rotation and coast-down behaviour.",
+      "State the flywheel's rotational energy, torque/inertia and shaft power for the running duty.",
+      "Consolidate the load-handling dynamics (energy, momentum, Newton's second law on the incline) into safe working figures.",
+      "Deliver the drive-line dynamics brief to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A consolidated drive-line dynamics brief covering kinematics, flywheel energy/power and load-handling.",
+    assessmentCriteria: [
+      "The drive-line kinematics are summarised accurately.",
+      "The flywheel energy, torque/inertia and power figures are correct.",
+      "The load-handling dynamics are consolidated into safe working figures.",
+      "The brief is delivered in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "ING315",
     subjectName: "Inglés Marítimo III",
     subjectId: "mn-s3-ingles-maritimo-iii",
@@ -2087,6 +2957,180 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Comunicación integrada máquinas-puente",
+    topic: "Guardia de máquinas integrada: órdenes estándar de máquinas, respuesta al telégrafo y estado de la planta en stand-by",
+    week: 13,
+    taskId: "mn-ing315-w13-run-a-full-engine-watch-exchange",
+    taskTitle: "Run A Full Engine-To-Bridge Exchange At Stand-By",
+    scenario: "The vessel is at stand-by for departure Tampico. From the engine control room you must handle the full internal exchange with the bridge: acknowledge standard engine orders and telegraph movements, report the plant state and respond correctly as movements come down.",
+    instructions: [
+      "Acknowledge the standard engine orders and telegraph movements using the correct standard phrases.",
+      "Report the plant state (which units are running, ready and on stand-by) to the bridge.",
+      "Respond to a sequence of telegraph orders and confirm each movement made.",
+      "Deliver the full engine-to-bridge exchange in correct SMCP / standard engine-room English."
+    ],
+    deliverable: "A recorded engine-to-bridge stand-by exchange with orders, acknowledgements and plant-state reports.",
+    assessmentCriteria: [
+      "Standard engine orders and telegraph movements are correctly acknowledged.",
+      "The plant-state report is complete and accurate.",
+      "Telegraph orders are answered with the correct confirmations.",
+      "The whole exchange is delivered in correct SMCP / engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Voz pasiva",
+    topic: "Redacción integrada del engine log: present perfect y voz pasiva para reportar mantenimiento completado",
+    week: 14,
+    taskId: "mn-ing315-w14-write-the-watch-log",
+    taskTitle: "Write The Engine Watch Log For The Shift",
+    scenario: "At the end of an engine-room watch you must write up the log. The completed maintenance and events must be recorded in the present perfect and the passive voice as the engine log requires, ready for the next watch.",
+    instructions: [
+      "Record the completed maintenance and checks using the present perfect (have + past participle).",
+      "Write the event and maintenance entries in the passive voice as required in the engine log.",
+      "Order the entries by time and highlight anything the next watch must monitor.",
+      "Produce the finished watch log in correct engine-room English."
+    ],
+    deliverable: "A completed engine watch log with present-perfect and passive-voice entries for the shift.",
+    assessmentCriteria: [
+      "Completed work is correctly reported in the present perfect.",
+      "Log entries correctly use the passive voice.",
+      "Entries are correctly ordered and the watch items highlighted.",
+      "The log reads as correct, professional engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Estilo indirecto",
+    topic: "Relevo de guardia integrado: reported speech con backshift, órdenes permanentes con condicionales y modales de obligación",
+    week: 15,
+    taskId: "mn-ing315-w15-hand-over-the-engine-watch",
+    taskTitle: "Hand Over The Engine Watch To The Relief",
+    scenario: "You are handing over the engine-room watch. You must relay the messages and orders received during the watch in reported speech, pass on the chief engineer's standing orders using conditionals, and state the engine-room rules the relief must obey.",
+    instructions: [
+      "Relay the watch messages received in reported speech with the correct backshift of tenses.",
+      "Pass on the chief engineer's standing orders using first and second conditionals.",
+      "State the engine-room rules and duties using obligation, prohibition and permission modals.",
+      "Deliver the full watch handover in correct engine-room English."
+    ],
+    deliverable: "A spoken/written watch handover with reported-speech messages, conditional standing orders and modal rules.",
+    assessmentCriteria: [
+      "Messages are relayed in reported speech with correct backshift.",
+      "Standing orders correctly use first and second conditionals.",
+      "Rules and duties correctly use obligation/prohibition/permission modals.",
+      "The handover is delivered in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Introducción: Inglés Marítimo",
+    topic: "Respuesta de emergencia integrada: comandos estándar de emergencia y órdenes de máquinas en un incidente en la sala de máquinas",
+    week: 16,
+    taskId: "mn-ing315-w16-command-an-engine-emergency",
+    taskTitle: "Give The Engine-Room Emergency Commands",
+    scenario: "An emergency develops in the machinery space and the bridge must be kept informed while the response is run in English. You must give the standard emergency commands, order the engine movements the situation demands and report the emergency clearly to the bridge.",
+    instructions: [
+      "Give the standard emergency commands for the incident to the engine-room team.",
+      "Order the engine and telegraph movements the emergency requires.",
+      "Report the emergency, actions taken and plant status to the bridge.",
+      "Deliver all commands and the report in correct SMCP / standard emergency English."
+    ],
+    deliverable: "An engine-room emergency communication set with the commands, engine orders and the bridge report.",
+    assessmentCriteria: [
+      "The standard emergency commands are correct and complete.",
+      "The engine and telegraph orders suit the emergency.",
+      "The bridge report is clear, accurate and timely.",
+      "All communication is in correct SMCP / emergency English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Futuro",
+    topic: "Sesión informativa integrada: formas de futuro, unidades de medida y modales para el plan de mantenimiento y consumos",
+    week: 17,
+    taskId: "mn-ing315-w17-brief-the-maintenance-plan",
+    taskTitle: "Brief The Maintenance And Consumption Plan",
+    scenario: "The chief engineer wants next week's maintenance and consumption plan briefed to the engine team. You must lay out the planned work using future forms, report fuel and oil quantities with the correct measure words, and state the rules the team must follow.",
+    instructions: [
+      "Present the planned maintenance work using the future forms (will, going to, present continuous).",
+      "Report the fuel and oil quantities and consumptions with the correct measure words and units.",
+      "State the rules and permissions for the work using obligation and permission modals.",
+      "Deliver the maintenance and consumption briefing in correct engine-room English."
+    ],
+    deliverable: "A maintenance and consumption briefing with future-form plans, quantified consumptions and the working rules.",
+    assessmentCriteria: [
+      "Future forms are used correctly for the planned work.",
+      "Fuel and oil quantities are reported with correct measure words and units.",
+      "Rules and permissions correctly use modals.",
+      "The briefing is delivered in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "ING315",
+    subjectName: "Inglés Marítimo III",
+    subjectId: "mn-s3-ingles-maritimo-iii",
+    unit: "Comunicación integrada máquinas-puente",
+    topic: "Integración de fin de semestre: familiarización de la sala de máquinas y relevo completo, del recorrido al traspaso de guardia",
+    week: 18,
+    taskId: "mn-ing315-w18-deliver-familiarisation-and-handover",
+    taskTitle: "Deliver The Engine-Room Familiarisation And Watch Handover",
+    scenario: "A newly joined engineer must be brought up to speed and the watch handed over. You must give an engine-room familiarisation tour, then hand over the watch pulling together the semester's functions: plant state, standing orders, completed work and the rules of the space.",
+    instructions: [
+      "Give the engine-room familiarisation tour: stations, safety equipment locations and directions in the space.",
+      "Report the plant state and completed maintenance to the joining engineer.",
+      "Hand over the standing orders, watch messages and engine-room rules for the coming watch.",
+      "Deliver the whole familiarisation and handover in correct SMCP / engine-room English."
+    ],
+    deliverable: "A combined familiarisation-and-handover briefing covering the space, plant state, orders and rules.",
+    assessmentCriteria: [
+      "The familiarisation tour correctly covers stations, safety gear and directions.",
+      "The plant state and completed work are accurately reported.",
+      "Standing orders, messages and rules are correctly handed over.",
+      "The whole briefing is delivered in correct SMCP / engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -2440,6 +3484,180 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Marinería en mal tiempo",
+    topic: "Preparación integrada para mal tiempo: trincado en la sala de máquinas, tránsito seguro y preparación de la planta antes del temporal",
+    week: 13,
+    taskId: "mn-pmr321-w13-prepare-for-heavy-weather",
+    taskTitle: "Prepare The Engine Room For A Heavy-Weather Passage",
+    scenario: "A gale is forecast on the passage from Tampico. From the engine room you must prepare for heavy weather: lash down loose gear and stores, secure safe transit routes, and get the plant ready for the motion and increased demand of the storm.",
+    instructions: [
+      "Lash and secure loose gear, tools and stores in the machinery space against the ship's motion.",
+      "Secure safe transit routes and brief the crew on moving safely in a rolling engine room.",
+      "Prepare the plant (sea suctions, fuel, standby units) for the increased demand and motion of the storm.",
+      "Report the engine-room heavy-weather readiness to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A heavy-weather preparation checklist covering lashing, safe transit and plant readiness.",
+    assessmentCriteria: [
+      "Loose gear and stores are correctly and fully secured.",
+      "Safe transit routes and crew movement are properly addressed.",
+      "The plant is correctly prepared for storm demand and motion.",
+      "The readiness report is delivered in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Aparejos y maniobras de fuerza",
+    topic: "Maniobra de fuerza integrada: motones, cuadernales y ventaja mecánica con uso seguro de herramientas para izar una pieza de máquinas",
+    week: 14,
+    taskId: "mn-pmr321-w14-rig-a-lift-for-an-engine-part",
+    taskTitle: "Rig And Lift A Heavy Engine Part Safely",
+    scenario: "A heavy engine part must be lifted and moved in the machinery space using a block and tackle. You must rig the purchase for the right mechanical advantage, select and use the tools and gear safely, and carry out a controlled lift.",
+    instructions: [
+      "Select the blocks and rig the tackle for the mechanical advantage the load needs.",
+      "Choose and use the correct tools and lifting gear, checking their condition and rating.",
+      "Carry out the controlled lift and traverse, keeping the load under control throughout.",
+      "Report the lift plan and its safe completion to the duty engineer in standard engine-room English."
+    ],
+    deliverable: "A lifting plan and record covering the purchase rigged, gear used and the controlled lift.",
+    assessmentCriteria: [
+      "The tackle is rigged for the correct mechanical advantage.",
+      "Tools and lifting gear are correctly selected and checked.",
+      "The lift is carried out controlled and safe.",
+      "The lift record is reported in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Uso de anticorrosivos, pinturas y solventes",
+    topic: "Mantenimiento integrado de superficies: preparación, anticorrosivos y pintura con código de colores de tuberías en la sala de máquinas",
+    week: 15,
+    taskId: "mn-pmr321-w15-restore-an-engine-room-surface",
+    taskTitle: "Restore And Colour-Code An Engine-Room Surface",
+    scenario: "A corroded surface and a run of unmarked pipework in the machinery space must be restored. You must prepare the surface, apply the anticorrosive and paint system, and mark the pipelines to the correct colour code so services are identified.",
+    instructions: [
+      "Prepare the corroded surface and the pipe run using the correct tools, anticorrosives and solvents.",
+      "Apply the paint system to the surface following the coating sequence.",
+      "Mark the pipelines to the colour code for water, fuel, air and high-temperature ducts.",
+      "Report the completed surface and pipe marking to the duty engineer in standard engine-room English."
+    ],
+    deliverable: "A surface-restoration and pipe-marking record covering preparation, coating and colour code applied.",
+    assessmentCriteria: [
+      "Surface preparation and anticorrosive application are correct.",
+      "The paint system is applied in the correct sequence.",
+      "Pipelines are marked correctly to the colour code.",
+      "The completion report is delivered in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Procedimientos para controlar vías de agua",
+    topic: "Respuesta integrada a una vía de agua: tipos de vía, estera de colisión, cuñas, tapones y apuntalado con la máquina en apoyo",
+    week: 16,
+    taskId: "mn-pmr321-w16-control-a-hull-leak",
+    taskTitle: "Control A Hull Leak With Damage-Control Materials",
+    scenario: "Water ingress is reported through the hull near the machinery space. You must identify the type of leak, control it with the damage-control materials, and coordinate engine-room support for pumping and safe working while the leak is contained.",
+    instructions: [
+      "Identify the type and source of the water ingress and its rate.",
+      "Control the leak with the damage-control materials: collision mat, wedges, plugs and shoring.",
+      "Coordinate engine-room support for bilge pumping and keep the working area safe.",
+      "Report the leak, the control action and the situation to the bridge in standard engine-room English."
+    ],
+    deliverable: "A damage-control report covering the leak type, the containment materials used and the pumping support.",
+    assessmentCriteria: [
+      "The leak type, source and rate are correctly identified.",
+      "The damage-control materials are correctly applied to contain it.",
+      "Engine-room pumping support is correctly coordinated.",
+      "The situation report is delivered in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Hombre al agua y embarcación de rescate",
+    topic: "Respuesta integrada a hombre al agua: acciones inmediatas, respuesta de máquinas al Williamson y arriado del bote salvavidas",
+    week: 17,
+    taskId: "mn-pmr321-w17-support-a-man-overboard-recovery",
+    taskTitle: "Support A Man-Overboard Recovery And Launch The Boat",
+    scenario: "A man-overboard is called during the passage. From the engine room you must support the immediate actions and the Williamson turn manoeuvre, then help launch, handle and recover with the lifeboat/rescue boat, coordinating machinery response throughout.",
+    instructions: [
+      "Take the immediate engine-room actions for a man-overboard and stand the plant by.",
+      "Provide the machinery response to the bridge's Williamson turn and manoeuvring orders.",
+      "Support launching, handling and securing the lifeboat/rescue boat with davits in the drill.",
+      "Report the engine-room actions and readiness to the bridge in standard engine-room English."
+    ],
+    deliverable: "A man-overboard support record covering immediate actions, Williamson machinery response and boat handling.",
+    assessmentCriteria: [
+      "The immediate engine-room actions are correct and prompt.",
+      "The machinery response to the Williamson turn is correct.",
+      "Boat launch, handling and securing are correctly supported.",
+      "The report to the bridge is delivered in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "PMR321",
+    subjectName: "Prácticas Marineras III",
+    subjectId: "mn-s3-practicas-marineras-iii",
+    unit: "Manejo de pañoles",
+    topic: "Integración de fin de semestre: preparación de guardia de marinería, del inventario del pañol al uso seguro de herramientas y aparejos",
+    week: 18,
+    taskId: "mn-pmr321-w18-brief-seamanship-readiness",
+    taskTitle: "Deliver The Seamanship Readiness Handover",
+    scenario: "At the end of the semester you must hand over the engine-room seamanship readiness: the store inventory current, tools and rigging gear in order, damage-control and heavy-weather materials ready, and safe working practices confirmed for the incoming watch.",
+    instructions: [
+      "Confirm the store inventory is current and the tools and rigging gear are accounted for.",
+      "Confirm the damage-control and heavy-weather materials are ready and correctly stowed.",
+      "Confirm safe use of tools, lifting gear and safe transit for the incoming watch.",
+      "Deliver the seamanship readiness handover to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A seamanship readiness handover covering inventory, gear, damage-control materials and safe practices.",
+    assessmentCriteria: [
+      "The store inventory and gear accounting are complete and correct.",
+      "Damage-control and heavy-weather materials are confirmed ready.",
+      "Safe working practices are correctly confirmed for the watch.",
+      "The handover is delivered in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "C0011",
     subjectName: "Educación Física III",
     subjectId: "mn-s3-educacion-fisica-iii",
@@ -2783,6 +4001,180 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Autoevaluación funcional y plan personal",
+    topic: "Plan integrado de aptitud para máquinas: resistencia cardiorrespiratoria, fuerza funcional y autoevaluación por capacidad",
+    week: 13,
+    taskId: "mn-c0011iii-w13-build-a-fitness-plan-for-engine-duties",
+    taskTitle: "Build Your Fitness Plan For Engine-Room Duties",
+    scenario: "As an engine cadet you must build a personal fitness plan matched to the physical demands of engine-room work. You must combine your cardiorespiratory endurance, functional strength and a self-assessment of your capacity into a plan that keeps you fit for the space.",
+    instructions: [
+      "Run the functional self-assessment and interpret your capacity for engine-room work.",
+      "Set cardiorespiratory endurance targets for the demands of engine duties.",
+      "Build the functional-strength component for the physical tasks of the machinery space.",
+      "Present your personal fitness plan and its rationale in standard maritime English."
+    ],
+    deliverable: "A personal fitness plan with the self-assessment result, endurance targets and strength component.",
+    assessmentCriteria: [
+      "The functional self-assessment is correctly run and interpreted.",
+      "Endurance targets match the demands of engine duties.",
+      "The strength component fits the machinery-space tasks.",
+      "The plan is presented in clear, correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Ergonomía del trabajo de máquinas",
+    topic: "Rutina integrada de ergonomía: posturas de mantenimiento, flexibilidad para espacios confinados y micro-pausas",
+    week: 14,
+    taskId: "mn-c0011iii-w14-design-an-ergonomics-routine",
+    taskTitle: "Design An Ergonomics Routine For Awkward Engine Spaces",
+    scenario: "Maintenance in confined engine spaces puts the body under postural strain. You must design an ergonomics routine that protects posture during maintenance work, builds the flexibility needed for awkward spaces and schedules micro-pauses to prevent injury.",
+    instructions: [
+      "Identify the high-risk postures of maintenance work in confined spaces and vertical ladders.",
+      "Build the joint and muscle flexibility work needed to move safely in awkward spaces.",
+      "Schedule micro-pauses and posture resets into a typical maintenance task.",
+      "Present the ergonomics routine and its purpose in standard maritime English."
+    ],
+    deliverable: "An ergonomics routine covering high-risk postures, flexibility work and scheduled micro-pauses.",
+    assessmentCriteria: [
+      "High-risk maintenance postures are correctly identified.",
+      "The flexibility work fits movement in confined spaces.",
+      "Micro-pauses are sensibly scheduled into the task.",
+      "The routine is presented in clear, correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Percepción y coordinación motriz",
+    topic: "Entrenamiento integrado de seguridad de movimiento: equilibrio y lateralidad en un buque que cabecea con coordinación para tareas precisas",
+    week: 15,
+    taskId: "mn-c0011iii-w15-train-safe-movement-onboard",
+    taskTitle: "Train Safe Movement For A Rolling Engine Room",
+    scenario: "Moving safely and working precisely in a rolling ship is a survival skill for an engineer. You must build a training set that develops balance and laterality for a pitching ship and links coordination to precise engine tasks like valve and tool work.",
+    instructions: [
+      "Build the balance and laterality drills for moving safely on a rolling, pitching ship.",
+      "Link motor coordination to precise engine tasks such as valve, gauge and tool handling.",
+      "Combine both into a routine that trains safe movement and precise work together.",
+      "Present the movement-safety training set and its transfer to engine work in standard maritime English."
+    ],
+    deliverable: "A movement-safety training set combining balance/laterality drills with precise-task coordination.",
+    assessmentCriteria: [
+      "The balance and laterality drills suit a rolling ship.",
+      "Coordination is correctly linked to precise engine tasks.",
+      "The combined routine trains movement and precision together.",
+      "The training set is presented in clear, correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Natación",
+    topic: "Respuesta integrada de supervivencia en el agua: flotación, nado libre, nado en grupo y sobrevivencia",
+    week: 16,
+    taskId: "mn-c0011iii-w16-demonstrate-water-survival",
+    taskTitle: "Demonstrate Water Survival And Group Swimming",
+    scenario: "In an abandon-ship situation an engineer must survive in the water and stay with the group. You must demonstrate the survival response: keeping afloat, free swimming to a survival craft and swimming as a group to improve everyone's chances.",
+    instructions: [
+      "Demonstrate flotation and survival techniques to conserve energy in the water.",
+      "Demonstrate free swimming to reach a survival craft or safe point.",
+      "Demonstrate group-water swimming that keeps the group together and supports weaker swimmers.",
+      "Report the water-survival actions and their purpose in standard maritime English."
+    ],
+    deliverable: "A water-survival demonstration record covering flotation, free swimming and group-water skills.",
+    assessmentCriteria: [
+      "Flotation and survival techniques conserve energy correctly.",
+      "Free swimming reaches the target effectively.",
+      "Group-water swimming keeps the group together and supported.",
+      "The actions are reported in clear, correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Deportes de conjunto y cohesión de equipo",
+    topic: "Integración de cohesión de la cuadrilla: el deporte de equipo, la nutrición e hidratación y la concentración para la seguridad de la guardia",
+    week: 17,
+    taskId: "mn-c0011iii-w17-build-engine-crew-readiness",
+    taskTitle: "Build The Engine Crew's Team Readiness",
+    scenario: "The engine watch team performs best when it is fit, fuelled and focused together. You must build a crew-readiness plan that uses team sport to build cohesion, sets fuelling and hydration for hot engine-room work and links concentration to watch safety.",
+    instructions: [
+      "Design the team-sport activity that builds cohesion and transfers to the watch and maintenance crew.",
+      "Set the fuelling and hydration guidance for working in the hot machinery space.",
+      "Link concentration training to engine-watch safety and error prevention.",
+      "Present the crew-readiness plan and its safety benefit in standard maritime English."
+    ],
+    deliverable: "A crew-readiness plan combining team-sport cohesion, fuelling/hydration and concentration for watch safety.",
+    assessmentCriteria: [
+      "The team-sport activity builds cohesion that transfers to the crew.",
+      "Fuelling and hydration suit hot engine-room work.",
+      "Concentration is correctly linked to watch safety.",
+      "The plan is presented in clear, correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0011",
+    subjectName: "Educación Física III",
+    subjectId: "mn-s3-educacion-fisica-iii",
+    unit: "Autoevaluación funcional y plan personal",
+    topic: "Integración de fin de semestre: expediente de aptitud para el trabajo de máquinas, de la autoevaluación al plan de mejora",
+    week: 18,
+    taskId: "mn-c0011iii-w18-brief-fitness-readiness",
+    taskTitle: "Deliver Your Fitness-For-Duty Readiness Report",
+    scenario: "At the end of the semester you must report your fitness for engine-room duty. You must pull the semester together: the self-assessment result, your endurance, strength, flexibility and movement-safety, and a plan to close any gap before sea service.",
+    instructions: [
+      "Summarise your functional self-assessment and current capacity for engine-room work.",
+      "State your endurance, strength, flexibility and movement-safety standing against the demands of the space.",
+      "Set an improvement plan to close any gap before sea service.",
+      "Deliver the fitness-for-duty readiness report in standard maritime English."
+    ],
+    deliverable: "A fitness-for-duty readiness report with the self-assessment, current standing and an improvement plan.",
+    assessmentCriteria: [
+      "The self-assessment and capacity summary are accurate.",
+      "Endurance, strength, flexibility and movement-safety are correctly stated.",
+      "The improvement plan sensibly closes the identified gap.",
+      "The report is delivered in clear, correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -3136,6 +4528,180 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Mando y organización del sistema contra incendios",
+    topic: "Mando integrado de un incendio de máquinas: muster list, cadena de mando, formación de cuadrillas y rol del control de máquinas",
+    week: 13,
+    taskId: "mn-c0038-w13-command-an-engine-room-fire-response",
+    taskTitle: "Command The Response To An Engine-Room Fire",
+    scenario: "A fire breaks out in the machinery space. As the engineer at the control station you must command the response: muster and assign the fire-fighting teams by the muster list, run the chain of command, and coordinate the engine-control room's role in the emergency.",
+    instructions: [
+      "Muster the crew and assign the fire-fighting teams following the muster list.",
+      "Run the chain of command and set the engine-control room's role in the response.",
+      "Direct the first attack and boundary cooling while keeping the master informed.",
+      "Report the fire situation, actions and resources to the bridge in standard emergency English."
+    ],
+    deliverable: "A fire-command log covering team assignment, chain of command and the control-room coordination.",
+    assessmentCriteria: [
+      "Teams are correctly mustered and assigned by the muster list.",
+      "The chain of command and control-room role are correctly run.",
+      "The first attack and boundary cooling are correctly directed.",
+      "The situation report is delivered in clear, correct emergency English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Control de la Operaciones de Lucha Contra Incendio a bordo del Buque",
+    topic: "Ataque integrado a un incendio de máquinas: control de combustible y sistemas eléctricos, línea principal contra incendios y guardia de reignición",
+    week: 14,
+    taskId: "mn-c0038-w14-mount-an-integrated-fire-attack",
+    taskTitle: "Mount An Integrated Attack On An Engine-Room Fire",
+    scenario: "The engine-room fire is established and must be fought directly. You must isolate the fuel and electrical systems feeding it, bring the fire main into action, mount the integrated attack and set a reflash watch once it is knocked down.",
+    instructions: [
+      "Isolate the fuel supply and electrical systems feeding the fire.",
+      "Bring the fire main, hydrants and hoses into action in the machinery space.",
+      "Mount the integrated attack on the seat of the fire and post a reflash watch once knocked down.",
+      "Report the attack progress and the reflash watch to the master in standard emergency English."
+    ],
+    deliverable: "An integrated fire-attack record covering fuel/electrical isolation, fire main in action and the reflash watch.",
+    assessmentCriteria: [
+      "Fuel and electrical systems are correctly isolated.",
+      "The fire main is correctly brought into action.",
+      "The integrated attack and reflash watch are correctly conducted.",
+      "The progress report is delivered in clear, correct emergency English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Equipo de respiración autónoma y búsqueda en el espacio de máquinas",
+    topic: "Búsqueda integrada con SCBA: disciplina de aire con el agravante del calor, selección de extintores portátiles por clase y detección",
+    week: 15,
+    taskId: "mn-c0038-w15-search-the-machinery-space-with-scba",
+    taskTitle: "Search The Machinery Space With SCBA",
+    scenario: "A search of the machinery space is needed for a missing crew member while pockets of fire remain. You must run the SCBA search with strict air discipline in the heat, select the right portable extinguishers by fire class for the pockets, and use detection to guide the team.",
+    instructions: [
+      "Run the SCBA search with strict air discipline, allowing for the added heat of the space.",
+      "Match and use portable extinguishers to the fire class of the pockets encountered.",
+      "Use the detection equipment to guide the search pattern and locate the casualty.",
+      "Report the search progress, air status and findings to the control station in standard emergency English."
+    ],
+    deliverable: "An SCBA search record covering air discipline, extinguisher selection and the detection-guided search.",
+    assessmentCriteria: [
+      "Air discipline is correctly managed for the hot space.",
+      "Portable extinguishers are correctly matched to fire class.",
+      "Detection correctly guides the search pattern.",
+      "The search report is delivered in clear, correct emergency English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Sistemas fijos de extinción",
+    topic: "Respuesta integrada con CO2: protocolo de inundación total, empleo del agua y su efecto sobre la estabilidad del buque",
+    week: 16,
+    taskId: "mn-c0038-w16-execute-co2-total-flooding",
+    taskTitle: "Execute The CO2 Total-Flooding Decision",
+    scenario: "The engine-room fire cannot be held by boundary attack and total-flooding CO2 must be considered. You must run the CO2 total-flooding safety protocol, account for the firefighting water already used and its effect on stability, and make the flood decision safely.",
+    instructions: [
+      "Confirm the space is evacuated and account for all personnel before considering release.",
+      "Run the CO2 total-flooding safety protocol and the steps the engine team must execute (close-downs, seals).",
+      "Assess the firefighting water on board and its effect on stability, and pump out free water as needed.",
+      "Report the evacuation, the flood decision and the stability status to the master in standard emergency English."
+    ],
+    deliverable: "A CO2 total-flooding decision record covering evacuation, the release protocol and the stability assessment.",
+    assessmentCriteria: [
+      "Evacuation and personnel accounting are correct before release.",
+      "The CO2 total-flooding protocol and close-downs are correctly executed.",
+      "The firefighting-water stability effect is correctly assessed and managed.",
+      "The decision report is delivered in clear, correct emergency English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Inspeccionar los servicios de los sistemas y equipos de detección y extinción de incendios",
+    topic: "Auditoría integrada del sistema contra incendios: detección, línea principal y bombas, equipo portátil y sistemas fijos",
+    week: 17,
+    taskId: "mn-c0038-w17-audit-the-fire-fighting-systems",
+    taskTitle: "Audit The Engine-Room Fire-Fighting Systems",
+    scenario: "Before sailing, the engine-room fire-fighting systems must be audited for readiness. You must inspect the detection equipment, the fire main, hydrants, hoses and pumps, the portable extinguishers by class and the fixed CO2 system, and certify the whole set ready.",
+    instructions: [
+      "Inspect the fire detection equipment and confirm it is in service.",
+      "Inspect the fire main, hydrants, hoses, nozzles and pumps for readiness.",
+      "Verify the portable extinguishers by fire class and the fixed CO2 system are ready.",
+      "Report the fire-fighting readiness audit to the chief engineer in standard engine-room English."
+    ],
+    deliverable: "A fire-fighting systems audit certifying detection, fire main, portable and fixed systems ready.",
+    assessmentCriteria: [
+      "The detection equipment inspection is complete and correct.",
+      "The fire main, hydrants, hoses and pumps are correctly verified.",
+      "Portable and fixed systems are correctly verified by class and function.",
+      "The readiness audit is reported in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0038",
+    subjectName: "Técnicas Avanzadas de Lucha Contra Incendio",
+    subjectId: "mn-s3-tecnicas-avanzadas-lucha-contra-incendio",
+    unit: "Control de la Operaciones de Lucha Contra Incendio a bordo del Buque",
+    topic: "Integración de fin de semestre: cierre de un incendio de máquinas, del traspaso a los bomberos en tierra al reporte e investigación",
+    week: 18,
+    taskId: "mn-c0038-w18-hand-over-and-report-the-fire",
+    taskTitle: "Hand Over The Fire To The Shore Brigade And Report It",
+    scenario: "The vessel is alongside in port and the engine-room fire is being closed out. You must coordinate with the shore fire brigade, hand over the scene, and complete the fire report and investigation pulling the whole response together.",
+    instructions: [
+      "Coordinate with the shore fire brigade and hand over the scene, hazards and actions taken.",
+      "Confirm the fire is out, the reflash watch stood down and the space made safe.",
+      "Complete the fire report and initial investigation with cause, response and lessons.",
+      "Deliver the shore-brigade handover and fire report in standard engine-room English."
+    ],
+    deliverable: "A shore-brigade handover and fire report covering the scene handover, make-safe and the investigation.",
+    assessmentCriteria: [
+      "The shore-brigade handover is complete and clear on hazards and actions.",
+      "The out/reflash/make-safe confirmation is thorough.",
+      "The fire report and investigation are accurate and useful.",
+      "The handover and report are delivered in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
     subjectCode: "C0101",
     subjectName: "Redacción Avanzada",
     subjectId: "mn-s3-redaccion-avanzada",
@@ -3478,6 +5044,180 @@ export const mnSemesterIiiTasks: AcademicMissionTask[] = [
       "The explanation of matching register to the reader is sound, in correct engine-room English."
     ],
     xp: 25,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "El reporte formal de falla",
+    topic: "Redacción integrada del reporte de falla: organización lógica, jerarquización de ideas y hecho vs opinión con valor probatorio",
+    week: 13,
+    taskId: "mn-c0101-w13-write-a-full-machinery-fault-report",
+    taskTitle: "Write The Full Machinery Fault Report",
+    scenario: "A main-engine auxiliary has failed and a formal fault report is required for the record and any claim. You must write an objective report that organises the events logically, prioritises the information and keeps fact clearly separated from opinion so it holds evidential value.",
+    instructions: [
+      "Organise the fault events into a logical order and prioritise the information by importance.",
+      "Write the report separating fact from opinion and noting any near-miss for evidential value.",
+      "Check the paragraphs for unity between the main idea and the supporting detail.",
+      "Deliver the objective machinery fault report in clear, correct engine-room English."
+    ],
+    deliverable: "An objective machinery fault report with logically ordered, prioritised, fact-based content.",
+    assessmentCriteria: [
+      "Events are logically ordered and prioritised by importance.",
+      "Fact and opinion are clearly separated for evidential value.",
+      "Paragraphs are unified around their main ideas.",
+      "The report is written in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Correspondencia técnica",
+    topic: "Correspondencia técnica integrada: reporte al superintendente y requisición de repuestos con claridad y concisión",
+    week: 14,
+    taskId: "mn-c0101-w14-write-report-and-requisition",
+    taskTitle: "Write The Superintendent Report And Spares Requisition",
+    scenario: "Following the fault, you must correspond with the technical superintendent. You must write the technical report of the failure and a formal spare-parts requisition, keeping the writing clear, concise and free of ambiguity so the parts ordered are exactly right.",
+    instructions: [
+      "Write the technical report to the superintendent, ordered by importance and free of ambiguous phrasing.",
+      "Draft the formal spare-parts requisition with precise part identification and quantities.",
+      "Tighten the wording to remove redundancy and keep both documents concise.",
+      "Deliver the report and requisition in clear, correct engine-room English."
+    ],
+    deliverable: "A technical report to the superintendent plus a precise spare-parts requisition.",
+    assessmentCriteria: [
+      "The report is ordered by importance and free of ambiguity.",
+      "The requisition identifies parts and quantities precisely.",
+      "Redundancy is removed and both documents are concise.",
+      "Both documents are written in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Documentación operativa",
+    topic: "Redacción integrada de órdenes del jefe de máquinas: standing y night orders accionables con umbrales medibles y colocación clara de modificadores",
+    week: 15,
+    taskId: "mn-c0101-w15-write-chief-engineers-orders",
+    taskTitle: "Write The Chief Engineer's Standing And Night Orders",
+    scenario: "As the chief engineer you must write the standing and night orders for the watch. They must be actionable, carry measurable thresholds, and be worded so precisely that modifiers cannot be misread and the watchkeeper knows exactly what to do.",
+    instructions: [
+      "Write the standing and night orders as actionable instructions with measurable thresholds.",
+      "Place modifiers correctly so each order can only be read one way.",
+      "Check each order is unambiguous and tells the watchkeeper exactly what to do and when.",
+      "Deliver the standing and night orders in clear, correct engine-room English."
+    ],
+    deliverable: "A set of actionable standing and night orders with measurable thresholds and unambiguous wording.",
+    assessmentCriteria: [
+      "Orders are actionable and carry measurable thresholds.",
+      "Modifiers are placed so each order reads one way only.",
+      "Each order unambiguously states the action and timing.",
+      "The orders are written in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Atributos de los párrafos",
+    topic: "Reescritura integrada de una avería: narración con conectores lógicos, corrección de modificadores mal colocados y eliminación de ambigüedad",
+    week: 16,
+    taskId: "mn-c0101-w16-rewrite-a-breakdown-narrative",
+    taskTitle: "Rewrite A Confusing Breakdown Narrative",
+    scenario: "A breakdown narrative written under pressure is confusing: the sequence jumps, modifiers are misplaced and some sentences are ambiguous. You must rewrite it so the failure sequence is clear, cohesive and cannot be misread before it goes into the record.",
+    instructions: [
+      "Connect the breakdown narrative with logical linkers so the failure sequence flows and coheres.",
+      "Fix the misplaced modifiers so each sentence describes the fault correctly.",
+      "Remove the ambiguous phrasing so the narrative can only be read one way.",
+      "Deliver the rewritten breakdown narrative in clear, correct engine-room English."
+    ],
+    deliverable: "A rewritten breakdown narrative that is cohesive, correctly modified and unambiguous.",
+    assessmentCriteria: [
+      "Logical linkers give the narrative a clear, cohesive sequence.",
+      "Misplaced modifiers are corrected.",
+      "Ambiguity is removed so the narrative reads one way.",
+      "The narrative is written in clear, correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "El informe ejecutivo",
+    topic: "Redacción integrada del informe ejecutivo: resumen primero, hechos por importancia, recomendaciones accionables y registro adecuado al lector",
+    week: 17,
+    taskId: "mn-c0101-w17-write-the-executive-report",
+    taskTitle: "Write The Technical Executive Report On The Incident",
+    scenario: "Management wants an executive report on the machinery incident and its resolution. You must write it summary-first, order the facts by importance, close with actionable recommendations, and pitch the register to a management reader rather than an engineer.",
+    instructions: [
+      "Open with an executive summary, then present the facts ordered by importance.",
+      "Close with clear, actionable recommendations tied to the facts.",
+      "Adapt the vocabulary and register to a management reader, keeping it concise.",
+      "Deliver the technical executive report in clear, correct engine-room English."
+    ],
+    deliverable: "A summary-first technical executive report with prioritised facts and actionable recommendations.",
+    assessmentCriteria: [
+      "The report leads with a summary and orders facts by importance.",
+      "Recommendations are actionable and tied to the facts.",
+      "Vocabulary and register suit the management reader.",
+      "The report is written in clear, correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester III",
+    subjectCode: "C0101",
+    subjectName: "Redacción Avanzada",
+    subjectId: "mn-s3-redaccion-avanzada",
+    unit: "Características básicas de la redacción",
+    topic: "Integración de fin de semestre: expediente documental de una avería, del reporte de falla al informe adaptado a dos lectores",
+    week: 18,
+    taskId: "mn-c0101-w18-compile-the-incident-dossier",
+    taskTitle: "Compile The Incident Documentation Dossier",
+    scenario: "At the end of the semester you must compile the complete documentation dossier for the machinery incident: the fault report, the superintendent correspondence, the chief engineer's orders and the executive report, with one report adapted for two different readers.",
+    instructions: [
+      "Assemble the fault report, correspondence, orders and executive report into one coherent dossier.",
+      "Adapt the key report for two different readers (superintendent and management) with the right register for each.",
+      "Check the whole dossier for logical order, concision and unambiguous wording.",
+      "Deliver the compiled incident documentation dossier in clear, correct engine-room English."
+    ],
+    deliverable: "A complete incident documentation dossier with the report adapted for two different readers.",
+    assessmentCriteria: [
+      "The dossier assembles all documents coherently.",
+      "The key report is correctly adapted in register for each reader.",
+      "The whole dossier is logically ordered, concise and unambiguous.",
+      "The dossier is written in clear, correct engine-room English."
+    ],
+    xp: 30,
     estimatedTime: "45 min",
     difficulty: "Advanced"
   },
