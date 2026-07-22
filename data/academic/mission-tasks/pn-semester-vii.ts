@@ -1396,6 +1396,180 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Ejecución del plan de viaje",
+    topic: "Planeación y ejecución integrada del viaje",
+    week: 13,
+    taskId: "pn-nav745-w13-plan-and-execute-full-passage",
+    taskTitle: "Plan And Execute The Full Passage From Berth To Sea",
+    scenario: "The vessel is to sail from Tampico and proceed seaward through the approaches. As an integrating operation, the captain asks the cadet to build and start executing the full passage plan, bringing together the four stages of passage planning, the ECDIS set-up and the conduct of the ship through the restricted waters of the channel.",
+    instructions: [
+      "Build the passage plan through its four stages — appraisal, planning, execution and monitoring (week 2) — laying the track berth to sea buoy, marking the no-go areas, wheel-over points, clearing bearings and abort points for the Tampico approaches.",
+      "Set up the ECDIS for the passage (week 5): load the route, set the safety contour, safety depth and the alarms, and confirm the sensors so the electronic chart is safe to monitor from before letting go.",
+      "Conduct the ship out through the restricted waters (week 7): monitor the under-keel clearance and squat as speed changes, keep the ship in the deep water, and use the AIS and radar traffic picture to stay clear of inbound traffic on the approaches.",
+      "Report the passage plan and the departure conduct to the bridge team in clear maritime English."
+    ],
+    deliverable: "A departure passage plan for Tampico integrating the four planning stages (week 2), the ECDIS set-up with safety contour, depth and alarms (week 5) and the conduct through restricted waters watching UKC and squat against the AIS/radar traffic picture (week 7), briefed to the bridge team.",
+    assessmentCriteria: [
+      "The four-stage passage plan is complete and correct (track, no-go areas, wheel-over and abort points for the Tampico approaches).",
+      "The ECDIS is set up safely for the passage (route loaded, safety contour and depth set, alarms and sensors confirmed).",
+      "The restricted-water conduct is sound (UKC and squat monitored, deep water kept, AIS/radar traffic used to stay clear).",
+      "The plan and departure are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Plan de arribo y pilotaje",
+    topic: "Gestión del equipo de puente en el pilotaje",
+    week: 14,
+    taskId: "pn-nav745-w14-conduct-bridge-team-pilotage",
+    taskTitle: "Conduct The Bridge Team Through Pilotage And Arrival",
+    scenario: "A pilot is boarding for the inbound passage to Altamira. The captain asks the cadet to run the arrival as a bridge team, integrating bridge resource management, the master-pilot exchange and the navigation of the restricted channel with the pilot on board.",
+    instructions: [
+      "Apply bridge resource management (week 1): assign the roles of the bridge team, brief the challenge-and-response and closed-loop communication, and set the monitoring so the presence of the pilot does not remove the team's overview.",
+      "Conduct the master-pilot exchange (week 3): agree the passage plan, the ship's manoeuvring data, the intended track, the tugs and berthing plan, and confirm any differences with the pilot before entering the channel.",
+      "Navigate the restricted waters with the pilot (week 7): monitor UKC and squat, cross-check the pilot's advice against the plan and the AIS/radar traffic on the Altamira approaches, and be ready to question or intervene.",
+      "Report the pilotage arrival plan and the bridge-team organisation in clear maritime English."
+    ],
+    deliverable: "An arrival pilotage brief integrating bridge resource management roles (week 1), the master-pilot information exchange (week 3) and the monitored conduct of the restricted channel with the pilot (week 7) against the Altamira traffic picture.",
+    assessmentCriteria: [
+      "Bridge resource management is applied (roles assigned, closed-loop communication, team overview kept with the pilot aboard).",
+      "The master-pilot exchange is complete (plan, manoeuvring data, tugs, berthing plan and differences agreed).",
+      "The restricted-water navigation is monitored and cross-checked (UKC/squat, pilot advice against plan and AIS/radar traffic).",
+      "The pilotage arrival is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Responsabilidad del oficial de guardia",
+    topic: "La guardia en visibilidad reducida sobre las aproximaciones",
+    week: 15,
+    taskId: "pn-nav745-w15-watch-in-restricted-visibility-approaches",
+    taskTitle: "Keep The Watch Through Restricted Visibility On The Approaches",
+    scenario: "Fog closes in while the vessel is on the approaches to Tampico with several targets on the traffic picture. The cadet must keep the watch safely, integrating the restricted-visibility procedures, the VTS position reporting and the continuous monitoring of the passage.",
+    instructions: [
+      "Apply the restricted-visibility procedures (week 6): reduce to a safe speed, sound fog signals, exhibit the correct lights, put on extra lookouts, use the radar systematically and inform the master.",
+      "Keep the passage monitoring current (week 12): fix by more than one means against the planned track and read the AIS and radar targets on the approaches to keep the collision-avoidance appraisal up to date, acting in good time under the rules.",
+      "Make the position reports to the VTS (week 9): send the situation reports to the Altamira VTS over the VHF simulator using the correct SMCP format, and comply with the VTS traffic instructions.",
+      "Report the conduct of the restricted-visibility watch and the VTS exchange in clear maritime English."
+    ],
+    deliverable: "A restricted-visibility watch record integrating the low-visibility procedures (week 6), the continuous passage monitoring against the AIS/radar traffic on the approaches (week 12) and the VHF position reports to the Altamira VTS (week 9).",
+    assessmentCriteria: [
+      "The restricted-visibility procedures are correct (safe speed, fog signals, lights, lookouts, radar, master informed).",
+      "The passage monitoring keeps the collision appraisal current (fixes against the plan, AIS/radar traffic, action in good time).",
+      "The VTS position reports are correct (SMCP format on the VHF, VTS instructions complied with).",
+      "The watch and the VTS exchange are reported clearly and in correct maritime/SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Responsabilidad del oficial de guardia",
+    topic: "Respuesta al garreo del ancla en un fondeadero concurrido",
+    week: 16,
+    taskId: "pn-nav745-w16-respond-to-dragging-anchor",
+    taskTitle: "Respond To A Dragging Anchor In A Crowded Anchorage",
+    scenario: "At night, at anchor off Altamira with other vessels close by, the anchor begins to drag. The cadet must detect the drag and respond safely, integrating the anchor watch, the decision to call the master and the low-visibility situational awareness.",
+    instructions: [
+      "Detect the drag from the anchor watch (week 8): compare the position against the swing circle and the transit/clearing bearings, watch the GNSS and radar ranges, and confirm the ship is moving off the charted position.",
+      "Take the immediate actions: warn the engine room for stand-by main engine, warn the forecastle, use the AIS and radar to check the ship's set relative to the surrounding traffic and shoals, and prepare to steam up on the anchor or weigh and re-anchor.",
+      "Call the master under the standing orders (week 4) because the situation is beyond the watch, and if visibility is reduced apply the low-visibility awareness (week 6) to keep clear of the nearby anchored ships.",
+      "Report the dragging-anchor situation and the actions taken to the master in clear maritime English."
+    ],
+    deliverable: "A dragging-anchor response report integrating the anchor-watch detection (week 8), the call to the master under standing orders (week 4) and the traffic/awareness picture of the crowded anchorage, with the immediate deck and engine actions.",
+    assessmentCriteria: [
+      "The drag is detected correctly (position against swing circle and clearing bearings, GNSS/radar confirmation).",
+      "The immediate actions are sound (engine stand-by, forecastle warned, AIS/radar used, ready to steam up or re-anchor).",
+      "The master is called under the standing orders and the surrounding traffic and shoals are kept clear.",
+      "The situation and actions are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Gestión de los recursos del puente",
+    topic: "Auditoría de la guardia de navegación conforme a STCW",
+    week: 17,
+    taskId: "pn-nav745-w17-audit-watchkeeping-against-stcw",
+    taskTitle: "Audit The Bridge Watchkeeping Against STCW And Standing Orders",
+    scenario: "Before a scrutiny of the bridge, the captain asks the cadet to audit how the semester's watchkeeping is being conducted against the STCW watchkeeping principles and the company standing orders, drawing the whole navigation subject together.",
+    instructions: [
+      "Audit the organisation of the watch (weeks 1 and 11): bridge resource management roles, the proper handover of the navigation watch, and the sole-lookout and manning arrangements against the STCW principles.",
+      "Audit the conduct of the watch (weeks 4, 6 and 12): the conditions for calling the master, the restricted-visibility procedures and the continuous monitoring of the passage against the plan and the AIS/radar traffic on the approaches.",
+      "Audit the reporting (weeks 9 and 10): the VTS position reports over the VHF and the AMVER ship reports, checking the formats and the timeliness against the requirements.",
+      "Report the audit findings and the corrective points in clear maritime English."
+    ],
+    deliverable: "A watchkeeping compliance audit integrating the watch organisation and handover (weeks 1, 11), the conduct of the watch (weeks 4, 6, 12) and the VTS/AMVER reporting (weeks 9, 10) against STCW and the standing orders, with corrective points.",
+    assessmentCriteria: [
+      "The watch-organisation audit is correct (BRM roles, handover, manning against STCW).",
+      "The conduct-of-watch audit is correct (calling the master, restricted visibility, passage monitoring with AIS/radar).",
+      "The reporting audit is correct (VTS and AMVER formats and timeliness).",
+      "The findings and corrective points are reported clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "NAV745",
+    subjectName: "Navegación V",
+    subjectId: "pn-s7-navegacion-v",
+    unit: "Responsabilidad del oficial de guardia",
+    topic: "Entrega de la guardia de navegación al término del viaje",
+    week: 18,
+    taskId: "pn-nav745-w18-deliver-bridge-watch-handover-brief",
+    taskTitle: "Deliver The Bridge Watch Handover Brief For The Full Voyage",
+    scenario: "At the end of the voyage the cadet must hand over the navigation watch and brief the relieving officer, pulling the whole semester of navigation together into one professional handover.",
+    instructions: [
+      "Hand over the navigation watch properly (week 11): the position, the track and the passage monitoring state, the traffic on the AIS and radar, the ECDIS settings and any standing orders in force.",
+      "Cover the status of the operation: the pilotage or VTS arrangements (weeks 3, 9), the anchor or restricted-water situation (weeks 7, 8) and any conditions for calling the master (week 4) that the relief must know.",
+      "Confirm the relieving officer has accepted the watch, is fit and has the full picture before you leave the bridge, applying the bridge resource management of the semester (week 1).",
+      "Deliver the full handover brief to the relieving officer in clear maritime English."
+    ],
+    deliverable: "A full navigation-watch handover brief integrating the handover procedure (week 11) with the pilotage/VTS, anchoring/restricted-water and calling-the-master status of the semester, confirmed and accepted by the relief.",
+    assessmentCriteria: [
+      "The watch handover is complete (position, track, monitoring state, traffic, ECDIS, standing orders).",
+      "The operational status is covered (pilotage/VTS, anchor/restricted water, calling conditions).",
+      "The handover is properly confirmed and accepted by the relieving officer.",
+      "The brief is delivered clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
     subjectCode: "TEB749",
     subjectName: "Teoría del buque II",
     subjectId: "pn-s7-teoria-buque-ii",
@@ -1623,6 +1797,180 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Cálculo de estabilidad",
+    topic: "Condición de estabilidad integrada para el zarpe",
+    week: 13,
+    taskId: "pn-teb749-w13-prepare-departure-stability-condition",
+    taskTitle: "Prepare The Full Departure Stability Condition",
+    scenario: "The vessel has completed loading and must sail. The officer asks the cadet to work up the full departure stability condition, integrating the vertical weight shift, the free-surface correction, the trim and the reading of the GZ curve to prove the ship is safe to sail.",
+    instructions: [
+      "Work up the KG and GM for the loaded condition (week 5): sum the weights and moments to find the final KG, then GM = KM - KG, checking the effect of where the weights were stowed vertically.",
+      "Apply the free-surface correction (week 8): add the free-surface moments of the slack tanks to find the fluid GM, so the stability figure used is the corrected one.",
+      "Find the trim and read the GZ curve (weeks 6 and 7): work the longitudinal shift for the final trim, and read the GZ curve for the range of positive stability and the maximum righting arm.",
+      "Report the departure stability condition and its adequacy in clear maritime English."
+    ],
+    deliverable: "A departure stability condition integrating the KG/GM calculation (week 5), the free-surface correction for the fluid GM (week 8), the final trim (week 7) and the GZ curve reading (week 6) to prove the ship is safe to sail.",
+    assessmentCriteria: [
+      "The KG and GM are calculated correctly (weights and moments, GM = KM - KG, effect of vertical stow).",
+      "The free-surface correction is applied correctly (slack-tank moments, fluid GM used).",
+      "The trim and GZ curve are read correctly (final trim, range and maximum righting arm).",
+      "The departure condition and its adequacy are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Traslación de pesos",
+    topic: "Escora y asiento por la carga de un peso pesado",
+    week: 14,
+    taskId: "pn-teb749-w14-assess-heel-trim-heavy-lift",
+    taskTitle: "Assess Heel And Trim For A Heavy Lift Loadout",
+    scenario: "A heavy lift is to be loaded off-centre and forward of amidships. The officer asks the cadet to assess the heel and the change of trim it will cause, integrating the transverse and longitudinal weight shifts and the draught allowance for the dock water.",
+    instructions: [
+      "Calculate the heel from the transverse shift (week 2): find the shift of G off the centreline and the angle of heel from the transverse moment and the GM, checking the heel stays within safe limits during the lift.",
+      "Calculate the change of trim (week 7): find the longitudinal shift of G, the trimming moment and the change of trim from the MCTC, and the new forward and after draughts.",
+      "Apply the water-density allowance (week 1): use the fresh-water or dock-water allowance to correct the draughts read alongside so the marks are read correctly for the density of the berth.",
+      "Report the heel, trim and draught assessment for the heavy lift in clear maritime English."
+    ],
+    deliverable: "A heavy-lift loadout assessment integrating the heel from the transverse shift (week 2), the change of trim from the longitudinal shift (week 7) and the dock-water draught allowance (week 1), with the resulting draughts.",
+    assessmentCriteria: [
+      "The heel is calculated correctly (transverse shift of G, moment and GM, safe limits).",
+      "The change of trim is calculated correctly (longitudinal shift, trimming moment, MCTC, new draughts).",
+      "The dock-water allowance is applied correctly to the draughts.",
+      "The assessment is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Cálculo del desplazamiento por inspección de calados",
+    topic: "Levantamiento de calados al término de la carga",
+    week: 15,
+    taskId: "pn-teb749-w15-conduct-full-draught-survey",
+    taskTitle: "Conduct The Full Draught Survey On Completion Of Loading",
+    scenario: "On completion of loading a bulk cargo the cadet must determine the cargo loaded by draught survey, integrating the draught reading, the water-density allowance and the tonnage of the vessel.",
+    instructions: [
+      "Read and correct the draughts (week 12): read the six draught marks, correct for the position of the marks to the perpendiculars and find the mean of means to get the true mean draught.",
+      "Apply the density correction (week 1): measure the dock-water density and apply the fresh-water/dock-water allowance so the displacement is taken off the hydrostatics for the actual water.",
+      "Find the cargo loaded and relate to tonnage (weeks 9 and 12): deduct the light and the deductibles from the survey displacement to find the cargo, and relate the result to the ship's gross and net tonnage.",
+      "Report the draught survey result and the cargo figure in clear maritime English."
+    ],
+    deliverable: "A completed draught survey integrating the corrected draught reading and mean of means (week 12), the dock-water density allowance (week 1) and the tonnage relation (week 9) to report the cargo loaded.",
+    assessmentCriteria: [
+      "The draughts are read and corrected correctly (marks to perpendiculars, mean of means, true mean draught).",
+      "The density correction is applied correctly (dock-water density, allowance to the hydrostatics).",
+      "The cargo figure is found correctly (deductibles removed, related to gross/net tonnage).",
+      "The survey result is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Inundación y sus efectos",
+    topic: "Supervivencia tras la inundación de una bodega",
+    week: 16,
+    taskId: "pn-teb749-w16-assess-survival-after-flooding",
+    taskTitle: "Assess Survival After Flooding A Cargo Hold",
+    scenario: "A cargo hold is bilged and flooding at sea. The cadet must assess whether the ship will survive, integrating the effect of flooding and permeability, the free-surface effect and the resulting righting-arm curve.",
+    instructions: [
+      "Assess the flooding (week 11): find the added weight or lost buoyancy for the bilged compartment using its permeability, and the new mean draught and the loss of freeboard.",
+      "Assess the loss of stability (week 8): apply the free-surface effect of the flooded space to find the fall in GM, and whether the ship keeps a positive metacentric height.",
+      "Read the residual stability (week 6): sketch the reduced GZ curve to judge the range of positive stability and the residual righting arm, and decide whether the ship survives the flooding.",
+      "Report the survival assessment and the recommended action in clear maritime English."
+    ],
+    deliverable: "A damage-survival assessment integrating the flooding and permeability calculation (week 11), the free-surface loss of GM (week 8) and the residual GZ curve (week 6), with a survive/no-survive judgement and recommended action.",
+    assessmentCriteria: [
+      "The flooding effect is assessed correctly (permeability, added weight/lost buoyancy, new draught and freeboard).",
+      "The loss of stability is assessed correctly (free-surface fall in GM, positive/negative GM).",
+      "The residual stability is judged correctly (reduced GZ curve, range and righting arm, survival judgement).",
+      "The assessment and action are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Estabilidad a grandes ángulos",
+    topic: "Verificación del cuadernillo de estabilidad frente a los criterios OMI",
+    week: 17,
+    taskId: "pn-teb749-w17-verify-stability-against-imo-criteria",
+    taskTitle: "Verify The Stability Booklet Against The IMO Criteria",
+    scenario: "Before departure the master asks the cadet to verify the loaded condition against the IMO intact stability criteria, integrating the GZ curve, the free-surface correction and the grain stability into one compliance check.",
+    instructions: [
+      "Verify the GZ-curve criteria (week 6): check the area under the curve to 30 and 40 degrees, the righting arm at 30 degrees, the angle of maximum GZ and the initial GM against the IMO intact stability criteria.",
+      "Verify the corrected GM (week 8): confirm the free-surface correction has been applied so the GM checked against the criteria is the fluid GM.",
+      "Verify the grain condition if carried (week 4): check the heeling due to grain shift against the allowable heeling arm so the grain stability criterion is met.",
+      "Report the compliance verification and any shortfall in clear maritime English."
+    ],
+    deliverable: "A stability compliance verification integrating the GZ-curve criteria (week 6), the fluid-GM/free-surface check (week 8) and the grain stability criterion (week 4) against the IMO intact stability requirements.",
+    assessmentCriteria: [
+      "The GZ-curve criteria are verified correctly (areas, GZ at 30 degrees, angle of max GZ, initial GM).",
+      "The corrected GM is verified (free-surface correction applied, fluid GM checked).",
+      "The grain stability criterion is verified where applicable (heeling vs allowable arm).",
+      "The verification and any shortfall are reported clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "TEB749",
+    subjectName: "Teoría del buque II",
+    subjectId: "pn-s7-teoria-buque-ii",
+    unit: "Cálculo de estabilidad",
+    topic: "Informe de estabilidad y carga para el Capitán",
+    week: 18,
+    taskId: "pn-teb749-w18-deliver-departure-stability-brief",
+    taskTitle: "Deliver The Departure Stability Brief To The Master",
+    scenario: "At completion the cadet must brief the master on the ship's stability and loading for departure, drawing the whole subject together into one professional statement of condition.",
+    instructions: [
+      "State the loaded condition: the displacement from the draught survey (week 12), the KG, the corrected GM and the trim (weeks 5, 7, 8) for departure.",
+      "State the compliance: that the condition meets the IMO intact stability criteria from the GZ curve (weeks 6, 17) and that any grain or slack-tank effects have been accounted for.",
+      "State the survivability margin: the freeboard and the residual stability against flooding of a compartment (week 11), and any operational limits for the voyage.",
+      "Deliver the stability and loading brief to the master in clear maritime English."
+    ],
+    deliverable: "A departure stability and loading brief for the master integrating the loaded condition (weeks 5, 7, 8, 12), the IMO criteria compliance (weeks 6, 17) and the damage-survivability margin (week 11).",
+    assessmentCriteria: [
+      "The loaded condition is stated correctly (displacement, KG, corrected GM, trim).",
+      "The compliance is stated correctly (IMO intact criteria met, grain/slack-tank effects accounted).",
+      "The survivability margin is stated correctly (freeboard, residual stability, operational limits).",
+      "The brief is delivered clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -1860,6 +2208,180 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Planificación de la estiba",
+    topic: "Plan de estiba integrando factor de estiba, peso muerto y aseguramiento",
+    week: 13,
+    taskId: "pn-cye748-w13-draft-full-stowage-plan",
+    taskTitle: "Draft The Full Stowage Plan For A General Cargo",
+    scenario: "A general cargo is to be loaded at Tampico for several discharge ports. The cadet must draft the full stowage plan, integrating the hold inspection, the stowage factor and broken stowage, the maximum cargo calculation and the securing for sea.",
+    instructions: [
+      "Confirm the holds are ready (week 1): inspect and prepare the cargo spaces, check they are clean, dry and fit for the cargo, and record the hold condition before loading.",
+      "Plan the stowage (week 5): use the stowage factor and the broken stowage to fit the parcels to the available space, planning the discharge order so ports are not overstowed.",
+      "Calculate and verify the cargo (weeks 8 and 2): check the total against the maximum cargo the ship can load on her marks, distribute it for an even trim, and specify the securing and lashing for sea.",
+      "Report the stowage plan to the chief officer in clear maritime English."
+    ],
+    deliverable: "A full stowage plan integrating the hold inspection (week 1), the stowage-factor/broken-stowage layout (week 5), the maximum-cargo and distribution calculation (week 8) and the securing for sea (week 2), for a multi-port general cargo.",
+    assessmentCriteria: [
+      "The hold readiness is confirmed and recorded (clean, dry, fit for cargo).",
+      "The stowage is planned correctly (stowage factor, broken stowage, discharge order, no overstow).",
+      "The cargo is verified and distributed correctly (max cargo on the marks, even trim, securing specified).",
+      "The stowage plan is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Cargas peligrosas",
+    topic: "Estiba y segregación de mercancías peligrosas (IMDG)",
+    week: 14,
+    taskId: "pn-cye748-w14-plan-dangerous-goods-loading",
+    taskTitle: "Plan The Loading Of A Dangerous Goods Consignment",
+    scenario: "A consignment of packaged dangerous goods and some deck-stowed units is booked. The cadet must plan the loading under the IMDG Code, integrating the classification, the segregation and the deck cargo stowage.",
+    instructions: [
+      "Classify the goods (week 4): identify the IMDG class, UN number, packing group and the special provisions from the dangerous goods declaration for each parcel.",
+      "Plan the segregation (week 7): apply the IMDG segregation table to keep incompatible classes apart 'away from', 'separated from' or 'separated by a complete compartment', and away from accommodation and heat sources.",
+      "Stow the deck units safely (week 10): position the deck-stowed dangerous goods for access and ventilation, secure them for sea, and mark the placards and the stowage on the plan.",
+      "Report the dangerous goods stowage and segregation plan in clear maritime English."
+    ],
+    deliverable: "A dangerous goods loading plan integrating the IMDG classification (week 4), the segregation table application (week 7) and the deck stowage and securing (week 10), marked on the stowage plan.",
+    assessmentCriteria: [
+      "The classification is correct (class, UN number, packing group, special provisions).",
+      "The segregation is correct (IMDG table applied, incompatibles apart, clear of accommodation/heat).",
+      "The deck stowage is safe (access, ventilation, securing, placards on the plan).",
+      "The plan is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Cargas a granel no vegetal",
+    topic: "Carga y cuidado de un granel sólido",
+    week: 15,
+    taskId: "pn-cye748-w15-load-and-care-for-bulk-cargo",
+    taskTitle: "Load And Care For A Bulk Cargo Safely",
+    scenario: "A solid bulk cargo that may liquefy is to be loaded and carried. The cadet must load and care for it safely, integrating the moisture and liquefaction control, the grain trimming, the ventilation and the tank-top strength.",
+    instructions: [
+      "Guard against liquefaction (week 11): check the cargo's transportable moisture limit and the certificate under the IMSBC Code, and refuse or manage cargo above the limit.",
+      "Trim and distribute the cargo (weeks 3 and 12): trim the cargo level to reduce the shift in slack holds and verify the tank-top strength is not exceeded by the pile load.",
+      "Plan the care on passage (week 6): decide the ventilation regime from the dew points to control cargo and ship sweat, and set the monitoring of the cargo condition on passage.",
+      "Report the bulk loading and care plan in clear maritime English."
+    ],
+    deliverable: "A bulk cargo loading and care plan integrating the liquefaction/moisture control under the IMSBC Code (week 11), the trimming and tank-top strength (weeks 3, 12) and the ventilation regime (week 6).",
+    assessmentCriteria: [
+      "The liquefaction risk is controlled (TML and certificate checked, over-limit cargo managed).",
+      "The cargo is trimmed and distributed safely (level trim, tank-top strength verified).",
+      "The care on passage is planned (ventilation from dew points, monitoring set).",
+      "The plan is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Aseguramiento de carga (trincado)",
+    topic: "Respuesta a un corrimiento de carga en la mar",
+    week: 16,
+    taskId: "pn-cye748-w16-respond-to-cargo-shift-at-sea",
+    taskTitle: "Respond To Suspected Cargo Liquefaction At Sea",
+    scenario: "In heavy weather a bulk carrier develops a list that will not correct, suggesting the cargo has begun to shift or liquefy. The cadet must respond, integrating the liquefaction knowledge, the securing and the ventilation and monitoring.",
+    instructions: [
+      "Diagnose the problem (week 11): recognise the signs of liquefaction or a wet base — a list that returns after correcting, cargo behaving like a fluid — and stop making it worse.",
+      "Take the immediate action (week 2): reduce the working of the ship by altering course and speed to ease the motion, check and tighten the securing of any shifting cargo, and avoid actions that free-surface the cargo.",
+      "Monitor and manage (week 6): monitor the list, the cargo condition and any water in the holds, ventilate or close down as appropriate, and prepare the information to call the master and the company.",
+      "Report the cargo-shift situation and the actions taken in clear maritime English."
+    ],
+    deliverable: "A cargo-shift response report integrating the diagnosis of liquefaction (week 11), the immediate ship-handling and securing actions (week 2) and the monitoring and management (week 6), for the master and company.",
+    assessmentCriteria: [
+      "The problem is diagnosed correctly (signs of liquefaction/shift recognised).",
+      "The immediate actions are sound (ease the motion, secure shifting cargo, avoid free-surfacing).",
+      "The monitoring and management are correct (list, cargo, holds, ventilation, master/company informed).",
+      "The situation and actions are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Cálculo y planos de carga",
+    topic: "Verificación documental y de aseguramiento para el zarpe",
+    week: 17,
+    taskId: "pn-cye748-w17-verify-cargo-documentation-and-securing",
+    taskTitle: "Verify The Cargo Documentation And Securing For Departure",
+    scenario: "Before sailing the chief officer asks the cadet to verify that the cargo is documented and secured in accordance with the codes, integrating the dangerous goods, the bulk and the securing requirements into one compliance check.",
+    instructions: [
+      "Verify the cargo documentation (weeks 4 and 11): the IMDG dangerous goods declarations and segregation, and the IMSBC certificates and moisture declarations for the bulk cargo.",
+      "Verify the securing (weeks 2 and 12): that the lashing and securing is in accordance with the Cargo Securing Manual and that no tank-top or deck loading limit is exceeded.",
+      "Verify the loading condition (week 8): that the cargo loaded is within the deadweight and the marks, and that the stowage plan matches what is on board.",
+      "Report the cargo compliance verification and any shortfall in clear maritime English."
+    ],
+    deliverable: "A cargo compliance verification for departure integrating the IMDG/IMSBC documentation (weeks 4, 11), the securing against the Cargo Securing Manual and loading limits (weeks 2, 12) and the deadweight/marks check (week 8).",
+    assessmentCriteria: [
+      "The documentation is verified (IMDG declarations and segregation, IMSBC certificates and moisture).",
+      "The securing is verified (Cargo Securing Manual, tank-top and deck limits).",
+      "The loading condition is verified (within deadweight and marks, plan matches cargo aboard).",
+      "The verification and any shortfall are reported clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "CYE748",
+    subjectName: "Carga y Estiba I",
+    subjectId: "pn-s7-carga-estiba-i",
+    unit: "Planificación de la estiba",
+    topic: "Entrega de la operación de carga al oficial de guardia",
+    week: 18,
+    taskId: "pn-cye748-w18-deliver-cargo-operations-handover",
+    taskTitle: "Deliver The Cargo Operations Handover Brief",
+    scenario: "At the end of the cargo operation the cadet must hand over to the relieving officer, pulling the whole cargo and stowage subject together into one professional handover.",
+    instructions: [
+      "State the stowage and loading status: the stowage plan, the discharge order and the cargo loaded against the plan (weeks 5, 8, 9), and the trim and distribution.",
+      "State the special cargo status: the dangerous goods segregation and the bulk cargo condition and ventilation (weeks 4, 7, 6, 11) that the relief must watch.",
+      "State the securing and the monitoring required on passage (weeks 2, 12), and any outstanding items for the next watch.",
+      "Deliver the cargo operations handover brief in clear maritime English."
+    ],
+    deliverable: "A cargo operations handover brief integrating the stowage and loading status (weeks 5, 8, 9), the special-cargo status (weeks 4, 6, 7, 11) and the securing and passage monitoring (weeks 2, 12).",
+    assessmentCriteria: [
+      "The stowage and loading status is complete (plan, discharge order, cargo loaded, trim).",
+      "The special-cargo status is covered (dangerous goods segregation, bulk condition and ventilation).",
+      "The securing and passage monitoring are stated with any outstanding items.",
+      "The handover is delivered clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
     subjectCode: "OMI750",
     subjectName: "Convenios Organización Marítima Internacional I",
     subjectId: "pn-s7-convenios-omi-i",
@@ -2087,6 +2609,180 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio SOLAS",
+    topic: "Preparación integrada para la inspección del Estado rector del puerto",
+    week: 13,
+    taskId: "pn-omi750-w13-prepare-for-port-state-control",
+    taskTitle: "Prepare The Vessel For A Port State Control Inspection",
+    scenario: "A port state control inspection is expected on arrival. The cadet must prepare the vessel, integrating the SOLAS, MARPOL and Load Line requirements into one readiness check of certificates and conditions.",
+    instructions: [
+      "Prepare the SOLAS items (week 5): confirm the safety certificates are valid and that the key chapters — construction, fire, life-saving and radio — are in order and the equipment matches the certificates.",
+      "Prepare the MARPOL items (week 6): confirm the pollution prevention certificates and the record books for each annex are complete and up to date.",
+      "Prepare the Load Line items (week 7): confirm the load line certificate, that the marks correspond and that the conditions of assignment — freeboard, closing appliances — are maintained.",
+      "Report the port state control readiness and any deficiency in clear maritime English."
+    ],
+    deliverable: "A port state control readiness check integrating the SOLAS certificates and equipment (week 5), the MARPOL certificates and record books (week 6) and the Load Line certificate and conditions (week 7).",
+    assessmentCriteria: [
+      "The SOLAS items are prepared (certificates valid, key chapters and equipment in order).",
+      "The MARPOL items are prepared (certificates and record books complete for each annex).",
+      "The Load Line items are prepared (certificate, marks correspond, conditions of assignment maintained).",
+      "The readiness and any deficiency are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio MARPOL",
+    topic: "Expediente integrado de cumplimiento ambiental",
+    week: 14,
+    taskId: "pn-omi750-w14-compile-environmental-compliance-file",
+    taskTitle: "Compile The Ship's Environmental Compliance File",
+    scenario: "The company requires the environmental compliance file to be brought up to date. The cadet must compile it, integrating the MARPOL annexes, the ballast water management and the anti-fouling requirements.",
+    instructions: [
+      "Compile the MARPOL evidence (week 6): the record books and certificates for the annexes — oil, noxious liquids, sewage, garbage and air — showing the ship is operating within the discharge and emission limits.",
+      "Compile the ballast water evidence (week 2): the ballast water management plan, the ballast water record book and the treatment or exchange records under the convention.",
+      "Compile the anti-fouling evidence (week 3): the anti-fouling certificate and the declaration that the hull coating complies with the Anti-Fouling Systems Convention.",
+      "Report the environmental compliance file and any gap in clear maritime English."
+    ],
+    deliverable: "An environmental compliance file integrating the MARPOL annex records (week 6), the ballast water management records (week 2) and the anti-fouling certification (week 3), with any gap identified.",
+    assessmentCriteria: [
+      "The MARPOL evidence is complete (record books and certificates for each annex, within limits).",
+      "The ballast water evidence is complete (plan, record book, treatment/exchange records).",
+      "The anti-fouling evidence is complete (certificate and compliant coating declaration).",
+      "The file and any gap are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Piratería y terrorismo",
+    topic: "Plan de protección del buque para un tránsito de alto riesgo",
+    week: 15,
+    taskId: "pn-omi750-w15-prepare-ship-security-plan-transit",
+    taskTitle: "Prepare The Ship Security Plan For A High-Risk Transit",
+    scenario: "The vessel is to transit a high-risk area for piracy. The cadet must prepare the security measures, integrating the anti-piracy security, the SUA framework against unlawful acts and the freedom-of-navigation principles.",
+    instructions: [
+      "Set the anti-piracy measures (week 4): raise the security level, apply the best management practices — hardening, citadel, watch enhancement, reporting to the naval authorities — for the transit.",
+      "Apply the legal framework (week 10): explain how the SUA Convention criminalises unlawful acts against the ship and underpins the right to defend and the prosecution of offenders.",
+      "Apply the navigation rights (week 11): explain the freedom of navigation and the innocent-passage principles that govern the ship's route and the response within different waters.",
+      "Report the security plan for the transit in clear maritime English."
+    ],
+    deliverable: "A high-risk-transit security plan integrating the anti-piracy best management practices (week 4), the SUA legal framework (week 10) and the freedom-of-navigation principles (week 11).",
+    assessmentCriteria: [
+      "The anti-piracy measures are correct (security level, hardening, citadel, watch, naval reporting).",
+      "The SUA framework is applied correctly (unlawful acts criminalised, defence and prosecution).",
+      "The navigation rights are applied correctly (freedom of navigation and innocent passage).",
+      "The security plan is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio SOLAS",
+    topic: "Respuesta a una detención por el Estado rector del puerto",
+    week: 16,
+    taskId: "pn-omi750-w16-respond-to-psc-detention",
+    taskTitle: "Respond To A Port State Control Detention",
+    scenario: "A port state control officer has found a deficiency serious enough to detain the ship. The cadet must respond, integrating the SOLAS, MARPOL, Load Line and MLC requirements to identify, rectify and report the detainable deficiency.",
+    instructions: [
+      "Identify the detainable deficiency (weeks 5, 6, 7): relate the finding to the relevant convention — SOLAS safety, MARPOL pollution or Load Line — and understand why it is grounds for detention.",
+      "Rectify or plan the rectification: describe the corrective action required to clear the deficiency and the evidence the surveyor will require before release.",
+      "Cover the crew dimension (week 8): where the deficiency touches manning, hours of rest or living conditions, relate it to the MLC 2006 requirements.",
+      "Report the detention, the cause and the rectification plan in clear maritime English."
+    ],
+    deliverable: "A port state control detention response integrating the identification of the detainable deficiency against SOLAS/MARPOL/Load Line (weeks 5, 6, 7), the rectification plan and the MLC crew dimension (week 8).",
+    assessmentCriteria: [
+      "The detainable deficiency is identified correctly (linked to the relevant convention and grounds).",
+      "The rectification is sound (corrective action and evidence for release).",
+      "The MLC crew dimension is covered where relevant (manning, rest, living conditions).",
+      "The detention and plan are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio Internacional sobre Normas de Formación",
+    topic: "Auditoría del cumplimiento de los convenios de la OMI",
+    week: 17,
+    taskId: "pn-omi750-w17-audit-compliance-with-imo-conventions",
+    taskTitle: "Audit The Ship's Compliance With The IMO Conventions",
+    scenario: "Before an audit the master asks the cadet to review the ship's compliance across the main IMO conventions, drawing the whole subject together into one compliance statement.",
+    instructions: [
+      "Audit the safety and training pillar (weeks 1 and 5): the STCW certification and watch manning, and the SOLAS certificates and equipment.",
+      "Audit the environmental pillar (weeks 2, 3, 6): the MARPOL annexes, the ballast water and the anti-fouling compliance.",
+      "Audit the load line and labour pillar (weeks 7 and 8): the Load Line assignment and conditions, and the MLC 2006 conditions of work and life on board.",
+      "Report the compliance audit and the corrective actions in clear maritime English."
+    ],
+    deliverable: "An IMO compliance audit integrating the STCW/SOLAS safety and training pillar (weeks 1, 5), the MARPOL/ballast/anti-fouling environmental pillar (weeks 2, 3, 6) and the Load Line/MLC pillar (weeks 7, 8).",
+    assessmentCriteria: [
+      "The safety and training pillar is audited correctly (STCW certification/manning, SOLAS certificates/equipment).",
+      "The environmental pillar is audited correctly (MARPOL, ballast water, anti-fouling).",
+      "The load line and labour pillar is audited correctly (Load Line conditions, MLC).",
+      "The audit and corrective actions are reported clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "OMI750",
+    subjectName: "Convenios Organización Marítima Internacional I",
+    subjectId: "pn-s7-convenios-omi-i",
+    unit: "Convenio SOLAS",
+    topic: "Informe del marco de convenios para el viaje",
+    week: 18,
+    taskId: "pn-omi750-w18-deliver-imo-compliance-brief",
+    taskTitle: "Deliver The IMO Compliance Brief For The Voyage",
+    scenario: "At the end of the semester the cadet must brief the officers on the convention framework that governs the voyage, pulling the whole subject of IMO conventions together into one professional brief.",
+    instructions: [
+      "Brief the safety framework: how STCW, SOLAS and the Load Line Convention govern the certification, the safety equipment and the freeboard for the voyage (weeks 1, 5, 7).",
+      "Brief the environmental framework: how MARPOL, the ballast water and the anti-fouling conventions govern the discharges and the emissions (weeks 2, 3, 6).",
+      "Brief the people and security framework: how the MLC governs the crew's conditions and how the anti-piracy and SUA framework governs the security of the transit (weeks 4, 8, 10).",
+      "Deliver the IMO compliance brief in clear maritime English."
+    ],
+    deliverable: "An IMO compliance brief integrating the safety framework (weeks 1, 5, 7), the environmental framework (weeks 2, 3, 6) and the people-and-security framework (weeks 4, 8, 10) for the voyage.",
+    assessmentCriteria: [
+      "The safety framework is briefed correctly (STCW, SOLAS, Load Line).",
+      "The environmental framework is briefed correctly (MARPOL, ballast water, anti-fouling).",
+      "The people-and-security framework is briefed correctly (MLC, anti-piracy, SUA).",
+      "The brief is delivered clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -2324,6 +3020,180 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Control de multitudes",
+    topic: "Reunión de pasajeros integrando el cuadro orgánico y los puestos de reunión",
+    week: 13,
+    taskId: "pn-sem751-w13-run-full-passenger-muster",
+    taskTitle: "Run The Full Passenger Muster On Alarm",
+    scenario: "The general alarm has sounded on a passenger ship. The cadet must run the full muster of the passengers, integrating the muster list and control plan, the assistance at the muster stations, the passenger communication and the role of the crew group leader.",
+    instructions: [
+      "Apply the muster list and control plan (week 12): take up your assigned duty, direct the passengers to their muster stations and account for the crew's crowd-control positions along the routes.",
+      "Assist and account for passengers at the stations (week 3): count them, hand out and check the life-jackets, and keep them calm and in order at the muster station.",
+      "Communicate and lead (weeks 4 and 7): give the passengers clear instructions and reassurance, lead your group as crew, count and report the numbers mustered to the muster station commander.",
+      "Report the muster result to the commander in clear maritime English."
+    ],
+    deliverable: "A full passenger muster report integrating the muster list and control plan (week 12), the assistance and accounting at the muster stations (week 3) and the passenger communication and crew group leadership (weeks 4, 7).",
+    assessmentCriteria: [
+      "The muster list and control plan are applied correctly (duty taken, passengers directed, positions manned).",
+      "The passengers are assisted and accounted for at the stations (counted, life-jackets, kept calm).",
+      "The communication and leadership are effective (clear instructions, group led, numbers reported).",
+      "The muster result is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Gestión de la evacuación",
+    topic: "Dirección de la evacuación del buque de pasaje",
+    week: 14,
+    taskId: "pn-sem751-w14-direct-passenger-ship-evacuation",
+    taskTitle: "Direct The Evacuation Of The Passenger Ship",
+    scenario: "The order is given to move the passengers to the embarkation stations. The cadet must direct the evacuation, integrating the control of the flow along the escape routes, the assistance to passengers with special needs and the management of stress in the crowd.",
+    instructions: [
+      "Control the flow (week 5): manage the movement along the escape routes by zones, prevent bottlenecks and counter-flows, and keep the routes moving toward the embarkation stations.",
+      "Assist the vulnerable (week 6): identify and help passengers with special needs — reduced mobility, children, elderly — so they are not left behind and do not block the flow.",
+      "Manage the stress (week 11): recognise the signs of excessive stress in the crowd, use calm firm direction to prevent panic, and keep the crowd behaviour under control.",
+      "Report the state of the evacuation to the bridge in clear maritime English."
+    ],
+    deliverable: "An evacuation direction report integrating the zone control of the escape-route flow (week 5), the assistance to special-needs passengers (week 6) and the management of stress in the crowd (week 11).",
+    assessmentCriteria: [
+      "The flow is controlled correctly (zones, no bottlenecks or counter-flows, routes kept moving).",
+      "The vulnerable passengers are assisted (special needs identified and helped, not left behind).",
+      "The stress is managed (signs recognised, panic prevented, crowd behaviour controlled).",
+      "The state of the evacuation is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Capacitación a pasajeros",
+    topic: "Sesión informativa de seguridad previa a la salida",
+    week: 15,
+    taskId: "pn-sem751-w15-deliver-pre-departure-safety-brief",
+    taskTitle: "Deliver The Pre-Departure Passenger Safety Brief",
+    scenario: "Before departure the passengers must be briefed on safety. The cadet must deliver the pre-departure safety brief, integrating the demonstration of the life-saving appliances, the emergency communication and the management of the passengers' first reaction.",
+    instructions: [
+      "Demonstrate the appliances (week 10): show the passengers how to don the life-jacket, where the muster stations are and how the alarm signals sound, using a clear demonstration.",
+      "Deliver the emergency communication (week 4): give the safety information in clear simple language and through the public address so all passengers, including non-native speakers, understand what to do.",
+      "Prepare their first reaction (week 1): explain what the crew will ask them to do at the first alarm so their first reaction is to follow instructions rather than to freeze or panic.",
+      "Deliver the passenger safety brief in clear maritime English."
+    ],
+    deliverable: "A pre-departure passenger safety brief integrating the life-saving appliance demonstration (week 10), the emergency communication in plain language (week 4) and the shaping of the passengers' first reaction (week 1).",
+    assessmentCriteria: [
+      "The appliance demonstration is clear and correct (life-jacket donning, muster stations, alarm signals).",
+      "The emergency communication is effective (plain language, PA, understood by all).",
+      "The passengers' first reaction is prepared (what to do at the first alarm).",
+      "The brief is delivered clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Ejercicio integrado",
+    topic: "Mando de un abandono con una multitud presa del pánico",
+    week: 16,
+    taskId: "pn-sem751-w16-command-abandon-ship-panicking-crowd",
+    taskTitle: "Command An Abandon-Ship With A Panicking Crowd",
+    scenario: "The order to abandon ship is given and the crowd is beginning to panic, with families being separated. The cadet must command the abandonment, integrating the abandonment drill, the prevention of panic, the emergency decision-making and the passengers' first reaction.",
+    instructions: [
+      "Run the abandonment (week 8): direct the passengers from the muster stations to the survival craft, load and account for them in order, and keep the embarkation moving.",
+      "Prevent the panic (weeks 2 and 1): keep separated families informed and reunite them where possible, and manage the crowd's first reaction with firm calm authority to stop the panic spreading.",
+      "Make the decisions (week 9): as the leader, prioritise the loading, decide when a craft is to be launched, and adapt to the developing situation without losing control.",
+      "Report the abandonment and the numbers to the coordinator in clear maritime English."
+    ],
+    deliverable: "An abandon-ship command report integrating the abandonment drill (week 8), the prevention of panic and family separation (weeks 1, 2) and the emergency leadership decisions (week 9), with the numbers accounted for.",
+    assessmentCriteria: [
+      "The abandonment is run correctly (passengers to craft, loaded and accounted, embarkation moving).",
+      "The panic is prevented (families managed, first reaction controlled, calm authority).",
+      "The leadership decisions are sound (loading prioritised, launch timing, adapts under control).",
+      "The abandonment and numbers are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Control de multitudes",
+    topic: "Verificación del cuadro orgánico y el plan de control frente a SOLAS",
+    week: 17,
+    taskId: "pn-sem751-w17-verify-muster-list-against-solas",
+    taskTitle: "Verify The Muster List And Crowd Control Plan Against SOLAS",
+    scenario: "Before an inspection the officer asks the cadet to verify the muster list and the crowd control plan against the requirements, drawing the subject together into one compliance check.",
+    instructions: [
+      "Verify the muster list (week 12): that every crew member has an assigned emergency duty and a crowd-control station, and that the plan covers all the passenger spaces and escape routes.",
+      "Verify the passenger provisions (weeks 3, 6, 10): the muster station assistance, the special-needs provisions and the passenger safety information and demonstration arrangements.",
+      "Verify the drill and readiness (weeks 8, 11): that the abandonment and crowd-control drills are held and recorded and that the crew are trained in stress and panic management.",
+      "Report the compliance verification and any shortfall in clear maritime English."
+    ],
+    deliverable: "A muster list and crowd-control-plan verification integrating the assigned duties and coverage (week 12), the passenger provisions (weeks 3, 6, 10) and the drill and training readiness (weeks 8, 11) against the SOLAS requirements.",
+    assessmentCriteria: [
+      "The muster list is verified (duties and stations assigned, spaces and routes covered).",
+      "The passenger provisions are verified (muster assistance, special needs, safety information).",
+      "The drill and readiness are verified (drills held and recorded, crew trained in stress/panic).",
+      "The verification and any shortfall are reported clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "SEM751",
+    subjectName: "Control de Multitudes",
+    subjectId: "pn-s7-control-multitudes",
+    unit: "Liderazgo",
+    topic: "Recapitulación del control de multitudes para la tripulación",
+    week: 18,
+    taskId: "pn-sem751-w18-deliver-crowd-management-debrief",
+    taskTitle: "Deliver The Crowd Management Debrief To The Crew",
+    scenario: "After the drill the cadet must debrief the crew as the crowd-control leader, pulling the whole subject of crowd management together into one professional debrief.",
+    instructions: [
+      "Debrief the muster and evacuation (weeks 12, 5): how the muster list and the zone control of the escape routes worked, and where the flow was slow or the accounting failed.",
+      "Debrief the passenger handling (weeks 4, 6, 11): the communication, the assistance to the vulnerable and the management of stress and panic, and how they could be improved.",
+      "Debrief the leadership and decisions (weeks 7, 9): how the crew group leaders performed and how the emergency decisions were made, and set the lessons for the next drill.",
+      "Deliver the crowd management debrief in clear maritime English."
+    ],
+    deliverable: "A crowd management debrief integrating the muster and evacuation performance (weeks 5, 12), the passenger handling (weeks 4, 6, 11) and the leadership and decision performance (weeks 7, 9), with lessons for the next drill.",
+    assessmentCriteria: [
+      "The muster and evacuation are debriefed correctly (muster list, zone control, flow and accounting).",
+      "The passenger handling is debriefed correctly (communication, vulnerable, stress and panic).",
+      "The leadership and decisions are debriefed correctly (group leaders, decisions, lessons set).",
+      "The debrief is delivered clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
     subjectCode: "ING746",
     subjectName: "Inglés Marítimo VII",
     subjectId: "pn-s7-ingles-maritimo-vii",
@@ -2551,6 +3421,180 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Sistema de verbos",
+    topic: "Reporte de investigación integrando la voz pasiva y el discurso referido",
+    week: 13,
+    taskId: "pn-ing746-w13-write-full-incident-report",
+    taskTitle: "Write The Complete Incident Investigation Report",
+    scenario: "An incident has occurred on board and a full report is required for the company. The cadet must write the complete incident investigation report, integrating the passive voice, reported speech, the cohesion connectors and the reporting verbs into one professional document.",
+    instructions: [
+      "Write the account of events in the passive voice (week 2): describe what was done and what happened without over-using 'I', keeping the report objective and factual.",
+      "Relay the witness statements using reported speech (weeks 1 and 11): report what the witnesses said and asked, and use reporting verbs — stated, admitted, warned, denied — to attribute each statement accurately.",
+      "Link the report with connectors (week 6): order the sequence and the cause and effect with clear cohesive connectors so the reader follows the chain of events to the conclusion.",
+      "Report the incident conclusion and recommendation in clear maritime English."
+    ],
+    deliverable: "A complete incident investigation report integrating the passive-voice account (week 2), the reported witness statements with reporting verbs (weeks 1, 11) and the cohesive connectors (week 6), with a conclusion and recommendation.",
+    assessmentCriteria: [
+      "The account of events uses the passive voice correctly and objectively.",
+      "The witness statements are relayed correctly (reported speech and accurate reporting verbs).",
+      "The report is cohesive (connectors order the sequence and the cause and effect).",
+      "The report is clear, professional and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "El ámbito laboral",
+    topic: "Entrega escrita y oral de la guardia integrando modales y condicionales",
+    week: 14,
+    taskId: "pn-ing746-w14-write-and-deliver-full-handover",
+    taskTitle: "Write And Deliver The Full Watch Handover",
+    scenario: "At the change of watch the cadet must produce and deliver a full handover, integrating the professional handover report, the modal verbs for instructions and the conditionals for contingencies.",
+    instructions: [
+      "Write the handover report (week 3): set out the situation, the work in progress and the state of the equipment using the work collocations and the standard handover structure.",
+      "Give the standing instructions with modal verbs (week 4): state what the relief must, should, must not and may do during the watch, so the level of obligation is unambiguous.",
+      "Set the contingencies with conditionals (week 5): state what to do if certain situations arise — 'if the pressure falls, then...', 'should the alarm sound, ...' — so the relief is ready for the foreseeable events.",
+      "Deliver the watch handover to the relief in clear maritime/SMCP English."
+    ],
+    deliverable: "A full watch handover integrating the professional handover report (week 3), the standing instructions with modal verbs (week 4) and the contingencies with conditionals (week 5), delivered to the relief.",
+    assessmentCriteria: [
+      "The handover report is complete and well structured (situation, work in progress, equipment).",
+      "The instructions use modal verbs correctly (obligation and permission unambiguous).",
+      "The contingencies use conditionals correctly (clear if/then for foreseeable events).",
+      "The handover is delivered clearly and in correct maritime/SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Discurso profesional",
+    topic: "Presentación técnica integrando conectores y condicionales",
+    week: 15,
+    taskId: "pn-ing746-w15-deliver-full-technical-presentation",
+    taskTitle: "Deliver A Full Technical Safety Presentation",
+    scenario: "The cadet must deliver a technical safety presentation to the crew, integrating the oral presentation and discourse signalling, the cohesion connectors and the conditionals for procedures.",
+    instructions: [
+      "Structure and sign-post the presentation (weeks 8 and 6): open, sequence the parts with discourse markers and cohesive connectors, and close so the audience follows the argument.",
+      "Explain the procedure with conditionals (week 5): present the safety procedure step by step, using conditionals to cover the 'if this happens, do that' branches.",
+      "Handle the delivery and the questions (week 8): use appropriate pace, stress and signalling, and answer the crew's questions clearly.",
+      "Deliver the technical safety presentation in clear maritime English."
+    ],
+    deliverable: "A full technical safety presentation integrating the oral presentation and discourse signalling (week 8), the cohesive connectors (week 6) and the conditionals for the procedure (week 5), delivered to the crew.",
+    assessmentCriteria: [
+      "The presentation is well structured and sign-posted (opening, sequence with markers/connectors, close).",
+      "The procedure is explained correctly with conditionals (if/then branches covered).",
+      "The delivery and questions are handled well (pace, stress, signalling, clear answers).",
+      "The presentation is delivered clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Oraciones condicionales",
+    topic: "Análisis de un cuasi-accidente y defensa de la acción correctiva",
+    week: 16,
+    taskId: "pn-ing746-w16-analyse-near-miss-argue-corrective",
+    taskTitle: "Analyse A Near-Miss And Argue The Corrective Action",
+    scenario: "A near-miss must be analysed in a safety meeting. The cadet must present the analysis, integrating the third conditional to explain what could have happened, the reporting verbs to attribute the account and the language of debate to argue the corrective action.",
+    instructions: [
+      "Analyse the near-miss with the third conditional (week 9): explain what would have happened if the chain had not been broken — 'if the lookout had not seen the target, we would have collided' — to show the potential consequence.",
+      "Attribute the account with reporting verbs (week 11): summarise what the parties reported, admitted and recommended, attributing each accurately in an investigation summary.",
+      "Argue the corrective action (week 12): use the language of debate to make the case for the recommended corrective action, weighing it against the alternatives.",
+      "Present the near-miss analysis and recommendation in clear maritime English."
+    ],
+    deliverable: "A near-miss analysis integrating the third-conditional consequence analysis (week 9), the reporting-verb investigation summary (week 11) and the argued corrective action (week 12), presented at the safety meeting.",
+    assessmentCriteria: [
+      "The consequence analysis uses the third conditional correctly.",
+      "The account is attributed correctly (reporting verbs, investigation summary).",
+      "The corrective action is argued convincingly (language of debate, alternatives weighed).",
+      "The analysis and recommendation are presented clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "El ámbito laboral",
+    topic: "Solicitud de empleo y entrevista para oficial",
+    week: 17,
+    taskId: "pn-ing746-w17-complete-officer-job-application",
+    taskTitle: "Complete The Officer Job Application And Interview",
+    scenario: "The cadet is to apply for an officer's position and face the interview, integrating the maritime CV and interview, the relative clauses for precise self-description and the modal verbs for describing duties.",
+    instructions: [
+      "Write the maritime CV and covering letter (week 7): present the qualifications, the certificates and the sea experience in the correct professional format for the position.",
+      "Describe the experience precisely with relative clauses (week 10): define the roles and the ships 'on which' and 'where' the duties were carried out, so the description is precise and unambiguous.",
+      "Prepare the interview answers with modal verbs (week 4): explain what an officer must, should and must not do in the duties, showing command of the professional responsibilities.",
+      "Face the interview and answer in clear maritime English."
+    ],
+    deliverable: "A completed officer job application integrating the maritime CV and covering letter (week 7), the precise experience description with relative clauses (week 10) and the interview answers with modal verbs (week 4).",
+    assessmentCriteria: [
+      "The CV and covering letter are correct and professional (qualifications, certificates, experience).",
+      "The experience is described precisely with relative clauses.",
+      "The interview answers use modal verbs correctly (duties and responsibilities).",
+      "The application and interview are handled clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "ING746",
+    subjectName: "Inglés Marítimo VII",
+    subjectId: "pn-s7-ingles-maritimo-vii",
+    unit: "Economía personal",
+    topic: "Conducción de la reunión de seguridad de fin de viaje",
+    week: 18,
+    taskId: "pn-ing746-w18-chair-end-of-voyage-safety-meeting",
+    taskTitle: "Chair The End-Of-Voyage Safety Meeting",
+    scenario: "At the end of the voyage the cadet must chair the safety meeting, pulling the whole English subject together into one professional spoken and written communication.",
+    instructions: [
+      "Open and present the review: summarise the voyage's incidents and near-misses using the passive voice and reporting verbs (weeks 2, 11), linked with cohesive connectors (week 6).",
+      "Lead the debate (week 12): use the language of debate to open the floor, weigh the crew's views and steer toward agreed recommendations.",
+      "Instruct and set the actions (weeks 4, 5): assign the corrective actions with modal verbs and set the contingencies with conditionals so the crew know what must be done and what to do if problems arise.",
+      "Chair the safety meeting and record the minutes in clear maritime English."
+    ],
+    deliverable: "A chaired end-of-voyage safety meeting integrating the incident review (weeks 2, 6, 11), the language of debate (week 12) and the actions and contingencies with modals and conditionals (weeks 4, 5), with minutes.",
+    assessmentCriteria: [
+      "The review is presented correctly (passive voice, reporting verbs, cohesive connectors).",
+      "The debate is led effectively (language of debate, views weighed, agreement steered).",
+      "The actions are set correctly (modal verbs for obligations, conditionals for contingencies).",
+      "The meeting is chaired and minuted clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -2788,6 +3832,180 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Faena de puerto",
+    topic: "Faena integrada de zarpe con maniobra de anclas y equipos de cubierta",
+    week: 13,
+    taskId: "pn-pmr752-w13-run-full-deck-departure",
+    taskTitle: "Run The Full Deck Departure Operation",
+    scenario: "The vessel is to sail from Tampico. The cadet must run the full deck departure operation, integrating the integrated departure faena, the anchor work and the maintenance state of the deck equipment.",
+    instructions: [
+      "Prepare the deck equipment (week 6): check the windlass and capstan are ready and maintained, the brakes and the hydraulics tested, before the operation begins.",
+      "Run the departure faena (week 8): station the mooring parties, single up and let go in sequence, work the lines safely and report the ship all gone forward and aft.",
+      "Be ready with the anchor (week 4): have the anchor cleared away and ready to let go for an emergency during the unberthing, and know the anchor-work safety.",
+      "Report the deck departure operation to the bridge in clear maritime English."
+    ],
+    deliverable: "A full deck departure operation integrating the integrated departure faena (week 8), the anchor readiness (week 4) and the maintained deck equipment (week 6), reported to the bridge.",
+    assessmentCriteria: [
+      "The deck equipment is prepared and maintained (windlass/capstan, brakes, hydraulics tested).",
+      "The departure faena is run safely (parties stationed, singled up, let go in sequence, lines worked safely).",
+      "The anchor is ready for an emergency and the anchor-work safety is observed.",
+      "The operation is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Auxilio de personas en peligro en el agua",
+    topic: "Faena integrada de hombre al agua y recuperación",
+    week: 14,
+    taskId: "pn-pmr752-w14-run-full-man-overboard-recovery",
+    taskTitle: "Run The Full Man-Overboard Recovery",
+    scenario: "A man goes overboard on passage. The cadet must run the full recovery, integrating the man-overboard deck operation, the safe approach to the victim and the flag signal that marks the manoeuvre.",
+    instructions: [
+      "Run the man-overboard operation (week 5): raise the alarm, mark and throw the lifebuoy, post a pointer, and prepare and launch the rescue boat with its crew.",
+      "Make the safe approach (week 1): approach the person in the water from the correct side, keeping the propeller clear and the person in sight, and recover them without injuring them.",
+      "Signal the manoeuvre (week 11): hoist flag Oscar to signal 'man overboard' and use the flag and sound signals so other vessels know the ship is engaged in the recovery.",
+      "Report the man-overboard recovery in clear maritime English."
+    ],
+    deliverable: "A full man-overboard recovery integrating the deck operation (week 5), the safe approach and recovery of the person (week 1) and the flag/sound signalling of the manoeuvre (week 11).",
+    assessmentCriteria: [
+      "The man-overboard operation is run correctly (alarm, mark, lifebuoy, pointer, rescue boat).",
+      "The approach and recovery are safe (correct side, propeller clear, person recovered without injury).",
+      "The manoeuvre is signalled correctly (flag Oscar and sound signals).",
+      "The recovery is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Faenas con anclas",
+    topic: "Faena integrada de fondeo e inspección de la cadena",
+    week: 15,
+    taskId: "pn-pmr752-w15-run-full-anchoring-operation",
+    taskTitle: "Run The Full Anchoring Operation",
+    scenario: "The vessel is to anchor off Altamira. The cadet must run the full anchoring operation, integrating the anchor work, the ranging and inspection of the cable and the deck equipment.",
+    instructions: [
+      "Prepare the ground tackle (weeks 4 and 6): clear away the anchor, test the windlass and the brake, and stand by the cable ready to let go on the bridge's order.",
+      "Let go and pay out the cable (week 4): let go the anchor, pay out and check the cable in a controlled way, watch the leads and report the brought-up.",
+      "Inspect the cable (week 12): as the cable runs and when ranging on the wharf, inspect the links and the shackles for wear and report the condition of the chain.",
+      "Report the anchoring operation to the bridge in clear maritime English."
+    ],
+    deliverable: "A full anchoring operation integrating the anchor work (week 4), the ranging and inspection of the cable (week 12) and the maintained deck equipment (week 6), reported to the bridge.",
+    assessmentCriteria: [
+      "The ground tackle is prepared correctly (anchor cleared, windlass and brake tested, ready to let go).",
+      "The anchor is let go and the cable paid out safely (controlled, leads watched, brought-up reported).",
+      "The cable is inspected correctly (links and shackles for wear, condition reported).",
+      "The operation is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Equipos de cubierta",
+    topic: "Respuesta a una avería del molinete durante el fondeo",
+    week: 16,
+    taskId: "pn-pmr752-w16-respond-to-windlass-failure",
+    taskTitle: "Respond To A Windlass Failure During Anchoring",
+    scenario: "During anchoring the windlass fails with the cable running out. The cadet must respond safely, integrating the deck equipment maintenance and fault knowledge, the anchor-cable control and the spares reporting.",
+    instructions: [
+      "Control the immediate danger (week 12): apply the brake to hold the running cable, secure the deck, keep the crew clear of the bight and stop the uncontrolled run.",
+      "Diagnose the failure (week 6): from your knowledge of the windlass and capstan maintenance, identify the likely cause — hydraulic, clutch, brake or motor — and whether it can be recovered on deck.",
+      "Report the spares and the store (week 3): identify the spare parts needed from the deck stores and spares record, and what must be requisitioned to repair the windlass.",
+      "Report the windlass failure and the recovery plan in clear maritime English."
+    ],
+    deliverable: "A windlass-failure response integrating the immediate cable control (week 12), the fault diagnosis from the maintenance knowledge (week 6) and the spares report for the repair (week 3).",
+    assessmentCriteria: [
+      "The immediate danger is controlled (brake applied, deck secured, crew clear of the bight).",
+      "The failure is diagnosed correctly (likely cause identified, recoverability judged).",
+      "The spares are reported correctly (parts needed from the stores/spares record, requisition).",
+      "The failure and recovery plan are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Pertrechos y consumos",
+    topic: "Auditoría de los pertrechos y el estado de mantenimiento de cubierta",
+    week: 17,
+    taskId: "pn-pmr752-w17-audit-deck-stores-and-maintenance",
+    taskTitle: "Audit The Deck Stores And Maintenance State",
+    scenario: "Before a hand-over the boatswain asks the cadet to audit the deck stores and the maintenance state, drawing the practical seamanship subject together into one readiness check.",
+    instructions: [
+      "Audit the stores and consumables (weeks 7 and 3): the bosun's store inventory, the stowage and control of consumption, and the spares record against what is on board.",
+      "Audit the maintenance state (weeks 6 and 9): the condition of the windlass and capstan, and the state of the corrosion protection and surface preparation on deck.",
+      "Audit the paintwork and finishes (week 10): the state of the paint, the areas requiring preparation and re-coating, and the paint stock and colour matching for the work.",
+      "Report the stores and maintenance audit and the work needed in clear maritime English."
+    ],
+    deliverable: "A deck stores and maintenance audit integrating the store inventory and spares (weeks 3, 7), the equipment and corrosion condition (weeks 6, 9) and the paintwork state (week 10), with the work needed.",
+    assessmentCriteria: [
+      "The stores and consumables are audited correctly (inventory, consumption control, spares against aboard).",
+      "The maintenance state is audited correctly (windlass/capstan condition, corrosion protection).",
+      "The paintwork and finishes are audited correctly (paint state, areas to prepare, stock and colour).",
+      "The audit and work needed are reported clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "PMR752",
+    subjectName: "Prácticas Marineras VII",
+    subjectId: "pn-s7-practicas-marineras-vii",
+    unit: "Pertrechos y consumos",
+    topic: "Entrega del departamento de cubierta al contramaestre",
+    week: 18,
+    taskId: "pn-pmr752-w18-deliver-deck-department-handover",
+    taskTitle: "Deliver The Deck Department Handover Brief",
+    scenario: "At the end of the semester the cadet must hand over the deck department, pulling the whole practical seamanship subject together into one professional handover to the relieving boatswain.",
+    instructions: [
+      "Hand over the stores and equipment (weeks 7, 3, 6): the state of the bosun's store, the spares and consumables and the condition of the deck machinery.",
+      "Hand over the maintenance programme (weeks 9, 10): the corrosion protection and the painting programme, what has been done and what remains.",
+      "Hand over the operational readiness (weeks 4, 8, 5): the state of the anchor and mooring gear, the departure and man-overboard readiness, and any outstanding safety items.",
+      "Deliver the deck department handover brief in clear maritime English."
+    ],
+    deliverable: "A deck department handover brief integrating the stores and equipment state (weeks 3, 6, 7), the maintenance programme (weeks 9, 10) and the operational readiness (weeks 4, 5, 8).",
+    assessmentCriteria: [
+      "The stores and equipment are handed over completely (store, spares, machinery condition).",
+      "The maintenance programme is handed over (corrosion and paint work done and remaining).",
+      "The operational readiness is handed over (anchor/mooring gear, departure and MOB readiness).",
+      "The handover is delivered clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
     subjectCode: "C0011",
     subjectName: "Educación Física VII",
     subjectId: "pn-s7-educacion-fisica-vii",
@@ -3015,6 +4233,180 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Acondicionamiento integral",
+    topic: "Programa integral de aptitud física para el oficial",
+    week: 13,
+    taskId: "pn-c0011vii-w13-build-integrated-fitness-programme",
+    taskTitle: "Build The Officer's Integrated Fitness Programme",
+    scenario: "The cadet must build an integrated fitness programme to be fit for the responsibilities of command, bringing together the cardiorespiratory endurance, the muscular strength, the onboard circuit and the flexibility into one plan.",
+    instructions: [
+      "Set the endurance and strength base (weeks 1 and 2): plan the cardiorespiratory and the strength work needed to sustain and to act in the demands of command and an emergency.",
+      "Design the onboard circuit (week 5): build the station circuit that can be run in the space available on board, balancing the endurance and strength elements.",
+      "Add the mobility and flexibility (weeks 9 and 6): include the joint and muscle flexibility and the mobility work that offset the long hours of watchkeeping.",
+      "Report the integrated fitness programme in clear professional English."
+    ],
+    deliverable: "An integrated fitness programme for command integrating the endurance and strength base (weeks 1, 2), the onboard station circuit (week 5) and the mobility and flexibility work (weeks 6, 9).",
+    assessmentCriteria: [
+      "The endurance and strength base is well planned (fit for command and emergency demands).",
+      "The onboard circuit is well designed (works in the space aboard, balanced elements).",
+      "The mobility and flexibility work is included and appropriate (offsets long watches).",
+      "The programme is reported clearly and in correct professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Liderazgo en la actividad física",
+    topic: "Dirección de una sesión de acondicionamiento a bordo",
+    week: 14,
+    taskId: "pn-c0011vii-w14-lead-onboard-conditioning-session",
+    taskTitle: "Lead The Crew Through An Onboard Conditioning Session",
+    scenario: "The cadet must lead the crew through an onboard conditioning session, integrating the leadership of the group session, the station circuit and the mobility and posture work.",
+    instructions: [
+      "Lead the warm-up (week 8): open the session, lead the group through the warm-up and set the pace and the safety for the exercise.",
+      "Run the circuit (week 5): take the group through the station circuit, correcting the technique and adjusting the load to the fitness of each member.",
+      "Close with mobility (week 6): finish with the mobility, posture and cool-down work, and check no one has been over-loaded.",
+      "Lead the session and give the instructions in clear professional English."
+    ],
+    deliverable: "An onboard conditioning session integrating the leadership of the group session (week 8), the station circuit (week 5) and the mobility, posture and cool-down (week 6), led for the crew.",
+    assessmentCriteria: [
+      "The warm-up is led well (session opened, pace and safety set).",
+      "The circuit is run well (technique corrected, load adjusted to each member).",
+      "The session is closed correctly (mobility, posture, cool-down, no over-loading).",
+      "The session is led and instructed clearly and in correct professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Natación",
+    topic: "Nado de supervivencia dirigido en grupo",
+    week: 15,
+    taskId: "pn-c0011vii-w15-lead-sea-survival-swim",
+    taskTitle: "Lead The Group Through A Sea Survival Swim",
+    scenario: "The cadet must lead the group through a sea survival swim, integrating the simulated abandonment swim, the coordinated group swim, the floating and energy conservation and the survival leadership.",
+    instructions: [
+      "Lead the entry and grouping (weeks 7 and 11): direct the jump or controlled entry, and form the group into a coordinated swimming formation to stay together.",
+      "Conserve energy and heat (weeks 12 and 7): keep the group floating and huddled to conserve energy and body heat while awaiting rescue.",
+      "Lead the survivors (week 3): keep morale and discipline in the water, account for the group and keep them moving toward safety.",
+      "Report the survival swim and the group's state in clear professional English."
+    ],
+    deliverable: "A sea survival swim integrating the abandonment entry and grouping (weeks 7, 11), the floating and energy/heat conservation (weeks 7, 12) and the leadership of the survivors (week 3).",
+    assessmentCriteria: [
+      "The entry and grouping are led correctly (controlled entry, coordinated formation).",
+      "The energy and heat are conserved correctly (floating, huddle, awaiting rescue).",
+      "The survivors are led well (morale, discipline, accounted for, moving to safety).",
+      "The swim and group state are reported clearly and in correct professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Condición física",
+    topic: "Rendimiento físico sostenido a lo largo de una emergencia",
+    week: 16,
+    taskId: "pn-c0011vii-w16-sustain-performance-through-emergency",
+    taskTitle: "Sustain Physical Performance Through An Emergency",
+    scenario: "A prolonged emergency demands sustained physical effort. The cadet must show how to sustain performance, integrating the muscular strength for the effort, the focus and concentration and the survival leadership.",
+    instructions: [
+      "Apply the strength for the task (week 2): use the muscular strength for the heavy physical actions of the emergency — carrying, hauling, closing — without injury.",
+      "Sustain the focus (week 4): keep concentration and decision-making through the prolonged command situation, managing fatigue.",
+      "Lead through the effort (week 3): keep the group's effort and morale up through the emergency and pace them so they are not exhausted before it is over.",
+      "Report the physical management of the emergency in clear professional English."
+    ],
+    deliverable: "A physical emergency-response account integrating the applied muscular strength (week 2), the sustained focus and concentration (week 4) and the leadership of the effort (week 3).",
+    assessmentCriteria: [
+      "The strength is applied correctly to the tasks (heavy actions without injury).",
+      "The focus is sustained (concentration and decisions through fatigue).",
+      "The group's effort is led and paced (morale kept, exhaustion avoided).",
+      "The management is reported clearly and in correct professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Condición física",
+    topic: "Evaluación de la aptitud física para el mando",
+    week: 17,
+    taskId: "pn-c0011vii-w17-assess-fitness-readiness-for-command",
+    taskTitle: "Assess Fitness Readiness For Command",
+    scenario: "The cadet must assess their own fitness readiness for command, drawing the physical education subject together into one self-assessment and plan.",
+    instructions: [
+      "Assess the physical base (weeks 1, 9, 6): the cardiorespiratory endurance, the flexibility and the mobility and posture, against the demands of the watch and command.",
+      "Assess the operational fitness (weeks 2, 7): the strength for emergency tasks and the survival swimming ability.",
+      "Assess the teamwork and leadership fitness (weeks 8, 10): the ability to lead a session and to use team sport to sharpen the crew's teamwork, and set the improvement plan.",
+      "Report the fitness readiness assessment in clear professional English."
+    ],
+    deliverable: "A fitness readiness self-assessment integrating the physical base (weeks 1, 6, 9), the operational fitness (weeks 2, 7) and the teamwork and leadership fitness (weeks 8, 10), with an improvement plan.",
+    assessmentCriteria: [
+      "The physical base is assessed correctly (endurance, flexibility, mobility/posture).",
+      "The operational fitness is assessed correctly (emergency strength, survival swimming).",
+      "The teamwork and leadership fitness is assessed correctly (leading sessions, team sport, plan set).",
+      "The assessment is reported clearly and in correct professional English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0011",
+    subjectName: "Educación Física VII",
+    subjectId: "pn-s7-educacion-fisica-vii",
+    unit: "Liderazgo en la actividad física",
+    topic: "Recapitulación de la preparación física para la tripulación",
+    week: 18,
+    taskId: "pn-c0011vii-w18-deliver-physical-readiness-brief",
+    taskTitle: "Deliver The Physical Readiness Brief For The Crew",
+    scenario: "At the end of the semester the cadet must brief the crew on physical readiness, pulling the whole physical education subject together into one leadership brief.",
+    instructions: [
+      "Brief the fitness programme (weeks 1, 2, 5, 9): the endurance, strength, circuit and flexibility work the crew should keep up for readiness.",
+      "Brief the survival and emergency fitness (weeks 3, 7, 11, 12): the survival swimming, the group swim and the floating and energy conservation for an abandonment.",
+      "Brief the leadership and teamwork (weeks 8, 10): how the crew's sessions and team sport keep the physical readiness and the teamwork of the ship, and set the standard for the next semester.",
+      "Deliver the physical readiness brief in clear professional English."
+    ],
+    deliverable: "A physical readiness brief integrating the fitness programme (weeks 1, 2, 5, 9), the survival and emergency fitness (weeks 3, 7, 11, 12) and the leadership and teamwork (weeks 8, 10).",
+    assessmentCriteria: [
+      "The fitness programme is briefed correctly (endurance, strength, circuit, flexibility).",
+      "The survival and emergency fitness is briefed correctly (survival and group swim, floating).",
+      "The leadership and teamwork are briefed correctly (sessions, team sport, standard set).",
+      "The brief is delivered clearly and in correct professional English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -3252,6 +4644,180 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de la carga",
+    topic: "Operación integrada de carga en un petrolero",
+    week: 13,
+    taskId: "pn-c0129-w13-run-full-tanker-cargo-loading",
+    taskTitle: "Run The Full Tanker Cargo Loading Operation",
+    scenario: "An oil tanker is to load a crude cargo. The cadet must run the full cargo loading operation, integrating the safe cargo procedures, the inert gas system, the tank atmosphere measurement and the ship-shore transfer.",
+    instructions: [
+      "Prepare the tanks and the inert gas (weeks 4 and 5): confirm the tanks are inerted and the inert gas system is running to keep the oxygen below the safe level throughout loading.",
+      "Verify the atmosphere (week 6): measure the tank atmospheres for oxygen and hydrocarbons and confirm they are within the safe limits before and during the operation.",
+      "Run the transfer (week 8): complete the ship-shore safety checklist, agree the loading rate and the topping-off, and run the transfer monitoring the levels and the moorings.",
+      "Report the cargo loading operation in clear maritime English."
+    ],
+    deliverable: "A full tanker cargo loading operation integrating the safe cargo procedures and inert gas (weeks 4, 5), the tank atmosphere verification (week 6) and the ship-shore transfer under the checklist (week 8).",
+    assessmentCriteria: [
+      "The tanks and inert gas are prepared correctly (inerted, IGS running, oxygen safe).",
+      "The atmosphere is verified correctly (oxygen and hydrocarbon within limits).",
+      "The transfer is run safely (checklist complete, rate agreed, levels and moorings monitored).",
+      "The operation is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de la carga",
+    topic: "Transferencia buque-terminal bajo la lista de comprobación",
+    week: 14,
+    taskId: "pn-c0129-w14-complete-ship-shore-transfer-checklist",
+    taskTitle: "Complete The Ship-Shore Transfer Under The Safety Checklist",
+    scenario: "A cargo transfer to a terminal is to begin. The cadet must complete the transfer under the ship-shore safety checklist, integrating the transfer procedure, the safety data sheet of the cargo and the fire hazard control.",
+    instructions: [
+      "Complete the ship-shore safety checklist (week 8): go through the checklist item by item with the terminal, agree the responsibilities and confirm the emergency signals and the stop procedure.",
+      "Apply the cargo data (week 9): read the cargo's safety data sheet for the health, fire and reactivity hazards and set the precautions for that cargo.",
+      "Control the fire hazard (week 1): confirm the sources of ignition are controlled, the bonding and the no-smoking, and the fire-fighting is ready at the manifold.",
+      "Report the ship-shore transfer readiness in clear maritime English."
+    ],
+    deliverable: "A ship-shore transfer readiness report integrating the ship-shore safety checklist (week 8), the cargo safety data sheet precautions (week 9) and the fire hazard control (week 1).",
+    assessmentCriteria: [
+      "The ship-shore safety checklist is completed correctly (items agreed, signals and stop procedure).",
+      "The cargo data is applied correctly (SDS hazards, precautions set).",
+      "The fire hazard is controlled (ignition sources, bonding, no-smoking, fire-fighting ready).",
+      "The readiness is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de la carga",
+    topic: "Lavado con crudo y preparación para entrada en tanques",
+    week: 15,
+    taskId: "pn-c0129-w15-run-crude-oil-washing-tank-entry",
+    taskTitle: "Run The Crude Oil Washing And Tank Entry Preparation",
+    scenario: "During discharge the tanks are to be crude oil washed and then prepared for entry. The cadet must run the operation, integrating the crude oil washing and static precautions, the inert gas, the atmosphere measurement and the breathing apparatus.",
+    instructions: [
+      "Run the crude oil washing (week 7): carry out the COW under an inert atmosphere, control the static electricity precautions and confirm the oxygen stays below the safe level throughout.",
+      "Gas-free and measure (weeks 5 and 6): purge and gas-free the tank, then measure the atmosphere for oxygen, hydrocarbons and toxic gas to confirm it is safe for entry.",
+      "Prepare the entry (week 2): rig the breathing apparatus, the rescue and escape equipment and the enclosed-space entry permit before anyone enters the tank.",
+      "Report the crude oil washing and tank entry preparation in clear maritime English."
+    ],
+    deliverable: "A crude oil washing and tank entry preparation integrating the COW and static precautions under inert gas (weeks 5, 7), the gas-freeing and atmosphere measurement (week 6) and the breathing apparatus and entry preparation (week 2).",
+    assessmentCriteria: [
+      "The crude oil washing is run safely (inert atmosphere, static precautions, oxygen below limit).",
+      "The gas-freeing and measurement are correct (oxygen, hydrocarbons, toxic gas confirmed safe).",
+      "The entry preparation is correct (breathing apparatus, rescue/escape gear, entry permit).",
+      "The operation is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de emergencia",
+    topic: "Respuesta a un derrame y una emisión tóxica de carga",
+    week: 16,
+    taskId: "pn-c0129-w16-respond-to-cargo-spill-toxic-release",
+    taskTitle: "Respond To A Cargo Spill And Toxic Release",
+    scenario: "A cargo spill and a toxic release occur during cargo work. The cadet must respond, integrating the tanker emergency response, the fire hazard control, the SOPEP and the first aid for toxic exposure.",
+    instructions: [
+      "Raise the emergency response (week 10): sound the alarm, stop cargo, muster the emergency team by the organisational structure and take the immediate actions.",
+      "Control the hazard (weeks 1 and 3): eliminate the ignition sources to prevent a fire and start the SOPEP to contain and report the spill.",
+      "Treat the casualty (weeks 11 and 2): rescue and treat anyone overcome by the toxic exposure using breathing apparatus and the resuscitator, and give first aid.",
+      "Report the cargo emergency and the actions taken in clear maritime English."
+    ],
+    deliverable: "A cargo spill and toxic release response integrating the emergency response organisation (week 10), the fire hazard and SOPEP control (weeks 1, 3) and the treatment of the toxic-exposure casualty (weeks 2, 11).",
+    assessmentCriteria: [
+      "The emergency response is correct (alarm, cargo stopped, team mustered, immediate actions).",
+      "The hazard is controlled (ignition sources eliminated, SOPEP started to contain and report).",
+      "The casualty is treated correctly (rescue with BA, resuscitator, first aid).",
+      "The emergency and actions are reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Prevención de incendios y explosiones",
+    topic: "Verificación del cumplimiento de seguridad del petrolero",
+    week: 17,
+    taskId: "pn-c0129-w17-verify-tanker-safety-compliance",
+    taskTitle: "Verify The Tanker's Safety Compliance For Cargo Work",
+    scenario: "Before cargo work the officer asks the cadet to verify the tanker's safety compliance, drawing the tanker familiarisation subject together into one safety check.",
+    instructions: [
+      "Verify the atmosphere control (weeks 5, 6): the inert gas system operation and the tank atmosphere monitoring against the safe limits.",
+      "Verify the cargo and pollution safety (weeks 4, 9, 3): the safe cargo procedures, the safety data sheets and the SOPEP readiness.",
+      "Verify the personnel safety and emergency readiness (weeks 2, 10): the breathing apparatus and rescue equipment and the emergency organisation and alarms.",
+      "Report the tanker safety verification and any shortfall in clear maritime English."
+    ],
+    deliverable: "A tanker safety compliance verification integrating the atmosphere control (weeks 5, 6), the cargo and pollution safety (weeks 3, 4, 9) and the personnel and emergency readiness (weeks 2, 10) for cargo work.",
+    assessmentCriteria: [
+      "The atmosphere control is verified (IGS operation, atmosphere monitoring within limits).",
+      "The cargo and pollution safety are verified (procedures, SDS, SOPEP readiness).",
+      "The personnel and emergency readiness are verified (BA and rescue gear, emergency organisation).",
+      "The verification and any shortfall are reported clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0129",
+    subjectName: "Familiarización con buques tanque",
+    subjectId: "pn-s7-familiarizacion-buques-tanque",
+    unit: "Operaciones de la carga",
+    topic: "Entrega de la guardia de carga del petrolero",
+    week: 18,
+    taskId: "pn-c0129-w18-deliver-tanker-cargo-watch-handover",
+    taskTitle: "Deliver The Tanker Cargo Watch Handover Brief",
+    scenario: "At the change of the cargo watch the cadet must hand over, pulling the whole tanker familiarisation subject together into one professional cargo-watch handover.",
+    instructions: [
+      "Hand over the cargo status (weeks 4, 8): the cargo operation in progress, the rate, the tanks in use and the ship-shore transfer state.",
+      "Hand over the safety status (weeks 5, 6, 1): the inert gas and the tank atmospheres, and the fire and hazard controls in force.",
+      "Hand over the emergency readiness (weeks 3, 10, 2): the SOPEP, the emergency organisation and alarms and the breathing apparatus and rescue gear, and any outstanding items.",
+      "Deliver the tanker cargo watch handover brief in clear maritime English."
+    ],
+    deliverable: "A tanker cargo watch handover brief integrating the cargo status (weeks 4, 8), the safety status (weeks 1, 5, 6) and the emergency readiness (weeks 2, 3, 10).",
+    assessmentCriteria: [
+      "The cargo status is handed over completely (operation, rate, tanks, transfer state).",
+      "The safety status is handed over (inert gas, atmospheres, fire and hazard controls).",
+      "The emergency readiness is handed over (SOPEP, organisation, BA and rescue gear, outstanding items).",
+      "The handover is delivered clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
     subjectCode: "C0131",
     subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
     subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
@@ -3479,6 +5045,180 @@ export const pnSemesterViiTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Operaciones de carga rodada",
+    topic: "Operación integrada de carga en el buque RoRo",
+    week: 13,
+    taskId: "pn-c0131-w13-run-full-roro-loading",
+    taskTitle: "Run The Full Ro-Ro Loading Operation",
+    scenario: "A Ro-Ro passenger ferry is to load its vehicles. The cadet must run the full loading operation, integrating the ramp operations, the vehicle lashing, the bow and stern doors and the stability.",
+    instructions: [
+      "Prepare the doors and ramps (week 1): confirm the bow and stern doors and the ramps are maintained, operable and their indicators working before loading.",
+      "Run the ramp loading sequence (week 6): load the vehicles in the planned sequence for the weight distribution and the discharge order, controlling the flow up the ramp safely.",
+      "Lash and check stability (weeks 5 and 2): lash the vehicles against the ship's movement and check the loaded condition keeps the Ro-Ro stability within limits.",
+      "Report the Ro-Ro loading operation in clear maritime English."
+    ],
+    deliverable: "A full Ro-Ro loading operation integrating the doors and ramps (week 1), the ramp loading sequence (week 6) and the vehicle lashing and stability check (weeks 2, 5).",
+    assessmentCriteria: [
+      "The doors and ramps are prepared correctly (maintained, operable, indicators working).",
+      "The ramp loading is run correctly (planned sequence, weight distribution, flow controlled).",
+      "The vehicles are lashed and the stability checked (secured against movement, within limits).",
+      "The operation is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación sobre seguridad de los pasajeros, la carga e integridad del casco",
+    topic: "Alistamiento de las cubiertas de vehículos para la mar",
+    week: 14,
+    taskId: "pn-c0131-w14-prepare-vehicle-decks-for-sea",
+    taskTitle: "Prepare The Vehicle Decks For Sea",
+    scenario: "Before sailing the cadet must prepare the vehicle decks for sea, integrating the atmosphere control, the vehicle lashing, the stability, trim and stresses and the watertight doors.",
+    instructions: [
+      "Control the atmosphere (week 4): confirm the vehicle deck ventilation has cleared the fumes and that the deck atmosphere is safe before closing up for sea.",
+      "Confirm the lashing (week 5): check every vehicle is lashed and the securing is tight for the expected weather and motion.",
+      "Verify stability, stresses and the closing appliances (weeks 11, 2 and 1): confirm the stability, trim and stresses of the loaded ferry are within limits, the watertight integrity is set and the bow and stern doors are closed, secured and indicating closed before sailing.",
+      "Report the vehicle-deck readiness for sea in clear maritime English."
+    ],
+    deliverable: "A vehicle-deck readiness report integrating the atmosphere control (week 4), the vehicle lashing (week 5), the stability, trim and stresses (weeks 2, 11) and the closed and secured doors (week 1).",
+    assessmentCriteria: [
+      "The atmosphere is controlled (ventilation cleared, deck safe before closing up).",
+      "The lashing is confirmed (every vehicle secured tight for the weather).",
+      "The stability, stresses and watertight integrity are verified within limits.",
+      "The readiness for sea is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación en control de multitudes",
+    topic: "Gestión de los pasajeros para una salida segura",
+    week: 15,
+    taskId: "pn-c0131-w15-manage-passengers-for-safe-departure",
+    taskTitle: "Manage The Passengers For A Safe Departure",
+    scenario: "The passengers are embarking for the crossing. The cadet must manage them for a safe departure, integrating the passenger emergency communication, the mustering procedures and the life-saving appliances and control plans.",
+    instructions: [
+      "Deliver the safety information (week 3): communicate the safety brief and the emergency signals to the passengers clearly, including those who do not speak the language.",
+      "Direct the muster arrangements (week 10): assist the passengers to know their muster stations and the routes to them, and the mustering procedure on the alarm.",
+      "Show the appliances and plans (week 9): make the passengers aware of the life-saving appliances and the control plans so they know what is available and where.",
+      "Report the passenger departure readiness in clear maritime English."
+    ],
+    deliverable: "A passenger departure readiness report integrating the safety communication (week 3), the muster arrangements (week 10) and the life-saving appliances and control plans (week 9).",
+    assessmentCriteria: [
+      "The safety information is delivered clearly (brief and signals, understood by all).",
+      "The muster arrangements are directed correctly (stations, routes, mustering procedure).",
+      "The appliances and plans are made known (LSA and control plans, availability and location).",
+      "The readiness is reported clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Emergencias en RoRo",
+    topic: "Respuesta a un incendio y una inundación en la cubierta de vehículos",
+    week: 16,
+    taskId: "pn-c0131-w16-respond-to-fire-and-flooding",
+    taskTitle: "Respond To A Fire And Flooding On The Vehicle Deck",
+    scenario: "A fire breaks out on the vehicle deck and water is entering the space. The cadet must respond, integrating the vehicle-deck fire particularities, the flooding response, the stability effect and the passenger communication.",
+    instructions: [
+      "Fight the fire (week 7): sound the alarm, boundary-cool, use the deck's fixed fire-fighting appropriate to a vehicle fire, and control the ventilation to starve the fire.",
+      "Respond to the flooding (week 8): stop the ingress where possible, run the drainage and the pumps and prevent the water from building a free surface on the deck.",
+      "Assess the stability effect (week 2): assess the free-surface and weight effect of the water on the Ro-Ro stability and warn if the ship is at risk.",
+      "Communicate with the passengers (week 3): keep the passengers informed and directed away from the danger, and report the emergency to the bridge in clear maritime English."
+    ],
+    deliverable: "A vehicle-deck fire and flooding response integrating the fire-fighting (week 7), the flooding response (week 8), the stability effect of the water (week 2) and the passenger communication (week 3).",
+    assessmentCriteria: [
+      "The fire is fought correctly (alarm, boundary cooling, fixed fire-fighting, ventilation controlled).",
+      "The flooding is responded to correctly (ingress stopped, drainage/pumps, free surface prevented).",
+      "The stability effect is assessed and the risk warned (free-surface and weight effect).",
+      "The passengers and the bridge are informed clearly and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación sobre gestión de emergencias y comportamiento humano",
+    topic: "Verificación del cumplimiento de las prescripciones RoRo",
+    week: 17,
+    taskId: "pn-c0131-w17-verify-roro-compliance",
+    taskTitle: "Verify Ro-Ro Compliance With The International Rules",
+    scenario: "Before an inspection the officer asks the cadet to verify the Ro-Ro passenger ship's compliance with the international rules, drawing the Ro-Ro familiarisation subject together into one compliance check.",
+    instructions: [
+      "Verify the hull and cargo integrity (weeks 1, 5, 11): the door maintenance and closing, the vehicle lashing arrangements and the stability, trim and stress limits.",
+      "Verify the passenger safety (weeks 9, 10, 3): the life-saving appliances and control plans, the mustering procedures and the passenger communication arrangements.",
+      "Verify against the international rules (week 12): check that the arrangements meet the international and national requirements for Ro-Ro passenger ships.",
+      "Report the Ro-Ro compliance verification and any shortfall in clear maritime English."
+    ],
+    deliverable: "A Ro-Ro compliance verification integrating the hull and cargo integrity (weeks 1, 5, 11), the passenger safety arrangements (weeks 3, 9, 10) and the international requirements (week 12).",
+    assessmentCriteria: [
+      "The hull and cargo integrity are verified (doors, lashing, stability/trim/stress limits).",
+      "The passenger safety is verified (LSA and control plans, mustering, communication).",
+      "The arrangements are verified against the international and national rules.",
+      "The verification and any shortfall are reported clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester VII",
+    subjectCode: "C0131",
+    subjectName: "Familiarización con buque de pasaje de Transbordo Rodado",
+    subjectId: "pn-s7-familiarizacion-buque-pasaje-roro",
+    unit: "Formación sobre gestión de emergencias y comportamiento humano",
+    topic: "Entrega de la seguridad del buque RoRo",
+    week: 18,
+    taskId: "pn-c0131-w18-deliver-roro-safety-handover",
+    taskTitle: "Deliver The Ro-Ro Safety Handover Brief",
+    scenario: "At the change of watch the cadet must hand over the Ro-Ro passenger ship's safety, pulling the whole Ro-Ro familiarisation subject together into one professional handover.",
+    instructions: [
+      "Hand over the cargo and integrity status (weeks 1, 4, 5, 11): the doors, the vehicle-deck atmosphere, the lashing and the stability, trim and stress condition.",
+      "Hand over the passenger status (weeks 3, 10, 9): the passengers aboard, the mustering readiness and the life-saving appliances and control plans.",
+      "Hand over the emergency readiness (weeks 6, 7, 8): the ramp operations state and the fire and flooding response readiness for the vehicle deck, and any outstanding items.",
+      "Deliver the Ro-Ro safety handover brief in clear maritime English."
+    ],
+    deliverable: "A Ro-Ro safety handover brief integrating the cargo and integrity status (weeks 1, 4, 5, 11), the passenger status (weeks 3, 9, 10) and the emergency readiness (weeks 6, 7, 8).",
+    assessmentCriteria: [
+      "The cargo and integrity status is handed over completely (doors, atmosphere, lashing, stability).",
+      "The passenger status is handed over (passengers aboard, mustering, LSA and control plans).",
+      "The emergency readiness is handed over (ramp state, fire and flooding response, outstanding items).",
+      "The handover is delivered clearly and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
 ];
