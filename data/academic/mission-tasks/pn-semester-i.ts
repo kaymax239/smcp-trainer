@@ -476,6 +476,180 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Operación integrada de carga",
+    topic: "Plan de carga integrando estiba, estabilidad y líneas de carga",
+    week: 13,
+    taskId: "pn-tmo101-w13-draft-full-loading-plan",
+    taskTitle: "Draft The Full Cargo Loading Plan For Departure",
+    scenario: "The vessel loads a mixed cargo in Tampico for departure. The master asks the deck cadet to draft a single loading plan that keeps the ship stable, correctly stowed, and within its load line.",
+    instructions: [
+      "Set out the loading sequence for the mixed cargo, applying correct stowage and segregation.",
+      "Check that the plan keeps GM positive and respects free-surface effects.",
+      "Confirm the final draft stays within the applicable load line for the voyage.",
+      "Report the loading plan to the master in clear maritime English."
+    ],
+    deliverable: "An integrated cargo loading plan in English: sequence, stowage/segregation, a stability check, and load line compliance.",
+    assessmentCriteria: [
+      "The loading sequence and segregation are correct.",
+      "The stability check (GM, free surface) is sound.",
+      "The load line compliance is verified for the voyage.",
+      "The plan is clear, professional, and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Operación integrada de carga",
+    topic: "Preparación del buque y la carga para mar gruesa",
+    week: 14,
+    taskId: "pn-tmo101-w14-prepare-heavy-weather-passage",
+    taskTitle: "Prepare The Vessel And Cargo For A Heavy-Weather Passage",
+    scenario: "A heavy-weather warning is in force for the passage out of Tampico. The officer asks the cadet to prepare the ship and cargo, drawing on hull stress, structural reinforcement and cargo securing.",
+    instructions: [
+      "Identify the hull stresses (hogging/sagging, panting) expected in the forecast sea state.",
+      "State the cargo securing and lashing checks to make before heavy weather.",
+      "Recommend one deck-watch action to reduce loads (speed/course).",
+      "Report the heavy-weather preparation in clear deck-watch English."
+    ],
+    deliverable: "A heavy-weather preparation report in English integrating hull stress, cargo securing, and a deck-watch action.",
+    assessmentCriteria: [
+      "The expected hull stresses are identified correctly.",
+      "The cargo securing checks are appropriate.",
+      "The deck-watch action is valid for the sea state.",
+      "The report is clear and in correct deck-watch English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Operación integrada de puerto",
+    topic: "Secuencia de arribo integrando fondeo, amarre y lastre",
+    week: 15,
+    taskId: "pn-tmo101-w15-direct-arrival-sequence",
+    taskTitle: "Direct The Arrival Sequence Into Tampico",
+    scenario: "The vessel is arriving at Tampico and must anchor to await a berth, then shift alongside. The master asks the cadet to plan the arrival, integrating anchoring, ballast for berthing, and mooring.",
+    instructions: [
+      "Plan the anchoring in the outer anchorage: cable scope and forecastle orders.",
+      "State the ballast adjustment needed to trim the ship for berthing.",
+      "Give the mooring plan alongside: lines and order of making fast.",
+      "Report the arrival sequence in clear bridge-to-forecastle English."
+    ],
+    deliverable: "An arrival plan in English integrating anchoring, ballast for berthing, and the mooring sequence.",
+    assessmentCriteria: [
+      "The anchoring plan and cable scope are correct.",
+      "The ballast/trim reasoning fits berthing.",
+      "The mooring sequence is correct and safe.",
+      "The plan is clear and in correct SMCP-style English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Respuesta a emergencias de carga",
+    topic: "Corrimiento de carga y pérdida de estabilidad",
+    week: 16,
+    taskId: "pn-tmo101-w16-respond-cargo-shift",
+    taskTitle: "Respond To A Cargo Shift And Loss Of Stability",
+    scenario: "In a seaway the cargo shifts and the vessel takes a list. The officer asks the cadet to assess the stability situation and recommend immediate action.",
+    instructions: [
+      "Explain how the cargo shift and any free surface reduce stability and cause the list.",
+      "State the immediate actions to stop the situation worsening.",
+      "Recommend how to restore a safe condition (ballast, course/speed, securing).",
+      "Report the emergency assessment and actions in clear maritime English."
+    ],
+    deliverable: "An emergency stability report in English: cause of the list, immediate actions, and how to restore a safe condition.",
+    assessmentCriteria: [
+      "The stability/free-surface reasoning is correct.",
+      "The immediate actions are appropriate and safe.",
+      "The recovery recommendation is sound.",
+      "The report is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Cumplimiento normativo integrado",
+    topic: "Verificación de SOLAS, MARPOL y líneas de carga para el viaje",
+    week: 17,
+    taskId: "pn-tmo101-w17-verify-voyage-compliance",
+    taskTitle: "Verify Full Regulatory Compliance For The Voyage",
+    scenario: "As an end-of-semester capstone, before departure the master asks the cadet to run a full compliance check for the intended voyage across SOLAS, MARPOL and load line requirements.",
+    instructions: [
+      "Check the cargo and operation against the relevant SOLAS requirements.",
+      "Check the operation against the relevant MARPOL requirements (e.g. ballast, garbage, oil).",
+      "Confirm load line and seasonal zone compliance for the route.",
+      "Report the compliance verdict to the master in clear maritime English, flagging any corrective action."
+    ],
+    deliverable: "A voyage compliance statement in English covering SOLAS, MARPOL and load line, with a clear compliant/not-compliant verdict.",
+    assessmentCriteria: [
+      "The SOLAS check is relevant and correct.",
+      "The MARPOL check is relevant and correct.",
+      "The load line/zone compliance is correct.",
+      "The statement is clear, professional, and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "pn-s1-transporte-maritimo",
+    unit: "Integración final de la asignatura",
+    topic: "Informe de alistamiento del buque para el viaje",
+    week: 18,
+    taskId: "pn-tmo101-w18-voyage-readiness-brief",
+    taskTitle: "Deliver The Voyage Readiness Brief To The Master",
+    scenario: "As the closing capstone of the subject, the master asks the cadet to deliver a full voyage readiness brief that pulls together everything learned this semester: the ship, its cargo, its stability, and its compliance.",
+    instructions: [
+      "Summarise the vessel and cargo condition: loading, stowage and stability status.",
+      "Confirm structural and heavy-weather readiness for the intended passage.",
+      "State the regulatory compliance status for the voyage.",
+      "Deliver the readiness brief to the master in clear, professional maritime English."
+    ],
+    deliverable: "A voyage readiness brief in English integrating cargo/stability status, structural/heavy-weather readiness, and regulatory compliance.",
+    assessmentCriteria: [
+      "The cargo and stability summary is accurate.",
+      "The structural/heavy-weather readiness is sound.",
+      "The compliance status is correct.",
+      "The brief is clear, professional, and in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "ALG103",
     subjectName: "Álgebra",
     subjectId: "pn-s1-algebra",
@@ -813,6 +987,180 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Momentos y centro de gravedad",
+    topic: "Cálculo integrado del centro de gravedad con despeje de fórmulas y porcentaje",
+    week: 13,
+    taskId: "pn-alg103-w13-compute-full-loading-cg",
+    taskTitle: "Compute The Full Loading Plan Centre Of Gravity",
+    scenario: "A general cargo ship is loading three parcels into holds 1, 2 and 3 before departure Tampico. You must combine the moment method, weighted average and formula transposition to find the final vertical and longitudinal centre of gravity and report each parcel as a percentage of total deadweight.",
+    instructions: [
+      "Tabulate each parcel weight, its distance from the reference and compute its moment, then sum weights and moments.",
+      "Apply the weighted-average and transposed moment formula to solve for the combined KG and LCG.",
+      "Express every parcel as a percentage of total deadweight using proportion and the rule of three.",
+      "Report the computed centre of gravity, the deadweight split and the method used to the chief officer in clear maritime English."
+    ],
+    deliverable: "A signed loading-calculation sheet showing moments, combined KG/LCG and the deadweight percentage split.",
+    assessmentCriteria: [
+      "Moments and weighted average are set up and summed correctly.",
+      "Formula transposition solves for the correct KG and LCG values.",
+      "Deadweight percentages are consistent with the tabulated weights.",
+      "Results and method are communicated accurately in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Matrices y determinantes",
+    topic: "Reparto de lastre y combustible con matrices y sistemas de ecuaciones",
+    week: 14,
+    taskId: "pn-alg103-w14-solve-ballast-fuel-system",
+    taskTitle: "Solve The Combined Ballast And Fuel Distribution",
+    scenario: "To correct trim and heel before sailing you must split ballast between two tanks and fuel between two bunkers so that both a total-quantity condition and a moment-balance condition are met. You set the problem as a linear system and solve it with the matrix inverse and determinant.",
+    instructions: [
+      "Write the two operating conditions as a two-by-two linear system in the tank quantities.",
+      "Form the coefficient matrix, evaluate its determinant and confirm a unique solution exists.",
+      "Solve the system with the inverse matrix and check the result by back-substitution.",
+      "Report the ballast and fuel split, the determinant check and the trim outcome to the officer of the watch in maritime English."
+    ],
+    deliverable: "A worked distribution table with the matrix solution and back-substitution check for both tanks.",
+    assessmentCriteria: [
+      "The linear system correctly represents both operating conditions.",
+      "Determinant and inverse are computed without error.",
+      "Back-substitution confirms the distribution is valid.",
+      "The distribution and check are reported clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Sistemas de Ecuaciones y desigualdades",
+    topic: "Optimización del embarque bajo desigualdades de peso, espacio y proporción",
+    week: 15,
+    taskId: "pn-alg103-w15-optimise-cargo-under-limits",
+    taskTitle: "Optimise The Cargo Mix Within All Safety Limits",
+    scenario: "Two cargo types compete for limited deadweight and hold volume while a required loading ratio must be kept. You combine linear programming, safety inequalities and proportion to choose the mix that maximises freight without breaching any limit.",
+    instructions: [
+      "State the objective function and write the weight, volume and ratio constraints as inequalities.",
+      "Find the feasible region and evaluate the objective at each vertex.",
+      "Select the optimum mix and verify it satisfies every safety inequality.",
+      "Report the recommended cargo mix, the binding limits and the freight benefit to the chief officer in maritime English."
+    ],
+    deliverable: "A linear-programming worksheet showing the feasible region, the optimum vertex and the verified cargo mix.",
+    assessmentCriteria: [
+      "Objective and constraints are formulated correctly as inequalities.",
+      "The optimum is identified at the correct feasible vertex.",
+      "The chosen mix is verified against all safety limits.",
+      "The recommendation is communicated clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Desigualdades",
+    topic: "Recuperación de estabilidad con momentos, despeje y límites de seguridad",
+    week: 16,
+    taskId: "pn-alg103-w16-recover-stability-shift",
+    taskTitle: "Recalculate Stability After A Cargo Shift",
+    scenario: "During passage a parcel shifts and the ship takes a list. You must recompute the moments, solve for the corrective ballast using formula transposition and confirm the corrected condition stays inside the safety inequalities before continuing.",
+    instructions: [
+      "Recompute the shifted moment and the resulting change in the centre of gravity.",
+      "Transpose the moment formula to solve for the corrective ballast weight needed.",
+      "Verify the corrected condition satisfies the maximum-list and minimum-margin inequalities.",
+      "Report the cause, the corrective calculation and the restored safe condition to the master in maritime English."
+    ],
+    deliverable: "A stability-recovery calculation showing the shifted moment, corrective weight and the verified safety margin.",
+    assessmentCriteria: [
+      "The shifted moment and centre-of-gravity change are computed correctly.",
+      "Formula transposition yields the correct corrective ballast.",
+      "The corrected condition is confirmed within all safety inequalities.",
+      "The incident and correction are reported accurately in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Transposición de fórmulas",
+    topic: "Auditoría numérica de la travesía integrando proporción, momentos y logaritmos",
+    week: 17,
+    taskId: "pn-alg103-w17-audit-voyage-calculations",
+    taskTitle: "Audit The Full Voyage Calculation Set",
+    scenario: "Before sailing the master asks you to audit every quantitative element of the voyage: fuel proportions, the loaded centre of gravity, a sound-signal level worked with logarithms and a direct range from squares and roots. You verify each calculation is correct and internally consistent.",
+    instructions: [
+      "Recheck the fuel and cargo proportions with the rule of three and confirm the deadweight percentages.",
+      "Re-verify the loaded centre of gravity by transposing the moment formula independently.",
+      "Confirm the logarithmic sound-signal level and the square-root range calculation are correct.",
+      "Report the audit findings, any correction and the final validated figures to the master in maritime English."
+    ],
+    deliverable: "A voyage calculation audit sheet listing each check, its result and the validated figures.",
+    assessmentCriteria: [
+      "Proportion and percentage checks are performed correctly.",
+      "The centre-of-gravity re-verification is independent and correct.",
+      "Logarithmic and radical calculations are confirmed valid.",
+      "The audit findings are communicated clearly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "pn-s1-algebra",
+    unit: "Sistemas de Ecuaciones y desigualdades",
+    topic: "Síntesis del semestre: paquete de cálculo operativo de la travesía",
+    week: 18,
+    taskId: "pn-alg103-w18-deliver-voyage-math-package",
+    taskTitle: "Deliver The Complete Voyage Mathematics Package",
+    scenario: "As an end-of-semester capstone you assemble the full mathematics package supporting the departure: the optimised cargo mix, the ballast-and-fuel matrix solution, the centre-of-gravity calculation and the safety-limit checks, and you present it as a single decision brief to the master.",
+    instructions: [
+      "Assemble the optimisation, matrix distribution, centre-of-gravity and inequality checks into one package.",
+      "Cross-check that every result is mutually consistent and within all operating limits.",
+      "Summarise the key numbers the master needs for the sailing decision.",
+      "Deliver the voyage mathematics brief, stating assumptions and limits, to the master in maritime English."
+    ],
+    deliverable: "A consolidated voyage mathematics brief integrating optimisation, distribution, centre of gravity and safety checks.",
+    assessmentCriteria: [
+      "All component calculations are correctly integrated into one package.",
+      "The results are shown to be mutually consistent and within limits.",
+      "The brief highlights the decision-critical figures clearly.",
+      "The package is presented professionally in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -1166,6 +1514,180 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Planeación cinemática de la travesía integrando velocidad, ETA y movimiento relativo",
+    week: 13,
+    taskId: "pn-fis104-w13-plan-passage-kinematics",
+    taskTitle: "Plan The Passage Speed, ETA And Traffic Picture",
+    scenario: "You plan a leg toward the Tampico approaches on the AIS picture. Combining kinematics in one and two dimensions with set and drift, you compute steaming time and ETA and analyse a closing situation with a crossing vessel to confirm a safe passing.",
+    instructions: [
+      "Compute distance, speed and steaming time for the leg and derive the ETA.",
+      "Resolve the set-and-drift vector to correct the ground track.",
+      "Work the relative motion of the crossing vessel and estimate the closest point of approach.",
+      "Report the planned ETA, the corrected track and the traffic assessment to the officer of the watch in SMCP English."
+    ],
+    deliverable: "A passage kinematics sheet with ETA, corrected ground track and the relative-motion assessment.",
+    assessmentCriteria: [
+      "Distance, speed and time relations produce the correct ETA.",
+      "The set-and-drift vector correctly adjusts the ground track.",
+      "Relative motion yields a sound closest-point-of-approach assessment.",
+      "The plan and traffic picture are reported clearly in SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Hidrostática",
+    topic: "Análisis integrado de calado por presión, densidad del agua y propiedades de la materia",
+    week: 14,
+    taskId: "pn-fis104-w14-analyse-draught-density",
+    taskTitle: "Analyse The Draught Change On Entering Fresh Water",
+    scenario: "The ship moves from sea water into the brackish water of the Tampico river. Combining hydrostatic pressure, water density and material properties you predict the fresh-water draught change and the hull pressure at the deepest point, and confirm the under-keel clearance.",
+    instructions: [
+      "Calculate the hull pressure at the deepest point using hydrostatic pressure and density.",
+      "Predict the draught change from the sea-water to fresh-water density difference.",
+      "Confirm the resulting under-keel clearance remains adequate for the channel.",
+      "Report the predicted draught change, hull pressure and clearance to the officer of the watch in maritime English."
+    ],
+    deliverable: "A hydrostatic analysis showing hull pressure, the fresh-water draught change and the under-keel clearance.",
+    assessmentCriteria: [
+      "Hull pressure is computed correctly from depth and density.",
+      "The fresh-water draught change is predicted accurately.",
+      "The under-keel clearance conclusion is sound.",
+      "The analysis is reported clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Operación de atraque integrando cantidad de movimiento, fuerzas y trabajo",
+    week: 15,
+    taskId: "pn-fis104-w15-work-berthing-dynamics",
+    taskTitle: "Work The Dynamics Of The Berthing Operation",
+    scenario: "During berthing you must control the ship's momentum against the fenders, estimate the force on the mooring lines and compute the work and power of the deck crane as it lands the first unit. You integrate momentum-impulse, Newton's laws and work-energy-power into one operation.",
+    instructions: [
+      "Compute the ship's momentum and the impulse the fenders must absorb at contact.",
+      "Estimate the force on the principal mooring line using Newton's laws.",
+      "Calculate the work and power of the crane lift for the first landed unit.",
+      "Report the impulse, line force and crane power figures to the officer directing the berthing in maritime English."
+    ],
+    deliverable: "A berthing dynamics sheet with the impulse, mooring-line force and crane work and power.",
+    assessmentCriteria: [
+      "Momentum and impulse at contact are computed correctly.",
+      "The mooring-line force estimate follows Newton's laws correctly.",
+      "Crane work and power are calculated accurately.",
+      "The figures are communicated clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Movimiento oscilatorio",
+    topic: "Respuesta a balance sincrónico integrando oscilaciones, movimiento circular y ondas",
+    week: 16,
+    taskId: "pn-fis104-w16-respond-synchronous-rolling",
+    taskTitle: "Respond To Dangerous Synchronous Rolling In A Seaway",
+    scenario: "In heavy weather the ship begins synchronous rolling as the swell period matches her natural roll period. You analyse the resonance, use the physics of the turn and the wave motion to choose a course-and-speed change that breaks the resonance safely.",
+    instructions: [
+      "Compare the swell encounter period with the ship's natural roll period to confirm resonance.",
+      "Analyse the forces in an alteration of course using circular-motion physics.",
+      "Select a course and speed change that shifts the encounter period out of resonance.",
+      "Report the resonance diagnosis and the corrective course and speed to the master in SMCP English."
+    ],
+    deliverable: "A heavy-weather response note with the resonance analysis and the chosen course-and-speed correction.",
+    assessmentCriteria: [
+      "The resonance condition is correctly identified from the periods.",
+      "The turning-force analysis supports the alteration.",
+      "The chosen course and speed break the resonance safely.",
+      "The diagnosis and correction are reported clearly in SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Ondas",
+    topic: "Verificación física de señales y maniobras integrando ondas, sonido y densidad",
+    week: 17,
+    taskId: "pn-fis104-w17-verify-physics-signals",
+    taskTitle: "Verify The Physics Behind Signals And Manoeuvres",
+    scenario: "Before sailing the master asks you to verify the physical basis of the voyage: the sound-signal range using wave physics, the swell behaviour affecting the ship, the fresh-water draught allowance and the crane duty. You confirm each is physically sound and consistent.",
+    instructions: [
+      "Confirm the sound-signal propagation and audible range using wave physics.",
+      "Verify the swell wavelength and period against the ship's expected motion.",
+      "Cross-check the fresh-water draught allowance from density against the loading condition.",
+      "Report the verification of each physical element and any correction to the master in maritime English."
+    ],
+    deliverable: "A physics verification sheet covering the sound signal, swell response and draught allowance.",
+    assessmentCriteria: [
+      "Wave physics correctly supports the sound-signal range.",
+      "The swell and motion analysis is consistent.",
+      "The density-based draught allowance is verified.",
+      "The verification is reported clearly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "pn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Síntesis del semestre: informe físico de aptitud de la travesía",
+    week: 18,
+    taskId: "pn-fis104-w18-deliver-physics-readiness-brief",
+    taskTitle: "Deliver The Voyage Physics Readiness Brief",
+    scenario: "As an end-of-semester capstone you consolidate the physics supporting the whole voyage: the kinematic passage plan, the hydrostatic draught analysis, the berthing dynamics and the heavy-weather roll response, and present it as one readiness brief to the master.",
+    instructions: [
+      "Assemble the kinematic, hydrostatic, dynamic and oscillation analyses into one brief.",
+      "Confirm the figures are mutually consistent and within safe operating margins.",
+      "Summarise the physical risks and the mitigations for the sailing decision.",
+      "Deliver the physics readiness brief, stating assumptions and margins, to the master in maritime English."
+    ],
+    deliverable: "A consolidated voyage physics readiness brief integrating kinematics, hydrostatics, dynamics and roll response.",
+    assessmentCriteria: [
+      "All physical analyses are correctly integrated into one brief.",
+      "The figures are shown consistent and within safe margins.",
+      "Risks and mitigations are clearly identified.",
+      "The brief is presented professionally in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "ELE106",
     subjectName: "Electricidad",
     subjectId: "pn-s1-electricidad",
@@ -1514,6 +2036,180 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Redes eléctricas",
+    topic: "Análisis integrado de una red de puente con Ohm, Kirchhoff y potencia",
+    week: 13,
+    taskId: "pn-ele106-w13-analyse-full-bridge-network",
+    taskTitle: "Analyse The Full Bridge Electrical Network",
+    scenario: "You must verify the bridge distribution feeding navigation lights, instruments and a deck floodlight. Combining Ohm's law, Kirchhoff's laws and power-energy relations you compute the branch currents, total load and daily energy consumption of the network.",
+    instructions: [
+      "Map the bridge loads and apply Ohm's law to each branch.",
+      "Use Kirchhoff's laws to solve the branch and total currents in the network.",
+      "Compute the total power and the daily energy consumption of the loads.",
+      "Report the branch currents, total load and energy figures to the officer of the watch in maritime English."
+    ],
+    deliverable: "A bridge network analysis sheet with branch currents, total power and daily energy.",
+    assessmentCriteria: [
+      "Ohm's law is applied correctly to each branch.",
+      "Kirchhoff's laws solve the network currents correctly.",
+      "Power and energy figures are computed accurately.",
+      "The network analysis is reported clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Baterías y acumuladores",
+    topic: "Dimensionado de emergencia integrando baterías, potencia y protección eléctrica",
+    week: 14,
+    taskId: "pn-ele106-w14-size-emergency-supply",
+    taskTitle: "Size And Protect The Emergency Lighting Supply",
+    scenario: "You size the emergency lighting battery bank for the required endurance, choose the correct fuse and confirm the earthing so that the emergency circuit is both adequate and safe. You integrate battery capacity, power-energy and electrical protection.",
+    instructions: [
+      "Compute the emergency load and the battery capacity needed for the required endurance.",
+      "Configure the cells in series and parallel to meet the voltage and capacity.",
+      "Select the protective fuse and confirm the earthing arrangement is correct.",
+      "Report the bank rating, endurance and protection to the electro-technical officer in maritime English."
+    ],
+    deliverable: "An emergency-supply specification with the battery bank rating, endurance and protection selection.",
+    assessmentCriteria: [
+      "The emergency load and required capacity are computed correctly.",
+      "The cell configuration meets voltage and capacity requirements.",
+      "Fuse and earthing selection are appropriate and safe.",
+      "The specification is reported clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Conexiones eléctricas",
+    topic: "Conexión de energía de tierra integrando corriente alterna y continua, estrella-delta y seguridad",
+    week: 15,
+    taskId: "pn-ele106-w15-connect-shore-power",
+    taskTitle: "Connect Shore Power And Start The Main Motor",
+    scenario: "Alongside in Tampico you connect shore power and start a large deck motor. Combining AC/DC selection, star-delta starting and electrical safety you carry out the connection and starting sequence without tripping the supply or endangering the crew.",
+    instructions: [
+      "Confirm the shore supply is compatible in AC/DC type and voltage for the connection.",
+      "Apply the star-delta starting sequence to limit the motor inrush current.",
+      "Verify the earthing and safety isolations before energising.",
+      "Report the connection, starting sequence and safety checks to the officer in charge in maritime English."
+    ],
+    deliverable: "A shore-connection and motor-start procedure record with the AC/DC check, starting sequence and safety confirmations.",
+    assessmentCriteria: [
+      "The AC/DC compatibility check is correct.",
+      "The star-delta starting sequence is applied correctly.",
+      "Earthing and safety isolations are properly verified.",
+      "The procedure is communicated clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Redes eléctricas",
+    topic: "Respuesta a sobrecarga y apagón integrando redes, potencia y protección",
+    week: 16,
+    taskId: "pn-ele106-w16-manage-generator-overload",
+    taskTitle: "Manage A Generator Overload To Prevent A Blackout",
+    scenario: "At sea a generator approaches its limit as heavy loads come on. Combining network current analysis, power calculation and protective load shedding you rebalance the load to keep the current within limits and prevent a blackout.",
+    instructions: [
+      "Compute the total current and power drawn and compare it with the generator limit.",
+      "Identify the non-essential loads to shed to bring current within the safe range.",
+      "Confirm the protection settings will hold once the load is rebalanced.",
+      "Report the overload, the load-shedding action and the restored condition to the officer of the watch in SMCP English."
+    ],
+    deliverable: "A load-management record showing the overload figures, the loads shed and the restored safe current.",
+    assessmentCriteria: [
+      "Total current and power are computed correctly against the limit.",
+      "The load-shedding choice restores a safe margin.",
+      "Protection settings are confirmed appropriate.",
+      "The action and outcome are reported clearly in SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Seguridad y protección eléctrica",
+    topic: "Auditoría eléctrica de seguridad integrando protección, magnetismo y electrostática",
+    week: 17,
+    taskId: "pn-ele106-w17-audit-electrical-safety",
+    taskTitle: "Audit The Vessel's Electrical Safety For Sailing",
+    scenario: "Before sailing you audit the electrical safety of the ship: fuses and earthing on deck, the effect of electrical equipment on the magnetic compass, and control of static electricity during a planned fuel transfer. You confirm each hazard is controlled.",
+    instructions: [
+      "Verify the deck fuse ratings and earthing meet the protection requirements.",
+      "Confirm the magnetic-compass deviation from nearby equipment is within allowance.",
+      "Confirm the static-electricity controls for the fuel transfer are in place.",
+      "Report the electrical safety audit findings and any corrective action to the chief officer in maritime English."
+    ],
+    deliverable: "An electrical safety audit sheet covering protection, compass deviation and static-hazard control.",
+    assessmentCriteria: [
+      "Fuse and earthing verification is correct.",
+      "The compass-deviation check is sound.",
+      "Static-electricity controls are correctly confirmed.",
+      "The audit is reported clearly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "pn-s1-electricidad",
+    unit: "Potencia y energía eléctrica",
+    topic: "Síntesis del semestre: informe de estado del sistema eléctrico del buque",
+    week: 18,
+    taskId: "pn-ele106-w18-deliver-electrical-status-brief",
+    taskTitle: "Deliver The Vessel Electrical Status Brief",
+    scenario: "As an end-of-semester capstone you consolidate the state of the ship's electrical system: the bridge network load, the emergency battery endurance, the generator load margin and the safety audit, and present it as one status brief before departure.",
+    instructions: [
+      "Assemble the network load, emergency endurance, generator margin and safety checks into one brief.",
+      "Confirm the total load leaves an adequate generating margin for the voyage.",
+      "Summarise the electrical risks and the protective measures for the departure.",
+      "Deliver the electrical status brief, stating loads and margins, to the chief engineer in maritime English."
+    ],
+    deliverable: "A consolidated electrical status brief integrating network load, emergency endurance, generator margin and safety.",
+    assessmentCriteria: [
+      "All electrical figures are correctly integrated into one brief.",
+      "The generating margin is shown to be adequate.",
+      "Risks and protective measures are clearly identified.",
+      "The brief is presented professionally in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "ING102",
     subjectName: "Inglés Marítimo I",
     subjectId: "pn-s1-maritime-english-i",
@@ -1857,6 +2553,180 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Comunicación radiotelefónica",
+    topic: "Reporte VHF integrado con frases OMI, números y posición en presente continuo",
+    week: 13,
+    taskId: "pn-ing102-w13-full-vhf-position-exchange",
+    taskTitle: "Conduct A Full VHF Position And Intentions Exchange",
+    scenario: "You are the officer of the watch calling Tampico VTS to report your position and intentions. You combine SMCP message markers, correct number transmission and a present-continuous position report into one complete radiotelephone exchange.",
+    instructions: [
+      "Open the call with the correct identification and an SMCP message marker.",
+      "Give your position, course and speed with numbers transmitted correctly.",
+      "State your present action and intention using the present continuous.",
+      "Complete the exchange with read-back and closing in correct SMCP English."
+    ],
+    deliverable: "A written VHF exchange script from opening call to closing, using SMCP markers throughout.",
+    assessmentCriteria: [
+      "Message markers and call structure follow SMCP correctly.",
+      "Numbers and position are transmitted accurately.",
+      "Present continuous is used correctly for actions and intentions.",
+      "The whole exchange is delivered in correct SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Presente simple y there is / there are",
+    topic: "Relevo de guardia integrando descripción del buque, sucesos en pasado y adverbios de frecuencia",
+    week: 14,
+    taskId: "pn-ing102-w14-full-watch-handover",
+    taskTitle: "Give A Complete Bridge Watch Handover",
+    scenario: "At the end of your watch you hand over to the relieving officer. You combine a present-simple description of the ship and conditions, a past-simple account of what happened, and frequency adverbs for the routine checks into one clear handover.",
+    instructions: [
+      "Describe the current ship state and conditions using present simple and there is / there are.",
+      "Narrate the events of the watch in the past simple.",
+      "State the routine checks and their frequency using frequency adverbs.",
+      "Deliver the complete handover and confirm the relief understands in correct maritime English."
+    ],
+    deliverable: "A written watch-handover brief covering current state, past events and routine checks.",
+    assessmentCriteria: [
+      "Present simple and there is / there are describe the state correctly.",
+      "Past-simple narration of events is accurate.",
+      "Frequency adverbs correctly express the routine.",
+      "The handover is delivered clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Órdenes normalizadas",
+    topic: "Maniobra integrada con órdenes de timón y máquina, disponibilidad con can y lazo cerrado",
+    week: 15,
+    taskId: "pn-ing102-w15-conduct-helm-engine-manoeuvre",
+    taskTitle: "Conduct A Helm And Engine Manoeuvre With Read-Back",
+    scenario: "During arrival you direct a manoeuvre requiring standard wheel and engine orders. You first confirm equipment readiness using can / cannot, then give and acknowledge the orders with closed-loop confirmation.",
+    instructions: [
+      "Confirm the steering and engine readiness using can and cannot.",
+      "Give the standard wheel orders in the correct SMCP form.",
+      "Give the standard engine orders and obtain the read-back for each.",
+      "Confirm each order is executed and acknowledged in correct SMCP English."
+    ],
+    deliverable: "A written sequence of standard helm and engine orders with the readiness check and read-back.",
+    assessmentCriteria: [
+      "Readiness is correctly stated with can / cannot.",
+      "Standard wheel orders follow the correct SMCP form.",
+      "Engine orders and read-backs are complete and correct.",
+      "The manoeuvre commands are delivered in correct SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Comunicación radiotelefónica",
+    topic: "Respuesta a hombre al agua integrando pasado simple, frases OMI y ubicación con there is / there are",
+    week: 16,
+    taskId: "pn-ing102-w16-report-man-overboard",
+    taskTitle: "Report A Man Overboard And Direct The Response",
+    scenario: "A crew member falls overboard during your watch. You must report the emergency over VHF, describe what happened in the past simple, and direct a crew member to the life-saving equipment using there is / there are.",
+    instructions: [
+      "Transmit the urgency message with the correct SMCP marker and details.",
+      "Describe what happened and the actions already taken in the past simple.",
+      "Direct a crew member to the life-saving equipment using there is / there are.",
+      "Coordinate the recovery and update the situation in correct SMCP English."
+    ],
+    deliverable: "A written emergency communication covering the urgency call, the past-simple account and the recovery direction.",
+    assessmentCriteria: [
+      "The urgency message follows SMCP correctly.",
+      "Past-simple account of events is accurate and clear.",
+      "Directions to equipment use there is / there are correctly.",
+      "The emergency response is communicated in correct SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Uso del verbo to be con adjetivos posesivos",
+    topic: "Ingreso a puerto integrando presentación de tripulación, alfabeto fonético y números",
+    week: 17,
+    taskId: "pn-ing102-w17-present-crew-to-port",
+    taskTitle: "Present The Crew And Documents To Port Officials",
+    scenario: "On arrival, port officials board the vessel. You present the multinational crew with their nationalities, spell vessel and crew names using the phonetic alphabet, and pass the required numbers and quantities correctly for clearance.",
+    instructions: [
+      "Present the crew, their nationalities and roles using to be and possessive adjectives.",
+      "Spell the vessel name and difficult crew names with the phonetic alphabet.",
+      "Pass the required numbers and quantities correctly to the officials.",
+      "Confirm the officials have understood the information in correct maritime English."
+    ],
+    deliverable: "A written port-entry presentation covering crew nationalities, phonetic spellings and the required figures.",
+    assessmentCriteria: [
+      "Crew and nationalities are presented correctly with to be and possessives.",
+      "Phonetic spelling is accurate and complete.",
+      "Numbers and quantities are passed without error.",
+      "The presentation is delivered clearly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "pn-s1-maritime-english-i",
+    unit: "Comunicación radiotelefónica",
+    topic: "Síntesis del semestre: informe integral de comunicaciones de la travesía",
+    week: 18,
+    taskId: "pn-ing102-w18-deliver-full-communications-brief",
+    taskTitle: "Deliver The Full Voyage Communications Brief",
+    scenario: "As an end-of-semester capstone you deliver the complete communications brief for the voyage: the VTS position report, the watch handover procedure, the standard orders and the emergency reporting, showing you can operate the bridge in English across every routine and emergency function.",
+    instructions: [
+      "Present the VHF reporting procedure with SMCP markers and correct numbers.",
+      "Summarise the watch-handover format covering state, past events and routine.",
+      "Demonstrate the standard helm and engine orders with read-back.",
+      "Deliver the integrated communications brief, including emergency reporting, in correct SMCP English."
+    ],
+    deliverable: "A consolidated voyage communications brief integrating VHF reporting, handover, standard orders and emergency procedures.",
+    assessmentCriteria: [
+      "The VHF and handover procedures are correctly integrated.",
+      "Standard orders and read-back are demonstrated correctly.",
+      "Emergency reporting is included and correct.",
+      "The whole brief is delivered fluently in correct SMCP English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -2480,6 +3350,180 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Acondicionamiento físico",
+    topic: "Plan integrado de acondicionamiento a bordo con condición física y manejo de cargas",
+    week: 13,
+    taskId: "pn-c0011-w13-design-integrated-conditioning-plan",
+    taskTitle: "Design The Integrated Onboard Conditioning Plan",
+    scenario: "You design a complete conditioning plan for a cadet on a working rotation. Combining the physical demands of shipboard duties, a bodyweight routine and safe manual-handling technique, you build a programme that maintains fitness without injury.",
+    instructions: [
+      "Identify the strength, cardiorespiratory and flexibility demands of the duties.",
+      "Build a bodyweight and minimal-equipment routine that targets those demands.",
+      "Integrate safe manual-handling technique into the daily deck tasks.",
+      "Present the conditioning plan and its safety rationale to the training officer in professional English."
+    ],
+    deliverable: "An integrated onboard conditioning plan with routine, load-handling technique and a safety rationale.",
+    assessmentCriteria: [
+      "The physical demands of the duties are correctly identified.",
+      "The routine targets the demands with appropriate progression.",
+      "Manual-handling technique is safely integrated.",
+      "The plan is presented clearly in professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Fatiga y descanso",
+    topic: "Gestión integrada de fatiga con higiene del sueño, rotación de guardia y aptitud física",
+    week: 14,
+    taskId: "pn-c0011-w14-manage-fatigue-and-readiness",
+    taskTitle: "Manage Fatigue And Physical Readiness On A Watch Rotation",
+    scenario: "You are on a demanding watch rotation before a series of emergency drills. Combining fatigue physiology, sleep hygiene and rest-hour rules with physical preparation, you build a plan that keeps you rested and drill-ready.",
+    instructions: [
+      "Map the watch rotation against the required rest hours and identify fatigue risks.",
+      "Apply sleep-hygiene measures to protect recovery between watches.",
+      "Schedule physical preparation so you are fit for the emergency drills without overtraining.",
+      "Report your fatigue-management and readiness plan to the officer of the watch in professional English."
+    ],
+    deliverable: "A fatigue-and-readiness plan aligning rest hours, sleep hygiene and physical preparation.",
+    assessmentCriteria: [
+      "Fatigue risks are correctly identified against the rest hours.",
+      "Sleep-hygiene measures are appropriate and practical.",
+      "Physical preparation is balanced against recovery needs.",
+      "The plan is reported clearly in professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Percepción y coordinación motriz",
+    topic: "Movimiento seguro en el buque integrando coordinación, equilibrio y espacios confinados",
+    week: 15,
+    taskId: "pn-c0011-w15-move-safely-through-ship",
+    taskTitle: "Move Safely And Efficiently Through The Working Ship",
+    scenario: "You must move a task team safely through confined spaces on a moving deck during operations. Combining balance and coordination on a moving deck, spatial awareness and safe movement through confined spaces, you plan and demonstrate the safe route and technique.",
+    instructions: [
+      "Assess the balance and coordination demands of the moving deck.",
+      "Plan the route through the confined spaces using spatial awareness and handholds.",
+      "Demonstrate the safe movement technique for the team to follow.",
+      "Brief the team on the route and the safe technique in professional English."
+    ],
+    deliverable: "A safe-movement plan for the team covering route, balance technique and confined-space precautions.",
+    assessmentCriteria: [
+      "Balance and coordination demands are correctly assessed.",
+      "The route and handhold plan is sound for a moving deck.",
+      "The demonstrated technique is safe and clear.",
+      "The team brief is delivered clearly in professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Natación",
+    topic: "Respuesta de supervivencia en grupo integrando flotación, nado y aptitud para emergencias",
+    week: 16,
+    taskId: "pn-c0011-w16-lead-group-survival-swim",
+    taskTitle: "Lead A Group Survival Swim To The Liferaft",
+    scenario: "After abandoning ship your group must reach a liferaft. Combining sea-survival floating technique, keeping a group together while swimming and the physical demands of emergency response, you lead the group to safety and keep everyone together.",
+    instructions: [
+      "Apply the correct survival floating technique to conserve energy in the water.",
+      "Organise the group to swim together and keep the weakest members supported.",
+      "Manage the physical effort so the whole group reaches the liferaft.",
+      "Give the survival swim commands and encouragement to the group in professional English."
+    ],
+    deliverable: "A group survival-swim plan covering floating technique, group organisation and effort management.",
+    assessmentCriteria: [
+      "The survival floating technique is correctly applied.",
+      "The group is organised to stay together and supported.",
+      "Physical effort is managed so all reach the liferaft.",
+      "The survival commands are given clearly in professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Aptitud física para emergencias",
+    topic: "Evaluación integral de aptitud contra los requisitos de supervivencia y emergencia",
+    week: 17,
+    taskId: "pn-c0011-w17-assess-emergency-fitness",
+    taskTitle: "Assess Your Fitness Against Emergency Requirements",
+    scenario: "Before sailing you audit your own physical readiness against the demands of the emergency drills and sea survival. Combining the fitness self-assessment, the physical demands of emergency exercises and the survival swim requirement, you judge whether you meet the standard.",
+    instructions: [
+      "Measure your strength, cardiorespiratory endurance and flexibility against the standard.",
+      "Compare the results with the physical demands of the emergency drills.",
+      "Identify any gap and set the corrective conditioning target.",
+      "Report your fitness assessment and corrective plan to the training officer in professional English."
+    ],
+    deliverable: "A fitness self-assessment measured against emergency and survival requirements with a corrective plan.",
+    assessmentCriteria: [
+      "The fitness measures are taken correctly against the standard.",
+      "The comparison with drill demands is realistic.",
+      "The corrective target addresses the identified gap.",
+      "The assessment is reported clearly in professional English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "pn-s1-educacion-fisica-i",
+    unit: "Desarrollo físico integral",
+    topic: "Síntesis del semestre: plan integral de aptitud física para la vida a bordo",
+    week: 18,
+    taskId: "pn-c0011-w18-deliver-full-fitness-plan",
+    taskTitle: "Deliver The Complete Shipboard Fitness Plan",
+    scenario: "As an end-of-semester capstone you consolidate your fitness programme for life at sea: the conditioning routine, the fatigue-management plan, the emergency-readiness standard and the survival-swim capability, and present it as one integrated plan.",
+    instructions: [
+      "Assemble the conditioning, fatigue-management and emergency-readiness elements into one plan.",
+      "Confirm the plan sustains strength, endurance and flexibility across the rotation.",
+      "Summarise how the plan keeps you ready for drills and survival at sea.",
+      "Deliver the integrated fitness plan and its rationale to the training officer in professional English."
+    ],
+    deliverable: "A consolidated shipboard fitness plan integrating conditioning, fatigue management, emergency readiness and survival capability.",
+    assessmentCriteria: [
+      "All fitness elements are correctly integrated into one plan.",
+      "The plan sustains the key physical capacities across the rotation.",
+      "Emergency and survival readiness are clearly addressed.",
+      "The plan is presented professionally in professional English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "PMR107",
     subjectName: "Prácticas Marineras I",
     subjectId: "pn-s1-practicas-marineras-i",
@@ -2823,6 +3867,180 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Maniobra de atraque y desatraque",
+    topic: "Maniobra de atraque integrada con distribución de cabos, cabuyería y trabajo en equipo",
+    week: 13,
+    taskId: "pn-pmr107-w13-work-full-berthing",
+    taskTitle: "Work The Full Berthing Operation On Deck",
+    scenario: "The ship comes alongside in Tampico with tugs assisting. Combining the standard mooring line layout, selecting and tying the right knots and sending lines ashore with fenders and teamwork, you work the forward station through the berthing.",
+    instructions: [
+      "Lay out the mooring lines according to the standard arrangement for the berth.",
+      "Select and tie the correct knots and secure the heaving lines to send ashore.",
+      "Coordinate fenders, tugs and the team through the approach and making fast.",
+      "Report the station status and confirm all fast to the officer in charge in maritime English."
+    ],
+    deliverable: "A berthing station record showing the line layout, knots used and the making-fast sequence.",
+    assessmentCriteria: [
+      "The mooring line layout matches the standard for the berth.",
+      "The correct knots are selected and tied securely.",
+      "Fenders, tugs and team are coordinated safely.",
+      "Station status is reported clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Fondeo",
+    topic: "Operación de fondeo integrada con equipo de ancla, cabuyería y maniobra de cubierta",
+    week: 14,
+    taskId: "pn-pmr107-w14-carry-out-full-anchoring",
+    taskTitle: "Carry Out The Full Anchoring Operation",
+    scenario: "You are ordered to anchor in the Tampico roads. Combining the anchor equipment and the anchoring and weighing manoeuvre with the correct securing knots and deck teamwork, you run the forecastle through letting go and confirming the anchor holds.",
+    instructions: [
+      "Prepare the anchor equipment and confirm the ground tackle is ready to let go.",
+      "Carry out the letting-go manoeuvre and pay out the correct scope of cable.",
+      "Secure the windlass and confirm the anchor is holding.",
+      "Report the anchor position, cable out and holding status to the bridge in SMCP English."
+    ],
+    deliverable: "An anchoring operation record with the scope of cable, securing and holding confirmation.",
+    assessmentCriteria: [
+      "The anchor equipment is correctly prepared and checked.",
+      "The letting-go manoeuvre and scope are correct.",
+      "The windlass is secured and holding is confirmed.",
+      "The anchor status is reported clearly in SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Mantenimiento de cubierta",
+    topic: "Trabajo de mantenimiento integrado con control de corrosión, cabuyería y seguridad",
+    week: 15,
+    taskId: "pn-pmr107-w15-plan-deck-maintenance-job",
+    taskTitle: "Plan And Rig A Deck Maintenance Job Safely",
+    scenario: "A corroded area of deck and rail must be chipped, treated and painted at sea. Combining deck maintenance and rust control with the correct ropes and knots for rigging a safe working position, you plan and rig the job safely.",
+    instructions: [
+      "Plan the chipping, scaling, treatment and painting sequence for the corroded area.",
+      "Select the correct ropes and tie the knots to rig a safe working position.",
+      "Set the safety precautions for working over the side and with the coatings.",
+      "Brief the team on the job plan and safety measures in maritime English."
+    ],
+    deliverable: "A deck maintenance job plan with the rust-control sequence, rigging and safety precautions.",
+    assessmentCriteria: [
+      "The rust-control sequence is correct and complete.",
+      "The ropes and knots rig a safe working position.",
+      "The safety precautions are appropriate for the job.",
+      "The team brief is delivered clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Bote salvavidas",
+    topic: "Recuperación de hombre al agua integrando aros y chalecos, flotación y órdenes de boga",
+    week: 16,
+    taskId: "pn-pmr107-w16-coordinate-mob-recovery",
+    taskTitle: "Coordinate A Man-Overboard Boat Recovery",
+    scenario: "A person is in the water and the rescue boat is launched. Combining the correct use of lifejacket and lifebuoy, flotation and survival swimming, and organising a pulling boat with the oar orders, you coordinate the recovery.",
+    instructions: [
+      "Deploy the lifebuoy and confirm the casualty and crew lifejackets are correct.",
+      "Organise the pulling boat and give the oar orders to approach the casualty.",
+      "Recover the casualty using the correct flotation and lifting technique.",
+      "Report the recovery and the casualty condition to the bridge in SMCP English."
+    ],
+    deliverable: "A man-overboard recovery record covering the appliances used, boat organisation and casualty status.",
+    assessmentCriteria: [
+      "The lifebuoy and lifejackets are used correctly.",
+      "The pulling boat is organised and the oar orders are correct.",
+      "The recovery technique is safe and effective.",
+      "The recovery is reported clearly in SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Bote salvavidas",
+    topic: "Verificación integral de equipo salvavidas, amarre y fondeo antes de zarpar",
+    week: 17,
+    taskId: "pn-pmr107-w17-verify-deck-readiness",
+    taskTitle: "Verify Deck And Life-Saving Readiness For Sailing",
+    scenario: "Before sailing you audit the deck readiness: the lifeboat, lifejackets and lifebuoys, the mooring line and anchor equipment, and the knots and securings. You confirm every item is present, correct and ready.",
+    instructions: [
+      "Check the lifeboat, lifejackets and lifebuoys are complete and correctly stowed.",
+      "Verify the mooring line layout and anchor equipment are ready and secured.",
+      "Confirm the working knots and securings are correct and sound.",
+      "Report the deck readiness audit and any deficiency to the chief officer in maritime English."
+    ],
+    deliverable: "A deck readiness audit sheet covering life-saving appliances, mooring, anchor and securings.",
+    assessmentCriteria: [
+      "Life-saving appliances are correctly checked and complete.",
+      "Mooring and anchor equipment are verified ready.",
+      "Knots and securings are confirmed sound.",
+      "The audit is reported clearly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "pn-s1-practicas-marineras-i",
+    unit: "Cabos de amarre",
+    topic: "Síntesis del semestre: relevo de cubierta de las operaciones marineras",
+    week: 18,
+    taskId: "pn-pmr107-w18-deliver-deck-handover",
+    taskTitle: "Deliver The Deck Operations Handover Brief",
+    scenario: "As an end-of-semester capstone you hand over the deck to the next watch, consolidating the semester's seamanship: mooring and anchoring status, maintenance in progress, and the life-saving appliance state, and present it as one deck handover brief.",
+    instructions: [
+      "Summarise the mooring and anchoring status and any lines or cable in use.",
+      "Report the deck maintenance in progress and the safety precautions set.",
+      "Confirm the life-saving appliance state and any outstanding item.",
+      "Deliver the deck handover brief and confirm the relief understands in maritime English."
+    ],
+    deliverable: "A consolidated deck handover brief integrating mooring, anchoring, maintenance and life-saving status.",
+    assessmentCriteria: [
+      "The mooring and anchoring status is complete and accurate.",
+      "Maintenance and its precautions are correctly reported.",
+      "The life-saving appliance state is confirmed.",
+      "The handover is delivered clearly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -3176,6 +4394,180 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Planos del buque",
+    topic: "Lectura integrada de la disposición general con vistas ortográficas y simbología",
+    week: 13,
+    taskId: "pn-dii105-w13-read-general-arrangement",
+    taskTitle: "Read The General Arrangement To Locate A System",
+    scenario: "You must trace a piping and fitting system across the ship. Combining the general arrangement plan, the three orthographic views and shipboard symbols, you locate the compartment, identify the fittings and describe their position for a work party.",
+    instructions: [
+      "Locate the compartment and system on the general arrangement plan.",
+      "Read the plan, elevation and profile views to fix the fitting positions.",
+      "Interpret the shipboard symbols to identify each fitting and valve.",
+      "Describe the compartment, fittings and access route to the work party in maritime English."
+    ],
+    deliverable: "A plan-reading brief giving the compartment location, fittings identified and the access route.",
+    assessmentCriteria: [
+      "The compartment and system are correctly located on the plan.",
+      "The orthographic views are read consistently.",
+      "The symbols are interpreted correctly.",
+      "The location brief is communicated clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Trabajo en la carta náutica",
+    topic: "Trazado integrado en la carta con escalas, acotaciones, rumbo y marcación",
+    week: 14,
+    taskId: "pn-dii105-w14-plot-chart-track",
+    taskTitle: "Plot The Track And Fix On The Nautical Chart",
+    scenario: "You lay off a leg toward Tampico on the nautical chart. Combining scale and dimensioning, distinguishing the nautical chart from other plans, and plotting course, bearing and position, you draw the track and fix a position.",
+    instructions: [
+      "Confirm the chart scale and use it to measure the leg distance.",
+      "Plot the course line and lay off the required bearing.",
+      "Fix and mark the position from the bearings and confirm it against the track.",
+      "Report the plotted track, distance and fixed position to the officer of the watch in maritime English."
+    ],
+    deliverable: "A chartwork record showing the plotted track, measured distance and fixed position.",
+    assessmentCriteria: [
+      "The scale is used correctly to measure distance.",
+      "The course and bearing are plotted accurately.",
+      "The fixed position is consistent with the track.",
+      "The chartwork is reported clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Planos de seguridad",
+    topic: "Interpretación integrada del plano contraincendios con simbología y disposición general",
+    week: 15,
+    taskId: "pn-dii105-w15-interpret-fire-control-plan",
+    taskTitle: "Interpret The Fire Control Plan For A Response",
+    scenario: "A fire is reported in a compartment. Combining the SOLAS fire control plan, the safety symbols and the general arrangement, you locate the appliances, the boundaries and the access routes to plan the response.",
+    instructions: [
+      "Locate the affected compartment and its boundaries on the fire control plan.",
+      "Identify the fire-fighting appliances and their symbols serving the space.",
+      "Trace the access and escape routes using the general arrangement.",
+      "Brief the fire party on the appliances, boundaries and routes in SMCP English."
+    ],
+    deliverable: "A fire-response brief drawn from the fire control plan with appliances, boundaries and routes.",
+    assessmentCriteria: [
+      "The compartment and boundaries are correctly located.",
+      "The appliances and their symbols are correctly identified.",
+      "The access and escape routes are traced correctly.",
+      "The fire-party brief is delivered clearly in SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Interpretación",
+    topic: "Diagnóstico de falla eléctrica integrando diagrama unifilar, simbología y secciones",
+    week: 16,
+    taskId: "pn-dii105-w16-trace-electrical-fault",
+    taskTitle: "Trace An Electrical Fault On The Ship Diagram",
+    scenario: "A circuit has failed and you must find the fault from the drawings. Combining the shipboard electrical diagram, the electrical symbols and a sectional view of the affected equipment, you trace the circuit and isolate the fault for the technician.",
+    instructions: [
+      "Trace the failed circuit on the shipboard electrical diagram.",
+      "Interpret the electrical symbols to identify the components in the circuit.",
+      "Use the sectional view to locate the affected component for access.",
+      "Report the traced circuit, the suspected fault and the isolation point to the technician in maritime English."
+    ],
+    deliverable: "A fault-tracing record with the circuit path, components identified and the isolation point.",
+    assessmentCriteria: [
+      "The failed circuit is traced correctly on the diagram.",
+      "The electrical symbols and components are correctly identified.",
+      "The sectional view correctly locates the component.",
+      "The fault findings are reported clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Proyección Isométrica",
+    topic: "Verificación integral de planos con proyección isométrica, cortes y acotaciones",
+    week: 17,
+    taskId: "pn-dii105-w17-verify-fitting-drawings",
+    taskTitle: "Verify The Fitting Drawings Against The Ship",
+    scenario: "Before a fabrication job you verify the drawings of a deck fitting are complete and correct. Combining an isometric view, the sectional and orthographic views and the dimensioning, you confirm the drawings agree and are ready for the workshop.",
+    instructions: [
+      "Produce or check the isometric view of the deck fitting.",
+      "Cross-check the sectional and orthographic views for agreement.",
+      "Verify the dimensions and scale are consistent across the views.",
+      "Report the drawing verification and any correction to the workshop in maritime English."
+    ],
+    deliverable: "A drawing verification record covering the isometric, sectional and orthographic views with dimensions checked.",
+    assessmentCriteria: [
+      "The isometric view is correct and clear.",
+      "The sectional and orthographic views agree.",
+      "The dimensions and scale are consistent.",
+      "The verification is reported clearly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "pn-s1-dibujo-ingenieria",
+    unit: "Planos del buque",
+    topic: "Síntesis del semestre: paquete de planos de la travesía para el puente",
+    week: 18,
+    taskId: "pn-dii105-w18-deliver-drawing-package",
+    taskTitle: "Deliver The Voyage Drawing And Plan Package",
+    scenario: "As an end-of-semester capstone you assemble the drawing package supporting the voyage: the general arrangement, the fire control plan, the chartwork and the electrical diagram, and present it as one reference package for the bridge.",
+    instructions: [
+      "Assemble the general arrangement, fire control plan, chartwork and electrical diagram.",
+      "Confirm the plans are consistent and correctly cross-referenced.",
+      "Summarise how each plan supports a voyage or emergency function.",
+      "Deliver the drawing package and its guide to the officer of the watch in maritime English."
+    ],
+    deliverable: "A consolidated voyage drawing package integrating arrangement, fire control, chartwork and electrical plans.",
+    assessmentCriteria: [
+      "All plans are correctly assembled and cross-referenced.",
+      "The plans are shown to be mutually consistent.",
+      "The purpose of each plan is clearly explained.",
+      "The package is presented professionally in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "C0099",
     subjectName: "Estrategias de Aprendizaje",
     subjectId: "pn-s1-estrategias-aprendizaje",
@@ -3524,6 +4916,180 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Manejo de información",
+    topic: "Ayuda de trabajo integrada con resumen, organizadores gráficos y toma de apuntes",
+    week: 13,
+    taskId: "pn-c0099-w13-build-integrated-job-aid",
+    taskTitle: "Build An Integrated Job Aid For A Procedure",
+    scenario: "You must turn a long shipboard procedure into a usable job aid. Combining summary and synthesis, a graphic organiser and Cornell-style note capture, you build a one-page aid a watchkeeper can use quickly.",
+    instructions: [
+      "Summarise and synthesise the procedure into its essential steps.",
+      "Map the steps into a graphic organiser showing the sequence and decisions.",
+      "Capture the key cues and cautions in a Cornell-style note layout.",
+      "Present the job aid and explain how to use it to the watch team in professional English."
+    ],
+    deliverable: "A one-page integrated job aid with a summary, graphic organiser and cue notes.",
+    assessmentCriteria: [
+      "The summary captures the procedure accurately and concisely.",
+      "The graphic organiser shows the sequence and decisions clearly.",
+      "The cue notes highlight the critical points.",
+      "The job aid is presented clearly in professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Gestión del tiempo",
+    topic: "Plan de estudio integrado con priorización, condiciones de estudio y rutina de guardia",
+    week: 14,
+    taskId: "pn-c0099-w14-plan-study-around-watch",
+    taskTitle: "Plan A Study System Around The Watch Routine",
+    scenario: "You must prepare for an exam while standing watches. Combining prioritisation and time management, effective study conditions on board and the watch routine, you build a realistic study schedule that fits the rotation.",
+    instructions: [
+      "Prioritise the study topics against the exam and available time.",
+      "Set the study conditions on board that protect attention and motivation.",
+      "Fit the study blocks around the watch rotation and rest hours.",
+      "Present the study schedule and its rationale to the training officer in professional English."
+    ],
+    deliverable: "A study schedule aligning prioritised topics, study conditions and the watch rotation.",
+    assessmentCriteria: [
+      "The topics are prioritised sensibly against the exam.",
+      "The study conditions support attention and motivation.",
+      "The schedule fits realistically around the watch routine.",
+      "The schedule is presented clearly in professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Técnicas de memorización",
+    topic: "Sistema de retención integrado con mnemotecnia, repaso espaciado y apuntes Cornell",
+    week: 15,
+    taskId: "pn-c0099-w15-build-retention-system",
+    taskTitle: "Build A Retention System For A Convention",
+    scenario: "You must retain the detail of a convention for the exam and for use on board. Combining mnemonics, spaced repetition and Cornell notes, you build a retention system that keeps the material accessible over time.",
+    instructions: [
+      "Build mnemonics for the key rules and sequences of the convention.",
+      "Set a spaced-repetition schedule to review the material over time.",
+      "Organise the Cornell notes so the cues drive the review sessions.",
+      "Explain the retention system and its use to a study partner in professional English."
+    ],
+    deliverable: "A retention system with mnemonics, a spaced-repetition schedule and cue-driven notes.",
+    assessmentCriteria: [
+      "The mnemonics fit the material and aid recall.",
+      "The spaced-repetition schedule is realistic and effective.",
+      "The Cornell notes are organised for review.",
+      "The system is explained clearly in professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Presentación gráfica de la información",
+    topic: "Diagrama de decisión de emergencia integrando organizadores gráficos y síntesis",
+    week: 16,
+    taskId: "pn-c0099-w16-build-emergency-flowchart",
+    taskTitle: "Build A Decision Flowchart For An Emergency",
+    scenario: "A complex emergency procedure must be made usable under pressure. Combining graphic organisers, the synthesis of two sources and metacognitive checking, you build a decision flowchart the crew can follow when time is short.",
+    instructions: [
+      "Synthesise the emergency procedure from the two source documents.",
+      "Build the decision flowchart with clear branches for the key decisions.",
+      "Test the flowchart against a scenario and check it with a metacognitive review.",
+      "Present the flowchart and how to use it under pressure to the crew in professional English."
+    ],
+    deliverable: "A tested emergency decision flowchart synthesised from the source procedures.",
+    assessmentCriteria: [
+      "The synthesis captures both sources accurately.",
+      "The flowchart branches represent the decisions correctly.",
+      "The test and review confirm the flowchart works under pressure.",
+      "The flowchart is presented clearly in professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Metacognición",
+    topic: "Autoevaluación integral del aprendizaje con bitácora, técnicas de estudio y priorización",
+    week: 17,
+    taskId: "pn-c0099-w17-audit-learning-system",
+    taskTitle: "Audit Your Learning System Before The Exam",
+    scenario: "Before the ordinary exam you audit your own learning system. Combining the learning log and self-assessment, your study techniques and your prioritisation, you judge what is working, what is not and what to change.",
+    instructions: [
+      "Review your learning log and self-assess your progress on each topic.",
+      "Evaluate which study techniques produced the best retention.",
+      "Re-prioritise the remaining time onto the weakest topics.",
+      "Report your learning audit and revised plan to the training officer in professional English."
+    ],
+    deliverable: "A learning-system audit with the self-assessment, technique evaluation and revised priorities.",
+    assessmentCriteria: [
+      "The self-assessment is honest and evidence-based.",
+      "The technique evaluation is sound.",
+      "The re-prioritisation targets the real weaknesses.",
+      "The audit is reported clearly in professional English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "pn-s1-estrategias-aprendizaje",
+    unit: "Técnicas de estudio",
+    topic: "Síntesis del semestre: sistema de estudio completo para el examen ordinario",
+    week: 18,
+    taskId: "pn-c0099-w18-deliver-complete-study-system",
+    taskTitle: "Deliver The Complete Study System For The Exam",
+    scenario: "As an end-of-semester capstone you consolidate your whole approach for the ordinary exam: the six-step study technique, the retention system, the job aids and the schedule, and present it as one complete study system.",
+    instructions: [
+      "Assemble the six-step technique, retention system, job aids and schedule into one system.",
+      "Confirm the elements reinforce each other across the exam period.",
+      "Summarise how the system covers understanding, retention and time.",
+      "Deliver the complete study system and its rationale to the training officer in professional English."
+    ],
+    deliverable: "A consolidated study system integrating the study technique, retention, job aids and schedule.",
+    assessmentCriteria: [
+      "All elements are correctly integrated into one system.",
+      "The elements are shown to reinforce each other.",
+      "Understanding, retention and time are all addressed.",
+      "The system is presented professionally in professional English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
     subjectCode: "C0100",
     subjectName: "Expresión Oral y Escrita",
     subjectId: "pn-s1-expresion-oral-escrita",
@@ -3867,6 +5433,180 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación integrada",
+    topic: "Reporte de emergencia integrado con informe oral, registro escrito y lazo cerrado",
+    week: 13,
+    taskId: "pn-c0100-w13-report-and-record-emergency",
+    taskTitle: "Report An Emergency Verbally And In Writing",
+    scenario: "An emergency occurs on your watch. Combining the emergency oral report, the factual written record and closed-loop confirmation, you report the situation verbally to the bridge and then record it accurately in the log.",
+    instructions: [
+      "Give the emergency oral report clearly and confirm it is understood with read-back.",
+      "Separate the facts from assumptions and order the events chronologically.",
+      "Write the factual log entry recording the events and actions taken.",
+      "Read back the final report to confirm accuracy to the officer of the watch in maritime English."
+    ],
+    deliverable: "A paired emergency oral report and factual written log entry of the same event.",
+    assessmentCriteria: [
+      "The oral report is clear and confirmed with read-back.",
+      "Facts are correctly separated and ordered.",
+      "The written log entry is factual and complete.",
+      "The report and record are communicated in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Órdenes en el puente integrando lazo cerrado, órdenes verbales y frases OMI",
+    week: 14,
+    taskId: "pn-c0100-w14-give-orders-with-readback",
+    taskTitle: "Give Bridge Orders With Confirmed Read-Back",
+    scenario: "During a manoeuvre you give a sequence of orders. Combining clear verbal orders with confirmation, active listening and read-back, and SMCP message markers, you ensure every order is understood and acknowledged without ambiguity.",
+    instructions: [
+      "Give each helm and mooring order clearly with the correct SMCP marker.",
+      "Require and check the read-back for each order using active listening.",
+      "Correct any mishearing immediately before proceeding.",
+      "Confirm the completed sequence was executed and acknowledged in correct SMCP English."
+    ],
+    deliverable: "A recorded order sequence with the SMCP markers and confirmed read-backs.",
+    assessmentCriteria: [
+      "Orders are given clearly with the correct markers.",
+      "Read-back is required and checked for each order.",
+      "Mishearings are caught and corrected.",
+      "The sequence is delivered in correct SMCP English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Exposición de seguridad integrando dicción, fluidez, comunicación no verbal y registro",
+    week: 15,
+    taskId: "pn-c0100-w15-deliver-safety-briefing",
+    taskTitle: "Deliver A Full Safety Briefing To The Crew",
+    scenario: "You deliver a safety briefing to a multinational crew before an operation. Combining diction and fluency, verbal and non-verbal communication and matching register to the audience, you deliver a clear briefing everyone understands.",
+    instructions: [
+      "Structure the briefing with clear diction and fluent delivery.",
+      "Use verbal and non-verbal signals to reinforce the key safety points.",
+      "Match the register to the multinational crew to ensure understanding.",
+      "Confirm the crew has understood the safety briefing in professional English."
+    ],
+    deliverable: "A safety briefing plan and delivery notes covering structure, delivery and register.",
+    assessmentCriteria: [
+      "The briefing is structured with clear diction and fluency.",
+      "Non-verbal signals reinforce the key points.",
+      "The register fits the multinational crew.",
+      "The briefing is delivered clearly in professional English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Proceso de comunicación",
+    topic: "Superación de barreras integrando factores del proceso, barreras y análisis de fallas",
+    week: 16,
+    taskId: "pn-c0100-w16-overcome-communication-breakdown",
+    taskTitle: "Overcome A Communication Breakdown On The Bridge",
+    scenario: "A communication breakdown during an operation nearly causes an incident. Combining the communication process, the personal, physical and semantic barriers and the analysis of a breakdown, you diagnose the failure and fix the communication.",
+    instructions: [
+      "Analyse the breakdown against the stages of the communication process.",
+      "Identify the personal, physical and semantic barriers that caused it.",
+      "Redesign the communication to remove the barriers and prevent recurrence.",
+      "Report the breakdown analysis and the corrected procedure to the bridge team in maritime English."
+    ],
+    deliverable: "A communication breakdown analysis with the barriers identified and the corrected procedure.",
+    assessmentCriteria: [
+      "The breakdown is analysed correctly against the process.",
+      "The barriers are correctly identified.",
+      "The corrected communication removes the barriers.",
+      "The analysis is reported clearly in maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación Escrita",
+    topic: "Auditoría de documentación integrando informe de incidente, bitácora y ortografía",
+    week: 17,
+    taskId: "pn-c0100-w17-audit-written-records",
+    taskTitle: "Audit The Voyage Written Records For Clarity",
+    scenario: "Before sailing you audit the written records for clarity and correctness. Combining the incident report, the factual logbook entry and the rules of spelling and grammar, you confirm every document is clear, factual and unambiguous.",
+    instructions: [
+      "Review the incident report for clear main and supporting ideas.",
+      "Check the logbook entries are factual, chronological and complete.",
+      "Correct the spelling and grammar so the documents are unambiguous.",
+      "Report the documentation audit findings and corrections to the chief officer in maritime English."
+    ],
+    deliverable: "A documentation audit sheet with the corrected incident report and log entries.",
+    assessmentCriteria: [
+      "The incident report presents ideas clearly.",
+      "The log entries are factual and chronological.",
+      "Spelling and grammar corrections remove ambiguity.",
+      "The audit is reported clearly in maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "pn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Síntesis del semestre: preparación y entrega del informe de fin de travesía",
+    week: 18,
+    taskId: "pn-c0100-w18-deliver-voyage-debrief",
+    taskTitle: "Prepare And Deliver The Voyage Debrief",
+    scenario: "As an end-of-semester capstone you prepare and deliver the voyage debrief, consolidating the semester's communication skills: the written report, the oral delivery, the read-back discipline and the register control, in one professional presentation.",
+    instructions: [
+      "Prepare the written debrief covering the voyage events and lessons.",
+      "Plan the oral delivery with clear structure, diction and appropriate register.",
+      "Anticipate questions and prepare confirmed, read-back answers.",
+      "Deliver the voyage debrief presentation to the master and crew in professional English."
+    ],
+    deliverable: "A voyage debrief package with the written report and the oral presentation plan.",
+    assessmentCriteria: [
+      "The written debrief is clear, factual and complete.",
+      "The oral delivery is well structured with appropriate register.",
+      "Questions are handled with confirmed answers.",
+      "The debrief is delivered professionally in professional English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
