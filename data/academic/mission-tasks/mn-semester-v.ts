@@ -1512,6 +1512,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sistemas principales de la máquina principal",
+    topic: "Puesta en marcha integrando lubricación, enfriamiento, combustible y arranque",
+    week: 13,
+    taskId: "mn-mot529-w13-bring-main-engine-to-standby",
+    taskTitle: "Bring The Main Engine From Cold To Ready For Departure",
+    scenario: "The vessel is alongside in Altamira and departure is set for 06:00. The chief engineer tasks the cadet with bringing the cold main engine up to stand-by, working on the engine-room simulator: pre-lubrication, jacket cooling warm-through, fuel system priming and a blow-through on starting air before the first turn.",
+    instructions: [
+      "Pre-lubricate the engine and confirm oil pressure, then warm through the jacket cooling water to the correct standby temperature.",
+      "Prime and warm the fuel system and confirm injection is ready for a low-load start.",
+      "Open starting air, blow through on air with indicator cocks open, then turn the engine and confirm it fires and holds idle.",
+      "Report readiness for departure to the bridge in clear engine-room English."
+    ],
+    deliverable: "A main-engine standby readiness log recording lube-oil pressure, cooling temperature, fuel readiness and the successful start, ending in a 'ready for manoeuvring' report.",
+    assessmentCriteria: [
+      "The pre-lubrication and warm-through sequence is correct and in a safe order.",
+      "Fuel priming and low-load start conditions are handled correctly.",
+      "The blow-through and air start follow safe engine-room practice.",
+      "The readiness report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sistemas principales de la máquina principal",
+    topic: "Operación en navegación integrando sobrealimentación, inyección y vigilancia",
+    week: 14,
+    taskId: "mn-mot529-w14-run-and-monitor-engine-at-sea",
+    taskTitle: "Run And Monitor The Main Engine On A Sea Passage",
+    scenario: "The vessel is on a full-away sea passage in the Gulf of Mexico. On the engine-room simulator the cadet must settle the main engine at full sea speed and hold a full watch, keeping the turbocharger, fuel injection and cooling within limits while logging performance for the maintenance record.",
+    instructions: [
+      "Bring the engine to full sea speed and confirm the turbocharger air pressure, scavenge and exhaust temperatures are within limits.",
+      "Check fuel injection and exhaust-temperature spread across the cylinders and correct any imbalance.",
+      "Take a full set of watch readings and compare them against the performance baseline for the monitoring record.",
+      "Report the engine's condition and any deviations in clear engine-room English."
+    ],
+    deliverable: "A completed sea-watch performance log with turbocharger, injection and cooling readings, deviations flagged, and a watch condition report.",
+    assessmentCriteria: [
+      "Turbocharger and scavenge parameters are read and judged correctly.",
+      "The cylinder exhaust-temperature spread is interpreted and acted on correctly.",
+      "Readings are compared against the baseline and deviations are identified.",
+      "The condition report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sistemas principales de la máquina principal",
+    topic: "Maniobra integrando arranque, inversión de marcha, enfriamiento y vigilancia",
+    week: 15,
+    taskId: "mn-mot529-w15-manoeuvre-engine-for-arrival",
+    taskTitle: "Manoeuvre The Main Engine For Arrival Into Tampico",
+    scenario: "The vessel is inbound to Tampico and the bridge has rung 'stand-by engines'. On the engine-room simulator the cadet must run the arrival manoeuvre, answering repeated ahead and astern telegraph orders, managing starting-air reserves and holding cooling and lube conditions through frequent speed changes.",
+    instructions: [
+      "Change over to manoeuvring conditions and confirm starting-air pressure and lube-oil supply for repeated starts.",
+      "Answer a sequence of ahead and astern telegraph orders, reversing the engine correctly on each order.",
+      "Watch starting-air reserves and cooling temperatures through the manoeuvre and take action before any limit is reached.",
+      "Report each telegraph movement and 'finished with engines' to the bridge in clear engine-room English."
+    ],
+    deliverable: "A manoeuvring bell book recording each telegraph order, engine response, air-reserve and cooling status, closing with 'finished with engines'.",
+    assessmentCriteria: [
+      "Engine reversing and telegraph responses are executed correctly.",
+      "Starting-air reserves are managed so the engine is never left unable to start.",
+      "Cooling and lube conditions are held through the manoeuvre.",
+      "Telegraph and finished-with-engines reporting is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sistemas principales de la máquina principal",
+    topic: "Emergencia integrando lubricación, enfriamiento y vigilancia del funcionamiento",
+    week: 16,
+    taskId: "mn-mot529-w16-respond-to-lube-oil-pressure-loss",
+    taskTitle: "Respond To A Loss Of Lube-Oil Pressure At Sea",
+    scenario: "Mid-watch on the engine-room simulator a low lube-oil pressure alarm sounds on the running main engine while at full sea speed. The cadet must protect the engine from bearing damage, diagnose the cause across the lube and cooling systems, and coordinate a controlled slow-down with the bridge.",
+    instructions: [
+      "Act on the low lube-oil pressure alarm and take immediate action to protect the bearings, requesting a slow-down or stop as needed.",
+      "Diagnose the cause across the lube-oil system and check for related cooling or contamination problems.",
+      "Take the corrective action to restore safe oil pressure and confirm bearing and cooling temperatures are stable before resuming.",
+      "Report the emergency, cause and status to the bridge and chief engineer in clear engine-room English."
+    ],
+    deliverable: "An engine incident report stating the alarm, protective action taken, diagnosed cause, corrective action and the engine's restored condition.",
+    assessmentCriteria: [
+      "The immediate protective action prevents bearing damage and is correctly prioritised.",
+      "The diagnosis across lube and cooling systems is sound.",
+      "The corrective action safely restores the engine before resuming.",
+      "The emergency report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Cálculo de motores de dos y cuatro tiempos",
+    topic: "Auditoría de desempeño integrando relación de compresión, calaje y vigilancia",
+    week: 17,
+    taskId: "mn-mot529-w17-audit-engine-performance-vs-design",
+    taskTitle: "Audit Main-Engine Performance Against Its Design Parameters",
+    scenario: "At the end of the semester the chief engineer asks the cadet to audit the main engine's real performance against its design figures, using cylinder swept volume and compression ratio, valve and injection timing, and the sea-passage monitoring readings to judge whether the engine is healthy.",
+    instructions: [
+      "Calculate swept volume and compression ratio and confirm they match the engine's design values.",
+      "Check valve and injection timing against the timing diagram and flag any deviation.",
+      "Compare the monitored performance readings against the design parameters and identify any component drifting out of tolerance.",
+      "Report the performance audit and your recommendation in clear engine-room English."
+    ],
+    deliverable: "A main-engine performance audit stating calculated compression ratio, timing check, monitored deviations and a fit-for-service recommendation.",
+    assessmentCriteria: [
+      "The swept-volume and compression-ratio calculations are correct.",
+      "The timing check is accurate and deviations are correctly identified.",
+      "The comparison against design parameters supports a sound judgment.",
+      "The audit report is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MOT529",
+    subjectName: "Motores I",
+    subjectId: "mn-s5-motores-i",
+    unit: "Sistemas principales de la máquina principal",
+    topic: "Relevo integrando mantenimiento, vigilancia y estado de los sistemas del motor",
+    week: 18,
+    taskId: "mn-mot529-w18-deliver-main-engine-status-brief",
+    taskTitle: "Deliver The Main-Engine Status Brief To The Chief Engineer",
+    scenario: "At the close of the semester the cadet must pull the whole main-engine picture together and deliver a full status brief to the chief engineer at watch handover: current running condition, outstanding maintenance, monitoring trends and any defects, so the incoming watch can take over safely.",
+    instructions: [
+      "Summarise the main engine's current running condition and the state of its lubrication, cooling, fuel and starting-air systems.",
+      "State the outstanding maintenance and any performance trends from the monitoring record.",
+      "List any active defects or limits and the precautions the incoming watch must observe.",
+      "Deliver the complete handover brief in clear engine-room English."
+    ],
+    deliverable: "A main-engine watch handover brief covering running condition, systems status, maintenance, monitoring trends and precautions for the incoming watch.",
+    assessmentCriteria: [
+      "The running condition and systems status are complete and accurate.",
+      "Outstanding maintenance and monitoring trends are correctly summarised.",
+      "Active defects and precautions are clearly stated for a safe handover.",
+      "The handover brief is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "MEF532",
     subjectName: "Mecánica de fluidos",
     subjectId: "mn-s5-mecanica-fluidos",
@@ -1739,6 +1913,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Máquinas hidráulicas",
+    topic: "Operación de bomba integrando curva característica, punto de operación y NPSH",
+    week: 13,
+    taskId: "mn-mef532-w13-commission-a-centrifugal-pump",
+    taskTitle: "Commission A Centrifugal Pump At Its Operating Point",
+    scenario: "A newly overhauled sea-water cooling pump must be put into service. The cadet must set it up so it runs at its design operating point on the system curve, with enough suction head to avoid cavitation while it delivers the required cooling flow.",
+    instructions: [
+      "Locate the pump's operating point where its characteristic curve meets the system curve for the required flow.",
+      "Check the available NPSH against the pump's required NPSH and confirm the suction conditions are safe.",
+      "Start the pump, confirm it delivers the design flow and pressure, and check for signs of cavitation.",
+      "Report the pump's operating condition and cavitation margin in clear engine-room English."
+    ],
+    deliverable: "A pump commissioning record stating the operating point, NPSH margin, delivered flow and pressure, and a cavitation-free confirmation.",
+    assessmentCriteria: [
+      "The operating point is correctly located on the characteristic and system curves.",
+      "The NPSH margin is calculated correctly and judged safe.",
+      "Delivered flow and pressure are confirmed against the design duty.",
+      "The operating report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Líquidos en movimiento",
+    topic: "Análisis de tubería integrando continuidad, Bernoulli y pérdidas por fricción",
+    week: 14,
+    taskId: "mn-mef532-w14-analyse-a-cooling-pipeline",
+    taskTitle: "Analyse The Flow Through A Cooling Pipeline",
+    scenario: "A cooling-water line has changing diameters and a long run with several bends, and the engineer suspects it is not delivering enough flow. The cadet must analyse the pipeline end to end, applying continuity, Bernoulli and friction-loss theory to find where the pressure is being lost.",
+    instructions: [
+      "Apply the continuity equation to find the velocity in each section of the changing-diameter line.",
+      "Apply Bernoulli's equation between two points to relate pressure, velocity and height.",
+      "Calculate the friction losses along the run using the Reynolds number and account for the total head loss.",
+      "Report where the pressure is lost and your finding in clear engine-room English."
+    ],
+    deliverable: "A pipeline flow analysis giving section velocities, the Bernoulli pressure balance, total friction head loss and the location of the loss.",
+    assessmentCriteria: [
+      "The continuity velocities are calculated correctly for each section.",
+      "Bernoulli's equation is applied correctly between the chosen points.",
+      "The friction losses and Reynolds number are handled correctly.",
+      "The analysis report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Sistemas de control hidráulico",
+    topic: "Operación integrando Pascal, multiplicación de fuerza y control del aparato de gobierno",
+    week: 15,
+    taskId: "mn-mef532-w15-operate-hydraulic-steering-gear",
+    taskTitle: "Operate The Hydraulic Steering Gear For Departure",
+    scenario: "Before departure the steering gear must be tested and put into service. The cadet must trace the hydraulic control system on the steering gear, confirm Pascal's principle is multiplying the control force to move the rudder, and verify the control action follows the bridge helm order.",
+    instructions: [
+      "Trace the oil path through the hydraulic steering-gear control system from the telemotor to the rams.",
+      "Explain how Pascal's principle multiplies the control force to drive the rudder rams.",
+      "Test the steering gear hard-over to hard-over and confirm the rudder follows the helm order within the required time.",
+      "Report the steering-gear test result to the bridge in clear engine-room English."
+    ],
+    deliverable: "A steering-gear test record tracing the control oil path, confirming force multiplication and reporting the hard-over time to the bridge.",
+    assessmentCriteria: [
+      "The hydraulic control oil path is traced correctly.",
+      "The force-multiplication explanation is physically correct.",
+      "The hard-over test and response time are verified correctly.",
+      "The test report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Conductos cerrados",
+    topic: "Emergencia integrando golpe de ariete, cavitación y NPSH",
+    week: 16,
+    taskId: "mn-mef532-w16-respond-to-water-hammer-and-cavitation",
+    taskTitle: "Respond To Water Hammer And Pump Cavitation",
+    scenario: "After a fast valve closure the engine-room fire main hammers violently and the supplying pump starts to cavitate and lose delivery. The cadet must stop the damage, diagnose the coupled water-hammer and cavitation problem and restore steady flow.",
+    instructions: [
+      "Take immediate action to stop the water hammer and protect the line from a pressure surge.",
+      "Diagnose why the pump is cavitating by checking the suction conditions and NPSH.",
+      "Restore steady flow by correcting the valve operation and suction conditions, and confirm the hammer and cavitation have stopped.",
+      "Report the incident, cause and recovery in clear engine-room English."
+    ],
+    deliverable: "An incident report stating the water-hammer cause, the cavitation diagnosis, the corrective action and confirmation of restored steady flow.",
+    assessmentCriteria: [
+      "The immediate action correctly stops the pressure surge.",
+      "The cavitation is diagnosed correctly from suction and NPSH conditions.",
+      "The recovery restores steady flow and eliminates both faults.",
+      "The incident report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Equipos que manejan líquidos",
+    topic: "Selección integrando bombas centrífugas y de desplazamiento positivo y medición de flujo",
+    week: 17,
+    taskId: "mn-mef532-w17-select-and-verify-pumping-plant",
+    taskTitle: "Select And Verify The Pumping Plant For Each Duty",
+    scenario: "The engineer asks the cadet to review the engine-room pumping plant and confirm the right type of pump is fitted to each duty, then verify each pump's real output using the installed flow-measuring devices, as an end-of-semester competence check.",
+    instructions: [
+      "For each duty decide whether a centrifugal or a positive-displacement pump is correct and justify the choice from the fluid and pressure demands.",
+      "Read the installed flow-measuring devices (venturi, orifice plate or rotameter) to obtain each pump's real flow.",
+      "Compare the measured flow against the required duty and identify any pump that is under-performing.",
+      "Report the pump selection review and measured performance in clear engine-room English."
+    ],
+    deliverable: "A pumping-plant verification report matching pump type to duty, listing measured flows and flagging any under-performing pump.",
+    assessmentCriteria: [
+      "The centrifugal-versus-positive-displacement choices are correct for each duty.",
+      "The flow-measurement readings are taken and interpreted correctly.",
+      "Measured flows are correctly compared against the required duties.",
+      "The verification report is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MEF532",
+    subjectName: "Mecánica de fluidos",
+    subjectId: "mn-s5-mecanica-fluidos",
+    unit: "Líquidos en reposo",
+    topic: "Cierre integrando presión hidrostática, flotación y análisis del sistema hidráulico",
+    week: 18,
+    taskId: "mn-mef532-w18-deliver-fluid-systems-status-brief",
+    taskTitle: "Deliver The Fluid Systems Status Brief To The Engineer",
+    scenario: "At the close of the semester the cadet must brief the engineer on the state of the engine-room fluid systems, pulling together hydrostatic and buoyancy checks on tanks, pump operating margins and the hydraulic control systems into one handover picture.",
+    instructions: [
+      "Summarise tank soundings and hydrostatic pressures and confirm buoyancy and trim are within limits.",
+      "State each key pump's operating margin and any cavitation or NPSH concern.",
+      "Report the condition of the hydraulic control systems and any outstanding fluid-system defect.",
+      "Deliver the complete fluid-systems status brief in clear engine-room English."
+    ],
+    deliverable: "A fluid-systems handover brief covering hydrostatic and buoyancy status, pump margins, hydraulic control condition and outstanding defects.",
+    assessmentCriteria: [
+      "The hydrostatic and buoyancy status is calculated and reported correctly.",
+      "Pump operating margins and cavitation concerns are accurately summarised.",
+      "The hydraulic control condition and defects are correctly reported.",
+      "The status brief is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -1976,6 +2324,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Sistemas de bombas",
+    topic: "Operación integrando separador de aguas oleosas, sistema de sentinas y MARPOL",
+    week: 13,
+    taskId: "mn-mma533-w13-operate-bilge-and-oily-water-system",
+    taskTitle: "Operate The Bilge And Oily-Water System For Discharge",
+    scenario: "Engine-room bilges need pumping out during a sea passage. On the engine-room simulator the cadet must run the bilge system through the oily-water separator and 15 ppm monitor so any discharge is legal, integrating the separator, the bilge pumping system and MARPOL Annex I limits.",
+    instructions: [
+      "Line up the bilge system to the oily-water separator and confirm the separator and 15 ppm monitor are ready.",
+      "Pump the bilges through the separator and watch the oil-content monitor against the 15 ppm limit.",
+      "Confirm the discharge is legal or divert to the bilge holding tank if the limit is exceeded, and record it in the oil record book.",
+      "Report the operation and the discharge status in clear engine-room English."
+    ],
+    deliverable: "A bilge-discharge record with the separator line-up, oil-content readings, the legal discharge decision and the oil record book entry.",
+    assessmentCriteria: [
+      "The bilge and separator line-up is correct and safe.",
+      "The 15 ppm monitoring is applied correctly during discharge.",
+      "The legal-discharge decision and record-keeping meet MARPOL Annex I.",
+      "The operation report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Purificadores",
+    topic: "Operación integrando purificadores, aire comprimido y generación de vapor",
+    week: 14,
+    taskId: "mn-mma533-w14-put-fuel-treatment-into-service",
+    taskTitle: "Put The Fuel Treatment Plant Into Service For Sea",
+    scenario: "Before full-away the fuel treatment plant must be brought online. On the engine-room simulator the cadet must put the fuel purifier into service with correctly heated fuel, using the auxiliary boiler steam for heating and compressed air for the control system, so the settling and service tanks stay supplied with clean fuel.",
+    instructions: [
+      "Confirm the auxiliary boiler is raising steam to heat the fuel to the correct purifying temperature.",
+      "Confirm compressed-air supply and pressure for the purifier controls and starting air needs.",
+      "Put the fuel purifier into service, set the correct throughput and gravity disc, and confirm clean fuel to the service tank.",
+      "Report the fuel treatment plant status in clear engine-room English."
+    ],
+    deliverable: "A fuel-treatment start-up record confirming steam heating, control-air supply, purifier settings and clean fuel delivery to the service tank.",
+    assessmentCriteria: [
+      "The steam heating and fuel temperature are set correctly for purifying.",
+      "The compressed-air supply and pressure are correctly confirmed.",
+      "The purifier is commissioned with correct throughput and disc selection.",
+      "The status report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Sistema de gobierno y propulsión",
+    topic: "Maniobra integrando maquinilla del timón, paso variable y bow thruster",
+    week: 15,
+    taskId: "mn-mma533-w15-support-arrival-with-steering-and-thrusters",
+    taskTitle: "Support The Arrival Manoeuvre With Steering And Thrusters",
+    scenario: "The vessel is manoeuvring into a Tampico berth and the bridge needs full manoeuvring capability. On the engine-room simulator the cadet must have the steering gear, controllable-pitch propeller and bow thruster ready and answering orders together through the berthing.",
+    instructions: [
+      "Confirm both steering-gear power units are running and the rudder answers helm orders.",
+      "Confirm the controllable-pitch propeller responds correctly to ahead and astern pitch demands.",
+      "Bring the bow thruster online and confirm it answers the bridge thrust orders during the berthing.",
+      "Report the manoeuvring machinery status to the bridge in clear engine-room English."
+    ],
+    deliverable: "A manoeuvring machinery readiness record confirming steering gear, CPP and bow thruster responding to bridge orders through berthing.",
+    assessmentCriteria: [
+      "The steering-gear line-up and helm response are correct.",
+      "The controllable-pitch propeller pitch response is confirmed correctly.",
+      "The bow thruster is brought online and confirmed answering orders.",
+      "The status report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Generación de vapor",
+    topic: "Emergencia integrando caldera auxiliar, aire comprimido y generador de agua dulce",
+    week: 16,
+    taskId: "mn-mma533-w16-respond-to-auxiliary-boiler-shutdown",
+    taskTitle: "Respond To A Loss Of The Auxiliary Boiler At Sea",
+    scenario: "At sea the auxiliary boiler trips and steam pressure falls, which threatens fuel heating and the fresh-water generator. On the engine-room simulator the cadet must manage the loss, protect the dependent auxiliaries and restore steam.",
+    instructions: [
+      "Act on the boiler trip, identify why it shut down and secure it safely.",
+      "Protect the systems that depend on steam, keeping fuel heating and the fresh-water generator from tripping or being damaged.",
+      "Re-light and raise the boiler safely, confirming control-air and feed conditions, and restore steam pressure.",
+      "Report the boiler incident and recovery in clear engine-room English."
+    ],
+    deliverable: "A boiler incident report stating the trip cause, the protection of steam-dependent auxiliaries, the safe re-light and restored steam pressure.",
+    assessmentCriteria: [
+      "The boiler trip is diagnosed and the boiler secured safely.",
+      "The steam-dependent auxiliaries are correctly protected during the loss.",
+      "The re-light and steam recovery follow safe boiler practice.",
+      "The incident report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Tratamiento de aguas residuales",
+    topic: "Auditoría ambiental integrando aguas oleosas, aguas residuales y gas inerte",
+    week: 17,
+    taskId: "mn-mma533-w17-audit-environmental-auxiliaries",
+    taskTitle: "Audit The Environmental Auxiliaries For Compliance",
+    scenario: "Ahead of a port state control inspection the chief engineer asks the cadet to audit the pollution-prevention auxiliaries: the oily-water separator, the sewage treatment plant and the inert gas plant, confirming each meets its MARPOL and safety requirements before arrival.",
+    instructions: [
+      "Verify the oily-water separator and 15 ppm monitor meet MARPOL Annex I for oily-water discharge.",
+      "Verify the sewage treatment plant meets MARPOL Annex IV discharge requirements.",
+      "Confirm the inert gas plant delivers gas within the required oxygen and pressure limits.",
+      "Report the environmental compliance audit in clear engine-room English."
+    ],
+    deliverable: "An environmental-auxiliary compliance audit confirming separator, sewage plant and inert gas plant against their required limits, with any deficiency listed.",
+    assessmentCriteria: [
+      "The oily-water separator is correctly verified against Annex I.",
+      "The sewage plant is correctly verified against Annex IV.",
+      "The inert gas quality checks are correct and complete.",
+      "The audit report is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "MMA533",
+    subjectName: "Maquinaria Marítima Auxiliar",
+    subjectId: "mn-s5-maquinaria-maritima-auxiliar",
+    unit: "Sistema de gobierno y propulsión",
+    topic: "Cierre integrando propulsión especial, refrigeración y generador de agua dulce",
+    week: 18,
+    taskId: "mn-mma533-w18-deliver-auxiliary-plant-status-brief",
+    taskTitle: "Deliver The Auxiliary Plant Status Brief At Handover",
+    scenario: "At the end of the semester the cadet must hand over the state of the auxiliary machinery, pulling together the propulsion and steering auxiliaries, refrigeration and air-conditioning, and the fresh-water generator into one status brief for the incoming watch.",
+    instructions: [
+      "Summarise the condition of the steering, controllable-pitch and special propulsion auxiliaries.",
+      "State the status of provision refrigeration, air conditioning and the fresh-water generator output.",
+      "List outstanding auxiliary defects and the precautions the incoming watch must observe.",
+      "Deliver the complete auxiliary plant handover brief in clear engine-room English."
+    ],
+    deliverable: "An auxiliary-plant handover brief covering propulsion auxiliaries, refrigeration and air conditioning, fresh-water generation and outstanding defects.",
+    assessmentCriteria: [
+      "The propulsion and steering auxiliary status is complete and accurate.",
+      "The refrigeration, air-conditioning and fresh-water status is correct.",
+      "Outstanding defects and precautions are clearly stated for handover.",
+      "The handover brief is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "EIA531",
     subjectName: "Electrotecnia",
     subjectId: "mn-s5-electrotecnia",
@@ -2203,6 +2725,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Sincronización",
+    topic: "Operación integrando sincronización, generadores en paralelo y reparto de carga",
+    week: 13,
+    taskId: "mn-eia531-w13-parallel-generators-and-share-load",
+    taskTitle: "Parallel Two Generators And Share The Load",
+    scenario: "Extra load is coming online before departure and a second diesel generator must be brought onto the main switchboard. On the engine-room simulator the cadet must synchronise the incoming generator to the busbar and share the load evenly between both machines.",
+    instructions: [
+      "Match the incoming generator's frequency, voltage and phase to the busbar and close the breaker at the synchronising point.",
+      "Raise the incoming machine's governor and share the active load between the two generators.",
+      "Trim the voltage regulators to share the reactive load and hold busbar voltage and frequency steady.",
+      "Report the paralleling and load-sharing result in clear engine-room English."
+    ],
+    deliverable: "A generator paralleling record showing the synchronising conditions, the closed breaker and the balanced active and reactive load share.",
+    assessmentCriteria: [
+      "The synchronising conditions are correct before the breaker is closed.",
+      "The active load is shared evenly using the governors.",
+      "The reactive load is shared correctly and busbar voltage held steady.",
+      "The operation report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Arranque de motores de Corriente Alterna de potencias grandes",
+    topic: "Operación integrando arranque estrella-delta, VFD y relaciones de línea y fase",
+    week: 14,
+    taskId: "mn-eia531-w14-start-large-motors-without-tripping",
+    taskTitle: "Start The Large Motors Without Tripping The Board",
+    scenario: "Several large three-phase motors must be started in sequence without collapsing busbar voltage. On the engine-room simulator the cadet must choose the correct reduced-voltage or VFD start for each motor and manage the starting-current demand on the running generators.",
+    instructions: [
+      "For each large motor choose star-delta, reduced-voltage or VFD starting and justify it from the load and starting current.",
+      "Sequence the starts so the combined starting current does not collapse busbar voltage or trip the generators.",
+      "Confirm each motor transfers to full running connection correctly and draws normal running current.",
+      "Report the motor starting sequence and busbar behaviour in clear engine-room English."
+    ],
+    deliverable: "A motor starting plan listing the starting method per motor, the start sequence and the confirmed running currents with stable busbar voltage.",
+    assessmentCriteria: [
+      "The starting method chosen for each motor is correct for its load.",
+      "The start sequence keeps busbar voltage and the generators stable.",
+      "The transfer to running connection and running currents are correct.",
+      "The report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Símbolos eléctricos de control",
+    topic: "Diagnóstico integrando diagramas de arranque, relevadores y control secuencial",
+    week: 15,
+    taskId: "mn-eia531-w15-trace-a-motor-starter-fault",
+    taskTitle: "Trace A Fault In A Motor Starter Circuit",
+    scenario: "A pump motor will not start and the engineer hands the cadet the starter drawing. Using the electrical symbols, relay logic and sequential control, the cadet must read the diagram and trace the fault to the failed element.",
+    instructions: [
+      "Read the motor-starter diagram and identify each control element from its symbol.",
+      "Follow the relay sequential control and work out the correct start-to-run sequence.",
+      "Trace the circuit to find the element that breaks the sequence and prevents starting.",
+      "Report the fault and the element at fault in clear engine-room English."
+    ],
+    deliverable: "A fault-tracing report identifying the control elements, the intended sequence and the faulty element that blocks the start.",
+    assessmentCriteria: [
+      "The control elements are correctly read from the diagram symbols.",
+      "The relay sequential control is correctly followed.",
+      "The faulty element is correctly located in the circuit.",
+      "The fault report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Distribución eléctrica del buque",
+    topic: "Emergencia integrando distribución, disparo preferencial y generador de emergencia",
+    week: 16,
+    taskId: "mn-eia531-w16-respond-to-a-blackout",
+    taskTitle: "Respond To A Blackout And Restore The Board",
+    scenario: "A running generator trips on overload and the main switchboard blacks out at sea. On the engine-room simulator the cadet must manage the emergency generator, understand why preferential trips shed load, and restore power to the main board in the correct order.",
+    instructions: [
+      "Confirm the emergency generator has started and restored power to the emergency switchboard.",
+      "Explain why the preferential trips shed non-essential load and check the essential services are supplied.",
+      "Restart and parallel a main generator, close it onto the dead board and restore power in the correct order.",
+      "Report the blackout, cause and recovery to the bridge in clear engine-room English."
+    ],
+    deliverable: "A blackout recovery report stating the cause, the emergency-generator and preferential-trip action, and the ordered restoration of the main board.",
+    assessmentCriteria: [
+      "The emergency generator and essential supplies are correctly confirmed.",
+      "The preferential-trip load shedding is correctly explained.",
+      "The main board is restored in a safe and correct order.",
+      "The recovery report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Generadores de corriente alterna y directa",
+    topic: "Auditoría integrando características del alternador, control de tensión y reparto de carga",
+    week: 17,
+    taskId: "mn-eia531-w17-audit-generator-and-distribution",
+    taskTitle: "Audit The Generators And Distribution For The Voyage",
+    scenario: "Before departure the chief engineer asks the cadet to audit the ship's electrical plant: confirm each alternator's characteristics and voltage control are healthy, that generators parallel and share load correctly, and that the distribution and protection are set for the voyage.",
+    instructions: [
+      "Check each alternator's operating characteristics and confirm the automatic voltage regulation holds voltage under load.",
+      "Confirm the generators synchronise and share active and reactive load correctly.",
+      "Verify the distribution, preferential trips and emergency changeover are correctly set.",
+      "Report the electrical plant audit in clear engine-room English."
+    ],
+    deliverable: "An electrical plant audit confirming alternator characteristics, voltage control, load sharing and distribution protection, with any deficiency listed.",
+    assessmentCriteria: [
+      "The alternator characteristics and voltage control are correctly verified.",
+      "The synchronising and load sharing are correctly confirmed.",
+      "The distribution and protection settings are correctly checked.",
+      "The audit report is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "EIA531",
+    subjectName: "Electrotecnia",
+    subjectId: "mn-s5-electrotecnia",
+    unit: "Sistema trifásico de Corriente Alterna",
+    topic: "Cierre integrando sistema trifásico, sincronización y distribución del buque",
+    week: 18,
+    taskId: "mn-eia531-w18-deliver-electrical-plant-brief",
+    taskTitle: "Deliver The Electrical Plant Status Brief At Handover",
+    scenario: "At the close of the semester the cadet must hand over the state of the electrical plant, pulling together the running generators, the busbar load and frequency, and the distribution and protection status into one brief for the incoming watch.",
+    instructions: [
+      "Summarise which generators are running, the busbar load, voltage and frequency.",
+      "State the load-sharing balance and the status of the standby and emergency generators.",
+      "List the distribution and protection status and any outstanding electrical defect.",
+      "Deliver the complete electrical plant handover brief in clear engine-room English."
+    ],
+    deliverable: "An electrical plant handover brief covering generators, busbar load and frequency, standby and emergency status, and outstanding defects.",
+    assessmentCriteria: [
+      "The running-plant and busbar status is complete and accurate.",
+      "The load sharing and standby and emergency status are correct.",
+      "Distribution, protection and defects are clearly stated for handover.",
+      "The handover brief is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -2440,6 +3136,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Elaboración de piezas",
+    topic: "Fabricación integrando marcado, torno, taladro, roscado y medición",
+    week: 13,
+    taskId: "mn-tal534-w13-machine-a-part-from-drawing",
+    taskTitle: "Machine A Finished Part From An Engineering Drawing",
+    scenario: "A replacement spacer bush is needed for a pump and the cadet is given the engineering drawing. In the workshop the cadet must produce the finished part, integrating marking out, lathe turning, drilling, threading and dimensional measurement to meet the drawing tolerances.",
+    instructions: [
+      "Mark out the workpiece from the drawing using the scriber, dividers and surface plate.",
+      "Turn and face the part on the lathe to the drawing diameters, then drill and thread as required.",
+      "Measure the finished part with precision instruments and confirm it is within tolerance.",
+      "Report the finished part and its measured dimensions in clear workshop English."
+    ],
+    deliverable: "A finished machined part with a measurement record confirming every dimension against the drawing tolerances.",
+    assessmentCriteria: [
+      "The marking out matches the drawing accurately.",
+      "The turning, drilling and threading are executed correctly.",
+      "The measured dimensions confirm the part is within tolerance.",
+      "The report is clear and in correct workshop English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Mantenimiento de bombas",
+    topic: "Reacondicionamiento integrando desarme de bomba, rodamientos y sello mecánico",
+    week: 14,
+    taskId: "mn-tal534-w14-overhaul-a-pump",
+    taskTitle: "Overhaul A Pump And Renew The Mechanical Seal",
+    scenario: "A leaking sea-water pump must be overhauled in the workshop. The cadet must strip, inspect and rebuild it, integrating pump maintenance, bearing fitting and mechanical seal renewal so it runs leak-free.",
+    instructions: [
+      "Strip the pump, inspect the impeller, shaft and casing and record their condition.",
+      "Fit the new bearings and packing correctly and renew the mechanical seal.",
+      "Reassemble the pump, set the correct clearances and confirm it turns freely without leaks.",
+      "Report the overhaul and the pump's condition in clear workshop English."
+    ],
+    deliverable: "A pump overhaul report recording the inspection findings, the bearing and seal renewal and a leak-free running confirmation.",
+    assessmentCriteria: [
+      "The strip and inspection findings are correct and complete.",
+      "The bearings and mechanical seal are fitted correctly.",
+      "The reassembly clearances are correct and the pump runs leak-free.",
+      "The overhaul report is clear and in correct workshop English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Torno",
+    topic: "Manufactura integrando torno, fresadora y roscado",
+    week: 15,
+    taskId: "mn-tal534-w15-manufacture-a-threaded-shaft",
+    taskTitle: "Manufacture A Threaded Shaft With A Keyway",
+    scenario: "A small drive shaft with a threaded end and a keyway must be made. The cadet must plan and machine it, integrating lathe turning and facing, milling the keyway and cutting the thread, then check it fits its mating parts.",
+    instructions: [
+      "Turn and face the shaft to the required diameters on the lathe.",
+      "Mill the keyway to the correct width and depth on the milling machine.",
+      "Cut the external thread and confirm the thread and keyway fit their mating parts.",
+      "Report the finished shaft and its checks in clear workshop English."
+    ],
+    deliverable: "A finished threaded shaft with a fit-check record confirming the diameters, keyway and thread against the mating parts.",
+    assessmentCriteria: [
+      "The lathe turning and facing meet the required diameters.",
+      "The milled keyway is correct in width and depth.",
+      "The thread is cut correctly and the fit checks pass.",
+      "The report is clear and in correct workshop English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Herramientas eléctricas y neumáticas",
+    topic: "Respuesta integrando seguridad con herramientas, ajuste y montaje y mantenimiento",
+    week: 16,
+    taskId: "mn-tal534-w16-recover-a-seized-assembly",
+    taskTitle: "Recover A Seized Assembly Safely In The Workshop",
+    scenario: "A corroded coupling has seized onto a shaft and must be freed and rebuilt without injury or damage. The cadet must plan the safe recovery, integrating safe use of power and pneumatic tools, fitting and assembly practice and bearing renewal.",
+    instructions: [
+      "Plan the safe removal of the seized coupling and select the correct power or pneumatic tools with their safety precautions.",
+      "Free the coupling without damaging the shaft, then inspect the shaft and bearings.",
+      "Rebuild the assembly with new bearings and correct fits and confirm it runs true.",
+      "Report the recovery and the rebuilt assembly in clear workshop English."
+    ],
+    deliverable: "A recovery report describing the safe tool use, the freeing of the seized coupling, the rebuild and a run-true confirmation.",
+    assessmentCriteria: [
+      "The tool selection and safety precautions are correct.",
+      "The seized coupling is freed without damaging the shaft.",
+      "The rebuild uses correct fits and the assembly runs true.",
+      "The recovery report is clear and in correct workshop English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Medición",
+    topic: "Control de calidad integrando control dimensional, instrumentos de precisión y marcado",
+    week: 17,
+    taskId: "mn-tal534-w17-inspect-a-batch-of-parts",
+    taskTitle: "Inspect A Batch Of Machined Parts For Acceptance",
+    scenario: "A batch of machined parts must be inspected before they are accepted for the engine room. The cadet runs the quality check, integrating dimensional control, precision measuring instruments and marking-out reference so every part is verified against its drawing.",
+    instructions: [
+      "Set up the reference surfaces and marking-out datums for the inspection.",
+      "Measure each part with calipers, squares and precision instruments and compare against the drawing.",
+      "Accept or reject each part against tolerance and record the results.",
+      "Report the inspection results and any rejects in clear workshop English."
+    ],
+    deliverable: "A quality inspection report listing measured dimensions, the accept or reject decision for each part and the reasons for any reject.",
+    assessmentCriteria: [
+      "The datums and measuring setup are correct.",
+      "The precision measurements are accurate and correctly compared to tolerance.",
+      "The accept and reject decisions are justified and recorded.",
+      "The inspection report is clear and in correct workshop English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "TAL534",
+    subjectName: "Taller IV",
+    subjectId: "mn-s5-taller-iv",
+    unit: "Elaboración de piezas",
+    topic: "Cierre integrando fabricación de piezas, mantenimiento de bombas y control dimensional",
+    week: 18,
+    taskId: "mn-tal534-w18-deliver-workshop-job-handover",
+    taskTitle: "Deliver The Workshop Job Handover To The Engineer",
+    scenario: "At the close of the semester the cadet must hand over the workshop's outstanding jobs, pulling together the parts manufactured, the pump overhauls done and the inspection results into one status brief for the engineer.",
+    instructions: [
+      "Summarise the parts manufactured and their measured conformance to drawing.",
+      "State the status of the pump and machinery overhauls completed and outstanding.",
+      "List the parts inspected, the rejects and any job still open in the workshop.",
+      "Deliver the complete workshop job handover in clear workshop English."
+    ],
+    deliverable: "A workshop handover brief covering manufactured parts, overhaul status, inspection results and open jobs for the engineer.",
+    assessmentCriteria: [
+      "The manufactured-parts status and conformance are accurately summarised.",
+      "The overhaul status is complete and correct.",
+      "The inspection results and open jobs are clearly stated.",
+      "The handover brief is clear and in correct workshop English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "PMR536",
     subjectName: "Prácticas Marineras V",
     subjectId: "mn-s5-practicas-marineras-v",
@@ -2667,6 +3537,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "mn-s5-practicas-marineras-v",
+    unit: "Faena de puerto",
+    topic: "Operación integrando cambios de amarre, aparejo de amarre y faena de llegada",
+    week: 13,
+    taskId: "mn-pmr536-w13-run-the-berthing-operation",
+    taskTitle: "Run The Full Berthing Operation From The Mooring Station",
+    scenario: "The vessel is coming alongside in Altamira and the cadet leads the mooring station. The operation integrates managing mooring lines during berthing, inspecting and using the mooring gear, and the integrated arrival routine so the ship is safely made fast.",
+    instructions: [
+      "Prepare and inspect the mooring gear and lines at the station before the ship comes alongside.",
+      "Manage the mooring lines through the berthing, sending and heaving the correct lines in the correct order.",
+      "Make the ship fast with the right pattern of head, stern, breast and spring lines and confirm they are secured.",
+      "Report the mooring station status to the bridge in clear deck English."
+    ],
+    deliverable: "A berthing operation record covering the gear inspection, the line-handling sequence and the final made-fast mooring pattern.",
+    assessmentCriteria: [
+      "The mooring gear and lines are correctly prepared and inspected.",
+      "The line-handling sequence is correct and safe.",
+      "The final mooring pattern secures the ship correctly.",
+      "The station report is clear and in correct deck English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "mn-s5-practicas-marineras-v",
+    unit: "Maniobras de fondeo",
+    topic: "Operación integrando preparativos de fondeo, marcado de cadena y maniobra ejecutada",
+    week: 14,
+    taskId: "mn-pmr536-w14-execute-the-anchoring-operation",
+    taskTitle: "Execute The Full Anchoring Operation At The Anchorage",
+    scenario: "The vessel must anchor at the Tampico anchorage to await a berth. The cadet runs the operation, integrating the preparations for anchoring, reading the anchor chain markings and executing the anchoring manoeuvre to the correct scope.",
+    instructions: [
+      "Prepare the anchor and windlass for letting go and confirm the anchorage depth and required scope.",
+      "Let go and pay out the cable, reading the chain markings to control the amount of cable out.",
+      "Bring the ship to the anchor, confirm it is holding and report the cable direction and weight.",
+      "Report the anchoring operation to the bridge in clear deck English."
+    ],
+    deliverable: "An anchoring operation record with the preparations, the cable paid out by the chain markings and confirmation the anchor is holding.",
+    assessmentCriteria: [
+      "The anchor and windlass preparations are correct.",
+      "The chain markings are read correctly to control the scope.",
+      "The manoeuvre brings the ship to a holding anchor at the right scope.",
+      "The operation report is clear and in correct deck English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "mn-s5-practicas-marineras-v",
+    unit: "Plumas y grúas",
+    topic: "Operación integrando operación de grúas, faena de carga y tapa escotillas",
+    week: 15,
+    taskId: "mn-pmr536-w15-run-the-cargo-lifting-operation",
+    taskTitle: "Run The Deck Cargo Lifting Operation Safely",
+    scenario: "Deck cargo must be worked with the ship's crane after the hatches are opened. The cadet runs the operation, integrating safe crane operation, the lifting faena with signalling, slinging and safety zone, and safe operation of the hatch covers.",
+    instructions: [
+      "Open and secure the hatch covers safely and set up the crane for the lift.",
+      "Establish the safety zone, signalling and slinging plan for the lifting operation.",
+      "Carry out the lifts with correct signals and slinging and land the load safely.",
+      "Report the lifting operation and any safety issue in clear deck English."
+    ],
+    deliverable: "A lifting operation record covering the hatch opening, the crane and slinging setup, the safety zone and the completed lifts.",
+    assessmentCriteria: [
+      "The hatch covers and crane are set up safely.",
+      "The safety zone, signalling and slinging plan is correct.",
+      "The lifts are carried out and landed safely.",
+      "The operation report is clear and in correct deck English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "mn-s5-practicas-marineras-v",
+    unit: "Anclas y cadenas",
+    topic: "Emergencia integrando ancla enredada, amarre a boya y aparejo de amarre",
+    week: 16,
+    taskId: "mn-pmr536-w16-clear-a-fouled-anchor",
+    taskTitle: "Clear A Fouled Anchor And Moor To A Buoy",
+    scenario: "On weighing anchor the cable comes up fouled and the ship must instead be secured to a mooring buoy. The cadet handles the problem, integrating clearing a fouled anchor, mooring to a buoy and using the mooring gear.",
+    instructions: [
+      "Assess why the anchor is fouled and plan the safe method to clear it.",
+      "Clear the fouled anchor without losing the cable or damaging the gear.",
+      "Rig and secure the ship to the mooring buoy with the correct mooring gear.",
+      "Report the fouled-anchor recovery and the buoy mooring in clear deck English."
+    ],
+    deliverable: "An incident report describing the fouled-anchor cause, the clearing method and the completed buoy mooring.",
+    assessmentCriteria: [
+      "The fouled-anchor assessment and clearing method are correct and safe.",
+      "The anchor is cleared without loss of cable or gear damage.",
+      "The buoy mooring is rigged and secured correctly.",
+      "The report is clear and in correct deck English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "mn-s5-practicas-marineras-v",
+    unit: "Maniobras a son de mar",
+    topic: "Preparación integrando trincado a son de mar, tapa escotillas y pinturas y conservación",
+    week: 17,
+    taskId: "mn-pmr536-w17-secure-the-deck-for-heavy-weather",
+    taskTitle: "Secure The Deck For Heavy Weather And Sea",
+    scenario: "A heavy-weather passage is forecast and the deck must be fully secured for sea. The cadet runs the preparation, integrating securing the deck for sea, sealing the hatch covers and protecting surfaces against corrosion, and confirms the deck is ready.",
+    instructions: [
+      "Secure and lash all deck equipment and cargo for the expected sea state.",
+      "Seal and confirm the watertight integrity of the hatch covers.",
+      "Check the surface protection and note any corroded area to be treated after the passage.",
+      "Report the deck-secured-for-sea status to the bridge in clear deck English."
+    ],
+    deliverable: "A deck-secured-for-sea report confirming lashings, watertight hatch covers and the surface-protection condition.",
+    assessmentCriteria: [
+      "The lashings and securing meet the expected sea state.",
+      "The hatch-cover sealing and watertight integrity are confirmed.",
+      "The surface protection is checked and defects noted.",
+      "The status report is clear and in correct deck English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "mn-s5-practicas-marineras-v",
+    unit: "Faena de puerto",
+    topic: "Cierre integrando faena de llegada, fondeo y maniobras de amarre",
+    week: 18,
+    taskId: "mn-pmr536-w18-deliver-deck-operations-brief",
+    taskTitle: "Deliver The Deck Operations Readiness Brief",
+    scenario: "At the close of the semester the cadet must brief the mate on the deck's readiness for the next arrival, pulling together the mooring, anchoring and arrival operations and the condition of the deck gear into one handover.",
+    instructions: [
+      "Summarise the readiness of the mooring stations, gear and lines for arrival.",
+      "State the anchoring readiness, cable condition and the arrival plan.",
+      "List any outstanding deck-gear defect and the precautions for the operation.",
+      "Deliver the complete deck operations readiness brief in clear deck English."
+    ],
+    deliverable: "A deck operations readiness brief covering mooring, anchoring and arrival readiness and outstanding deck-gear defects.",
+    assessmentCriteria: [
+      "The mooring-station and gear readiness is complete and accurate.",
+      "The anchoring readiness and arrival plan are correct.",
+      "Outstanding defects and precautions are clearly stated.",
+      "The readiness brief is clear and in correct deck English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -2904,6 +3948,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "mn-s5-liderazgo",
+    unit: "El liderazgo en la operación",
+    topic: "Liderazgo integrando el oficial de guardia de máquinas, comunicación del líder y trabajo en equipo",
+    week: 13,
+    taskId: "mn-c0105-w13-lead-the-engine-room-watch",
+    taskTitle: "Lead The Engine-Room Watch Through A Full Operation",
+    scenario: "As duty engineer the cadet must lead the engine-room watch through a demanding operation. It integrates leading the engine-room watch, the leader's communication and effective teamwork so the operation runs safely and the team works together.",
+    instructions: [
+      "Set the objective and assign clear roles to the watch team for the operation.",
+      "Communicate as a leader with clear instructions, check-backs and active listening throughout.",
+      "Keep the team working together and adjust the plan as the operation develops.",
+      "Deliver your leadership direction and reporting in clear engine-room English."
+    ],
+    deliverable: "A watch leadership plan and log showing the roles set, the leader communication used and the teamwork maintained through the operation.",
+    assessmentCriteria: [
+      "The objective and role assignment are clear and correct.",
+      "The leader communication uses instructions, check-backs and listening well.",
+      "The team is kept working together and the plan adjusted soundly.",
+      "The direction and reporting are clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "mn-s5-liderazgo",
+    unit: "Autoconciencia",
+    topic: "Motivación integrando motivación intrínseca y extrínseca, inteligencia emocional y trabajo en equipo",
+    week: 14,
+    taskId: "mn-c0105-w14-motivate-the-team-under-pressure",
+    taskTitle: "Motivate The Engine-Room Team Under Pressure",
+    scenario: "A long, hard job has worn the team down and morale is low. The cadet must lead them through it, integrating intrinsic and extrinsic motivation, emotional intelligence under pressure and effective teamwork to keep the team performing.",
+    instructions: [
+      "Read the team's emotional state using emotional intelligence and identify what is draining morale.",
+      "Apply intrinsic and extrinsic motivation to re-energise each team member appropriately.",
+      "Rebuild the teamwork so the team finishes the job well and safely.",
+      "Deliver your motivating leadership in clear engine-room English."
+    ],
+    deliverable: "A leadership plan showing the emotional read, the motivation applied and the teamwork rebuilt to finish the job.",
+    assessmentCriteria: [
+      "The emotional read of the team is accurate.",
+      "The motivation approach fits each member and the situation.",
+      "The teamwork is rebuilt effectively.",
+      "The leadership is delivered clearly in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "mn-s5-liderazgo",
+    unit: "Estrategias de planeación y operación",
+    topic: "Planeación integrando identificar problemas y planear, ganar-ganar y actitud proactiva",
+    week: 15,
+    taskId: "mn-c0105-w15-plan-and-lead-a-complex-operation",
+    taskTitle: "Plan And Lead A Complex Engine-Room Operation",
+    scenario: "A complex maintenance operation must be planned and led with limited time and people. The cadet integrates identifying the problem and planning the operation, the win-win problem-solving approach and a proactive attitude to deliver the job.",
+    instructions: [
+      "Identify the real problem and plan the operation with its resources, sequence and risks.",
+      "Resolve the competing demands for people and time with a win-win approach.",
+      "Lead the operation proactively, anticipating problems before they stop the job.",
+      "Deliver your operational plan and direction in clear engine-room English."
+    ],
+    deliverable: "An operation plan and leadership log showing the problem identified, the win-win resource resolution and the proactive execution.",
+    assessmentCriteria: [
+      "The problem is correctly identified and the operation soundly planned.",
+      "The win-win resolution of competing demands is effective.",
+      "The proactive leadership anticipates and prevents problems.",
+      "The plan and direction are clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "mn-s5-liderazgo",
+    unit: "La gestión del equipo",
+    topic: "Respuesta integrando gestión del error y conflicto, asertividad graduada e inteligencia emocional",
+    week: 16,
+    taskId: "mn-c0105-w16-manage-an-error-and-conflict",
+    taskTitle: "Manage A Team Error And Conflict During A Job",
+    scenario: "A team member makes a serious error and a conflict flares in the middle of a job. The cadet must handle it on the spot, integrating managing error and conflict in the team, graded assertiveness and emotional intelligence to keep the job safe and the team together.",
+    instructions: [
+      "Stop the unsafe situation using graded assertiveness without escalating the conflict.",
+      "Manage the error and the conflict fairly, keeping the team functioning.",
+      "Restore the team's focus and finish the job safely, learning from the error.",
+      "Deliver your handling of the situation in clear engine-room English."
+    ],
+    deliverable: "A leadership account showing the assertive intervention, the fair error and conflict management, and the restored safe operation.",
+    assessmentCriteria: [
+      "The assertive intervention stops the unsafe situation without escalation.",
+      "The error and conflict are managed fairly.",
+      "The team is refocused and the job finished safely.",
+      "The account is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "mn-s5-liderazgo",
+    unit: "Elementos del liderazgo",
+    topic: "Autocrítica integrando autocrítica y renovación, inteligencia emocional y actitud proactiva",
+    week: 17,
+    taskId: "mn-c0105-w17-run-a-leadership-self-critique",
+    taskTitle: "Run An Honest Leadership Self-Critique And Plan",
+    scenario: "As an end-of-semester capstone the cadet must critique their own leadership honestly and plan their growth, integrating self-critique and renewal, emotional intelligence and a proactive attitude and effective habits.",
+    instructions: [
+      "Review your leadership performance this semester and identify your real strengths and weaknesses.",
+      "Use emotional intelligence to understand how your behaviour affected the team.",
+      "Set a proactive renewal plan with concrete habits to grow as a leader.",
+      "Present your self-critique and growth plan in clear English."
+    ],
+    deliverable: "A written leadership self-critique and renewal plan with honest strengths and weaknesses and concrete growth habits.",
+    assessmentCriteria: [
+      "The self-critique is honest and evidence-based.",
+      "The emotional-intelligence reflection is insightful.",
+      "The renewal plan is proactive and concrete.",
+      "The self-critique is presented clearly in correct English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "mn-s5-liderazgo",
+    unit: "El liderazgo en la operación",
+    topic: "Cierre integrando liderazgo de la guardia, comunicación efectiva y renovación del líder",
+    week: 18,
+    taskId: "mn-c0105-w18-deliver-leadership-handover-brief",
+    taskTitle: "Deliver Your Leadership Handover And Growth Brief",
+    scenario: "At the close of the semester the cadet must hand over leadership of the engine-room watch and present their growth, pulling together the whole course: leading the watch, effective communication and self-critique and renewal into one closing brief.",
+    instructions: [
+      "Brief the incoming duty engineer on the team, the operation and the leadership approach that works with this crew.",
+      "State what you learned about your own leadership and how you grew this semester.",
+      "Set the leadership priorities the incoming officer should carry forward.",
+      "Deliver the leadership handover and growth brief in clear engine-room English."
+    ],
+    deliverable: "A leadership handover and growth brief covering the team, the effective leadership approach and the officer's own development.",
+    assessmentCriteria: [
+      "The handover of team and operation is complete and useful.",
+      "The self-growth reflection is honest and substantial.",
+      "The forward leadership priorities are sound.",
+      "The brief is delivered clearly in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "C0011",
     subjectName: "Educación Física V",
     subjectId: "mn-s5-educacion-fisica-v",
@@ -3131,6 +4349,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "mn-s5-educacion-fisica-v",
+    unit: "Plan personal",
+    topic: "Plan integrando fuerza muscular, plan de entrenamiento del período de mar y aptitud integral",
+    week: 13,
+    taskId: "mn-c0011v-w13-build-the-sea-period-fitness-plan",
+    taskTitle: "Build Your Complete Fitness Plan For The Sea Period",
+    scenario: "The cadet is about to join a ship for a long sea period and must build a complete personal fitness plan. It integrates muscular strength for heavy engine work, the sea-period training plan and all-round physical readiness so the cadet stays fit and injury-free on board.",
+    instructions: [
+      "Set your strength targets for the heavy physical work of the engine room and deck.",
+      "Build a weekly training plan for the sea period that fits shipboard time and space.",
+      "Balance the plan across strength, endurance, coordination and recovery for all-round readiness.",
+      "Present your fitness plan and its goals in clear English."
+    ],
+    deliverable: "A written personal fitness plan for the sea period covering strength, endurance, coordination and recovery, with measurable goals.",
+    assessmentCriteria: [
+      "The strength targets are appropriate for shipboard physical work.",
+      "The weekly plan is realistic for life on board.",
+      "The plan is balanced across all components of fitness.",
+      "The plan is presented clearly in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "mn-s5-educacion-fisica-v",
+    unit: "Percepción y coordinación motriz",
+    topic: "Desempeño integrando equilibrio en buque en movimiento, coordinación y prevención de lesiones",
+    week: 14,
+    taskId: "mn-c0011v-w14-work-safely-on-a-moving-ship",
+    taskTitle: "Move And Work Safely On A Ship In A Seaway",
+    scenario: "Working on a ship rolling in a seaway demands balance and coordination without injury. The cadet demonstrates and explains how to move and work safely, integrating balance on a moving ship, coordination and injury prevention in training.",
+    instructions: [
+      "Demonstrate how to keep your balance and move safely on deck and in the engine room in a seaway.",
+      "Show the coordinated technique for carrying and handling loads without losing balance.",
+      "Explain the injury-prevention points that keep you safe during heavy work in a seaway.",
+      "Present your safe-movement routine in clear English."
+    ],
+    deliverable: "A demonstrated and written safe-movement routine for working on a ship in a seaway, covering balance, coordination and injury prevention.",
+    assessmentCriteria: [
+      "The balance and safe-movement technique is correct.",
+      "The coordinated load-handling technique is sound.",
+      "The injury-prevention points are correct and relevant.",
+      "The routine is presented clearly in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "mn-s5-educacion-fisica-v",
+    unit: "Natación",
+    topic: "Supervivencia integrando técnica de flotación, nado de rescate y nado en grupo",
+    week: 15,
+    taskId: "mn-c0011v-w15-lead-a-group-survival-swim",
+    taskTitle: "Lead A Group Survival Swim And Water Rescue",
+    scenario: "Abandon-ship training requires the cadet to lead a group in the water. The cadet demonstrates and directs it, integrating efficient floating and survival technique, basic water rescue and group survival swimming to keep a group together and safe.",
+    instructions: [
+      "Demonstrate efficient floating and survival swimming technique to conserve energy.",
+      "Lead the group to stay together and swim to safety in formation.",
+      "Carry out a basic water rescue of a tired swimmer in the group.",
+      "Brief and direct the group survival swim in clear English."
+    ],
+    deliverable: "A demonstrated group survival swim and rescue, with a written brief of the technique, formation and rescue method.",
+    assessmentCriteria: [
+      "The floating and survival technique is efficient and correct.",
+      "The group is kept together and led safely.",
+      "The basic water rescue is carried out correctly.",
+      "The group is briefed clearly in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "mn-s5-educacion-fisica-v",
+    unit: "Concentración",
+    topic: "Respuesta integrando concentración sostenida, intensidad cardiovascular y prevención de lesiones",
+    week: 16,
+    taskId: "mn-c0011v-w16-sustain-performance-in-a-long-operation",
+    taskTitle: "Sustain Performance Through A Long Demanding Operation",
+    scenario: "A long, physically demanding operation such as an extended engine repair tests the cadet's stamina and focus. The cadet must manage it, integrating sustained focus through a long operation, judging cardio intensity by feel and preventing injury from fatigue.",
+    instructions: [
+      "Plan how to sustain focus and pace yourself through the long operation.",
+      "Judge and manage your cardio intensity by feel to avoid burning out early.",
+      "Apply the injury-prevention measures that protect you as fatigue builds.",
+      "Report how you sustained performance through the operation in clear English."
+    ],
+    deliverable: "A written self-management plan for a long operation covering focus, intensity pacing and fatigue injury-prevention.",
+    assessmentCriteria: [
+      "The focus-sustaining strategy is realistic and sound.",
+      "The intensity pacing avoids early burnout.",
+      "The fatigue injury-prevention measures are correct.",
+      "The report is clear and in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "mn-s5-educacion-fisica-v",
+    unit: "Desarrollo físico integral",
+    topic: "Evaluación integrando deportes de equipo, coordinación de tripulación y aptitud integral",
+    week: 17,
+    taskId: "mn-c0011v-w17-run-a-crew-coordination-session",
+    taskTitle: "Run A Team-Sport Crew Coordination Session",
+    scenario: "The cadet must plan and lead a team-sport session that builds crew coordination and assesses all-round fitness before the voyage, integrating team sport for crew coordination, balance and coordination and all-round physical readiness.",
+    instructions: [
+      "Plan a team-sport session designed to build communication and coordination among the crew.",
+      "Lead the session and set drills that also test balance, coordination and endurance.",
+      "Assess each participant's all-round readiness from their performance.",
+      "Report the session outcome and readiness assessment in clear English."
+    ],
+    deliverable: "A team-sport session plan with a crew coordination and all-round readiness assessment of the participants.",
+    assessmentCriteria: [
+      "The session is well designed to build crew coordination.",
+      "The drills correctly test balance, coordination and endurance.",
+      "The readiness assessment is fair and evidence-based.",
+      "The report is clear and in correct English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "mn-s5-educacion-fisica-v",
+    unit: "Desarrollo físico integral",
+    topic: "Cierre integrando aptitud integral, plan del período de mar y competencia acuática",
+    week: 18,
+    taskId: "mn-c0011v-w18-demonstrate-full-sea-readiness",
+    taskTitle: "Demonstrate Your Full Physical Readiness For Sea",
+    scenario: "At the close of the semester the cadet must demonstrate complete physical readiness for sea duty, pulling together strength, endurance, coordination and water competence into one assessed demonstration and self-report.",
+    instructions: [
+      "Demonstrate your all-round physical readiness across strength, endurance and coordination.",
+      "Demonstrate your water-survival competence to the required standard.",
+      "Review your sea-period training plan against your results and state what you will keep improving.",
+      "Present your readiness self-report in clear English."
+    ],
+    deliverable: "An assessed physical-readiness demonstration and self-report covering strength, endurance, coordination, water competence and next goals.",
+    assessmentCriteria: [
+      "The all-round physical readiness meets the required standard.",
+      "The water-survival competence is demonstrated correctly.",
+      "The self-review against the training plan is honest and useful.",
+      "The self-report is clear and in correct English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -3368,6 +4760,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "mn-s5-etica-profesional",
+    unit: "Ética y Moral",
+    topic: "Decisión integrando método del dilema, valores de la Gente de Mar y decisión ambiental",
+    week: 13,
+    taskId: "mn-c0104-w13-rule-on-an-environmental-dilemma",
+    taskTitle: "Rule On An Environmental Dilemma At Sea",
+    scenario: "The engineer is pressured to make an illegal oily-water discharge to save time. The cadet must reason to a ruling, integrating the step-by-step ethical dilemma method, the core seafarer values and ethical environmental decision-making.",
+    instructions: [
+      "Set out the dilemma and the competing pressures using the ethical-dilemma method.",
+      "Weigh the options against the core seafarer values and the environmental duty.",
+      "Reach and justify a defensible ruling on what the officer should do.",
+      "Present your ethical ruling and reasoning in clear English."
+    ],
+    deliverable: "A written ethical ruling on the environmental dilemma, showing the method, the values applied and the justified decision.",
+    assessmentCriteria: [
+      "The dilemma method is applied correctly and completely.",
+      "The core seafarer values are correctly weighed.",
+      "The ruling is defensible and well justified.",
+      "The ruling is presented clearly in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "mn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Caso integrando cultura justa y deber de reportar, ética de la fatiga y valores",
+    week: 14,
+    taskId: "mn-c0104-w14-rule-on-a-reporting-and-fatigue-case",
+    taskTitle: "Rule On A Fatigue And Duty-To-Report Case",
+    scenario: "An exhausted engineer made an error on watch and is afraid to report it. The cadet must rule on the case, integrating just culture and the duty to report, the ethics of fatigue and limits and the core seafarer values.",
+    instructions: [
+      "Set out the case and the tension between fear of blame and the duty to report.",
+      "Apply just culture and the ethics of fatigue to judge the engineer's responsibility.",
+      "Reach a ruling on what should be reported and how the organisation should respond.",
+      "Present your ruling and reasoning in clear English."
+    ],
+    deliverable: "A written ruling on the fatigue and reporting case, applying just culture and the fatigue ethics to a justified decision.",
+    assessmentCriteria: [
+      "The case tensions are correctly identified.",
+      "Just culture and fatigue ethics are correctly applied.",
+      "The ruling on reporting and response is sound.",
+      "The ruling is presented clearly in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "mn-s5-etica-profesional",
+    unit: "El juicio",
+    topic: "Juicio integrando tipos de razonamiento, reflexión ética y valores de la Gente de Mar",
+    week: 15,
+    taskId: "mn-c0104-w15-reason-through-a-conflict-of-duties",
+    taskTitle: "Reason Soundly Through A Conflict Of Duties",
+    scenario: "An officer faces a conflict between loyalty to a shipmate and honesty to the master. The cadet must reason to a sound judgment, integrating the types of reasoning in ethical judgment, ethical reflection and the core seafarer values.",
+    instructions: [
+      "Frame the conflict of duties and the values in tension.",
+      "Apply the types of reasoning to work toward a sound judgment.",
+      "Reach and defend the judgment, showing why it is sound rather than merely convenient.",
+      "Present your reasoned judgment in clear English."
+    ],
+    deliverable: "A written reasoned judgment on the conflict of duties, showing the reasoning types and the defended conclusion.",
+    assessmentCriteria: [
+      "The conflict and competing values are correctly framed.",
+      "The reasoning types are applied soundly.",
+      "The judgment is defended and not merely convenient.",
+      "The judgment is presented clearly in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "mn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Respuesta integrando juicio en caso complejo, cultura justa y contexto laboral",
+    week: 16,
+    taskId: "mn-c0104-w16-resolve-a-hard-professional-case",
+    taskTitle: "Resolve A Hard Professional Case Under Pressure",
+    scenario: "A serious incident puts commercial pressure, safety and honesty in direct conflict and demands an immediate decision. The cadet must resolve it, integrating integrated judgment in a complex case, just culture and the seafarer's working-life context.",
+    instructions: [
+      "Set out the hard case and the pressures forcing an immediate decision.",
+      "Apply integrated ethical judgment and just culture to the working-life pressures.",
+      "Decide and justify the course of action, accepting its consequences.",
+      "Present your decision and its justification in clear English."
+    ],
+    deliverable: "A written resolution of the hard professional case, showing integrated judgment and a justified, consequence-aware decision.",
+    assessmentCriteria: [
+      "The hard case and pressures are correctly analysed.",
+      "Integrated judgment and just culture are correctly applied.",
+      "The decision is justified and accepts its consequences.",
+      "The resolution is presented clearly in correct English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "mn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Código integrando perfil ético del oficial, valores y responsabilidad social",
+    week: 17,
+    taskId: "mn-c0104-w17-write-your-officers-code-of-conduct",
+    taskTitle: "Write Your Personal Code Of Conduct As An Officer",
+    scenario: "As an end-of-semester capstone the cadet must write a personal code of conduct for professional life at sea, integrating the ethical profile of the officer, the core seafarer values and the social and ethical responsibility of the seafarer.",
+    instructions: [
+      "State the core values and ethical profile that will guide you as an officer.",
+      "Turn them into concrete rules of conduct for the pressures of shipboard life.",
+      "Show how the code meets your social and ethical responsibility to crew, ship and environment.",
+      "Present your personal code of conduct in clear English."
+    ],
+    deliverable: "A written personal code of conduct grounded in the officer's ethical profile, core values and social responsibility.",
+    assessmentCriteria: [
+      "The values and ethical profile are clearly articulated.",
+      "The rules of conduct are concrete and workable.",
+      "The code genuinely reflects the officer's social responsibility.",
+      "The code is presented clearly in correct English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "mn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Cierre integrando juicio ético integrado, cultura justa y perfil del oficial",
+    week: 18,
+    taskId: "mn-c0104-w18-deliver-an-ethics-case-ruling-brief",
+    taskTitle: "Deliver An Integrated Ethics Case Ruling Brief",
+    scenario: "At the close of the semester the cadet must present a capstone ethics ruling to a review board on a complex case, pulling together the whole course: integrated judgment, just culture and the officer's ethical profile into one defensible brief.",
+    instructions: [
+      "Present the complex case and the ethical issues it raises.",
+      "Deliver the integrated ruling, showing the method, values and just-culture reasoning behind it.",
+      "State what the ruling means for the officer's conduct and for the organisation.",
+      "Deliver the ethics case ruling brief in clear English."
+    ],
+    deliverable: "A capstone ethics case ruling brief integrating the course's method, values and just-culture reasoning into a defensible decision.",
+    assessmentCriteria: [
+      "The case and its ethical issues are clearly presented.",
+      "The integrated ruling is well reasoned and defensible.",
+      "The implications for officer and organisation are sound.",
+      "The brief is delivered clearly in correct English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "QUH535",
     subjectName: "Química",
     subjectId: "mn-s5-quimica",
@@ -3600,6 +5166,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Análisis y tratamiento del agua",
+    topic: "Tratamiento integrando pH, dureza e incrustación y tratamiento del agua de calderas",
+    week: 13,
+    taskId: "mn-quh535-w13-treat-boiler-water",
+    taskTitle: "Test And Treat The Boiler Water To Specification",
+    scenario: "The auxiliary boiler water must be brought back within limits during a sea passage. The cadet runs a full boiler-water treatment, integrating pH control, water hardness and scale prevention, and the boiler-water treatment programme so scale and corrosion are avoided.",
+    instructions: [
+      "Test the boiler water for pH and hardness and compare against the required limits.",
+      "Work out how the hardness would form scale and decide the treatment chemicals and doses needed.",
+      "Dose the boiler water, re-test and confirm the pH and hardness are back within specification.",
+      "Report the boiler-water condition and treatment in clear engine-room English."
+    ],
+    deliverable: "A boiler-water treatment record with the test results, the chemical doses added and confirmation the water is back within limits.",
+    assessmentCriteria: [
+      "The pH and hardness tests are read and judged correctly.",
+      "The scale-formation reasoning and dosing decision are correct.",
+      "The re-test confirms the water is back within specification.",
+      "The report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Combustibles y lubricantes",
+    topic: "Análisis integrando química de combustibles marinos, punto de inflamación y análisis de aceites",
+    week: 14,
+    taskId: "mn-quh535-w14-assess-fuel-and-oil-samples",
+    taskTitle: "Assess The Fuel And Lube-Oil Samples For Service",
+    scenario: "New bunker fuel and a running lube-oil sample must be assessed before use. The cadet runs the assessment, integrating marine-fuel chemistry and operating temperature, flash point and safety, and lube-oil analysis to judge whether both are fit for service.",
+    instructions: [
+      "Assess the bunker fuel's composition and confirm its correct operating and handling temperatures.",
+      "Check the flash point of the fuel and oil against the safety limits.",
+      "Analyse the lube-oil sample for water content, viscosity and flash point and judge its condition.",
+      "Report whether the fuel and oil are fit for service in clear engine-room English."
+    ],
+    deliverable: "A fuel and lube-oil assessment stating the fuel composition and handling temperature, the flash-point checks, the oil analysis and a fit-for-service decision.",
+    assessmentCriteria: [
+      "The fuel composition and operating temperature are correctly assessed.",
+      "The flash-point safety checks are correct.",
+      "The lube-oil analysis is interpreted correctly.",
+      "The assessment report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Corrosión",
+    topic: "Protección integrando corrosión galvánica, tipos de corrosión y recubrimientos protectores",
+    week: 15,
+    taskId: "mn-quh535-w15-protect-a-system-from-corrosion",
+    taskTitle: "Plan Corrosion Protection For A Sea-Water System",
+    scenario: "A sea-water cooling system is showing corrosion and the engineer wants a protection plan. The cadet integrates galvanic corrosion and sacrificial anodes, the types of corrosion and protective coatings and dezincification to protect the system.",
+    instructions: [
+      "Identify the types of corrosion present in the system and where each is attacking.",
+      "Explain the galvanic cell driving the attack and size the sacrificial anode protection.",
+      "Specify the protective coatings and measures, including guarding against dezincification of the brass fittings.",
+      "Report the corrosion protection plan in clear engine-room English."
+    ],
+    deliverable: "A corrosion protection plan identifying the corrosion types, the sacrificial anode protection and the coating measures for the system.",
+    assessmentCriteria: [
+      "The corrosion types are correctly identified.",
+      "The galvanic-cell explanation and anode sizing are sound.",
+      "The coatings and dezincification measures are correct.",
+      "The protection plan is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Atmósferas peligrosas",
+    topic: "Emergencia integrando atmósfera de espacios cerrados, química del fuego y punto de inflamación",
+    week: 16,
+    taskId: "mn-quh535-w16-make-an-enclosed-space-safe",
+    taskTitle: "Make An Enclosed Space Safe For Entry And Hot Work",
+    scenario: "A fuel tank must be entered and welded during a repair, and the atmosphere is dangerous. The cadet must make the space safe, integrating enclosed-space atmosphere chemistry, the chemistry of fire and flammable ranges, and flash point and fuel safety before entry and hot work.",
+    instructions: [
+      "Test the enclosed-space atmosphere for oxygen, flammable gas and toxic gas against the safe-entry limits.",
+      "Explain how the fuel vapour, flammable range and flash point create the fire risk for hot work.",
+      "Specify the ventilation, gas-freeing and re-testing needed to make the space safe for entry and welding.",
+      "Report the atmosphere status and the safe-for-entry decision in clear engine-room English."
+    ],
+    deliverable: "An enclosed-space safety report with the atmosphere test results, the fire-risk assessment and the safe-for-entry and hot-work decision.",
+    assessmentCriteria: [
+      "The atmosphere tests are correctly interpreted against safe limits.",
+      "The fire-risk and flammable-range reasoning is correct.",
+      "The gas-freeing and re-testing plan makes the space genuinely safe.",
+      "The safety report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Química ambiental marina",
+    topic: "Auditoría integrando contaminación marina, tratamiento del agua y química de combustibles",
+    week: 17,
+    taskId: "mn-quh535-w17-audit-chemical-compliance",
+    taskTitle: "Audit The Ship's Chemical And Emissions Compliance",
+    scenario: "Before departure the cadet audits the chemistry side of environmental compliance, integrating marine-pollution chemistry of hydrocarbons, SOx and NOx and ballast water, boiler and cooling water treatment, and marine-fuel chemistry to confirm the ship meets its limits.",
+    instructions: [
+      "Confirm the fuel sulphur content and combustion give SOx and NOx within the required emission limits.",
+      "Verify the boiler and cooling water treatment results are within limits and correctly recorded.",
+      "Check the oily-water and ballast-water chemistry against the discharge limits.",
+      "Report the chemical compliance audit in clear engine-room English."
+    ],
+    deliverable: "A chemical compliance audit confirming fuel emissions, water treatment and discharge chemistry against their limits, with any deficiency listed.",
+    assessmentCriteria: [
+      "The fuel sulphur and emissions check is correct.",
+      "The water-treatment verification is complete and correct.",
+      "The discharge-chemistry checks meet the required limits.",
+      "The audit report is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "QUH535",
+    subjectName: "Química",
+    subjectId: "mn-s5-quimica",
+    unit: "Corrosión",
+    topic: "Cierre integrando corrosión, tratamiento del agua y seguridad de combustibles",
+    week: 18,
+    taskId: "mn-quh535-w18-deliver-chemistry-status-brief",
+    taskTitle: "Deliver The Engine-Room Chemistry Status Brief",
+    scenario: "At the close of the semester the cadet must hand over the chemistry status of the engine room, pulling together corrosion condition, water-treatment results and fuel and oil safety into one brief for the incoming watch.",
+    instructions: [
+      "Summarise the corrosion condition of the key systems and the state of their protection.",
+      "State the latest boiler and cooling water treatment results and any action outstanding.",
+      "Report the fuel and lube-oil condition and any flash-point or contamination concern.",
+      "Deliver the complete chemistry status brief in clear engine-room English."
+    ],
+    deliverable: "An engine-room chemistry handover brief covering corrosion protection, water-treatment results and fuel and oil safety status.",
+    assessmentCriteria: [
+      "The corrosion condition and protection status are accurately summarised.",
+      "The water-treatment results and outstanding actions are correct.",
+      "The fuel and oil safety concerns are correctly reported.",
+      "The status brief is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
     subjectCode: "ING530",
     subjectName: "Inglés Marítimo V",
     subjectId: "mn-s5-ingles-maritimo-v",
@@ -3827,6 +5567,180 @@ export const mnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "ING530",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "mn-s5-ingles-maritimo-v",
+    unit: "Discurso de mando",
+    topic: "Briefing integrando voz pasiva, verbos frasales y el briefing del equipo de máquinas",
+    week: 13,
+    taskId: "mn-ing530-w13-brief-the-engine-room-team",
+    taskTitle: "Brief The Engine-Room Team Before A Major Job",
+    scenario: "The duty engineer must brief the engine-room team before a major maintenance job. The cadet writes and delivers the briefing, integrating the passive voice for procedures, engine-room phrasal verbs and the team briefing structure so every member knows their task.",
+    instructions: [
+      "Describe the procedure to be carried out using the passive voice for each step.",
+      "Assign the tasks using the correct engine-room phrasal verbs (start up, shut down, change over, top up).",
+      "Structure the briefing with objective, roles, hazards and check-back so understanding is confirmed.",
+      "Deliver the full team briefing in clear engine-room English."
+    ],
+    deliverable: "A written and delivered engine-room team briefing using the passive voice, correct phrasal verbs and a clear briefing structure.",
+    assessmentCriteria: [
+      "The procedure is described correctly in the passive voice.",
+      "The engine-room phrasal verbs are used correctly.",
+      "The briefing structure confirms roles, hazards and understanding.",
+      "The briefing is delivered fluently in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "ING530",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "mn-s5-ingles-maritimo-v",
+    unit: "Familiarización con frases normalizadas de la Organización",
+    topic: "Reporte integrando expresiones de causa, frases normalizadas y tiempos simples y continuos",
+    week: 14,
+    taskId: "mn-ing530-w14-report-a-fault-with-standard-phrases",
+    taskTitle: "Report A Machinery Fault With Standard Phrases",
+    scenario: "A machinery fault has developed on watch and must be reported to the bridge and chief engineer. The cadet writes the report, integrating cause-and-effect linking expressions, IMO Standard Marine Communication Phrases and correct use of simple and continuous tenses.",
+    instructions: [
+      "State what is happening now and what has happened using the correct simple and continuous tenses.",
+      "Explain the cause using linking expressions (because, since, due to, as, because of).",
+      "Frame the report in IMO Standard Marine Communication Phrases for engine communication.",
+      "Deliver the fault report to the bridge in clear engine-room English."
+    ],
+    deliverable: "A machinery fault report using correct tenses, cause-and-effect linking and IMO Standard Marine Communication Phrases.",
+    assessmentCriteria: [
+      "The simple and continuous tenses are used correctly to sequence events.",
+      "The cause is expressed correctly with linking expressions.",
+      "The Standard Marine Communication Phrases are used correctly.",
+      "The report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "ING530",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "mn-s5-ingles-maritimo-v",
+    unit: "Comunicación radiotelefónica",
+    topic: "Emergencia integrando comunicación máquina-puente, GMDSS y modales de obligación",
+    week: 15,
+    taskId: "mn-ing530-w15-report-engine-emergency-to-bridge",
+    taskTitle: "Report An Engine Emergency To The Bridge And Coast",
+    scenario: "A serious engine emergency requires the engine room to report to the bridge and, through GMDSS, prepare an urgency message. The cadet integrates engine-to-bridge emergency communication, the GMDSS protocol and modal verbs of obligation to run the exchange, and may rehearse the call on the VHF simulator.",
+    instructions: [
+      "Report the engine emergency to the bridge with the situation, the action being taken and what the bridge must do.",
+      "Use modal verbs of obligation and prohibition to state what must and must not be done.",
+      "Prepare the GMDSS urgency (PAN PAN) message content for the bridge to transmit if required.",
+      "Deliver the emergency exchange in clear radiotelephony and engine-room English."
+    ],
+    deliverable: "An engine-emergency communication exchange with the bridge report, the obligations stated and a drafted GMDSS urgency message.",
+    assessmentCriteria: [
+      "The emergency report gives situation, action and required response clearly.",
+      "The modal verbs of obligation and prohibition are used correctly.",
+      "The GMDSS urgency message is correctly structured.",
+      "The exchange is delivered in correct radiotelephony and engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "ING530",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "mn-s5-ingles-maritimo-v",
+    unit: "Pasado perfecto",
+    topic: "Investigación integrando pasado perfecto, contraste de lo previsto y análisis de falla",
+    week: 16,
+    taskId: "mn-ing530-w16-write-the-incident-investigation",
+    taskTitle: "Write The Incident Investigation Of A Machinery Failure",
+    scenario: "After a machinery failure the cadet must write the incident investigation. It integrates the past perfect to sequence what had happened before the failure and 'supposed to / was going to' to contrast what was expected against what actually occurred.",
+    instructions: [
+      "Sequence the events leading to the failure using the past perfect to show what had happened first.",
+      "Contrast what was supposed to happen and was going to happen with what actually occurred.",
+      "State the root cause and the corrective action from the analysis.",
+      "Deliver the incident investigation report in clear engine-room English."
+    ],
+    deliverable: "A machinery-failure incident investigation using the past perfect and expectation-versus-reality contrast, ending in a root cause and corrective action.",
+    assessmentCriteria: [
+      "The past perfect correctly sequences the events before the failure.",
+      "The expectation-versus-reality contrast is expressed correctly.",
+      "The root cause and corrective action are sound.",
+      "The report is clear and in correct engine-room English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "ING530",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "mn-s5-ingles-maritimo-v",
+    unit: "Pasivo con modal verbs y verbo to get",
+    topic: "Documentación integrando pasiva con modales, avisos de seguridad y comparativos",
+    week: 17,
+    taskId: "mn-ing530-w17-write-a-safety-procedure-notice",
+    taskTitle: "Write A Safety Procedure And Comparison Notice",
+    scenario: "The engine room needs a written safety notice and procedure comparing two ways of doing a job. The cadet integrates the modal passive for notices and procedures, safety notice writing and comparatives to produce clear, compliant documentation.",
+    instructions: [
+      "Write the safety procedure steps using the modal passive (must be isolated, should be checked).",
+      "Compare the two methods using comparative structures and (not) as...as to justify the safer one.",
+      "Lay out the notice with hazards, required actions and prohibitions clearly separated.",
+      "Deliver the finished safety notice and procedure in clear engine-room English."
+    ],
+    deliverable: "A written safety notice and procedure using the modal passive and comparatives, with hazards, actions and prohibitions clearly set out.",
+    assessmentCriteria: [
+      "The modal passive is used correctly throughout the procedure.",
+      "The comparison of the two methods is expressed correctly and justified.",
+      "The notice layout separates hazards, actions and prohibitions clearly.",
+      "The documentation is clear and in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester V",
+    subjectCode: "ING530",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "mn-s5-ingles-maritimo-v",
+    unit: "Tiempos simples y continuos",
+    topic: "Relevo integrando el relevo de guardia, el debriefing y los tiempos verbales",
+    week: 18,
+    taskId: "mn-ing530-w18-deliver-watch-handover-and-debrief",
+    taskTitle: "Deliver The Engine-Room Watch Handover And Debrief",
+    scenario: "At the close of the semester the cadet delivers a complete engine-room watch handover and team debrief, integrating the simple, continuous and perfect tenses and the gerund into a full spoken and written handover that leaves nothing unclear for the incoming watch.",
+    instructions: [
+      "Write the watch handover using the correct simple, continuous and perfect tenses for standing, ongoing and completed states.",
+      "Debrief the team on what went well and what to watch, using the gerund correctly.",
+      "State the machinery status, outstanding jobs and precautions for the incoming watch.",
+      "Deliver the full handover and debrief in clear engine-room English."
+    ],
+    deliverable: "A complete engine-room watch handover and team debrief using correct tenses and the gerund, covering status, jobs and precautions.",
+    assessmentCriteria: [
+      "The simple, continuous and perfect tenses are used correctly for each state.",
+      "The debrief uses the gerund correctly and covers the key points.",
+      "The machinery status, jobs and precautions are complete and clear.",
+      "The handover is delivered fluently in correct engine-room English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
 ];
