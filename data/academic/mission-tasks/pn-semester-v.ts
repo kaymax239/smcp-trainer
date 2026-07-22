@@ -352,6 +352,180 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Previsión a bordo",
+    topic: "Navegación meteorológica integrando la carta sinóptica, la tendencia bárica y el estado de la mar",
+    week: 13,
+    taskId: "pn-met532-w13-plan-weather-routed-departure",
+    taskTitle: "Plan The Weather-Routed Departure From Tampico",
+    scenario: "Your vessel sails from Tampico for a two-day passage across the Gulf. The latest synoptic chart shows a cold front approaching from the north-west and the ship's barometer is falling. You must build a weather-routed departure plan that keeps the ship in workable sea-state and out of the worst of the front.",
+    instructions: [
+      "Interpret the synoptic chart and the three-hour barometric tendency to fix the timing and track of the approaching cold front.",
+      "Lay two candidate routes and choose the one that keeps wind and sea on a workable bearing, cross-checking your choice against the forecast sea-state (oleaje) for each leg.",
+      "Set decision points where a change in barometric tendency or reported wave height would trigger a route diversion.",
+      "Brief the Master with a weather-routing recommendation in clear maritime English, stating the chosen track, the expected weather, and your diversion triggers."
+    ],
+    deliverable: "A weather-routed departure plan with a chosen track, sea-state expectations per leg, and defined diversion triggers.",
+    assessmentCriteria: [
+      "Front timing and track are correctly derived from the synoptic chart and barometric tendency.",
+      "The chosen route keeps the vessel in workable sea-state and is justified against the alternative.",
+      "Diversion triggers are concrete and tied to measurable weather changes.",
+      "The routing recommendation is delivered in accurate, professional maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Ciclones tropicales",
+    topic: "Evitación del ciclón tropical integrando semicírculos, regla 1-2-3 y la maniobra por semicírculo",
+    week: 14,
+    taskId: "pn-met532-w14-execute-cyclone-avoidance",
+    taskTitle: "Execute A Full Tropical Cyclone Avoidance Plan",
+    scenario: "On passage in the western Gulf you receive a bulletin placing a tropical cyclone 300 miles ahead and moving toward your track. You are in the northern hemisphere and must decide which semicircle you are in and manoeuvre to stay clear.",
+    instructions: [
+      "Plot the storm's position and forecast track and determine whether the ship lies in the dangerous or the navigable semicircle.",
+      "Apply the 1-2-3 rule to draw the danger area around the forecast track for the next 24 to 72 hours.",
+      "Order the avoidance course and speed for your semicircle, keeping the vessel outside the danger area with a safe margin.",
+      "Send a bridge order and an intentions report in maritime English stating your semicircle, your avoidance manoeuvre, and your CPA to the storm."
+    ],
+    deliverable: "A cyclone avoidance plan showing semicircle, 1-2-3 danger area, and the ordered avoidance course and speed.",
+    assessmentCriteria: [
+      "The semicircle is correctly identified from the storm's bearing and movement.",
+      "The 1-2-3 danger area is drawn and applied correctly to the forecast track.",
+      "The avoidance course and speed keep the vessel clear with an adequate margin.",
+      "The intentions report is communicated in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Visibilidad",
+    topic: "Previsión de niebla integrando punto de rocío, masas de aire y la reducción de visibilidad en la aproximación",
+    week: 15,
+    taskId: "pn-met532-w15-forecast-fog-for-approach",
+    taskTitle: "Forecast Fog And Set The Reduced-Visibility Plan For Arrival",
+    scenario: "You are approaching Altamira at night. Air and sea temperatures are converging, a warm moist air mass is moving over cooler coastal water, and the dew point spread is closing. You must forecast whether fog will form during the approach and prepare the bridge for reduced visibility.",
+    instructions: [
+      "Compare air temperature, sea temperature and dew point to judge the likelihood and type of fog forming over the approach.",
+      "Link the air mass over the area to the expected weather and estimate when visibility will drop below safe limits.",
+      "Set the reduced-visibility readiness actions the bridge must take before visibility closes in, tied to your forecast timing.",
+      "Issue a reduced-visibility forecast and readiness order to the bridge team in maritime English."
+    ],
+    deliverable: "A fog forecast for the approach with predicted onset time and a reduced-visibility readiness order.",
+    assessmentCriteria: [
+      "Fog likelihood and type are correctly reasoned from the dew point spread and air mass.",
+      "The predicted onset timing is realistic and justified.",
+      "Readiness actions are appropriate and correctly sequenced ahead of onset.",
+      "The forecast and order are delivered in accurate maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "El tiempo abordo",
+    topic: "Respuesta al deterioro súbito integrando la tendencia bárica, el estado de la mar y el reporte del tiempo abordo",
+    week: 16,
+    taskId: "pn-met532-w16-respond-to-rapid-deterioration",
+    taskTitle: "Respond To A Rapid Weather Deterioration On Watch",
+    scenario: "During your watch the barometer falls sharply, the wind backs and freshens, and the sea-state builds faster than the forecast predicted. The forecast on which the passage plan was based is now clearly wrong and you must react.",
+    instructions: [
+      "Read the falling barometric tendency and the observed wind shift to diagnose what weather system is actually affecting the ship.",
+      "Assess the building sea-state against the vessel's condition and decide whether to reduce speed, alter course, or heave to.",
+      "Compile an updated on-board weather observation capturing the real conditions and the divergence from the forecast.",
+      "Report the deteriorating situation and your chosen action to the Master in maritime English, including your updated weather observation."
+    ],
+    deliverable: "An emergency weather response with a diagnosis, a chosen ship-handling action, and an updated on-board weather report.",
+    assessmentCriteria: [
+      "The weather system is correctly diagnosed from barometric tendency and wind behaviour.",
+      "The chosen action is appropriate to the sea-state and the vessel's condition.",
+      "The on-board weather observation is complete and accurately recorded.",
+      "The situation report to the Master is clear and in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "Boletines meteorológicos",
+    topic: "Auditoría de la previsión integrando decodificación MAFOR, cartas sinópticas y la validación con observaciones abordo",
+    week: 17,
+    taskId: "pn-met532-w17-audit-voyage-weather-picture",
+    taskTitle: "Audit The Complete Weather Picture For The Voyage",
+    scenario: "Before departure the Master asks you to certify that the ship's weather picture for the whole voyage is coherent. You hold a received MAFOR-coded bulletin, the latest synoptic chart, and the ship's recent barometric and sea-state observations, and you must confirm they tell one consistent story.",
+    instructions: [
+      "Decode the MAFOR bulletin in full and translate each group into plain forecast terms for every voyage area.",
+      "Cross-check the decoded bulletin against the synoptic chart and the ship's own barometric tendency and sea-state observations, flagging any contradiction.",
+      "Resolve each discrepancy into a single agreed forecast and note the residual weather risk for each leg.",
+      "Issue a weather validation statement to the Master in maritime English certifying the coherent forecast and the outstanding risks."
+    ],
+    deliverable: "A weather validation statement reconciling the MAFOR bulletin, synoptic chart, and ship observations into one certified forecast.",
+    assessmentCriteria: [
+      "The MAFOR bulletin is decoded accurately and completely.",
+      "Discrepancies between the sources are correctly identified and reconciled.",
+      "Residual weather risk per leg is clearly stated.",
+      "The validation statement is written in accurate maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MET532",
+    subjectName: "Meteorología II",
+    subjectId: "pn-s5-meteorologia-ii",
+    unit: "El tiempo abordo",
+    topic: "Síntesis meteorológica del semestre para el informe de previsión al Capitán",
+    week: 18,
+    taskId: "pn-met532-w18-deliver-voyage-weather-brief",
+    taskTitle: "Deliver The Voyage Weather Brief To The Master",
+    scenario: "It is the pre-departure conference. As the ship's weather officer you must deliver a single brief that pulls together everything from the semester: the synoptic situation, the cyclone and fog risks, the routing decision, and the on-board observing and reporting plan for the voyage ahead.",
+    instructions: [
+      "Summarise the current synoptic situation and the dominant air masses affecting the voyage area.",
+      "Present the principal weather hazards for the passage, covering tropical cyclone avoidance, fog and reduced visibility, and heavy sea-state, with the routing decision that answers them.",
+      "State the on-board observing and reporting routine for the voyage, including barometric tendency watch and ship weather reports.",
+      "Deliver the full voyage weather brief to the Master in professional maritime English."
+    ],
+    deliverable: "A voyage weather brief covering the synoptic picture, the principal hazards and routing response, and the observing-and-reporting plan.",
+    assessmentCriteria: [
+      "The synoptic picture and air masses are summarised accurately.",
+      "All principal hazards are addressed with a coherent routing response.",
+      "The observing and reporting routine is complete and workable.",
+      "The brief is delivered in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "NAV530",
     subjectName: "Navegación III",
     subjectId: "pn-s5-navegacion-iii",
@@ -695,6 +869,180 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "Vigilancia anticolisión integrando ploteo de CPA/TCPA, la decisión COLREGs y el tráfico AIS",
+    week: 13,
+    taskId: "pn-nav530-w13-run-full-anticollision-watch",
+    taskTitle: "Run The Full Anti-Collision Radar Watch",
+    scenario: "You have the watch off the Tampico approaches in busy traffic. The ARPA shows three targets, and the AIS traffic picture confirms two of them but not the third. You must run a complete anti-collision assessment on all of them and act under the COLREGS.",
+    instructions: [
+      "Plot each target to obtain CPA and TCPA, and reconcile the ARPA solution against the AIS data for each contact.",
+      "Classify the encounter type for each target and identify which vessel is give-way under COLREGS Part B.",
+      "Decide and order a single anti-collision action that resolves the closest-quarters situation while keeping all CPAs safe.",
+      "Report the developing situation and your action to the Master, and make the appropriate call, in correct maritime English."
+    ],
+    deliverable: "An anti-collision assessment listing CPA/TCPA per target, the COLREGS classification, and the ordered avoidance action.",
+    assessmentCriteria: [
+      "CPA and TCPA are correctly derived and reconciled with the AIS picture.",
+      "Each encounter is correctly classified and the give-way vessel identified.",
+      "The ordered action resolves the situation in accordance with the COLREGS.",
+      "The report and call are made in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "Monitoreo de la derrota costera integrando Parallel Index, orientación del radar y la aproximación a Altamira",
+    week: 14,
+    taskId: "pn-nav530-w14-monitor-altamira-approach-pi",
+    taskTitle: "Monitor The Altamira Approach By Parallel Index",
+    scenario: "You are conning the coastal leg into Altamira. To hold the planned track past the outer marks you must set up parallel indexing on the radar, choose the correct orientation, and monitor the passage against the AIS traffic in the fairway.",
+    instructions: [
+      "Select the correct radar orientation and range for close coastal monitoring and justify the choice.",
+      "Set up the parallel index lines against a suitable radar-conspicuous object to monitor cross-track error along the planned leg.",
+      "Track the vessel's position against the PI lines and the AIS traffic, correcting any drift off the planned track.",
+      "Give a running position and traffic report to the bridge team in maritime English as you monitor the approach."
+    ],
+    deliverable: "A parallel-index monitoring setup with orientation choice, PI reference, and a track-keeping log for the approach.",
+    assessmentCriteria: [
+      "Radar orientation and range are correctly chosen for the task.",
+      "The parallel index is set up correctly against a suitable reference.",
+      "Cross-track drift is detected and corrected against the planned leg.",
+      "The position and traffic report is delivered in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Tipos de Derrota",
+    topic: "Planificación de la derrota oceánica integrando el cálculo ortodrómico, la decisión orto/loxodrómica y el ploteo radar en los extremos",
+    week: 15,
+    taskId: "pn-nav530-w15-plan-ocean-great-circle-passage",
+    taskTitle: "Plan The Ocean Passage On The Great Circle",
+    scenario: "The ship is to cross from the Gulf to a distant port. You must decide whether to sail great circle or rhumb line, compute the great-circle distance and initial course, and hand over an ocean plan whose coastal ends will be monitored on radar.",
+    instructions: [
+      "Decide between great circle and rhumb line for this passage and justify the decision on distance and practicality.",
+      "Calculate the great-circle distance and initial course by spherical trigonometry, and lay the waypoints of the composite track.",
+      "Specify how the departure and arrival ends of the passage will be monitored on radar, including orientation and parallel indexing.",
+      "Present the ocean passage plan to the Master in maritime English, stating the sailing chosen, the distance saved, and the monitoring method."
+    ],
+    deliverable: "An ocean passage plan with the sailing decision, the great-circle computation and waypoints, and the radar monitoring method for the coastal ends.",
+    assessmentCriteria: [
+      "The sailing choice is correctly justified on distance and practicality.",
+      "The great-circle distance and initial course are computed correctly.",
+      "The radar monitoring method for the coastal ends is sound.",
+      "The passage plan is presented in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "Respuesta a la degradación del radar integrando ecos falsos, sintonía del radar y el exceso de confianza en el APRA",
+    week: 16,
+    taskId: "pn-nav530-w16-respond-to-degraded-radar-picture",
+    taskTitle: "Respond To A Degraded Radar Picture In Traffic",
+    scenario: "In rain and clutter near the Tampico approaches your radar picture degrades: false echoes appear, a target the ARPA had been tracking is lost, and the AIS shows a vessel the radar is not clearly painting. You must recover a trustworthy picture without over-trusting the ARPA.",
+    instructions: [
+      "Diagnose the degraded picture, distinguishing genuine targets from false echoes and clutter.",
+      "Retune the radar gain, tuning and clutter filters to restore a clear picture, and re-acquire the lost target.",
+      "Reconcile the radar and AIS pictures and state where you will not rely on the ARPA alone until the picture is trusted.",
+      "Report the radar degradation, your recovery actions and the residual uncertainty to the Master in maritime English."
+    ],
+    deliverable: "A radar-recovery report covering false-echo diagnosis, the retuning actions taken, and the residual uncertainty in the picture.",
+    assessmentCriteria: [
+      "False echoes and clutter are correctly distinguished from real targets.",
+      "The retuning restores a usable picture and the lost target is re-acquired.",
+      "Over-reliance on ARPA is correctly avoided while the picture is uncertain.",
+      "The degradation report is delivered in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "Auditoría del equipo de navegación integrando pruebas operacionales, la interacción del APRA con otros equipos y las presentaciones del radar",
+    week: 17,
+    taskId: "pn-nav530-w17-audit-navigation-equipment",
+    taskTitle: "Audit The Radar And ARPA Before Departure",
+    scenario: "Before sailing you must certify that the radar and ARPA suite is fit for the voyage. This means running the operational tests, confirming the ARPA is correctly integrated with the ship's other navigation equipment, and verifying the presentations the watch will use.",
+    instructions: [
+      "Run the operational tests of the radar and ARPA and record the result of each check.",
+      "Verify that the ARPA is correctly fed by and cross-referenced with the other navigation equipment, and identify what fails if a sensor input is lost.",
+      "Confirm the orientation and presentation modes the watch will use and note the interpretation errors each mode invites.",
+      "Issue an equipment readiness statement to the Master in maritime English certifying the radar and ARPA for the voyage."
+    ],
+    deliverable: "A radar and ARPA readiness statement listing test results, sensor integration checks, and the presentation modes certified for the watch.",
+    assessmentCriteria: [
+      "The operational tests are run correctly and results recorded.",
+      "ARPA integration with other equipment is verified and failure modes identified.",
+      "The presentation modes and their interpretation risks are correctly addressed.",
+      "The readiness statement is written in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "NAV530",
+    subjectName: "Navegación III",
+    subjectId: "pn-s5-navegacion-iii",
+    unit: "Radar APRA",
+    topic: "Síntesis de la navegación radar del semestre para el traspaso de la guardia de puente",
+    week: 18,
+    taskId: "pn-nav530-w18-hand-over-navigation-watch-brief",
+    taskTitle: "Hand Over The Navigation Watch For The Passage",
+    scenario: "You are handing over the navigation watch at the start of a demanding passage. Your relief must inherit the full radar and traffic picture: the route and its monitoring, the traffic situation, the equipment status, and the standing anti-collision policy for the leg ahead.",
+    instructions: [
+      "Summarise the planned track and how it is being monitored, including parallel indexing and chosen radar orientation.",
+      "Present the current traffic picture from radar and AIS, identifying any developing close-quarters situation and its CPA/TCPA.",
+      "State the radar and ARPA equipment status and any limitation the relief must work around.",
+      "Deliver the full navigation watch handover to your relief in professional maritime English."
+    ],
+    deliverable: "A navigation watch handover brief covering the monitored track, the traffic picture, and the equipment status for the leg ahead.",
+    assessmentCriteria: [
+      "The track and its monitoring are summarised accurately and completely.",
+      "The traffic picture and any close-quarters situation are correctly presented.",
+      "Equipment status and limitations are stated clearly.",
+      "The handover is delivered in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -1048,6 +1396,180 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Maniobra de atraque",
+    topic: "Atraque integrando círculo de evolución, distancia de parada y el spring con viento y corriente",
+    week: 13,
+    taskId: "pn-man533-w13-bring-vessel-alongside-tampico",
+    taskTitle: "Bring The Vessel Alongside In Tampico",
+    scenario: "You are to berth a loaded vessel at Tampico with a fresh onshore wind and a running current. You must plan the whole approach and landing, using the turning circle, the stopping distance and the spring line to place the ship alongside.",
+    instructions: [
+      "Judge the vessel's turning circle and stopping distance for the loaded approach and plan the track to the berth accounting for wind and current.",
+      "Plan the sequence of engine and helm orders to take way off and swing the stern in without overshooting.",
+      "Specify how the spring line is used to check headway and bring the ship alongside against the wind.",
+      "Deliver the berthing plan and give the mooring and engine orders to the team in correct maritime English."
+    ],
+    deliverable: "A berthing plan with the approach track, the engine and helm sequence, and the spring-line landing method.",
+    assessmentCriteria: [
+      "Turning circle and stopping distance are correctly applied to the approach.",
+      "The engine and helm sequence takes way off without overshoot.",
+      "The spring line is used correctly to land the ship against wind and current.",
+      "The plan and orders are delivered in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Efecto por bajo fondo",
+    topic: "Tránsito del canal integrando squat, efecto de recodo e interacción entre buques en aguas restringidas",
+    week: 14,
+    taskId: "pn-man533-w14-transit-restricted-channel-safely",
+    taskTitle: "Transit The Restricted Channel Safely",
+    scenario: "You must take the ship through the narrow, shallow approach channel to Altamira, meeting an outbound vessel partway, with AIS showing the traffic. Squat, bank effect and ship-to-ship interaction all act on you at once and you must handle them together.",
+    instructions: [
+      "Calculate the squat for your speed and under-keel clearance and set a safe transit speed for the shallow channel.",
+      "Plan the ship's position within the channel to manage bank effect, and time the meeting with the outbound vessel using the AIS picture.",
+      "Set the speed and helm actions that limit interaction forces as the two vessels pass.",
+      "Report your transit plan and the passing arrangement to the bridge team and the other vessel in correct maritime English."
+    ],
+    deliverable: "A channel transit plan with a squat-limited speed, a bank-effect track, and a timed passing arrangement for the meeting vessel.",
+    assessmentCriteria: [
+      "Squat is calculated correctly and a safe transit speed is set.",
+      "Bank effect is managed by correct positioning in the channel.",
+      "Interaction with the meeting vessel is controlled by correct speed and timing.",
+      "The transit plan and passing arrangement are communicated in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Equipo y maniobra de fondeo",
+    topic: "Fondeo integrando la maniobra con dos anclas, el círculo de evolución y las funciones del oficial en estación",
+    week: 15,
+    taskId: "pn-man533-w15-anchor-with-two-anchors-in-roads",
+    taskTitle: "Anchor The Vessel With Two Anchors In The Roads",
+    scenario: "The ship must anchor in the Tampico roads to await a berth, in a wind and tide that call for a two-anchor moor to limit the swinging room. You must conn the approach, drop both anchors correctly, and run the anchor station.",
+    instructions: [
+      "Plan the approach to the anchor berth using the turning circle to lay the ship head to wind and tide at the drop.",
+      "Lay out the two-anchor moor you will use to reduce the swinging circle, specifying the sequence and scope for each anchor.",
+      "Assign the officer's duties at the anchor station and the checks that confirm the anchors are holding.",
+      "Give the anchoring orders to the fo'c'sle party and report the ship brought up to the bridge in correct maritime English."
+    ],
+    deliverable: "A two-anchor mooring plan with the approach, the drop sequence and scope, and the anchor-station duties.",
+    assessmentCriteria: [
+      "The approach lays the ship correctly head to wind and tide at the drop.",
+      "The two-anchor moor is laid out correctly to limit the swinging circle.",
+      "Anchor-station duties and holding checks are correctly assigned.",
+      "The anchoring orders and the brought-up report are given in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Timones",
+    topic: "Respuesta a la avería de gobierno integrando timón de emergencia, círculo de evolución y la parada de emergencia",
+    week: 16,
+    taskId: "pn-man533-w16-respond-to-steering-failure",
+    taskTitle: "Respond To A Steering Failure In Traffic",
+    scenario: "While transiting the approaches your main steering fails with traffic close by shown on AIS. You must take way off, keep the ship clear, and change over to emergency steering to regain control.",
+    instructions: [
+      "Take immediate action to reduce the danger, using the stopping distance and a crash stop if needed to take way off clear of traffic.",
+      "Rig and change over to the emergency steering gear and confirm the ship is answering the emergency helm.",
+      "Re-establish control of the ship's head and set a safe course clear of the AIS traffic, allowing for the degraded steering.",
+      "Broadcast the steering failure and your intentions to nearby traffic, and report to the Master, in correct maritime English."
+    ],
+    deliverable: "A steering-failure response covering the way-off action, the change-over to emergency steering, and the recovery of control.",
+    assessmentCriteria: [
+      "The immediate way-off action correctly uses stopping distance to reduce danger.",
+      "The change-over to emergency steering is carried out correctly.",
+      "Control of the ship's head is re-established clear of traffic.",
+      "The failure broadcast and Master's report are delivered in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Sistema de propulsión",
+    topic: "Maniobra en espacio confinado integrando el par de la hélice, los efectos combinados de hélice y timón y el círculo de evolución",
+    week: 17,
+    taskId: "pn-man533-w17-turn-vessel-short-in-basin",
+    taskTitle: "Turn The Vessel Short Round In The Basin",
+    scenario: "To leave the harbour the ship must be turned short round in a confined basin with limited room, using every ship-handling effect available: transverse thrust, the combined action of propeller and rudder, and the turning circle.",
+    instructions: [
+      "Assess the room available against the turning circle and plan to use transverse thrust to start the swing in the favourable direction.",
+      "Sequence the combined propeller and rudder orders that walk the ship round in the least space, using kicks ahead and astern.",
+      "Set the abort point and the recovery action if the swing does not come round in the room available.",
+      "Give the ship-handling orders and report the completed turn to the bridge team in correct maritime English."
+    ],
+    deliverable: "A short-round turning plan with the transverse-thrust start, the combined engine-and-rudder sequence, and the abort point.",
+    assessmentCriteria: [
+      "Transverse thrust is used correctly to start the swing the favourable way.",
+      "The combined propeller and rudder sequence turns the ship in minimum space.",
+      "A sound abort point and recovery action are defined.",
+      "The ship-handling orders are delivered in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "MAN533",
+    subjectName: "Maniobras I",
+    subjectId: "pn-s5-maniobras-i",
+    unit: "Maniobra de atraque",
+    topic: "Síntesis de la maniobra del semestre para el informe de maniobra al Capitán",
+    week: 18,
+    taskId: "pn-man533-w18-deliver-manoeuvring-brief-to-master",
+    taskTitle: "Deliver The Departure Manoeuvring Brief To The Master",
+    scenario: "It is the pre-departure conference for unberthing and outbound transit from Tampico. As officer you must brief the Master on the whole manoeuvring plan, pulling together the ship's handling characteristics, the unberthing, and the channel transit.",
+    instructions: [
+      "Summarise the ship's handling characteristics for the manoeuvre: turning circle, stopping distance, transverse thrust and steering.",
+      "Present the unberthing plan and the outbound channel transit, covering the spring-off, wind and current, squat and interaction.",
+      "State the contingency actions for a steering or engine problem during the transit.",
+      "Deliver the full manoeuvring brief to the Master in professional maritime English."
+    ],
+    deliverable: "A departure manoeuvring brief covering the ship's handling characteristics, the unberthing and transit plan, and the contingencies.",
+    assessmentCriteria: [
+      "The ship's handling characteristics are summarised accurately.",
+      "The unberthing and transit plan correctly accounts for wind, current, squat and interaction.",
+      "The contingency actions are appropriate and complete.",
+      "The brief is delivered in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "QUH534",
     subjectName: "Química",
     subjectId: "pn-s5-quimica",
@@ -1391,6 +1913,180 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Atmósferas peligrosas",
+    topic: "Entrada a espacio cerrado integrando la química de la atmósfera, el punto de inflamación y el tetraedro del fuego",
+    week: 13,
+    taskId: "pn-quh534-w13-certify-enclosed-space-entry",
+    taskTitle: "Certify An Enclosed Space For Safe Entry",
+    scenario: "A cargo hold that carried a residue-bearing cargo must be entered for inspection. You are responsible for the atmosphere testing and for judging the fire and toxicity risk before anyone enters.",
+    instructions: [
+      "Plan the sequence of atmosphere tests for oxygen, flammable gas and toxic gas, and state the safe limits for entry.",
+      "Interpret the readings against the flammable range and the flash point of any residue to judge the fire risk.",
+      "Decide whether entry is safe, and set the ventilation and re-testing regime required to keep it safe during the work.",
+      "Issue the enclosed-space entry certificate and brief the entry party in correct maritime English."
+    ],
+    deliverable: "An enclosed-space entry certificate with the test sequence, the safe limits, and the ventilation and re-testing regime.",
+    assessmentCriteria: [
+      "The atmosphere test sequence and safe limits are correct and complete.",
+      "The readings are correctly interpreted against the flammable range and flash point.",
+      "The ventilation and re-testing regime keeps the space safe during entry.",
+      "The certificate and briefing are delivered in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Combustibles y lubricantes",
+    topic: "Acondicionamiento del combustible integrando composición, viscosidad y temperatura de manejo y el punto de inflamación",
+    week: 14,
+    taskId: "pn-quh534-w14-condition-fuel-for-injection",
+    taskTitle: "Condition The Bunker Fuel For Safe Injection",
+    scenario: "A new bunker of heavy fuel oil has been received with a bunker analysis. Before it is burned you must set its handling so that it injects correctly and is stored and heated safely below its flash point margin.",
+    instructions: [
+      "Read the fuel's composition from the bunker analysis and identify the consequences its properties have for handling and combustion.",
+      "Determine the heating temperature that brings the fuel to the correct injection viscosity, and set the storage and settling temperatures.",
+      "Verify the handling temperatures keep a safe margin below the flash point and set the safe-handling limits.",
+      "Report the fuel conditioning plan and its safety limits to the engineer officer in correct maritime English."
+    ],
+    deliverable: "A fuel conditioning plan with the injection-viscosity temperature, the storage and settling temperatures, and the flash-point safety margin.",
+    assessmentCriteria: [
+      "The fuel composition and its handling consequences are correctly read from the analysis.",
+      "The injection-viscosity and storage temperatures are correctly determined.",
+      "The handling temperatures keep a safe margin below the flash point.",
+      "The conditioning plan is reported in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Análisis y tratamiento del agua",
+    topic: "Tratamiento del agua integrando dureza y formación de incrustaciones, el análisis de sales disueltas y el tratamiento de calderas",
+    week: 15,
+    taskId: "pn-quh534-w15-run-boiler-water-treatment-cycle",
+    taskTitle: "Run The Boiler Water Treatment Cycle",
+    scenario: "The boiler water test results for the watch are in front of you: hardness, dissolved salts and pH are all off their target values. You must diagnose the water condition and set the treatment and blowdown to protect the boiler from scale and corrosion.",
+    instructions: [
+      "Interpret the hardness and dissolved-salts results and explain the scale and corrosion risk they represent.",
+      "Determine the chemical dosing and the blowdown needed to bring hardness, salts and pH back to their target ranges.",
+      "Set the follow-up testing schedule that confirms the water has returned to specification.",
+      "Record and report the boiler water condition and the treatment actions to the engineer officer in correct maritime English."
+    ],
+    deliverable: "A boiler water treatment record with the diagnosis, the dosing and blowdown actions, and the follow-up testing schedule.",
+    assessmentCriteria: [
+      "The hardness and dissolved-salts results are correctly interpreted for scale and corrosion risk.",
+      "The dosing and blowdown correctly return the water to specification.",
+      "The follow-up testing schedule is appropriate.",
+      "The treatment record and report are delivered in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Corrosión",
+    topic: "Respuesta a la corrosión acelerada integrando la celda galvánica, los ánodos de sacrificio y las formas de corrosión",
+    week: 16,
+    taskId: "pn-quh534-w16-respond-to-accelerated-corrosion",
+    taskTitle: "Respond To Accelerated Corrosion In A Ballast Tank",
+    scenario: "A ballast tank inspection reveals corrosion far worse than expected: pitting in places, wasted sacrificial anodes, and staining where dissimilar metals meet. You must diagnose the corrosion mechanisms and set the corrective action.",
+    instructions: [
+      "Identify the forms of corrosion present in the tank and diagnose the galvanic couples driving the worst of the attack.",
+      "Assess the condition of the sacrificial anodes and determine the anode renewal needed to restore protection.",
+      "Set the coating and protection measures that arrest the other forms of corrosion found.",
+      "Report the corrosion findings and the corrective plan to the chief officer in correct maritime English."
+    ],
+    deliverable: "A corrosion findings report with the mechanisms identified, the anode renewal, and the coating and protection measures.",
+    assessmentCriteria: [
+      "The forms of corrosion and the galvanic couples are correctly identified.",
+      "The anode condition assessment and renewal restore cathodic protection.",
+      "The coating and protection measures address the other corrosion forms.",
+      "The findings report is delivered in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Química ambiental marina",
+    topic: "Auditoría ambiental integrando la contaminación por hidrocarburos, SOx y NOx, el agua de lastre y el pH",
+    week: 17,
+    taskId: "pn-quh534-w17-audit-vessel-pollution-chemistry",
+    taskTitle: "Audit The Vessel's Pollution Chemistry For Compliance",
+    scenario: "Before departure you must certify that the ship's discharges and emissions are within their environmental limits. This means auditing the oil-in-water, the exhaust SOx and NOx, and the ballast water treatment against their chemistry-based limits.",
+    instructions: [
+      "Assess the oily-water separator and bilge discharge chemistry against the permitted oil-in-water limit.",
+      "Evaluate the fuel sulphur and the exhaust chemistry against the SOx and NOx emission limits for the area.",
+      "Verify the ballast water treatment and check the discharge chemistry, including pH, against its limits.",
+      "Issue an environmental compliance statement to the Master in correct maritime English certifying the discharges and emissions."
+    ],
+    deliverable: "An environmental compliance statement covering oil-in-water, SOx and NOx emissions, and ballast water discharge chemistry.",
+    assessmentCriteria: [
+      "The oil-in-water discharge is correctly assessed against its limit.",
+      "The SOx and NOx emissions are correctly evaluated against the area limits.",
+      "The ballast water discharge chemistry is verified against its limits.",
+      "The compliance statement is written in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "QUH534",
+    subjectName: "Química",
+    subjectId: "pn-s5-quimica",
+    unit: "Combustibles y lubricantes",
+    topic: "Síntesis de la química aplicada del semestre para el informe de seguridad química al oficial",
+    week: 18,
+    taskId: "pn-quh534-w18-deliver-chemical-safety-brief",
+    taskTitle: "Deliver The Shipboard Chemical Safety Brief",
+    scenario: "At the end of the semester you must deliver the ship's chemical safety brief, pulling together everything that governs the safe handling of fuels, water, atmospheres and corrosion control across the vessel for the voyage ahead.",
+    instructions: [
+      "Summarise the fire-and-flammability controls for fuels and lubricants, covering flash point, the fire tetrahedron and flammable ranges.",
+      "Present the enclosed-space atmosphere policy and the water treatment regime that protect the crew and the machinery.",
+      "State the corrosion control and the environmental discharge limits the ship operates under.",
+      "Deliver the full chemical safety brief to the officer in professional maritime English."
+    ],
+    deliverable: "A chemical safety brief covering fuel and fire controls, enclosed-space and water treatment, and corrosion and discharge limits.",
+    assessmentCriteria: [
+      "The fire-and-flammability controls for fuels are summarised accurately.",
+      "The enclosed-space and water treatment policies are complete and correct.",
+      "The corrosion control and discharge limits are stated correctly.",
+      "The brief is delivered in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -1744,6 +2440,180 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Reglamento Internacional para prevenir abordajes en la mar",
+    topic: "Navegación en visibilidad reducida integrando señales acústicas del Anexo III, las reglas de rumbo y gobierno y las luces y marcas",
+    week: 13,
+    taskId: "pn-cov535-w13-work-restricted-visibility-signals",
+    taskTitle: "Work The Vessel Through Restricted Visibility",
+    scenario: "Fog closes in on the Tampico approaches. Radar shows a vessel forward of the beam and you must apply the conduct rules for restricted visibility while sounding the correct signals and reading the lights and shapes of vessels you sight as visibility opens and closes.",
+    instructions: [
+      "Sound the correct fog signal for your own vessel's status and interpret the fog signals you hear from other vessels.",
+      "Apply the restricted-visibility steering and sailing rules to the radar contact, deciding the avoiding action the rules require.",
+      "As shapes appear, identify each vessel by its lights and marks and confirm its type and situation.",
+      "Report the restricted-visibility situation and your action, and coordinate on VHF, in correct maritime English and SMCP."
+    ],
+    deliverable: "A restricted-visibility action record with the fog signals, the applied conduct rules, and the identification of contacts.",
+    assessmentCriteria: [
+      "The correct fog signals are sounded and other vessels' signals correctly interpreted.",
+      "The restricted-visibility conduct rules are correctly applied to the contact.",
+      "Vessels are correctly identified by their lights and marks.",
+      "The report and VHF coordination use correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Código Internacional de Señales",
+    topic: "Comunicación por banderas integrando grupos del Código, banderas de un solo significado y la maniobra por Regla 34",
+    week: 14,
+    taskId: "pn-cov535-w14-send-full-flag-message",
+    taskTitle: "Send A Full Coded Message By Flag And Light",
+    scenario: "Radio is not to be used and you must pass a manoeuvring and status message to a nearby vessel entirely by visual means, combining single-letter flags, a coded group from the International Code, and the manoeuvring signals of Rule 34.",
+    instructions: [
+      "Compose the message using the correct International Code group and the single-letter flags whose meaning stands alone.",
+      "Hoist the signal in the correct order and confirm the other vessel's acknowledgement.",
+      "Signal your intended manoeuvre by the Rule 34 light and sound signals as you carry it out.",
+      "Log the exchange and report its meaning to the Master in correct maritime English and SMCP."
+    ],
+    deliverable: "A visual signalling log with the composed flag message, the acknowledgement, and the Rule 34 manoeuvring signals used.",
+    assessmentCriteria: [
+      "The International Code group and single-letter flags are correctly chosen and hoisted.",
+      "The hoist order and acknowledgement procedure are correct.",
+      "The Rule 34 signals correctly match the manoeuvre carried out.",
+      "The log and report use correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Sistema de Boyado Marítimo (IALA)",
+    topic: "Pilotaje visual del canal integrando marcas laterales y cardinales, las regiones A y B y la identificación por luces",
+    week: 15,
+    taskId: "pn-cov535-w15-pilot-channel-by-iala-marks",
+    taskTitle: "Pilot The Channel By The IALA Buoyage",
+    scenario: "You are conning the ship inbound through a buoyed channel at night. You must read the lateral and cardinal marks, apply the correct region convention, and identify each mark by its light to keep the ship in safe water.",
+    instructions: [
+      "Confirm the IALA region for the area and state which side of the vessel the lateral marks must pass.",
+      "Interpret the cardinal marks along the channel and identify the safe water they indicate around each danger.",
+      "Identify each mark at night by its light characteristic and confirm it against the chart before acting on it.",
+      "Give the helm orders and a running mark-identification report to the bridge team in correct maritime English and SMCP."
+    ],
+    deliverable: "A channel piloting record with the region convention, the mark interpretation, and the night light identifications.",
+    assessmentCriteria: [
+      "The IALA region and lateral-mark convention are correctly applied.",
+      "The cardinal marks are correctly interpreted for safe water.",
+      "The marks are correctly identified by their light characteristics.",
+      "The helm orders and report use correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Señales de peligro",
+    topic: "Respuesta a la emergencia visual integrando el socorro en Morse, las señales de peligro del Anexo IV y su composición integrada",
+    week: 16,
+    taskId: "pn-cov535-w16-respond-to-distress-by-visual-means",
+    taskTitle: "Respond To A Distress Signal Sighted At Sea",
+    scenario: "At night you sight a vessel showing distress signals: a Morse SOS by signal lamp and Annex IV distress indications together. Radio contact is not yet established and you must recognise the distress, respond by visual means, and integrate the signals into one picture.",
+    instructions: [
+      "Read the Morse distress signal by lamp and confirm the Annex IV distress signals accompanying it.",
+      "Compose the integrated distress picture, combining the signals to establish the nature and urgency of the casualty.",
+      "Signal your acknowledgement and intention to assist by signal lamp, and begin the response.",
+      "Report the distress and your response to the Master and by VHF in correct maritime English and SMCP."
+    ],
+    deliverable: "A distress response record with the decoded Morse signal, the integrated distress picture, and the visual acknowledgement sent.",
+    assessmentCriteria: [
+      "The Morse distress signal is read correctly.",
+      "The distress signals are correctly integrated into one coherent picture.",
+      "The visual acknowledgement and intention to assist are correctly signalled.",
+      "The distress report uses correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Señales luminosas y de maniobra",
+    topic: "Auditoría de la comunicación visual integrando la lámpara de señales, el Morse por lámpara y las señales de la Regla 34",
+    week: 17,
+    taskId: "pn-cov535-w17-audit-visual-signalling-readiness",
+    taskTitle: "Audit The Ship's Visual Signalling Readiness",
+    scenario: "Before departure the Master asks you to certify that the ship can communicate fully by visual means if radio fails. You must audit the signalling equipment and confirm the watch can send and read Morse, flag and manoeuvring signals.",
+    instructions: [
+      "Test the signal lamp and the flag inventory and confirm the equipment needed for full visual communication is complete and working.",
+      "Verify that the watch can send and read Morse letters and numbers by lamp and can hoist the International Code correctly.",
+      "Confirm the watch can give and read the Rule 34 manoeuvring signals by light and sound.",
+      "Issue a visual signalling readiness statement to the Master in correct maritime English and SMCP."
+    ],
+    deliverable: "A visual signalling readiness statement covering the equipment test, the Morse and flag proficiency, and the Rule 34 signalling.",
+    assessmentCriteria: [
+      "The signal lamp and flag inventory are correctly tested and confirmed complete.",
+      "Morse and flag proficiency of the watch is verified.",
+      "The Rule 34 manoeuvring signal capability is confirmed.",
+      "The readiness statement uses correct maritime English and SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "COV535",
+    subjectName: "Comunicación Visual",
+    subjectId: "pn-s5-comunicacion-visual",
+    unit: "Reglamento Internacional para prevenir abordajes en la mar",
+    topic: "Síntesis de la comunicación visual del semestre para el traspaso de guardia en visibilidad reducida",
+    week: 18,
+    taskId: "pn-cov535-w18-hand-over-visual-comms-watch",
+    taskTitle: "Hand Over The Watch In Reduced Visibility",
+    scenario: "You are handing over the bridge watch as the ship enters a buoyed channel in patchy fog. Your relief must inherit the full visual picture: the buoyage being followed, the contacts identified by light and signal, and the signalling in use.",
+    instructions: [
+      "Summarise the buoyage being followed and the marks still to be identified along the channel.",
+      "Present the contacts around the ship, how each was identified by lights, marks or signals, and the conduct rules being applied to them.",
+      "State the fog signals and manoeuvring signals in use and the visual signalling arranged with other vessels.",
+      "Deliver the full watch handover to your relief in professional maritime English and SMCP."
+    ],
+    deliverable: "A watch handover brief covering the buoyage, the identified contacts, and the signalling in use in reduced visibility.",
+    assessmentCriteria: [
+      "The buoyage and outstanding marks are summarised accurately.",
+      "The contacts and the conduct rules applied to them are correctly presented.",
+      "The fog and manoeuvring signals in use are stated correctly.",
+      "The handover uses professional maritime English and SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "ING531",
     subjectName: "Inglés Marítimo V",
     subjectId: "pn-s5-ingles-maritimo-v",
@@ -2087,6 +2957,180 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Comunicación radiotelefónica",
+    topic: "Comunicación radiotelefónica integrando el protocolo GMDSS de socorro con las frases normalizadas de la OMI",
+    week: 13,
+    taskId: "pn-ing531-w13-handle-full-distress-traffic",
+    taskTitle: "Handle The Full Distress Radio Traffic",
+    scenario: "Your vessel receives a distress call on VHF and is the best-placed ship to assist. Using the VHF simulator you must run the complete distress traffic, from acknowledgement through coordination, entirely in IMO Standard Marine Communication Phrases.",
+    instructions: [
+      "Acknowledge the distress call using the correct GMDSS distress procedure and phraseology.",
+      "Establish and run the on-scene communications, using SMCP message markers to keep the traffic unambiguous.",
+      "Pass your position, intentions and ETA to the casualty and to any coordinating station in standard phrases.",
+      "Log and read back the complete distress exchange in correct radiotelephony English and SMCP."
+    ],
+    deliverable: "A logged distress radio exchange run in full GMDSS procedure and IMO Standard Marine Communication Phrases.",
+    assessmentCriteria: [
+      "The GMDSS distress acknowledgement procedure is correctly followed.",
+      "SMCP message markers are used correctly to keep the traffic unambiguous.",
+      "Position, intentions and ETA are passed clearly and completely.",
+      "The whole exchange is conducted in correct radiotelephony English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Discurso de mando",
+    topic: "Discurso de mando integrando el briefing del equipo de puente, los verbos frasales del puente y los modales de obligación",
+    week: 14,
+    taskId: "pn-ing531-w14-brief-bridge-team-for-operation",
+    taskTitle: "Brief The Bridge Team For The Arrival",
+    scenario: "You are the officer conducting the pre-arrival briefing for the bridge team before entering Tampico. You must deliver clear standing instructions, assign duties, and confirm understanding, using command language correctly.",
+    instructions: [
+      "Deliver the pre-arrival briefing, assigning duties with the bridge phrasal verbs used for orders on the bridge.",
+      "State the obligations, prohibitions and permissions for the operation using the correct modal verbs.",
+      "Check the team's understanding and take back their read-back of the key orders.",
+      "Close the briefing and confirm the team is ready in correct maritime English and SMCP."
+    ],
+    deliverable: "A delivered bridge team briefing with duty assignments, the obligations and prohibitions stated, and understanding confirmed.",
+    assessmentCriteria: [
+      "Duties are assigned clearly using correct bridge phrasal verbs.",
+      "Obligations, prohibitions and permissions are expressed with the correct modals.",
+      "Understanding is checked and read-back is correctly taken.",
+      "The briefing is delivered in correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Pasado perfecto",
+    topic: "Redacción del incidente integrando el pasado perfecto para la cronología, los conectores causales y supposed to para las desviaciones",
+    week: 15,
+    taskId: "pn-ing531-w15-write-full-incident-report",
+    taskTitle: "Write The Full Incident Report",
+    scenario: "A near-miss occurred on your watch when the passage did not go as planned. You must write the formal incident report, setting out the chronology, the causes, and how events deviated from what was supposed to happen.",
+    instructions: [
+      "Set out the chronology of the incident, using the past perfect to show which actions had happened before others.",
+      "Explain the causes of the incident using the correct causal linking expressions.",
+      "State how events deviated from the plan, using supposed to and was going to to report what should have happened.",
+      "Produce the finished incident report in correct written maritime English."
+    ],
+    deliverable: "A written incident report with a past-perfect chronology, a causal analysis, and a statement of the deviation from the plan.",
+    assessmentCriteria: [
+      "The chronology correctly uses the past perfect to order events.",
+      "The causes are expressed with correct causal linking expressions.",
+      "The deviation from plan is correctly reported with supposed to and was going to.",
+      "The report is written in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Discurso de mando",
+    topic: "Debriefing de la emergencia integrando el debriefing del equipo, el pasado perfecto y el reporte de la desviación del plan",
+    week: 16,
+    taskId: "pn-ing531-w16-debrief-team-after-emergency",
+    taskTitle: "Debrief The Bridge Team After The Emergency",
+    scenario: "After an emergency manoeuvre the bridge team stands down and you must run the debrief. You have to reconstruct what happened, draw out where the response diverged from the plan, and turn the lessons into clear guidance, all as a spoken debrief.",
+    instructions: [
+      "Reconstruct the sequence of the emergency with the team, using the past perfect to establish the order of events.",
+      "Draw out where the response deviated from what was supposed to happen and why.",
+      "Turn the findings into clear lessons and revised guidance for the team.",
+      "Deliver the debrief and its conclusions to the team in correct spoken maritime English and SMCP."
+    ],
+    deliverable: "A conducted team debrief with a reconstructed sequence, the deviations identified, and the lessons and revised guidance.",
+    assessmentCriteria: [
+      "The sequence is reconstructed correctly using the past perfect.",
+      "The deviations from the plan are correctly drawn out.",
+      "The lessons and revised guidance are clear and actionable.",
+      "The debrief is delivered in correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Pasivo con modal verbs y verbo to get",
+    topic: "Redacción de consignas integrando la voz pasiva con modales, la voz pasiva de procedimientos y los modales normativos",
+    week: 17,
+    taskId: "pn-ing531-w17-draft-standing-orders-set",
+    taskTitle: "Draft The Master's Standing Orders",
+    scenario: "The Master asks you to draft the night standing orders for the bridge watch. These must read as impersonal, unambiguous procedures and rules, using the passive voice and modals correctly so every officer reads the same obligation.",
+    instructions: [
+      "Draft the procedures as impersonal instructions using the passive voice for standing actions.",
+      "Express the obligations, prohibitions and permissions of the standing orders using the correct modal verbs, including the passive with modals.",
+      "Write the reporting rules using the passive with to get for what must be done and reported to the Master.",
+      "Produce the finished standing orders in correct written maritime English."
+    ],
+    deliverable: "A drafted set of night standing orders written impersonally in the passive with modals.",
+    assessmentCriteria: [
+      "The procedures are correctly written in the passive voice.",
+      "Obligations and prohibitions use the correct modals, including the passive with modals.",
+      "The reporting rules are correctly expressed with the passive and to get.",
+      "The standing orders are written in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "ING531",
+    subjectName: "Inglés Marítimo V",
+    subjectId: "pn-s5-ingles-maritimo-v",
+    unit: "Comunicación radiotelefónica",
+    topic: "Síntesis de la comunicación del semestre para el informe integrado de comunicaciones al Capitán",
+    week: 18,
+    taskId: "pn-ing531-w18-deliver-integrated-comms-brief",
+    taskTitle: "Deliver The Integrated Communications Brief",
+    scenario: "At the pre-departure conference you must deliver the communications brief for the voyage, pulling together the semester's command language: the radiotelephony procedures, the bridge team briefing routine, and the reporting and standing-orders regime, all in correct English.",
+    instructions: [
+      "Summarise the radiotelephony procedures for distress, urgency and safety traffic the ship will use on the voyage.",
+      "Present the bridge team briefing and debriefing routine and the command language it relies on.",
+      "State the incident-reporting and standing-orders regime and the written English standard expected.",
+      "Deliver the full communications brief to the Master in professional maritime English and SMCP."
+    ],
+    deliverable: "A communications brief covering the radiotelephony procedures, the briefing routine, and the reporting and standing-orders regime.",
+    assessmentCriteria: [
+      "The radiotelephony procedures are summarised accurately.",
+      "The briefing and debriefing routine and its language are correctly presented.",
+      "The reporting and standing-orders regime is stated clearly.",
+      "The brief is delivered in professional maritime English and SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -2440,6 +3484,180 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Faena de puerto",
+    topic: "Faena integrada de llegada integrando los cambios de amarre, la estación de amarre y la maniobra de fondeo",
+    week: 13,
+    taskId: "pn-pmr536-w13-run-integrated-arrival-operation",
+    taskTitle: "Run The Integrated Arrival Deck Operation",
+    scenario: "The ship is arriving at Tampico and you run the deck for the whole arrival: standing by the anchor, then taking up the mooring stations and working the lines to berth the vessel. You must sequence the entire fo'c'sle and aft operation.",
+    instructions: [
+      "Prepare the anchor and the mooring stations for arrival and brief the deck party on the sequence of the operation.",
+      "Work the mooring lines through the berthing, ordering the leads and the make-fast in the correct order for the wind and current.",
+      "Keep the anchor ready to let go as a contingency throughout the approach and confirm when it is secured on completion.",
+      "Report the readiness of the stations and the progress of the operation to the bridge in correct maritime English and SMCP."
+    ],
+    deliverable: "An arrival deck operation record with the station preparation, the mooring sequence, and the anchor contingency.",
+    assessmentCriteria: [
+      "The anchor and mooring stations are correctly prepared and briefed.",
+      "The mooring lines are worked in the correct sequence for the conditions.",
+      "The anchor contingency is correctly maintained and secured.",
+      "The reports to the bridge use correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Maniobras a son de mar",
+    topic: "Aseguramiento para la mar integrando el trincado a son de mar, las tapas de escotilla y la inspección del aparejo de amarre",
+    week: 14,
+    taskId: "pn-pmr536-w14-secure-deck-for-heavy-weather",
+    taskTitle: "Secure The Deck For Heavy Weather",
+    scenario: "Heavy weather and a building sea-state are forecast for the passage. You must secure the whole deck for sea: lash and secure movable gear, close and confirm the weathertight hatch covers, and stow the mooring gear so nothing works loose in the seaway.",
+    instructions: [
+      "Lash and secure the deck gear for sea, applying the correct sea-fastening for the expected sea-state.",
+      "Close the hatch covers and confirm their weathertight integrity against the coming weather.",
+      "Inspect and stow the mooring gear so it is secure and protected, discarding any gear unfit to remain rigged.",
+      "Report the deck secured for sea to the chief officer in correct maritime English and SMCP."
+    ],
+    deliverable: "A deck-secured-for-sea record covering the sea-fastening, the hatch-cover closure, and the mooring gear stowage.",
+    assessmentCriteria: [
+      "The deck gear is sea-fastened correctly for the expected sea-state.",
+      "The hatch covers are closed and their weathertight integrity confirmed.",
+      "The mooring gear is inspected, stowed and any unfit gear discarded.",
+      "The deck-secured report uses correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Plumas y grúas",
+    topic: "Faena de carga integrando la operación de grúas, el eslingado y la zona de seguridad y la señalización",
+    week: 15,
+    taskId: "pn-pmr536-w15-run-full-lifting-operation",
+    taskTitle: "Run The Full Cargo Lifting Operation",
+    scenario: "Cargo is to be worked with the ship's crane at the berth. You must run the complete lifting operation: rig and check the crane, sling the load correctly, control the safety zone, and direct the lift by standard signals.",
+    instructions: [
+      "Check and rig the crane for the lift and confirm the load is within its safe working limits.",
+      "Sling the load correctly for its weight and shape and set and enforce the safety zone under the load.",
+      "Direct the lift with the correct hand and radio signals, keeping the load and the deck party clear.",
+      "Report the readiness and completion of the lifting operation to the officer in correct maritime English and SMCP."
+    ],
+    deliverable: "A lifting operation record with the crane rig-and-check, the slinging and safety zone, and the signalling used.",
+    assessmentCriteria: [
+      "The crane is correctly rigged and the load confirmed within safe working limits.",
+      "The load is slung correctly and the safety zone is enforced.",
+      "The lift is directed with correct signals keeping personnel clear.",
+      "The operation reports use correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Anclas y cadenas",
+    topic: "Respuesta al ancla enredada integrando el desentanglado del ancla, el marcado de la cadena y el amarre a boya",
+    week: 16,
+    taskId: "pn-pmr536-w16-clear-a-foul-anchor",
+    taskTitle: "Clear A Foul Anchor In The Roads",
+    scenario: "Heaving up in the Tampico roads, the anchor comes up foul, fouled by an obstruction on the seabed, and the ship must shift to a mooring buoy once cleared. You must clear the foul anchor and then take the ship to the buoy.",
+    instructions: [
+      "Diagnose the foul anchor from the cable markings and the strain, and read the chain marking to confirm how much cable is out.",
+      "Work the anchor clear of the obstruction using the correct clearing manoeuvre, keeping the deck party safe.",
+      "Once cleared, take up and secure the mooring to the buoy, passing and making fast the buoy lines correctly.",
+      "Report the foul anchor, the clearing action and the buoy moor to the bridge in correct maritime English and SMCP."
+    ],
+    deliverable: "A foul-anchor response record with the diagnosis, the clearing manoeuvre, and the buoy mooring made fast.",
+    assessmentCriteria: [
+      "The foul anchor is correctly diagnosed from the cable markings and strain.",
+      "The clearing manoeuvre frees the anchor safely.",
+      "The buoy mooring is passed and made fast correctly.",
+      "The reports use correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Aparejo de amarre",
+    topic: "Auditoría del equipo de cubierta integrando la inspección del aparejo de amarre, las tapas de escotilla y la preparación de superficies",
+    week: 17,
+    taskId: "pn-pmr536-w17-audit-deck-gear-readiness",
+    taskTitle: "Audit The Deck Gear Before Departure",
+    scenario: "Before sailing you must certify that the deck is ready for sea. You audit the mooring gear, the hatch covers and the deck condition, discarding what is unfit and confirming what protects the ship and cargo against the voyage.",
+    instructions: [
+      "Inspect the mooring gear and rigging, discarding any line or fitting outside its retirement criteria and recording what remains serviceable.",
+      "Verify the hatch covers open, close and seal weathertight, and confirm their securing arrangements.",
+      "Check the deck surface preparation and coating condition, noting where corrosion protection has failed and must be renewed.",
+      "Issue a deck readiness statement to the chief officer in correct maritime English and SMCP."
+    ],
+    deliverable: "A deck readiness statement covering the mooring gear inspection, the hatch-cover check, and the surface and coating condition.",
+    assessmentCriteria: [
+      "The mooring gear is inspected against correct retirement criteria.",
+      "The hatch covers' operation and weathertight seal are verified.",
+      "The deck surface and coating condition are correctly assessed.",
+      "The readiness statement uses correct maritime English and SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "PMR536",
+    subjectName: "Prácticas Marineras V",
+    subjectId: "pn-s5-practicas-marineras-v",
+    unit: "Faena de puerto",
+    topic: "Síntesis de la práctica marinera del semestre para el traspaso de la responsabilidad de cubierta",
+    week: 18,
+    taskId: "pn-pmr536-w18-hand-over-deck-responsibility",
+    taskTitle: "Hand Over The Deck For The Departure Operation",
+    scenario: "You are handing over responsibility for the deck to the relieving officer before the departure operation. Your relief must inherit the full state of the deck: the mooring plan, the gear condition, the cargo securing, and the readiness of the stations.",
+    instructions: [
+      "Summarise the mooring plan and the state of the stations for the departure operation.",
+      "Present the condition of the deck gear, the hatch covers and the sea-fastening ready for the passage.",
+      "State the outstanding deck work and any gear withdrawn from service that the relief must account for.",
+      "Deliver the full deck handover to the relieving officer in professional maritime English and SMCP."
+    ],
+    deliverable: "A deck handover brief covering the mooring plan, the gear and securing condition, and the outstanding work.",
+    assessmentCriteria: [
+      "The mooring plan and station state are summarised accurately.",
+      "The gear, hatch-cover and sea-fastening condition are correctly presented.",
+      "The outstanding work and withdrawn gear are clearly stated.",
+      "The handover uses professional maritime English and SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "C0011",
     subjectName: "Educación Física V",
     subjectId: "pn-s5-educacion-fisica-v",
@@ -2783,6 +4001,180 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Plan personal",
+    topic: "Plan de entrenamiento del período de mar integrando la fuerza muscular, el acondicionamiento cardiovascular por intensidad percibida y la prevención de lesiones",
+    week: 13,
+    taskId: "pn-c0011v-w13-build-sea-period-training-plan",
+    taskTitle: "Build The Sea-Period Training Plan",
+    scenario: "You are about to join a ship for a long sea period with limited space and equipment. You must build a personal training plan that keeps you fit for heavy deck work throughout the voyage without causing injury.",
+    instructions: [
+      "Set the strength component of the plan around the muscular demands of heavy deck work aboard.",
+      "Program the cardiovascular training by perceived effort so it can be run without gym equipment at sea.",
+      "Build in the injury-prevention and recovery measures that keep you fit across the whole sea period.",
+      "Present the sea-period training plan and its goals in correct maritime English."
+    ],
+    deliverable: "A personal sea-period training plan integrating strength, cardiovascular and injury-prevention components.",
+    assessmentCriteria: [
+      "The strength component is matched to the demands of heavy deck work.",
+      "The cardiovascular training is correctly programmed by perceived effort.",
+      "Injury-prevention and recovery measures are built into the plan.",
+      "The plan is presented in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Percepción y coordinación motriz",
+    topic: "Trabajo en cubierta con movimiento integrando el equilibrio y la ubicación espacial, la coordinación motriz y la lateralidad",
+    week: 14,
+    taskId: "pn-c0011v-w14-train-for-a-moving-deck",
+    taskTitle: "Train To Work Safely On A Moving Deck",
+    scenario: "In a seaway the deck pitches and rolls and you must keep your balance and coordination while carrying out tasks. You must design and run a training routine that prepares you to move and work safely on a moving deck.",
+    instructions: [
+      "Design balance and spatial-orientation drills that reproduce keeping your footing on a pitching, rolling deck.",
+      "Add coordination and laterality drills for the two-handed deck tasks done while the deck moves.",
+      "Set the progression that builds from calm-deck practice to working in a realistic sea-state.",
+      "Explain the training routine and its purpose in correct maritime English."
+    ],
+    deliverable: "A moving-deck training routine integrating balance, coordination and laterality drills with a progression.",
+    assessmentCriteria: [
+      "The balance drills realistically reproduce a moving deck.",
+      "The coordination and laterality drills match real two-handed deck tasks.",
+      "The progression sensibly builds toward a realistic sea-state.",
+      "The routine is explained in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Desarrollo físico integral",
+    topic: "Coordinación de la tripulación integrando los deportes de equipo, el trabajo físico pesado de cubierta y la concentración sostenida",
+    week: 15,
+    taskId: "pn-c0011v-w15-run-crew-coordination-session",
+    taskTitle: "Run A Crew Coordination Fitness Session",
+    scenario: "As the fittest member of the watch you are asked to run a physical session for the crew that builds the coordination and stamina a team needs to work together through a long deck operation.",
+    instructions: [
+      "Plan a team-sport-based session that trains crew coordination and cooperative movement.",
+      "Build in the heavy physical work and the sustained concentration a long deck operation demands.",
+      "Set the intensity and rest so the whole crew, at mixed fitness levels, can complete the session safely.",
+      "Lead the session and brief the crew on its purpose in correct maritime English."
+    ],
+    deliverable: "A crew coordination fitness session plan integrating team sport, heavy work and sustained concentration.",
+    assessmentCriteria: [
+      "The team-sport session genuinely trains crew coordination.",
+      "Heavy physical work and sustained concentration are built in.",
+      "Intensity and rest are set so a mixed-fitness crew can complete it safely.",
+      "The session is led and briefed in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Condición física",
+    topic: "Respuesta física a la emergencia integrando el vigor y la potencia, la prevención de lesiones y el rescate en el agua",
+    week: 16,
+    taskId: "pn-c0011v-w16-perform-emergency-physical-response",
+    taskTitle: "Perform The Emergency Physical Response",
+    scenario: "A crew emergency demands sudden heavy physical effort: dragging gear, carrying a casualty, and a water rescue. You must respond with the power the emergency needs while protecting yourself and the casualty from injury.",
+    instructions: [
+      "Apply the correct technique to the heavy explosive tasks of the emergency so you deliver power without injuring yourself.",
+      "Carry out the basic water rescue safely, keeping control of the casualty and your own buoyancy.",
+      "Manage your effort and recovery so you can sustain the response until the emergency is over.",
+      "Report your actions and the casualty's condition to the officer in correct maritime English."
+    ],
+    deliverable: "An emergency physical response record covering the heavy-task technique, the water rescue, and the effort management.",
+    assessmentCriteria: [
+      "The heavy explosive tasks are performed with correct, injury-safe technique.",
+      "The water rescue is carried out safely and under control.",
+      "Effort and recovery are managed to sustain the response.",
+      "The report to the officer is delivered in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Plan personal",
+    topic: "Auditoría de la aptitud física integrando el plan del período de mar, el acondicionamiento cardiovascular y la prevención de lesiones",
+    week: 17,
+    taskId: "pn-c0011v-w17-audit-personal-fitness-readiness",
+    taskTitle: "Audit Your Fitness Readiness For Sea Duty",
+    scenario: "Before joining the ship you must certify your own fitness for sea duty. You audit your strength, cardiovascular condition and injury status against the demands of the role and set the plan to close any gap.",
+    instructions: [
+      "Assess your strength and cardiovascular condition against the physical demands of watchkeeping and heavy deck work.",
+      "Identify any injury risk or physical limitation and the corrective conditioning it needs.",
+      "Set the maintenance plan that keeps you fit for duty across the whole tour, with measurable checkpoints.",
+      "Present your fitness readiness assessment to the officer in correct maritime English."
+    ],
+    deliverable: "A fitness readiness assessment with the condition audit, the injury-risk correction, and the maintenance plan.",
+    assessmentCriteria: [
+      "Strength and cardiovascular condition are honestly assessed against the demands.",
+      "Injury risks and limitations are identified with corrective conditioning.",
+      "The maintenance plan has measurable checkpoints across the tour.",
+      "The assessment is presented in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0011",
+    subjectName: "Educación Física V",
+    subjectId: "pn-s5-educacion-fisica-v",
+    unit: "Desarrollo físico integral",
+    topic: "Síntesis de la preparación física del semestre para el informe de aptitud de la tripulación",
+    week: 18,
+    taskId: "pn-c0011v-w18-deliver-crew-fitness-brief",
+    taskTitle: "Deliver The Crew Fitness Readiness Brief",
+    scenario: "At the end of the semester you must brief the officer on the fitness readiness of the deck team for the voyage, pulling together the training regime, the moving-deck and emergency readiness, and the injury-prevention culture built over the term.",
+    instructions: [
+      "Summarise the training regime that keeps the deck team fit for the physical demands of the voyage.",
+      "Present the team's readiness for a moving deck and for the sudden effort of an emergency response.",
+      "State the injury-prevention practices and the fitness maintenance the team will follow at sea.",
+      "Deliver the crew fitness readiness brief to the officer in professional maritime English."
+    ],
+    deliverable: "A crew fitness readiness brief covering the training regime, the moving-deck and emergency readiness, and injury prevention.",
+    assessmentCriteria: [
+      "The training regime is summarised accurately for the voyage demands.",
+      "The moving-deck and emergency readiness are correctly presented.",
+      "The injury-prevention and maintenance practices are stated clearly.",
+      "The brief is delivered in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -3136,6 +4528,180 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
   {
     career: "PN",
     semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y Moral",
+    topic: "Resolución del dilema integrando el método de análisis del dilema, la reflexión ética y los valores de la Gente de Mar",
+    week: 13,
+    taskId: "pn-c0104-w13-resolve-full-ethical-dilemma",
+    taskTitle: "Resolve A Full Ethical Dilemma On Board",
+    scenario: "You face a real shipboard dilemma where safety, schedule and loyalty to a shipmate pull against each other. You must work the dilemma through in full, from the facts to a defensible decision grounded in the seafarer's values.",
+    instructions: [
+      "Apply the step-by-step method of ethical dilemma analysis to lay out the facts, the stakeholders and the conflicting duties.",
+      "Reason through the options against the core values of the seafarer and the professional's ethical responsibility.",
+      "Reach a defensible decision and state the reasoning that justifies it over the alternatives.",
+      "Present your ruling and its justification in correct maritime English."
+    ],
+    deliverable: "A written ethical ruling with the dilemma analysis, the values-based reasoning, and the justified decision.",
+    assessmentCriteria: [
+      "The dilemma analysis method is applied correctly and completely.",
+      "The reasoning is genuinely grounded in the seafarer's core values.",
+      "The decision is defensible and justified over the alternatives.",
+      "The ruling is presented in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Decisión ambiental integrando la toma de decisiones ambientales, el deber ético de reportar y la cultura justa",
+    week: 14,
+    taskId: "pn-c0104-w14-make-environmental-ethics-decision",
+    taskTitle: "Make The Environmental Reporting Decision",
+    scenario: "You discover an environmental non-compliance aboard that someone would prefer to keep quiet. You must decide what to do, weighing the duty to report against the pressure to stay silent, within a just-culture framework.",
+    instructions: [
+      "Analyse the environmental situation and the duty it places on you as an officer.",
+      "Weigh the ethical duty to report against the pressure not to, applying just-culture principles to the people involved.",
+      "Decide on the reporting action and how you will carry it out fairly and honestly.",
+      "Communicate your decision and its ethical basis in correct maritime English."
+    ],
+    deliverable: "A written environmental decision with the duty analysis, the just-culture reasoning, and the reporting action.",
+    assessmentCriteria: [
+      "The environmental duty on the officer is correctly analysed.",
+      "The duty to report is weighed fairly against the counter-pressures with just-culture reasoning.",
+      "The reporting action is decided and its conduct is fair and honest.",
+      "The decision is communicated in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "El juicio",
+    topic: "Redacción del informe imparcial integrando el hecho frente al juicio de valor, la reflexión ética y el deber de reportar",
+    week: 15,
+    taskId: "pn-c0104-w15-write-impartial-incident-account",
+    taskTitle: "Write The Impartial Incident Account",
+    scenario: "After an incident with disputed blame you are asked to write the account that will go on record. You must keep fact strictly separate from value judgement so the report is fair to everyone involved and useful to the inquiry.",
+    instructions: [
+      "Separate the established facts of the incident from the value judgements about the people involved.",
+      "Write the factual account so it holds only what can be evidenced, flagging where only opinion exists.",
+      "Discharge the duty to report honestly without letting bias colour the record.",
+      "Produce the impartial incident account in correct written maritime English."
+    ],
+    deliverable: "An impartial written incident account that separates fact from value judgement and reports honestly.",
+    assessmentCriteria: [
+      "Fact is correctly and consistently separated from value judgement.",
+      "The account holds only what can be evidenced, with opinion flagged.",
+      "The duty to report is discharged honestly and without bias.",
+      "The account is written in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Respuesta a la presión comercial integrando el caso bajo presión comercial, la ética de la fatiga y los límites y el deber de reportar",
+    week: 16,
+    taskId: "pn-c0104-w16-resist-unsafe-commercial-pressure",
+    taskTitle: "Resist Unsafe Commercial Pressure",
+    scenario: "Commercial pressure is pushing the ship to sail on schedule when the crew is fatigued beyond safe limits and a defect is unresolved. You must stand on the ethics of the situation and decide the right action under real pressure.",
+    instructions: [
+      "Analyse the commercial pressure against the safety facts, the crew's fatigue and the unresolved defect.",
+      "Apply the ethics of fatigue and personal limits to judge whether the operation can proceed safely.",
+      "Decide the ethical course of action and how you will hold it against the pressure, discharging your duty to report.",
+      "Communicate your decision and its ethical grounds up the chain of command in correct maritime English."
+    ],
+    deliverable: "A written decision resisting unsafe commercial pressure, grounded in the ethics of fatigue and the duty to report.",
+    assessmentCriteria: [
+      "The commercial pressure is correctly weighed against the safety facts.",
+      "The ethics of fatigue and limits are correctly applied to the decision.",
+      "The chosen course holds against the pressure and discharges the duty to report.",
+      "The decision is communicated in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Auditoría del código personal integrando el perfil ético del oficial, los valores de la Gente de Mar y la dignidad y los derechos laborales",
+    week: 17,
+    taskId: "pn-c0104-w17-audit-personal-code-of-conduct",
+    taskTitle: "Audit Your Personal Code Of Conduct",
+    scenario: "Approaching qualification as an officer, you must audit your own ethical profile: test the personal code of conduct you have written against the seafarer's values and the dignity and labour rights of those you will lead.",
+    instructions: [
+      "Review your ethical profile and personal code of conduct against the core values of the seafarer.",
+      "Test the code against real situations involving the dignity and labour rights of the crew you will lead.",
+      "Revise the code where it falls short and state the commitments you will hold yourself to as an officer.",
+      "Present your audited code of conduct in correct maritime English."
+    ],
+    deliverable: "An audited personal code of conduct tested against the seafarer's values and the crew's dignity and rights.",
+    assessmentCriteria: [
+      "The code is genuinely tested against the seafarer's core values.",
+      "The dignity and labour rights of the crew are properly considered.",
+      "The revisions and commitments are honest and specific.",
+      "The audited code is presented in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0104",
+    subjectName: "Ética Profesional",
+    subjectId: "pn-s5-etica-profesional",
+    unit: "Ética y profesión",
+    topic: "Síntesis de la ética profesional del semestre para el informe del perfil ético del oficial",
+    week: 18,
+    taskId: "pn-c0104-w18-present-officer-ethical-profile",
+    taskTitle: "Present Your Ethical Profile As An Officer",
+    scenario: "As the closing capstone you must present the ethical profile you will carry into service, pulling together the semester's work: your decision method, your stance on reporting and pressure, and the values that will guide you as an officer.",
+    instructions: [
+      "Summarise the decision method you use to resolve an ethical dilemma at sea.",
+      "Present your stance on the duty to report, commercial pressure and the ethics of fatigue and limits.",
+      "State the core values and the personal code that will guide your conduct as an officer.",
+      "Deliver your ethical profile presentation in professional maritime English."
+    ],
+    deliverable: "An ethical profile presentation covering the decision method, the stance on reporting and pressure, and the guiding values.",
+    assessmentCriteria: [
+      "The ethical decision method is summarised clearly and correctly.",
+      "The stance on reporting, pressure and fatigue is coherent and well argued.",
+      "The core values and personal code are stated convincingly.",
+      "The presentation is delivered in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
     subjectCode: "C0105",
     subjectName: "Liderazgo",
     subjectId: "pn-s5-liderazgo",
@@ -3479,6 +5045,180 @@ export const pnSemesterVTasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "El liderazgo en la operación",
+    topic: "Liderazgo del oficial de guardia integrando la comunicación del líder, los estilos de liderazgo y el trabajo en equipo",
+    week: 13,
+    taskId: "pn-c0105-w13-lead-the-bridge-team-on-watch",
+    taskTitle: "Lead The Bridge Team Through The Watch",
+    scenario: "You take the conn as officer of the watch for a demanding coastal passage with a mixed bridge team. You must lead the watch: set the team up, communicate clearly, and adapt your style to the people and the situation.",
+    instructions: [
+      "Match your leadership style to the situation and to each member of the bridge team.",
+      "Set the team up for the watch, assigning roles and building the teamwork the passage demands.",
+      "Communicate as a leader through the watch: clear instructions, checking understanding, active listening and feedback.",
+      "Deliver your watch orders and team direction in correct maritime English and SMCP."
+    ],
+    deliverable: "A watch leadership plan with the style choice, the team setup, and the leader's communication routine.",
+    assessmentCriteria: [
+      "The leadership style is well matched to the situation and the team.",
+      "The team is set up with clear roles and effective teamwork.",
+      "The leader's communication routine is clear and complete.",
+      "The watch orders and direction use correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "La comunicación del líder",
+    topic: "Desafío respetuoso integrando la asertividad graduada, la inteligencia emocional bajo presión y el trabajo en equipo",
+    week: 14,
+    taskId: "pn-c0105-w14-challenge-a-decision-respectfully",
+    taskTitle: "Challenge A Superior's Decision Respectfully",
+    scenario: "On the bridge you see the officer in charge making a decision you believe is unsafe. You must speak up and challenge it respectfully, holding your ground through graded assertiveness while managing your own and the team's emotions.",
+    instructions: [
+      "Read the situation and your own emotional state, applying emotional intelligence before you speak.",
+      "Raise the concern using graded assertiveness, escalating your challenge in the correct steps until it is heard.",
+      "Keep the team functioning and the relationship intact while you press the safety concern.",
+      "Voice your challenge and your reasoning in correct maritime English and SMCP."
+    ],
+    deliverable: "A recorded graded-assertiveness challenge showing the escalation steps and the emotional management used.",
+    assessmentCriteria: [
+      "Emotional intelligence is applied before and during the challenge.",
+      "Graded assertiveness escalates correctly until the concern is heard.",
+      "The team and the relationship are kept functioning through the challenge.",
+      "The challenge is voiced in correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "Elementos del liderazgo",
+    topic: "Motivación en travesía larga integrando la motivación intrínseca y extrínseca, el trabajo en equipo y la actitud proactiva",
+    week: 15,
+    taskId: "pn-c0105-w15-motivate-crew-on-long-voyage",
+    taskTitle: "Motivate The Crew Through A Long Voyage",
+    scenario: "Morale is flagging halfway through a long, monotonous voyage. As a leader you must lift and sustain the crew's motivation, drawing on both intrinsic and extrinsic drivers and your own proactive example.",
+    instructions: [
+      "Diagnose what is draining the crew's motivation and identify the intrinsic and extrinsic drivers you can use.",
+      "Build the measures that rebuild teamwork and sustain motivation through the rest of the voyage.",
+      "Lead by proactive example, modelling the attitude and habits you want the crew to adopt.",
+      "Deliver your motivation plan and address the crew in correct maritime English."
+    ],
+    deliverable: "A crew motivation plan integrating intrinsic and extrinsic drivers, teamwork measures, and proactive leadership.",
+    assessmentCriteria: [
+      "The causes of low motivation and the available drivers are correctly diagnosed.",
+      "The measures realistically rebuild teamwork and sustain motivation.",
+      "Proactive leadership by example is built into the plan.",
+      "The plan and address are delivered in correct maritime English."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "La gestión del equipo",
+    topic: "Gestión del error y la crisis integrando la gestión del error y del conflicto, la resolución ganar-ganar y la toma de decisiones bajo presión",
+    week: 16,
+    taskId: "pn-c0105-w16-manage-error-and-conflict-in-crisis",
+    taskTitle: "Manage Error And Conflict During A Crisis",
+    scenario: "During an emergency a team member makes a serious error and a conflict flares between two others over what to do. As leader you must contain the error, resolve the conflict, and drive the team to a decision without losing the response.",
+    instructions: [
+      "Contain the error without blame, keeping the person and the team focused on the response.",
+      "Resolve the conflict between the team members with a win-win approach that keeps both engaged.",
+      "Drive the team to a decision under pressure and commit them to the chosen action.",
+      "Direct the team and communicate the decision in correct maritime English and SMCP."
+    ],
+    deliverable: "A crisis leadership record covering the error containment, the conflict resolution, and the decision driven under pressure.",
+    assessmentCriteria: [
+      "The error is contained without blame and the team kept focused.",
+      "The conflict is resolved with a genuine win-win that keeps both engaged.",
+      "A decision is driven under pressure and the team is committed to it.",
+      "The direction and decision use correct maritime English and SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "Estrategias de planeación y operación",
+    topic: "Resolución de problemas del equipo integrando la identificación y resolución de problemas, la toma de decisiones bajo presión y la sinergia",
+    week: 17,
+    taskId: "pn-c0105-w17-solve-a-team-operational-problem",
+    taskTitle: "Solve A Complex Operational Problem As A Team",
+    scenario: "A recurring operational problem is degrading the team's performance and no single person can see the whole cause. As leader you must lead the team through identifying the real problem and deciding a solution that draws on the whole team's synergy.",
+    instructions: [
+      "Lead the team to identify the real problem behind the symptoms rather than the obvious one.",
+      "Generate and weigh solution options, using the team's synergy to reach a better answer than any one member alone.",
+      "Decide the course of action under time pressure and assign the follow-through.",
+      "Present the problem, the decision and the plan to the team in correct maritime English."
+    ],
+    deliverable: "A problem-solving record with the real-problem diagnosis, the synergy-driven options, and the decided course of action.",
+    assessmentCriteria: [
+      "The real underlying problem is correctly identified, not just the symptom.",
+      "The team's synergy is genuinely used to improve the solution.",
+      "A course of action is decided under pressure with clear follow-through.",
+      "The presentation is delivered in correct maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "PN",
+    semester: "Semester V",
+    subjectCode: "C0105",
+    subjectName: "Liderazgo",
+    subjectId: "pn-s5-liderazgo",
+    unit: "Estrategias de planeación y operación",
+    topic: "Síntesis del liderazgo del semestre para la autocrítica y el plan de renovación del oficial",
+    week: 18,
+    taskId: "pn-c0105-w18-lead-renewal-through-self-critique",
+    taskTitle: "Lead Renewal Through Honest Self-Critique",
+    scenario: "As the closing capstone you must deliver an honest self-critique of your own leadership over the semester and set the renewal plan that will guide your continued improvement as an officer, pulling the whole term together.",
+    instructions: [
+      "Critique your own leadership honestly across the semester: your communication, your assertiveness, and your handling of error and conflict.",
+      "Draw out the strengths to keep and the specific weaknesses to work on as an officer.",
+      "Set a continuous-improvement and renewal plan with concrete goals and how you will hold yourself to them.",
+      "Deliver your self-critique and renewal plan in professional maritime English."
+    ],
+    deliverable: "A leadership self-critique and renewal plan covering honest self-assessment, the lessons drawn, and the improvement goals.",
+    assessmentCriteria: [
+      "The self-critique is honest and covers the semester's leadership work.",
+      "The strengths to keep and weaknesses to fix are specific and fair.",
+      "The renewal plan has concrete goals and accountability.",
+      "The self-critique is delivered in professional maritime English."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
 ];
