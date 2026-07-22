@@ -346,6 +346,180 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Álgebra aplicada a máquinas",
+    topic: "Consumo de combustible, autonomía y despeje de fórmulas (V = Q x t)",
+    week: 13,
+    taskId: "mn-alg103-w13-plan-bunker-transfer-calculation-set",
+    taskTitle: "Plan The Full Fuel Transfer And Autonomy Calculation",
+    scenario: "Before a coastal voyage out of Tampico the chief engineer asks the cadet to prepare the complete bunkering worksheet, combining the fuel-consumption and autonomy figures from week 6 with the transposed transfer-time formula V = Q x t from week 7 and simple regla de tres.",
+    instructions: [
+      "List the bunker tank capacities, the transfer pump rate Q and the daily consumption from the engine-room log.",
+      "Use regla de tres and the consumption figures to work out how many steaming days the planned bunker gives.",
+      "Transpose V = Q x t to find how long each tank transfer will take and check it against the available port stay.",
+      "Report the transfer sequence and voyage autonomy to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A signed bunkering and autonomy worksheet showing transfer times and the steaming-day margin.",
+    assessmentCriteria: [
+      "Autonomy is derived correctly from consumption and proportion.",
+      "Transfer times follow from a correct transposition of V = Q x t.",
+      "The worksheet reconciles transfer time with the available port stay.",
+      "Results are reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Álgebra aplicada a máquinas",
+    topic: "Relaciones de transmisión y porcentaje de carga vs MCR",
+    week: 14,
+    taskId: "mn-alg103-w14-build-propulsion-loading-sheet",
+    taskTitle: "Build The Propulsion Loading And Ratio Sheet",
+    scenario: "The engine-room simulator is set up for a manoeuvring run. The cadet must combine the gear and pulley ratios from week 5 with load expressed as a percentage of MCR from week 8 and a linear equation to produce the propulsion loading sheet for the watch.",
+    instructions: [
+      "From the shaft, gear and pulley data, calculate the output speed through the transmission ratios.",
+      "Express the running load as a percentage of MCR and check it against the safe operating band.",
+      "Set up and solve a linear equation for the load margin still available before MCR is reached.",
+      "Report the propulsion loading state and the remaining margin to the officer of the watch in maritime English / SMCP."
+    ],
+    deliverable: "A propulsion loading sheet stating output speed, percentage of MCR and available load margin.",
+    assessmentCriteria: [
+      "Output speed is correct for the gear and pulley ratios used.",
+      "Percentage of MCR is correct and placed in the right operating band.",
+      "The linear equation gives an accurate available margin.",
+      "The loading state is reported to the watch officer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Álgebra lineal aplicada",
+    topic: "Matrices, determinantes y programación lineal en el reparto de carga",
+    week: 15,
+    taskId: "mn-alg103-w15-optimise-generator-load-sharing",
+    taskTitle: "Optimise The Generator Load-Sharing Plan",
+    scenario: "Two diesel generators feed the switchboard in the engine-room simulator. The cadet integrates the determinant method for load sharing from week 10 with the linear-programming method from week 11 to distribute a rising electrical load without overloading either machine.",
+    instructions: [
+      "Build the load-sharing equations for both generators and solve them using determinants.",
+      "Set the linear-programming constraints of maximum rating and spinning reserve and find the optimum split.",
+      "Verify that each generator stays inside its rated percentage before the extra load is accepted.",
+      "Report the recommended load split and reserve to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A generator load-sharing plan giving the optimum split and the reserve held on each machine.",
+    assessmentCriteria: [
+      "The determinant solution correctly divides the base load.",
+      "The linear-programming constraints yield a feasible optimum split.",
+      "Each generator is verified within its rated percentage.",
+      "The load split and reserve are reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Ecuaciones, desigualdades y números complejos",
+    topic: "Impedancia con números complejos y niveles logarítmicos",
+    week: 16,
+    taskId: "mn-alg103-w16-diagnose-ac-fault-impedance",
+    taskTitle: "Diagnose An AC Fault Using Impedance And Noise Levels",
+    scenario: "An auxiliary motor trips and the engine-room noise rises sharply. The cadet must combine complex-number impedance from week 12 with logarithmic noise levels from week 9 to decide whether the fault is electrical overload or a mechanical problem.",
+    instructions: [
+      "Express the motor circuit impedance in complex form and find its magnitude.",
+      "Convert the measured sound readings to a logarithmic level and compare them with the normal figure.",
+      "Decide from both results whether the fault is electrical overload or mechanical and state the immediate action.",
+      "Report the diagnosis and the recommended action to the duty engineer in maritime English / SMCP."
+    ],
+    deliverable: "A fault-diagnosis note combining impedance magnitude and noise level with a recommended action.",
+    assessmentCriteria: [
+      "Impedance magnitude is calculated correctly from the complex form.",
+      "The logarithmic noise level is computed and compared correctly.",
+      "The electrical-versus-mechanical decision is justified by both results.",
+      "The diagnosis is reported to the duty engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Porcentajes y tolerancias",
+    topic: "Desgaste, holgura vs tolerancia y despeje de fórmulas",
+    week: 17,
+    taskId: "mn-alg103-w17-audit-measurements-against-tolerance",
+    taskTitle: "Audit Engine Measurements Against Tolerance Limits",
+    scenario: "During the end-of-semester maintenance audit the cadet integrates percentages and tolerances from week 8 with formula transposition from week 7 and proportions to verify that a set of clearance and wear measurements is within limits before the unit is certified.",
+    instructions: [
+      "For each measured clearance, calculate the wear as a percentage of the maker's tolerance.",
+      "Transpose the relevant formula to find the limiting value at which the part must be renewed.",
+      "Flag every measurement outside tolerance and state the remaining service margin for the rest.",
+      "Report the audit result and any out-of-tolerance items to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A tolerance audit sheet certifying each measurement as within or outside limits with its service margin.",
+    assessmentCriteria: [
+      "Wear percentages are calculated against the correct tolerance.",
+      "The renewal limit follows from a correct transposition.",
+      "Out-of-tolerance items are flagged with the right margins.",
+      "The audit result is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ALG103",
+    subjectName: "Álgebra",
+    subjectId: "mn-s1-algebra",
+    unit: "Integración de Álgebra de máquinas",
+    topic: "Integración de combustible, reparto de carga, tolerancias e impedancia",
+    week: 18,
+    taskId: "mn-alg103-w18-present-engine-room-math-dossier",
+    taskTitle: "Present The Engine-Room Mathematics Dossier",
+    scenario: "At the close of the semester the cadet assembles every engine-room calculation method into one dossier for the chief engineer, pulling together fuel autonomy, generator load-sharing, the tolerance audit and AC impedance from the weeks before.",
+    instructions: [
+      "Assemble the bunkering, generator load-sharing and tolerance worksheets into a single dossier.",
+      "Cross-check that the fuel, electrical and mechanical figures are mutually consistent for the voyage.",
+      "Summarise the key numbers the watch will need on a one-page control sheet.",
+      "Present the dossier and brief the chief engineer on the critical figures in maritime English / SMCP."
+    ],
+    deliverable: "A complete engine-room mathematics dossier with a one-page control summary.",
+    assessmentCriteria: [
+      "The dossier integrates fuel, electrical and mechanical calculations coherently.",
+      "The cross-checks confirm the figures are consistent for the voyage.",
+      "The control sheet highlights the correct critical values.",
+      "The dossier is presented and briefed to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "FIS104",
     subjectName: "Física",
     subjectId: "mn-s1-fisica",
@@ -689,6 +863,180 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Dinámica rotacional",
+    topic: "Par, revoluciones y potencia al eje con trabajo, energía y unidades",
+    week: 13,
+    taskId: "mn-fis104-w13-compile-shaft-power-energy-report",
+    taskTitle: "Compile The Main Engine Power And Energy Report",
+    scenario: "During a loaded run in the engine-room simulator the cadet must combine shaft power from torque and rpm (P = 2 pi N T, week 8) with the work, energy and power relationship from week 2 and the unit systems from week 1 to compile the power report for the watch.",
+    instructions: [
+      "Read the shaft torque and rpm and calculate the shaft power using P = 2 pi N T.",
+      "Relate the shaft power to the work and energy delivered over the length of the watch.",
+      "Convert the results between SI and English units for entry in the engine-room log.",
+      "Report the main engine power and energy figures to the officer of the watch in maritime English / SMCP."
+    ],
+    deliverable: "A main engine power and energy report with values in both SI and English units.",
+    assessmentCriteria: [
+      "Shaft power is calculated correctly with P = 2 pi N T.",
+      "Work and energy over the watch are related correctly to the power.",
+      "Unit conversions are accurate and consistent.",
+      "The power report is delivered to the watch officer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Termodinámica",
+    topic: "Ley combinada de los gases, calor a extraer y dilatación térmica",
+    week: 14,
+    taskId: "mn-fis104-w14-analyse-charge-and-cooling-balance",
+    taskTitle: "Analyse The Cylinder Charge And Cooling Balance",
+    scenario: "A cylinder is running hot on the simulator. The cadet must combine the combined gas law from week 5 with the cooler heat-load calculation Q = m c deltaT from week 6 and the pipe thermal-expansion allowance from week 3 to check the charge-and-cooling balance.",
+    instructions: [
+      "Apply the combined gas law to find the state of the cylinder charge at the running condition.",
+      "Calculate the heat the cooler must remove using Q = m c deltaT.",
+      "Check that the cooling-pipe run has enough allowance for its thermal expansion.",
+      "Report the charge-and-cooling balance and any corrective action to the duty engineer in maritime English / SMCP."
+    ],
+    deliverable: "A charge-and-cooling balance note with the gas state, cooler heat load and expansion check.",
+    assessmentCriteria: [
+      "The combined gas law is applied correctly to the charge.",
+      "The cooler heat load from Q = m c deltaT is accurate.",
+      "The thermal-expansion allowance is checked against the pipe run.",
+      "The balance is reported to the duty engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Mecánica de fluidos",
+    topic: "Principio de Pascal y leyes de Newton en el sistema hidráulico",
+    week: 15,
+    taskId: "mn-fis104-w15-check-steering-hydraulic-system",
+    taskTitle: "Operate And Check The Steering Hydraulic System",
+    scenario: "The steering-gear hydraulics need a load check before departure. The cadet combines Pascal's principle from week 7 with Newton's laws from week 4 to verify the ram forces move the rudder load within limits.",
+    instructions: [
+      "Apply Pascal's principle F1/A1 = F2/A2 to find the force the hydraulic ram develops.",
+      "Apply Newton's laws to relate that force to the acceleration and motion of the rudder load.",
+      "Verify the developed force stays within the relief-valve setting of the system.",
+      "Report the steering hydraulic check and its result to the officer of the watch in maritime English / SMCP."
+    ],
+    deliverable: "A steering hydraulic check note with the ram force, load motion and relief-setting margin.",
+    assessmentCriteria: [
+      "Pascal's principle is applied correctly to find the ram force.",
+      "Newton's laws correctly relate force to the rudder-load motion.",
+      "The developed force is verified against the relief-valve setting.",
+      "The check is reported to the watch officer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Movimiento circular, impulso y cantidad de movimiento en una emergencia",
+    week: 16,
+    taskId: "mn-fis104-w16-respond-overspeed-and-jet-reaction",
+    taskTitle: "Respond To An Overspeed And Water-Jet Reaction",
+    scenario: "The main engine governor senses an overspeed and the emergency fire pump is started at the same time. The cadet must combine centripetal force on the governor weight from week 11 with the water-jet reaction force from week 10 to judge the emergency and the correct action.",
+    instructions: [
+      "Calculate the centripetal force on the governor weight at the overspeed rpm.",
+      "Calculate the reaction force produced by the emergency fire-pump water jet.",
+      "Decide whether the governor will act in time and what load-shedding step is required.",
+      "Report the overspeed situation and the action taken to the duty engineer in maritime English / SMCP."
+    ],
+    deliverable: "An emergency note giving the governor centripetal force, the jet reaction force and the action taken.",
+    assessmentCriteria: [
+      "The centripetal force at overspeed is calculated correctly.",
+      "The water-jet reaction force is calculated correctly.",
+      "The action decided is justified by both forces.",
+      "The situation and action are reported to the duty engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Trabajo",
+    topic: "Verificación de potencia al eje contra datos de prueba con conversión de unidades",
+    week: 17,
+    taskId: "mn-fis104-w17-verify-power-trial-figures",
+    taskTitle: "Verify The Power Trial Figures For The Voyage",
+    scenario: "At the end of the semester the cadet audits the machinery performance, combining shaft power from week 8, the work, energy and power relationship from week 2 and unit conversion from week 1 to verify the logged figures against the sea-trial baseline.",
+    instructions: [
+      "Recompute the shaft power from the logged torque and rpm with P = 2 pi N T.",
+      "Compare the power and energy delivered against the sea-trial baseline figures.",
+      "Convert every value to the units used on the trial certificate for a like-for-like check.",
+      "Report the verification result and any deviation to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A power verification sheet comparing logged figures with the trial baseline in certificate units.",
+    assessmentCriteria: [
+      "Shaft power is recomputed correctly from the logged data.",
+      "The comparison against the trial baseline is valid.",
+      "All values are converted consistently to certificate units.",
+      "The verification result is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "FIS104",
+    subjectName: "Física",
+    subjectId: "mn-s1-fisica",
+    unit: "Mecánica",
+    topic: "Integración de termodinámica, fluidos y potencia al eje",
+    week: 18,
+    taskId: "mn-fis104-w18-deliver-engine-physics-readiness-brief",
+    taskTitle: "Deliver The Engine Physics Readiness Brief",
+    scenario: "For the closing capstone the cadet pulls the semester together into one machinery readiness brief, integrating the heat balance, the steering hydraulics and the shaft power figures the plant will run at for the voyage.",
+    instructions: [
+      "Bring together the cooler heat balance, the hydraulic ram check and the shaft power report.",
+      "Confirm each system will run inside its physical limits at the planned voyage load.",
+      "Summarise the critical thermal, hydraulic and power figures on a single readiness sheet.",
+      "Deliver the engine physics readiness brief to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "An engine physics readiness brief integrating the thermal, hydraulic and power figures for the voyage.",
+    assessmentCriteria: [
+      "The brief integrates thermodynamic, fluid and rotational figures coherently.",
+      "Each system is confirmed within its physical limits at voyage load.",
+      "The readiness sheet highlights the correct critical values.",
+      "The brief is delivered to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -1042,6 +1390,180 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Redes eléctricas",
+    topic: "Ley de Ohm, Leyes de Kirchhoff y conexiones serie-paralelo en el cuadro",
+    week: 13,
+    taskId: "mn-ele106-w13-analyse-full-switchboard-distribution",
+    taskTitle: "Analyse The Full Switchboard Distribution",
+    scenario: "The engine-room switchboard is feeding a mixed set of auxiliary loads. The cadet combines Ohm's law and Kirchhoff's laws from week 2 with the series and parallel analysis from week 3 and the generator load from week 4 to map the whole distribution.",
+    instructions: [
+      "Apply Ohm's and Kirchhoff's laws to find the branch currents in the distribution.",
+      "Reduce the series and parallel branches to find the total current drawn from the busbar.",
+      "Check the total against the generator load and state the spare capacity available.",
+      "Report the switchboard distribution and spare capacity to the officer of the watch in maritime English / SMCP."
+    ],
+    deliverable: "A switchboard distribution analysis with branch currents, total load and spare capacity.",
+    assessmentCriteria: [
+      "Branch currents are correct from Ohm's and Kirchhoff's laws.",
+      "The series-parallel reduction gives the correct total current.",
+      "Spare capacity is stated correctly against the generator load.",
+      "The distribution is reported to the watch officer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Máquinas eléctricas",
+    topic: "Potencia, factor de potencia, velocidad síncrona y arranque estrella-triángulo",
+    week: 14,
+    taskId: "mn-ele106-w14-commission-auxiliary-motor-start",
+    taskTitle: "Commission The Auxiliary Motor Start And Loading",
+    scenario: "A large auxiliary induction motor is to be brought online in the engine-room simulator. The cadet combines active power, power factor and efficiency from week 5 with synchronous speed and slip from week 6 and star-delta starting from week 7 to commission the start.",
+    instructions: [
+      "Calculate the motor input power, power factor and efficiency at the rated load.",
+      "Work out the synchronous speed and the running slip of the induction motor.",
+      "Compare the direct and star-delta starting current and choose the safe method for the busbar.",
+      "Report the commissioning result and starting method to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A motor commissioning sheet with input power, slip and the selected starting method.",
+    assessmentCriteria: [
+      "Input power, power factor and efficiency are calculated correctly.",
+      "Synchronous speed and slip are correct for the motor.",
+      "The chosen starting method is justified by the starting-current comparison.",
+      "The commissioning result is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Conexiones eléctricas",
+    topic: "Conexiones estrella y delta con sistemas de corriente alterna y continua",
+    week: 15,
+    taskId: "mn-ele106-w15-set-up-power-plant-for-sea",
+    taskTitle: "Set Up The Ship's Power Plant For Sea",
+    scenario: "The ship is preparing the electrical plant for a sea passage. The cadet combines the star and delta line-and-phase relationships from week 11 with the AC and DC comparison from week 12 and active power to set the plant up correctly for the voyage loads.",
+    instructions: [
+      "Compute the line and phase values for the star and delta connected loads on the plant.",
+      "Identify which services run on AC and which on DC and confirm their supplies.",
+      "Balance the active power across the phases so no line is overloaded at sea.",
+      "Report the power-plant set-up and phase balance to the officer of the watch in maritime English / SMCP."
+    ],
+    deliverable: "A power-plant set-up sheet with star and delta values, AC and DC services and the phase balance.",
+    assessmentCriteria: [
+      "Line and phase values are correct for the star and delta loads.",
+      "AC and DC services are identified with the correct supplies.",
+      "The active power is balanced so no line is overloaded.",
+      "The set-up is reported to the watch officer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Protección eléctrica",
+    topic: "Protección de motores y endurancia de la batería de emergencia",
+    week: 16,
+    taskId: "mn-ele106-w16-respond-motor-fault-and-blackout",
+    taskTitle: "Respond To A Motor Fault And Blackout",
+    scenario: "A short circuit on an auxiliary motor trips the main generator and the ship blacks out in the engine-room simulator. The cadet combines motor protection from week 8 with the emergency battery endurance from week 9 to manage the fault and the restoration.",
+    instructions: [
+      "Read the protection that operated and confirm the overload, short-circuit or earth cause of the trip.",
+      "Calculate how long the emergency battery will hold the essential services until power is restored.",
+      "Decide the order in which loads are shed and restored to bring the generator back safely.",
+      "Report the fault, the battery endurance and the restoration plan to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A blackout response note with the fault cause, battery endurance and the restoration sequence.",
+    assessmentCriteria: [
+      "The tripped protection is read and the fault cause identified correctly.",
+      "The emergency battery endurance is calculated correctly.",
+      "The load-shedding and restoration order is safe and justified.",
+      "The response is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Electrostática",
+    topic: "Carga eléctrica y control de estática con protección y aislamiento",
+    week: 17,
+    taskId: "mn-ele106-w17-audit-electrical-safety-bunkering",
+    taskTitle: "Audit Electrical Safety For A Bunkering Operation",
+    scenario: "Before a fuel transfer the cadet audits the electrical safety of the operation, combining static-electricity control from week 10 with motor protection and insulation from week 8 to certify the plant is safe against ignition and earth faults.",
+    instructions: [
+      "Check the bonding and earthing that controls static electricity during the fuel transfer.",
+      "Verify the motor protection and insulation resistance of the equipment in the transfer area.",
+      "List every deficiency found and state whether the transfer may proceed or must be held.",
+      "Report the electrical safety audit and its finding to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "An electrical safety audit certifying the bunkering area against static and earth-fault risk.",
+    assessmentCriteria: [
+      "Static-control bonding and earthing are checked correctly.",
+      "Protection and insulation resistance are verified against the standard.",
+      "The proceed-or-hold decision is justified by the findings.",
+      "The audit is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ELE106",
+    subjectName: "Electricidad",
+    subjectId: "mn-s1-electricidad",
+    unit: "Electrodinámica",
+    topic: "Integración de distribución, arranque de motores y protección eléctrica",
+    week: 18,
+    taskId: "mn-ele106-w18-deliver-electrical-plant-readiness-brief",
+    taskTitle: "Deliver The Electrical Plant Readiness Brief",
+    scenario: "For the closing capstone the cadet assembles the whole electrical picture of the ship, integrating the switchboard distribution, the auxiliary motor starting and the protection settings into one readiness brief for the chief engineer.",
+    instructions: [
+      "Bring together the switchboard distribution, the motor commissioning and the protection settings.",
+      "Confirm the plant can carry the full sea load with reserve and with protection correctly set.",
+      "Summarise the busbar loading, starting method and protection limits on a single readiness sheet.",
+      "Deliver the electrical plant readiness brief to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "An electrical plant readiness brief integrating distribution, motor starting and protection.",
+    assessmentCriteria: [
+      "The brief integrates distribution, starting and protection coherently.",
+      "The plant is confirmed able to carry the sea load with reserve.",
+      "The readiness sheet highlights the correct loading and protection limits.",
+      "The brief is delivered to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "ING102",
     subjectName: "Inglés Marítimo I",
     subjectId: "mn-s1-maritime-english-i",
@@ -1385,6 +1907,180 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Comunicación interna de máquinas",
+    topic: "Frases normalizadas OMI (SMCP), órdenes de telégrafo y presente continuo",
+    week: 13,
+    taskId: "mn-ing102-w13-run-engine-bridge-manoeuvring-dialogue",
+    taskTitle: "Run The Full Engine-To-Bridge Manoeuvring Dialogue",
+    scenario: "The ship is manoeuvring in the Tampico approach and the cadet must handle the engine side of the telegraph, combining SMCP message markers from week 5 with telegraph engine-order read-back from week 6 and present-continuous status reports from week 3.",
+    instructions: [
+      "Structure each message to the bridge with the correct SMCP message marker.",
+      "Acknowledge and read back every telegraph engine order exactly as received.",
+      "Give the running engine status to the bridge in the present continuous as the manoeuvre develops.",
+      "Report the full manoeuvring dialogue to the officer of the watch in maritime English / SMCP."
+    ],
+    deliverable: "A written engine-to-bridge manoeuvring dialogue with markers, order read-backs and status reports.",
+    assessmentCriteria: [
+      "SMCP message markers are used correctly on every message.",
+      "Every telegraph order is read back exactly and acted on.",
+      "Present-continuous status reports are accurate and timely.",
+      "The whole dialogue is delivered in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Entrega de guardia de máquinas",
+    topic: "Presente simple, pasado simple y lectura de valores en la entrega de guardia",
+    week: 14,
+    taskId: "mn-ing102-w14-deliver-complete-watch-handover",
+    taskTitle: "Deliver The Complete Engine-Room Watch Handover",
+    scenario: "At the change of watch the cadet must hand over the engine room in full, combining the present-simple machinery-state description from week 7 with the past-simple watch report from week 8 and the correct reading of gauge values and unit numbers from week 10.",
+    instructions: [
+      "Describe the present state of the running machinery in the present simple.",
+      "Report what happened during the watch just ended in the past simple.",
+      "Read out the key gauge values and unit numbers correctly to the relieving engineer.",
+      "Report the complete watch handover to the relieving engineer in maritime English / SMCP."
+    ],
+    deliverable: "A written engine-room watch-handover brief covering present state, past events and gauge readings.",
+    assessmentCriteria: [
+      "The present state is described correctly in the present simple.",
+      "The past events are reported correctly in the past simple.",
+      "Gauge values and unit numbers are read out accurately.",
+      "The handover is delivered to the relieving engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Mantenimiento y pañol",
+    topic: "Adverbios de frecuencia, preposiciones de lugar y reporte de consumibles",
+    week: 15,
+    taskId: "mn-ing102-w15-brief-maintenance-and-stores-round",
+    taskTitle: "Brief The Planned Maintenance And Stores Round",
+    scenario: "The cadet must brief the day's maintenance and stores round, combining the maintenance-frequency adverbs from week 11 with the prepositions of place from week 9 and the stores-and-consumables report from week 12.",
+    instructions: [
+      "State how often each planned maintenance job is done using frequency adverbs.",
+      "Direct the shipmate to each spare part and location using prepositions of place.",
+      "List the consumables and spares used and remaining as a stores report.",
+      "Report the maintenance and stores round to the second engineer in maritime English / SMCP."
+    ],
+    deliverable: "A written maintenance-and-stores brief with frequencies, locations and a consumables report.",
+    assessmentCriteria: [
+      "Maintenance frequencies are expressed correctly with frequency adverbs.",
+      "Spare locations are given correctly with prepositions of place.",
+      "The stores report accounts for consumables used and remaining.",
+      "The round is reported to the second engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Comunicación en emergencia de máquinas",
+    topic: "Auxiliar can / cannot, marcadores SMCP y presente continuo en emergencia",
+    week: 16,
+    taskId: "mn-ing102-w16-report-engine-room-emergency-to-bridge",
+    taskTitle: "Report An Engine-Room Emergency To The Bridge",
+    scenario: "A fire is detected in the engine room and the cadet must alert the bridge, combining the readiness expressions can and cannot from week 4 with SMCP message markers from week 5 and present-continuous reporting from week 3 to pass a clear emergency message.",
+    instructions: [
+      "Open the emergency message to the bridge with the correct SMCP marker.",
+      "State what the engine room can and cannot still do using can and cannot.",
+      "Describe what is happening now in the present continuous as the situation develops.",
+      "Report the engine-room emergency to the bridge in maritime English / SMCP."
+    ],
+    deliverable: "A written engine-room emergency message to the bridge with marker, capability and live status.",
+    assessmentCriteria: [
+      "The emergency message opens with the correct SMCP marker.",
+      "Capability is stated correctly with can and cannot.",
+      "The developing situation is described correctly in the present continuous.",
+      "The emergency is reported to the bridge in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Cuaderno de máquinas",
+    topic: "Números ordinales y cardinales, presente simple y pasado simple en el resumen",
+    week: 17,
+    taskId: "mn-ing102-w17-compile-end-of-voyage-log-summary",
+    taskTitle: "Compile The End-Of-Voyage Engine Log Summary",
+    scenario: "At the end of the voyage the cadet compiles the engine log summary, combining the correct reading of numbers and unit values from week 10 with the present-simple machinery description from week 7 and the past-simple watch record from week 8.",
+    instructions: [
+      "State the present running condition of each system in the present simple.",
+      "Summarise the events and readings of the voyage in the past simple.",
+      "Enter the ordinal and cardinal numbers, gauge values and unit numbers correctly.",
+      "Report the end-of-voyage log summary to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A written end-of-voyage engine log summary with correct numbers, present state and past record.",
+    assessmentCriteria: [
+      "The present running condition is described correctly in the present simple.",
+      "The voyage record is summarised correctly in the past simple.",
+      "Ordinal, cardinal and unit numbers are entered accurately.",
+      "The summary is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "ING102",
+    subjectName: "Inglés Marítimo I",
+    subjectId: "mn-s1-maritime-english-i",
+    unit: "Integración de comunicación de máquinas",
+    topic: "Integración de presentación, alfabeto fonético y entrega de guardia",
+    week: 18,
+    taskId: "mn-ing102-w18-take-over-watch-and-report-to-chief",
+    taskTitle: "Take Over The Watch And Report To The Chief Engineer",
+    scenario: "For the closing capstone the cadet takes over a full engine-room watch, integrating self-introduction from week 1 and the phonetic alphabet from week 2 with the machinery-state handover and status reporting built across the semester.",
+    instructions: [
+      "Report yourself and your role to the chief engineer to take over the watch.",
+      "Confirm equipment codes and messages accurately using the phonetic alphabet.",
+      "Take over the running machinery state and confirm it in the present simple.",
+      "Report that the watch is taken over and the plant is in hand to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A written watch-takeover report integrating self-report, phonetic confirmation and machinery handover.",
+    assessmentCriteria: [
+      "The self-report to take over the watch is correct and complete.",
+      "Equipment codes are confirmed accurately with the phonetic alphabet.",
+      "The machinery state is taken over and confirmed correctly.",
+      "The takeover is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -1738,6 +2434,180 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Diagramas de tubería e instrumentación",
+    topic: "Lectura del P&ID con simbología y tipos de línea",
+    week: 13,
+    taskId: "mn-dii105-w13-document-full-piping-system-from-pid",
+    taskTitle: "Trace And Document A Full Piping System From The P&ID",
+    scenario: "The cadet is given the fuel-oil P&ID of the engine room and must document the whole system, combining the P&ID flow trace from week 7 with the symbology from week 3 and the line types from week 1.",
+    instructions: [
+      "Identify the valves, pumps and instruments on the P&ID from their symbols.",
+      "Trace the flow path through the system and mark it using the correct line types.",
+      "List the components in flow order from suction to delivery for the maintenance record.",
+      "Report the traced piping system and its components to the second engineer in maritime English / SMCP."
+    ],
+    deliverable: "A documented flow trace of the piping system with components listed in flow order.",
+    assessmentCriteria: [
+      "Components are identified correctly from their symbols.",
+      "The flow path is traced correctly with the right line types.",
+      "The component list follows the true flow order.",
+      "The system is reported to the second engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Vistas ortográficas y en sección",
+    topic: "Planta, alzado, perfil y corte de un componente a escala",
+    week: 14,
+    taskId: "mn-dii105-w14-produce-full-working-drawing-of-component",
+    taskTitle: "Produce The Full Working Drawing Of A Machine Component",
+    scenario: "A machine component must be documented for the workshop. The cadet combines the orthographic views from week 5 with a sectional view from week 6 and the scales and dimensioning from week 2 to produce the full working drawing.",
+    instructions: [
+      "Lay out the plan, elevation and profile of the component as orthographic views.",
+      "Add a sectional view to show the internal detail that the outside views hide.",
+      "Apply the correct scale and dimension the drawing so the part can be made from it.",
+      "Report the completed working drawing to the workshop engineer in maritime English / SMCP."
+    ],
+    deliverable: "A full working drawing of the component with orthographic views, a section and dimensions.",
+    assessmentCriteria: [
+      "The orthographic views are correctly projected and aligned.",
+      "The sectional view shows the internal detail correctly.",
+      "The scale and dimensions are correct and complete.",
+      "The drawing is reported to the workshop engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Planos de disposición y de despiece",
+    topic: "Arrangement plan, vista isométrica y croquis acotado para mantenimiento",
+    week: 15,
+    taskId: "mn-dii105-w15-plan-maintenance-from-arrangement-drawings",
+    taskTitle: "Plan A Maintenance Job From Arrangement And Exploded Drawings",
+    scenario: "A pump overhaul is planned in the engine room. The cadet combines the arrangement and exploded drawings from week 8 with the isometric view from week 9 and the dimensioned sketch from week 12 to plan the job and order the parts.",
+    instructions: [
+      "Use the arrangement plan to locate the pump and plan safe access for the overhaul.",
+      "Use the exploded and isometric views to list the parts in dismantling order.",
+      "Produce a dimensioned sketch of the worn part so the correct spare can be ordered.",
+      "Report the maintenance plan and the spare order to the second engineer in maritime English / SMCP."
+    ],
+    deliverable: "A maintenance plan with access, a dismantling parts list and a dimensioned sketch for the spare.",
+    assessmentCriteria: [
+      "The arrangement plan is used correctly to plan access.",
+      "The dismantling order is correct from the exploded and isometric views.",
+      "The dimensioned sketch is accurate enough to order the spare.",
+      "The plan and order are reported to the second engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Problemas Geométricas",
+    topic: "Construcciones geométricas, escalas y croquis acotado para una brida",
+    week: 16,
+    taskId: "mn-dii105-w16-set-out-replacement-flange-from-drawings",
+    taskTitle: "Set Out A Replacement Flange From The Drawings",
+    scenario: "A flange gasket has failed and no spare is on board. The cadet must set out a replacement, combining the geometric bolt-circle construction from week 10 with the scales from week 2 and a dimensioned sketch from week 12 so the workshop can cut the part.",
+    instructions: [
+      "Set out the bolt circle on the flange by geometric construction from the drawing.",
+      "Apply the correct scale to transfer the true bolt-hole and diameter dimensions.",
+      "Produce a dimensioned sketch of the flange ready for the workshop to cut.",
+      "Report the replacement-flange drawing to the workshop engineer in maritime English / SMCP."
+    ],
+    deliverable: "A dimensioned replacement-flange drawing with the bolt circle set out to scale.",
+    assessmentCriteria: [
+      "The bolt circle is set out correctly by construction.",
+      "The scale transfers the true dimensions accurately.",
+      "The dimensioned sketch is complete enough to cut the flange.",
+      "The drawing is reported to the workshop engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Interpretación",
+    topic: "Diagrama unifilar, simbología y P&ID en la verificación de sistemas",
+    week: 17,
+    taskId: "mn-dii105-w17-verify-systems-against-their-diagrams",
+    taskTitle: "Verify The Engine-Room Systems Against Their Diagrams",
+    scenario: "During the end-of-semester audit the cadet verifies the as-fitted engine-room systems against their drawings, combining the single-line electrical diagram from week 11 with the symbology from week 3 and the P&ID from week 7.",
+    instructions: [
+      "Check the single-line electrical diagram against the as-fitted switchboard and feeders.",
+      "Confirm each symbol on the diagrams matches the real valve, pump or breaker fitted.",
+      "Trace the P&ID against the actual pipe run and flag any difference from the drawing.",
+      "Report the verification and any as-fitted difference to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A verification report comparing the as-fitted systems with their single-line and P&ID drawings.",
+    assessmentCriteria: [
+      "The single-line diagram is verified correctly against the switchboard.",
+      "Symbols are matched correctly to the real components.",
+      "P&ID differences from the pipe run are flagged accurately.",
+      "The verification is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "DII105",
+    subjectName: "Dibujo de Ingeniería",
+    subjectId: "mn-s1-dibujo-ingenieria",
+    unit: "Dibujo de ingeniería como medio de comunicación",
+    topic: "Integración de P&ID, vistas ortográficas y planos de disposición",
+    week: 18,
+    taskId: "mn-dii105-w18-hand-over-machinery-drawing-package",
+    taskTitle: "Hand Over The Machinery Drawing Package",
+    scenario: "For the closing capstone the cadet assembles the machinery drawing package for the incoming watch, integrating the P&ID flow traces, the component working drawings and the arrangement plans produced across the semester.",
+    instructions: [
+      "Assemble the P&ID traces, component drawings and arrangement plans into one package.",
+      "Confirm each drawing is at the correct scale and consistent with the others.",
+      "Index the package so any system can be found quickly during a job.",
+      "Hand over the machinery drawing package and brief the incoming watch in maritime English / SMCP."
+    ],
+    deliverable: "An indexed machinery drawing package integrating P&IDs, component drawings and arrangement plans.",
+    assessmentCriteria: [
+      "The package integrates the piping, component and arrangement drawings coherently.",
+      "The drawings are confirmed at correct and consistent scale.",
+      "The index makes each system easy to find.",
+      "The handover is briefed to the incoming watch in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "PMR107",
     subjectName: "Prácticas Marineras I",
     subjectId: "mn-s1-practicas-marineras-i",
@@ -2081,6 +2951,180 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Maniobra de atraque y desatraque",
+    topic: "Distribución de cabos, nudos y trabajo en la estación de popa",
+    week: 13,
+    taskId: "mn-pmr107-w13-rig-and-work-mooring-station",
+    taskTitle: "Rig And Work The Full Mooring Station For Berthing",
+    scenario: "The ship is coming alongside in Tampico and the cadet works the mooring station, combining the mooring-line layout from week 4 with the essential knots from week 5, the rope selection from week 3 and the after-station work from week 8.",
+    instructions: [
+      "Lay out the head, breast, spring and stern lines in the standard mooring pattern.",
+      "Select the right rope for each line and make fast with the correct knots and turns.",
+      "Work the after station with the team as the lines are sent, heaved and made fast.",
+      "Report the mooring station ready and made fast to the officer on deck in maritime English / SMCP."
+    ],
+    deliverable: "A mooring-station plan with the line layout, rope and knot selection and the team stations.",
+    assessmentCriteria: [
+      "The line layout follows the standard mooring pattern.",
+      "Rope and knot selection is correct for each line.",
+      "The after station is worked safely and in order.",
+      "The mooring status is reported to the officer on deck in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Fondeo",
+    topic: "Equipo de ancla, maniobra de fondear y trabajo en el castillo",
+    week: 14,
+    taskId: "mn-pmr107-w14-direct-forecastle-anchoring-sequence",
+    taskTitle: "Direct The Forecastle Party Through The Anchoring Sequence",
+    scenario: "The ship is anchoring in the Tampico approach and the cadet directs the forecastle party, combining the anchor gear and anchoring manoeuvre from week 6 with the rope and knot handling from weeks 3 and 5 and the team-work practised at the stations.",
+    instructions: [
+      "Prepare the anchor gear and brief the forecastle party on the anchoring sequence.",
+      "Direct the walking-back and letting-go of the anchor to the ordered scope of cable.",
+      "Report the cable direction and weight to the bridge as the ship brings up.",
+      "Report the anchor holding and the brought-up situation to the bridge in maritime English / SMCP."
+    ],
+    deliverable: "An anchoring plan with the gear preparation, letting-go sequence and cable reports.",
+    assessmentCriteria: [
+      "The anchor gear is prepared correctly and the party briefed.",
+      "The letting-go and scope of cable follow the order.",
+      "Cable direction and weight are reported correctly to the bridge.",
+      "The brought-up situation is reported to the bridge in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Bote salvavidas",
+    topic: "Arriado y embarque del bote, dispositivos personales y organización del bote",
+    week: 15,
+    taskId: "mn-pmr107-w15-coordinate-lifeboat-drill",
+    taskTitle: "Coordinate The Full Abandon-Ship Lifeboat Drill",
+    scenario: "An abandon-ship drill is called and the cadet coordinates the lifeboat station, combining the lifeboat parts and equipment from week 2 with the launch and boarding from week 12, the personal life-saving appliances from week 1 and the boat-crew organisation from week 10.",
+    instructions: [
+      "Check the lifeboat, its equipment and the crew's life-saving appliances are complete and correct.",
+      "Coordinate the lowering, boarding and abandoning sequence at the boat station.",
+      "Organise the boat crew and assign the stations for the launch.",
+      "Report the boat ready, crew embarked and lowered to the officer in charge in maritime English / SMCP."
+    ],
+    deliverable: "A lifeboat drill plan with the equipment check, launch sequence and crew stations.",
+    assessmentCriteria: [
+      "The lifeboat and personal appliances are checked correctly.",
+      "The launch and boarding sequence is coordinated safely and in order.",
+      "The boat crew is organised with the correct stations.",
+      "The boat status is reported to the officer in charge in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Natación y boga",
+    topic: "Flotación en supervivencia, técnica de boga y órdenes al bote",
+    week: 16,
+    taskId: "mn-pmr107-w16-lead-survivors-to-liferaft",
+    taskTitle: "Lead Survivors To The Life Raft After Abandon Ship",
+    scenario: "After abandoning ship the cadet must gather survivors in the water and get them to the life raft, combining the survival floating and swimming from week 9 with the rowing techniques from week 11 and the boat-crew rowing orders from week 10.",
+    instructions: [
+      "Use the correct survival float-and-swim technique to reach and gather the survivors.",
+      "Choose the rowing technique that suits the sea state to move the boat to the raft.",
+      "Give the rowing orders that keep the boat crew pulling together toward the raft.",
+      "Report the survivors gathered and the boat on its way to the raft in maritime English / SMCP."
+    ],
+    deliverable: "A survival action plan with the swim technique, rowing method and the orders given.",
+    assessmentCriteria: [
+      "The survival float-and-swim technique is correct for the situation.",
+      "The rowing technique suits the sea state.",
+      "The rowing orders keep the crew pulling together.",
+      "The situation is reported to the boat crew and rescuers in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Mantenimiento de cubierta",
+    topic: "Control de la corrosión, distribución de cabos y conservación del cordelería",
+    week: 17,
+    taskId: "mn-pmr107-w17-audit-deck-and-mooring-equipment",
+    taskTitle: "Audit Deck And Mooring Equipment Condition",
+    scenario: "During the end-of-semester deck inspection the cadet audits the condition of the deck and mooring equipment, combining the rust-control and painting knowledge from week 7 with the mooring-line layout from week 4 and the rope materials and care from week 3.",
+    instructions: [
+      "Inspect the deck and fittings for corrosion and record the areas needing rust control.",
+      "Check the mooring lines for wear and confirm the layout and stowage are correct.",
+      "List the ropes and fittings to be renewed or maintained with their priority.",
+      "Report the deck and mooring equipment condition to the bosun in maritime English / SMCP."
+    ],
+    deliverable: "A deck and mooring equipment condition report with corrosion findings and a renewal list.",
+    assessmentCriteria: [
+      "Corrosion areas are inspected and recorded correctly.",
+      "Mooring-line wear and layout are checked correctly.",
+      "The renewal list is prioritised sensibly.",
+      "The condition report is delivered to the bosun in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "PMR107",
+    subjectName: "Prácticas Marineras I",
+    subjectId: "mn-s1-practicas-marineras-i",
+    unit: "Integración de prácticas marineras",
+    topic: "Integración de amarre, fondeo y dispositivos de salvamento",
+    week: 18,
+    taskId: "mn-pmr107-w18-deliver-deck-seamanship-handover",
+    taskTitle: "Deliver The Deck Seamanship Readiness Handover",
+    scenario: "For the closing capstone the cadet hands over the deck for the voyage, integrating the mooring station, the anchoring readiness and the life-saving appliances prepared and checked across the semester.",
+    instructions: [
+      "Confirm the mooring gear, anchor gear and life-saving appliances are ready and correct.",
+      "Set out the stations and duties for berthing, anchoring and boat drill.",
+      "Note any deficiency still open and the action to close it before sailing.",
+      "Deliver the deck seamanship readiness handover to the officer of the watch in maritime English / SMCP."
+    ],
+    deliverable: "A deck seamanship readiness handover covering mooring, anchoring and life-saving readiness.",
+    assessmentCriteria: [
+      "Mooring, anchor and life-saving gear are confirmed ready and correct.",
+      "Stations and duties are set out clearly for each operation.",
+      "Open deficiencies are noted with an action to close them.",
+      "The handover is delivered to the officer of the watch in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -2434,6 +3478,180 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Sistema de propulsión",
+    topic: "Cadena de propulsión, sistemas auxiliares y planta eléctrica del buque",
+    week: 13,
+    taskId: "mn-tmo101-w13-prepare-machinery-plant-for-departure",
+    taskTitle: "Prepare The Machinery Plant For Departure",
+    scenario: "The ship is preparing for departure and the cadet must ready the machinery plant in the engine-room simulator, combining the propulsion chain from week 5 with the main engine's auxiliary systems from week 6 and the ship's electrical power plant from week 7.",
+    instructions: [
+      "Confirm the propulsion chain from engine to propeller is ready to turn.",
+      "Check the fuel, lube oil, cooling and starting-air auxiliary systems are lined up.",
+      "Confirm the generators and switchboard supply the essential services for departure.",
+      "Report the machinery plant ready for departure to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A machinery departure-readiness sheet covering propulsion, auxiliaries and electrical power.",
+    assessmentCriteria: [
+      "The propulsion chain is confirmed ready to turn.",
+      "The auxiliary systems are correctly lined up.",
+      "The electrical power plant supplies the essential services.",
+      "The readiness is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Esfuerzos en el buque",
+    topic: "Tanques y sondas, líneas de carga y esfuerzos de quebranto y arrufo",
+    week: 14,
+    taskId: "mn-tmo101-w14-plan-bunkering-without-overstressing-hull",
+    taskTitle: "Plan Bunkering Without Overstressing The Hull",
+    scenario: "A large bunker is planned and the cadet must sequence it safely, combining the tanks, sounding pipes and vents from week 3 with the load lines and draft marks from week 10 and the hogging and sagging stresses from week 4.",
+    instructions: [
+      "Sound the bunker tanks and plan the filling order using the sounding pipes and vents.",
+      "Read the draft marks and check the load line will not be exceeded on completion.",
+      "Sequence the filling so the hull is not put into excessive hogging or sagging.",
+      "Report the bunkering plan and hull-stress check to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A bunkering plan with the tank filling order, draft and load-line check and hull-stress control.",
+    assessmentCriteria: [
+      "Tank soundings and filling order use the sounding pipes and vents correctly.",
+      "The draft and load-line check is correct on completion.",
+      "The filling sequence keeps the hull within safe hogging and sagging.",
+      "The plan is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Equipo de carga/descarga",
+    topic: "Maquinaria de carga, planta eléctrica y dimensiones del buque",
+    week: 15,
+    taskId: "mn-tmo101-w15-power-deck-and-cargo-machinery",
+    taskTitle: "Power And Operate The Deck And Cargo Machinery For Loading",
+    scenario: "Cargo operations are about to start and the cadet must power the deck and cargo machinery, combining the cargo and mooring machinery power from week 12 with the ship's electrical power plant from week 7 and the ship's principal dimensions from week 9.",
+    instructions: [
+      "Identify the cargo winches, cranes and mooring machinery and their power supplies.",
+      "Confirm the electrical power plant can carry the cargo machinery load with the ship's services.",
+      "Relate the ship's dimensions and deck layout to the reach and duty of the machinery.",
+      "Report the deck and cargo machinery ready for loading to the officer on deck in maritime English / SMCP."
+    ],
+    deliverable: "A cargo-machinery readiness sheet with power supplies, electrical load and machinery duty.",
+    assessmentCriteria: [
+      "Cargo and mooring machinery and their supplies are identified correctly.",
+      "The electrical plant is confirmed able to carry the machinery load.",
+      "Machinery duty is related correctly to the ship's dimensions.",
+      "The readiness is reported to the officer on deck in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Sistemas auxiliares del motor",
+    topic: "Refrigeración, cadena de propulsión y planta eléctrica en emergencia",
+    week: 16,
+    taskId: "mn-tmo101-w16-respond-to-loss-of-cooling",
+    taskTitle: "Respond To A Loss Of Main Engine Cooling",
+    scenario: "The main engine cooling-water temperature is rising fast in the engine-room simulator. The cadet must respond, combining the auxiliary cooling system from week 6 with the propulsion chain from week 5 and the electrical power plant from week 7 to protect the engine.",
+    instructions: [
+      "Identify where the cooling has failed in the auxiliary system and its effect on the engine.",
+      "Decide how to slow or stop the propulsion chain to protect the main engine.",
+      "Confirm the electrical plant keeps the essential cooling and safety services running.",
+      "Report the loss of cooling and the action taken to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "An emergency response note with the cooling fault, the propulsion action and the electrical status.",
+    assessmentCriteria: [
+      "The cooling fault and its effect on the engine are identified correctly.",
+      "The propulsion action protects the main engine.",
+      "The electrical plant is confirmed to hold the essential services.",
+      "The response is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Convenios internacionales y prevención de la contaminación",
+    topic: "MARPOL Anexos I y VI y organismos internacionales en la sala de máquinas",
+    week: 17,
+    taskId: "mn-tmo101-w17-audit-engine-room-marpol-compliance",
+    taskTitle: "Audit The Engine Room For MARPOL Compliance",
+    scenario: "Before sailing the cadet audits the engine room for pollution compliance, combining MARPOL Annexes I and VI from week 8 with the international bodies that regulate the fleet from week 11 and the engine-room tanks and systems.",
+    instructions: [
+      "Check the oily-water separator, sludge tank and oil record book against MARPOL Annex I.",
+      "Check the fuel sulphur and exhaust arrangements against MARPOL Annex VI.",
+      "Confirm the certificates required by IMO and the flag State are on board and valid.",
+      "Report the MARPOL compliance status and any deficiency to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A MARPOL compliance audit of the engine room covering Annex I, Annex VI and certificates.",
+    assessmentCriteria: [
+      "Annex I items are checked correctly against the record book.",
+      "Annex VI fuel and exhaust items are checked correctly.",
+      "The required certificates are confirmed valid.",
+      "The compliance status is reported to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "TMO101",
+    subjectName: "Transporte Marítimo",
+    subjectId: "mn-s1-transporte-maritimo",
+    unit: "Integración del transporte marítimo",
+    topic: "Integración de propulsión, auxiliares, planta eléctrica y MARPOL",
+    week: 18,
+    taskId: "mn-tmo101-w18-deliver-machinery-readiness-brief",
+    taskTitle: "Deliver The Machinery Readiness Brief To The Chief Engineer",
+    scenario: "For the closing capstone the cadet delivers the machinery readiness brief for the voyage, integrating the propulsion plant, the auxiliary systems, the electrical power plant and the MARPOL compliance prepared across the semester.",
+    instructions: [
+      "Bring together the propulsion, auxiliary, electrical and pollution-compliance status.",
+      "Confirm the plant is ready to run the voyage within its limits and in compliance.",
+      "Summarise the critical readiness and compliance points on a single brief sheet.",
+      "Deliver the machinery readiness brief to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "A machinery readiness brief integrating propulsion, auxiliaries, electrical power and compliance.",
+    assessmentCriteria: [
+      "The brief integrates propulsion, auxiliaries, electrical and compliance coherently.",
+      "The plant is confirmed ready and compliant for the voyage.",
+      "The brief sheet highlights the correct critical points.",
+      "The brief is delivered to the chief engineer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "C0011",
     subjectName: "Educación Física I",
     subjectId: "mn-s1-educacion-fisica-i",
@@ -2777,6 +3995,180 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Acondicionamiento físico",
+    topic: "Demandas físicas del buque, manejo manual de cargas y rutina de acondicionamiento",
+    week: 13,
+    taskId: "mn-c0011-w13-build-integrated-fitness-and-handling-plan",
+    taskTitle: "Build The Integrated Onboard Fitness And Handling Plan",
+    scenario: "The cadet must build a personal readiness plan for engine-room duty, combining the physical demands of shipboard duties from week 1 with the safe manual-handling technique from week 5 and the onboard conditioning routine from week 6.",
+    instructions: [
+      "List the physical demands of engine-room duties the plan must prepare for.",
+      "Set the safe manual-handling techniques for the lifting and carrying tasks on board.",
+      "Design a bodyweight conditioning routine that builds the strength and endurance needed.",
+      "Report the integrated fitness and handling plan to the training officer in maritime English / SMCP."
+    ],
+    deliverable: "An integrated onboard fitness and manual-handling plan matched to engine-room duties.",
+    assessmentCriteria: [
+      "The physical demands are identified correctly for the duties.",
+      "Manual-handling techniques are safe and correct for the tasks.",
+      "The conditioning routine builds the strength and endurance required.",
+      "The plan is reported to the training officer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Percepción y coordinación motriz",
+    topic: "Equilibrio en cubierta, espacios confinados y coordinación motriz fina y gruesa",
+    week: 14,
+    taskId: "mn-c0011-w14-master-safe-movement-through-ship",
+    taskTitle: "Master Safe Movement Through The Working Ship",
+    scenario: "The cadet must demonstrate safe movement through the working ship, combining balance and coordination on a moving deck from week 2 with moving through confined machinery spaces from week 9 and fine and gross motor coordination in machinery tasks from week 12.",
+    instructions: [
+      "Show the balance and three-point contact needed to move on a moving deck.",
+      "Move safely through a confined machinery space keeping clear of hazards.",
+      "Perform a machinery task that needs both fine and gross motor coordination.",
+      "Report the safe-movement demonstration to the training officer in maritime English / SMCP."
+    ],
+    deliverable: "A safe-movement demonstration record covering deck balance, confined-space transit and a coordination task.",
+    assessmentCriteria: [
+      "Balance and three-point contact on the moving deck are correct.",
+      "The confined-space transit is done safely and clear of hazards.",
+      "The coordination task is performed correctly.",
+      "The demonstration is reported to the training officer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Fatiga y descanso",
+    topic: "Fatiga por calor, ruido y vibración, concentración y acondicionamiento",
+    week: 15,
+    taskId: "mn-c0011-w15-manage-fatigue-across-watch-cycle",
+    taskTitle: "Manage Fatigue And Alertness Across A Full Watch Cycle",
+    scenario: "The cadet must manage fatigue over a full watch cycle, combining the physiology of fatigue from heat, noise and vibration from week 7 with concentration and watch safety from week 4 and the conditioning routine from week 6.",
+    instructions: [
+      "Identify how heat, noise and vibration will build fatigue over the watch cycle.",
+      "Set the rest, hydration and concentration measures that keep the watch alert.",
+      "Fit the conditioning routine into the watch and rest pattern without adding fatigue.",
+      "Report the fatigue-management plan to the training officer in maritime English / SMCP."
+    ],
+    deliverable: "A fatigue-management plan for the watch cycle covering heat, noise, vibration and rest.",
+    assessmentCriteria: [
+      "The sources of fatigue over the cycle are identified correctly.",
+      "The rest and concentration measures maintain watch alertness.",
+      "The conditioning routine fits the rest pattern without adding fatigue.",
+      "The plan is reported to the training officer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Aptitud física para emergencias",
+    topic: "Demandas físicas de la respuesta, manejo de cargas y espacios confinados",
+    week: 16,
+    taskId: "mn-c0011-w16-prepare-for-engine-room-fire-response",
+    taskTitle: "Prepare Physically For An Engine-Room Fire Response",
+    scenario: "A fire response from the engine room is drilled and the cadet must be physically ready, combining the physical demands of engine-room emergency response from week 8 with safe manual handling from week 5 and safe movement through confined spaces from week 9.",
+    instructions: [
+      "Identify the physical demands the fire response places on the engine-room team.",
+      "Apply safe manual handling to move the hoses and equipment to the scene.",
+      "Move through the confined machinery space safely while carrying the equipment.",
+      "Report your physical readiness for the fire response to the team leader in maritime English / SMCP."
+    ],
+    deliverable: "A physical-readiness record for the engine-room fire response covering demands, handling and movement.",
+    assessmentCriteria: [
+      "The physical demands of the response are identified correctly.",
+      "Manual handling of the equipment is done safely.",
+      "Movement through the confined space is safe under load.",
+      "Readiness is reported to the team leader in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Condición física",
+    topic: "Evaluación de la condición física, demandas del buque y sobrevivencia",
+    week: 17,
+    taskId: "mn-c0011-w17-assess-full-fitness-for-sea-service",
+    taskTitle: "Assess Full Fitness For Sea Service",
+    scenario: "At the end of the semester the cadet assesses full fitness for sea service, combining the fitness-for-service evaluation from week 11 with the physical demands of shipboard duties from week 1 and the sea-survival floating and swimming from week 3.",
+    instructions: [
+      "Measure the strength, endurance and flexibility against the fitness-for-service standard.",
+      "Compare the results with the physical demands of shipboard duties.",
+      "Confirm the survival float-and-swim ability meets the sea-survival requirement.",
+      "Report the fitness assessment and any gap to the training officer in maritime English / SMCP."
+    ],
+    deliverable: "A fitness-for-sea-service assessment comparing measured results with the duty and survival demands.",
+    assessmentCriteria: [
+      "The fitness measures are taken against the correct standard.",
+      "The results are compared correctly with the duty demands.",
+      "The survival swim ability is confirmed against the requirement.",
+      "The assessment is reported to the training officer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0011",
+    subjectName: "Educación Física I",
+    subjectId: "mn-s1-educacion-fisica-i",
+    unit: "Natación",
+    topic: "Integración de nado en grupo, flotación y aptitud para emergencias",
+    week: 18,
+    taskId: "mn-c0011-w18-lead-sea-survival-fitness-drill",
+    taskTitle: "Lead The Crew Through A Sea-Survival Fitness Drill",
+    scenario: "For the closing capstone the cadet leads a sea-survival fitness drill, integrating the group survival swim from week 10 with the floating technique from week 3 and the emergency physical readiness built across the semester.",
+    instructions: [
+      "Brief the crew on the group survival swim and the floating technique for the drill.",
+      "Lead the group through the survival swim keeping the weaker swimmers together.",
+      "Set the pace so the whole group reaches the survival craft without exhaustion.",
+      "Report the drill result and the crew's readiness to the training officer in maritime English / SMCP."
+    ],
+    deliverable: "A sea-survival fitness drill record integrating the group swim, floating and emergency readiness.",
+    assessmentCriteria: [
+      "The group survival swim is led safely with the crew kept together.",
+      "The floating technique is applied correctly by the group.",
+      "The pace brings the whole group in without exhaustion.",
+      "The drill result is reported to the training officer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
   {
@@ -3130,6 +4522,180 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
   {
     career: "MN",
     semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Presentación gráfica de la información",
+    topic: "Organizadores gráficos, mapa conceptual integrador y resumen",
+    week: 13,
+    taskId: "mn-c0099-w13-build-integrated-study-map-of-system",
+    taskTitle: "Build The Integrated Study Map Of A Machinery System",
+    scenario: "The cadet must learn a whole machinery system for an exam, combining the graphic organisers from week 2 with the integrating concept map from week 11 and the summarising technique from week 1.",
+    instructions: [
+      "Summarise the machinery system into its key parts and functions.",
+      "Lay the parts out in a graphic organiser that shows how they connect.",
+      "Build an integrating concept map that links the system to its operation and faults.",
+      "Report the study map and how you will use it to the study group in maritime English / SMCP."
+    ],
+    deliverable: "An integrating concept map and graphic organiser of the machinery system for study.",
+    assessmentCriteria: [
+      "The summary captures the key parts and functions.",
+      "The graphic organiser shows the connections correctly.",
+      "The concept map links the system to operation and faults.",
+      "The study map is reported to the study group in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Toma de apuntes",
+    topic: "Método Cornell, técnica de los seis pasos y mnemotecnia",
+    week: 14,
+    taskId: "mn-c0099-w14-turn-briefing-into-study-set",
+    taskTitle: "Turn A Technical Briefing Into A Complete Study Set",
+    scenario: "After a technical briefing the cadet must turn it into a study set, combining the Cornell note-taking method from week 5 with the six-step study technique from week 3 and the mnemonics from week 6.",
+    instructions: [
+      "Capture the briefing in Cornell notes with cues, notes and a summary.",
+      "Work the notes through the six-step study technique to fix the content.",
+      "Build a mnemonic for the hardest sequence or list in the briefing.",
+      "Report the completed study set to the study group in maritime English / SMCP."
+    ],
+    deliverable: "A complete study set with Cornell notes, six-step processing and a mnemonic.",
+    assessmentCriteria: [
+      "The Cornell notes have correct cues, notes and summary.",
+      "The six-step technique is applied fully to the notes.",
+      "The mnemonic fits the content it is built for.",
+      "The study set is reported to the study group in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Gestión del tiempo",
+    topic: "Priorización, condiciones de estudio a bordo y estudio en grupo",
+    week: 15,
+    taskId: "mn-c0099-w15-plan-study-around-watch-routine",
+    taskTitle: "Plan The Whole Study Programme Around The Watch Routine",
+    scenario: "The cadet must plan a study programme that fits life on board, combining the time-management and prioritisation from week 7 with the study conditions on board from week 4 and the group study organisation from week 9.",
+    instructions: [
+      "Prioritise the subjects and set the study time around the watch and rest routine.",
+      "Set up the study conditions on board that protect attention and motivation.",
+      "Organise the group study sessions for the subjects that need them.",
+      "Report the study programme to the study group in maritime English / SMCP."
+    ],
+    deliverable: "A study programme that fits the watch routine with priorities, conditions and group sessions.",
+    assessmentCriteria: [
+      "The priorities and time slots fit the watch and rest routine.",
+      "The study conditions protect attention and motivation.",
+      "The group sessions are organised for the right subjects.",
+      "The programme is reported to the study group in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Manejo de información",
+    topic: "Evaluación y contraste de fuentes, resumen y metacognición",
+    week: 16,
+    taskId: "mn-c0099-w16-resolve-conflicting-technical-sources",
+    taskTitle: "Resolve Conflicting Technical Sources Before An Exam",
+    scenario: "Two technical sources give different figures for the same system and the cadet must resolve them before an exam, combining the source evaluation and cross-checking from week 10 with the summarising from week 1 and the metacognitive self-check from week 8.",
+    instructions: [
+      "Compare the two sources and identify exactly where they conflict.",
+      "Evaluate the authority of each source and decide which figure to trust.",
+      "Summarise the resolved answer and check your own confidence in it.",
+      "Report the resolved answer and your reasoning to the study group in maritime English / SMCP."
+    ],
+    deliverable: "A source-resolution note with the conflict, the evaluation and the resolved answer.",
+    assessmentCriteria: [
+      "The conflict between the sources is identified precisely.",
+      "The source evaluation justifies the figure chosen.",
+      "The self-check reflects a realistic confidence in the answer.",
+      "The resolution is reported to the study group in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Técnicas de estudio",
+    topic: "Estrategia de exámenes, repaso espaciado y bitácora de aprendizaje",
+    week: 17,
+    taskId: "mn-c0099-w17-assemble-complete-exam-preparation-system",
+    taskTitle: "Assemble The Complete Exam-Preparation System",
+    scenario: "For the end-of-semester exams the cadet assembles a complete preparation system, combining the exam-preparation strategy from week 12 with the mnemonics and spaced repetition from week 6 and the learning log from week 8.",
+    instructions: [
+      "Build the exam-preparation strategy across the subjects and their weightings.",
+      "Set a spaced-repetition and mnemonic schedule for the material to be memorised.",
+      "Use the learning log to track progress and adjust the plan as exams approach.",
+      "Report the complete exam-preparation system to the study group in maritime English / SMCP."
+    ],
+    deliverable: "A complete exam-preparation system with a strategy, a spaced-repetition schedule and a learning log.",
+    assessmentCriteria: [
+      "The strategy covers the subjects and their weightings.",
+      "The spaced-repetition and mnemonic schedule is realistic.",
+      "The learning log is used to track and adjust the plan.",
+      "The system is reported to the study group in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0099",
+    subjectName: "Estrategias de Aprendizaje",
+    subjectId: "mn-s1-estrategias-aprendizaje",
+    unit: "Metacognición",
+    topic: "Integración de mapa conceptual, bitácora de aprendizaje y estrategia de exámenes",
+    week: 18,
+    taskId: "mn-c0099-w18-present-semester-learning-portfolio",
+    taskTitle: "Present Your Semester Learning Portfolio",
+    scenario: "For the closing capstone the cadet presents a semester learning portfolio, integrating the integrating concept maps from week 11, the learning log from week 8 and the exam-preparation strategy from week 12.",
+    instructions: [
+      "Assemble the concept maps, learning log and exam strategy into one portfolio.",
+      "Reflect on what worked and what to change for the next semester.",
+      "Summarise the learning strategies you will keep on a single sheet.",
+      "Present the semester learning portfolio to the tutor in maritime English / SMCP."
+    ],
+    deliverable: "A semester learning portfolio integrating concept maps, the learning log and the exam strategy.",
+    assessmentCriteria: [
+      "The portfolio integrates the maps, log and strategy coherently.",
+      "The reflection identifies real changes for next semester.",
+      "The summary sheet captures the strategies to keep.",
+      "The portfolio is presented to the tutor in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
     subjectCode: "C0100",
     subjectName: "Expresión Oral y Escrita",
     subjectId: "mn-s1-expresion-oral-escrita",
@@ -3473,6 +5039,180 @@ export const mnSemesterITasks: AcademicMissionTask[] = [
     ],
     xp: 25,
     estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación Escrita",
+    topic: "Informe de incidente, registro en el cuaderno de máquinas y requisición",
+    week: 13,
+    taskId: "mn-c0100-w13-compile-full-engine-room-written-record",
+    taskTitle: "Compile The Full Engine-Room Written Record",
+    scenario: "After an engine-room event the cadet must compile the full written record, combining the incident report from week 2 with the factual logbook entry from week 6 and the correctly written spare-parts requisition from week 10.",
+    instructions: [
+      "Write the incident report with the main and secondary facts in order.",
+      "Enter the event factually and in chronological order in the engine-room logbook.",
+      "Write the spare-parts requisition for the parts used with correct spelling and grammar.",
+      "Report the completed written record to the second engineer in maritime English / SMCP."
+    ],
+    deliverable: "A full engine-room written record with an incident report, a logbook entry and a requisition.",
+    assessmentCriteria: [
+      "The incident report orders the main and secondary facts correctly.",
+      "The logbook entry is factual and chronological.",
+      "The requisition is correct in spelling and grammar.",
+      "The record is reported to the second engineer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Orden verbal con confirmación, marcadores SMCP y escucha activa de lazo cerrado",
+    week: 14,
+    taskId: "mn-c0100-w14-run-closed-loop-order-cycle",
+    taskTitle: "Run The Closed-Loop Order And Read-Back Cycle",
+    scenario: "During an engine-room operation the cadet must run the order cycle, combining the clear verbal order with confirmation from week 3 with the SMCP message markers from week 5 and the active listening and read-back from week 7.",
+    instructions: [
+      "Give the verbal order clearly and structure it with the correct SMCP message marker.",
+      "Have the order read back and listen actively to confirm it is understood.",
+      "Correct any read-back error and confirm the order is closed and acted on.",
+      "Report the completed order cycle to the officer of the watch in maritime English / SMCP."
+    ],
+    deliverable: "A closed-loop order record with the order, the marker, the read-back and the confirmation.",
+    assessmentCriteria: [
+      "The order is clear and carries the correct SMCP marker.",
+      "The read-back is obtained and actively confirmed.",
+      "Read-back errors are corrected before the order is closed.",
+      "The order cycle is reported to the watch officer in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Exposición técnica formal, registro según el interlocutor y briefing de seguridad",
+    week: 15,
+    taskId: "mn-c0100-w15-deliver-adapted-safety-and-technical-briefing",
+    taskTitle: "Deliver The Adapted Safety And Technical Briefing",
+    scenario: "The cadet must brief a mixed audience before an engine-room job, combining the safety briefing from week 4 with the register adapted to the listener from week 11 and the formal technical briefing from week 12.",
+    instructions: [
+      "Prepare the safety briefing with the key hazards and precautions for the job.",
+      "Adapt the register and detail to the crew and the officers in the audience.",
+      "Deliver the formal technical briefing with clear structure, diction and visuals.",
+      "Report that the briefing is delivered and understood to the officer in charge in maritime English / SMCP."
+    ],
+    deliverable: "An adapted safety-and-technical briefing with the hazards, the audience-fit register and the structure.",
+    assessmentCriteria: [
+      "The safety briefing covers the key hazards and precautions.",
+      "The register is adapted correctly to the audience.",
+      "The technical briefing is well structured and clearly delivered.",
+      "The briefing outcome is reported to the officer in charge in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación integrada",
+    topic: "Comunicación en emergencia de máquinas, barreras y marcadores SMCP",
+    week: 16,
+    taskId: "mn-c0100-w16-report-engine-room-emergency-under-pressure",
+    taskTitle: "Report An Engine-Room Emergency Under Pressure",
+    scenario: "An emergency strikes the engine room and the cadet must communicate under pressure, combining the emergency oral-and-written communication from week 8 with the communication barriers from week 9 and the SMCP message markers from week 5.",
+    instructions: [
+      "Overcome the noise and stress barriers to pass a clear spoken emergency message.",
+      "Structure the spoken message with the correct SMCP markers so it is understood at once.",
+      "Write the factual record of the emergency and the action taken.",
+      "Report the emergency verbally and in writing to the chief engineer in maritime English / SMCP."
+    ],
+    deliverable: "An emergency communication set with a spoken message and a written record of the event.",
+    assessmentCriteria: [
+      "The communication barriers are overcome so the message gets through.",
+      "The spoken message carries the correct SMCP markers.",
+      "The written record is factual and complete.",
+      "The emergency is reported orally and in writing in clear maritime English / SMCP."
+    ],
+    xp: 25,
+    estimatedTime: "40 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Proceso de comunicación",
+    topic: "Proceso de la comunicación, barreras y confirmación de lazo cerrado",
+    week: 17,
+    taskId: "mn-c0100-w17-audit-communication-breakdown-and-fix-loop",
+    taskTitle: "Audit A Communication Breakdown And Fix The Loop",
+    scenario: "A near miss is traced to a communication breakdown and the cadet must audit it, combining the communication process from week 1 with the personal, physical and semantic barriers from week 9 and the closed-loop read-back from week 7.",
+    instructions: [
+      "Map the message through the communication process to find where it broke down.",
+      "Identify the personal, physical or semantic barrier that caused the breakdown.",
+      "Set the closed-loop read-back rule that would have caught the error.",
+      "Report the breakdown audit and the fix to the safety officer in maritime English / SMCP."
+    ],
+    deliverable: "A communication-breakdown audit with the failure point, the barrier and the closed-loop fix.",
+    assessmentCriteria: [
+      "The breakdown is located correctly in the communication process.",
+      "The barrier that caused it is identified correctly.",
+      "The closed-loop fix would prevent the error.",
+      "The audit is reported to the safety officer in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
+    difficulty: "Advanced"
+  },
+  {
+    career: "MN",
+    semester: "Semester I",
+    subjectCode: "C0100",
+    subjectName: "Expresión Oral y Escrita",
+    subjectId: "mn-s1-expresion-oral-escrita",
+    unit: "Comunicación Oral",
+    topic: "Integración de exposición técnica, informe de incidente y cuaderno de máquinas",
+    week: 18,
+    taskId: "mn-c0100-w18-present-end-of-voyage-communication-portfolio",
+    taskTitle: "Present The End-Of-Voyage Communication Portfolio",
+    scenario: "For the closing capstone the cadet presents an end-of-voyage communication portfolio, integrating the formal technical briefing from week 12, the incident report from week 2 and the engine-room logbook entries from week 6.",
+    instructions: [
+      "Assemble the technical briefing, the incident reports and the logbook entries into one portfolio.",
+      "Check each document for factual accuracy, structure and correct register.",
+      "Prepare the oral and visual delivery of the portfolio's key points.",
+      "Present the end-of-voyage communication portfolio to the master in maritime English / SMCP."
+    ],
+    deliverable: "An end-of-voyage communication portfolio integrating a briefing, incident reports and logbook entries.",
+    assessmentCriteria: [
+      "The portfolio integrates the briefing, reports and log entries coherently.",
+      "Each document is accurate, well structured and correctly registered.",
+      "The oral and visual delivery is clear and well prepared.",
+      "The portfolio is presented to the master in clear maritime English / SMCP."
+    ],
+    xp: 30,
+    estimatedTime: "45 min",
     difficulty: "Advanced"
   },
 ];
