@@ -1,21 +1,19 @@
 // ============================================================
 // SMCP Trainer — VHF Radio Simulator: API Route (App Router)
 // ------------------------------------------------------------
-// Reutiliza el mismo patrón que app/api/feedback/route.ts:
-//   - SDK @google/genai (GoogleGenAI), no fetch directo
-//   - GEMINI_MODEL  -> nombre del modelo (fallback "gemini-2.5-flash")
-//   - GEMINI_API_KEY -> la clave (NUNCA invertir los valores; la clave
-//     va en el cliente, jamás en la URL)
+// Cerebro: NVIDIA NIM (build.nvidia.com), vía el helper app/lib/nvidia.ts
+//   - Endpoint compatible con OpenAI (fetch), modelo por NVIDIA_MODEL
+//     (por defecto meta/llama-3.1-70b-instruct).
+//   - NVIDIA_API_KEY -> la clave (server-only; nunca en el cliente).
 // El modelo actúa como estación costera (role-play SMCP) y como
 // examinador silencioso (evaluación al finalizar el intercambio).
 // TODA la salida (coastReply y evaluación) debe ir SIEMPRE en inglés.
+// La captura de voz del cadete la hace el navegador (Web Speech API).
 // ============================================================
 
 import { NextRequest, NextResponse } from "next/server";
-import { GoogleGenAI } from "@google/genai";
+import { nvidiaChat, NvidiaError } from "@/app/lib/nvidia";
 import { getScenarioById } from "@/data/vhf-scenarios";
-
-const MODELO = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 
 interface RadioExchange {
   speaker: "student" | "coast";
@@ -48,9 +46,6 @@ export async function POST(req: NextRequest) {
     }
     if (!body.transcript?.trim() && !body.finalize) {
       return NextResponse.json({ error: "Empty transcript" }, { status: 400 });
-    }
-    if (!process.env.GEMINI_API_KEY) {
-      return NextResponse.json({ error: "GEMINI_API_KEY no está configurada." }, { status: 503 });
     }
 
     const historyText = body.history
@@ -94,23 +89,14 @@ CADET'S LATEST TRANSMISSION: "${body.transcript}"
 
 finalize: ${body.finalize}`;
 
-    const client = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-
-    const resp = await client.models.generateContent({
-      model: MODELO,
-      contents: userPrompt,
-      config: {
-        systemInstruction: systemPrompt,
-        responseMimeType: "application/json",
-        temperature: 0.4,
-        maxOutputTokens: 1024,
-      },
+    // Cerebro NVIDIA NIM (OpenAI-compatible, salida JSON forzada).
+    const rawText = await nvidiaChat({
+      system: systemPrompt,
+      user: userPrompt,
+      json: true,
+      temperature: 0.4,
+      maxTokens: 1024,
     });
-
-    const rawText = resp.text ?? "";
-    if (!rawText) {
-      return NextResponse.json({ error: "AI request returned no text" }, { status: 502 });
-    }
 
     // El modelo debe devolver JSON con la forma VhfResponseBody. Quitamos posibles
     // fences ```json ... ``` y parseamos con fallback seguro.
@@ -130,6 +116,12 @@ finalize: ${body.finalize}`;
 
     return NextResponse.json(parsed);
   } catch (err) {
+    if (err instanceof NvidiaError) {
+      return NextResponse.json(
+        { error: err.message },
+        { status: err.status ?? 500 },
+      );
+    }
     console.error("[VHF] Unexpected error", err);
     return NextResponse.json({ error: "Server error", detail: String(err) }, { status: 500 });
   }
