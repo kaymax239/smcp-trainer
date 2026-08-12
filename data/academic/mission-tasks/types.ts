@@ -45,4 +45,9 @@ export type AcademicMissionTask = {
   difficulty: "Foundation" | "Standard" | "Advanced";
   /** Optional: marks this task as an interactive mini-game (see TaskGame). */
   game?: TaskGame;
+  /** Optional: technical terms the cadet is expected to use. Populated by the
+   *  AI generator (app/admin/generate-tasks); hand-written tasks may omit it. */
+  vocabulary?: string[];
+  /** Optional: SMCP phrases embedded in the task, same origin as `vocabulary`. */
+  smcpPhrases?: string[];
 };

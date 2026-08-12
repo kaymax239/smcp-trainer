@@ -11,6 +11,9 @@ import { pnSemesterVTasks } from "./mission-tasks/pn-semester-v";
 import { mnSemesterVTasks } from "./mission-tasks/mn-semester-v";
 import { pnSemesterViiTasks } from "./mission-tasks/pn-semester-vii";
 import { mnSemesterViiTasks } from "./mission-tasks/mn-semester-vii";
+// Tareas creadas desde /admin/generate-tasks. Import estático (no fs) para que
+// este módulo siga siendo client-safe: app/page.tsx es "use client".
+import generatedTasks from "./generated-tasks.json";
 
 export const academicMissionTasks: AcademicMissionTask[] = [
   ...pnSemesterITasks,
@@ -21,4 +24,5 @@ export const academicMissionTasks: AcademicMissionTask[] = [
   ...mnSemesterVTasks,
   ...pnSemesterViiTasks,
   ...mnSemesterViiTasks,
+  ...(generatedTasks as AcademicMissionTask[]),
 ];

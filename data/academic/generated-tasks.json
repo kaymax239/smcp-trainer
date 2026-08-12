@@ -1,0 +1,72 @@
+[
+  {
+    "career": "PN",
+    "semester": "Semester I",
+    "subjectCode": "TMO101",
+    "subjectName": "Transporte Marítimo",
+    "subjectId": "pn-s1-transporte-maritimo",
+    "unit": "Antecedentes del Transporte Marítimo",
+    "topic": "Tipos de buque y sus particularidades",
+    "week": 1,
+    "taskId": "pn-tmo101-familiarisation-round-identify-vessel-type-and-structural-el",
+    "taskTitle": "Familiarisation Round: Identify Vessel Type and Structural Elements on Deck",
+    "scenario": "You are a first-semester deck cadet aboard a general cargo vessel alongside at Tampico terminal. The Chief Officer orders you to carry out a familiarisation round on the weather deck to identify the vessel type and its main structural and mooring/anchoring elements before reporting back on the bridge wing. This is your first hands-on deck inspection task under STCW basic familiarisation requirements.",
+    "instructions": [
+      "Report to the Chief Officer on the bridge wing and request permission to proceed to the forecastle for the familiarisation round, using the phrase 'I intend to proceed to the forecastle for deck inspection.'",
+      "Walk forward along the main deck and visually identify the vessel type (e.g. general cargo, bulk carrier, tanker) based on hull form, cargo gear and deck layout.",
+      "At the forecastle, locate and name the anchoring equipment: anchor, anchor chain, chain locker, windlass, and hawse pipe.",
+      "Identify the mooring equipment on the foredeck: mooring winch, bollards, fairleads, and mooring lines.",
+      "Proceed aft along the main deck and identify structural elements: forecastle, main deck, superstructure, funnel, bulwark, and freeboard mark.",
+      "Note the location of the bridge and stern mooring stations, identifying the aft mooring winch and bollards.",
+      "Return to the bridge and report your findings to the Chief Officer using the phrase 'I have identified the vessel type and main structural elements, over.'",
+      "Confirm the report was understood by responding to the Chief Officer's acknowledgement with 'Message understood.'"
+    ],
+    "deliverable": "A completed deck inspection checklist (handwritten or printed form) identifying the vessel type and listing all located structural, anchoring, and mooring elements, signed off verbally to the Chief Officer using correct SMCP reporting phrases, observed and verified by the instructor during the round.",
+    "assessmentCriteria": [
+      "Cadet correctly identifies the vessel type based on observable structural and cargo-handling features.",
+      "Cadet correctly names at least 8 structural or mooring/anchoring elements during the deck walk.",
+      "Cadet uses at least 8 SMCP phrases correctly and naturally during the reporting sequence.",
+      "Cadet requests and confirms permission before proceeding to the forecastle.",
+      "Cadet delivers a clear, structured verbal report to the Chief Officer summarising findings.",
+      "Cadet completes the full round and report within 20 minutes.",
+      "Cadet demonstrates correct use of shipboard hierarchy protocol when reporting to the Chief Officer."
+    ],
+    "xp": 100,
+    "estimatedTime": "20 min",
+    "difficulty": "Foundation",
+    "vocabulary": [
+      "vessel type",
+      "general cargo ship",
+      "bulk carrier",
+      "forecastle",
+      "main deck",
+      "superstructure",
+      "bulwark",
+      "freeboard",
+      "anchor",
+      "anchor chain",
+      "chain locker",
+      "windlass",
+      "hawse pipe",
+      "mooring winch",
+      "bollard",
+      "fairlead",
+      "mooring line",
+      "funnel",
+      "bridge wing",
+      "familiarisation round"
+    ],
+    "smcpPhrases": [
+      "I intend to proceed to the forecastle for deck inspection.",
+      "I have identified the vessel type and main structural elements, over.",
+      "Message understood.",
+      "Request permission to proceed on deck.",
+      "Permission granted.",
+      "Stand by.",
+      "I will report back on completion.",
+      "All correct.",
+      "Say again.",
+      "Report position and status."
+    ]
+  }
+]

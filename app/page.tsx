@@ -331,6 +331,13 @@ export default function Home() {
             <small>MN</small>
             <em>Engine room, machinery watch, technical operations and safety.</em>
           </button>
+
+          <Link className="careerChoiceCard" href="/generated-tasks">
+            <span>AI Content Studio</span>
+            <strong>Generated Tasks</strong>
+            <small>AI</small>
+            <em>AI-generated operational tasks</em>
+          </Link>
         </div>
       </section>
     </main>
