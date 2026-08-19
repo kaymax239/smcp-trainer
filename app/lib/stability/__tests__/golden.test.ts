@@ -8,7 +8,7 @@ import { readFileSync } from 'node:fs';
 import { analyse, baseItems, loadHold, fillTank } from '../stability.ts';
 import type { VesselData, LoadItem } from '../types.ts';
 
-const v: VesselData = JSON.parse(readFileSync(new URL('../../../data/vessels/ENMT-1.json', import.meta.url), 'utf8'));
+const v: VesselData = JSON.parse(readFileSync(new URL('../../../../public/vessels/ENMT-1.json', import.meta.url), 'utf8'));
 const golden = JSON.parse(readFileSync(new URL('./golden-python.json', import.meta.url), 'utf8'));
 
 function cond1(): LoadItem[] {

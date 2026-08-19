@@ -38,7 +38,7 @@ cálculo. (De hecho, ya pasó una vez: el paquete original traía
 | `index.ts` | Punto de entrada público. Importa siempre desde aquí. |
 | `__tests__/golden.test.ts` | 20 pruebas doradas contra el prototipo Python. |
 | `__tests__/golden-python.json` | Valores de referencia del prototipo Python. |
-| `../../data/vessels/ENMT-1.json` | Datos del buque sintético ENMT-1 (213 KB). |
+| `/public/vessels/ENMT-1.json` | Datos del buque sintético ENMT-1 (213 KB). Activo estático. |
 
 `types.ts` y `stability.ts` están en el repo **byte por byte** como salieron del
 paquete verificado. Lo único ajustado en `golden.test.ts` fueron las rutas de
@@ -69,18 +69,33 @@ marítimo, no dejar que revienten la pantalla.
 `r.warnings` (extrapolación de curvas KN, no convergencia, calado por encima del
 puntal) nunca se ignora. **Un resultado con aviso no es un resultado limpio.**
 
-## Carga del JSON del buque — importante para la UI
+## Carga del JSON del buque — regla fija
 
-`ENMT-1.json` pesa **213 KB**. A partir de la Etapa A nada lo importa todavía.
-Cuando la Etapa B lo consuma, **no lo importes estáticamente en un componente de
-cliente**: entraría al bundle de rutas que no lo usan. Opciones, en orden:
+`ENMT-1.json` pesa **213 KB** y vive en `public/vessels/`, no dentro de `app/`.
+Es un **activo estático**, no un módulo.
 
-1. Leerlo en un Server Component / route handler y pasar solo lo necesario.
-2. `const vessel = (await import('@/app/data/vessels/ENMT-1.json')).default`
-   dentro de la ruta `/loading`, para que quede en su propio chunk.
+**Se carga con `fetch`, una sola vez al montar. Ni import estático ni dinámico.**
+
+```ts
+const [vessel, setVessel] = useState<VesselData | null>(null);
+
+useEffect(() => {
+  let alive = true;
+  fetch('/vessels/ENMT-1.json')
+    .then(r => r.json())
+    .then(d => { if (alive) setVessel(d as VesselData); });
+  return () => { alive = false; };
+}, []);
+```
+
+Por qué así: al estar en `public/` el JSON **no puede** entrar al bundle de
+JavaScript por accidente. El navegador lo cachea y ninguna ruta que no lo use
+paga su peso. Un `import` — estático o dinámico — lo devolvería al grafo de
+módulos y reabriría justo el problema que este movimiento cierra.
 
 Recordatorio: el filesystem de Vercel es de **solo lectura**. El JSON se lee,
-nunca se escribe.
+nunca se escribe. Y al estar en `public/` es de acceso público: son datos de un
+buque sintético de entrenamiento, así que no hay nada que proteger ahí.
 
 ## Pruebas
 
