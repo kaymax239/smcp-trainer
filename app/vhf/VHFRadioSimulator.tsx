@@ -20,6 +20,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { VHF_SCENARIOS, VhfScenario } from '@/data/vhf-scenarios'; // Ajustar ruta
+import { speakWithAccent, stopSpeaking } from '@/app/lib/voice';
 
 /* Rol por dominio del email de sesión (mismo patrón validado que
    engine-room/EngineRoomSim.tsx). Split estricto por "@" — un
@@ -75,20 +76,11 @@ function getRecognition(): SpeechRecognitionLike | null {
   return rec;
 }
 
+// La estación costera habla con el acento elegido por el usuario en
+// /voice-settings (Gemini TTS). speakWithAccent cae solo a la voz del
+// navegador si Gemini falla, así que la radio nunca queda muda.
 function speakAsCoastStation(text: string, onEnd: () => void) {
-  const synth = window.speechSynthesis;
-  synth.cancel();
-  const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = 'en-US';
-  utter.rate = 0.92;   // Ligeramente pausado, como procedimiento de radio
-  utter.pitch = 0.9;
-  // Preferir una voz en inglés si está disponible
-  const voice =
-    synth.getVoices().find((v) => v.lang.startsWith('en-GB')) ||
-    synth.getVoices().find((v) => v.lang.startsWith('en-US'));
-  if (voice) utter.voice = voice;
-  utter.onend = onEnd;
-  synth.speak(utter);
+  void speakWithAccent(text, onEnd);
 }
 
 export default function VHFRadioSimulator() {
@@ -246,7 +238,7 @@ export default function VHFRadioSimulator() {
   }
 
   function selectScenario(s: VhfScenario) {
-    window.speechSynthesis?.cancel();
+    stopSpeaking();
     setScenario(s);
     setExchanges([]);
     setEvaluation(null);
@@ -255,7 +247,7 @@ export default function VHFRadioSimulator() {
   }
 
   function resetAll() {
-    window.speechSynthesis?.cancel();
+    stopSpeaking();
     setScenario(null);
     setExchanges([]);
     setEvaluation(null);

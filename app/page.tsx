@@ -568,6 +568,13 @@ function AcademicProgramDashboard({
         <em>Practica por voz llamadas de radio (radio check, MAYDAY, PAN-PAN, SÉCURITÉ) con una estación costera simulada y recibe evaluación del procedimiento. Sección compartida entre carreras.</em>
       </Link>
 
+      <Link className="careerChoiceCard liveTrafficCard" href="/voice-settings">
+        <span>Ajustes de voz</span>
+        <strong>Acento de la voz de la radio</strong>
+        <small>TTS</small>
+        <em>Elige el acento de la estación costera del simulador VHF (filipino, australiano, irlandés, sureño de EE. UU. o cajún). Se genera con Gemini y se aplica en todo el audio.</em>
+      </Link>
+
       <section className="flowPanel" aria-label={`${selectedProgram} semesters`}>
         <div className="panelTitle">
           <span>Semesters</span>
