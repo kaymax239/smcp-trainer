@@ -1,17 +1,16 @@
 import { signIn } from "@/auth";
+import Link from "next/link";
 
 export const metadata = {
-  title: "Acceso — SMCP Trainer",
+  title: "Acceso — SMCP Digital Academy",
 };
 
-// Página pública de acceso. El middleware manda aquí a quien no tiene sesión.
 export default async function LoginPage({
   searchParams,
 }: {
   searchParams: Promise<{ callbackUrl?: string; error?: string }>;
 }) {
   const { callbackUrl, error } = await searchParams;
-  // AccessDenied = la puerta de dominio rechazó la cuenta (no es @fidena.edu.mx).
   const domainRejected = error === "AccessDenied";
 
   return (
@@ -28,21 +27,22 @@ export default async function LoginPage({
       <section
         style={{
           width: "100%",
-          maxWidth: "420px",
+          maxWidth: "520px",
           background: "#101f30",
           border: "1px solid #1d3350",
           borderRadius: "16px",
-          padding: "40px 32px",
+          padding: "36px 32px",
           textAlign: "center",
           boxShadow: "0 20px 60px rgba(0,0,0,0.4)",
         }}
       >
-        <p style={{ letterSpacing: "0.18em", fontSize: "12px", opacity: 0.7, margin: 0 }}>
-          SMCP DIGITAL ACADEMY
+        <p style={{ letterSpacing: "0.18em", fontSize: "11px", opacity: 0.7, margin: 0 }}>
+          FIDENA · KAYMAX · SMCP DIGITAL ACADEMY
         </p>
-        <h1 style={{ fontSize: "26px", margin: "8px 0 4px" }}>Acceso institucional</h1>
-        <p style={{ opacity: 0.75, margin: "0 0 28px", fontSize: "14px" }}>
-          Entra con tu cuenta <strong>@fidena.edu.mx</strong> para continuar.
+        <h1 style={{ fontSize: "26px", margin: "10px 0 8px" }}>Inglés marítimo institucional</h1>
+        <p style={{ opacity: 0.8, margin: "0 0 22px", fontSize: "14px", lineHeight: 1.55 }}>
+          Entrenador SMCP para cadetes de Pilotin Naval y Máquinas Navales.
+          El campus completo pide cuenta institucional de FIDENA.
         </p>
 
         {error ? (
@@ -58,7 +58,7 @@ export default async function LoginPage({
             }}
           >
             {domainRejected
-              ? "Esa cuenta no pertenece al dominio @fidena.edu.mx. Usa tu correo institucional."
+              ? "Esa cuenta no es institucional. Usa @fidena.edu.mx (docentes) o @es.fidena.edu.mx (alumnos)."
               : "No se pudo iniciar sesión. Inténtalo de nuevo."}
           </p>
         ) : null}
@@ -83,9 +83,29 @@ export default async function LoginPage({
               cursor: "pointer",
             }}
           >
-            Entrar con Google
+            Entrar con Google FIDENA
           </button>
         </form>
+
+        <p style={{ margin: "16px 0 0", fontSize: "13px", opacity: 0.7 }}>
+          Docentes: <strong>@fidena.edu.mx</strong>
+          <br />
+          Cadetes: <strong>@es.fidena.edu.mx</strong>
+        </p>
+
+        <p style={{ margin: "22px 0 0" }}>
+          <Link href="/preview" style={{ color: "#f2b84b", fontWeight: 700, textDecoration: "none" }}>
+            Ver demostración pública →
+          </Link>
+        </p>
+        <p style={{ margin: "10px 0 0", fontSize: "13px" }}>
+          <a
+            href="https://smcp-frases-trainer.vercel.app"
+            style={{ color: "#8fe0da", textDecoration: "none" }}
+          >
+            Practicar 100 frases SMCP (sin login)
+          </a>
+        </p>
       </section>
     </main>
   );

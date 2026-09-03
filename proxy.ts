@@ -1,32 +1,29 @@
 import { auth } from "@/auth";
 import { NextResponse } from "next/server";
 
-// Gatekeeper global: todo requiere sesión salvo el endpoint de auth y /login.
+const PUBLIC_PATHS = new Set(["/login", "/preview"]);
+
 export default auth((req) => {
   const { pathname } = req.nextUrl;
   const isLoggedIn = Boolean(req.auth?.user);
   const isAuthApi = pathname.startsWith("/api/auth");
-  const isLoginPage = pathname === "/login";
+  const isPublic = PUBLIC_PATHS.has(pathname);
 
-  // El flujo OAuth (/api/auth/*) debe quedar siempre público o se bloquea a sí mismo.
   if (isAuthApi) return NextResponse.next();
 
-  // Sin sesión y fuera del login → al login, recordando a dónde iba.
-  if (!isLoggedIn && !isLoginPage) {
+  if (!isLoggedIn && !isPublic) {
     const loginUrl = new URL("/login", req.nextUrl.origin);
     loginUrl.searchParams.set("callbackUrl", pathname + req.nextUrl.search);
     return NextResponse.redirect(loginUrl);
   }
 
-  // Ya logueado pero pidiendo /login → mándalo al home.
-  if (isLoggedIn && isLoginPage) {
+  if (isLoggedIn && pathname === "/login") {
     return NextResponse.redirect(new URL("/", req.nextUrl.origin));
   }
 
   return NextResponse.next();
 });
 
-// Excluye assets estáticos y _next para no cobrar auth en cada recurso.
 export const config = {
   matcher: [
     "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|css|js)$).*)",
