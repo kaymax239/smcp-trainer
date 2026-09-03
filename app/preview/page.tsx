@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { CSSProperties } from "react";
 
 export const metadata = {
   title: "Demostración — SMCP Digital Academy",
@@ -70,14 +71,14 @@ export default function PreviewPage() {
   );
 }
 
-const cardStyle: React.CSSProperties = {
+const cardStyle: CSSProperties = {
   padding: "18px",
   border: "1px solid rgba(255,255,255,0.16)",
   borderRadius: "10px",
   background: "rgba(15, 33, 51, 0.92)",
 };
 
-const labelStyle: React.CSSProperties = {
+const labelStyle: CSSProperties = {
   color: "#f2b84b",
   fontSize: "12px",
   fontWeight: 800,
@@ -85,19 +86,19 @@ const labelStyle: React.CSSProperties = {
   textTransform: "uppercase",
 };
 
-const titleStyle: React.CSSProperties = {
+const titleStyle: CSSProperties = {
   display: "block",
   marginTop: "10px",
   fontSize: "22px",
 };
 
-const textStyle: React.CSSProperties = {
+const textStyle: CSSProperties = {
   margin: "10px 0 0",
   color: "#c7d5e1",
   lineHeight: 1.5,
 };
 
-const primaryBtn: React.CSSProperties = {
+const primaryBtn: CSSProperties = {
   display: "inline-flex",
   alignItems: "center",
   minHeight: "48px",
@@ -109,7 +110,7 @@ const primaryBtn: React.CSSProperties = {
   textDecoration: "none",
 };
 
-const secondaryBtn: React.CSSProperties = {
+const secondaryBtn: CSSProperties = {
   display: "inline-flex",
   alignItems: "center",
   minHeight: "48px",
