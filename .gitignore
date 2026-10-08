@@ -2,7 +2,9 @@ node_modules
 .next
 *.zip
 .vercel
-.claude/
+.claude/*
+# ...excepto las skills del proyecto, que sí se comparten.
+!.claude/skills/
 
 # Planeaciones fuente (material de editorial) — NUNCA subir al repo
 _planeaciones-temp/
