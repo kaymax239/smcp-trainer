@@ -1,0 +1,705 @@
+{
+  "fuente": "smcp-frases-trainer.vercel.app — index.html publicado (deployment dpl_Hxgcwha4J1PgLyADP6GUe9phfzug, src/index.html); arreglos CATS y P",
+  "frases": [
+    {
+      "id": "smcp-001",
+      "en": "This is vessel…",
+      "es": "Aquí buque…",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-002",
+      "en": "What is your position?",
+      "es": "¿Cuál es su posición?",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-003",
+      "en": "My position is…",
+      "es": "Mi posición es…",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-004",
+      "en": "Say again.",
+      "es": "Repita.",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-005",
+      "en": "Read back.",
+      "es": "Repita lo recibido.",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-006",
+      "en": "Stand by on channel…",
+      "es": "Permanezca a la escucha en el canal…",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-007",
+      "en": "Change to channel…",
+      "es": "Cambie al canal…",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-008",
+      "en": "How do you read me?",
+      "es": "¿Cómo me recibe?",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-009",
+      "en": "I read you loud and clear.",
+      "es": "Le recibo fuerte y claro.",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-010",
+      "en": "Message received.",
+      "es": "Mensaje recibido.",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-011",
+      "en": "Understood.",
+      "es": "Entendido.",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-012",
+      "en": "Correction…",
+      "es": "Corrección…",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-013",
+      "en": "Over.",
+      "es": "Cambio.",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-014",
+      "en": "Out.",
+      "es": "Corto (fuera).",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-015",
+      "en": "Affirmative.",
+      "es": "Afirmativo.",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-016",
+      "en": "Negative.",
+      "es": "Negativo.",
+      "categoria": "Radio VHF y procedimiento",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-017",
+      "en": "Mayday, mayday, mayday.",
+      "es": "(llamada de socorro)",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-018",
+      "en": "Pan-pan, pan-pan, pan-pan.",
+      "es": "(llamada de urgencia)",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-019",
+      "en": "Sécurité, sécurité.",
+      "es": "(llamada de seguridad)",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-020",
+      "en": "I require immediate assistance.",
+      "es": "Requiero asistencia inmediata.",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-021",
+      "en": "I am on fire.",
+      "es": "Tengo fuego a bordo.",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-022",
+      "en": "I am sinking.",
+      "es": "Me estoy hundiendo.",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-023",
+      "en": "I am flooding.",
+      "es": "Tengo vías de agua.",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-024",
+      "en": "Man overboard.",
+      "es": "Hombre al agua.",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-025",
+      "en": "I require a tug / tugs.",
+      "es": "Necesito remolcador(es).",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-026",
+      "en": "How many persons on board?",
+      "es": "¿Cuántas personas a bordo?",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-027",
+      "en": "Is anybody injured?",
+      "es": "¿Hay heridos?",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-028",
+      "en": "Abandon vessel.",
+      "es": "Abandonen el buque.",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-029",
+      "en": "I have a medical emergency.",
+      "es": "Tengo una emergencia médica.",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-030",
+      "en": "Do you require assistance?",
+      "es": "¿Necesita asistencia?",
+      "categoria": "Socorro, urgencia y seguridad",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-031",
+      "en": "Midships.",
+      "es": "Timón al medio (a la vía).",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-032",
+      "en": "Port five / ten / fifteen / twenty.",
+      "es": "Cinco/diez/quince/veinte a babor.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-033",
+      "en": "Starboard five / ten.",
+      "es": "Cinco/diez a estribor.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-034",
+      "en": "Hard-a-port.",
+      "es": "Todo a babor.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-035",
+      "en": "Hard-a-starboard.",
+      "es": "Todo a estribor.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-036",
+      "en": "Steady as she goes.",
+      "es": "Mantenga el rumbo.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-037",
+      "en": "Ease to five / ten.",
+      "es": "Afloje a cinco/diez.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-038",
+      "en": "Steer one-eight-zero.",
+      "es": "Gobierne al 180.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-039",
+      "en": "Meet her.",
+      "es": "Aguante la caída.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-040",
+      "en": "Nothing to port.",
+      "es": "Nada a babor.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-041",
+      "en": "Nothing to starboard.",
+      "es": "Nada a estribor.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-042",
+      "en": "How is her head?",
+      "es": "¿A qué rumbo está la proa?",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-043",
+      "en": "Keep the buoy on your port side.",
+      "es": "Deje la boya por su babor.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-044",
+      "en": "Report if she does not answer the wheel.",
+      "es": "Avise si no obedece el timón.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-045",
+      "en": "Finished with the wheel.",
+      "es": "Terminado con el timón.",
+      "categoria": "Órdenes al timón",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-046",
+      "en": "Stand by engines.",
+      "es": "Atención a máquinas.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-047",
+      "en": "Dead slow ahead.",
+      "es": "Avante muy despacio.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-048",
+      "en": "Slow ahead.",
+      "es": "Avante despacio.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-049",
+      "en": "Half ahead.",
+      "es": "Avante media.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-050",
+      "en": "Full ahead.",
+      "es": "Avante toda.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-051",
+      "en": "Stop engines.",
+      "es": "Pare máquinas.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-052",
+      "en": "Dead slow astern.",
+      "es": "Atrás muy despacio.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-053",
+      "en": "Slow astern.",
+      "es": "Atrás despacio.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-054",
+      "en": "Half astern.",
+      "es": "Atrás media.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-055",
+      "en": "Full astern.",
+      "es": "Atrás toda.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-056",
+      "en": "Emergency full ahead.",
+      "es": "Avante toda de emergencia.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-057",
+      "en": "Finished with engines.",
+      "es": "Terminado con máquinas.",
+      "categoria": "Órdenes a máquinas",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-058",
+      "en": "Stand by the port anchor.",
+      "es": "Listo el ancla de babor.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-059",
+      "en": "Let go the port anchor.",
+      "es": "Fondee el ancla de babor.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-060",
+      "en": "Walk out the anchor.",
+      "es": "Arríe el ancla con el molinete.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-061",
+      "en": "How is the cable leading?",
+      "es": "¿Cómo trabaja la cadena?",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-062",
+      "en": "The cable is leading ahead / astern.",
+      "es": "La cadena trabaja hacia proa/popa.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-063",
+      "en": "How many shackles in the water?",
+      "es": "¿Cuántos grilletes en el agua?",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-064",
+      "en": "The anchor is holding.",
+      "es": "El ancla agarra.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-065",
+      "en": "Heave up the anchor.",
+      "es": "Vire el ancla.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-066",
+      "en": "The anchor is aweigh.",
+      "es": "El ancla está zarpada.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-067",
+      "en": "The anchor is clear / foul.",
+      "es": "El ancla está clara / enredada.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-068",
+      "en": "Send the heaving line ashore.",
+      "es": "Envíe la guía (sisga) a tierra.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-069",
+      "en": "Make fast fore and aft.",
+      "es": "Amarre por proa y popa.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-070",
+      "en": "Send a spring line.",
+      "es": "Envíe un esprín (codera).",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-071",
+      "en": "Slack away the head line.",
+      "es": "Lasque la amarra de proa.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-072",
+      "en": "Heave in the stern line.",
+      "es": "Cobre la amarra de popa.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-073",
+      "en": "Hold on.",
+      "es": "Aguante.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-074",
+      "en": "Let go all lines.",
+      "es": "Larguen todas las amarras.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-075",
+      "en": "Single up to two lines and a spring.",
+      "es": "Reduzca a dos amarras y un esprín.",
+      "categoria": "Fondeo y amarre",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-076",
+      "en": "What is your course?",
+      "es": "¿Cuál es su rumbo?",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-077",
+      "en": "My course is…",
+      "es": "Mi rumbo es…",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-078",
+      "en": "What is your speed?",
+      "es": "¿Cuál es su velocidad?",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-079",
+      "en": "Reduce your speed.",
+      "es": "Reduzca su velocidad.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-080",
+      "en": "Increase your speed.",
+      "es": "Aumente su velocidad.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-081",
+      "en": "I intend to overtake you on your port side.",
+      "es": "Pretendo adelantarle por su babor.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-082",
+      "en": "I intend to alter course to starboard.",
+      "es": "Pretendo caer a estribor.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-083",
+      "en": "Keep clear of me.",
+      "es": "Manténgase alejado de mí.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-084",
+      "en": "I will keep clear of you.",
+      "es": "Me mantendré alejado de usted.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-085",
+      "en": "Do not overtake.",
+      "es": "No adelante.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-086",
+      "en": "We are on a collision course.",
+      "es": "Vamos en rumbo de colisión.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-087",
+      "en": "What are your intentions?",
+      "es": "¿Cuáles son sus intenciones?",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-088",
+      "en": "You are running into danger.",
+      "es": "Se dirige hacia una zona de peligro.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-089",
+      "en": "Shallow water ahead of you.",
+      "es": "Aguas someras a proa.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-090",
+      "en": "Vessel is aground.",
+      "es": "Buque varado.",
+      "categoria": "Navegación y maniobra",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-091",
+      "en": "Do you require a pilot?",
+      "es": "¿Necesita práctico?",
+      "categoria": "Practicaje y remolque",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-092",
+      "en": "Pilot is boarding at…",
+      "es": "El práctico embarca en…",
+      "categoria": "Practicaje y remolque",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-093",
+      "en": "Rig the pilot ladder on the port side.",
+      "es": "Prepare la escala de práctico por babor.",
+      "categoria": "Practicaje y remolque",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-094",
+      "en": "Stand by the pilot ladder.",
+      "es": "Listo la escala del práctico.",
+      "categoria": "Practicaje y remolque",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-095",
+      "en": "Make fast the tug forward / aft.",
+      "es": "Amarre el remolcador a proa/popa.",
+      "categoria": "Practicaje y remolque",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-096",
+      "en": "Let go the tug.",
+      "es": "Largue el remolcador.",
+      "categoria": "Practicaje y remolque",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-097",
+      "en": "Muster at your stations.",
+      "es": "Reúnanse en sus puestos.",
+      "categoria": "Seguridad y rutina",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-098",
+      "en": "Put on your life jackets.",
+      "es": "Pónganse los chalecos salvavidas.",
+      "categoria": "Seguridad y rutina",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-099",
+      "en": "Close all watertight doors.",
+      "es": "Cierren las puertas estancas.",
+      "categoria": "Seguridad y rutina",
+      "audio": "tts"
+    },
+    {
+      "id": "smcp-100",
+      "en": "Report any damage.",
+      "es": "Reporten cualquier avería.",
+      "categoria": "Seguridad y rutina",
+      "audio": "tts"
+    }
+  ]
+}

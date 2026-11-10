@@ -1,0 +1,14 @@
+{
+  "semana": 1,
+  "titulo": "[FALTA CONTENIDO]",
+  "estado": "FALTA_CONTENIDO",
+  "insignia": {
+    "id": "pn-s1-semana-01",
+    "nombre": "[FALTA CONTENIDO]",
+    "icono": "⚓"
+  },
+  "lecciones": [
+    "01-what-is-maritime-english",
+    "02-maritime-transport"
+  ]
+}
