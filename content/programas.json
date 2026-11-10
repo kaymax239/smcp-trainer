@@ -1,0 +1,50 @@
+{
+  "carreras": [
+    {
+      "id": "pn",
+      "nombre": "Piloto Naval",
+      "estado": "activo",
+      "semestres": [
+        {
+          "numero": 1,
+          "estado": "activo"
+        },
+        {
+          "numero": 3,
+          "estado": "proximamente"
+        },
+        {
+          "numero": 5,
+          "estado": "proximamente"
+        },
+        {
+          "numero": 7,
+          "estado": "proximamente"
+        }
+      ]
+    },
+    {
+      "id": "mn",
+      "nombre": "Maquinista Naval",
+      "estado": "proximamente",
+      "semestres": [
+        {
+          "numero": 1,
+          "estado": "proximamente"
+        },
+        {
+          "numero": 3,
+          "estado": "proximamente"
+        },
+        {
+          "numero": 5,
+          "estado": "proximamente"
+        },
+        {
+          "numero": 7,
+          "estado": "proximamente"
+        }
+      ]
+    }
+  ]
+}

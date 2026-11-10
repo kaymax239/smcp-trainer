@@ -16,3 +16,6 @@ _planeaciones-temp/
 
 # Build artifacts
 *.tsbuildinfo
+
+# Listas oficiales FIDENA (fase 4) — nunca se suben
+/data/listas-fidena/
