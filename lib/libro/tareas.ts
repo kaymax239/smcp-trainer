@@ -4,7 +4,12 @@
 // Convierte las tareas existentes en libros:
 //   Carrera → Semestre (tomo) → Materia (libro) → Capítulo (una tarea).
 // NO modifica nada de data/academic: solo lee academicMissionTasks y
-// academicSubjects. Se excluyen los juegos de English Levels.
+// academicSubjects. Quedan fuera del libro:
+//   - los juegos de English Levels: englishLevelTaskIds y también los de
+//     subjectCode "Inglés por Niveles" que no están en esa lista (L1, L2,
+//     L7, L8). Siguen existiendo en /tasks/<taskId>;
+//   - las tareas generadas en el panel admin (generated-tasks.json), que
+//     no están validadas.
 //
 // Rutas:
 //   /<carrera>/s<N>/<materia>            índice del libro
@@ -16,6 +21,15 @@
 import { englishLevelTaskIds } from "@/data/academic/english-levels";
 import { academicMissionTasks, type AcademicMissionTask } from "@/data/academic/mission-tasks";
 import { academicSubjects } from "@/data/academic/subjects";
+import tareasGeneradas from "@/data/academic/generated-tasks.json";
+
+const SUBJECT_ENGLISH_LEVELS = "Inglés por Niveles";
+const IDS_GENERADAS = new Set((tareasGeneradas as { taskId: string }[]).map((t) => t.taskId));
+
+/** true si la tarea NO entra al libro (juegos de English Levels o tarea generada sin validar). */
+export function excluidaDelLibro(t: AcademicMissionTask): boolean {
+  return englishLevelTaskIds.has(t.taskId) || t.subjectCode === SUBJECT_ENGLISH_LEVELS || IDS_GENERADAS.has(t.taskId);
+}
 
 export type CarreraLibro = "pn" | "mn";
 export type SemestreLibro = 1 | 3 | 5 | 7;
@@ -39,8 +53,8 @@ export function semestreDeSegmentoLibro(seg: string): SemestreLibro | null {
 
 /** Nombre de la carrera en inglés (interfaz del libro). */
 export const NOMBRE_CARRERA_EN: Record<CarreraLibro, string> = {
-  pn: "Deck Officer (PN)",
-  mn: "Marine Engineer (MN)",
+  pn: "Piloto Naval (PN)",
+  mn: "Maquinista Naval (MN)",
 };
 
 export interface Capitulo {
@@ -93,7 +107,7 @@ function construir() {
   const tareas = new Map<string, AcademicMissionTask>();
 
   for (const t of academicMissionTasks) {
-    if (englishLevelTaskIds.has(t.taskId)) continue;
+    if (excluidaDelLibro(t)) continue;
     tareas.set(t.taskId, t);
     const lista = grupos.get(t.subjectId) ?? [];
     lista.push(t);

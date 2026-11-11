@@ -19,7 +19,7 @@ export default function InicioPage() {
         <li>
           <Link href="/pn" className={`${s.card} ${p.carreraCard} ${p.carreraPrincipal}`}>
             <span className={p.cardBody}>
-              <span className={p.carreraNombre}>Pilotín Naval (PN)</span>
+              <span className={p.carreraNombre}>Piloto Naval (PN)</span>
               <span className={p.cardTexto}>Curso de Inglés Marítimo y libros por materia.</span>
               <span className={p.carreraAccion}>Abrir libro →</span>
             </span>

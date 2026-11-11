@@ -30,8 +30,8 @@ export function metadataSemana(semestreSeg: string, semanaSeg: string) {
   const datos = cargar(semestreSeg, semanaSeg);
   return {
     title: datos
-      ? `Semana ${datos.semana.numero} — Pilotín Naval, Semestre ${semestreRomano(datos.semestre)}`
-      : "Pilotín Naval",
+      ? `Semana ${datos.semana.numero} — Piloto Naval (PN), Semestre ${semestreRomano(datos.semestre)}`
+      : "Piloto Naval (PN)",
   };
 }
 
@@ -58,7 +58,7 @@ export function SemanaRuta({ semestreSeg, semanaSeg }: { semestreSeg: string; se
     <LibroShell
       migas={[
         { label: "Inicio", href: "/" },
-        { label: "Pilotín Naval", href: "/pn" },
+        { label: "Piloto Naval (PN)", href: "/pn" },
         { label: `Semestre ${semestreRomano(semestre)}`, href: programaHref },
         { label: `Semana ${semana.numero}` },
       ]}

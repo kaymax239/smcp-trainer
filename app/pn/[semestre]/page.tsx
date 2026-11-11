@@ -26,7 +26,7 @@ interface Props {
 export async function generateMetadata({ params }: Props) {
   const { semestre } = await params;
   const n = semestreDeSegmento(semestre);
-  return { title: n ? `Pilotín Naval — Semestre ${semestreRomano(n)}` : "Pilotín Naval" };
+  return { title: n ? `Piloto Naval (PN) — Semestre ${semestreRomano(n)}` : "Piloto Naval (PN)" };
 }
 
 export default async function ProgramaPage({ params }: Props) {
@@ -63,12 +63,12 @@ export default async function ProgramaPage({ params }: Props) {
       idioma={en ? "en" : "es"}
       migas={
         en
-          ? [{ label: "Home", href: "/" }, { label: "Deck Officer (PN)", href: "/pn" }, { label: `Semester ${romano}` }]
-          : [{ label: "Inicio", href: "/" }, { label: "Pilotín Naval", href: "/pn" }, { label: `Semestre ${romano}` }]
+          ? [{ label: "Home", href: "/" }, { label: "Piloto Naval (PN)", href: "/pn" }, { label: `Semester ${romano}` }]
+          : [{ label: "Inicio", href: "/" }, { label: "Piloto Naval (PN)", href: "/pn" }, { label: `Semestre ${romano}` }]
       }
       volverHref="/"
     >
-      <h1 className={s.h1}>{en ? `Deck Officer · Semester ${romano}` : `Pilotín Naval · Semestre ${romano}`}</h1>
+      <h1 className={s.h1}>{en ? `Piloto Naval (PN) · Semester ${romano}` : `Piloto Naval (PN) · Semestre ${romano}`}</h1>
       <NavTomos tomos={tomos} actual={`/pn/${semestre}`} publicos={["/pn/s1"]} />
       {hayCurso ? (
         <>

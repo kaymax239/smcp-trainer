@@ -19,7 +19,7 @@ interface Props {
 export async function generateMetadata({ params }: Props) {
   const { semestre } = await params;
   const n = semestreDeSegmentoLibro(semestre);
-  return { title: n ? `Marine Engineer — Semester ${romano(n)}` : "Marine Engineer" };
+  return { title: n ? `Maquinista Naval (MN) — Semester ${romano(n)}` : "Maquinista Naval (MN)" };
 }
 
 export default async function SemestreMnPage({ params }: Props) {
@@ -38,10 +38,10 @@ export default async function SemestreMnPage({ params }: Props) {
   return (
     <LibroShell
       idioma="en"
-      migas={[{ label: "Home", href: "/" }, { label: "Marine Engineer (MN)", href: "/mn" }, { label: `Semester ${romano(n)}` }]}
+      migas={[{ label: "Home", href: "/" }, { label: "Maquinista Naval (MN)", href: "/mn" }, { label: `Semester ${romano(n)}` }]}
       volverHref="/"
     >
-      <h1 className={s.h1}>Marine Engineer · Semester {romano(n)}</h1>
+      <h1 className={s.h1}>Maquinista Naval (MN) · Semester {romano(n)}</h1>
       <NavTomos tomos={tomos} actual={`/mn/${semestre}`} />
       <h2 className={s.h2}>Textbooks</h2>
       <p className={s.muted}>One book per subject. Each task of the subject is a chapter.</p>

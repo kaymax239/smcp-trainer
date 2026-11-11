@@ -12,7 +12,7 @@ export function TarjetaMn() {
   return (
     <Link href={conSesion ? "/mn" : hrefLogin("/mn")} className={`${base.card} ${p.carreraCard}`}>
       <span className={p.cardBody}>
-        <span className={p.carreraNombre}>Máquinas Navales (MN)</span>
+        <span className={p.carreraNombre}>Maquinista Naval (MN)</span>
         <span className={p.cardTexto}>Libros por materia, semestres I, III, V y VII.</span>
         <span className={p.carreraAccion}>{conSesion ? "Abrir libro →" : "Inicia sesión para continuar →"}</span>
       </span>

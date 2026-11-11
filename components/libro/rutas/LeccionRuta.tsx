@@ -31,7 +31,7 @@ export function metadataLeccion(semestre: string, semana: string, leccion: strin
   const datos = cargar(semestre, semana, leccion);
   if (!datos) return {};
   return {
-    title: `${datos.leccion.titulo} · Semana ${datos.semana.numero} · Pilotín Naval`,
+    title: `${datos.leccion.titulo} · Semana ${datos.semana.numero} · Piloto Naval (PN)`,
     description: datos.leccion.objetivo,
   };
 }
@@ -47,7 +47,7 @@ export function LeccionRuta({ semestre, semana, leccion }: { semestre: string; s
       volverHref={datos.semana.href}
       migas={[
         { label: "Inicio", href: "/" },
-        { label: "Pilotín Naval", href: "/pn" },
+        { label: "Piloto Naval (PN)", href: "/pn" },
         { label: `Semestre ${ROMANO[SEMESTRE]}`, href: semestreHref },
         { label: `Semana ${datos.semana.numero}`, href: datos.semana.href },
         { label: datos.leccion.titulo },
