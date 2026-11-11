@@ -1,18 +1,20 @@
-import { notFound } from "next/navigation";
 import { LibroShell } from "@/components/libro/LibroShell";
 import s from "@/components/libro/libro.module.css";
 import { SemanaDetalle, type SemanaAnterior } from "@/components/libro/programa/SemanaDetalle";
 import { semestreDeSegmento, semestreRomano } from "@/components/libro/programa/semestre";
 import { getSemana, numeroDeSegmento, paramsSemanas } from "@/lib/content/loader";
 
-export function generateStaticParams() {
-  return paramsSemanas("pn", 1);
+// Semana del curso de Inglés Marítimo (Fase 3): /pn/[semestre]/semana-NN.
+// Antes era app/pn/[semestre]/[semana]/page.tsx; ahora la ruta [seccion]
+// también sirve los libros por materia y despacha aquí.
+
+/** Params de las semanas para [seccion] (por ahora solo PN, Semestre I). */
+export function paramsSemanasRuta() {
+  return paramsSemanas("pn", 1).map((p) => ({ semestre: p.semestre, seccion: p.semana }));
 }
 
-export const dynamicParams = false;
-
-interface Props {
-  params: Promise<{ semestre: string; semana: string }>;
+export function esSegmentoSemana(seg: string): boolean {
+  return numeroDeSegmento(seg) !== null;
 }
 
 function cargar(semestreSeg: string, semanaSeg: string) {
@@ -24,20 +26,19 @@ function cargar(semestreSeg: string, semanaSeg: string) {
   return { semestre, semana };
 }
 
-export async function generateMetadata({ params }: Props) {
-  const { semestre, semana } = await params;
-  const datos = cargar(semestre, semana);
+export function metadataSemana(semestreSeg: string, semanaSeg: string) {
+  const datos = cargar(semestreSeg, semanaSeg);
   return {
     title: datos
-      ? `Semana ${datos.semana.numero} — Pilotín Naval, Semestre ${semestreRomano(datos.semestre)}`
-      : "Pilotín Naval",
+      ? `Semana ${datos.semana.numero} — Piloto Naval (PN), Semestre ${semestreRomano(datos.semestre)}`
+      : "Piloto Naval (PN)",
   };
 }
 
-export default async function SemanaPage({ params }: Props) {
-  const { semestre: semestreSeg, semana: semanaSeg } = await params;
+/** null si la semana no existe o no tiene contenido (la página llama a notFound). */
+export function SemanaRuta({ semestreSeg, semanaSeg }: { semestreSeg: string; semanaSeg: string }) {
   const datos = cargar(semestreSeg, semanaSeg);
-  if (!datos) notFound();
+  if (!datos) return null;
   const { semestre, semana } = datos;
 
   const programaHref = `/pn/${semestreSeg}`;
@@ -57,7 +58,7 @@ export default async function SemanaPage({ params }: Props) {
     <LibroShell
       migas={[
         { label: "Inicio", href: "/" },
-        { label: "Pilotín Naval", href: "/pn" },
+        { label: "Piloto Naval (PN)", href: "/pn" },
         { label: `Semestre ${semestreRomano(semestre)}`, href: programaHref },
         { label: `Semana ${semana.numero}` },
       ]}

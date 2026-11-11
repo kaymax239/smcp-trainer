@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { EnlacesInicio } from "@/components/libro/acceso/EnlacesInicio";
+import { TarjetaMn } from "@/components/libro/acceso/TarjetaMn";
 import { LibroShell } from "@/components/libro/LibroShell";
 import s from "@/components/libro/libro.module.css";
 import p from "@/components/libro/programa/programa.module.css";
@@ -18,21 +19,14 @@ export default function InicioPage() {
         <li>
           <Link href="/pn" className={`${s.card} ${p.carreraCard} ${p.carreraPrincipal}`}>
             <span className={p.cardBody}>
-              <span className={p.carreraNombre}>Pilotín Naval (PN)</span>
-              <span className={p.cardTexto}>Semestre I disponible.</span>
+              <span className={p.carreraNombre}>Piloto Naval (PN)</span>
+              <span className={p.cardTexto}>Curso de Inglés Marítimo y libros por materia.</span>
               <span className={p.carreraAccion}>Abrir libro →</span>
             </span>
           </Link>
         </li>
         <li>
-          <div className={`${s.cardLocked} ${p.carreraCard}`} aria-disabled="true">
-            <div className={p.cardBody}>
-              <p className={p.carreraNombre}>Máquinas Navales (MN)</p>
-              <p className={p.cardTexto}>
-                <span className={s.badge}>Próximamente</span>
-              </p>
-            </div>
-          </div>
+          <TarjetaMn />
         </li>
       </ul>
 

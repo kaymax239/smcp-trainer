@@ -14,6 +14,8 @@ interface LibroShellProps {
   /** Destino del botón "← Volver". Si se omite, no se muestra (solo en Inicio). */
   volverHref?: string;
   children: ReactNode;
+  /** "en" en las páginas de libros por materia (interfaz en inglés). */
+  idioma?: "es" | "en";
 }
 
 /**
@@ -22,17 +24,18 @@ interface LibroShellProps {
  * La interfaz es en español (lang="es"); el contenido en inglés
  * debe marcarse con lang="en" donde aparezca.
  */
-export function LibroShell({ migas, volverHref, children }: LibroShellProps) {
+export function LibroShell({ migas, volverHref, children, idioma = "es" }: LibroShellProps) {
+  const en = idioma === "en";
   return (
-    <div className={s.shell} lang="es">
+    <div className={s.shell} lang={idioma}>
       <div className={s.container}>
         <header className={s.topbar}>
           {volverHref ? (
             <Link className={s.volver} href={volverHref}>
-              ← Volver
+              {en ? "← Back" : "← Volver"}
             </Link>
           ) : null}
-          <nav className={s.migas} aria-label="Migas de pan">
+          <nav className={s.migas} aria-label={en ? "Breadcrumb" : "Migas de pan"}>
             <ol>
               {migas.map((m, i) => {
                 const esUltima = i === migas.length - 1;

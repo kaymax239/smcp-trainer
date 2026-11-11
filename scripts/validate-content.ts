@@ -180,11 +180,111 @@ for (const carrera of S.CARRERAS) {
   }
 }
 
+// 3b) Lecturas de capítulo: content/lecturas/<carrera>/<sN>/<materia>/<taskId>.md
+//     Las tareas se leen como TEXTO de data/academic (sin importarlas: esos .ts no
+//     llevan extensiones en sus imports y Node no los resolvería). Solo lectura.
+const L: typeof import("../lib/content/lectura-capitulo") = await import(
+  pathToFileURL(path.join(ROOT, "lib", "content", "lectura-capitulo.ts")).href
+);
+
+interface TareaTexto {
+  career: string;
+  semester: string;
+  subjectId: string;
+  taskId: string;
+  taskTitle: string;
+}
+const ROMANO_A_NUM: Record<string, number> = { I: 1, III: 3, V: 5, VII: 7 };
+
+function tareasDeData(): Map<string, TareaTexto> {
+  const tareas = new Map<string, TareaTexto>();
+  const dirTareas = path.join(ROOT, "data", "academic", "mission-tasks");
+  const campo = (bloque: string, k: string) => {
+    const mm = new RegExp(`\\b${k}:\\s*("(?:[^"\\\\]|\\\\.)*")`).exec(bloque);
+    return mm ? (JSON.parse(mm[1]) as string) : undefined;
+  };
+  for (const nombre of fs.readdirSync(dirTareas)) {
+    if (!nombre.endsWith(".ts") || nombre === "types.ts") continue;
+    const texto = fs.readFileSync(path.join(dirTareas, nombre), "utf8");
+    for (const bloque of texto.split(/\n {2}\{\s*\n/).slice(1)) {
+      const t = {
+        career: campo(bloque, "career"),
+        semester: campo(bloque, "semester"),
+        subjectId: campo(bloque, "subjectId"),
+        taskId: campo(bloque, "taskId"),
+        taskTitle: campo(bloque, "taskTitle"),
+      };
+      if (t.career && t.semester && t.subjectId && t.taskId && t.taskTitle) tareas.set(t.taskId, t as TareaTexto);
+    }
+  }
+  const generadas = leerJson(path.join(ROOT, "data", "academic", "generated-tasks.json"));
+  if (Array.isArray(generadas)) for (const t of generadas as TareaTexto[]) tareas.set(t.taskId, t);
+  return tareas;
+}
+
+/** subjectId → slug del libro (clave oficial en minúsculas, p. ej. "tmo101"). */
+function slugsDeMaterias(): Map<string, string> {
+  const texto = fs.readFileSync(path.join(ROOT, "data", "academic", "subjects.ts"), "utf8");
+  const mapa = new Map<string, string>();
+  for (const mm of texto.matchAll(/\bid:\s*"([^"]+)",[\s\S]*?\bofficialArea:\s*"([^"/]+?)\s*\//g)) {
+    mapa.set(mm[1], mm[2].trim().toLowerCase());
+  }
+  return mapa;
+}
+
+const DIR_LECTURAS = path.join(CONTENT, "lecturas");
+let lecturasRevisadas = 0;
+const lecturasPorEstado: Record<string, number> = { borrador: 0, validada: 0 };
+if (esDirectorio(DIR_LECTURAS)) {
+  const tareas = tareasDeData();
+  const slugs = slugsDeMaterias();
+  const recorrer = (dir: string): string[] =>
+    fs.readdirSync(dir).flatMap((n) => {
+      const p = path.join(dir, n);
+      return esDirectorio(p) ? recorrer(p) : [p];
+    });
+  for (const archivo of recorrer(DIR_LECTURAS)) {
+    const partes = path.relative(DIR_LECTURAS, archivo).split(path.sep);
+    if (!archivo.endsWith(".md") || partes.length !== 4) {
+      error(archivo, "fuera de lugar: se espera content/lecturas/<carrera>/<sN>/<materia>/<taskId>.md");
+      continue;
+    }
+    const [carrera, sem, materia, nombre] = partes;
+    const taskId = nombre.slice(0, -".md".length);
+    const tarea = tareas.get(taskId);
+    if (!tarea) {
+      error(archivo, `no existe una tarea con taskId "${taskId}" en data/academic`);
+      continue;
+    }
+    const semNum = ROMANO_A_NUM[tarea.semester.replace(/^Semester\s+/, "")];
+    if (tarea.career.toLowerCase() !== carrera) error(archivo, `la tarea es de la carrera ${tarea.career}, no "${carrera}"`);
+    if (`s${semNum}` !== sem) error(archivo, `la tarea es del ${tarea.semester}, no "${sem}"`);
+    if (slugs.get(tarea.subjectId) !== materia) {
+      error(archivo, `la tarea es de la materia "${slugs.get(tarea.subjectId) ?? tarea.subjectId}", no "${materia}"`);
+    }
+
+    const r = L.parseLecturaMd(fs.readFileSync(archivo, "utf8"));
+    if (!r.ok) {
+      for (const e of r.errores) error(archivo, e);
+      continue;
+    }
+    if (r.lectura.preparaPara !== tarea.taskTitle) {
+      error(archivo, `la línea de cierre dice "${r.lectura.preparaPara}" pero el taskTitle es "${tarea.taskTitle}"`);
+      continue;
+    }
+    lecturasRevisadas++;
+    lecturasPorEstado[r.lectura.estado]++;
+  }
+}
+
 // 4) Reporte
 console.log("validate:content");
 console.log(`  frases en el banco: ${idsFrases.size}`);
 console.log(`  semanas revisadas: ${semanasRevisadas}`);
 console.log(`  lecciones revisadas: ${leccionesRevisadas}`);
+console.log(
+  `  lecturas de capítulo: ${lecturasRevisadas} (borrador ${lecturasPorEstado.borrador}, validada ${lecturasPorEstado.validada})`,
+);
 if (advertencias.length) {
   console.log(`\n  ${advertencias.length} advertencia(s):`);
   for (const a of advertencias) console.log(`    ⚠ ${a}`);

@@ -19,10 +19,13 @@ interface SpeakButtonProps {
   /** Descripción para lectores de pantalla, p. ej. "Escuchar: Mayday". */
   etiqueta?: string;
   className?: string;
+  /** Interfaz en inglés (páginas de capítulos): "Stop audio" / "Listen". */
+  idioma?: "es" | "en";
 }
 
 /** Botón 🔊 de 48×48 px. Usa speakWithAccent / stopSpeaking tal como están. */
-export function SpeakButton({ texto, etiqueta, className }: SpeakButtonProps) {
+export function SpeakButton({ texto, etiqueta, className, idioma = "es" }: SpeakButtonProps) {
+  const en = idioma === "en";
   const id = useId();
   const [activo, setActivo] = useState(false);
 
@@ -50,7 +53,11 @@ export function SpeakButton({ texto, etiqueta, className }: SpeakButtonProps) {
     });
   }
 
-  const label = activo ? "Detener audio" : (etiqueta ?? `Escuchar: ${texto}`);
+  const label = activo
+    ? en
+      ? "Stop audio"
+      : "Detener audio"
+    : (etiqueta ?? `${en ? "Listen" : "Escuchar"}: ${texto}`);
 
   return (
     <button
@@ -59,7 +66,7 @@ export function SpeakButton({ texto, etiqueta, className }: SpeakButtonProps) {
       onClick={alPulsar}
       aria-label={label}
       aria-pressed={activo}
-      title={activo ? "Detener" : "Escuchar"}
+      title={activo ? (en ? "Stop" : "Detener") : en ? "Listen" : "Escuchar"}
     >
       <span aria-hidden="true">{activo ? "■" : "🔊"}</span>
     </button>

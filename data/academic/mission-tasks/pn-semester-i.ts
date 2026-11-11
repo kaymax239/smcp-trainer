@@ -428,7 +428,7 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
       "Explain what ballast water is for and how filling or emptying tanks changes draft and trim.",
       "Decide, in general terms, which tanks to adjust to correct a bow-down condition to a small stern trim.",
       "Write the request to the engine room to transfer/adjust ballast, using clear operational English.",
-      "State one MARPOL-related precaution when handling ballast water."
+      "State one precaution under the IMO Ballast Water Management (BWM) Convention when handling ballast water."
     ],
     deliverable:
       "A ballast operation plan with the deck-to-engine request in maritime English and the expected effect on draft and trim.",
@@ -436,7 +436,7 @@ export const pnSemesterITasks: AcademicMissionTask[] = [
       "Effect of ballast on draft and trim is explained correctly.",
       "Tank-adjustment reasoning matches the desired trim.",
       "The deck-to-engine request is clear and professional in English.",
-      "A valid MARPOL ballast precaution is stated."
+      "A valid ballast water precaution under the IMO BWM Convention is stated."
     ],
     xp: 25,
     estimatedTime: "40 min",

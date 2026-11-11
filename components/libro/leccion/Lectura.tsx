@@ -30,7 +30,8 @@ interface Abierto {
  * hoja inferior con la traducción y el audio. La hoja se cierra con Escape,
  * tocando fuera o con "Cerrar"; al cerrarse, el foco vuelve al término.
  */
-export function Lectura({ lectura }: { lectura: LecturaData }) {
+export function Lectura({ lectura, idioma = "es" }: { lectura: LecturaData; idioma?: "es" | "en" }) {
+  const en = idioma === "en";
   const [abierto, setAbierto] = useState<Abierto | null>(null);
   const hojaRef = useRef<HTMLDivElement>(null);
   const tituloId = useId();
@@ -121,14 +122,18 @@ export function Lectura({ lectura }: { lectura: LecturaData }) {
             <p id={tituloId} className={css.hojaTermino} lang="en">
               {abierto.termino}
             </p>
-            <SpeakButton texto={abierto.termino} etiqueta={`Escuchar: ${abierto.termino}`} />
+            <SpeakButton
+              texto={abierto.termino}
+              etiqueta={`${en ? "Listen" : "Escuchar"}: ${abierto.termino}`}
+              idioma={idioma}
+            />
           </div>
-          <p className={css.hojaTraduccion}>
+          <p className={css.hojaTraduccion} lang="es">
             <span className={base.srOnly}>En español: </span>
             {abierto.entrada.es}
           </p>
           <button type="button" className={`${base.btnSecondary} ${css.hojaCerrar}`} onClick={() => cerrar()}>
-            Cerrar
+            {en ? "Close" : "Cerrar"}
           </button>
         </div>
       ) : null}
