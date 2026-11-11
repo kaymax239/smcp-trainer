@@ -37,11 +37,11 @@ preguntas:
       - "To make the brief shorter"
       - "To change the flag of the ship"
     correcta: 0
-  - pregunta: "Who can choose current topics for this unit?"
+  - pregunta: "In what order does a good readiness brief go?"
     opciones:
-      - "The port authority"
-      - "The master of the ship"
-      - "Your teacher"
+      - "Rules, cargo, ship, condition in the water"
+      - "Cargo, rules, condition in the water, ship"
+      - "Ship, cargo, condition in the water, rules"
     correcta: 2
 ---
 At the end of the semester, you bring all the topics of this course together. A {{voyage}} needs careful preparation. Before departure, the master wants a short report about the condition of the ship. This report is a {{readiness}} brief. The officer gives it in clear and simple English.

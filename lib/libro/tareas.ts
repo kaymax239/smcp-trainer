@@ -108,6 +108,10 @@ function construir() {
     const carrera = primera.career.toLowerCase() as CarreraLibro;
     const semestre = ROMANO_A_NUM[primera.semester.replace(/^Semester\s+/, "")];
     if (!semestre || !CARRERAS_LIBRO.includes(carrera)) continue;
+    const mezclada = lista.find((t) => t.career !== primera.career || t.semester !== primera.semester);
+    if (mezclada) {
+      throw new Error(`La materia ${subjectId} mezcla carreras o semestres (tarea ${mezclada.taskId})`);
+    }
 
     const codigo = materia ? codigoDeMateria(materia.officialArea) : primera.subjectCode;
     const slug = codigo.toLowerCase().replace(/[^a-z0-9]+/g, "-");

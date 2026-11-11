@@ -19,7 +19,7 @@ terminos:
   - en: mooring line
     es: cabo de amarre
   - en: fairlead
-    es: guíacabos
+    es: gatera
   - en: bollard
     es: bita
   - en: mooring winch

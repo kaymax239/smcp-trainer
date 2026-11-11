@@ -1,6 +1,6 @@
 ---
 estado: borrador
-fuente: "Programa de asignatura LPN_S1.1_TMO101 (FIDENA), Unidad 7: Equipo de carga/descarga (7.1, 7.6); Unidad 12: Contenidos de actualidad en el sector marítimo portuario"
+fuente: "Tema de la tarea (no está en el programa LPN_S1.1_TMO101). Base más cercana del programa: Unidad 7: Equipo de carga/descarga (7.1, 7.6)"
 terminos:
   - en: stowage
     es: estiba
@@ -17,9 +17,9 @@ terminos:
   - en: securing
     es: sujeción de la carga
   - en: dunnage
-    es: madera de estiba (abarrote)
+    es: madera de estiba
   - en: lashing
-    es: trincado
+    es: trinca
   - en: twist lock
     es: candado giratorio (twistlock)
   - en: deck cargo

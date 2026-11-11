@@ -46,7 +46,7 @@ preguntas:
 ---
 A ship is a long steel structure. Along its length, two forces act on it all the time. Weight pulls the ship down. {{Buoyancy}} pushes the ship up. The weight comes from the steel, the cargo, the fuel and the ballast. The buoyancy comes from the water under the hull. At each part of the ship, weight and buoyancy are often not equal. Then the hull bends a little. This bending creates {{stress}} in the structure.
 
-There are two main types of longitudinal {{bending}}. The first type is {{hogging}}. Its Spanish name is quebranto. In hogging, the middle of the ship goes up, and the bow and the stern go down. The deck is in tension, and the bottom is in compression. The second type is {{sagging}}. Its Spanish name is arrufo. In sagging, the middle of the ship goes down, and the ends go up. Now the deck is in compression, and the bottom is in tension.
+There are two main types of longitudinal {{bending}}. The first type is {{hogging}}. In hogging, the middle of the ship goes up, and the bow and the stern go down. The deck is in tension, and the bottom is in compression. The second type is {{sagging}}. In sagging, the middle of the ship goes down, and the ends go up. Now the deck is in compression, and the bottom is in tension.
 
 In {{still water}}, the main cause is the distribution of weight. Imagine a lot of weight at the bow and the stern, and little weight {{amidships}}. The ends go down, and the ship hogs. Now imagine a lot of weight in the middle holds, and little weight at the ends. The middle goes down, and the ship sags.
 

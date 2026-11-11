@@ -1,6 +1,6 @@
 ---
 estado: borrador
-fuente: "Programa de asignatura LPN_S1.1_TMO101 (FIDENA), Unidad 7: Equipo de carga/descarga (objetivo específico: operaciones de carga/descarga en forma segura); Unidad 9: Tanques de lastre, agua dulce y combustible (9.1)"
+fuente: "Tema de la tarea (no está en el programa LPN_S1.1_TMO101). Base más cercana: Unidad 7: Equipo de carga/descarga (objetivo: operaciones de carga/descarga en forma segura) y Unidad 9 (9.1)"
 terminos:
   - en: roll
     es: balancear

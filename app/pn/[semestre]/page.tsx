@@ -56,16 +56,19 @@ export default async function ProgramaPage({ params }: Props) {
     label: `Semester ${semestreRomano(t as 1 | 3 | 5 | 7)}`,
   }));
 
+  // Sin curso por semanas, la página es solo de libros: interfaz en inglés.
+  const en = !hayCurso;
   return (
     <LibroShell
-      migas={[
-        { label: "Inicio", href: "/" },
-        { label: "Pilotín Naval", href: "/pn" },
-        { label: `Semestre ${romano}` },
-      ]}
+      idioma={en ? "en" : "es"}
+      migas={
+        en
+          ? [{ label: "Home", href: "/" }, { label: "Deck Officer (PN)", href: "/pn" }, { label: `Semester ${romano}` }]
+          : [{ label: "Inicio", href: "/" }, { label: "Pilotín Naval", href: "/pn" }, { label: `Semestre ${romano}` }]
+      }
       volverHref="/"
     >
-      <h1 className={s.h1}>Pilotín Naval · Semestre {romano}</h1>
+      <h1 className={s.h1}>{en ? `Deck Officer · Semester ${romano}` : `Pilotín Naval · Semestre ${romano}`}</h1>
       <NavTomos tomos={tomos} actual={`/pn/${semestre}`} publicos={["/pn/s1"]} />
       {hayCurso ? (
         <>

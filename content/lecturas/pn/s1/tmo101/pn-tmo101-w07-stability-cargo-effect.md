@@ -1,6 +1,6 @@
 ---
 estado: borrador
-fuente: "Programa de asignatura LPN_S1.1_TMO101 (FIDENA), Unidad 9: Tanques de lastre, agua dulce y combustible (9.1); Unidad 10: Líneas de Carga y Marca de calados (10.4)"
+fuente: "Tema de la tarea (no está en el programa LPN_S1.1_TMO101; el programa no cubre GM ni superficie libre). Base más cercana: Unidad 9 (9.1) y Unidad 10 (10.4 Desplazamiento)"
 terminos:
   - en: stability
     es: estabilidad
