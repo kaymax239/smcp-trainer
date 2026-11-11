@@ -1,10 +1,10 @@
 {
   "semana": 1,
-  "titulo": "[FALTA CONTENIDO]",
-  "estado": "FALTA_CONTENIDO",
+  "titulo": "Introduction to Maritime English",
+  "estado": "LISTO",
   "insignia": {
     "id": "pn-s1-semana-01",
-    "nombre": "[FALTA CONTENIDO]",
+    "nombre": "Primer zarpe",
     "icono": "⚓"
   },
   "lecciones": [

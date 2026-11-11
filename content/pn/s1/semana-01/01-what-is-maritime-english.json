@@ -1,0 +1,128 @@
+{
+  "id": "01-what-is-maritime-english",
+  "titulo": "What is Maritime English?",
+  "objetivo": "Explicar qué es el inglés marítimo y por qué la OMI exige su uso a bordo.",
+  "fuentes": [
+    "IMO Model Course 3.17 — Maritime English",
+    "IMO SMCP, Resolución A.918(22)",
+    "STCW, Tabla A-II/1"
+  ],
+  "xp": 100,
+  "aprobatorio": 70,
+  "lectura": {
+    "parrafos": [
+      "English is the {{working language}} of the sea. A ship can have a {{crew}} from five or six different countries. The captain may be Greek, the engineers Filipino and the cadets Mexican. To work safely together, everybody on board needs one common language.",
+      "Maritime English is the English used at sea and in ports. It is not the same as everyday English. It has special words for the parts of the ship, for navigation and for the engine room, and it uses short, clear sentences.",
+      "On the {{bridge}}, the {{officer of the watch}} talks by VHF radio with other ships, with a {{coast station}} and with {{VTS}} centres. A {{misunderstanding}} on the radio can cause a collision or a grounding.",
+      "For this reason, the IMO adopted the {{SMCP}} in 2001. SMCP means Standard Marine Communication Phrases. These {{standard phrases}} have only one meaning, so every seafarer understands them in the same way. The STCW Convention requires deck officers to understand and use them."
+    ],
+    "vocabulario": {
+      "working language": { "es": "idioma de trabajo", "audio": "tts" },
+      "crew": { "es": "tripulación", "audio": "tts" },
+      "bridge": { "es": "puente de mando", "audio": "tts" },
+      "officer of the watch": { "es": "oficial de guardia", "audio": "tts" },
+      "coast station": { "es": "estación costera", "audio": "tts" },
+      "VTS": { "es": "Servicio de Tráfico Marítimo (Vessel Traffic Service)", "audio": "tts" },
+      "misunderstanding": { "es": "malentendido", "audio": "tts" },
+      "SMCP": { "es": "Frases Normalizadas de la OMI para las Comunicaciones Marítimas", "audio": "tts" },
+      "standard phrases": { "es": "frases normalizadas", "audio": "tts" }
+    }
+  },
+  "frases": ["smcp-001", "smcp-004", "smcp-017"],
+  "ejercicios": [
+    {
+      "id": "ej-1",
+      "tipo": "opcion_multiple",
+      "enunciado": "Why do ships need one common language?",
+      "opciones": [
+        "Because crews come from different countries",
+        "Because English is an easy language",
+        "Because ships only sail to English-speaking ports"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": "ej-2",
+      "tipo": "completar",
+      "enunciado": "SMCP means Standard Marine ___ Phrases.",
+      "respuestas": ["Communication"]
+    },
+    {
+      "id": "ej-3",
+      "tipo": "relacionar",
+      "enunciado": "Relaciona cada término con su traducción.",
+      "pares": [
+        { "izquierda": "crew", "derecha": "tripulación" },
+        { "izquierda": "bridge", "derecha": "puente de mando" },
+        { "izquierda": "coast station", "derecha": "estación costera" },
+        { "izquierda": "misunderstanding", "derecha": "malentendido" }
+      ]
+    },
+    {
+      "id": "ej-4",
+      "tipo": "escuchar_elegir",
+      "enunciado": "Escucha la frase y elige la opción correcta.",
+      "fraseId": "smcp-004",
+      "opciones": ["Say again.", "Stand by.", "Over."],
+      "correcta": 0
+    },
+    {
+      "id": "ej-5",
+      "tipo": "ordenar_dialogo",
+      "enunciado": "Ordena la llamada por VHF 12.",
+      "lineas": [
+        { "hablante": "Cadet Star", "texto": "Tampico Port Control, Tampico Port Control. This is Cadet Star, Cadet Star. Over." },
+        { "hablante": "Tampico Port Control", "texto": "Cadet Star, this is Tampico Port Control. Over." },
+        { "hablante": "Cadet Star", "texto": "Tampico Port Control, this is Cadet Star. I am at anchorage. Request berth. Over." },
+        { "hablante": "Tampico Port Control", "texto": "Cadet Star, this is Tampico Port Control. Stand by on channel 12. Over." }
+      ]
+    }
+  ],
+  "quiz": {
+    "preguntas": [
+      {
+        "id": "quiz-1",
+        "tipo": "opcion_multiple",
+        "enunciado": "What is Maritime English?",
+        "opciones": [
+          "The English used at sea and in ports",
+          "The English used by tourists on cruise ships",
+          "A language only for captains"
+        ],
+        "correcta": 0
+      },
+      {
+        "id": "quiz-2",
+        "tipo": "opcion_multiple",
+        "enunciado": "Which organization adopted the SMCP?",
+        "opciones": ["The IMO", "UNESCO", "NATO"],
+        "correcta": 0
+      },
+      {
+        "id": "quiz-3",
+        "tipo": "completar",
+        "enunciado": "The officer of the ___ talks with other ships by VHF radio.",
+        "respuestas": ["watch"]
+      },
+      {
+        "id": "quiz-4",
+        "tipo": "opcion_multiple",
+        "enunciado": "Why does each SMCP phrase have only one meaning?",
+        "opciones": [
+          "So every seafarer understands it in the same way",
+          "Because short phrases are easier to write",
+          "Because the radio cannot transmit long sentences"
+        ],
+        "correcta": 0
+      },
+      {
+        "id": "quiz-5",
+        "tipo": "escuchar_elegir",
+        "enunciado": "Escucha la llamada y elige cuál es.",
+        "fraseId": "smcp-017",
+        "opciones": ["Mayday, mayday, mayday.", "Pan-pan, pan-pan, pan-pan.", "Sécurité, sécurité, sécurité."],
+        "correcta": 0
+      }
+    ]
+  }
+}
