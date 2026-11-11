@@ -1,0 +1,184 @@
+/* Libro por materias (Fase 3B): índice y capítulo. Primero celular, letra ≥ 16 px. */
+
+.meta {
+  margin: 0 0 4px;
+  color: var(--libro-muted);
+  font-size: 1rem;
+}
+
+.datos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.unidadTema {
+  margin: 12px 0 0;
+  padding: 12px 14px;
+  border-left: 4px solid var(--libro-primary);
+  border-radius: 8px;
+  background: var(--libro-surface);
+}
+
+.unidadTema p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.unidadTema p + p {
+  margin-top: 4px;
+}
+
+.rotulo {
+  font-weight: 700;
+}
+
+.draft {
+  display: inline-block;
+  margin: 0 0 8px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #fff1cc;
+  color: #5c3d00; /* 9.6:1 sobre #fff1cc */
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.pronto {
+  margin: 0;
+  padding: 14px 16px;
+  border: 1px dashed var(--libro-line);
+  border-radius: 14px;
+  background: var(--libro-locked-bg);
+  color: var(--libro-locked-ink);
+  font-size: 1rem;
+}
+
+.cierre {
+  margin: 12px 0 0;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.terminos {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.termino {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--libro-line);
+  border-radius: 12px;
+  background: var(--libro-surface);
+}
+
+.terminoTextos {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.terminoEn {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.terminoEs {
+  margin: 0;
+  color: var(--libro-muted);
+  font-size: 1rem;
+}
+
+.bloque {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.bloque h3 {
+  margin: 16px 0 6px;
+  font-size: 1.0625rem;
+}
+
+.bloque ol,
+.bloque ul {
+  margin: 0;
+  padding-left: 1.4em;
+}
+
+.bloque li + li {
+  margin-top: 4px;
+}
+
+.acciones {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.hecho {
+  margin: 0;
+  color: var(--libro-ok);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.semanaTitulo {
+  margin: 24px 0 8px;
+  font-size: 1.125rem;
+}
+
+.capituloMeta {
+  display: block;
+  margin-top: 4px;
+  color: var(--libro-muted);
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.libroCodigo {
+  font-weight: 700;
+  color: var(--libro-muted);
+}
+
+.reintentar {
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+.tomos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.tomo {
+  min-height: 44px;
+  text-decoration: none;
+  border: 1px solid var(--libro-line);
+  background: var(--libro-surface);
+}
+
+.tomoActual {
+  min-height: 44px;
+  background: var(--libro-primary);
+  color: #ffffff;
+}
+
+.seccionLibros {
+  margin-top: 32px;
+}

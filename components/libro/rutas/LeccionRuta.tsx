@@ -1,31 +1,34 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 import { LibroShell } from "@/components/libro/LibroShell";
 import { LeccionView } from "@/components/libro/leccion/LeccionView";
 import { getLeccion, numeroDeSegmento, paramsLecciones } from "@/lib/content/loader";
 
-// Por ahora solo existe el libro de PN, semestre I.
+// Lección del curso de Inglés Marítimo (Fase 3): /pn/s1/semana-NN/<leccion>.
+// Antes era app/pn/[semestre]/[semana]/[leccion]/page.tsx; ahora la ruta
+// [seccion]/[item] también sirve los capítulos y despacha aquí.
+
+// Por ahora solo existe el curso de PN, semestre I.
 const CARRERA = "pn" as const;
 const SEMESTRE = 1 as const;
 const ROMANO: Record<number, string> = { 1: "I", 3: "III", 5: "V", 7: "VII" };
 
-type Params = { semestre: string; semana: string; leccion: string };
-
-export const dynamicParams = false;
-
-export function generateStaticParams(): Params[] {
-  return paramsLecciones(CARRERA, SEMESTRE);
+export function paramsLeccionesRuta() {
+  return paramsLecciones(CARRERA, SEMESTRE).map((p) => ({
+    semestre: p.semestre,
+    seccion: p.semana,
+    item: p.leccion,
+  }));
 }
 
-function cargar({ semestre, semana, leccion }: Params) {
+function cargar(semestre: string, semana: string, leccion: string) {
   if (semestre !== `s${SEMESTRE}`) return null;
   const numero = numeroDeSegmento(semana);
   if (numero === null) return null;
   return getLeccion(CARRERA, SEMESTRE, numero, leccion);
 }
 
-export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
-  const datos = cargar(await params);
+export function metadataLeccion(semestre: string, semana: string, leccion: string): Metadata {
+  const datos = cargar(semestre, semana, leccion);
   if (!datos) return {};
   return {
     title: `${datos.leccion.titulo} · Semana ${datos.semana.numero} · Pilotín Naval`,
@@ -33,9 +36,10 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   };
 }
 
-export default async function LeccionPage({ params }: { params: Promise<Params> }) {
-  const datos = cargar(await params);
-  if (!datos) notFound();
+/** null si la lección no existe (la página llama a notFound). */
+export function LeccionRuta({ semestre, semana, leccion }: { semestre: string; semana: string; leccion: string }) {
+  const datos = cargar(semestre, semana, leccion);
+  if (!datos) return null;
 
   const semestreHref = `/${CARRERA}/s${SEMESTRE}`;
   return (
