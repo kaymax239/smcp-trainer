@@ -47,9 +47,10 @@ export function SemanaDetalle({
 }: SemanaDetalleProps) {
   const v = useProgressVersion();
   const [estado, setEstado] = useState<Estado | null>(null);
-  const sinSesion = useEstadoSesion() === "sin_sesion";
-  // Demo pública: sin sesión, las lecciones fuera de la lista piden login.
-  const pideLogin = (href: string) => sinSesion && !esRutaLibroPublica(href);
+  // Demo pública: sin sesión (o mientras carga), las lecciones fuera de la
+  // lista piden login en vez de pintar un enlace a una ruta privada.
+  const conSesion = useEstadoSesion() === "con_sesion";
+  const pideLogin = (href: string) => !conSesion && !esRutaLibroPublica(href);
 
   useEffect(() => {
     let vivo = true;

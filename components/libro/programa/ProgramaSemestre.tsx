@@ -58,7 +58,8 @@ export function ProgramaSemestre({ semanas }: ProgramaSemestreProps) {
   const sesion = useEstadoSesion();
   const sinSesion = sesion === "sin_sesion";
   // Demo pública: sin sesión solo se abren las semanas de la lista pública.
-  const requiereLogin = semanas.map((sem) => sinSesion && !esRutaLibroPublica(sem.href));
+  // Mientras carga la sesión tampoco se pintan enlaces a rutas privadas.
+  const requiereLogin = semanas.map((sem) => sesion !== "con_sesion" && !esRutaLibroPublica(sem.href));
   const acceso = calcularAcceso(semanas, progreso).map((a, i) =>
     requiereLogin[i] && a.abierta ? ({ abierta: false, motivo: "falta_contenido" } as const) : a,
   );

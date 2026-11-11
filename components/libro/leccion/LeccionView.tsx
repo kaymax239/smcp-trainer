@@ -42,7 +42,9 @@ export function LeccionView({ datos }: { datos: LeccionCompleta }) {
   }, [version, resumen.key]);
 
   const aprobada = aprobadaAhora || Boolean(progreso?.aprobada);
-  const sinSesion = useEstadoSesion() === "sin_sesion";
+  // "cargando" cuenta como sin sesión: así nunca se pinta un enlace a una
+  // ruta privada antes de saber si hay sesión.
+  const sinSesion = useEstadoSesion() !== "con_sesion";
   const textoSiguiente = siguiente ? "Siguiente lección →" : "Terminar semana →";
   const hrefSiguiente = siguiente ? siguiente.href : semana.href;
   const totalEj = leccion.ejercicios.length;
