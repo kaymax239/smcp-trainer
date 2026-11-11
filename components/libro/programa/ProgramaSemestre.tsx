@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import { progressStore, useProgressVersion } from "@/lib/progress/store";
 import type { ProgresoSemana } from "@/lib/progress/types";
 import { calcularAcceso } from "@/lib/progress/unlock";
+import { esRutaLibroPublica } from "@/lib/acceso/rutas-publicas";
+import { AvisoLogin, useEstadoSesion } from "../acceso/sesion";
 import s from "../libro.module.css";
 import p from "./programa.module.css";
 
@@ -53,7 +55,13 @@ export function ProgramaSemestre({ semanas }: ProgramaSemestreProps) {
   }, [v, semanas]);
 
   const progreso = estado?.progreso ?? [];
-  const acceso = calcularAcceso(semanas, progreso);
+  const sesion = useEstadoSesion();
+  const sinSesion = sesion === "sin_sesion";
+  // Demo pública: sin sesión solo se abren las semanas de la lista pública.
+  const requiereLogin = semanas.map((sem) => sinSesion && !esRutaLibroPublica(sem.href));
+  const acceso = calcularAcceso(semanas, progreso).map((a, i) =>
+    requiereLogin[i] && a.abierta ? ({ abierta: false, motivo: "falta_contenido" } as const) : a,
+  );
   const ganadas = new Set(estado?.insignias ?? []);
   const xp = estado?.xp ?? 0;
 
@@ -119,6 +127,8 @@ export function ProgramaSemestre({ semanas }: ProgramaSemestreProps) {
         </div>
       ) : null}
 
+      {sinSesion ? <AvisoLogin destino="/pn/s1" /> : null}
+
       <h2 className={s.h2}>Semanas</h2>
       <ol className={p.lista}>
         {semanas.map((sem, i) => {
@@ -137,7 +147,9 @@ export function ProgramaSemestre({ semanas }: ProgramaSemestreProps) {
                     </p>
                     <p className={p.cardTexto}>
                       <span aria-hidden="true">🔒 </span>
-                      {a.motivo === "falta_contenido"
+                      {requiereLogin[i]
+                        ? "Inicia sesión para continuar"
+                        : a.motivo === "falta_contenido"
                         ? "Todavía no hay contenido"
                         : `Termina la Semana ${a.semanaAnterior} para abrir`}
                     </p>

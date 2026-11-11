@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { EnlacesInicio } from "@/components/libro/acceso/EnlacesInicio";
 import { LibroShell } from "@/components/libro/LibroShell";
 import s from "@/components/libro/libro.module.css";
 import p from "@/components/libro/programa/programa.module.css";
@@ -35,18 +36,7 @@ export default function InicioPage() {
         </li>
       </ul>
 
-      <ul className={p.enlacesDiscretos}>
-        <li>
-          <Link href="/frases" className={p.enlaceTexto}>
-            Banco de frases
-          </Link>
-        </li>
-        <li>
-          <Link href="/herramientas" className={p.enlaceTexto}>
-            Herramientas
-          </Link>
-        </li>
-      </ul>
+      <EnlacesInicio />
     </LibroShell>
   );
 }

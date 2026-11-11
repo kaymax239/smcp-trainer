@@ -6,6 +6,8 @@ import type { LeccionResumen } from "@/lib/content/loader";
 import { progressStore, useProgressVersion } from "@/lib/progress/store";
 import type { ProgresoLeccion, ProgresoSemana } from "@/lib/progress/types";
 import { calcularAcceso } from "@/lib/progress/unlock";
+import { esRutaLibroPublica } from "@/lib/acceso/rutas-publicas";
+import { AvisoLogin, useEstadoSesion } from "../acceso/sesion";
 import s from "../libro.module.css";
 import p from "./programa.module.css";
 
@@ -45,6 +47,9 @@ export function SemanaDetalle({
 }: SemanaDetalleProps) {
   const v = useProgressVersion();
   const [estado, setEstado] = useState<Estado | null>(null);
+  const sinSesion = useEstadoSesion() === "sin_sesion";
+  // Demo pública: sin sesión, las lecciones fuera de la lista piden login.
+  const pideLogin = (href: string) => sinSesion && !esRutaLibroPublica(href);
 
   useEffect(() => {
     let vivo = true;
@@ -120,7 +125,9 @@ export function SemanaDetalle({
       ) : null}
 
       <div className={p.accionPrincipal}>
-        {siguiente ? (
+        {siguiente && pideLogin(siguiente.href) ? (
+          <AvisoLogin destino={siguiente.href} variante="principal" />
+        ) : siguiente ? (
           <Link href={siguiente.href} className={s.btnPrimary}>
             {yaIntentada ? "Continuar" : "Empezar"}:{" "}
             <span lang="en">{siguiente.titulo}</span>
@@ -138,6 +145,24 @@ export function SemanaDetalle({
           const pr = progreso[i];
           const aprobada = pr?.aprobada ?? false;
           const mejor = pr?.mejorCalificacion ?? null;
+          if (pideLogin(l.href)) {
+            return (
+              <li key={l.key}>
+                <div className={s.cardLocked} aria-disabled="true">
+                  <div className={p.cardBody}>
+                    <p className={`${p.etiqueta} ${p.cardLockedText}`}>Lección {i + 1}</p>
+                    <p className={p.cardTitulo} lang="en">
+                      {l.titulo}
+                    </p>
+                    <p className={p.cardTexto}>
+                      <span aria-hidden="true">🔒 </span>
+                      Inicia sesión para continuar
+                    </p>
+                  </div>
+                </div>
+              </li>
+            );
+          }
           return (
             <li key={l.key}>
               <Link href={l.href} className={s.card}>
