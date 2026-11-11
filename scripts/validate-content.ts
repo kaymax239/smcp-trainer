@@ -133,7 +133,9 @@ for (const carrera of S.CARRERAS) {
         const archivoLeccion = path.join(dirSemana, nombre);
         const slug = nombre.slice(0, -".json".length);
         if (!semana.lecciones.includes(slug)) {
-          aviso(archivoLeccion, "la lección no está listada en _semana.json");
+          const msg = "la lección no está listada en _semana.json";
+          if (semana.estado === "LISTO") error(archivoLeccion, msg);
+          else aviso(archivoLeccion, msg);
         }
         const leccion = validar(archivoLeccion, S.LeccionSchema);
         if (!leccion) continue;
@@ -154,8 +156,13 @@ for (const carrera of S.CARRERAS) {
         revisarEscuchar(leccion.ejercicios, "ejercicios");
         revisarEscuchar(leccion.quiz.preguntas, "quiz.preguntas");
 
+        // Marcas vacías: {{}} o {{   }}.
+        leccion.lectura.parrafos.forEach((p, i) => {
+          if (/\{\{\s*\}\}/.test(p)) error(archivoLeccion, `lectura.parrafos.${i} — marca vacía "{{}}"`);
+        });
+
         // {{termino}} ↔ vocabulario, en ambos sentidos.
-        const marcados = new Set(leccion.lectura.parrafos.flatMap((p) => S.extraerTerminos(p)));
+        const marcados = new Set(leccion.lectura.parrafos.flatMap((p) => S.extraerTerminos(p)).filter((t) => t !== ""));
         const definidos = new Set(Object.keys(leccion.lectura.vocabulario));
         for (const t of marcados) {
           if (!definidos.has(t)) error(archivoLeccion, `lectura — "{{${t}}}" no tiene entrada en vocabulario`);

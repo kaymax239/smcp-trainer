@@ -1,0 +1,78 @@
+{
+  "id": "02-maritime-transport",
+  "titulo": "Maritime Transport",
+  "objetivo": "Identificar los principales tipos de buques mercantes y la carga que transporta cada uno.",
+  "fuentes": [
+    "IMO Model Course 3.17 — Maritime English",
+    "UNCTAD, Review of Maritime Transport",
+    "IMO SMCP, Resolución A.918(22)"
+  ],
+  "xp": 100,
+  "aprobatorio": 70,
+  "lectura": {
+    "parrafos": [
+      "Every day, thousands of {{merchant ships}} carry goods around the world. More than 80 percent of world trade by volume travels by sea. Ships move oil, grain, cars, clothes and machines from one {{port}} to another.",
+      "There are different ships for different kinds of {{cargo}}. A {{container ship}} carries steel boxes called containers. A {{bulk carrier}} carries loose cargo such as grain, coal or iron ore. A {{tanker}} carries liquids such as crude oil, chemicals or gas.",
+      "A {{ro-ro ship}} carries cars and trucks that roll on and roll off the ship. Passenger ships and ferries carry people. In Mexico, the ports of Altamira and Tampico receive ships from many countries every week.",
+      "On every {{voyage}}, the crew communicates with port authorities, pilots and other ships. That is why a cadet needs to know the names of ships and cargo in English."
+    ],
+    "vocabulario": {
+      "merchant ships": { "es": "buques mercantes", "audio": "tts" },
+      "port": { "es": "puerto", "audio": "tts" },
+      "cargo": { "es": "carga", "audio": "tts" },
+      "container ship": { "es": "buque portacontenedores", "audio": "tts" },
+      "bulk carrier": { "es": "granelero", "audio": "tts" },
+      "tanker": { "es": "buque tanque", "audio": "tts" },
+      "ro-ro ship": { "es": "buque ro-ro (carga rodada)", "audio": "tts" },
+      "voyage": { "es": "viaje (travesía)", "audio": "tts" }
+    }
+  },
+  "frases": ["smcp-001", "smcp-054"],
+  "ejercicios": [
+    { "id": "ej-1", "tipo": "opcion_multiple",
+      "enunciado": "Which ship carries liquids such as crude oil?",
+      "opciones": ["A tanker", "A container ship", "A ro-ro ship"], "correcta": 0 },
+    { "id": "ej-2", "tipo": "completar",
+      "enunciado": "A ___ carries loose cargo such as grain or coal.",
+      "respuestas": ["bulk carrier"] },
+    { "id": "ej-3", "tipo": "relacionar",
+      "enunciado": "Relaciona cada buque con lo que transporta.",
+      "pares": [
+        { "izquierda": "container ship", "derecha": "steel boxes" },
+        { "izquierda": "tanker", "derecha": "crude oil" },
+        { "izquierda": "bulk carrier", "derecha": "grain and coal" },
+        { "izquierda": "ro-ro ship", "derecha": "cars and trucks" }
+      ] },
+    { "id": "ej-4", "tipo": "escuchar_elegir",
+      "enunciado": "Escucha la orden a máquinas y elige la opción correcta.",
+      "fraseId": "smcp-054",
+      "opciones": ["Half astern.", "Half ahead.", "Full astern."], "correcta": 0 },
+    { "id": "ej-5", "tipo": "ordenar_dialogo",
+      "enunciado": "Ordena la llamada por VHF 12.",
+      "lineas": [
+        { "hablante": "Cadet Star", "texto": "Altamira Port Control, Altamira Port Control. This is Cadet Star, Cadet Star. Over." },
+        { "hablante": "Altamira Port Control", "texto": "Cadet Star, this is Altamira Port Control. Go ahead. Over." },
+        { "hablante": "Cadet Star", "texto": "Altamira Port Control, this is Cadet Star. I am a container ship with 300 containers on board. My ETA at the pilot station is 1400 local time. Over." },
+        { "hablante": "Altamira Port Control", "texto": "Cadet Star, this is Altamira Port Control. Information received. Call again at the pilot station. Over." }
+      ] }
+  ],
+  "quiz": {
+    "preguntas": [
+      { "id": "quiz-1", "tipo": "opcion_multiple",
+        "enunciado": "How much of world trade by volume travels by sea?",
+        "opciones": ["More than 80 percent", "About 10 percent", "Less than half"], "correcta": 0 },
+      { "id": "quiz-2", "tipo": "opcion_multiple",
+        "enunciado": "What does a ro-ro ship carry?",
+        "opciones": ["Cars and trucks", "Crude oil", "Iron ore"], "correcta": 0 },
+      { "id": "quiz-3", "tipo": "completar",
+        "enunciado": "A container ship carries steel boxes called ___.",
+        "respuestas": ["containers"] },
+      { "id": "quiz-4", "tipo": "opcion_multiple",
+        "enunciado": "Which ship carries grain, coal or iron ore?",
+        "opciones": ["A bulk carrier", "A tanker", "A ferry"], "correcta": 0 },
+      { "id": "quiz-5", "tipo": "completar",
+        "enunciado": "On every ___, the crew communicates with port authorities and pilots.",
+        "respuestas": ["voyage"] }
+    ]
+  }
+}
