@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import type { LeccionCompleta } from "@/lib/content/loader";
 import { progressStore, useProgressVersion } from "@/lib/progress/store";
 import type { ProgresoLeccion } from "@/lib/progress/types";
+import { esRutaLibroPublica } from "@/lib/acceso/rutas-publicas";
+import { AvisoLogin, useEstadoSesion } from "../acceso/sesion";
 import base from "../libro.module.css";
 import { SpeakButton } from "../SpeakButton";
 import { EjercicioPractica } from "./EjercicioPractica";
@@ -40,6 +42,9 @@ export function LeccionView({ datos }: { datos: LeccionCompleta }) {
   }, [version, resumen.key]);
 
   const aprobada = aprobadaAhora || Boolean(progreso?.aprobada);
+  // "cargando" cuenta como sin sesión: así nunca se pinta un enlace a una
+  // ruta privada antes de saber si hay sesión.
+  const sinSesion = useEstadoSesion() !== "con_sesion";
   const textoSiguiente = siguiente ? "Siguiente lección →" : "Terminar semana →";
   const hrefSiguiente = siguiente ? siguiente.href : semana.href;
   const totalEj = leccion.ejercicios.length;
@@ -132,7 +137,23 @@ export function LeccionView({ datos }: { datos: LeccionCompleta }) {
       />
 
       <nav className={css.siguiente} aria-label="Continuar">
-        {aprobada ? (
+        {aprobada && sinSesion ? (
+          // Demo pública: el avance solo vive en este navegador hasta iniciar
+          // sesión. Si lo siguiente también es público, se puede seguir; si no,
+          // el botón principal es el de login.
+          <>
+            {esRutaLibroPublica(hrefSiguiente) ? (
+              <Link className={base.btnPrimary} href={hrefSiguiente}>
+                {textoSiguiente}
+              </Link>
+            ) : null}
+            <AvisoLogin
+              destino={hrefSiguiente}
+              texto="Inicia sesión para guardar tu avance"
+              variante={esRutaLibroPublica(hrefSiguiente) ? "secundario" : "principal"}
+            />
+          </>
+        ) : aprobada ? (
           <Link className={base.btnPrimary} href={hrefSiguiente}>
             {textoSiguiente}
           </Link>

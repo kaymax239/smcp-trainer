@@ -1,5 +1,6 @@
 import { auth } from "@/auth";
 import { NextResponse } from "next/server";
+import { esRutaLibroPublica } from "@/lib/acceso/rutas-publicas";
 
 const PUBLIC_PATHS = new Set(["/login", "/preview"]);
 
@@ -7,9 +8,17 @@ export default auth((req) => {
   const { pathname } = req.nextUrl;
   const isLoggedIn = Boolean(req.auth?.user);
   const isAuthApi = pathname.startsWith("/api/auth");
-  const isPublic = PUBLIC_PATHS.has(pathname);
+  // Demo pública del libro: lista exacta en lib/acceso/rutas-publicas.ts.
+  const isPublic = PUBLIC_PATHS.has(pathname) || esRutaLibroPublica(pathname);
 
   if (isAuthApi) return NextResponse.next();
+
+  // /api/tts sigue cerrado (cuida la cuota de Gemini). Sin sesión responde 401
+  // en vez de redirigir al HTML del login: así speakWithAccent ve !res.ok y
+  // usa la voz del navegador una sola vez.
+  if (!isLoggedIn && pathname === "/api/tts") {
+    return NextResponse.json({ error: "Inicia sesión para usar la voz de la estación." }, { status: 401 });
+  }
 
   if (!isLoggedIn && !isPublic) {
     const loginUrl = new URL("/login", req.nextUrl.origin);

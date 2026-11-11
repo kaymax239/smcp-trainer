@@ -1,5 +1,14 @@
-import NextAuth from "next-auth";
+import NextAuth, { type DefaultSession } from "next-auth";
 import Google from "next-auth/providers/google";
+import { isDocenteAllowlisted, rolDe, type Rol } from "@/lib/acceso/docentes";
+
+export type { Rol };
+
+declare module "next-auth" {
+  interface Session {
+    user: { rol?: Rol } & DefaultSession["user"];
+  }
+}
 
 // Dominios institucionales permitidos. Lista explícita, comparación exacta
 // del dominio COMPLETO tras el @ (nada de endsWith, que dejaría pasar
@@ -10,6 +19,17 @@ const ALLOWED_DOMAINS = ["fidena.edu.mx", "es.fidena.edu.mx"];
 const GUEST_ALLOWLIST: { email: string; role: "cadete"; expiresAt: string }[] = [
   { email: "maxmtzrey@gmail.com", role: "cadete", expiresAt: "2026-09-10T23:59:59-06:00" },
 ];
+
+// ¿Puede seguir con sesión? Dominio institucional, docente de la allowlist
+// o invitado vigente. Misma regla que signIn (sin email_verified, que solo
+// viene en el perfil al iniciar sesión).
+function tieneAccesoVigente(email: string): boolean {
+  const parts = email.toLowerCase().split("@");
+  if (parts.length !== 2) return false;
+  if (ALLOWED_DOMAINS.includes(parts[1])) return true;
+  if (isDocenteAllowlisted(email)) return true;
+  return isActiveGuest(parts[0] + "@" + parts[1]);
+}
 
 // Busca al invitado por correo (vigente o no). Comparación exacta en minúsculas.
 function findGuest(email: string | null | undefined) {
@@ -54,6 +74,8 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       const domain = parts[1];
       // Igualdad estricta contra la lista blanca.
       if (ALLOWED_DOMAINS.includes(domain)) return true;
+      // Docentes de la allowlist: exigen email_verified === true explícito.
+      if (isDocenteAllowlisted(email)) return profile?.email_verified === true;
       // Puerta aparte para invitados externos con vigencia.
       return isActiveGuest(parts[0] + "@" + domain);
     },
@@ -63,7 +85,17 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     // dominio nunca entran a esta rama.
     jwt({ token }) {
       if (isExpiredGuest(token.email)) return null;
+      // Correo externo que ya no está en DOCENTE_ALLOWLIST (ni es invitado
+      // vigente): se corta la sesión, igual que con un invitado caducado.
+      if (token.email && !tieneAccesoVigente(token.email)) return null;
+      // Se recalcula en cada lectura: quitar a alguien de la allowlist le
+      // quita el rol docente sin esperar a que caduque su sesión.
+      token.rol = rolDe(token.email);
       return token;
+    },
+    session({ session, token }) {
+      if (session.user) session.user.rol = token.rol === "docente" ? "docente" : "cadete";
+      return session;
     },
     // El middleware lee esto para decidir si la petición está autenticada.
     authorized({ auth }) {

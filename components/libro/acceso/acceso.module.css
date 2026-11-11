@@ -1,0 +1,19 @@
+/* Aviso de "Inicia sesión" en la demo pública. Letra ≥ 16 px, AA. */
+
+.aviso {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 16px 0;
+  padding: 14px 16px;
+  border: 2px solid var(--libro-primary);
+  border-radius: 14px;
+  background: var(--libro-surface);
+  color: var(--libro-ink);
+}
+
+.texto {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
