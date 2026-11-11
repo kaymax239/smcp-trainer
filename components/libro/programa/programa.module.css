@@ -1,0 +1,203 @@
+/* ============================================================
+   Libro interactivo — Inicio, Herramientas, Programa y Semana
+   Primero para celular. Letra mínima 16 px (1rem). Colores de
+   las variables --libro-* (definidas en .shell de libro.module.css).
+   ============================================================ */
+
+.intro {
+  margin: 0 0 20px;
+}
+
+.lista {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Se usa junto con .lista: dos columnas a partir de tableta. */
+@media (min-width: 640px) {
+  .listaDos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Contenido interno de una tarjeta (se combina con .card / .cardLocked). */
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 48px;
+  overflow-wrap: anywhere;
+}
+
+.cardTitulo {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.cardTexto {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.etiqueta {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--libro-muted);
+}
+
+.cardLockedText {
+  color: var(--libro-locked-ink);
+}
+
+/* ---------- Inicio ---------- */
+
+.carreraCard {
+  padding: 24px 20px;
+  border-width: 2px;
+}
+
+a.carreraPrincipal {
+  border-color: var(--libro-primary);
+}
+
+.carreraNombre {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.carreraAccion {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--libro-primary);
+}
+
+.enlacesDiscretos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  margin: 28px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.enlaceTexto {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  font-size: 1rem;
+  color: var(--libro-primary);
+  text-decoration: underline;
+}
+
+.enlaceTexto:focus-visible {
+  outline: 3px solid var(--libro-focus);
+  outline-offset: 2px;
+}
+
+/* ---------- Programa ---------- */
+
+.resumen {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 0 16px;
+  padding: 16px;
+  border: 1px solid var(--libro-line);
+  border-radius: 14px;
+  background: var(--libro-surface);
+}
+
+.resumenFila {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.insignias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.accionPrincipal {
+  margin: 0 0 20px;
+}
+
+.semanaCabecera {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.avance {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avance > :first-child {
+  flex: 1 1 auto;
+}
+
+.avanceNum {
+  flex: 0 0 auto;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* ---------- Semana ---------- */
+
+.aviso {
+  margin: 0 0 16px;
+  padding: 16px;
+  border: 2px solid var(--libro-line);
+  border-radius: 14px;
+  background: var(--libro-locked-bg);
+  color: var(--libro-locked-ink);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.insigniaGanada {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 16px;
+  padding: 16px;
+  border-radius: 14px;
+  background: var(--libro-ok-bg);
+  color: var(--libro-ok);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.insigniaIcono {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.leccionDatos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin: 0;
+  font-size: 1rem;
+}

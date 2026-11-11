@@ -1,0 +1,673 @@
+/* ============================================================
+   Libro interactivo — página de lección
+   Primero para celular (375 px sin scroll horizontal).
+   Letra mínima 16 px (1rem). Áreas táctiles ≥ 48 px.
+   Colores: variables --libro-* definidas en .shell.
+   ============================================================ */
+
+.encabezado {
+  margin-bottom: 8px;
+}
+
+.meta {
+  margin: 0;
+  color: var(--libro-muted);
+  font-size: 1rem;
+}
+
+.seccion {
+  margin-top: 32px;
+}
+
+.seccionTitulo {
+  margin: 0 0 12px;
+  font-size: 1.3rem;
+  line-height: 1.25;
+  scroll-margin-top: 16px;
+}
+
+.seccionTitulo:focus {
+  outline: none;
+}
+
+.seccionTitulo:focus-visible {
+  outline: 3px solid var(--libro-focus);
+  outline-offset: 2px;
+}
+
+.ayuda {
+  margin: 0 0 12px;
+  color: var(--libro-muted);
+  font-size: 1rem;
+}
+
+.objetivo {
+  margin: 0;
+  padding: 16px;
+  border-left: 6px solid var(--libro-primary);
+  border-radius: 10px;
+  background: var(--libro-surface);
+  font-size: 1.05rem;
+}
+
+/* ---------- Lectura y vocabulario ---------- */
+
+.lectura {
+  padding: 16px;
+  border: 1px solid var(--libro-line);
+  border-radius: 14px;
+  background: var(--libro-surface);
+}
+
+.parrafo {
+  margin: 0 0 14px;
+  font-size: 1.05rem;
+  /* Interlineado amplio para que los términos tocables no se encimen. */
+  line-height: 2.1;
+  overflow-wrap: anywhere;
+}
+
+.parrafo:last-child {
+  margin-bottom: 0;
+}
+
+.termino {
+  position: relative;
+  display: inline;
+  margin: 0;
+  padding: 2px 2px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--libro-primary);
+  font: inherit;
+  font-weight: 700;
+  line-height: inherit;
+  text-align: left;
+  text-decoration: underline dotted;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  cursor: pointer;
+}
+
+/* Amplía el área táctil a ~48 px de alto sin mover el texto. */
+.termino::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -2px;
+  bottom: -10px;
+  left: -2px;
+}
+
+.termino:hover,
+.terminoActivo {
+  background: var(--libro-ok-bg);
+  color: var(--libro-ink);
+}
+
+.termino:focus-visible {
+  outline: 3px solid var(--libro-focus);
+  outline-offset: 2px;
+}
+
+/* Hoja inferior con la traducción (sirve igual en celular y escritorio). */
+.hoja {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 16px 16px calc(16px + env(safe-area-inset-bottom));
+  border: 2px solid var(--libro-primary);
+  border-bottom: 0;
+  border-radius: 16px 16px 0 0;
+  background: var(--libro-surface);
+  color: var(--libro-ink);
+  box-shadow: 0 -6px 24px rgba(11, 24, 40, 0.25);
+}
+
+.hoja:focus {
+  outline: none;
+}
+
+.hojaFila {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hojaTermino {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.hojaTraduccion {
+  margin: 8px 0 16px;
+  font-size: 1.1rem;
+}
+
+.hojaCerrar {
+  width: 100%;
+}
+
+/* ---------- Frases SMCP ---------- */
+
+.lista {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.frase {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid var(--libro-line);
+  border-radius: 14px;
+  background: var(--libro-surface);
+}
+
+.fraseTextos {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.fraseEn {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.fraseEs {
+  margin: 4px 0 0;
+  color: var(--libro-muted);
+  font-size: 1rem;
+}
+
+/* ---------- Tarjeta de ejercicio / pregunta ---------- */
+
+.tarjeta {
+  padding: 16px;
+  border: 1px solid var(--libro-line);
+  border-radius: 14px;
+  background: var(--libro-surface);
+}
+
+.etiqueta {
+  margin: 0 0 8px;
+  color: var(--libro-muted);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.enunciado {
+  display: block;
+  margin: 0 0 12px;
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.acciones {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.cargando {
+  margin: 0;
+  color: var(--libro-muted);
+  font-size: 1rem;
+}
+
+/* ---------- Opciones (opción múltiple / escuchar y elegir) ---------- */
+
+.opciones {
+  display: grid;
+  gap: 10px;
+}
+
+.opcion {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 10px 14px;
+  border: 2px solid var(--libro-line);
+  border-radius: 12px;
+  background: var(--libro-surface);
+  font-size: 1rem;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+
+.opcion:hover {
+  border-color: var(--libro-primary);
+}
+
+.opcion:focus-within {
+  outline: 3px solid var(--libro-focus);
+  outline-offset: 2px;
+}
+
+.opcionElegida {
+  border-color: var(--libro-primary);
+  background: #e8f0f7;
+}
+
+.opcionBloqueada {
+  cursor: default;
+}
+
+.opcionBloqueada:hover {
+  border-color: var(--libro-line);
+}
+
+.opcionOk,
+.opcionOk:hover {
+  border-color: var(--libro-ok);
+  background: var(--libro-ok-bg);
+}
+
+.opcionBad,
+.opcionBad:hover {
+  border-color: var(--libro-bad);
+  background: var(--libro-bad-bg);
+}
+
+.radio {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  accent-color: var(--libro-primary);
+}
+
+.opcionTexto {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.marca {
+  flex: 0 0 auto;
+  font-weight: 700;
+}
+
+.marcaOk {
+  color: var(--libro-ok);
+}
+
+.marcaBad {
+  color: var(--libro-bad);
+}
+
+.escuchar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 14px;
+}
+
+/* ---------- Completar ---------- */
+
+.hueco {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 11em;
+  max-width: 100%;
+  min-height: 48px;
+  margin: 4px 4px;
+  padding: 8px 10px;
+  border: 2px solid var(--libro-primary);
+  border-radius: 10px;
+  background: var(--libro-surface);
+  color: var(--libro-ink);
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.hueco:focus-visible {
+  outline: 3px solid var(--libro-focus);
+  outline-offset: 2px;
+}
+
+.huecoOk {
+  border-color: var(--libro-ok);
+  background: var(--libro-ok-bg);
+}
+
+.huecoBad {
+  border-color: var(--libro-bad);
+  background: var(--libro-bad-bg);
+}
+
+/* ---------- Relacionar ---------- */
+
+.columnas {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 10px;
+}
+
+.columna {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ficha {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 56px;
+  padding: 8px 10px;
+  border: 2px solid var(--libro-line);
+  border-radius: 12px;
+  background: var(--libro-surface);
+  color: var(--libro-ink);
+  font: inherit;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+
+.ficha:hover {
+  border-color: var(--libro-primary);
+}
+
+.ficha:focus-visible {
+  outline: 3px solid var(--libro-focus);
+  outline-offset: 2px;
+}
+
+.ficha:disabled {
+  cursor: default;
+}
+
+.ficha:disabled:hover {
+  border-color: var(--libro-line);
+}
+
+.fichaSeleccionada,
+.fichaSeleccionada:hover {
+  border-color: var(--libro-primary);
+  border-style: dashed;
+  background: #e8f0f7;
+}
+
+.fichaOk,
+.fichaOk:disabled:hover {
+  border-color: var(--libro-ok);
+  background: var(--libro-ok-bg);
+}
+
+.fichaBad,
+.fichaBad:disabled:hover {
+  border-color: var(--libro-bad);
+  background: var(--libro-bad-bg);
+}
+
+.fichaTexto {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.numero {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: var(--libro-primary);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.numeroVacio {
+  background: var(--libro-locked-bg);
+  color: var(--libro-locked-ink);
+}
+
+.correccion {
+  margin: 4px 0 0;
+  font-size: 1rem;
+}
+
+/* ---------- Ordenar diálogo ---------- */
+
+.linea {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid var(--libro-line);
+  border-radius: 12px;
+  background: var(--libro-surface);
+}
+
+.lineaOk {
+  border-color: var(--libro-ok);
+  background: var(--libro-ok-bg);
+}
+
+.lineaBad {
+  border-color: var(--libro-bad);
+  background: var(--libro-bad-bg);
+}
+
+.lineaTextos {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.hablante {
+  display: block;
+  font-weight: 700;
+}
+
+.lineaTexto {
+  margin: 2px 0 0;
+}
+
+.mover {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.flecha {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--libro-primary);
+  border-radius: 10px;
+  background: var(--libro-surface);
+  color: var(--libro-primary);
+  font-size: 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.flecha:focus-visible {
+  outline: 3px solid var(--libro-focus);
+  outline-offset: 2px;
+}
+
+.flecha:disabled {
+  border-color: var(--libro-locked-bg);
+  background: var(--libro-locked-bg);
+  color: var(--libro-locked-ink);
+  cursor: not-allowed;
+}
+
+.ordenCorrecto {
+  margin: 8px 0 0;
+  padding-left: 1.4em;
+}
+
+.ordenCorrecto li {
+  margin-bottom: 6px;
+}
+
+/* ---------- Retroalimentación ---------- */
+
+.retro {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.retroOk {
+  border: 2px solid var(--libro-ok);
+  background: var(--libro-ok-bg);
+  color: var(--libro-ink);
+}
+
+.retroBad {
+  border: 2px solid var(--libro-bad);
+  background: var(--libro-bad-bg);
+  color: var(--libro-ink);
+}
+
+.retroTitulo {
+  display: block;
+  font-weight: 700;
+}
+
+.retroOk .retroTitulo {
+  color: var(--libro-ok);
+}
+
+.retroBad .retroTitulo {
+  color: var(--libro-bad);
+}
+
+.aviso {
+  margin: 10px 0 0;
+  color: var(--libro-muted);
+  font-size: 1rem;
+}
+
+/* ---------- Quiz ---------- */
+
+.preguntas {
+  display: grid;
+  gap: 16px;
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 16px;
+  border: 2px solid var(--libro-line);
+  border-radius: 14px;
+  background: var(--libro-surface);
+}
+
+.resultadoAprobado {
+  border-color: var(--libro-ok);
+}
+
+.resultadoReprobado {
+  border-color: var(--libro-bad);
+}
+
+.calificacion {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.calificacion:focus {
+  outline: none;
+}
+
+.calificacion:focus-visible {
+  outline: 3px solid var(--libro-focus);
+  outline-offset: 2px;
+}
+
+.veredicto {
+  margin: 6px 0 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.veredictoOk {
+  color: var(--libro-ok);
+}
+
+.veredictoBad {
+  color: var(--libro-bad);
+}
+
+.logros {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logro {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--libro-ok-bg);
+  color: var(--libro-ink);
+  font-weight: 700;
+}
+
+.insigniaIcono {
+  margin-right: 6px;
+  font-size: 1.4rem;
+}
+
+/* ---------- Siguiente lección ---------- */
+
+.siguiente {
+  display: grid;
+  gap: 10px;
+  margin-top: 32px;
+}

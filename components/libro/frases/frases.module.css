@@ -1,0 +1,122 @@
+/* ============================================================
+   Banco de frases — primero para celular (375 px sin scroll
+   horizontal). Letra mínima 16 px. Colores de --libro-* (.shell).
+   ============================================================ */
+
+.filtros {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  margin: 20px 0 12px;
+}
+
+@media (min-width: 640px) {
+  .filtros {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  }
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--libro-ink);
+}
+
+.input {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 10px 12px;
+  border: 2px solid var(--libro-muted);
+  border-radius: 10px;
+  background: var(--libro-surface);
+  color: var(--libro-ink);
+  font: inherit;
+  font-size: 1rem;
+}
+
+.input::placeholder {
+  color: var(--libro-muted);
+  opacity: 1;
+}
+
+.input:focus-visible {
+  outline: 3px solid var(--libro-focus);
+  outline-offset: 2px;
+  border-color: var(--libro-primary);
+}
+
+.contador {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--libro-muted);
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.frase {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.textos {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.textos > :global(*) + :global(*) {
+  margin-top: 6px;
+}
+
+.en {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--libro-ink);
+}
+
+.es {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--libro-muted);
+}
+
+.textos > span {
+  max-width: 100%;
+  white-space: normal;
+}
+
+.vacio {
+  padding: 20px 16px;
+  border: 1px dashed var(--libro-line);
+  border-radius: 14px;
+  background: var(--libro-surface);
+}
+
+.vacio p {
+  margin: 0;
+}
+
+.vacio .vacioTitulo {
+  margin-bottom: 6px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
